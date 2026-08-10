@@ -55,9 +55,7 @@ export default function FooterBottom() {
                       <h6>{siteContact.companyName.toUpperCase()}</h6>
                       <div className="st-desc">
                         <p style={{ margin: '0px 0px' }}>
-                          <span style={{ fontSize: 14, color: '#3d3d3d' }}>CIN: {siteContact.cin}</span>
-                          <br />
-                          <span style={{ fontSize: 14, color: '#3d3d3d' }}>GSTIN: {siteContact.gstin}</span>
+                          <span style={{ fontSize: 14, color: '#3d3d3d' }}>Building digital products for growing businesses worldwide.</span>
                         </p>
                       </div>
                     </header>

@@ -124,49 +124,49 @@
     color: rgb(255, 255, 255);
     background: rgb(31, 140, 71);
 }
-.custom-tab-sangvish > ul >li>a{
+.custom-tab-fenizo > ul >li>a{
         display: inline-block;
         padding: 10px 30px !important;
 }
-.custom-tab-sangvish >ul >li{
+.custom-tab-fenizo >ul >li{
     box-shadow: unset !important;
     border: 2px solid #101B48 !important;
 }
-.custom-tab-sangvish >ul >li.active,.custom-tab-sangvish >ul >li:hover{
+.custom-tab-fenizo >ul >li.active,.custom-tab-fenizo >ul >li:hover{
     border: 2px solid #ffffff !important;
 }
-.custom-tab-sangvish{
+.custom-tab-fenizo{
     align-items: center;
 }
 .p-0>.vc_column-inner{
     padding:0px;
 }
-.custom-tab-sangvish i{
+.custom-tab-fenizo i{
     font-size: 20px;
 }
-.custom-tab-sangvish >ul >li{
+.custom-tab-fenizo >ul >li{
     margin: 5px 0px !important;
 
 }
 @media screen and (max-width: 991px) {
-.custom-tab-sangvish >ul{
+.custom-tab-fenizo >ul{
         flex-flow: unset !important;
     justify-content: start !important;
     overflow-x: auto;
     scrollbar-width: thin;
     scrollbar-color: #101b48 #f0f0f0;
 }
-.custom-tab-sangvish > ul >li>a {
+.custom-tab-fenizo > ul >li>a {
     padding: 0px 10px !important;
 }
-    .custom-tab-sangvish >ul {
+    .custom-tab-fenizo >ul {
         padding: 0px 0 5px !important;
     }
-.custom-tab-sangvish >ul >li{
+.custom-tab-fenizo >ul >li{
         margin: 0px 5px !important;
         min-width: 80% !important;
     }
-    .custom-tab-sangvish >ul{
+    .custom-tab-fenizo >ul{
         padding: 0px 0 5px;
     }
 }

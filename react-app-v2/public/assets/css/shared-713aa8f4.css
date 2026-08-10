@@ -674,12 +674,12 @@ content: "$799";
   border-radius: 7px;
   margin: 0 2px;
 }
-.custom-tab-sangvish > ul > li {
+.custom-tab-fenizo > ul > li {
   margin: 5px 0 !important;
   box-shadow: unset !important;
   border: 2px solid #101b48 !important;
 }
-.custom-tab-sangvish > ul > li > a {
+.custom-tab-fenizo > ul > li > a {
   display: inline-block;
   padding: 10px 30px !important;
 }
@@ -692,11 +692,11 @@ content: "$799";
   padding: 0 14px 0 57px;
   background-position: left;
 }
-.custom-tab-sangvish {
+.custom-tab-fenizo {
   align-items: center;
 }
 @media screen and (max-width: 991px) {
-  .custom-tab-sangvish > ul {
+  .custom-tab-fenizo > ul {
     flex-flow: unset !important;
     justify-content: start !important;
     overflow-x: auto;
@@ -704,10 +704,10 @@ content: "$799";
     scrollbar-color: #101b48 #f0f0f0;
     padding: 0 0 5px !important;
   }
-  .custom-tab-sangvish > ul > li > a {
+  .custom-tab-fenizo > ul > li > a {
     padding: 0 10px !important;
   }
-  .custom-tab-sangvish > ul > li {
+  .custom-tab-fenizo > ul > li {
     margin: 0 5px !important;
     min-width: 80% !important;
   }

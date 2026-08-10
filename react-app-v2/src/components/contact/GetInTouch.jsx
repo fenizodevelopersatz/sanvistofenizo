@@ -25,16 +25,7 @@ export default function GetInTouch() {
                     <div className="contents">
                       <h3 className="font-weight-normal">Location</h3>
                       <p style={{ textAlign: 'left' }}>
-                        <span style={{ color: '#808080' }}><strong>India: </strong></span>
-                      </p>
-                      <p style={{ textAlign: 'left' }}>
                         <span style={{ color: '#808080' }}>{siteContact.indiaAddress}</span>
-                      </p>
-                      <p style={{ textAlign: 'left' }}>
-                        <span style={{ color: '#808080' }}><strong>USA:</strong></span>
-                      </p>
-                      <p style={{ textAlign: 'left' }}>
-                        <span style={{ color: '#808080' }}>{siteContact.usaAddress}</span>
                       </p>
                     </div>
                   </div>
@@ -49,21 +40,12 @@ export default function GetInTouch() {
                     <div className="contents">
                       <h3 className="font-weight-normal">Call Us</h3>
                       <p>
-                        <span style={{ color: '#808080' }}><strong>India:</strong></span>
-                        <br />
                         {siteContact.indiaPhones.map((phone, i) => (
                           <span style={{ color: '#808080' }} key={i}>
-                            <a style={{ color: '#808080' }} href="tel:">{phone}</a>
+                            <a style={{ color: '#808080' }} href={`tel:${phone.replace(/\s+/g, '')}`}>{phone}</a>
                             {i < siteContact.indiaPhones.length - 1 && <br />}
                           </span>
                         ))}
-                      </p>
-                      <p>
-                        <span style={{ color: '#808080' }}><strong>USA</strong></span>
-                        <br />
-                        <span style={{ color: '#808080' }}>
-                          <a style={{ color: '#808080' }} href="tel:">{siteContact.usaPhone}</a>
-                        </span>
                       </p>
                     </div>
                   </div>

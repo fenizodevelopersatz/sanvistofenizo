@@ -1,1 +1,0 @@
-document.getElementById("open-skype").onclick=function(){window.location.href="skype:sangvishtech?chat"}
