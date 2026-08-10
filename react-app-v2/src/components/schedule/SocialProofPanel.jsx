@@ -1,4 +1,5 @@
 import TestimonialCarousel from '../home/TestimonialCarousel.jsx'
+import { trustCategories } from '../../data/trustedByLogos.js'
 
 export default function SocialProofPanel() {
   return (
@@ -36,19 +37,17 @@ export default function SocialProofPanel() {
                 <i className="line-alt"></i> <i className="fas fa-heart"></i> Trusted By <i className="line-alt"></i>
               </h4>
             </header>
-            <div className="wpb_single_image wpb_content_element vc_align_center vc_custom_1726558007980">
-              <figure className="wpb_wrapper vc_figure">
-                <div className="vc_single_image-wrapper vc_box_border_grey">
-                  <img
-                    src="/wp-content/uploads/2024/09/Group-2311.png"
-                    width="483"
-                    height="70"
-                    className="vc_single_image-img attachment-large"
-                    alt="client logos"
-                    title="client logos"
-                  />
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 20 }}>
+              {trustCategories.map((cat, i) => (
+                <div className="iconbox iconbox-inline iconbox-heading-xs" key={i} style={{ color: '#0030b8' }}>
+                  <div className="iconbox-icon-wrap">
+                    <span className="iconbox-icon-container">
+                      <i className={cat.icon}></i>
+                    </span>
+                  </div>
+                  <h3 className="font-weight-semibold" style={{ fontSize: 14 }}>{cat.label}</h3>
                 </div>
-              </figure>
+              ))}
             </div>
             <TestimonialCarousel cardBg="#ffffff" />
             <div className="ld-empty-space">

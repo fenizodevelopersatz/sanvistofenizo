@@ -1,4 +1,4 @@
-import { trustedByLogos } from '../../data/trustedByLogos.js'
+import { trustCategories } from '../../data/trustedByLogos.js'
 
 export default function TrustedByBuyers() {
   return (
@@ -11,7 +11,7 @@ export default function TrustedByBuyers() {
                 <div className="wpb_wrapper-inner">
                   <div className="ld-fancy-heading text-center">
                     <p className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> Trusted by<strong> 600+ Buyers</strong></span>
+                      <span className="ld-fh-txt"> Trusted by Growing Businesses</span>
                     </p>
                   </div>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
@@ -23,30 +23,21 @@ export default function TrustedByBuyers() {
       </div>
 
       <div className="ld-container container-fluid">
-        <div className="row ld-row">
-          <div className="wpb_column vc_column_container vc_col-sm-12 text-center">
-            <div className="vc_column-inner">
-              <div className="wpb_wrapper">
-                <div className="wpb_wrapper-inner">
-                  <div className="carousel-container carousel-nav-left carousel-nav-md carousel-dots-style1 grayscale-img-carousel">
-                    <div className="carousel-items row">
-                      {trustedByLogos.map((logo, i) => (
-                        <div className="carousel-item" key={i}>
-                          <div className="wpb_single_image wpb_content_element vc_align_left">
-                            <figure className="wpb_wrapper vc_figure">
-                              <div className="vc_single_image-wrapper vc_box_border_grey">
-                                <img src={logo.src} width="300" height="140" className="vc_single_image-img attachment-full" alt={logo.alt} title={logo.title || ''} />
-                              </div>
-                            </figure>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+        <div className="row ld-row" style={{ justifyContent: 'center' }}>
+          {trustCategories.map((cat, i) => (
+            <div className="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3" key={i}>
+              <div className="iconbox iconbox-center iconbox-heading-md" style={{ padding: '10px 10px 30px' }}>
+                <div className="iconbox-icon-wrap">
+                  <span className="iconbox-icon-container">
+                    <i className={cat.icon} style={{ color: '#0030b8', fontSize: 28 }}></i>
+                  </span>
+                </div>
+                <div className="contents">
+                  <h3 className="font-weight-semibold" style={{ fontSize: 16 }}>{cat.label}</h3>
                 </div>
               </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

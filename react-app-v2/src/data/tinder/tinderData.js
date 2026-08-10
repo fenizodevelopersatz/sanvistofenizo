@@ -1,30 +1,3 @@
-export const trustedLogos = [
-  { image: '/wp-content/uploads/2024/09/1@2x.png', alt: 'client 3' },
-  { image: '/wp-content/uploads/2024/09/2@2x.png', alt: 'client 4' },
-  { image: '/wp-content/uploads/2024/09/3@2x.png', alt: 'client 7' },
-  { image: '/wp-content/uploads/2024/09/4@2x.png', alt: 'client 24' },
-  { image: '/wp-content/uploads/2024/09/5@2x.png', alt: 'client 23' },
-  { image: '/wp-content/uploads/2024/09/7@2x.png', alt: 'client 21' },
-  { image: '/wp-content/uploads/2024/09/8@2x.png', alt: 'client 20' },
-  { image: '/wp-content/uploads/2024/09/9@2x.png', alt: 'client 19' },
-  { image: '/wp-content/uploads/2024/09/12@2x.png', alt: 'client 5' },
-  { image: '/wp-content/uploads/2024/09/11@2x.png', alt: 'client 2' },
-  { image: '/wp-content/uploads/2024/09/10@2x.png', alt: 'client 18' },
-  { image: '/wp-content/uploads/2024/09/13@2x.png', alt: 'client 8' },
-  { image: '/wp-content/uploads/2024/09/14@2x.png', alt: 'client 17' },
-  { image: '/wp-content/uploads/2024/09/15@2x.png', alt: 'client 16' },
-  { image: '/wp-content/uploads/2024/09/16@2x.png', alt: 'client 15' },
-  { image: '/wp-content/uploads/2024/09/20@2x.png', alt: 'client 12' },
-  { image: '/wp-content/uploads/2024/09/18@2x.png', alt: 'client 13' },
-  { image: '/wp-content/uploads/2024/09/19@2x.png', alt: 'client 13' },
-  { image: '/wp-content/uploads/2024/09/17@2x.png', alt: 'client 14' },
-  { image: '/wp-content/uploads/2024/09/21@2x.png', alt: 'client 1' },
-  { image: '/wp-content/uploads/2024/09/25@2x.png', alt: 'client 10' },
-  { image: '/wp-content/uploads/2024/09/22@2x.png', alt: 'client 6' },
-  { image: '/wp-content/uploads/2024/09/24@2x.png', alt: 'client 11' },
-  { image: '/wp-content/uploads/2024/09/23@2x.png', alt: 'client 9' },
-]
-
 export const featureGroups = [
   {
     id: 'customer', label: 'Customer', icon: 'fas fa-user-alt',

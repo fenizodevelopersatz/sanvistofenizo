@@ -1,27 +1,10 @@
-export const trustedByLogos = [
-  { src: '/wp-content/uploads/2024/09/1@2x.png', alt: 'client 3' },
-  { src: '/wp-content/uploads/2024/09/2@2x.png', alt: 'client 4' },
-  { src: '/wp-content/uploads/2024/09/3@2x.png', alt: 'client 7' },
-  { src: '/wp-content/uploads/2024/09/4@2x.png', alt: 'client 24' },
-  { src: '/wp-content/uploads/2024/09/4@2x.png', alt: 'client 24' },
-  { src: '/wp-content/uploads/2024/09/5@2x.png', alt: 'client 23' },
-  { src: '/wp-content/uploads/2024/09/7@2x.png', alt: 'client 21' },
-  { src: '/wp-content/uploads/2024/09/8@2x.png', alt: 'client 20' },
-  { src: '/wp-content/uploads/2024/09/9@2x.png', alt: 'client 19' },
-  { src: '/wp-content/uploads/2024/09/12@2x.png', alt: 'client 5' },
-  { src: '/wp-content/uploads/2024/09/11@2x.png', alt: 'client 2', title: '11@2x' },
-  { src: '/wp-content/uploads/2024/09/10@2x.png', alt: 'client 18' },
-  { src: '/wp-content/uploads/2024/09/13@2x.png', alt: 'client 8' },
-  { src: '/wp-content/uploads/2024/09/14@2x.png', alt: 'client 17' },
-  { src: '/wp-content/uploads/2024/09/15@2x.png', alt: 'client 16' },
-  { src: '/wp-content/uploads/2024/09/16@2x.png', alt: 'client 15' },
-  { src: '/wp-content/uploads/2024/09/20@2x.png', alt: 'client 12' },
-  { src: '/wp-content/uploads/2024/09/18@2x.png', alt: 'client 13' },
-  { src: '/wp-content/uploads/2024/09/19@2x.png', alt: 'client 13' },
-  { src: '/wp-content/uploads/2024/09/17@2x.png', alt: 'client 14' },
-  { src: '/wp-content/uploads/2024/09/21@2x.png', alt: 'client 1' },
-  { src: '/wp-content/uploads/2024/09/25@2x.png', alt: 'client 10' },
-  { src: '/wp-content/uploads/2024/09/22@2x.png', alt: 'client 6' },
-  { src: '/wp-content/uploads/2024/09/24@2x.png', alt: 'client 11' },
-  { src: '/wp-content/uploads/2024/09/23@2x.png', alt: 'client 9' },
+// The old carousel here displayed real third-party companies' actual logos (e.g. an
+// accommodation-booking brand, a resale-marketplace brand) with no verified relationship
+// to Fenizo — a false-endorsement risk, not just leftover branding. Replaced with
+// verifiable category badges instead of inventing client names/logos.
+export const trustCategories = [
+  { icon: 'fa-solid fa-rocket', label: 'Built for Startups' },
+  { icon: 'fa-solid fa-building', label: 'Built for SMEs' },
+  { icon: 'fa-solid fa-chart-line', label: 'Built for Growing Businesses' },
+  { icon: 'fa-solid fa-globe', label: '20+ Countries Served' },
 ]

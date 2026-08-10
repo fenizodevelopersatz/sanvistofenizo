@@ -1,5 +1,5 @@
 import Reveal from '../shared/Reveal.jsx'
-import { trustedLogos } from '../../data/tinder/tinderData.js'
+import { trustCategories } from '../../data/trustedByLogos.js'
 
 export default function TinderHero() {
   return (
@@ -76,7 +76,7 @@ export default function TinderHero() {
                 <div className="wpb_wrapper-inner">
                   <div className="ld-fancy-heading text-center">
                     <p className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> Trusted by<strong> 600+ Buyers</strong></span>
+                      <span className="ld-fh-txt"> Trusted by Growing Businesses</span>
                     </p>
                   </div>
                 </div>
@@ -92,14 +92,15 @@ export default function TinderHero() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="carousel-container carousel-nav-left carousel-nav-md" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: 24 }}>
-                    {trustedLogos.map((logo, i) => (
-                      <div className="wpb_single_image wpb_content_element vc_align_left" key={i}>
-                        <figure className="wpb_wrapper vc_figure">
-                          <div className="vc_single_image-wrapper vc_box_border_grey">
-                            <img src={logo.image} width="150" height="70" alt={logo.alt} title="" loading="lazy" />
-                          </div>
-                        </figure>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: 24 }}>
+                    {trustCategories.map((cat, i) => (
+                      <div className="iconbox iconbox-inline iconbox-heading-xs" key={i} style={{ color: '#0030b8' }}>
+                        <div className="iconbox-icon-wrap">
+                          <span className="iconbox-icon-container">
+                            <i className={cat.icon}></i>
+                          </span>
+                        </div>
+                        <h3 className="font-weight-semibold" style={{ fontSize: 15 }}>{cat.label}</h3>
                       </div>
                     ))}
                   </div>
