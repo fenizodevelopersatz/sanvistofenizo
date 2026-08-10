@@ -33,7 +33,7 @@ function ServiceCard({ service }) {
 
 export default function OurServices() {
   return (
-    <section className="vc_section vc_custom_1745486374572">
+    <section className="vc_section vc_custom_1745486374572" id="services">
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40a963b">
         <div className="ld-container container">
           <div className="row ld-row">

@@ -1,8 +1,8 @@
 export const ourServicesItems = [
   'Web Development',
-  'App Development',
-  'Graphic Design',
+  'Mobile App Development',
+  'Custom Software & Clone Scripts',
   'UI/UX Design',
-  'Clone Scripts',
+  'AI & Automation Solutions',
   'Digital Marketing',
 ]

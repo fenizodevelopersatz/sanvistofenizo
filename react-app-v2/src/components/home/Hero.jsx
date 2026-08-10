@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Hero() {
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a409892f vc_row-o-content-middle vc_row-flex">
@@ -7,30 +9,41 @@ export default function Hero() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
+                  <div className="ld-fancy-heading" style={{ marginBottom: 14 }}>
+                    <span
+                      style={{
+                        display: 'inline-block', fontSize: 13, fontWeight: 600, letterSpacing: 0.5,
+                        color: '#0030b8', background: '#eef2fb', border: '1px solid #dbe3f5',
+                        borderRadius: 20, padding: '6px 16px',
+                      }}
+                    >
+                      Digital Product &amp; Software Development
+                    </span>
+                  </div>
                   <h1 style={{ fontSize: 32, color: '#101B48', textAlign: 'left' }} className="vc_custom_heading">
-                    On Demand Web &amp; App Development Services!
+                    We Build Digital Products That Move Businesses Forward.
                   </h1>
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
                       <p>
-                        We are the leading web development company, passionate about clean design and cutting-edge digital
-                        solutions. Fenizo specialize in building high-quality PHP Clone Scripts and robust marketplace
-                        scripts.
+                        Fenizo Technologies designs and builds websites, mobile apps, SaaS products, e-commerce
+                        platforms and custom software for growing businesses — backed by ready-to-launch clone
+                        scripts when speed to market matters most.
                       </p>
                     </div>
                   </div>
                   <div className="ld-empty-space">
                     <span className="liquid_empty_space_inner"></span>
                   </div>
-                  <a href="#" target="_blank" rel="noreferrer" className="btn btn-solid btn-md circle btn-bordered border-thin btn-icon-circle" style={{ marginRight: 15, marginBottom: 10 }}>
+                  <Link to="/contact-us" className="btn btn-solid btn-md circle btn-bordered border-thin btn-icon-circle" style={{ marginRight: 15, marginBottom: 10 }}>
                     <span>
-                      <span className="btn-txt">Explore Now</span>
+                      <span className="btn-txt">Start Your Project</span>
                       <span className="btn-icon"><i className="fas fa-long-arrow-alt-right"></i></span>
                     </span>
-                  </a>
-                  <a href="#shedule_form" className="btn btn-default btn-md circle btn-bordered border-thin btn-icon-circle" style={{ marginBottom: 10 }}>
+                  </Link>
+                  <a href="#services" className="btn btn-default btn-md circle btn-bordered border-thin btn-icon-circle" style={{ marginBottom: 10 }}>
                     <span>
-                      <span className="btn-txt">Get Started</span>
+                      <span className="btn-txt">Explore Our Services</span>
                       <span className="btn-icon"><i className="fas fa-long-arrow-alt-right"></i></span>
                     </span>
                   </a>
@@ -46,12 +59,12 @@ export default function Hero() {
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
                         <img
-                          src="/wp-content/uploads/2025/07/web-development-company.webp"
+                          src="/assets/images/fenizo/hero-development.svg"
                           width="556"
                           height="439"
                           className="vc_single_image-img attachment-full"
-                          alt="web-development-company"
-                          title="web-development-company"
+                          alt="Web and app development at Fenizo Technologies"
+                          title="fenizo-hero-development"
                         />
                       </div>
                     </figure>
