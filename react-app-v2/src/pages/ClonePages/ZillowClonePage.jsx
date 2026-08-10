@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
@@ -30,9 +30,7 @@ import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 export default function ZillowClonePage() {
   usePageStylesheets(pageStylesheets.zillowClone)
 
-  useEffect(() => {
-    document.title = 'Zillow Clone Script | Real Estate App Solution | Fenizo'
-  }, [])
+  useSeo('Zillow Clone Script | Real Estate App Solution | Fenizo')
 
   return (
     <main className="content" id="content">

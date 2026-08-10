@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
@@ -22,9 +22,7 @@ import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 export default function TiktokClonePage() {
   usePageStylesheets(pageStylesheets.tiktokClone)
 
-  useEffect(() => {
-    document.title = 'TikTok Clone Script | Launch Video Sharing App in 7 Days | Fenizo'
-  }, [])
+  useSeo('TikTok Clone Script | Launch Video Sharing App in 7 Days | Fenizo')
 
   return (
     <main className="content" id="content">

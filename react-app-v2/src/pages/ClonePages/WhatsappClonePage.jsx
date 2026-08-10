@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import { features, pricingPlans } from '../../data/whatsapp/whatsappData.js'
@@ -12,9 +12,7 @@ import PricingPlans from '../../components/shared/PricingPlans.jsx'
 export default function WhatsappClonePage() {
   usePageStylesheets(pageStylesheets.whatsappClone)
 
-  useEffect(() => {
-    document.title = 'WhatsApp Clone - Best Messaging App Like WhatsApp | Fenizo'
-  }, [])
+  useSeo('WhatsApp Clone - Best Messaging App Like WhatsApp | Fenizo')
 
   return (
     <main className="content" id="content">

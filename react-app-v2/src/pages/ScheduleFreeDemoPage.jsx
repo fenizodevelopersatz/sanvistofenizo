@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../hooks/useSeo.js'
 import { usePageStylesheets } from '../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../data/pageStylesheets.js'
 import SocialProofPanel from '../components/schedule/SocialProofPanel.jsx'
@@ -7,9 +7,7 @@ import DemoForm from '../components/schedule/DemoForm.jsx'
 export default function ScheduleFreeDemoPage() {
   usePageStylesheets(pageStylesheets.scheduleFreeDemo)
 
-  useEffect(() => {
-    document.title = 'Schedule Free Demo - Fenizo'
-  }, [])
+  useSeo('Schedule Free Demo - Fenizo')
 
   return (
     <main className="content" id="content">

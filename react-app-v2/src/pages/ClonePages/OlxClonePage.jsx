@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import { standOutFeatures, revenueBenefits, pricingPlans } from '../../data/olx/olxData.js'
@@ -23,9 +23,7 @@ import OlxFaqSection from '../../components/olx/OlxFaqSection.jsx'
 export default function OlxClonePage() {
   usePageStylesheets(pageStylesheets.olxClone)
 
-  useEffect(() => {
-    document.title = 'OLX Clone Script | Online Classified Marketplace App | Fenizo'
-  }, [])
+  useSeo('OLX Clone Script | Online Classified Marketplace App | Fenizo')
 
   return (
     <main className="content" id="content">

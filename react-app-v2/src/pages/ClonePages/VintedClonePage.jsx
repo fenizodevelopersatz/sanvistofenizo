@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import { siteContact } from '../../data/siteContact.js'
@@ -44,9 +44,7 @@ const whyChoosePoints = [
 export default function VintedClonePage() {
   usePageStylesheets(pageStylesheets.vintedClone)
 
-  useEffect(() => {
-    document.title = 'Vinted Clone Script | Fashion Resale Marketplace App | Fenizo'
-  }, [])
+  useSeo('Vinted Clone Script | Fashion Resale Marketplace App | Fenizo')
 
   return (
     <main className="content" id="content">

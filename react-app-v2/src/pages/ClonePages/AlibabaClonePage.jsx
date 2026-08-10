@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import { siteContact } from '../../data/siteContact.js'
@@ -37,9 +37,7 @@ const dashboards = [
 export default function AlibabaClonePage() {
   usePageStylesheets(pageStylesheets.alibabaClone)
 
-  useEffect(() => {
-    document.title = 'Alibaba Clone Script | B2B Marketplace App | Fenizo'
-  }, [])
+  useSeo('Alibaba Clone Script | B2B Marketplace App | Fenizo')
 
   return (
     <main className="content" id="content">

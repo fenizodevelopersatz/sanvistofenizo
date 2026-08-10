@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import { siteContact } from '../../data/siteContact.js'
@@ -31,9 +31,7 @@ const dashboards = [
 export default function TuroClonePage() {
   usePageStylesheets(pageStylesheets.turoClone)
 
-  useEffect(() => {
-    document.title = 'Turo Clone - Build An App Like Turo | Fenizo'
-  }, [])
+  useSeo('Turo Clone - Build An App Like Turo | Fenizo')
 
   return (
     <main className="content" id="content">

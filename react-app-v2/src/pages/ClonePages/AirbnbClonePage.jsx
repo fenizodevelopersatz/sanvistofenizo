@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
@@ -23,9 +23,7 @@ import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 export default function AirbnbClonePage() {
   usePageStylesheets(pageStylesheets.airbnbClone)
 
-  useEffect(() => {
-    document.title = 'Airbnb Clone - Launch a Vacation Rental Marketplace Like Airbnb | Fenizo'
-  }, [])
+  useSeo('Airbnb Clone - Launch a Vacation Rental Marketplace Like Airbnb | Fenizo')
 
   return (
     <main className="content" id="content">

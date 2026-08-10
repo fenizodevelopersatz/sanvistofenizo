@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
@@ -23,9 +23,7 @@ import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 export default function YoutubeClonePage() {
   usePageStylesheets(pageStylesheets.youtubeClone)
 
-  useEffect(() => {
-    document.title = 'YouTube Clone Script | Video Streaming App | Fenizo'
-  }, [])
+  useSeo('YouTube Clone Script | Video Streaming App | Fenizo')
 
   return (
     <main className="content" id="content">

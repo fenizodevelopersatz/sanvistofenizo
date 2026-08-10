@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
@@ -25,9 +25,7 @@ import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 export default function UdemyClonePage() {
   usePageStylesheets(pageStylesheets.udemyClone)
 
-  useEffect(() => {
-    document.title = '#1 Udemy Clone to Start Your Own eLearning Platform | Fenizo'
-  }, [])
+  useSeo('#1 Udemy Clone to Start Your Own eLearning Platform | Fenizo')
 
   return (
     <main className="content" id="content">

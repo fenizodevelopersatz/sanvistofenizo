@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
@@ -22,9 +22,7 @@ import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
 export default function GojekClonePage() {
   usePageStylesheets(pageStylesheets.gojekClone)
 
-  useEffect(() => {
-    document.title = 'Gojek Clone - #1 On-Demand Multi Service App Solution | Fenizo'
-  }, [])
+  useSeo('Gojek Clone - #1 On-Demand Multi Service App Solution | Fenizo')
 
   return (
     <main className="content" id="content">

@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../hooks/useSeo.js'
 import { usePageStylesheets } from '../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../data/pageStylesheets.js'
 import Hero from '../components/home/Hero.jsx'
@@ -17,9 +17,7 @@ import ConnectWithUs from '../components/home/ConnectWithUs.jsx'
 export default function HomePage() {
   usePageStylesheets(pageStylesheets.home)
 
-  useEffect(() => {
-    document.title = 'Mobile App & Web Development Company | Clone Script Solutions'
-  }, [])
+  useSeo('Fenizo | Web, Mobile App & Software Development Company')
 
   return (
     <main className="content" id="content">

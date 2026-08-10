@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
@@ -25,9 +25,7 @@ import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
 export default function RentalBookingClonePage() {
   usePageStylesheets(pageStylesheets.rentalBookingScript)
 
-  useEffect(() => {
-    document.title = 'Rental Booking Script | Best Booking Clone | Fenizo'
-  }, [])
+  useSeo('Rental Booking Script | Best Booking Clone | Fenizo')
 
   return (
     <main className="content" id="content">

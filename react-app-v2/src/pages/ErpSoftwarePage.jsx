@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../hooks/useSeo.js'
 import { usePageStylesheets } from '../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../data/pageStylesheets.js'
 import { advancedFeatures, powerfulFeatures } from '../data/erp/coreModules.js'
@@ -24,9 +24,7 @@ import ErpBlogTeaser from '../components/erp/ErpBlogTeaser.jsx'
 export default function ErpSoftwarePage() {
   usePageStylesheets(pageStylesheets.erpSoftware)
 
-  useEffect(() => {
-    document.title = 'ERP Software | Fenizo'
-  }, [])
+  useSeo('ERP Software | Fenizo')
 
   return (
     <main className="content" id="content">

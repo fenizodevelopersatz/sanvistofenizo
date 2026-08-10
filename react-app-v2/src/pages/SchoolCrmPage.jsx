@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../hooks/useSeo.js'
 import { usePageStylesheets } from '../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../data/pageStylesheets.js'
 import { siteContact } from '../data/siteContact.js'
@@ -34,9 +34,7 @@ const dashboards = [
 export default function SchoolCrmPage() {
   usePageStylesheets(pageStylesheets.schoolCrm)
 
-  useEffect(() => {
-    document.title = 'School CRM | School Management System | Fenizo'
-  }, [])
+  useSeo('School CRM | School Management System | Fenizo')
 
   return (
     <main className="content" id="content">

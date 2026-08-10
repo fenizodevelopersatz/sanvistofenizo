@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
@@ -20,9 +20,7 @@ import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
 export default function TinderClonePage() {
   usePageStylesheets(pageStylesheets.tinderClone)
 
-  useEffect(() => {
-    document.title = 'Tinder Clone Script | Online Dating App Solution | Fenizo'
-  }, [])
+  useSeo('Tinder Clone Script | Online Dating App Solution | Fenizo')
 
   return (
     <main className="content" id="content">

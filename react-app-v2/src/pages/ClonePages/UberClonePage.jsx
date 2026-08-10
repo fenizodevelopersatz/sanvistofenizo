@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
@@ -24,9 +24,7 @@ import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
 export default function UberClonePage() {
   usePageStylesheets(pageStylesheets.uberClone)
 
-  useEffect(() => {
-    document.title = 'Uber Clone Script | #1 Taxi Booking App | Fenizo'
-  }, [])
+  useSeo('Uber Clone Script | #1 Taxi Booking App | Fenizo')
 
   return (
     <main className="content" id="content">

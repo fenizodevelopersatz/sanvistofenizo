@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
@@ -23,9 +23,7 @@ import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 export default function SwiggyClonePage() {
   usePageStylesheets(pageStylesheets.swiggyClone)
 
-  useEffect(() => {
-    document.title = 'Swiggy Clone Script | Food Delivery App | Fenizo'
-  }, [])
+  useSeo('Swiggy Clone Script | Food Delivery App | Fenizo')
 
   return (
     <main className="content" id="content">

@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import { standardFeatures, revenueBenefits, pricingPlans } from '../../data/fiverr/fiverrData.js'
@@ -23,9 +23,7 @@ import FaqServerTabs from '../../components/fiverr/FaqServerTabs.jsx'
 export default function FiverrClonePage() {
   usePageStylesheets(pageStylesheets.fiverrClone)
 
-  useEffect(() => {
-    document.title = 'Fiverr Clone Script | Freelance Marketplace App | Fenizo'
-  }, [])
+  useSeo('Fiverr Clone Script | Freelance Marketplace App | Fenizo')
 
   return (
     <main className="content" id="content">

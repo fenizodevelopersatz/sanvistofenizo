@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
@@ -23,9 +23,7 @@ import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 export default function AmazonClonePage() {
   usePageStylesheets(pageStylesheets.amazonClone)
 
-  useEffect(() => {
-    document.title = 'Amazon Clone Script | eCommerce Marketplace App | Fenizo'
-  }, [])
+  useSeo('Amazon Clone Script | eCommerce Marketplace App | Fenizo')
 
   return (
     <main className="content" id="content">
