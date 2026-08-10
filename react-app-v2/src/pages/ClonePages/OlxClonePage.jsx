@@ -1,0 +1,128 @@
+import { useEffect } from 'react'
+import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
+import { pageStylesheets } from '../../data/pageStylesheets.js'
+import { standOutFeatures, revenueBenefits, pricingPlans } from '../../data/olx/olxData.js'
+
+import OlxHero from '../../components/olx/OlxHero.jsx'
+import TrustedByBuyers from '../../components/olx/TrustedByBuyers.jsx'
+import WhatIsOlx from '../../components/olx/WhatIsOlx.jsx'
+import WhyChooseUsOlx from '../../components/olx/WhyChooseUsOlx.jsx'
+import EnhanceBusinessCta from '../../components/olx/EnhanceBusinessCta.jsx'
+import MainFeaturesTabs from '../../components/olx/MainFeaturesTabs.jsx'
+import PdfDownloadCta from '../../components/shared/PdfDownloadCta.jsx'
+import StandOutFeaturesGrid from '../../components/shared/StandOutFeaturesGrid.jsx'
+import AddOnFeaturesFlip from '../../components/olx/AddOnFeaturesFlip.jsx'
+import RevenueBenefits from '../../components/shared/RevenueBenefits.jsx'
+import TechWeUsed from '../../components/olx/TechWeUsed.jsx'
+import StartCta from '../../components/olx/StartCta.jsx'
+import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
+import PricingPlans from '../../components/shared/PricingPlans.jsx'
+import MobileScreens from '../../components/olx/MobileScreens.jsx'
+import OlxFaqSection from '../../components/olx/OlxFaqSection.jsx'
+
+export default function OlxClonePage() {
+  usePageStylesheets(pageStylesheets.olxClone)
+
+  useEffect(() => {
+    document.title = 'OLX Clone Script | Online Classified Marketplace App | Fenizo'
+  }, [])
+
+  return (
+    <main className="content" id="content">
+      <div className="wpb-content-wrapper">
+        <section className="vc_section vc_section-has-fill">
+          <OlxHero />
+        </section>
+
+        <section className="vc_section">
+          <TrustedByBuyers />
+        </section>
+
+        <section className="vc_section">
+          <WhatIsOlx />
+        </section>
+
+        <section className="vc_section">
+          <WhyChooseUsOlx />
+        </section>
+
+        <section className="vc_section">
+          <EnhanceBusinessCta />
+        </section>
+
+        <section className="vc_section">
+          <MainFeaturesTabs />
+        </section>
+
+        <section className="vc_section vc_section-has-fill">
+          <PdfDownloadCta heading="Explore the Complete Features of Our OLX Clone App" />
+        </section>
+
+        <section className="vc_section">
+          <StandOutFeaturesGrid
+            heading="Standard Features of OLX Clone Script"
+            subheading="Our Olx Clone is a Feature-rich Classified Marketplace Solution, Offering Buying and Selling Experiences."
+            items={standOutFeatures}
+            color="#101b48"
+          />
+        </section>
+
+        <section className="vc_section vc_section-has-fill">
+          <AddOnFeaturesFlip />
+        </section>
+
+        <section className="vc_section vc_section-has-fill">
+          <RevenueBenefits
+            subheading="Monetizing an Olx Clone Solution Can Be a Huge Profitable Via Multiple Revenue Streams."
+            items={revenueBenefits}
+            image="/wp-content/uploads/2025/02/Group-48096884.webp"
+            color="rgb(71, 185, 228)"
+          />
+        </section>
+
+        <section className="vc_section">
+          <TechWeUsed />
+        </section>
+
+        <section className="vc_section">
+          <StartCta />
+        </section>
+
+        <section className="vc_section">
+          <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+            <div className="ld-container container">
+              <div className="row ld-row">
+                <div className="wpb_column vc_column_container vc_col-sm-8 vc_col-md-offset-3 vc_col-md-6 vc_col-sm-offset-2 vc_col-xs-offset-1 vc_col-xs-10 text-center">
+                  <div className="vc_column-inner">
+                    <div className="wpb_wrapper">
+                      <div className="wpb_wrapper-inner">
+                        <div className="wpb_single_image wpb_content_element vc_align_center">
+                          <figure className="wpb_wrapper vc_figure">
+                            <div className="vc_single_image-wrapper vc_box_border_grey">
+                              <img src="/wp-content/uploads/2023/03/Group-726-1024x92.png" width="780" height="70" className="vc_single_image-img attachment-large" alt="google review" title="google review" />
+                            </div>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <MoneyBackGuarantee />
+          <PricingPlans plans={pricingPlans} heading="Pick a Plan" />
+        </section>
+
+        <section className="vc_section vc_section-has-fill">
+          <MobileScreens />
+        </section>
+
+        <section className="vc_section">
+          <OlxFaqSection />
+        </section>
+      </div>
+    </main>
+  )
+}

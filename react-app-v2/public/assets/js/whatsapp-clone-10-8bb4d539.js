@@ -1,0 +1,1 @@
+document.getElementById("open-chat").onclick=function(){tidioChatApi.display(!0);tidioChatApi.open()};document.getElementById("open-skype").onclick=function(){window.location.href="skype:sangvishtech?chat"}

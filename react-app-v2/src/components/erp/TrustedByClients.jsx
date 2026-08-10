@@ -1,0 +1,111 @@
+import { reviewPlatforms } from '../../data/reviewPlatforms.js'
+
+export default function TrustedByClients() {
+  const [row1, row2] = [reviewPlatforms.slice(0, 3), reviewPlatforms.slice(3, 6)]
+
+  return (
+    <section className="vc_section vc_custom_1776320292174 vc_section-has-fill">
+      <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a663fd23">
+        <div className="ld-container container">
+          <div className="row ld-row">
+            <div className="wpb_column vc_column_container vc_col-sm-12">
+              <div className="vc_column-inner">
+                <div className="wpb_wrapper">
+                  <div className="wpb_wrapper-inner">
+                    <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a664047a">
+        <div className="ld-container container">
+          <div className="row ld-row">
+            <div className="wpb_column vc_column_container vc_col-sm-12">
+              <div className="vc_column-inner">
+                <div className="wpb_wrapper">
+                  <div className="wpb_wrapper-inner">
+                    <div className="ld-fancy-heading text-center">
+                      <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
+                        <span className="ld-fh-txt"> <span style={{ color: '#002692' }}>Trusted </span>by Our Clients</span>
+                      </h2>
+                    </div>
+                    <div className="vc_empty_space" style={{ height: 67 }}><span className="vc_empty_space_inner"></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="vc_row wpb_row vc_row-fluid vc_custom_1776231277155 liquid-row-shadowbox-6a665a66418bb">
+        <div className="ld-container container">
+          <div className="row ld-row">
+            {[row1, row2].map((row, r) => (
+              <div className="wpb_column vc_column_container vc_col-sm-6" key={r}>
+                <div className="vc_column-inner">
+                  <div className="wpb_wrapper">
+                    <div className="wpb_wrapper-inner">
+                      <div className="vc_row wpb_row vc_inner vc_row-fluid">
+                        {row.map((p, i) => (
+                          <div className="wpb_column vc_column_container vc_col-sm-4 vc_col-xs-4" key={i}>
+                            <div className="vc_column-inner">
+                              <div className="wpb_wrapper">
+                                <div className="wpb_wrapper-inner">
+                                  <div className="wpb_single_image wpb_content_element vc_align_center">
+                                    <figure className="wpb_wrapper vc_figure">
+                                      <a href={p.href} target="_blank" rel="noreferrer" className="vc_single_image-wrapper vc_box_border_grey">
+                                        <img src={p.image} width={p.width} height={p.height} className="vc_single_image-img attachment-full" alt={p.alt} title="" />
+                                      </a>
+                                    </figure>
+                                  </div>
+                                  <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="vc_row wpb_row vc_row-fluid vc_custom_1775820376024 liquid-row-shadowbox-6a665a664ca04 vc_column-gap-35">
+        <div className="ld-container container">
+          <div className="row ld-row">
+            <div className="wpb_column vc_column_container vc_col-sm-12">
+              <div className="vc_column-inner">
+                <div className="wpb_wrapper">
+                  <div className="wpb_wrapper-inner">
+                    <div className="vc_empty_space" style={{ height: 20 }}><span className="vc_empty_space_inner"></span></div>
+                    <div className="ld-fancy-heading text-center">
+                      <h4 className="lqd-highlight-underline lqd-highlight-grow-left">
+                        <span className="ld-fh-txt">Recognized by <span style={{ color: '#002692' }}>clients</span></span>
+                      </h4>
+                    </div>
+                    <div className="vc_empty_space" style={{ height: 20 }}><span className="vc_empty_space_inner"></span></div>
+                    <div className="wpb_text_column wpb_content_element">
+                      <div className="wpb_wrapper">
+                        <p style={{ textAlign: 'center' }}>Fenizo Technologies has years of experience in delivering high-quality product development solutions.</p>
+                      </div>
+                    </div>
+                    <div className="vc_empty_space" style={{ height: 40 }}><span className="vc_empty_space_inner"></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  )
+}

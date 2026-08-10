@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- The original site's favicon was a bug -- it pointed at a WhatsApp promo image
+         (wp-content/uploads/2026/03/whatsapp.png) left over from a sale banner. Using the
+         real Fenizo icon mark here instead (cropped from the primary logo). This is an SPA
+         shell shared by every route, so fixing it here fixes the favicon on all pages at once. -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/wp-content/uploads/2026/03/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/wp-content/uploads/2026/03/favicon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/wp-content/uploads/2026/03/favicon-512.png" />
+    <link rel="shortcut icon" href="/wp-content/uploads/2026/03/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/wp-content/uploads/2026/03/apple-touch-icon-180.png" />
+    <title>Mobile App &amp; Web Development Company | Clone Script Solutions</title>
+    <meta name="description" content="Fenizo is a leading app and web development company, providing customized solutions tailored to your business needs with our clone scripts." />
+
+    <!-- Truly global CSS only — verified byte-identical across index.html/contact-us.html/schedule-free-demo.html.
+         Per-page bundles (litespeed combined CSS + the page's own -8-/-11-/-12- files) are loaded
+         dynamically per route via usePageStylesheets, since those differ page to page.
+
+         shared-eacbef1f.css and shared-713aa8f4.css are ALSO byte-identical across pages, but in the
+         original site they load AFTER the per-page litespeed-combined bundle (position varies, but always
+         after it) — shared-713aa8f4.css carries the site's real Poppins typography override, cascading
+         over the theme's Roboto defaults that live in the litespeed-combined bundle. They must stay out of
+         this static head and load at the END of each page's dynamic stylesheet list (see pageStylesheets.js)
+         or the theme default (Roboto) wins instead of the intended Poppins everywhere. -->
+    <link rel="stylesheet" href="/assets/css/shared-2316490e.css" />
+    <link rel="stylesheet" href="/assets/css/shared-174a7427.css" />
+    <link rel="stylesheet" href="/assets/css/shared-2477cd65.css" />
+    <link rel="stylesheet" href="/assets/css/shared-9d10c24f.css" />
+    <link rel="stylesheet" href="/assets/css/shared-09542fd1.css" />
+    <link rel="stylesheet" href="/assets/css/shared-a72d889e.css" />
+    <link rel="stylesheet" href="/assets/css/shared-1c764d5c.css" />
+    <link rel="stylesheet" href="/assets/vendor/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="/assets/fonts/google-fonts.css" />
+  </head>
+  <body class="home wp-singular page-template-default page wp-embed-responsive wp-theme-ave theme-ave woocommerce-no-js site-wide-layout wpb-js-composer js-comp-ver-8.7.2 vc_responsive currency-usd" dir="ltr">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

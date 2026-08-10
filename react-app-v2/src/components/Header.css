@@ -1,0 +1,51 @@
+/* The cart offcanvas panel's theme CSS is meant to hide it via
+   `.ld-module-dropdown[aria-expanded=true]`, but that rule isn't present in
+   the CSS this app actually loads -- so the closed-state panel (position:
+   fixed, full viewport height) sits fully interactive over the right third
+   of every page at all times, blocking mega-menu clicks positioned under
+   it. Drive the same open/closed visual directly off the .show class this
+   component already toggles. */
+.ld-module-cart-offcanvas .ld-module-dropdown {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translate3d(100%, 0, 0);
+  transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+}
+.ld-module-cart-offcanvas .ld-module-dropdown.show {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translate3d(0, 0, 0);
+}
+
+/* Menu items with no built page in this app yet. Rendered as a non-anchor
+   so they can't be clicked or jump the page to "#", just a visible
+   affordance that they're inactive. */
+.menu-item-disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.menu-item-disabled .liquid-overlay-link {
+  cursor: not-allowed;
+}
+
+/* Defensive: guarantee each mega-menu card's full-card click target always
+   wins over its own icon/text sibling within this menu specifically. */
+.nav-item-children .liquid-overlay-link {
+  z-index: 5;
+}
+
+/* useMobileNav toggles this class on <html> while the mobile menu is open,
+   but no CSS backed it -- so scroll never actually locked. */
+html.overflow-hidden {
+  overflow: hidden;
+}
+
+/* The original theme's mega-menu item hover highlight is applied by JS reading
+   each item's data-plugin-options (hoverColor) on mouseenter -- that script isn't
+   ported here, so hovering did nothing. Replicate the light background highlight
+   with plain CSS instead. */
+.megamenu-column .iconbox:hover {
+  background-color: #f5f5f7;
+}
