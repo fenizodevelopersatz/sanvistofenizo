@@ -24,7 +24,7 @@ export default function FounderExpertCta() {
                   <div className="wpb_single_image wpb_content_element vc_align_left">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2025/01/founder-1.webp" width="863" height="886" className="vc_single_image-img attachment-full" alt="founder" loading="lazy" />
+                        <img src="/assets/images/fenizo/expert-chat.svg" width="480" height="520" className="vc_single_image-img attachment-full" alt="Chat with a Fenizo development expert" loading="lazy" />
                       </div>
                     </figure>
                   </div>

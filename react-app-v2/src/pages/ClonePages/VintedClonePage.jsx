@@ -91,8 +91,8 @@ export default function VintedClonePage() {
           accentWord="Choose Us?"
           desc="Take your online classified marketplace to success with our ready-to-launch and feature-packed Vinted Clone App."
           points={whyChoosePoints}
-          image="/wp-content/uploads/2026/04/website-aboutus-1.webp"
-          imageAlt="website-aboutus"
+          image="/assets/images/fenizo/achievement-stats.svg"
+          imageAlt="Fenizo Technologies: serving 20+ countries with 24+ happy clients worldwide"
         />
 
         <VintedIntroBanner />

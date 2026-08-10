@@ -84,8 +84,8 @@ export default function ZillowClonePage() {
             ['Built on Proven ', 'Business Model to Start Earning Faster.', ''],
             ['Seamless Operations with ', 'Reliable Customer Support.', ''],
           ]}
-          image="/wp-content/uploads/2026/04/website-aboutus-1.webp"
-          imageAlt="website-aboutus"
+          image="/assets/images/fenizo/achievement-stats.svg"
+          imageAlt="Fenizo Technologies: serving 20+ countries with 24+ happy clients worldwide"
         />
 
         <AiFeaturesGrid items={aiFeatures} heading="AI-Powered Capabilities" columns={4} />

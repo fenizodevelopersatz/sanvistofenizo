@@ -10,7 +10,7 @@ export default function WhyChooseTuro() {
                   <div className="wpb_single_image wpb_content_element vc_align_left">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2026/04/website-aboutus-1.webp" width="650" height="583" className="vc_single_image-img attachment-large" alt="website-aboutus" title="website-aboutus-1" loading="lazy" />
+                        <img src="/assets/images/fenizo/achievement-stats.svg" width="650" height="583" className="vc_single_image-img attachment-large" alt="Fenizo Technologies: serving 20+ countries with 24+ happy clients worldwide" title="fenizo-achievements" loading="lazy" />
                       </div>
                     </figure>
                   </div>
