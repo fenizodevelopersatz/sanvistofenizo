@@ -33,4 +33,4 @@ coverage/
 .vite/
 
 # Misc
-*.local
+*.localnode_modules/
