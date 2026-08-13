@@ -32,7 +32,7 @@ export default function YoutubeClonePage() {
           <YoutubeHero />
         </section>
 
-        <TrustedByBadges heading="by 600+ Buyers" />
+        <TrustedByBadges heading="by Video Platform Entrepreneurs" />
 
         <section className="vc_section">
           <WhatIsYoutube />

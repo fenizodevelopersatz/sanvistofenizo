@@ -1,7 +1,6 @@
 import ScheduleFormSection from '../home/ScheduleFormSection.jsx'
 import TestimonialRotatorSection from './TestimonialRotatorSection.jsx'
 import FooterSitemap from './FooterSitemap.jsx'
-import ReviewPlatforms from './ReviewPlatforms.jsx'
 import FooterBottom from './FooterBottom.jsx'
 
 export default function Footer() {
@@ -12,7 +11,6 @@ export default function Footer() {
         <TestimonialRotatorSection />
       </section>
       <FooterSitemap />
-      <ReviewPlatforms />
       <FooterBottom />
     </footer>
   )

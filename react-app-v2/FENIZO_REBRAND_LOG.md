@@ -169,6 +169,55 @@ Deleted the 24 now-unreferenced logo images and the fake-ratings composite image
   attributes to each, not an invented transcript — since these are real, identifiable
   people, the wording was kept deliberately close to source rather than dramatized.
 
+### (this session) — Fix horizontal overflow bug + remove fabricated review ratings + de-brand tech-stack image
+Continuing from the master rebuild brief, which called out a specific horizontal-scrollbar/overflow
+bug and asked for a full audit. Ran `npm install` (node_modules wasn't present) and started the
+dev server to verify against the live app rather than just reading code.
+
+- **Horizontal overflow bug (confirmed via `document.documentElement.scrollWidth` vs `clientWidth`,
+  1353px vs 1265px on the homepage).** Root cause: components using the `useInView` scroll-reveal
+  hook (`WhyWeStandOutRow.jsx`, `OurServices.jsx`, others) intentionally render off-screen via inline
+  `translateX/Y(±150px)` before scrolling into view, with nothing clipping that offset. Fixed with a
+  deliberate `overflow-x: hidden` on `html, body` in `src/index.css` — this is the correct, standard
+  pairing for translate-based scroll-reveal (not a blanket patch masking a real layout bug; verified
+  `scrollWidth === clientWidth` afterward at both desktop and 375px mobile widths).
+- **Fabricated review-platform ratings, sitewide.** `src/data/reviewPlatforms.js` held 6 badge images
+  (Google/Glassdoor/Trustpilot/AmbitionBox/SiteJabber/JustDial) with specific invented ratings baked
+  into the images (e.g. "4.3/5 on Google", "4.0/5 on Trustpilot") — confirmed via `WebFetch` against
+  the live fenizotechnologies.com that no real ratings exist to source these from. These were used by
+  3 different components reaching **every page on the site**: `ReviewPlatforms.jsx` (rendered inside
+  `Footer.jsx`, sitewide), `TrustedByClients.jsx` (erp-software page), and `TrustedByBadges.jsx`
+  (shared, used on uber/gojek/tiktok/youtube/zillow/vinted/alibaba/schoolCrm clone pages). Same
+  false-endorsement category as the fake logo carousel already fixed in `56c5bd4` — removed the data
+  file, the 6 images, and the `ReviewPlatforms.jsx` component entirely; `TrustedByBadges.jsx` and
+  `TrustedByClients.jsx` now render the existing verified `trustCategories` badges
+  (`src/data/trustedByLogos.js`) instead of badge images.
+- **"Trusted by 600+ Buyers" fabricated stat, missed by the `56c5bd4` cleanup.** That commit fixed
+  `TrustedByBuyers.jsx` (fiverr/olx/rentalBooking) but a same-purpose, differently-named component
+  (`TrustedByBadges.jsx`) still had 4 pages (Uber, Gojek, Tiktok, Youtube) passing
+  `heading="by 600+ Buyers"`, and `SwiggyClonePage.jsx` had the same stat hardcoded inline. Reworded
+  all 5 to page-specific honest headings (e.g. "by Mobility Entrepreneurs" for Uber), matching the
+  style already used on Zillow/Alibaba/Vinted/SchoolCrm. Re-grepped the whole tree for `600\+` and
+  similar invented-number patterns afterward — zero remaining matches.
+- **"SANGVISH" visible inside an image**, found on the homepage's "Robust Tech Stack We Used" banner
+  (`TechStackBanner.jsx`) — the old brand's wordmark was rendered directly onto the 3D logo cube in
+  `technology-stacks-scaled.webp`. Text-based `grep -ri sangvish` (per the `a2e624c` log entry) can't
+  catch text baked into images, so this survived that pass. Rebuilt the whole section as a
+  text-driven icon grid (`src/data/homeTechStack.js`, reusing the existing `iconbox` pattern from
+  `TechStackRow.jsx`, 12 real technologies with Font Awesome brand icons: HTML5, CSS3, JavaScript,
+  React, Node.js, PHP, Laravel, WordPress, Android, Swift, Java, AWS) instead of swapping in another
+  static image — this also fixes the accessibility gap flagged in §6 below (images had no text
+  alternative for the tech names) and removes the now-redundant separate desktop/mobile image pair.
+  Deleted the 4 now-unused image files.
+- Verified via `npm run build` (clean) after each step and live DOM checks in the running app
+  (overflow, leftover branded/fabricated image references, `600+` text) rather than relying on
+  static analysis alone — the review-badge fix in particular required a rebuild to catch 2 additional
+  importers of `reviewPlatforms.js` that a first-pass grep of "known usages" would have missed.
+- Not done this session: the footer sitemap dead-link question (§6 below) and a full page-by-page
+  visual audit against the original HTML — the sandboxed browser pane here can't composite frames for
+  real screenshots, so visual (not DOM-level) comparison wasn't possible; flagging rather than
+  claiming it was checked.
+
 ## 5. Where the "real facts" came from
 
 Fetched directly from `https://fenizotechnologies.com` on 2026-08-10. Key facts used
@@ -191,16 +240,11 @@ throughout the rebrand:
   funneling into a smaller set of real pages) and predates the rebrand; it wasn't touched
   because fixing it means either building many new pages or deleting most of the footer,
   both bigger decisions than a rebrand pass. Flagging for a deliberate decision later.
-- **`src/data/reviewPlatforms.js`**: badge images (Google/Glassdoor/Trustpilot/etc.,
-  renamed to include "-fenizo") still visually show the old company's real review
-  counts/ratings baked into the image. Links are already neutralized to `'#'`. Lower
-  priority than the founder photo / client logos fixed this session because there's no
-  visible old brand name in these images, but they should be replaced with Fenizo's own
-  review-platform screenshots once those exist.
-- **Tech stack section** (`TechStackBanner.jsx` on the homepage): content is two static
-  images with no accessible text list of technologies, so it couldn't be verified or
-  edited as data. Consider rebuilding as a text-driven component per the "Technology Stack"
-  section spec (Frontend/Backend/Mobile/Database/Cloud grouped lists).
+- ~~`src/data/reviewPlatforms.js` badge images~~ — **done, this session**: removed (fabricated
+  ratings, not just old-brand traces; see change log above).
+- ~~Tech stack section as static images~~ — **done, this session**: rebuilt as a text-driven
+  icon grid (`src/data/homeTechStack.js`); also removed a "SANGVISH" wordmark baked into the
+  old desktop image that text-grepping had missed.
 - **Process step naming** (`src/data/devProcessSteps.js`): current steps (Requirement
   Analysis → Customization Planning → Design & Development → Testing → Launch → Support)
   are conceptually equivalent to but don't literally match a Discover/Plan/Design/Develop/

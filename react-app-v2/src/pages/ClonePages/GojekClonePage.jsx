@@ -31,7 +31,7 @@ export default function GojekClonePage() {
           <GojekHero />
         </section>
 
-        <TrustedByBadges heading="by 600+ Buyers" />
+        <TrustedByBadges heading="by Super App Entrepreneurs" />
 
         <section className="vc_section">
           <WhatIsGojek />

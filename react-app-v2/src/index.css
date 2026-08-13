@@ -1,3 +1,9 @@
+html,
 body {
   margin: 0;
+  /* Section reveal animations (useInView) intentionally translate elements
+     off-screen (±150px) before they enter the viewport; without this the
+     off-canvas state widens the document's scrollable area and produces a
+     spurious horizontal scrollbar. */
+  overflow-x: hidden;
 }

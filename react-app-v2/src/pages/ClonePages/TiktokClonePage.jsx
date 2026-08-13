@@ -31,7 +31,7 @@ export default function TiktokClonePage() {
           <TiktokHero />
         </section>
 
-        <TrustedByBadges heading="by 600+ Buyers" />
+        <TrustedByBadges heading="by Content Entrepreneurs" />
 
         <section className="vc_section">
           <WhatIsTiktok />

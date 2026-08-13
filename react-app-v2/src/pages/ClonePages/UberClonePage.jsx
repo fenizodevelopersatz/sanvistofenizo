@@ -31,7 +31,7 @@ export default function UberClonePage() {
       <div className="wpb-content-wrapper">
         <section className="vc_section vc_custom_1738736124508 vc_section-has-fill">
           <UberHero />
-          <TrustedByBadges heading="by 600+ Buyers" />
+          <TrustedByBadges heading="by Mobility Entrepreneurs" />
         </section>
 
         <section className="vc_section">

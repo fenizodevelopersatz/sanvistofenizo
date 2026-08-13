@@ -40,7 +40,7 @@ export default function SwiggyClonePage() {
                       <div className="wpb_wrapper-inner">
                         <div className="ld-fancy-heading text-center">
                           <p className="lqd-highlight-underline lqd-highlight-grow-left">
-                            <span className="ld-fh-txt"> Trusted by<strong> 600+ Buyers</strong></span>
+                            <span className="ld-fh-txt"> Trusted by<strong> Growing Businesses</strong></span>
                           </p>
                         </div>
                       </div>

@@ -1,3 +1,5 @@
+import { homeTechStack } from '../../data/homeTechStack.js'
+
 export default function TechStackBanner() {
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40bc754">
@@ -17,51 +19,25 @@ export default function TechStackBanner() {
                   <div className="ld-empty-space">
                     <span className="liquid_empty_space_inner"></span>
                   </div>
-                  <div className="vc_row wpb_row vc_inner vc_row-fluid vc_hidden-sm vc_hidden-xs">
-                    <div className="wpb_column vc_column_container vc_col-sm-12">
-                      <div className="vc_column-inner">
-                        <div className="wpb_wrapper">
-                          <div className="wpb_wrapper-inner">
-                            <div className="wpb_single_image wpb_content_element vc_align_center">
-                              <figure className="wpb_wrapper vc_figure">
-                                <div className="vc_single_image-wrapper vc_box_border_grey">
-                                  <img
-                                    src="/wp-content/uploads/2025/10/technology-stacks-scaled.webp"
-                                    width="2560"
-                                    height="1008"
-                                    className="vc_single_image-img attachment-full"
-                                    alt="technology-stacks"
-                                  />
+                  <div className="row ld-row" style={{ position: 'relative', zIndex: 1 }}>
+                    {homeTechStack.map((t, i) => (
+                      <div className="wpb_column vc_column_container vc_col-sm-2 vc_col-xs-4" key={i}>
+                        <div className="vc_column-inner">
+                          <div className="wpb_wrapper">
+                            <div className="wpb_wrapper-inner">
+                              <div className="iconbox iconbox-xl iconbox-contents-show-onhover" style={{ color: t.color }}>
+                                <div className="iconbox-icon-wrap">
+                                  <span className="iconbox-icon-container">
+                                    <i className={t.icon}></i>
+                                  </span>
                                 </div>
-                              </figure>
+                                <h3>{t.title}</h3>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div className="vc_row wpb_row vc_inner vc_row-fluid vc_hidden-lg vc_hidden-md">
-                    <div className="wpb_column vc_column_container vc_col-sm-12">
-                      <div className="vc_column-inner">
-                        <div className="wpb_wrapper">
-                          <div className="wpb_wrapper-inner">
-                            <div className="wpb_single_image wpb_content_element vc_align_center">
-                              <figure className="wpb_wrapper vc_figure">
-                                <div className="vc_single_image-wrapper vc_box_border_grey">
-                                  <img
-                                    src="/wp-content/uploads/2025/04/Group-48097199.png"
-                                    width="449"
-                                    height="326"
-                                    className="vc_single_image-img attachment-full"
-                                    alt="Technologies Used"
-                                  />
-                                </div>
-                              </figure>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    ))}
                   </div>
                 </div>
               </div>
