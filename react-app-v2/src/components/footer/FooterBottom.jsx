@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { socialLinks, footerNavColumns, trustBadges } from '../../data/socialLinks.js'
 import { siteContact } from '../../data/siteContact.js'
+import { siteBrand } from '../../data/siteBrand.js'
 
 function NavLink({ href, label }) {
   if (href === '#') return <a href={href}>{label}</a>
@@ -46,7 +47,7 @@ export default function FooterBottom() {
                       <span className="liquid_empty_space_inner"></span>
                     </div>
                     <div className="wpb_single_image wpb_content_element vc_align_left vc_custom_1773139863014">
-                      <img src="/wp-content/uploads/2026/03/fenizo-logo-primary.png" width="180" height="60" alt="Fenizo Technologies" loading="lazy" decoding="async" />
+                      <img src={siteBrand.logo} width={siteBrand.logoWidth} height={siteBrand.logoHeight} alt={siteBrand.name} loading="lazy" decoding="async" />
                     </div>
                     <div className="ld-empty-space">
                       <span className="liquid_empty_space_inner"></span>

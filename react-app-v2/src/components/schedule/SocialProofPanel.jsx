@@ -1,5 +1,6 @@
 import TestimonialCarousel from '../home/TestimonialCarousel.jsx'
 import { trustCategories } from '../../data/trustedByLogos.js'
+import { siteBrand } from '../../data/siteBrand.js'
 
 export default function SocialProofPanel() {
   return (
@@ -11,7 +12,7 @@ export default function SocialProofPanel() {
               <span className="liquid_empty_space_inner"></span>
             </div>
             <div className="wpb_single_image wpb_content_element vc_align_center vc_custom_1726564743253">
-              <span style={{ fontSize: 26, fontWeight: 700, color: '#101B48', letterSpacing: 0.5, display: 'inline-block' }}>FENIZO</span>
+              <img src={siteBrand.logo} width={siteBrand.logoWidth} height={siteBrand.logoHeight} alt={siteBrand.name} style={{ width: 210, height: 'auto' }} />
             </div>
             <div className="wpb_text_column wpb_content_element">
               <div className="wpb_wrapper">

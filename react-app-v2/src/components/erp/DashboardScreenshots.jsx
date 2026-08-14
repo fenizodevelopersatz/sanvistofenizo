@@ -10,7 +10,7 @@ export default function DashboardScreenshots() {
   }, [])
 
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a668890">
+    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a668890 erp-dashboard-section">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-12">
@@ -38,10 +38,10 @@ export default function DashboardScreenshots() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="lqd-mockup-device lqd-mockup-imac-style-1 pos-rel" style={{ position: 'relative', maxWidth: 900, margin: '0 auto' }}>
-                    <img src="/wp-content/themes/ave/assets/img/mockups/imac/mockup-1.png" alt="iMac" style={{ width: '100%', display: 'block' }} />
+                  <div className="lqd-mockup-device lqd-mockup-imac-style-1 pos-rel erp-dashboard-mockup">
+                    <img src="/wp-content/themes/ave/assets/img/mockups/imac/mockup-1.png" alt="iMac" style={{ width: '100%', display: 'block' }} loading="lazy" decoding="async" />
                     <div style={{ position: 'absolute', top: '4.5%', left: '13.5%', width: '73%', height: '69%', overflow: 'hidden' }}>
-                      <img src={dashboardScreenshots[active]} alt="ERP dashboard screenshot" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                      <img src={dashboardScreenshots[active]} alt="ERP dashboard screenshot" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" decoding="async" />
                     </div>
                   </div>
                   <div className="carousel-dots" style={{ textAlign: 'center', marginTop: 16 }}>

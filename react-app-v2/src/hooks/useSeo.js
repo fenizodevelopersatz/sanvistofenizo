@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 
 const SITE_URL = 'https://fenizotechnologies.com'
-const DEFAULT_DESCRIPTION = 'Fenizo Technologies builds websites, mobile apps, SaaS products and ready-to-launch clone scripts for growing businesses.'
+const DEFAULT_DESCRIPTION = 'CloneScript builds websites, mobile apps, SaaS products and ready-to-launch clone scripts for growing businesses.'
 
 function upsertMeta(attr, key, content) {
   let el = document.head.querySelector(`meta[${attr}="${key}"]`)

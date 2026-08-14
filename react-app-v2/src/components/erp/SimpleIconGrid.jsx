@@ -1,6 +1,6 @@
-export default function SimpleIconGrid({ items, title, desc, columns = 3 }) {
+export default function SimpleIconGrid({ items, title, desc, columns = 3, variant = 'default' }) {
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+    <section className={`vc_row wpb_row vc_row-fluid liquid-row-shadowbox erp-simple-icon-section erp-simple-icon-section--${variant}`}>
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1 vc_col-xs-offset-1 vc_col-xs-10">
@@ -24,9 +24,9 @@ export default function SimpleIconGrid({ items, title, desc, columns = 3 }) {
       </div>
 
       <div className="ld-container container">
-        <div className="row ld-row" style={{ display: 'grid', gridTemplateColumns: `repeat(${columns}, 1fr)`, gap: '10px 20px' }}>
+        <div className="row ld-row erp-simple-icon-grid" style={{ '--erp-columns': columns }}>
           {items.map((item, i) => (
-            <div className="iconbox iconbox-inline iconbox-square" key={i} style={{ color: '#006fff' }}>
+            <div className="iconbox iconbox-inline iconbox-square erp-simple-icon-card" key={i} style={{ color: '#006fff' }}>
               <div className="iconbox-icon-wrap">
                 <span className="iconbox-icon-container"><i className={item.icon}></i></span>
               </div>

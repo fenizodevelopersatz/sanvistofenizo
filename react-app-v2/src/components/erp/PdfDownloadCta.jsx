@@ -6,7 +6,7 @@ export default function PdfDownloadCta() {
   const { values, handleChange, handleSubmit, submitted } = useContactForm({ fullname: '', email: '' })
 
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a666a000">
+    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a666a000 erp-guide-section">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-10 text-center vc_col-sm-offset-1">
@@ -35,9 +35,12 @@ export default function PdfDownloadCta() {
         </div>
       </div>
 
-      <div className="ld-container container">
-        <div className="row ld-row">
-          <div className="wpb_column vc_column_container vc_col-sm-12 text-center">
+      <div className="ld-container container erp-guide-container">
+        <div className="row ld-row erp-guide-panel">
+          <div className="erp-guide-visual">
+            <img src="/wp-content/uploads/2026/07/erp-feature-guide.webp" width="307" height="406" alt="ERP feature guide" loading="lazy" decoding="async" />
+          </div>
+          <div className="wpb_column vc_column_container vc_col-sm-12 text-center erp-guide-copy">
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">

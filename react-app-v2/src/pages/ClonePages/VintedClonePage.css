@@ -131,15 +131,15 @@
   }
 
   .vinted-motion-page > section:nth-child(2) {
-    min-height: 866px;
-    padding-top: 100px;
-    padding-bottom: 30px;
+    min-height: 0;
+    padding-top: var(--fenizo-section-y);
+    padding-bottom: var(--fenizo-section-y-compact);
   }
 
   .vinted-motion-page > section:nth-child(3) {
-    min-height: 633px;
-    padding-top: 105px;
-    padding-bottom: 105px;
+    min-height: 0;
+    padding-top: var(--fenizo-section-y);
+    padding-bottom: var(--fenizo-section-y);
   }
 
   .vinted-motion-page > section:nth-child(2) > section:nth-child(2) {
@@ -148,24 +148,13 @@
 
   .vinted-overview-group {
     display: flex;
-    min-height: 3108px;
+    min-height: 0;
     flex-direction: column;
+    gap: var(--fenizo-section-y-compact);
   }
 
-  .vinted-overview-group > section:nth-child(2) {
-    margin-top: 250px !important;
-  }
-
-  .vinted-overview-group > section:nth-child(3) {
-    margin-top: 100px !important;
-  }
-
-  .vinted-overview-group > section:nth-child(4) {
-    margin-top: 250px !important;
-  }
-
-  .vinted-overview-group > section:nth-child(5) {
-    margin-top: 370px !important;
+  .vinted-overview-group > section:nth-child(n + 2) {
+    margin-top: 0 !important;
   }
 
   .vinted-motion-page > section:nth-child(5) {
@@ -235,6 +224,18 @@
 
   .vinted-motion-page > section:nth-child(17) {
     margin-top: 38px !important;
+  }
+
+  .vinted-motion-page > section:nth-child(n + 5):nth-child(-n + 16) {
+    height: auto;
+    min-height: 0;
+    padding-top: var(--fenizo-section-y);
+    padding-bottom: var(--fenizo-section-y-compact);
+  }
+
+  .vinted-motion-page > section:nth-child(7),
+  .vinted-motion-page > section:nth-child(17) {
+    margin-top: 0 !important;
   }
 }
 

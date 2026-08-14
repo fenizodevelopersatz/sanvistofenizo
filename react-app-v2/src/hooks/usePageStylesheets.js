@@ -1,51 +1,118 @@
 import { useLayoutEffect, useState } from 'react'
 
-// Each original page has its own compiled WPBakery CSS bundle (the "-8-", "-11-", "-12-"
-// suffixed files) containing that page's vc_custom_* rules. Loading only the shared
-// bundles is not enough — those page-specific files must be injected per route and
-// removed on navigation away, so per-page classes actually have matching CSS.
+const stylesheetRegistry = new Map()
+const activeLoads = new Set()
+let loadSequence = 0
+let routeGuardToken = null
+
+function syncLoadingState() {
+  if (activeLoads.size > 0) {
+    document.body.classList.add('fenizo-page-styles-loading')
+    document.body.setAttribute('aria-busy', 'true')
+    return
+  }
+
+  document.body.classList.remove('fenizo-page-styles-loading')
+  document.body.removeAttribute('aria-busy')
+}
+
+export function expectPageStyles() {
+  if (routeGuardToken !== null) activeLoads.delete(routeGuardToken)
+  routeGuardToken = ++loadSequence
+  activeLoads.add(routeGuardToken)
+  syncLoadingState()
+}
+
+function releaseRouteGuard() {
+  if (routeGuardToken === null) return
+  activeLoads.delete(routeGuardToken)
+  routeGuardToken = null
+}
+
+function acquireStylesheet(href) {
+  let record = stylesheetRegistry.get(href)
+
+  if (!record) {
+    const link = document.createElement('link')
+    link.rel = 'stylesheet'
+    link.href = href
+    link.dataset.pageStylesheet = 'true'
+
+    record = { href, link, loaded: null, references: 0, settled: false }
+    record.loaded = new Promise((resolve) => {
+      let fallbackTimer
+      const finish = () => {
+        window.clearTimeout(fallbackTimer)
+        record.settled = true
+        if (record.references === 0) record.link.disabled = true
+        resolve()
+      }
+
+      link.addEventListener('load', finish, { once: true })
+      link.addEventListener('error', finish, { once: true })
+      fallbackTimer = window.setTimeout(finish, 12000)
+    })
+
+    stylesheetRegistry.set(href, record)
+    document.head.appendChild(link)
+  } else {
+    record.link.disabled = false
+    // Re-appending preserves the route bundle cascade while reusing the
+    // browser's parsed stylesheet instead of downloading it again.
+    document.head.appendChild(record.link)
+  }
+
+  record.references += 1
+  return record
+}
+
+function releaseStylesheet(record) {
+  record.references = Math.max(0, record.references - 1)
+  // Do not interrupt a first load during React Strict Mode's test cleanup.
+  if (record.references === 0 && record.settled) record.link.disabled = true
+}
+
+// Cache inactive route bundles but disable them so styles cannot leak between
+// pages. A token set keeps Strict Mode and route cleanups from clearing another
+// page's loading state.
 export function usePageStylesheets(hrefs) {
   const [isReady, setIsReady] = useState(false)
 
   useLayoutEffect(() => {
     let cancelled = false
-    let remaining = hrefs.length
     let readyFrame
-    document.body.classList.add('fenizo-page-styles-loading')
-    setIsReady(remaining === 0)
+    const loadToken = ++loadSequence
 
-    if (remaining === 0) {
-      document.body.classList.remove('fenizo-page-styles-loading')
-    }
+    activeLoads.add(loadToken)
+    syncLoadingState()
+    setIsReady(false)
 
-    const markLoaded = () => {
-      remaining -= 1
-      if (remaining !== 0) return
-      const fontsReady = document.fonts?.ready ?? Promise.resolve()
-      fontsReady.then(() => {
-        if (cancelled) return
+    const records = hrefs.map(acquireStylesheet)
+    const stylesReady = Promise.all(records.map((record) => record.loaded))
+    const fontsReady = document.fonts?.ready ?? Promise.resolve()
+
+    Promise.all([stylesReady, fontsReady]).then(() => {
+      if (cancelled) return
+      readyFrame = window.requestAnimationFrame(() => {
+        // A large legacy bundle can dispatch `load` before Chrome performs its
+        // first complete style calculation. Force that calculation, then reveal
+        // on the following frame so users never see stacked, unstyled columns.
+        void document.documentElement.offsetHeight
         readyFrame = window.requestAnimationFrame(() => {
-          document.body.classList.remove('fenizo-page-styles-loading')
+          activeLoads.delete(loadToken)
+          releaseRouteGuard()
+          syncLoadingState()
           setIsReady(true)
         })
       })
-    }
-
-    const links = hrefs.map((href) => {
-      const link = document.createElement('link')
-      link.rel = 'stylesheet'
-      link.href = href
-      link.dataset.pageStylesheet = 'true'
-      link.addEventListener('load', markLoaded, { once: true })
-      link.addEventListener('error', markLoaded, { once: true })
-      document.head.appendChild(link)
-      return link
     })
+
     return () => {
       cancelled = true
-      document.body.classList.remove('fenizo-page-styles-loading')
+      activeLoads.delete(loadToken)
+      syncLoadingState()
       if (readyFrame) window.cancelAnimationFrame(readyFrame)
-      links.forEach((link) => document.head.removeChild(link))
+      records.forEach(releaseStylesheet)
     }
   }, [hrefs])
 

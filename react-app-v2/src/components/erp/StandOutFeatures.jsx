@@ -2,7 +2,7 @@ import { standOutFeatures } from '../../data/erp/coreModules.js'
 
 export default function StandOutFeatures() {
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a6672000">
+    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a6672000 erp-standout-section">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1">
@@ -26,7 +26,7 @@ export default function StandOutFeatures() {
       </div>
 
       <div className="ld-container container">
-        <div className="row ld-row">
+        <div className="row ld-row erp-standout-grid">
           {standOutFeatures.map((f, i) => (
             <div className="hover-flash-card wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-0 vc_col-md-4 vc_col-sm-offset-1" key={i}>
               <div className="vc_column-inner">

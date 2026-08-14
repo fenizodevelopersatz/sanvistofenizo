@@ -2,7 +2,7 @@ import { erpBlogPosts } from '../../data/erp/erpBlogPosts.js'
 
 export default function ErpBlogTeaser() {
   return (
-    <section id="blog" className="vc_row wpb_row vc_row-fluid vc_custom_1540648603831 row-contains-padding-top row-contains-padding-bottom liquid-row-shadowbox-6a665a6695e7b">
+    <section id="blog" className="vc_row wpb_row vc_row-fluid vc_custom_1540648603831 row-contains-padding-top row-contains-padding-bottom liquid-row-shadowbox-6a665a6695e7b erp-journal-section">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-8 vc_col-sm-offset-2 text-center">
@@ -34,10 +34,10 @@ export default function ErpBlogTeaser() {
                         <div className="col-md-4" key={i}>
                           <article className="liquid-lp post type-post status-publish format-standard has-post-thumbnail hentry">
                             <figure className="liquid-lp-media rounded">
-                              <a href="#"><img src={post.image} width="740" height="500" className="attachment-liquid-rounded-blog size-liquid-rounded-blog wp-post-image" alt={post.alt} /></a>
+                              <a href="#blog"><img src={post.image} width="740" height="500" className="attachment-liquid-rounded-blog size-liquid-rounded-blog wp-post-image" alt={post.alt} loading="lazy" decoding="async" /></a>
                             </figure>
                             <header className="liquid-lp-header">
-                              <h2 className="entry-title liquid-lp-title h5"><a href="#" rel="bookmark">{post.title}</a></h2>
+                              <h2 className="entry-title liquid-lp-title h5"><a href="#blog" rel="bookmark">{post.title}</a></h2>
                               <time className="liquid-lp-date font-style-italic size-lg">{post.date}</time>
                             </header>
                           </article>

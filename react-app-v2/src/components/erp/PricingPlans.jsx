@@ -2,7 +2,7 @@ import { pricingPlans } from '../../data/erp/coreModules.js'
 
 export default function PricingPlans() {
   return (
-    <section id="prices" className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a668d000">
+    <section id="prices" className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a668d000 erp-pricing-section">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-12">
@@ -11,6 +11,7 @@ export default function PricingPlans() {
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title text-center">
                     <h2 style={{ textAlign: 'center' }} className="vc_custom_heading">Pick Price Plan</h2>
+                    <p className="erp-section-description">Pick the plan that suits your business needs and get started with ease.</p>
                   </header>
                 </div>
               </div>
@@ -42,7 +43,7 @@ export default function PricingPlans() {
                         </ul>
                       </div>
                       <div className="pricing-table-footer">
-                        <a href="#" className="btn btn-solid text-uppercase btn-md circle btn-bordered border-thin btn-icon-left">
+                        <a href="#prices" className="btn btn-solid text-uppercase btn-md circle btn-bordered border-thin btn-icon-left">
                           <span>
                             <span className="btn-txt">Invest Now</span>
                             <span className="btn-icon"><i className="fa fa-brands fa-opencart"></i></span>

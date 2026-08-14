@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom'
 
 export function LaunchCta() {
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a6686000">
+    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a6686000 erp-launch-section">
       <div className="ld-container container">
-        <div className="row ld-row">
+        <div className="row ld-row erp-launch-panel">
           <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-0 vc_col-md-6 vc_col-xs-offset-1 vc_col-xs-10 vc_col-has-fill">
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
@@ -22,6 +22,9 @@ export function LaunchCta() {
               </div>
             </div>
           </div>
+          <div className="erp-launch-visual">
+            <img src="/wp-content/uploads/2026/07/erp_solution.webp" width="560" height="450" alt="ERP solution interface" loading="lazy" decoding="async" />
+          </div>
         </div>
       </div>
     </section>
@@ -30,9 +33,12 @@ export function LaunchCta() {
 
 export function MoneyBackGuarantee() {
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a668f000">
+    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a668f000 erp-moneyback-section">
       <div className="ld-container container">
-        <div className="row ld-row">
+        <div className="row ld-row erp-moneyback-panel">
+          <div className="erp-moneyback-visual">
+            <img src="/wp-content/uploads/2024/12/Group-15.png" width="185" height="120" alt="100 percent money back guarantee" loading="lazy" decoding="async" />
+          </div>
           <div className="wpb_column vc_column_container vc_col-sm-12">
             <div className="vc_column-inner">
               <div className="wpb_wrapper">

@@ -1,6 +1,15 @@
+const trustPlatforms = [
+  ['google-sangvish.webp', 'Google reviews'],
+  ['glassdoor-sangvish.webp', 'Glassdoor reviews'],
+  ['trustpilot-sangvish.webp', 'Trustpilot reviews'],
+  ['ambitionbox-sangvish.webp', 'AmbitionBox reviews'],
+  ['sitejabber-sangvish.webp', 'Sitejabber reviews'],
+  ['justdial-sangvish.webp', 'Justdial reviews'],
+]
+
 export default function TrustedByClients() {
   return (
-    <section className="vc_section vc_custom_1776320292174 vc_section-has-fill">
+    <section className="vc_section vc_custom_1776320292174 vc_section-has-fill erp-trusted-section">
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a663fd23">
         <div className="ld-container container">
           <div className="row ld-row">
@@ -30,6 +39,17 @@ export default function TrustedByClients() {
                       </h2>
                     </div>
                     <div className="vc_empty_space" style={{ height: 67 }}><span className="vc_empty_space_inner"></span></div>
+                    <div className="erp-trust-logos" aria-label="Independent review platforms">
+                      {trustPlatforms.map(([file, label]) => (
+                        <img
+                          key={file}
+                          src={`/wp-content/uploads/2025/01/${file}`}
+                          alt={label}
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -45,7 +65,7 @@ export default function TrustedByClients() {
               <div className="vc_column-inner">
                 <div className="wpb_wrapper">
                   <div className="wpb_wrapper-inner">
-                    <div className="vc_empty_space" style={{ height: 20 }}><span className="vc_empty_space_inner"></span></div>
+                    <div className="vc_empty_space erp-recognition-space" style={{ height: 20 }}><span className="vc_empty_space_inner"></span></div>
                     <div className="ld-fancy-heading text-center">
                       <h4 className="lqd-highlight-underline lqd-highlight-grow-left">
                         <span className="ld-fh-txt">Recognized by <span style={{ color: '#002692' }}>clients</span></span>

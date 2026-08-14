@@ -2,7 +2,7 @@ import { detailedFeatures } from '../../data/erp/coreModules.js'
 
 export default function DetailedFeatures() {
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a6663000">
+    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a6663000 erp-modules-section">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-12">
@@ -25,7 +25,7 @@ export default function DetailedFeatures() {
             </div>
           </div>
         </div>
-        <div className="row ld-row">
+        <div className="row ld-row erp-modules-grid">
           {detailedFeatures.map((f, i) => (
             <div className="wpb_column vc_column_container vc_col-sm-3" key={i}>
               <div className="vc_column-inner">

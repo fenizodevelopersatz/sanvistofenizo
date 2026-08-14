@@ -6,6 +6,7 @@
    it. Drive the same open/closed visual directly off the .show class this
    component already toggles. */
 .ld-module-cart-offcanvas .ld-module-dropdown {
+  display: none;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -14,6 +15,7 @@
   transition: opacity 0.3s, visibility 0.3s, clip-path 0.3s;
 }
 .ld-module-cart-offcanvas .ld-module-dropdown.show {
+  display: block;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;

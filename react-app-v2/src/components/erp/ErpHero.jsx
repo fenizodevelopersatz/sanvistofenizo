@@ -5,7 +5,7 @@ export default function ErpHero() {
         background:
           'linear-gradient(180deg, rgb(245,247,255) 0.990099%, rgb(245,247,255) 1.65017%, rgb(238,242,255) 19.802%, rgb(224,231,255) 39.3399%, rgb(241,245,249) 60%, rgb(248,250,252) 85%, rgb(255,255,255) 99.67%)',
       }}
-      className="vc_row wpb_row vc_row-fluid sv_first_row liquid-row-shadowbox-6a665a663b21b"
+      className="vc_row wpb_row vc_row-fluid sv_first_row liquid-row-shadowbox-6a665a663b21b erp-hero"
     >
       <div className="ld-container container">
         <div className="row ld-row">

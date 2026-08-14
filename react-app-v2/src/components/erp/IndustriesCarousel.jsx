@@ -2,7 +2,7 @@ import { industries } from '../../data/erp/coreModules.js'
 
 export default function IndustriesCarousel() {
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a666e000">
+    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a666e000 erp-industries-section">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-12">
@@ -27,11 +27,11 @@ export default function IndustriesCarousel() {
       </div>
 
       <div className="ld-container container-fluid">
-        <div className="row ld-row" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 16 }}>
+        <div className="row ld-row erp-industries-grid">
           {industries.map((ind, i) => (
             <div className="fancy-box border-radius-3 scheme-light fancy-box-overlay tall" key={i} style={{ position: 'relative', borderRadius: 15, overflow: 'hidden' }}>
               <div className="cb-img-container border-radius-3">
-                <img src={ind.image} alt={ind.title} style={{ width: '100%', height: 330, objectFit: 'cover', display: 'block' }} />
+                <img src={ind.image} alt={ind.title} loading="lazy" decoding="async" />
               </div>
               <span className="cb-overlay" style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0.75) 100%)' }}></span>
               <div className="fancy-box-contents border-radius-3" style={{ position: 'absolute', left: 0, right: 0, bottom: 0, padding: '20px' }}>

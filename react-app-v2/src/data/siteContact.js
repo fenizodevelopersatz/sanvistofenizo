@@ -6,8 +6,8 @@
 // "ready-made clone script" storefront — it has no per-product live-demo subdomains, so
 // cloneDemoUrl stays '#'.
 export const siteContact = {
-  companyName: 'Fenizo Technologies',
-  shortName: 'Fenizo',
+  companyName: 'CloneScript',
+  shortName: 'CloneScript',
   supportEmail: 'info@fenizotechnologies.com',
   careersEmail: 'hr@fenizotechnologies.com',
   whatsappNumber: '+91 944 321 8385',

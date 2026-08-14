@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-14T10:54:21.685796+00:00",
+  "generated_at": "2026-08-14T12:14:03.683453+00:00",
   "nodes": {
+    "app_erpsoftwarepage": {
+      "code_fingerprint": "f80fac12f0a718ba179ca840646aab972d0cf151198ddaba8d880764c0ffc5ae",
+      "label": "ErpSoftwarePage",
+      "last": "2026-08-14T12:00:23.031011+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-14T12:00:23.031011+00:00",
+          "outcome": "useful",
+          "q": "Compare erp-software.html and the React /erp-software page section by section, fix layout, spacing, typography, images, responsive behavior, subtle animation, and complete final visual QA with a dated docs report."
+        }
+      ],
+      "score": 0.999780567,
+      "source_file": "App.jsx",
+      "status": "tentative",
+      "uses": 1
+    },
     "components_footer_footer_footer": {
       "code_fingerprint": "30924f724637d4556a0b4e60da3ba5971bf099c62148ef1a6db26f0f560668f3",
       "label": "Footer()",
@@ -12,7 +28,7 @@
           "q": "see index.html compare the this section fooder on same row but our react Fix the issue"
         }
       ],
-      "score": 0.998789899,
+      "score": 0.997513471,
       "source_file": "components/footer/Footer.jsx",
       "status": "tentative",
       "uses": 1
@@ -28,7 +44,7 @@
           "q": "see index.html compare the this section fooder on same row but our react Fix the issue"
         }
       ],
-      "score": 0.998789899,
+      "score": 0.997513471,
       "source_file": "components/footer/FooterBottom.jsx",
       "status": "tentative",
       "uses": 1
@@ -44,7 +60,7 @@
           "q": "see index.html compare the this section fooder on same row but our react Fix the issue"
         }
       ],
-      "score": 0.998789899,
+      "score": 0.997513471,
       "source_file": "components/Layout.jsx",
       "status": "tentative",
       "uses": 1

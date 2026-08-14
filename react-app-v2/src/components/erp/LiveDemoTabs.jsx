@@ -5,12 +5,12 @@ export default function LiveDemoTabs() {
   const [tab, setTab] = useState('website')
 
   const tabs = {
-    website: { label: 'Website', url: siteContact.erpStoreDemoUrl },
-    admin: { label: 'Admin Dashboard', url: siteContact.erpAdminDemoUrl },
+    website: { label: 'Website', url: siteContact.erpStoreDemoUrl, image: '/wp-content/uploads/2026/07/Online-Store.webp', alt: 'ERP online store live demo' },
+    admin: { label: 'Admin Dashboard', url: siteContact.erpAdminDemoUrl, image: '/wp-content/uploads/2026/07/admin_dashboard.webp', alt: 'ERP admin dashboard live demo' },
   }
 
   return (
-    <section id="demo" className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a668000">
+    <section id="demo" className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a668000 erp-demo-section">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-12">
@@ -50,8 +50,11 @@ export default function LiveDemoTabs() {
                       {Object.entries(tabs).map(([key, t]) => (
                         <div key={key} role="tabpanel" className={`tabs-pane fade${tab === key ? ' active in' : ''}`}>
                           {tab === key && (
-                            <div className="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex">
-                              <div className="wpb_column vc_column_container vc_col-sm-12 text-center">
+                            <div className="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex erp-demo-layout">
+                              <div className="erp-demo-preview">
+                                <img src={t.image} alt={t.alt} loading="lazy" decoding="async" />
+                              </div>
+                              <div className="wpb_column vc_column_container vc_col-sm-12 text-center erp-demo-credentials">
                                 <div className="vc_column-inner">
                                   <div className="wpb_wrapper">
                                     <div className="wpb_wrapper-inner">

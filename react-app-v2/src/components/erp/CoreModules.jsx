@@ -2,7 +2,7 @@ import { coreModules } from '../../data/erp/coreModules.js'
 
 export default function CoreModules() {
   return (
-    <section className="vc_section">
+    <section className="vc_section erp-core-section">
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a66503f8">
         <div className="ld-container container">
           <div className="row ld-row">
@@ -27,7 +27,7 @@ export default function CoreModules() {
 
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a6650f21">
         <div className="ld-container container">
-          <div className="row ld-row">
+          <div className="row ld-row erp-core-grid">
             {coreModules.map((m, i) => (
               <div className="wpb_column vc_column_container vc_col-sm-1/5" key={i}>
                 <div className="vc_column-inner">

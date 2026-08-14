@@ -5,6 +5,7 @@ import { useMobileNav } from '../hooks/useMobileNav.js'
 import MegaMenu from './MegaMenu.jsx'
 import CartDropdown from './CartDropdown.jsx'
 import GradientButton from './GradientButton.jsx'
+import { siteBrand } from '../data/siteBrand.js'
 import './Header.css'
 
 export default function Header() {
@@ -78,12 +79,11 @@ export default function Header() {
                   <Link className="navbar-brand" to="/">
                     <span className="navbar-brand-inner">
                       <img
-                        src="/wp-content/uploads/2026/03/fenizo-logo-primary.png"
-                        alt="FENIZO"
+                        src={siteBrand.logo}
+                        alt={siteBrand.name}
                         className="logo-default"
-                        width="600"
-                        height="200"
-                        style={{ height: 34, width: 'auto' }}
+                        width={siteBrand.logoWidth}
+                        height={siteBrand.logoHeight}
                       />
                     </span>
                   </Link>
