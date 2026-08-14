@@ -62,7 +62,7 @@ export default function ContactForm() {
           </div>
           <div className="row">
             <div className="col-sm-6">
-              <p className="wpcf7-inline-field">Whatspp/ Mobile number *</p>
+              <p className="wpcf7-inline-field">WhatsApp / mobile number *</p>
               <p>
                 <span className="wpcf7-form-control-wrap">
                   <input

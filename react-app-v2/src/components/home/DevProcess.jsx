@@ -31,7 +31,7 @@ export default function DevProcess() {
                   <div className="wpb_wrapper-inner">
                     <div className="ld-fancy-heading ld-fh-has-fill text-center">
                       <p className="circle lqd-highlight-underline lqd-highlight-grow-left">
-                        <span className="ld-fh-txt"> Web &amp; APP Devleopment Process</span>
+                        <span className="ld-fh-txt"> Web &amp; App Development Process</span>
                       </p>
                     </div>
                     <header className="fancy-title text-center">
@@ -79,6 +79,8 @@ export default function DevProcess() {
                             className="vc_single_image-img attachment-full"
                             alt="Web-Devleopment-Process"
                             title="Web-Devleopment-Process"
+                            loading="lazy"
+                            decoding="async"
                           />
                         </div>
                       </figure>

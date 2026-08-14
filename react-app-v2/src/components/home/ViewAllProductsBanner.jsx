@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function ViewAllProductsBanner() {
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40bb923">
@@ -10,12 +12,12 @@ export default function ViewAllProductsBanner() {
                   <div className="ld-empty-space">
                     <span className="liquid_empty_space_inner"></span>
                   </div>
-                  <a href="#" title="Products" target="_blank" rel="noreferrer" className="btn btn-solid btn-md circle btn-bordered border-thin btn-icon-circle" style={{ marginRight: 15 }}>
+                  <Link to="/#products" title="Products" className="fenizo-products-cta btn btn-solid btn-md circle btn-bordered border-thin btn-icon-circle">
                     <span>
                       <span className="btn-txt">View all products</span>
                       <span className="btn-icon"><i className="fas fa-hand-point-right"></i></span>
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -13,6 +13,7 @@ import ViewAllProductsBanner from '../components/home/ViewAllProductsBanner.jsx'
 import TechStackBanner from '../components/home/TechStackBanner.jsx'
 import DevProcess from '../components/home/DevProcess.jsx'
 import ConnectWithUs from '../components/home/ConnectWithUs.jsx'
+import './HomePage.css'
 
 export default function HomePage() {
   usePageStylesheets(pageStylesheets.home)

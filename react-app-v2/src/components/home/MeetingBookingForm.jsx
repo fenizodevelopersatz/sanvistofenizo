@@ -59,7 +59,7 @@ export default function MeetingBookingForm() {
             <div className="row">
               <div className="col-sm-12">
                 <p>
-                  <label htmlFor="phone-number" className="wpcf7-inline-field">Whatsapp number</label>
+                  <label htmlFor="phone-number" className="wpcf7-inline-field">WhatsApp number</label>
                   <br />
                   <span className="wpcf7-form-control-wrap">
                     <input

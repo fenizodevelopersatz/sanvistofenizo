@@ -10,10 +10,10 @@ export default function ScheduleFormSection() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="wpb_single_image wpb_content_element vc_align_center">
+                  <div className="fenizo-meeting-visual wpb_single_image wpb_content_element vc_align_center">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2023/03/website-meeting-1.webp" width="400" height="453" className="vc_single_image-img attachment-full" alt="Fenizo specialist ready to discuss a software project" title="website-meeting-1" loading="lazy" />
+                        <img src="/assets/images/fenizo/expert-chat.svg" width="480" height="520" className="vc_single_image-img attachment-full" alt="Illustration of a Fenizo specialist ready to discuss a software project" title="fenizo-expert-chat" loading="lazy" decoding="async" />
                       </div>
                     </figure>
                   </div>
@@ -44,7 +44,7 @@ export default function ScheduleFormSection() {
                     </figure>
                   </div>
                   <header className="fancy-title text-center">
-                    <h3>Book a Meeting with Mr. Raja</h3>
+                    <h3>Book a Meeting with a Fenizo Expert</h3>
                   </header>
                   <MeetingBookingForm />
                 </div>

@@ -71,6 +71,8 @@ export default function ConnectWithUs() {
                           height="364"
                           className="vc_single_image-img attachment-full"
                           alt="web-development-company"
+                          loading="lazy"
+                          decoding="async"
                         />
                       </div>
                     </figure>

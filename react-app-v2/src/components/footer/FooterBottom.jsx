@@ -46,7 +46,7 @@ export default function FooterBottom() {
                       <span className="liquid_empty_space_inner"></span>
                     </div>
                     <div className="wpb_single_image wpb_content_element vc_align_left vc_custom_1773139863014">
-                      <span style={{ fontSize: 24, fontWeight: 700, color: '#101B48', letterSpacing: 0.5, display: 'inline-block' }}>FENIZO</span>
+                      <img src="/wp-content/uploads/2026/03/fenizo-logo-primary.png" width="180" height="60" alt="Fenizo Technologies" loading="lazy" decoding="async" />
                     </div>
                     <div className="ld-empty-space">
                       <span className="liquid_empty_space_inner"></span>
@@ -93,7 +93,7 @@ export default function FooterBottom() {
                       <div className="iconbox-icon-wrap">
                         <span className="iconbox-icon-container"></span>
                       </div>
-                      <h3 className="font-weight-semibold">Follow US On:</h3>
+                      <h3 className="font-weight-semibold">Follow Us:</h3>
                     </div>
                     <ul className="social-icon branded-text square social-icon-sm custom-social-icon-shadow">
                       {socialLinks.map((s, i) => (
@@ -112,7 +112,7 @@ export default function FooterBottom() {
               </div>
             </div>
 
-            <div className="wpb_column vc_column_container vc_col-sm-4 vc_col-md-5">
+            <div className="wpb_column vc_column_container vc_col-sm-8 vc_col-md-8">
               <div className="vc_column-inner">
                 <div className="wpb_wrapper vc_custom_1726298044719">
                   <div className="wpb_wrapper-inner">
@@ -134,19 +134,6 @@ export default function FooterBottom() {
               </div>
             </div>
 
-            <div className="wpb_column vc_column_container vc_col-sm-3 vc_col-has-fill">
-              <div className="vc_column-inner">
-                <div className="wpb_wrapper vc_custom_1726203548888">
-                  <div className="wpb_wrapper-inner">
-                    <div className="vc_wp_text wpb_content_element doller-image-zindex">
-                      <div className="widget widget_text">
-                        <div className="textwidget">USD</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -171,7 +158,7 @@ export default function FooterBottom() {
                     <div className="wpb_single_image wpb_content_element vc_align_center">
                       <figure className="wpb_wrapper vc_figure">
                         <div className="vc_single_image-wrapper vc_box_border_grey">
-                          <img src="/wp-content/uploads/2023/03/fenizo-payments.png" width="598" height="238" className="vc_single_image-img attachment-full" alt="accepted payment methods" title="accepted payment methods" />
+                          <img src="/wp-content/uploads/2023/03/fenizo-payments.png" width="598" height="238" className="vc_single_image-img attachment-full" alt="accepted payment methods" title="accepted payment methods" loading="lazy" decoding="async" />
                         </div>
                       </figure>
                     </div>
@@ -263,9 +250,9 @@ export default function FooterBottom() {
                       <div className="wpb_wrapper">
                         <p style={{ textAlign: 'left' }}>
                           <span style={{ color: '#3d3d3d', fontSize: 14 }}>
-                            <strong>Disclaimer:</strong> The terms &quot;Airbnb, Amazon, Aliexpress, Alibaba, Themeforest,
+                            <strong>Disclaimer:</strong> The names &quot;Airbnb, Amazon, Aliexpress, Alibaba, Themeforest,
                             Ebay, Etsy, Handy, Taskrabbit, Uber Clone, Ola Clone, Cabify Clone, Zomato Clone, Swiggy Clone,
-                            Udemy Clone&quot; is only used for marketing purposes, and we are not associated with any other
+                            Udemy Clone&quot; are used only for descriptive marketing purposes. We are not associated with those
                             companies, in any form. The source code and design of our products are fully owned by us. Our
                             main aim is to help the customer understand the nature of our services.
                           </span>

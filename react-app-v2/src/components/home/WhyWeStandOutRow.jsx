@@ -18,7 +18,7 @@ function ImageBlock({ item }) {
             <div className="wpb_single_image wpb_content_element vc_align_left">
               <figure className="wpb_wrapper vc_figure">
                 <div className="vc_single_image-wrapper vc_box_border_grey">
-                  <img src={item.image} width={item.imageWidth} height={item.imageHeight} className="vc_single_image-img attachment-full" alt={item.imageAlt} title={item.imageAlt} />
+                  <img src={item.image} width={item.imageWidth} height={item.imageHeight} className="vc_single_image-img attachment-full" alt={item.imageAlt} title={item.imageAlt} loading="lazy" decoding="async" />
                 </div>
               </figure>
             </div>
@@ -51,7 +51,7 @@ function TextBlock({ item }) {
 
 export default function WhyWeStandOutRow({ item }) {
   return (
-    <section className={`vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex${item.imageFirst ? '' : ' reverse-column'}`}>
+    <section className={`fenizo-reveal-x-row vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex${item.imageFirst ? '' : ' reverse-column'}`}>
       <div className="ld-container container">
         <div className="row ld-row">
           {item.imageFirst ? (

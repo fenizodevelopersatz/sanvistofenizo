@@ -42,6 +42,8 @@ export default function TeamToolsBanner() {
                           className="vc_single_image-img attachment-full"
                           alt="clone-script-solutions"
                           title="clone-script-solutions"
+                          loading="lazy"
+                          decoding="async"
                         />
                       </div>
                     </figure>

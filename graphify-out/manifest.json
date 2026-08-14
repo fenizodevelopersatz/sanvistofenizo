@@ -1,0 +1,1217 @@
+{
+  "App.jsx": {
+    "mtime": 1786635301.3139572,
+    "ast_hash": "3958e503b3de9f7f7eabc7e5d3174a73",
+    "semantic_hash": "3958e503b3de9f7f7eabc7e5d3174a73"
+  },
+  "components/CartDropdown.jsx": {
+    "mtime": 1785485586.0,
+    "ast_hash": "00173ec3bcc18b629f873d7eb37b9ef3",
+    "semantic_hash": "00173ec3bcc18b629f873d7eb37b9ef3"
+  },
+  "components/FloatingWhatsAppButton.jsx": {
+    "mtime": 1785488782.0,
+    "ast_hash": "bf6f177f01f474d59754dbe50d384d84",
+    "semantic_hash": "bf6f177f01f474d59754dbe50d384d84"
+  },
+  "components/GradientButton.jsx": {
+    "mtime": 1785756518.0,
+    "ast_hash": "3915954c1d6f94ec93c685bae4228ea9",
+    "semantic_hash": "3915954c1d6f94ec93c685bae4228ea9"
+  },
+  "components/Header.jsx": {
+    "mtime": 1786633000.2183337,
+    "ast_hash": "edfdb94ad0f6fe15efa671c5947207b5",
+    "semantic_hash": "edfdb94ad0f6fe15efa671c5947207b5"
+  },
+  "components/Layout.jsx": {
+    "mtime": 1785486844.0,
+    "ast_hash": "5de30ba6fb8063dff7d96743d693b913",
+    "semantic_hash": "5de30ba6fb8063dff7d96743d693b913"
+  },
+  "components/LeadPopup.jsx": {
+    "mtime": 1785486824.0,
+    "ast_hash": "0f2b3e6fdc08c5257c6285cfc5dbe06f",
+    "semantic_hash": "0f2b3e6fdc08c5257c6285cfc5dbe06f"
+  },
+  "components/MegaMenu.jsx": {
+    "mtime": 1785847784.9711168,
+    "ast_hash": "09fee414cd72aeae98b5ae469e6e8934",
+    "semantic_hash": "09fee414cd72aeae98b5ae469e6e8934"
+  },
+  "components/MinimalLayout.jsx": {
+    "mtime": 1785490140.0,
+    "ast_hash": "fd748461b25538a60c2ecb5145b744a6",
+    "semantic_hash": "fd748461b25538a60c2ecb5145b744a6"
+  },
+  "components/airbnb/AirbnbHero.jsx": {
+    "mtime": 1785843923.829047,
+    "ast_hash": "23042551ee7ff3df9b58d449a4fa7fc4",
+    "semantic_hash": "23042551ee7ff3df9b58d449a4fa7fc4"
+  },
+  "components/airbnb/AirbnbLiveDemo.jsx": {
+    "mtime": 1785843961.0880241,
+    "ast_hash": "82d486082201d010c4ba244b6f23189d",
+    "semantic_hash": "82d486082201d010c4ba244b6f23189d"
+  },
+  "components/airbnb/AirbnbTestimonials.jsx": {
+    "mtime": 1785843972.0904777,
+    "ast_hash": "1766c621ec5255b3e67b58735da77597",
+    "semantic_hash": "1766c621ec5255b3e67b58735da77597"
+  },
+  "components/airbnb/AppDownloadBanner.jsx": {
+    "mtime": 1785843933.24488,
+    "ast_hash": "46c9e93c5bcc1c12a369abd7fc2c1f63",
+    "semantic_hash": "46c9e93c5bcc1c12a369abd7fc2c1f63"
+  },
+  "components/airbnb/BookDemoCta.jsx": {
+    "mtime": 1785843942.919404,
+    "ast_hash": "468fc0dea50bb9140b9f57bc4c1b5c94",
+    "semantic_hash": "468fc0dea50bb9140b9f57bc4c1b5c94"
+  },
+  "components/alibaba/AiFeaturesSection.jsx": {
+    "mtime": 1785495722.0,
+    "ast_hash": "715978f8a1e9174b3e051fb81f9154ab",
+    "semantic_hash": "715978f8a1e9174b3e051fb81f9154ab"
+  },
+  "components/alibaba/AlibabaHero.jsx": {
+    "mtime": 1785495698.0,
+    "ast_hash": "ceb951be01d7547baf59c49a083ccc43",
+    "semantic_hash": "ceb951be01d7547baf59c49a083ccc43"
+  },
+  "components/alibaba/RoleFeatureTabs.jsx": {
+    "mtime": 1785495750.0,
+    "ast_hash": "7eccd5e8534b394ae02ee7b7de70bf82",
+    "semantic_hash": "7eccd5e8534b394ae02ee7b7de70bf82"
+  },
+  "components/alibaba/WhatIsAlibaba.jsx": {
+    "mtime": 1785495714.0,
+    "ast_hash": "647b060d48d9325ecebb99f35fdd0867",
+    "semantic_hash": "647b060d48d9325ecebb99f35fdd0867"
+  },
+  "components/alibaba/WhyInvest.jsx": {
+    "mtime": 1785495732.0,
+    "ast_hash": "fcf985189ee4008e225e195b004a67f9",
+    "semantic_hash": "fcf985189ee4008e225e195b004a67f9"
+  },
+  "components/amazon/AmazonFeatureTabs.jsx": {
+    "mtime": 1785764912.0,
+    "ast_hash": "0ff1c64301c7b6d23eb9de36bf4d4024",
+    "semantic_hash": "0ff1c64301c7b6d23eb9de36bf4d4024"
+  },
+  "components/amazon/AmazonHero.jsx": {
+    "mtime": 1785768486.0,
+    "ast_hash": "2b1a8b7d8c7c84d1f26b81d13a972a03",
+    "semantic_hash": "2b1a8b7d8c7c84d1f26b81d13a972a03"
+  },
+  "components/amazon/PlatformFeatureRows.jsx": {
+    "mtime": 1785764930.0,
+    "ast_hash": "4b945bc3a910272f03f93af97e996e60",
+    "semantic_hash": "4b945bc3a910272f03f93af97e996e60"
+  },
+  "components/amazon/WhatIsAmazon.jsx": {
+    "mtime": 1785768554.0,
+    "ast_hash": "695c8f863e073a3a079b469206608c87",
+    "semantic_hash": "695c8f863e073a3a079b469206608c87"
+  },
+  "components/contact/ContactForm.jsx": {
+    "mtime": 1785492832.0,
+    "ast_hash": "b89a8d12852bbba728d466dd487dfcc9",
+    "semantic_hash": "b89a8d12852bbba728d466dd487dfcc9"
+  },
+  "components/contact/ContactHero.jsx": {
+    "mtime": 1785489194.0,
+    "ast_hash": "e61b8a3948468218c0f9ac1c818dba70",
+    "semantic_hash": "e61b8a3948468218c0f9ac1c818dba70"
+  },
+  "components/contact/ContactTabs.jsx": {
+    "mtime": 1785489238.0,
+    "ast_hash": "584b63c102605ba48805fae54b710755",
+    "semantic_hash": "584b63c102605ba48805fae54b710755"
+  },
+  "components/contact/GetInTouch.jsx": {
+    "mtime": 1786369811.277232,
+    "ast_hash": "c9ab9ea826212ef3f554861344250281",
+    "semantic_hash": "c9ab9ea826212ef3f554861344250281"
+  },
+  "components/contact/SupportForm.jsx": {
+    "mtime": 1785492836.0,
+    "ast_hash": "7c5f6660c6090ee119d9d6e5fd145567",
+    "semantic_hash": "7c5f6660c6090ee119d9d6e5fd145567"
+  },
+  "components/erp/BlockquoteTestimonials.jsx": {
+    "mtime": 1785856365.2071369,
+    "ast_hash": "9b3fd6c6bd4a9d051becf60b3b15fa32",
+    "semantic_hash": "9b3fd6c6bd4a9d051becf60b3b15fa32"
+  },
+  "components/erp/CoreModules.jsx": {
+    "mtime": 1785493416.0,
+    "ast_hash": "f3a2d3317d964846e32345fd113e328b",
+    "semantic_hash": "f3a2d3317d964846e32345fd113e328b"
+  },
+  "components/erp/DashboardScreenshots.jsx": {
+    "mtime": 1785493498.0,
+    "ast_hash": "321eeb41f0ea3e942c4e6e0e5b0c12ad",
+    "semantic_hash": "321eeb41f0ea3e942c4e6e0e5b0c12ad"
+  },
+  "components/erp/DetailedFeatures.jsx": {
+    "mtime": 1785493628.0,
+    "ast_hash": "90bced62404ae92c710425938e352cdb",
+    "semantic_hash": "90bced62404ae92c710425938e352cdb"
+  },
+  "components/erp/ErpBlogTeaser.jsx": {
+    "mtime": 1785493572.0,
+    "ast_hash": "7170192377dc4234f709e036002545f7",
+    "semantic_hash": "7170192377dc4234f709e036002545f7"
+  },
+  "components/erp/ErpCtaAndImage.jsx": {
+    "mtime": 1785493376.0,
+    "ast_hash": "12cc138a5d7ad98a8351cd1b305eb275",
+    "semantic_hash": "12cc138a5d7ad98a8351cd1b305eb275"
+  },
+  "components/erp/ErpHero.jsx": {
+    "mtime": 1785493364.0,
+    "ast_hash": "1db77359c8daf34cdcb9c0bef592df94",
+    "semantic_hash": "1db77359c8daf34cdcb9c0bef592df94"
+  },
+  "components/erp/FaqSection.jsx": {
+    "mtime": 1785493532.0,
+    "ast_hash": "3e23370c97047271196e5e0319800e63",
+    "semantic_hash": "3e23370c97047271196e5e0319800e63"
+  },
+  "components/erp/IndustriesCarousel.jsx": {
+    "mtime": 1785493466.0,
+    "ast_hash": "041fc933f4f9010f882531d196daf2ff",
+    "semantic_hash": "041fc933f4f9010f882531d196daf2ff"
+  },
+  "components/erp/LiveDemoTabs.jsx": {
+    "mtime": 1785493488.0,
+    "ast_hash": "b50e87a811f7b48ccc1b7e62fcd1a6cc",
+    "semantic_hash": "b50e87a811f7b48ccc1b7e62fcd1a6cc"
+  },
+  "components/erp/MoneyBackAndLaunchCta.jsx": {
+    "mtime": 1785493652.0,
+    "ast_hash": "be702f7cfab5a2acd28c293ad0124b55",
+    "semantic_hash": "be702f7cfab5a2acd28c293ad0124b55"
+  },
+  "components/erp/PdfDownloadCta.jsx": {
+    "mtime": 1785493606.0,
+    "ast_hash": "f2abd438421f94be088dfcfd0da42b31",
+    "semantic_hash": "f2abd438421f94be088dfcfd0da42b31"
+  },
+  "components/erp/PricingPlans.jsx": {
+    "mtime": 1785493508.0,
+    "ast_hash": "4f205d7f950c2b27b8d0fb972e465cad",
+    "semantic_hash": "4f205d7f950c2b27b8d0fb972e465cad"
+  },
+  "components/erp/SimpleIconGrid.jsx": {
+    "mtime": 1785493424.0,
+    "ast_hash": "6753cc28186a95386d53a711c9b732f9",
+    "semantic_hash": "6753cc28186a95386d53a711c9b732f9"
+  },
+  "components/erp/StandOutFeatures.jsx": {
+    "mtime": 1785493446.0,
+    "ast_hash": "f71730b8a0f364e9c7480dcefacc5b82",
+    "semantic_hash": "f71730b8a0f364e9c7480dcefacc5b82"
+  },
+  "components/erp/TechStackSection.jsx": {
+    "mtime": 1785493456.0,
+    "ast_hash": "e0239d6e4f9263a6af4a65444543fe5c",
+    "semantic_hash": "e0239d6e4f9263a6af4a65444543fe5c"
+  },
+  "components/erp/TrustedByClients.jsx": {
+    "mtime": 1786606172.8038425,
+    "ast_hash": "2e25d980ba3642a477e39bda6fd0f79d",
+    "semantic_hash": "2e25d980ba3642a477e39bda6fd0f79d"
+  },
+  "components/erp/WhyChooseErp.jsx": {
+    "mtime": 1786368882.933903,
+    "ast_hash": "ccc34d2c8d2188abdf44aeaab81b91b3",
+    "semantic_hash": "ccc34d2c8d2188abdf44aeaab81b91b3"
+  },
+  "components/fiverr/AddOnFeaturesFlip.jsx": {
+    "mtime": 1785845266.2606068,
+    "ast_hash": "ccc2df5a1c749a3fca981ea3f48b5c0f",
+    "semantic_hash": "ccc2df5a1c749a3fca981ea3f48b5c0f"
+  },
+  "components/fiverr/FaqServerTabs.jsx": {
+    "mtime": 1785845313.5806246,
+    "ast_hash": "b19b4baa8d340f52001503531338b23e",
+    "semantic_hash": "b19b4baa8d340f52001503531338b23e"
+  },
+  "components/fiverr/FiverrHero.jsx": {
+    "mtime": 1785845192.5628638,
+    "ast_hash": "5c3f138e4dfadc05386ffeb7c394c837",
+    "semantic_hash": "5c3f138e4dfadc05386ffeb7c394c837"
+  },
+  "components/fiverr/FounderCta.jsx": {
+    "mtime": 1786368852.7025385,
+    "ast_hash": "84cf375db70c5c2dea280093914191d1",
+    "semantic_hash": "84cf375db70c5c2dea280093914191d1"
+  },
+  "components/fiverr/HowItWorks.jsx": {
+    "mtime": 1785845220.3019302,
+    "ast_hash": "5831653b5d038ea4023be1ca706a5f2f",
+    "semantic_hash": "5831653b5d038ea4023be1ca706a5f2f"
+  },
+  "components/fiverr/MainFeaturesRoles.jsx": {
+    "mtime": 1785845255.2699766,
+    "ast_hash": "bdd1a54982bff8164fba8a697e6dbb36",
+    "semantic_hash": "bdd1a54982bff8164fba8a697e6dbb36"
+  },
+  "components/fiverr/MobileScreens.jsx": {
+    "mtime": 1785845292.305337,
+    "ast_hash": "04cdbad3e2d26a69d9253f503599fc10",
+    "semantic_hash": "04cdbad3e2d26a69d9253f503599fc10"
+  },
+  "components/fiverr/ScheduleServiceCta.jsx": {
+    "mtime": 1785845284.5692453,
+    "ast_hash": "0da24f8a4705487b7925579baa955524",
+    "semantic_hash": "0da24f8a4705487b7925579baa955524"
+  },
+  "components/fiverr/TechWeUsed.jsx": {
+    "mtime": 1785845272.8246157,
+    "ast_hash": "4288b2a98e0d2e185fb217e2d9ab2ea1",
+    "semantic_hash": "4288b2a98e0d2e185fb217e2d9ab2ea1"
+  },
+  "components/fiverr/TrustedByBuyers.jsx": {
+    "mtime": 1786371162.158769,
+    "ast_hash": "95d4fecb966ec2f17e5bda7033bfe5d8",
+    "semantic_hash": "95d4fecb966ec2f17e5bda7033bfe5d8"
+  },
+  "components/fiverr/WhatIsFiverr.jsx": {
+    "mtime": 1785845212.744067,
+    "ast_hash": "1106c1a2b7b46a5f6f034bc34a335a86",
+    "semantic_hash": "1106c1a2b7b46a5f6f034bc34a335a86"
+  },
+  "components/fiverr/WhyChooseUs.jsx": {
+    "mtime": 1785845231.096179,
+    "ast_hash": "0bc45c4f918bbc883d994b26a5e5d4d6",
+    "semantic_hash": "0bc45c4f918bbc883d994b26a5e5d4d6"
+  },
+  "components/footer/Footer.jsx": {
+    "mtime": 1786606172.879762,
+    "ast_hash": "330e135004a67e2b8275a7989e46fd99",
+    "semantic_hash": "330e135004a67e2b8275a7989e46fd99"
+  },
+  "components/footer/FooterBottom.jsx": {
+    "mtime": 1786369805.3957686,
+    "ast_hash": "003ffbf557c3f5bbca10d14fb1d19d35",
+    "semantic_hash": "003ffbf557c3f5bbca10d14fb1d19d35"
+  },
+  "components/footer/FooterSitemap.jsx": {
+    "mtime": 1785487744.0,
+    "ast_hash": "49b67ad27cfad32b802a9e48ec7f9a45",
+    "semantic_hash": "49b67ad27cfad32b802a9e48ec7f9a45"
+  },
+  "components/footer/TestimonialRotatorSection.jsx": {
+    "mtime": 1785488924.0,
+    "ast_hash": "064145ca7a352bd162e0e39d6fa81f72",
+    "semantic_hash": "064145ca7a352bd162e0e39d6fa81f72"
+  },
+  "components/gojek/AllInOneSuperApp.jsx": {
+    "mtime": 1785844243.694351,
+    "ast_hash": "10e1810c9cd10251ec795bd93e170c0d",
+    "semantic_hash": "10e1810c9cd10251ec795bd93e170c0d"
+  },
+  "components/gojek/BusinessOpportunities.jsx": {
+    "mtime": 1785844283.7998874,
+    "ast_hash": "19fb93cb1936a026186ae30c7546b3a1",
+    "semantic_hash": "19fb93cb1936a026186ae30c7546b3a1"
+  },
+  "components/gojek/GojekHero.jsx": {
+    "mtime": 1785844218.8521986,
+    "ast_hash": "390e45673af217bf97e6067a0561ae7d",
+    "semantic_hash": "390e45673af217bf97e6067a0561ae7d"
+  },
+  "components/gojek/ServiceOfferTabs.jsx": {
+    "mtime": 1785844269.3885703,
+    "ast_hash": "729b946c1f266e6a50984455e24ecfbd",
+    "semantic_hash": "729b946c1f266e6a50984455e24ecfbd"
+  },
+  "components/gojek/WhatIsGojek.jsx": {
+    "mtime": 1785844233.5852268,
+    "ast_hash": "45c0e6f86457e45cd65b532cdd10b2af",
+    "semantic_hash": "45c0e6f86457e45cd65b532cdd10b2af"
+  },
+  "components/home/AchievementBanner.jsx": {
+    "mtime": 1786368882.2943187,
+    "ast_hash": "07d14c5f2975ea6339af73f4f79e752b",
+    "semantic_hash": "07d14c5f2975ea6339af73f4f79e752b"
+  },
+  "components/home/ConnectWithUs.jsx": {
+    "mtime": 1785851458.1439762,
+    "ast_hash": "52ec0223e273256ef883634b0fda0156",
+    "semantic_hash": "52ec0223e273256ef883634b0fda0156"
+  },
+  "components/home/DevProcess.jsx": {
+    "mtime": 1785488722.0,
+    "ast_hash": "9f8b09b8e3ecfd85c4a32ca813b1ad8e",
+    "semantic_hash": "9f8b09b8e3ecfd85c4a32ca813b1ad8e"
+  },
+  "components/home/Hero.jsx": {
+    "mtime": 1786371355.9730167,
+    "ast_hash": "42e782edc6587455b1f5a9332408f1eb",
+    "semantic_hash": "42e782edc6587455b1f5a9332408f1eb"
+  },
+  "components/home/MeetingBookingForm.jsx": {
+    "mtime": 1785486578.0,
+    "ast_hash": "0ced05b074863c51380a3703a4f3ed35",
+    "semantic_hash": "0ced05b074863c51380a3703a4f3ed35"
+  },
+  "components/home/OurServices.jsx": {
+    "mtime": 1786371309.280682,
+    "ast_hash": "377453ae30f7316fc0af39b9b745146f",
+    "semantic_hash": "377453ae30f7316fc0af39b9b745146f"
+  },
+  "components/home/ReadyMadeSolutions.jsx": {
+    "mtime": 1785487696.0,
+    "ast_hash": "a445a1a1e1dc4f9c9178fdb5e215cdde",
+    "semantic_hash": "a445a1a1e1dc4f9c9178fdb5e215cdde"
+  },
+  "components/home/ScheduleFormSection.jsx": {
+    "mtime": 1786635523.4422665,
+    "ast_hash": "db2b7dd28031b465ab1815dd396d7d94",
+    "semantic_hash": "db2b7dd28031b465ab1815dd396d7d94"
+  },
+  "components/home/StarRatingBanner.jsx": {
+    "mtime": 1785485842.0,
+    "ast_hash": "5329247cb2f1afc667595a7476002642",
+    "semantic_hash": "5329247cb2f1afc667595a7476002642"
+  },
+  "components/home/TeamToolsBanner.jsx": {
+    "mtime": 1785487986.0,
+    "ast_hash": "8597da978cb8a94a1d3feb78dceba8a4",
+    "semantic_hash": "8597da978cb8a94a1d3feb78dceba8a4"
+  },
+  "components/home/TechStackBanner.jsx": {
+    "mtime": 1786606172.9315057,
+    "ast_hash": "3efd729198d6c36217d292215367e445",
+    "semantic_hash": "3efd729198d6c36217d292215367e445"
+  },
+  "components/home/TestimonialCarousel.jsx": {
+    "mtime": 1786635519.961802,
+    "ast_hash": "4eafeb5bab8ecb63c22adc7d140e6ba6",
+    "semantic_hash": "4eafeb5bab8ecb63c22adc7d140e6ba6"
+  },
+  "components/home/TrustedByLogos.jsx": {
+    "mtime": 1786371152.753412,
+    "ast_hash": "e18156bafcab1fecd79231cfd274c704",
+    "semantic_hash": "e18156bafcab1fecd79231cfd274c704"
+  },
+  "components/home/ViewAllProductsBanner.jsx": {
+    "mtime": 1785487682.0,
+    "ast_hash": "e6b9e8787c9471a9105588daac242617",
+    "semantic_hash": "e6b9e8787c9471a9105588daac242617"
+  },
+  "components/home/WhyWeStandOut.jsx": {
+    "mtime": 1785488730.0,
+    "ast_hash": "e7d961c1595a3e8b514101fd19756002",
+    "semantic_hash": "e7d961c1595a3e8b514101fd19756002"
+  },
+  "components/home/WhyWeStandOutRow.jsx": {
+    "mtime": 1785485918.0,
+    "ast_hash": "13b923aad44ec997a170a6beab768fd4",
+    "semantic_hash": "13b923aad44ec997a170a6beab768fd4"
+  },
+  "components/olx/AddOnFeaturesFlip.jsx": {
+    "mtime": 1785842684.2563107,
+    "ast_hash": "ef4a0eb81ba6b9fcdc34a99b08e57b92",
+    "semantic_hash": "ef4a0eb81ba6b9fcdc34a99b08e57b92"
+  },
+  "components/olx/EnhanceBusinessCta.jsx": {
+    "mtime": 1785842657.3988056,
+    "ast_hash": "c5fa5836b1c07897073ddacd88b92fb0",
+    "semantic_hash": "c5fa5836b1c07897073ddacd88b92fb0"
+  },
+  "components/olx/MainFeaturesTabs.jsx": {
+    "mtime": 1785842673.3346705,
+    "ast_hash": "5f5907f384da38aee316feccb543b62f",
+    "semantic_hash": "5f5907f384da38aee316feccb543b62f"
+  },
+  "components/olx/MobileScreens.jsx": {
+    "mtime": 1785842692.4307365,
+    "ast_hash": "a5637ff63c5f5220fbb37ef37d09aec1",
+    "semantic_hash": "a5637ff63c5f5220fbb37ef37d09aec1"
+  },
+  "components/olx/OlxFaqSection.jsx": {
+    "mtime": 1785842711.290445,
+    "ast_hash": "e92422ccaf860ce3864e2f7a11b7901e",
+    "semantic_hash": "e92422ccaf860ce3864e2f7a11b7901e"
+  },
+  "components/olx/OlxHero.jsx": {
+    "mtime": 1785842609.929039,
+    "ast_hash": "c730c4a435332c37b8f82429418b7969",
+    "semantic_hash": "c730c4a435332c37b8f82429418b7969"
+  },
+  "components/olx/StartCta.jsx": {
+    "mtime": 1785842739.1572118,
+    "ast_hash": "507d75774e1f5cfa4b012f3018c27040",
+    "semantic_hash": "507d75774e1f5cfa4b012f3018c27040"
+  },
+  "components/olx/TechWeUsed.jsx": {
+    "mtime": 1785842731.2713404,
+    "ast_hash": "bde53d371ac8a60943c878174a9995d8",
+    "semantic_hash": "bde53d371ac8a60943c878174a9995d8"
+  },
+  "components/olx/TrustedByBuyers.jsx": {
+    "mtime": 1786371177.004038,
+    "ast_hash": "1a159ec673cc9feaeabf7a04c13b37c1",
+    "semantic_hash": "1a159ec673cc9feaeabf7a04c13b37c1"
+  },
+  "components/olx/WhatIsOlx.jsx": {
+    "mtime": 1785842637.0895147,
+    "ast_hash": "6612a8c09932ac905cab61dc1f9f5c04",
+    "semantic_hash": "6612a8c09932ac905cab61dc1f9f5c04"
+  },
+  "components/olx/WhyChooseUsOlx.jsx": {
+    "mtime": 1785842647.1107216,
+    "ast_hash": "c22e1ec028cae844371080b2aef2700e",
+    "semantic_hash": "c22e1ec028cae844371080b2aef2700e"
+  },
+  "components/rentalBooking/AppScreens.jsx": {
+    "mtime": 1785843398.213255,
+    "ast_hash": "ff0105d94fa0508706727c01dea4f9d1",
+    "semantic_hash": "ff0105d94fa0508706727c01dea4f9d1"
+  },
+  "components/rentalBooking/ChatWithExpertCta.jsx": {
+    "mtime": 1786368873.3076181,
+    "ast_hash": "d2643085aa6c51e90fe6b1513a0f49ab",
+    "semantic_hash": "d2643085aa6c51e90fe6b1513a0f49ab"
+  },
+  "components/rentalBooking/MainFeaturesRoles.jsx": {
+    "mtime": 1785843362.7376585,
+    "ast_hash": "91c27d2600b27de71338ea64bd9fdc97",
+    "semantic_hash": "91c27d2600b27de71338ea64bd9fdc97"
+  },
+  "components/rentalBooking/RentalBookingHero.jsx": {
+    "mtime": 1785843303.8868642,
+    "ast_hash": "d60ea33bf82259c15ae23315fb58d93e",
+    "semantic_hash": "d60ea33bf82259c15ae23315fb58d93e"
+  },
+  "components/rentalBooking/RentalCategoriesCarousel.jsx": {
+    "mtime": 1785843382.7210593,
+    "ast_hash": "80d4d0e1b7f61d516d8122c02e578282",
+    "semantic_hash": "80d4d0e1b7f61d516d8122c02e578282"
+  },
+  "components/rentalBooking/RentalEcosystem.jsx": {
+    "mtime": 1785843372.5693755,
+    "ast_hash": "0e52e64be5826b96a72c03006d2ca0d1",
+    "semantic_hash": "0e52e64be5826b96a72c03006d2ca0d1"
+  },
+  "components/rentalBooking/TechWeUsed.jsx": {
+    "mtime": 1785843390.0172293,
+    "ast_hash": "3de2b21fe66375e12098d3d6e47f9adb",
+    "semantic_hash": "3de2b21fe66375e12098d3d6e47f9adb"
+  },
+  "components/rentalBooking/TrustedByBuyers.jsx": {
+    "mtime": 1786371169.8356266,
+    "ast_hash": "95d4fecb966ec2f17e5bda7033bfe5d8",
+    "semantic_hash": "95d4fecb966ec2f17e5bda7033bfe5d8"
+  },
+  "components/rentalBooking/WhatIsRentalBooking.jsx": {
+    "mtime": 1785843323.4077272,
+    "ast_hash": "3d731bcc9d52bc33429dd00efc3a67fe",
+    "semantic_hash": "3d731bcc9d52bc33429dd00efc3a67fe"
+  },
+  "components/rentalBooking/WhyChooseUsRental.jsx": {
+    "mtime": 1785843332.7990115,
+    "ast_hash": "b8517b30fab2055e5ec2ed0a7cbed43e",
+    "semantic_hash": "b8517b30fab2055e5ec2ed0a7cbed43e"
+  },
+  "components/schedule/DemoForm.jsx": {
+    "mtime": 1785490192.0,
+    "ast_hash": "893ca6bf46af51f1e2f2da92354e98a0",
+    "semantic_hash": "893ca6bf46af51f1e2f2da92354e98a0"
+  },
+  "components/schedule/SocialProofPanel.jsx": {
+    "mtime": 1786371265.1372607,
+    "ast_hash": "e5104996a87fb3488d7843b2b2d44652",
+    "semantic_hash": "e5104996a87fb3488d7843b2b2d44652"
+  },
+  "components/schoolCrm/SchoolCrmHero.jsx": {
+    "mtime": 1785847978.210008,
+    "ast_hash": "7ccfee0ebf21864f1a672be54a82a2fa",
+    "semantic_hash": "7ccfee0ebf21864f1a672be54a82a2fa"
+  },
+  "components/schoolCrm/WhatIsSchoolCrm.jsx": {
+    "mtime": 1785847995.8983831,
+    "ast_hash": "0e79fc4dc33b9451c2f9341462e3542d",
+    "semantic_hash": "0e79fc4dc33b9451c2f9341462e3542d"
+  },
+  "components/shared/AiFeaturesGrid.jsx": {
+    "mtime": 1785768312.0,
+    "ast_hash": "ef8e9a2960ba90b2f1782229ed26a28a",
+    "semantic_hash": "ef8e9a2960ba90b2f1782229ed26a28a"
+  },
+  "components/shared/BlockquoteTestimonials.jsx": {
+    "mtime": 1785856353.276724,
+    "ast_hash": "c88d3f7bad3823ea901e5d950b443a1a",
+    "semantic_hash": "c88d3f7bad3823ea901e5d950b443a1a"
+  },
+  "components/shared/BlogTeaser.jsx": {
+    "mtime": 1785495600.0,
+    "ast_hash": "047b91d43d703e344c7f963efa50911d",
+    "semantic_hash": "047b91d43d703e344c7f963efa50911d"
+  },
+  "components/shared/ComparisonTable.jsx": {
+    "mtime": 1785499416.0,
+    "ast_hash": "c8b85ef6ed913ab161b7388c2deab7a1",
+    "semantic_hash": "c8b85ef6ed913ab161b7388c2deab7a1"
+  },
+  "components/shared/FaqAccordion.jsx": {
+    "mtime": 1785494194.0,
+    "ast_hash": "993987b49b3d2bdd48f6761d51e8e110",
+    "semantic_hash": "993987b49b3d2bdd48f6761d51e8e110"
+  },
+  "components/shared/InitialsAvatar.jsx": {
+    "mtime": 1785856320.5671327,
+    "ast_hash": "7b465ea8ce940f6bc0a7f5bfaebcdd21",
+    "semantic_hash": "7b465ea8ce940f6bc0a7f5bfaebcdd21"
+  },
+  "components/shared/LaunchCta.jsx": {
+    "mtime": 1785494212.0,
+    "ast_hash": "29d70aac08cc7712af23e544309d56f3",
+    "semantic_hash": "29d70aac08cc7712af23e544309d56f3"
+  },
+  "components/shared/LiveDemoTabs.jsx": {
+    "mtime": 1785494232.0,
+    "ast_hash": "90632e4a6fdef86c62ba2b8a8fa4a7a4",
+    "semantic_hash": "90632e4a6fdef86c62ba2b8a8fa4a7a4"
+  },
+  "components/shared/MoneyBackGuarantee.jsx": {
+    "mtime": 1785494218.0,
+    "ast_hash": "40245185e612516b0066e4bd88483a87",
+    "semantic_hash": "40245185e612516b0066e4bd88483a87"
+  },
+  "components/shared/PdfDownloadCta.jsx": {
+    "mtime": 1785499466.0,
+    "ast_hash": "25869ba5e99be9272c15671add2f5844",
+    "semantic_hash": "25869ba5e99be9272c15671add2f5844"
+  },
+  "components/shared/PricingPlans.jsx": {
+    "mtime": 1785768590.0,
+    "ast_hash": "6b3d9a27e6a44d5e9bf3b4eb3cb66c44",
+    "semantic_hash": "6b3d9a27e6a44d5e9bf3b4eb3cb66c44"
+  },
+  "components/shared/ProcessSteps.jsx": {
+    "mtime": 1785495684.0,
+    "ast_hash": "876b58fa609443be700be8c6274f8938",
+    "semantic_hash": "876b58fa609443be700be8c6274f8938"
+  },
+  "components/shared/Reveal.jsx": {
+    "mtime": 1785768156.0,
+    "ast_hash": "841fbbaa9130bc8adc7b4c333587b5b5",
+    "semantic_hash": "841fbbaa9130bc8adc7b4c333587b5b5"
+  },
+  "components/shared/RevenueBenefits.jsx": {
+    "mtime": 1785768414.0,
+    "ast_hash": "8ca15f2146c675067d4a2a47b579d77e",
+    "semantic_hash": "8ca15f2146c675067d4a2a47b579d77e"
+  },
+  "components/shared/RoleFeatureTabs.jsx": {
+    "mtime": 1785499982.0,
+    "ast_hash": "1733d418b84249b4cb13c2d8f8dff443",
+    "semantic_hash": "1733d418b84249b4cb13c2d8f8dff443"
+  },
+  "components/shared/SimpleIconGrid.jsx": {
+    "mtime": 1785495676.0,
+    "ast_hash": "6b204d8b013bc55ffd985ffd7dacb37d",
+    "semantic_hash": "6b204d8b013bc55ffd985ffd7dacb37d"
+  },
+  "components/shared/StandOutFeaturesGrid.jsx": {
+    "mtime": 1785768358.0,
+    "ast_hash": "6cddd32b7a4ecd5252644ab4f810ff4b",
+    "semantic_hash": "6cddd32b7a4ecd5252644ab4f810ff4b"
+  },
+  "components/shared/TechStackRow.jsx": {
+    "mtime": 1785495666.0,
+    "ast_hash": "abe1a1bde1c7881c3a01209a6877a069",
+    "semantic_hash": "abe1a1bde1c7881c3a01209a6877a069"
+  },
+  "components/shared/TrustedByBadges.jsx": {
+    "mtime": 1786606172.9865327,
+    "ast_hash": "7c6df2c203030120b9df9dc0c83d5d7a",
+    "semantic_hash": "7c6df2c203030120b9df9dc0c83d5d7a"
+  },
+  "components/shared/WhyChooseChecklist.jsx": {
+    "mtime": 1785768444.0,
+    "ast_hash": "5776356e3884bb8b8e7d0ede728dca53",
+    "semantic_hash": "5776356e3884bb8b8e7d0ede728dca53"
+  },
+  "components/swiggy/FaqServerTabs.jsx": {
+    "mtime": 1785843180.0834863,
+    "ast_hash": "192580999b80b66fe675b13ef9efb63c",
+    "semantic_hash": "192580999b80b66fe675b13ef9efb63c"
+  },
+  "components/swiggy/FeaturePanels.jsx": {
+    "mtime": 1785843134.1469512,
+    "ast_hash": "b1e3092e96f8083b05024245d8d7c343",
+    "semantic_hash": "b1e3092e96f8083b05024245d8d7c343"
+  },
+  "components/swiggy/FounderCta.jsx": {
+    "mtime": 1786368877.7348528,
+    "ast_hash": "82bf5684e10cef434fae5d0fdf63655c",
+    "semantic_hash": "82bf5684e10cef434fae5d0fdf63655c"
+  },
+  "components/swiggy/MobileScreensTabs.jsx": {
+    "mtime": 1785843161.4388797,
+    "ast_hash": "e77767a703cebdccb3e2a3163781f0e4",
+    "semantic_hash": "e77767a703cebdccb3e2a3163781f0e4"
+  },
+  "components/swiggy/RestaurantPos.jsx": {
+    "mtime": 1785843152.1224537,
+    "ast_hash": "0c125814567eb711e864fed2f9e261af",
+    "semantic_hash": "0c125814567eb711e864fed2f9e261af"
+  },
+  "components/swiggy/SwiggyHero.jsx": {
+    "mtime": 1785843083.8311236,
+    "ast_hash": "338329e572348119f681385cbde61e57",
+    "semantic_hash": "338329e572348119f681385cbde61e57"
+  },
+  "components/swiggy/WhatIsSwiggy.jsx": {
+    "mtime": 1785843102.272547,
+    "ast_hash": "3c10bcde9d0643feaf5b3f67e82005b9",
+    "semantic_hash": "3c10bcde9d0643feaf5b3f67e82005b9"
+  },
+  "components/swiggy/WhyChooseUs.jsx": {
+    "mtime": 1785843114.1987722,
+    "ast_hash": "93fa9581d12569a7ca87d859375f84c9",
+    "semantic_hash": "93fa9581d12569a7ca87d859375f84c9"
+  },
+  "components/tiktok/FounderExpertCta.jsx": {
+    "mtime": 1786368879.2572544,
+    "ast_hash": "d50c0ad24a0b3d1bca27742d5c862309",
+    "semantic_hash": "d50c0ad24a0b3d1bca27742d5c862309"
+  },
+  "components/tiktok/TiktokHero.jsx": {
+    "mtime": 1785843226.1852665,
+    "ast_hash": "e95191bcecc32531be6ae333922bfdcc",
+    "semantic_hash": "e95191bcecc32531be6ae333922bfdcc"
+  },
+  "components/tiktok/WhatIsTiktok.jsx": {
+    "mtime": 1785843244.5602002,
+    "ast_hash": "7891f20d47e345cf2eb8a8710ec4a7b1",
+    "semantic_hash": "7891f20d47e345cf2eb8a8710ec4a7b1"
+  },
+  "components/tinder/ExpertCtaBanner.jsx": {
+    "mtime": 1786368880.746731,
+    "ast_hash": "001e2ee0e2ced943fa83a5f5f5263473",
+    "semantic_hash": "001e2ee0e2ced943fa83a5f5f5263473"
+  },
+  "components/tinder/TinderFeatureTabs.jsx": {
+    "mtime": 1785842603.2493703,
+    "ast_hash": "4dc4434100be2a251d683b07ddf0d1b6",
+    "semantic_hash": "4dc4434100be2a251d683b07ddf0d1b6"
+  },
+  "components/tinder/TinderHero.jsx": {
+    "mtime": 1786371250.9992785,
+    "ast_hash": "c8124856a2efe0666a9a4717bd27f6f0",
+    "semantic_hash": "c8124856a2efe0666a9a4717bd27f6f0"
+  },
+  "components/tinder/WhatIsTinder.jsx": {
+    "mtime": 1785842567.3885002,
+    "ast_hash": "69583f4accad59917f8fbbf85d5ae0f5",
+    "semantic_hash": "69583f4accad59917f8fbbf85d5ae0f5"
+  },
+  "components/tinder/WhyChooseUsTinder.jsx": {
+    "mtime": 1785842578.5183713,
+    "ast_hash": "312531902453b57d3110c88ce934da7f",
+    "semantic_hash": "312531902453b57d3110c88ce934da7f"
+  },
+  "components/turo/RoleShowcase.jsx": {
+    "mtime": 1785842689.9001336,
+    "ast_hash": "483531bff6404dde5fe544c1b40afc05",
+    "semantic_hash": "483531bff6404dde5fe544c1b40afc05"
+  },
+  "components/turo/TuroHero.jsx": {
+    "mtime": 1785842639.0980282,
+    "ast_hash": "fbb21c57e35daab148428e36968783e8",
+    "semantic_hash": "fbb21c57e35daab148428e36968783e8"
+  },
+  "components/turo/UpcomingAiFeature.jsx": {
+    "mtime": 1785842674.4843786,
+    "ast_hash": "2a5d266eac7160da231bff1e8c4ae6c2",
+    "semantic_hash": "2a5d266eac7160da231bff1e8c4ae6c2"
+  },
+  "components/turo/WhatIsTuro.jsx": {
+    "mtime": 1785842651.8192754,
+    "ast_hash": "6cfcf6036890743d775a7964c5c2f899",
+    "semantic_hash": "6cfcf6036890743d775a7964c5c2f899"
+  },
+  "components/turo/WhyChooseTuro.jsx": {
+    "mtime": 1786368883.1792827,
+    "ast_hash": "c333a5c2d786b7f12274b1897fa5bf07",
+    "semantic_hash": "c333a5c2d786b7f12274b1897fa5bf07"
+  },
+  "components/uber/BookByBid.jsx": {
+    "mtime": 1785842530.013289,
+    "ast_hash": "0088ba2b1a718191e1263e50a1d2819d",
+    "semantic_hash": "0088ba2b1a718191e1263e50a1d2819d"
+  },
+  "components/uber/HowItWorks.jsx": {
+    "mtime": 1785842477.5124235,
+    "ast_hash": "2cd60b3b2d1583eae27337aa391c641f",
+    "semantic_hash": "2cd60b3b2d1583eae27337aa391c641f"
+  },
+  "components/uber/LaunchWhatsappCta.jsx": {
+    "mtime": 1785842501.4380844,
+    "ast_hash": "a05e9cca093bad1bb30e98492167af10",
+    "semantic_hash": "a05e9cca093bad1bb30e98492167af10"
+  },
+  "components/uber/UberHero.jsx": {
+    "mtime": 1785842456.0503836,
+    "ast_hash": "592b4cbdabd24eed46b635427de02ffa",
+    "semantic_hash": "592b4cbdabd24eed46b635427de02ffa"
+  },
+  "components/uber/UberRoleFeatures.jsx": {
+    "mtime": 1785842519.048897,
+    "ast_hash": "8d102ab2280aec4c082d08d5249eff01",
+    "semantic_hash": "8d102ab2280aec4c082d08d5249eff01"
+  },
+  "components/uber/WhatIsUber.jsx": {
+    "mtime": 1785842467.490383,
+    "ast_hash": "9f7e86df6e3a04967141a74929d08c20",
+    "semantic_hash": "9f7e86df6e3a04967141a74929d08c20"
+  },
+  "components/uber/WhyChooseUber.jsx": {
+    "mtime": 1785842488.9810474,
+    "ast_hash": "d096ac99418203cafa7491ed62f3e740",
+    "semantic_hash": "d096ac99418203cafa7491ed62f3e740"
+  },
+  "components/udemy/AiContentGenerator.jsx": {
+    "mtime": 1785843877.5517216,
+    "ast_hash": "fe84fa6b558f08bfb1fca3b9bb8708cc",
+    "semantic_hash": "fe84fa6b558f08bfb1fca3b9bb8708cc"
+  },
+  "components/udemy/FreeAddOnFeatures.jsx": {
+    "mtime": 1785843889.6922245,
+    "ast_hash": "749fded223cecbcd57ee5bc4d9ce3e8b",
+    "semantic_hash": "749fded223cecbcd57ee5bc4d9ce3e8b"
+  },
+  "components/udemy/LaunchWhatsappCta.jsx": {
+    "mtime": 1785843840.9245424,
+    "ast_hash": "9c76310b115b4689474f11aa413e1b0a",
+    "semantic_hash": "9c76310b115b4689474f11aa413e1b0a"
+  },
+  "components/udemy/TrustedByLogosCarousel.jsx": {
+    "mtime": 1786371184.8274496,
+    "ast_hash": "c2ba6f89c405f12a46fae91e99f7b354",
+    "semantic_hash": "c2ba6f89c405f12a46fae91e99f7b354"
+  },
+  "components/udemy/UdemyFaqTabs.jsx": {
+    "mtime": 1785843906.5268035,
+    "ast_hash": "9e6377d802db65df945d487c9fb939f9",
+    "semantic_hash": "9e6377d802db65df945d487c9fb939f9"
+  },
+  "components/udemy/UdemyHero.jsx": {
+    "mtime": 1785843791.9609416,
+    "ast_hash": "bc30207b107c4bd3363bf314f71de3c3",
+    "semantic_hash": "bc30207b107c4bd3363bf314f71de3c3"
+  },
+  "components/udemy/UdemyRoleFeatures.jsx": {
+    "mtime": 1785843865.0947187,
+    "ast_hash": "285c6ef7e7fd66b55263db528e7c3ce8",
+    "semantic_hash": "285c6ef7e7fd66b55263db528e7c3ce8"
+  },
+  "components/udemy/WhatIsUdemy.jsx": {
+    "mtime": 1785843814.594935,
+    "ast_hash": "43b99d6bfdf4e2ed45f90ca515b4e523",
+    "semantic_hash": "43b99d6bfdf4e2ed45f90ca515b4e523"
+  },
+  "components/udemy/WhyChooseUsUdemy.jsx": {
+    "mtime": 1785843828.2279623,
+    "ast_hash": "ae1787b0d2a733d589f3b8b6cebeaf0e",
+    "semantic_hash": "ae1787b0d2a733d589f3b8b6cebeaf0e"
+  },
+  "components/vinted/VintedHero.jsx": {
+    "mtime": 1785499816.0,
+    "ast_hash": "97ffcb375cec16ecba429a21c1ddbbaf",
+    "semantic_hash": "97ffcb375cec16ecba429a21c1ddbbaf"
+  },
+  "components/vinted/VintedIntroBanner.jsx": {
+    "mtime": 1785500026.0,
+    "ast_hash": "72ddfdcafe06f2cbb30a069d42038ada",
+    "semantic_hash": "72ddfdcafe06f2cbb30a069d42038ada"
+  },
+  "components/vinted/WhatIsVintedAndVideo.jsx": {
+    "mtime": 1785499832.0,
+    "ast_hash": "c3be710af481d13ba56ed16bb23f782d",
+    "semantic_hash": "c3be710af481d13ba56ed16bb23f782d"
+  },
+  "components/vinted/WhyInvestVinted.jsx": {
+    "mtime": 1785499846.0,
+    "ast_hash": "4e0028f730739d19cdc0d3fe4bc3ae70",
+    "semantic_hash": "4e0028f730739d19cdc0d3fe4bc3ae70"
+  },
+  "components/whatsapp/WhatIsWhatsapp.jsx": {
+    "mtime": 1785851457.917034,
+    "ast_hash": "cf375c1830dd9c7650382576e4b8a481",
+    "semantic_hash": "cf375c1830dd9c7650382576e4b8a481"
+  },
+  "components/whatsapp/WhatWeOffer.jsx": {
+    "mtime": 1785842689.772553,
+    "ast_hash": "471713b19a0b044ccdae89ca5bf4c15b",
+    "semantic_hash": "471713b19a0b044ccdae89ca5bf4c15b"
+  },
+  "components/whatsapp/WhatsappFeatures.jsx": {
+    "mtime": 1785842699.433916,
+    "ast_hash": "ef337cca01ce68fcc7ad863089b42f2a",
+    "semantic_hash": "ef337cca01ce68fcc7ad863089b42f2a"
+  },
+  "components/whatsapp/WhatsappHero.jsx": {
+    "mtime": 1785842659.6892076,
+    "ast_hash": "d93c71f68d17624db0ea2931f1cd543a",
+    "semantic_hash": "d93c71f68d17624db0ea2931f1cd543a"
+  },
+  "components/youtube/WhatIsYoutube.jsx": {
+    "mtime": 1785768568.0,
+    "ast_hash": "4b343b1b4855368500a43126b057a64b",
+    "semantic_hash": "4b343b1b4855368500a43126b057a64b"
+  },
+  "components/youtube/YoutubeHero.jsx": {
+    "mtime": 1785768508.0,
+    "ast_hash": "896af96c57dd23a73f183a9c5a7771aa",
+    "semantic_hash": "896af96c57dd23a73f183a9c5a7771aa"
+  },
+  "components/zillow/WhatIsZillow.jsx": {
+    "mtime": 1785768532.0,
+    "ast_hash": "b9f5ab79a77911323563d1d4bba0d119",
+    "semantic_hash": "b9f5ab79a77911323563d1d4bba0d119"
+  },
+  "components/zillow/ZillowHero.jsx": {
+    "mtime": 1785768470.0,
+    "ast_hash": "2342424bcdf741d93ae867ed20fe9a2b",
+    "semantic_hash": "2342424bcdf741d93ae867ed20fe9a2b"
+  },
+  "data/airbnb/airbnbData.js": {
+    "mtime": 1785843911.867988,
+    "ast_hash": "142b1ece813b987dfd81d932be75ad0e",
+    "semantic_hash": "142b1ece813b987dfd81d932be75ad0e"
+  },
+  "data/alibaba/alibabaData.js": {
+    "mtime": 1785499430.0,
+    "ast_hash": "d6cc200c8cf05ad13690a4cc4852cedd",
+    "semantic_hash": "d6cc200c8cf05ad13690a4cc4852cedd"
+  },
+  "data/amazon/amazonData.js": {
+    "mtime": 1785764876.0,
+    "ast_hash": "827a141113896b9b0eaae33e7f5cb5b1",
+    "semantic_hash": "827a141113896b9b0eaae33e7f5cb5b1"
+  },
+  "data/comparisonLabels.js": {
+    "mtime": 1785499422.0,
+    "ast_hash": "5399de9e0ed91be8286188ecaf4d2d57",
+    "semantic_hash": "5399de9e0ed91be8286188ecaf4d2d57"
+  },
+  "data/demoProducts.js": {
+    "mtime": 1785490170.0,
+    "ast_hash": "b5ce4f71e3fbdff70541a94df6e57e0d",
+    "semantic_hash": "b5ce4f71e3fbdff70541a94df6e57e0d"
+  },
+  "data/devProcessSteps.js": {
+    "mtime": 1785486410.0,
+    "ast_hash": "5c39073b9df99ec020ead473f5e2aacc",
+    "semantic_hash": "5c39073b9df99ec020ead473f5e2aacc"
+  },
+  "data/erp/coreModules.js": {
+    "mtime": 1785493336.0,
+    "ast_hash": "b2d68a779d6de0d30a2d446bd1c4d1ca",
+    "semantic_hash": "b2d68a779d6de0d30a2d446bd1c4d1ca"
+  },
+  "data/erp/erpBlogPosts.js": {
+    "mtime": 1785851458.2547338,
+    "ast_hash": "f5e69db72e251a90f3b89f2e0b44196d",
+    "semantic_hash": "f5e69db72e251a90f3b89f2e0b44196d"
+  },
+  "data/fiverr/fiverrData.js": {
+    "mtime": 1785845177.6331153,
+    "ast_hash": "e70f6921754134c90dc91b4dd1c1fe54",
+    "semantic_hash": "e70f6921754134c90dc91b4dd1c1fe54"
+  },
+  "data/footerSitemap.js": {
+    "mtime": 1785486730.0,
+    "ast_hash": "df36127e8aa4ba2f4766daf7af48da77",
+    "semantic_hash": "df36127e8aa4ba2f4766daf7af48da77"
+  },
+  "data/gojek/gojekData.js": {
+    "mtime": 1785844200.1878068,
+    "ast_hash": "f22900ff4142708219e2b0fe2c5d7752",
+    "semantic_hash": "f22900ff4142708219e2b0fe2c5d7752"
+  },
+  "data/homeTechStack.js": {
+    "mtime": 1786606173.53877,
+    "ast_hash": "1d91adb774fa206e981470e03e778465",
+    "semantic_hash": "1d91adb774fa206e981470e03e778465"
+  },
+  "data/megaMenu.js": {
+    "mtime": 1785848067.4997888,
+    "ast_hash": "15c144e1df646d4fcdef6ed4c51e9f98",
+    "semantic_hash": "15c144e1df646d4fcdef6ed4c51e9f98"
+  },
+  "data/olx/olxData.js": {
+    "mtime": 1785842593.1211834,
+    "ast_hash": "e0ba97ab3bbdfd376b111bf5d73f89d3",
+    "semantic_hash": "e0ba97ab3bbdfd376b111bf5d73f89d3"
+  },
+  "data/ourServices.js": {
+    "mtime": 1786371374.0721338,
+    "ast_hash": "44f1b4a8c33d86c8665047a383e5a94a",
+    "semantic_hash": "44f1b4a8c33d86c8665047a383e5a94a"
+  },
+  "data/pageStylesheets.js": {
+    "mtime": 1785848043.007445,
+    "ast_hash": "bd2b5cd5187a82746655fba7591065b2",
+    "semantic_hash": "bd2b5cd5187a82746655fba7591065b2"
+  },
+  "data/readyMadeSolutions.js": {
+    "mtime": 1785488820.0,
+    "ast_hash": "66674443e8afa6804f0949e260c30dd9",
+    "semantic_hash": "66674443e8afa6804f0949e260c30dd9"
+  },
+  "data/recentBlogPosts.js": {
+    "mtime": 1785851458.3685405,
+    "ast_hash": "0717ba503a2941fb6c66d14533826a2e",
+    "semantic_hash": "0717ba503a2941fb6c66d14533826a2e"
+  },
+  "data/rentalBooking/rentalBookingData.js": {
+    "mtime": 1785843290.593168,
+    "ast_hash": "2e9f908b07cc0cdfebbf3af6be8e0eb2",
+    "semantic_hash": "2e9f908b07cc0cdfebbf3af6be8e0eb2"
+  },
+  "data/schoolCrm/schoolCrmData.js": {
+    "mtime": 1785847963.0468552,
+    "ast_hash": "7b6345391f71875df15e8115a37c9046",
+    "semantic_hash": "7b6345391f71875df15e8115a37c9046"
+  },
+  "data/siteContact.js": {
+    "mtime": 1786369831.0644126,
+    "ast_hash": "484a5d993e711f39b61f497a01df4ab2",
+    "semantic_hash": "484a5d993e711f39b61f497a01df4ab2"
+  },
+  "data/socialLinks.js": {
+    "mtime": 1786370121.495442,
+    "ast_hash": "e5f71f0a98e84c4479d24435e17d3d72",
+    "semantic_hash": "e5f71f0a98e84c4479d24435e17d3d72"
+  },
+  "data/swiggy/swiggyData.js": {
+    "mtime": 1785843065.5463612,
+    "ast_hash": "88dec4b4a61c838bb9204e6d7f8a15ed",
+    "semantic_hash": "88dec4b4a61c838bb9204e6d7f8a15ed"
+  },
+  "data/testimonialVideos.js": {
+    "mtime": 1786370120.5488591,
+    "ast_hash": "ff50b9bf1a4e69d0dcbf0a19c46c69ef",
+    "semantic_hash": "ff50b9bf1a4e69d0dcbf0a19c46c69ef"
+  },
+  "data/testimonials.js": {
+    "mtime": 1786371406.981949,
+    "ast_hash": "d3a141d9d9b4b1653030853755fd1aae",
+    "semantic_hash": "d3a141d9d9b4b1653030853755fd1aae"
+  },
+  "data/tiktok/tiktokData.js": {
+    "mtime": 1785843210.4910643,
+    "ast_hash": "8667ca1bc46b5eb11122d123469df216",
+    "semantic_hash": "8667ca1bc46b5eb11122d123469df216"
+  },
+  "data/tinder/tinderData.js": {
+    "mtime": 1786371229.6755433,
+    "ast_hash": "19edd2dab16b44e2a9f68d1af1bb0c66",
+    "semantic_hash": "19edd2dab16b44e2a9f68d1af1bb0c66"
+  },
+  "data/trustedByLogos.js": {
+    "mtime": 1786371108.1746154,
+    "ast_hash": "90356c84146acaa2281e905e39b17dfe",
+    "semantic_hash": "90356c84146acaa2281e905e39b17dfe"
+  },
+  "data/turo/turoData.js": {
+    "mtime": 1785842619.94101,
+    "ast_hash": "e05a5904edcf761a4824f1b9e919c22e",
+    "semantic_hash": "e05a5904edcf761a4824f1b9e919c22e"
+  },
+  "data/uber/uberData.js": {
+    "mtime": 1785842440.977638,
+    "ast_hash": "5029f55ad9d0eb3149747c3668868c1c",
+    "semantic_hash": "5029f55ad9d0eb3149747c3668868c1c"
+  },
+  "data/udemy/udemyData.js": {
+    "mtime": 1785856394.0437815,
+    "ast_hash": "8c6503aee8bcda8acaf1c2ee065a49b6",
+    "semantic_hash": "8c6503aee8bcda8acaf1c2ee065a49b6"
+  },
+  "data/vinted/vintedData.js": {
+    "mtime": 1785499996.0,
+    "ast_hash": "cdffeb30cb8f73f14c51df05f4a08446",
+    "semantic_hash": "cdffeb30cb8f73f14c51df05f4a08446"
+  },
+  "data/whatsapp/whatsappData.js": {
+    "mtime": 1785842645.574996,
+    "ast_hash": "e3caa28e61fba60ba41765fd94585461",
+    "semantic_hash": "e3caa28e61fba60ba41765fd94585461"
+  },
+  "data/whyWeStandOut.js": {
+    "mtime": 1785485902.0,
+    "ast_hash": "5a05647ba4bdb58435318f22b5af9be2",
+    "semantic_hash": "5a05647ba4bdb58435318f22b5af9be2"
+  },
+  "data/youtube/youtubeData.js": {
+    "mtime": 1785767542.0,
+    "ast_hash": "3fc07d4ea2220e27a3c24a3ed5c2113b",
+    "semantic_hash": "3fc07d4ea2220e27a3c24a3ed5c2113b"
+  },
+  "data/zillow/zillowData.js": {
+    "mtime": 1785764278.0,
+    "ast_hash": "054896becfa408a3daad6a8e5949e581",
+    "semantic_hash": "054896becfa408a3daad6a8e5949e581"
+  },
+  "hooks/useContactForm.js": {
+    "mtime": 1785486562.0,
+    "ast_hash": "2b0a334a26dad90c464a051332cb9953",
+    "semantic_hash": "2b0a334a26dad90c464a051332cb9953"
+  },
+  "hooks/useInView.js": {
+    "mtime": 1785485808.0,
+    "ast_hash": "d127e1cd1a8d3cc45d22a92e053249ba",
+    "semantic_hash": "d127e1cd1a8d3cc45d22a92e053249ba"
+  },
+  "hooks/useMobileNav.js": {
+    "mtime": 1786632967.7003965,
+    "ast_hash": "6a90a5812f266e157ef1e22bc3021dd2",
+    "semantic_hash": "6a90a5812f266e157ef1e22bc3021dd2"
+  },
+  "hooks/usePageStylesheets.js": {
+    "mtime": 1785489680.0,
+    "ast_hash": "1409f5dc62b9217ebc6bfb2e1c243378",
+    "semantic_hash": "1409f5dc62b9217ebc6bfb2e1c243378"
+  },
+  "hooks/useSeo.js": {
+    "mtime": 1786370204.1939566,
+    "ast_hash": "00f59ceb35c2bb4d98faf78787f6d04b",
+    "semantic_hash": "00f59ceb35c2bb4d98faf78787f6d04b"
+  },
+  "hooks/useStickyHeader.js": {
+    "mtime": 1785485564.0,
+    "ast_hash": "753489c2e986fa04b384ae9f3e3dae10",
+    "semantic_hash": "753489c2e986fa04b384ae9f3e3dae10"
+  },
+  "main.jsx": {
+    "mtime": 1785485022.0,
+    "ast_hash": "e13723e2574429d9a6d849727e3ff695",
+    "semantic_hash": "e13723e2574429d9a6d849727e3ff695"
+  },
+  "pages/ClonePages/AirbnbClonePage.jsx": {
+    "mtime": 1786370888.2659287,
+    "ast_hash": "7da7964503675f6be23084b9b24b0bb5",
+    "semantic_hash": "7da7964503675f6be23084b9b24b0bb5"
+  },
+  "pages/ClonePages/AlibabaClonePage.jsx": {
+    "mtime": 1786370888.3943064,
+    "ast_hash": "d33d605cac0440aa971dd662bb05f8fc",
+    "semantic_hash": "d33d605cac0440aa971dd662bb05f8fc"
+  },
+  "pages/ClonePages/AmazonClonePage.jsx": {
+    "mtime": 1786370888.5454216,
+    "ast_hash": "b7bee4ab0f419246ead64cf3f6dcbe5a",
+    "semantic_hash": "b7bee4ab0f419246ead64cf3f6dcbe5a"
+  },
+  "pages/ClonePages/FiverrClonePage.jsx": {
+    "mtime": 1786370888.6836083,
+    "ast_hash": "3add2b99d4c37ad3198ff93f53e28981",
+    "semantic_hash": "3add2b99d4c37ad3198ff93f53e28981"
+  },
+  "pages/ClonePages/GojekClonePage.jsx": {
+    "mtime": 1786606173.1438572,
+    "ast_hash": "33a73b4f196ffbba4cb93e7d378130c4",
+    "semantic_hash": "33a73b4f196ffbba4cb93e7d378130c4"
+  },
+  "pages/ClonePages/OlxClonePage.jsx": {
+    "mtime": 1786370889.3234541,
+    "ast_hash": "ef002c155a1b063eb1b4265beabff356",
+    "semantic_hash": "ef002c155a1b063eb1b4265beabff356"
+  },
+  "pages/ClonePages/RentalBookingClonePage.jsx": {
+    "mtime": 1786370889.4615786,
+    "ast_hash": "c21dd770f4c279bdf6687557cf679e96",
+    "semantic_hash": "c21dd770f4c279bdf6687557cf679e96"
+  },
+  "pages/ClonePages/SwiggyClonePage.jsx": {
+    "mtime": 1786606173.2002277,
+    "ast_hash": "c6ced00417f26a4564a730df182e5678",
+    "semantic_hash": "c6ced00417f26a4564a730df182e5678"
+  },
+  "pages/ClonePages/TiktokClonePage.jsx": {
+    "mtime": 1786606173.2689855,
+    "ast_hash": "567e2d7d34803bdcd19382fde3398889",
+    "semantic_hash": "567e2d7d34803bdcd19382fde3398889"
+  },
+  "pages/ClonePages/TinderClonePage.jsx": {
+    "mtime": 1786370889.930395,
+    "ast_hash": "81aec9e181c38cf6bdb58693bfccc50e",
+    "semantic_hash": "81aec9e181c38cf6bdb58693bfccc50e"
+  },
+  "pages/ClonePages/TuroClonePage.jsx": {
+    "mtime": 1786370890.1086326,
+    "ast_hash": "230fcd50fca4fbdd0015204e4ee5501c",
+    "semantic_hash": "230fcd50fca4fbdd0015204e4ee5501c"
+  },
+  "pages/ClonePages/UberClonePage.jsx": {
+    "mtime": 1786606173.4085395,
+    "ast_hash": "ca3c7eb1163f1b79944fcc3b7c44682d",
+    "semantic_hash": "ca3c7eb1163f1b79944fcc3b7c44682d"
+  },
+  "pages/ClonePages/UdemyClonePage.jsx": {
+    "mtime": 1786370890.4849443,
+    "ast_hash": "a4e25c611276977f7116a9c41ac95e74",
+    "semantic_hash": "a4e25c611276977f7116a9c41ac95e74"
+  },
+  "pages/ClonePages/VintedClonePage.jsx": {
+    "mtime": 1786370890.7429235,
+    "ast_hash": "8527b643552f130af3c48145c8a09988",
+    "semantic_hash": "8527b643552f130af3c48145c8a09988"
+  },
+  "pages/ClonePages/WhatsappClonePage.jsx": {
+    "mtime": 1786370890.9004292,
+    "ast_hash": "f1f4e49509d60a0003d1749ff410ac6c",
+    "semantic_hash": "f1f4e49509d60a0003d1749ff410ac6c"
+  },
+  "pages/ClonePages/YoutubeClonePage.jsx": {
+    "mtime": 1786606173.465206,
+    "ast_hash": "bd4acfb0a0d734b850117d8c8d686971",
+    "semantic_hash": "bd4acfb0a0d734b850117d8c8d686971"
+  },
+  "pages/ClonePages/ZillowClonePage.jsx": {
+    "mtime": 1786370891.506445,
+    "ast_hash": "fffdc955cdf8b05422fe9d1bf0e4cbd4",
+    "semantic_hash": "fffdc955cdf8b05422fe9d1bf0e4cbd4"
+  },
+  "pages/ContactUsPage.jsx": {
+    "mtime": 1786370887.7099721,
+    "ast_hash": "297ae515ea813be926a8e5b0bf6191b9",
+    "semantic_hash": "297ae515ea813be926a8e5b0bf6191b9"
+  },
+  "pages/ErpSoftwarePage.jsx": {
+    "mtime": 1786370887.9781475,
+    "ast_hash": "49ad237a7f686b388e1757ae065e7300",
+    "semantic_hash": "49ad237a7f686b388e1757ae065e7300"
+  },
+  "pages/HomePage.jsx": {
+    "mtime": 1786370887.6040208,
+    "ast_hash": "0576aca6b26198a96f83611229f689ef",
+    "semantic_hash": "0576aca6b26198a96f83611229f689ef"
+  },
+  "pages/ScheduleFreeDemoPage.jsx": {
+    "mtime": 1786370887.8602104,
+    "ast_hash": "047930e80259196b34e194748e818ee6",
+    "semantic_hash": "047930e80259196b34e194748e818ee6"
+  },
+  "pages/SchoolCrmPage.jsx": {
+    "mtime": 1786370888.09042,
+    "ast_hash": "7309e29e13e3e881b8d5d0dca17d241f",
+    "semantic_hash": "7309e29e13e3e881b8d5d0dca17d241f"
+  },
+  "assets/vite.svg": {
+    "mtime": 1785485022.0,
+    "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": "9960a24288958394ac50e57ff638b036"
+  }
+}

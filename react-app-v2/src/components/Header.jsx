@@ -81,7 +81,9 @@ export default function Header() {
                         src="/wp-content/uploads/2026/03/fenizo-logo-primary.png"
                         alt="FENIZO"
                         className="logo-default"
-                        style={{ height: 34, width: 'auto', filter: isStuck ? 'none' : 'brightness(0) invert(1)' }}
+                        width="600"
+                        height="200"
+                        style={{ height: 34, width: 'auto' }}
                       />
                     </span>
                   </Link>

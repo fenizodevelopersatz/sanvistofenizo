@@ -4,19 +4,22 @@ import { readyMadeSolutions } from '../../data/readyMadeSolutions.js'
 
 export default function ReadyMadeSolutions() {
   const [active, setActive] = useState(0)
+  const [isPaused, setIsPaused] = useState(false)
 
   useEffect(() => {
+    if (isPaused) return undefined
+
     const id = setInterval(() => {
       setActive((i) => (i + 1) % readyMadeSolutions.length)
     }, 5000)
     return () => clearInterval(id)
-  }, [])
+  }, [isPaused])
 
   const item = readyMadeSolutions[active]
   const isInternal = item.link !== '#'
 
   return (
-    <section className="vc_section">
+    <section className="fenizo-ready-made vc_section" id="products">
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40b4cac">
         <div className="ld-container container">
           <div className="row ld-row">
@@ -47,7 +50,15 @@ export default function ReadyMadeSolutions() {
               <div className="vc_column-inner">
                 <div className="wpb_wrapper">
                   <div className="wpb_wrapper-inner">
-                    <div className="carousel-container carousel-nav-left carousel-nav-md carousel-dots-style1">
+                    <div
+                      className="fenizo-solution-carousel carousel-container carousel-nav-left carousel-nav-md carousel-dots-style1"
+                      aria-roledescription="carousel"
+                      aria-label="Ready-made solutions"
+                      onMouseEnter={() => setIsPaused(true)}
+                      onMouseLeave={() => setIsPaused(false)}
+                      onFocusCapture={() => setIsPaused(true)}
+                      onBlurCapture={() => setIsPaused(false)}
+                    >
                       <div className="carousel-items row">
                         <div className="carousel-item">
                           <div className="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex" key={active}>
@@ -58,7 +69,7 @@ export default function ReadyMadeSolutions() {
                                     <div className="wpb_single_image wpb_content_element vc_align_left">
                                       <figure className="wpb_wrapper vc_figure">
                                         <div className="vc_single_image-wrapper vc_box_border_grey">
-                                          <img src={item.image} width={item.imageWidth} height={item.imageHeight} className="vc_single_image-img attachment-full" alt={item.imageAlt} title={item.imageAlt} />
+                                          <img src={item.image} width={item.imageWidth} height={item.imageHeight} className="vc_single_image-img attachment-full" alt={item.imageAlt} title={item.imageAlt} loading="lazy" decoding="async" />
                                         </div>
                                       </figure>
                                     </div>
@@ -100,7 +111,7 @@ export default function ReadyMadeSolutions() {
                           </div>
                         </div>
                       </div>
-                      <div className="carousel-dots">
+                      <div className="fenizo-solution-carousel__dots carousel-dots" aria-label="Choose a ready-made solution">
                         {readyMadeSolutions.map((_, i) => (
                           <button
                             type="button"
