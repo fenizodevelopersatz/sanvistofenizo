@@ -13,7 +13,7 @@ export default function ScheduleFormSection() {
                   <div className="wpb_single_image wpb_content_element vc_align_center">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2023/03/website-meeting-1.webp" width="400" height="453" className="vc_single_image-img attachment-full" alt="" title="website-meeting-1" />
+                        <img src="/wp-content/uploads/2023/03/website-meeting-1.webp" width="400" height="453" className="vc_single_image-img attachment-full" alt="Fenizo specialist ready to discuss a software project" title="website-meeting-1" loading="lazy" />
                       </div>
                     </figure>
                   </div>

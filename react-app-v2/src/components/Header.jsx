@@ -16,7 +16,7 @@ export default function Header() {
   // mega menu already closes itself the same way).
   useEffect(() => {
     closeNav()
-  }, [location.pathname])
+  }, [closeNav, location.pathname])
 
   return (
     <header
@@ -55,12 +55,12 @@ export default function Header() {
               </div>
               <div className="col vc_col-sm-2 text-center text-xs-center">
                 <div className="header-module">
-                  <a href="#" title="Check Offers" className="btn btn-solid btn-xsm circle btn-bordered border-thin reflect-btn">
+                  <Link to="/schedule-free-demo" title="Check Offers" className="btn btn-solid btn-xsm circle btn-bordered border-thin reflect-btn">
                     <span>
                       <span className="btn-txt">Check Offers</span>
                       <span className="btn-icon"><i className="fas fa-chevron-circle-right"></i></span>
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@ export default function Header() {
                   <ul id="primary-nav" className="main-nav main-nav-hover-underline-4 nav align-items-lg-stretch justify-content-lg-start">
                     <MegaMenu />
                     <li id="menu-item-63677" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-63677">
-                      <a href="#">
+                      <Link to="/schedule-free-demo">
                         <span className="link-icon"></span>
                         <span className="link-txt">
                           <span className="link-ext"></span>
@@ -115,16 +115,16 @@ export default function Header() {
                             <span className="submenu-expander"> <i className="fa fa-angle-down"></i> </span>
                           </span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li id="menu-item-64042" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-64042">
-                      <a href="#">
+                      <Link to="/#products">
                         <span className="link-icon"></span>
                         <span className="link-txt">
                           <span className="link-ext"></span>
                           <span className="txt">Portfolio<span className="submenu-expander"> <i className="fa fa-angle-down"></i> </span></span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li id="menu-item-54903" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-54903">
                       <Link to="/contact-us">

@@ -1,51 +1,78 @@
 import { useEffect, useState } from 'react'
 import { testimonials } from '../../data/testimonials.js'
 import InitialsAvatar from '../shared/InitialsAvatar.jsx'
+import './TestimonialCarousel.css'
+
+const AUTOPLAY_DELAY = 6000
+
+function ArrowIcon({ direction }) {
+  const points = direction === 'previous' ? '15 18 9 12 15 6' : '9 18 15 12 9 6'
+
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <polyline points={points} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
 
 export default function TestimonialCarousel({ cardBg = '#f9f9f9' }) {
   const [active, setActive] = useState(0)
 
   useEffect(() => {
-    const id = setInterval(() => setActive((i) => (i + 1) % testimonials.length), 6000)
-    return () => clearInterval(id)
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    if (reduceMotion || testimonials.length < 2) return undefined
+
+    const id = window.setInterval(
+      () => setActive((index) => (index + 1) % testimonials.length),
+      AUTOPLAY_DELAY,
+    )
+    return () => window.clearInterval(id)
   }, [])
 
   const item = testimonials[active]
+  const hasVideo = item.video && item.video !== '#'
+  const showPrevious = () => setActive((active - 1 + testimonials.length) % testimonials.length)
+  const showNext = () => setActive((active + 1) % testimonials.length)
 
   return (
-    <div className="carousel-container carousel-nav-left carousel-nav-md carousel-dots-style1">
-      <div className="carousel-items row">
-        <div className="carousel-item">
-          <div className="iconbox iconbox-side text-left iconbox-xl iconbox-heading-md iconbox-icon-image portfolio-customers-mobile" style={{ padding: 20, backgroundColor: cardBg, borderRadius: 10 }}>
-            <div className="iconbox-icon-wrap">
-              <span className="iconbox-icon-container">
-                <InitialsAvatar name={item.name} size={60} />
-              </span>
-            </div>
-            <div className="contents">
-              <h3 className="font-weight-semibold">{item.name}</h3>
-              {item.location && <p style={{ margin: '-8px 0 8px', fontSize: 13, color: '#8a8a8a' }}>{item.location}</p>}
-              <p>
-                <span style={{ fontSize: 14 }}>{item.text}</span>
-              </p>
-              <a href={item.video} className="btn btn-naked btn-gradient fresco btn-icon-left btn-icon-md btn-icon-circle btn-icon-solid btn-icon-ripple">
-                <span>
-                  <span className="btn-txt">Play Testimonial Video</span>
-                  <span className="btn-icon">
-                    <span className="btn-gradient-bg btn-gradient-bg-hover"></span>
-                    <i className="fas fa-play"></i>
-                  </span>
-                </span>
-              </a>
-            </div>
-          </div>
+    <section className="fenizo-testimonial" aria-roledescription="carousel" aria-label="Client testimonials">
+      <article className="fenizo-testimonial__card" style={{ backgroundColor: cardBg }} aria-live="polite">
+        <div className="fenizo-testimonial__avatar">
+          <InitialsAvatar name={item.name} size={60} />
         </div>
+        <div className="fenizo-testimonial__content">
+          <h3>{item.name}</h3>
+          {item.location ? <p className="fenizo-testimonial__role">{item.location}</p> : null}
+          <blockquote>{item.text}</blockquote>
+          {hasVideo ? (
+            <a className="fenizo-testimonial__video" href={item.video} target="_blank" rel="noreferrer">
+              <span className="fenizo-testimonial__play" aria-hidden="true">▶</span>
+              <span>Play Testimonial Video</span>
+            </a>
+          ) : null}
+        </div>
+      </article>
+
+      <div className="fenizo-testimonial__controls">
+        <button type="button" className="fenizo-testimonial__arrow" aria-label="Previous testimonial" onClick={showPrevious}>
+          <ArrowIcon direction="previous" />
+        </button>
+        <div className="fenizo-testimonial__dots" aria-label="Choose testimonial">
+          {testimonials.map((testimonial, index) => (
+            <button
+              type="button"
+              key={testimonial.name}
+              className={index === active ? 'is-active' : ''}
+              aria-label={`Show testimonial ${index + 1}: ${testimonial.name}`}
+              aria-current={index === active ? 'true' : undefined}
+              onClick={() => setActive(index)}
+            />
+          ))}
+        </div>
+        <button type="button" className="fenizo-testimonial__arrow" aria-label="Next testimonial" onClick={showNext}>
+          <ArrowIcon direction="next" />
+        </button>
       </div>
-      <div className="carousel-dots">
-        {testimonials.map((t, i) => (
-          <button type="button" key={i} className={`dot${i === active ? ' is-selected' : ''}`} aria-label={`Show testimonial ${i + 1}`} onClick={() => setActive(i)}></button>
-        ))}
-      </div>
-    </div>
+    </section>
   )
 }

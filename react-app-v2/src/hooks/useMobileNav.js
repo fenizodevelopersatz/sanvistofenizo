@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 
 export function useMobileNav() {
   const [isOpen, setIsOpen] = useState(false)
@@ -8,8 +8,8 @@ export function useMobileNav() {
     document.documentElement.classList.toggle('overflow-hidden', isOpen)
   }, [isOpen])
 
-  const toggle = () => setIsOpen((open) => !open)
-  const close = () => setIsOpen(false)
+  const toggle = useCallback(() => setIsOpen((open) => !open), [])
+  const close = useCallback(() => setIsOpen(false), [])
 
   return { isOpen, toggle, close }
 }

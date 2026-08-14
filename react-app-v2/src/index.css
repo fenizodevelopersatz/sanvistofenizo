@@ -7,3 +7,60 @@ body {
      spurious horizontal scrollbar. */
   overflow-x: hidden;
 }
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+img,
+svg,
+video,
+iframe { max-width: 100%; }
+
+button,
+a,
+input,
+select,
+textarea { font: inherit; }
+
+:focus-visible {
+  outline: 3px solid #5f2eea;
+  outline-offset: 3px;
+}
+
+.carousel-container,
+.carousel-items,
+.flickity-viewport { max-width: 100%; }
+
+.carousel-container,
+.flickity-viewport { overflow: hidden; }
+
+.route-loading {
+  min-height: 55vh;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 14px;
+  color: #101b48;
+  font-weight: 600;
+}
+
+.route-loading__spinner {
+  width: 42px;
+  aspect-ratio: 1;
+  border: 4px solid #e7eaf5;
+  border-top-color: #5f2eea;
+  border-radius: 50%;
+  animation: route-spin 0.75s linear infinite;
+}
+
+@keyframes route-spin { to { transform: rotate(1turn); } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

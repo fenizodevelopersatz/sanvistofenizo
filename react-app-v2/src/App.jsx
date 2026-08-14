@@ -1,34 +1,45 @@
+import { lazy, Suspense } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout.jsx'
 import MinimalLayout from './components/MinimalLayout.jsx'
-import HomePage from './pages/HomePage.jsx'
-import ContactUsPage from './pages/ContactUsPage.jsx'
-import ScheduleFreeDemoPage from './pages/ScheduleFreeDemoPage.jsx'
-import ErpSoftwarePage from './pages/ErpSoftwarePage.jsx'
-import SchoolCrmPage from './pages/SchoolCrmPage.jsx'
-import AlibabaClonePage from './pages/ClonePages/AlibabaClonePage.jsx'
-import VintedClonePage from './pages/ClonePages/VintedClonePage.jsx'
-import ZillowClonePage from './pages/ClonePages/ZillowClonePage.jsx'
-import AmazonClonePage from './pages/ClonePages/AmazonClonePage.jsx'
-import YoutubeClonePage from './pages/ClonePages/YoutubeClonePage.jsx'
-import TuroClonePage from './pages/ClonePages/TuroClonePage.jsx'
-import AirbnbClonePage from './pages/ClonePages/AirbnbClonePage.jsx'
-import RentalBookingClonePage from './pages/ClonePages/RentalBookingClonePage.jsx'
-import UberClonePage from './pages/ClonePages/UberClonePage.jsx'
-import GojekClonePage from './pages/ClonePages/GojekClonePage.jsx'
-import SwiggyClonePage from './pages/ClonePages/SwiggyClonePage.jsx'
-import FiverrClonePage from './pages/ClonePages/FiverrClonePage.jsx'
-import UdemyClonePage from './pages/ClonePages/UdemyClonePage.jsx'
-import TinderClonePage from './pages/ClonePages/TinderClonePage.jsx'
-import WhatsappClonePage from './pages/ClonePages/WhatsappClonePage.jsx'
-import TiktokClonePage from './pages/ClonePages/TiktokClonePage.jsx'
-import OlxClonePage from './pages/ClonePages/OlxClonePage.jsx'
+const HomePage = lazy(() => import('./pages/HomePage.jsx'))
+const ContactUsPage = lazy(() => import('./pages/ContactUsPage.jsx'))
+const ScheduleFreeDemoPage = lazy(() => import('./pages/ScheduleFreeDemoPage.jsx'))
+const ErpSoftwarePage = lazy(() => import('./pages/ErpSoftwarePage.jsx'))
+const SchoolCrmPage = lazy(() => import('./pages/SchoolCrmPage.jsx'))
+const AlibabaClonePage = lazy(() => import('./pages/ClonePages/AlibabaClonePage.jsx'))
+const VintedClonePage = lazy(() => import('./pages/ClonePages/VintedClonePage.jsx'))
+const ZillowClonePage = lazy(() => import('./pages/ClonePages/ZillowClonePage.jsx'))
+const AmazonClonePage = lazy(() => import('./pages/ClonePages/AmazonClonePage.jsx'))
+const YoutubeClonePage = lazy(() => import('./pages/ClonePages/YoutubeClonePage.jsx'))
+const TuroClonePage = lazy(() => import('./pages/ClonePages/TuroClonePage.jsx'))
+const AirbnbClonePage = lazy(() => import('./pages/ClonePages/AirbnbClonePage.jsx'))
+const RentalBookingClonePage = lazy(() => import('./pages/ClonePages/RentalBookingClonePage.jsx'))
+const UberClonePage = lazy(() => import('./pages/ClonePages/UberClonePage.jsx'))
+const GojekClonePage = lazy(() => import('./pages/ClonePages/GojekClonePage.jsx'))
+const SwiggyClonePage = lazy(() => import('./pages/ClonePages/SwiggyClonePage.jsx'))
+const FiverrClonePage = lazy(() => import('./pages/ClonePages/FiverrClonePage.jsx'))
+const UdemyClonePage = lazy(() => import('./pages/ClonePages/UdemyClonePage.jsx'))
+const TinderClonePage = lazy(() => import('./pages/ClonePages/TinderClonePage.jsx'))
+const WhatsappClonePage = lazy(() => import('./pages/ClonePages/WhatsappClonePage.jsx'))
+const TiktokClonePage = lazy(() => import('./pages/ClonePages/TiktokClonePage.jsx'))
+const OlxClonePage = lazy(() => import('./pages/ClonePages/OlxClonePage.jsx'))
+
+function RouteFallback() {
+  return (
+    <main className="route-loading" aria-busy="true" aria-label="Loading page">
+      <span className="route-loading__spinner" aria-hidden="true" />
+      <span>Loading Fenizo experience…</span>
+    </main>
+  )
+}
 
 export default function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route element={<Layout />}>
+      <Suspense fallback={<RouteFallback />}>
+        <Routes>
+          <Route element={<Layout />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/contact-us" element={<ContactUsPage />} />
           <Route path="/erp-software" element={<ErpSoftwarePage />} />
@@ -50,11 +61,12 @@ export default function App() {
           <Route path="/whatsapp-clone" element={<WhatsappClonePage />} />
           <Route path="/tiktok-clone" element={<TiktokClonePage />} />
           <Route path="/olx-clone" element={<OlxClonePage />} />
-        </Route>
-        <Route element={<MinimalLayout />}>
-          <Route path="/schedule-free-demo" element={<ScheduleFreeDemoPage />} />
-        </Route>
-      </Routes>
+          </Route>
+          <Route element={<MinimalLayout />}>
+            <Route path="/schedule-free-demo" element={<ScheduleFreeDemoPage />} />
+          </Route>
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   )
 }
