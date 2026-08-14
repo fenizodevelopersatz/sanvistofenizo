@@ -27,7 +27,7 @@ export default function WhyChooseUs() {
                   <header className="fancy-title">
                     <h2>Why Choose Us?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Our Fiverr Clone App is designed with multiple features, functionalities, and technologies that can be accessed on iOS, Android, and the website. Hire our skilled developers from Fenizo to launch your own freelancing marketplace platform like Fiverr. Our white-label online freelance marketplace platform is user-friendly for both freelancers and businessmen.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Our Fiverr Clone App is designed with multiple features, functionalities, and technologies that can be accessed on iOS, Android, and the website. Hire our skilled developers from CloneScript to launch your own freelancing marketplace platform like Fiverr. Our white-label online freelance marketplace platform is user-friendly for both freelancers and businessmen.</span></p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">

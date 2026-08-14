@@ -22,7 +22,7 @@ import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
 export default function GojekClonePage() {
   usePageStylesheets(pageStylesheets.gojekClone)
 
-  useSeo('Gojek Clone - #1 On-Demand Multi Service App Solution | Fenizo')
+  useSeo('Gojek Clone - #1 On-Demand Multi Service App Solution | CloneScript')
 
   return (
     <main className="content" id="content">

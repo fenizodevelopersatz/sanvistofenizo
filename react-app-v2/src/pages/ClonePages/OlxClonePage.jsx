@@ -23,7 +23,7 @@ import OlxFaqSection from '../../components/olx/OlxFaqSection.jsx'
 export default function OlxClonePage() {
   usePageStylesheets(pageStylesheets.olxClone)
 
-  useSeo('OLX Clone Script | Online Classified Marketplace App | Fenizo')
+  useSeo('OLX Clone Script | Online Classified Marketplace App | CloneScript')
 
   return (
     <main className="content" id="content">

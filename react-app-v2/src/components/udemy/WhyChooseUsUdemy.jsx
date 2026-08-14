@@ -25,7 +25,7 @@ export default function WhyChooseUsUdemy() {
                   <header className="fancy-title">
                     <h2>Why Choose Us?</h2>
                     <div className="st-desc">
-                      <p style={{ textAlign: 'left' }}>Take your eLearning Platform to the next level with our feature-rich and entirely customizable LMS platform. With our expertise, Fenizo is proficient in offering your Udemy clone website that meets global standards and exceeds your expectations.</p>
+                      <p style={{ textAlign: 'left' }}>Take your eLearning Platform to the next level with our feature-rich and entirely customizable LMS platform. With our expertise, CloneScript is proficient in offering your Udemy clone website that meets global standards and exceeds your expectations.</p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">

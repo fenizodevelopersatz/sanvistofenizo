@@ -136,6 +136,6 @@ export const faqs = [
   { q: 'What is Zillow Clone Script', a: 'Zillow Clone is a white-label real estate solution that enables budding entrepreneurs and real estate business owners to launch their own real estate listing and rental platform quickly and affordably.' },
   { q: 'How Real Estate App like Zillow Works?', a: 'The Zillow Clone Solution allows users to search and view properties for sale or rent. Agents can list their properties, and users can connect with them directly.' },
   { q: 'Will I Have Complete Ownership of the Zillow Clone Script?', a: 'Yes, you will receive complete ownership of the Zillow Clone Script. Since it is a white-label solution, you can tailor the website to suit your business needs.' },
-  { q: 'How Much Does it Cost for a Zillow Clone App?', a: 'Launching a Zillow Clone from scratch can be expensive. However, Fenizo offers a Zillow Clone at an affordable price, with three different pricing plans to suit various business needs.' },
+  { q: 'How Much Does it Cost for a Zillow Clone App?', a: 'Launching a Zillow Clone from scratch can be expensive. However, CloneScript offers a Zillow Clone at an affordable price, with three different pricing plans to suit various business needs.' },
   { q: 'What Type of Support Will I Get After Purchase?', a: 'We provide three months of free technical support with every Zillow Clone purchase to ensure everything runs smoothly.' },
 ]

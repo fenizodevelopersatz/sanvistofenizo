@@ -23,7 +23,7 @@ import FaqServerTabs from '../../components/fiverr/FaqServerTabs.jsx'
 export default function FiverrClonePage() {
   usePageStylesheets(pageStylesheets.fiverrClone)
 
-  useSeo('Fiverr Clone Script | Freelance Marketplace App | Fenizo')
+  useSeo('Fiverr Clone Script | Freelance Marketplace App | CloneScript')
 
   return (
     <main className="content" id="content">

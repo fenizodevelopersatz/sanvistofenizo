@@ -92,7 +92,7 @@ export const pricingPlans = [
 export const faqs = [
   { q: 'What is a Fiverr Clone?', a: 'A Fiverr clone is a pre-built online freelance marketplace script that replicates Fiverr’s core features and functionalities and helps you launch your own freelance marketplace.' },
   { q: 'How much does it cost to build an app like Fiverr?', a: 'The cost of developing an app like Fiverr from scratch is too expensive. Launching your readymade Fiverr clone script is a more affordable and time-saving method. The cost of building an app like Fiverr is more satisfying, and it may depend on users’ business requirements.' },
-  { q: 'What support will I get after purchase?', a: 'Once you have purchased the Fiverr clone from Fenizo, you can get 3 months of free tech support, free installation support from us.' },
+  { q: 'What support will I get after purchase?', a: 'Once you have purchased the Fiverr clone from CloneScript, you can get 3 months of free tech support, free installation support from us.' },
   { q: 'Can I customize the Fiverr Clone App?', a: 'Yes, you can change the design, features, payment gateways, and more in the Fiverr clone.' },
   { q: 'How does the Fiverr Clone Script work?', a: 'The Fiverr clone script works similarly to Fiverr. Freelancers can post gigs, and clients browse, purchase, and review services. Admin can manage and control all the users within this platform.' },
   { q: 'What do you mean by 100% Source Code?', a: '100% source code means once the user purchases the clone script from us, the user will get complete access code and control of the platform and can change it based on their business needs.' },

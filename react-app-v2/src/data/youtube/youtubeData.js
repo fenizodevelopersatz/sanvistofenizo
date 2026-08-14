@@ -81,8 +81,8 @@ export const faqs = [
   { q: 'What is a YouTube Clone, and how can it benefit my video streaming business?', a: 'A YouTube Clone is a ready-made and 100% customizable video-sharing script that helps you launch your own platform like YouTube. Which includes necessary features such as monetization, subscriptions, channel creation, etc.' },
   { q: 'Can I earn money with a YouTube Clone Script?', a: 'Yes! You can get revenue via ad revenue, pay-per-view, subscription plans, and creator partnerships, turning your app into a successful business.' },
   { q: 'Is a YouTube Clone customizable for my business?', a: 'Yes, our YouTube clone script is completely customizable, so the client can change the design, features, and user experience to fulfill their business requirements. Feel free to reach our team, support, and get quick solutions.' },
-  { q: 'How Much Does It Cost To Build a YouTube Clone?', a: 'Launching a YouTube clone from scratch is too costly. But Fenizo offers the YouTube clone at an affordable cost and is 100% customizable.' },
-  { q: 'What is 100% customizable source code?', a: 'Once you purchase a YouTube clone from Fenizo, you will get the complete source code and complete access. After purchasing, you will receive free technical support for 1 year, ensuring seamless functionality and performance.' },
+  { q: 'How Much Does It Cost To Build a YouTube Clone?', a: 'Launching a YouTube clone from scratch is too costly. But CloneScript offers the YouTube clone at an affordable cost and is 100% customizable.' },
+  { q: 'What is 100% customizable source code?', a: 'Once you purchase a YouTube clone from CloneScript, you will get the complete source code and complete access. After purchasing, you will receive free technical support for 1 year, ensuring seamless functionality and performance.' },
 ]
 
 export const screenshots = [

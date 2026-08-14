@@ -110,7 +110,7 @@ export const pricingPlans = [
 
 export const faqs = [
   { q: 'What is a Vinted Clone?', a: 'Vinted Clone Script is a 100% customizable solution that lets you build a classified marketplace for buying and selling products under different categories.' },
-  { q: 'How much does it cost to build a Vinted clone app?', a: 'Fenizo provides three different packages for vinted clone, you can check our pricing plans to find the best option that suits your business side and needs.' },
+  { q: 'How much does it cost to build a Vinted clone app?', a: 'CloneScript provides three different packages for vinted clone, you can check our pricing plans to find the best option that suits your business side and needs.' },
   { q: 'What is meant by a white-label solution?', a: 'With a white-label classified script, you will get full control over the branding, customization, and monetization, ensuring a unique and ready-to-use platform tailored to your business needs.' },
   { q: 'Is the classified script customizable?', a: 'Our Classified Script is 100% customizable and scalable based on your business demand.' },
   { q: 'What kind of support will I receive after purchasing a Vinted clone?', a: 'After purchasing, you will receive free technical support for 3 months for our vinted clone, ensuring seamless performance.' },

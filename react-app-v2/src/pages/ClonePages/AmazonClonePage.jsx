@@ -23,7 +23,7 @@ import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 export default function AmazonClonePage() {
   usePageStylesheets(pageStylesheets.amazonClone)
 
-  useSeo('Amazon Clone Script | eCommerce Marketplace App | Fenizo')
+  useSeo('Amazon Clone Script | eCommerce Marketplace App | CloneScript')
 
   return (
     <main className="content" id="content">
@@ -37,7 +37,7 @@ export default function AmazonClonePage() {
         </section>
 
         <StandOutFeaturesGrid
-          heading="Why Fenizo is the Best choice for Your Business?"
+          heading="Why CloneScript is the Best choice for Your Business?"
           subheading="Features"
           items={whyChooseUs}
         />

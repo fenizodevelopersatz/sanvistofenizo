@@ -30,7 +30,7 @@ import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 export default function ZillowClonePage() {
   usePageStylesheets(pageStylesheets.zillowClone)
 
-  useSeo('Zillow Clone Script | Real Estate App Solution | Fenizo')
+  useSeo('Zillow Clone Script | Real Estate App Solution | CloneScript')
 
   return (
     <main className="content" id="content">
@@ -56,7 +56,7 @@ export default function ZillowClonePage() {
                         </div>
                         <div className="wpb_text_column wpb_content_element">
                           <div className="wpb_wrapper">
-                            <p style={{ textAlign: 'center' }}>Fenizo Technologies has years of experience in delivering high-quality product development solutions.</p>
+                            <p style={{ textAlign: 'center' }}>CloneScript has years of experience in delivering high-quality product development solutions.</p>
                           </div>
                         </div>
                       </div>
@@ -75,7 +75,7 @@ export default function ZillowClonePage() {
         <WhyChooseChecklist
           heading="Why"
           accentWord="Choose Us?"
-          desc="Fenizo provides a robust, user-friendly, and futuristic real estate platform that meets your global market expectations."
+          desc="CloneScript provides a robust, user-friendly, and futuristic real estate platform that meets your global market expectations."
           points={[
             ['Launch a Zillow-like App with ', '100% Customization.', ''],
             ['Get Complete ', 'Free Installation Support.', ''],
@@ -83,7 +83,7 @@ export default function ZillowClonePage() {
             ['Seamless Operations with ', 'Reliable Customer Support.', ''],
           ]}
           image="/assets/images/fenizo/achievement-stats.svg"
-          imageAlt="Fenizo Technologies: serving 20+ countries with 24+ happy clients worldwide"
+          imageAlt="CloneScript: serving 20+ countries with 24+ happy clients worldwide"
         />
 
         <AiFeaturesGrid items={aiFeatures} heading="AI-Powered Capabilities" columns={4} />

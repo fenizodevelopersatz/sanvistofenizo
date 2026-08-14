@@ -5,7 +5,7 @@ const testimonials = [
     name: 'Ms. Zemira',
     location: 'Online retailer',
     image: '/wp-content/uploads/2024/04/3.png',
-    text: 'Starting my online store was tough, but then I discovered the Fenizo ERP platform. It has been a lifesaver—from setting up my shop to handling inventory—and now I am seeing sales!',
+    text: 'Starting my online store was tough, but then I discovered the CloneScript ERP platform. It has been a lifesaver—from setting up my shop to handling inventory—and now I am seeing sales!',
   },
   {
     name: 'Mr. Jaxon',
@@ -17,7 +17,7 @@ const testimonials = [
     name: 'Mr. Henry',
     location: 'Operations manager',
     image: '/wp-content/uploads/2024/04/5.png',
-    text: 'Launching and managing our online business was a breeze with Fenizo. We can connect daily operations, customers, and reporting while the business keeps growing.',
+    text: 'Launching and managing our online business was a breeze with CloneScript. We can connect daily operations, customers, and reporting while the business keeps growing.',
   },
 ]
 

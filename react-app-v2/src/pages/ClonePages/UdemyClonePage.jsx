@@ -25,7 +25,7 @@ import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 export default function UdemyClonePage() {
   usePageStylesheets(pageStylesheets.udemyClone)
 
-  useSeo('#1 Udemy Clone to Start Your Own eLearning Platform | Fenizo')
+  useSeo('#1 Udemy Clone to Start Your Own eLearning Platform | CloneScript')
 
   return (
     <main className="content" id="content">

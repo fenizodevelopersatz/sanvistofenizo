@@ -37,7 +37,7 @@ const dashboards = [
 export default function AlibabaClonePage() {
   usePageStylesheets(pageStylesheets.alibabaClone)
 
-  useSeo('Alibaba Clone Script | B2B Marketplace App | Fenizo')
+  useSeo('Alibaba Clone Script | B2B Marketplace App | CloneScript')
 
   return (
     <main className="content" id="content">
@@ -63,7 +63,7 @@ export default function AlibabaClonePage() {
                         </div>
                         <div className="wpb_text_column wpb_content_element">
                           <div className="wpb_wrapper">
-                            <p style={{ textAlign: 'center' }}>Fenizo Technologies has years of experience in delivering high-quality product development solutions.</p>
+                            <p style={{ textAlign: 'center' }}>CloneScript has years of experience in delivering high-quality product development solutions.</p>
                           </div>
                         </div>
                       </div>

@@ -7,7 +7,7 @@ import DemoForm from '../components/schedule/DemoForm.jsx'
 export default function ScheduleFreeDemoPage() {
   usePageStylesheets(pageStylesheets.scheduleFreeDemo)
 
-  useSeo('Schedule Free Demo - Fenizo')
+  useSeo('Schedule Free Demo - CloneScript')
 
   return (
     <main className="content" id="content">

@@ -134,6 +134,6 @@ export const faqs = [
   { q: 'How to reach our support team?', a: 'Once you purchase our products, if you have any doubts or queries you can reach our support team via email to clarify your doubts.' },
   { q: 'It is possible to claim full ownership of your clone script/themes once purchased?', a: 'Yes, once you purchase it, you will completely own your website.' },
   { q: 'What is 100% source code?', a: 'You get the complete source code of your website so you can customize it based on your desired and business needs. The script/themes are not encrypted files.' },
-  { q: 'Can i resell the script/Theme from Fenizo?', a: 'No, Once you purchase an alibaba clone script or any themes from us, you don’t have to resell or distribute them. If you violate you are liable for illegal activities.' },
+  { q: 'Can i resell the script/Theme from CloneScript?', a: 'No, Once you purchase an alibaba clone script or any themes from us, you don’t have to resell or distribute them. If you violate you are liable for illegal activities.' },
   { q: 'How Single and Multi Domain Licence Differs?', a: 'A single-domain license allows usage for only one business on a single domain. For example, you can use it exclusively on mywebsite.com.' },
 ]

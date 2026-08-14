@@ -56,8 +56,8 @@ export default function AchievementBanner() {
                           width="650"
                           height="583"
                           className="vc_single_image-img attachment-full"
-                          alt="Fenizo Technologies: serving 20+ countries with 24+ happy clients worldwide"
-                          title="fenizo-achievements"
+                          alt="CloneScript: serving 20+ countries with 24+ happy clients worldwide"
+                          title="clonescript-achievements"
                           loading="lazy"
                           decoding="async"
                         />

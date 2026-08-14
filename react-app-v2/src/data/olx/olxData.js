@@ -78,5 +78,5 @@ export const faqs = [
   { q: 'How Much Does it Cost To Create an OLX Clone Script?', a: 'Our Olx Clone Script price is more affordable to the users around the world, but the cost may be changed based on your business requirements.' },
   { q: 'Can I Customize the App Like Olx?', a: 'Yes, you can customize the olx clone app for your wish and business needs.' },
   { q: 'How to Build an OLX Clone App?', a: 'Olx clone script is the trending online classified marketplace, if you want to start from scratch, it takes too much time. You can hire our developers to get complete support to launch a ready-made Olx clone script to start your successful business and achieve your business goals.' },
-  { q: 'What is 100% Source Code?', a: 'Fenizo provides 100% source code to buyers. Once you purchase the script/app, you gain complete ownership of the code.' },
+  { q: 'What is 100% Source Code?', a: 'CloneScript provides 100% source code to buyers. Once you purchase the script/app, you gain complete ownership of the code.' },
 ]

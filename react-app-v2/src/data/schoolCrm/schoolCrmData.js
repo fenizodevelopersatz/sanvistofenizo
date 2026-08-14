@@ -97,6 +97,6 @@ export const faqs = [
   { q: 'How to reach our support team?', a: 'Once you purchase our products, if you have any doubts or queries you can reach our support team via email to clarify your doubts.' },
   { q: 'Is it possible to claim full ownership of your clone script/themes once purchased?', a: 'Yes, once you purchase it, you will completely own your website.' },
   { q: 'What is 100% source code?', a: 'You get the complete source code of your website so you can customize it based on your desired and business needs. The script/themes are not encrypted files.' },
-  { q: 'Can I resell the script/theme from Fenizo?', a: 'No, once you purchase School CRM or any theme from us, you don’t have to resell or distribute them. If you violate this you are liable for illegal activities.' },
+  { q: 'Can I resell the script/theme from CloneScript?', a: 'No, once you purchase School CRM or any theme from us, you don’t have to resell or distribute them. If you violate this you are liable for illegal activities.' },
   { q: 'How do Single and Multi Domain License differ?', a: 'A single-domain license allows usage for only one school on a single domain. For example, you can use it exclusively on myschool.com.' },
 ]

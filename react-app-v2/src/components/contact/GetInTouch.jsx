@@ -102,7 +102,7 @@ export default function GetInTouch() {
                           }}
                         >
                           <i className="fas fa-map-marked-alt" style={{ fontSize: 40 }}></i>
-                          <span>Map embed pending — add Fenizo&rsquo;s office location</span>
+                          <span>Map embed pending — add CloneScript&rsquo;s office location</span>
                         </div>
                       )}
                     </div>

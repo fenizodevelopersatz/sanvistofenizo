@@ -47,7 +47,7 @@ export default function VintedClonePage() {
   const stylesReady = usePageStylesheets(pageStylesheets.vintedClone)
   const motionRef = useSectionMotion(stylesReady)
 
-  useSeo('Vinted Clone Script | Fashion Resale Marketplace App | Fenizo')
+  useSeo('Vinted Clone Script | Fashion Resale Marketplace App | CloneScript')
 
   return (
     <main className="content" id="content">
@@ -72,7 +72,7 @@ export default function VintedClonePage() {
                         </div>
                         <div className="wpb_text_column wpb_content_element">
                           <div className="wpb_wrapper">
-                            <p style={{ textAlign: 'center' }}>Fenizo Technologies has years of experience in delivering high-quality product development solutions.</p>
+                            <p style={{ textAlign: 'center' }}>CloneScript has years of experience in delivering high-quality product development solutions.</p>
                           </div>
                         </div>
                       </div>
@@ -94,7 +94,7 @@ export default function VintedClonePage() {
             desc="Take your online classified marketplace to success with our ready-to-launch and feature-packed Vinted Clone App."
             points={whyChoosePoints}
             image="/wp-content/uploads/2026/04/website-aboutus-1.webp"
-            imageAlt="Fenizo marketplace delivery achievements"
+            imageAlt="CloneScript marketplace delivery achievements"
           />
 
           <VintedIntroBanner />

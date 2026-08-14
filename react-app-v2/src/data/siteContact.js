@@ -8,8 +8,8 @@
 export const siteContact = {
   companyName: 'CloneScript',
   shortName: 'CloneScript',
-  supportEmail: 'info@fenizotechnologies.com',
-  careersEmail: 'hr@fenizotechnologies.com',
+  supportEmail: 'info@clonescript.com',
+  careersEmail: 'hr@clonescript.com',
   whatsappNumber: '+91 944 321 8385',
   whatsappNumberDisplay: '+91 944 321 8385',
   whatsappApiNumber: '919443218385',

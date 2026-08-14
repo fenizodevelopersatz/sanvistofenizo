@@ -27,7 +27,7 @@ export default function ErpSoftwarePage() {
   const stylesReady = usePageStylesheets(pageStylesheets.erpSoftware)
   const motionRef = useSectionMotion(stylesReady)
 
-  useSeo('ERP Software | Fenizo')
+  useSeo('ERP Software | CloneScript')
 
   return (
     <main className="content" id="content">

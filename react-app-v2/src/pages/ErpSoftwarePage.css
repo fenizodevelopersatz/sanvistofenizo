@@ -50,24 +50,6 @@
   padding-left: 0;
 }
 
-#root:has(.erp-software-page) .mainbar-row {
-  min-height: 75px;
-}
-
-#root:has(.erp-software-page) .navbar-brand img.logo-default {
-  width: auto !important;
-  max-width: 180px;
-  height: 54px !important;
-  max-height: 54px;
-  object-fit: contain;
-}
-
-#root:has(.erp-software-page) .navbar-brand,
-#root:has(.erp-software-page) .navbar-brand-inner {
-  width: 185px;
-  max-width: none;
-}
-
 #root:has(.erp-software-page) .main-nav > li > a,
 #root:has(.erp-software-page) .main-nav .link-txt {
   color: #050505;
@@ -751,21 +733,6 @@
     width: min(100% - 40px, 1140px);
   }
 
-  #root:has(.erp-software-page) .mainbar-row {
-    min-height: 75px;
-  }
-
-  #root:has(.erp-software-page) .navbar-brand img.logo-default {
-    width: auto !important;
-    max-width: 155px;
-    height: 47px !important;
-  }
-
-  #root:has(.erp-software-page) .navbar-brand,
-  #root:has(.erp-software-page) .navbar-brand-inner {
-    width: 160px;
-  }
-
   .erp-trust-logos {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -806,23 +773,6 @@
 @media (max-width: 767px) {
   .erp-software-page .container {
     width: min(100% - 32px, 1140px);
-  }
-
-  #root:has(.erp-software-page) .mainbar-row {
-    min-height: 78px;
-  }
-
-  #root:has(.erp-software-page) .navbar-brand img.logo-default {
-    width: auto !important;
-    max-width: 140px;
-    height: 43px !important;
-    max-height: 43px;
-  }
-
-
-  #root:has(.erp-software-page) .navbar-brand,
-  #root:has(.erp-software-page) .navbar-brand-inner {
-    width: 145px;
   }
 
   .erp-software-page h1 {

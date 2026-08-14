@@ -34,7 +34,7 @@ const dashboards = [
 export default function SchoolCrmPage() {
   usePageStylesheets(pageStylesheets.schoolCrm)
 
-  useSeo('School CRM | School Management System | Fenizo')
+  useSeo('School CRM | School Management System | CloneScript')
 
   return (
     <main className="content" id="content">

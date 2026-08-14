@@ -22,7 +22,7 @@ import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 export default function TiktokClonePage() {
   usePageStylesheets(pageStylesheets.tiktokClone)
 
-  useSeo('TikTok Clone Script | Launch Video Sharing App in 7 Days | Fenizo')
+  useSeo('TikTok Clone Script | Launch Video Sharing App in 7 Days | CloneScript')
 
   return (
     <main className="content" id="content">

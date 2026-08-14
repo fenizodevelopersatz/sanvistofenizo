@@ -8,7 +8,7 @@ import GetInTouch from '../components/contact/GetInTouch.jsx'
 export default function ContactUsPage() {
   usePageStylesheets(pageStylesheets.contactUs)
 
-  useSeo('Contact Us | Fenizo')
+  useSeo('Contact Us | CloneScript')
 
   return (
     <main className="content" id="content">

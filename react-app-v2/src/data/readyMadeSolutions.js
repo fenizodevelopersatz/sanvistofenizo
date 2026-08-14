@@ -28,7 +28,7 @@ export const readyMadeSolutions = [
   },
   {
     title: 'On-Demand Service Scripts',
-    desc: 'Fenizo On-Demand Service Scripts are ready-to-go solutions for businesses looking to enter the service industry. We offer a variety of service marketplaces such as a Handyman app like Uber, Taskrabbit clone, Thumbtack clone, and more.',
+    desc: 'CloneScript On-Demand Service Scripts are ready-to-go solutions for businesses looking to enter the service industry. We offer a variety of service marketplaces such as a Handyman app like Uber, Taskrabbit clone, Thumbtack clone, and more.',
     image: '/wp-content/uploads/2025/10/on-demand-service-business-solutions.webp',
     imageAlt: 'on-demand-service-business-solutions',
     imageWidth: 388,
@@ -37,7 +37,7 @@ export const readyMadeSolutions = [
   },
   {
     title: 'Uber Clone for X',
-    desc: 'Fenizo’s Uber Clone for X script enables business owners to effortlessly build their own on-demand service platforms customized for any industry, including Uber for Babysitters, Beauty Services, Car Wash, Doctors, Electricians, and much more.',
+    desc: 'CloneScript’s Uber Clone for X script enables business owners to effortlessly build their own on-demand service platforms customized for any industry, including Uber for Babysitters, Beauty Services, Car Wash, Doctors, Electricians, and much more.',
     image: '/wp-content/uploads/2025/10/uber-clone-for-x-solutions.webp',
     imageAlt: 'on-demand-service-business-solutions',
     imageWidth: 425,

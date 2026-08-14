@@ -21,7 +21,7 @@ export default function WhyWeStandOut() {
                     </div>
                     <header className="fancy-title text-center vc_custom_1745238282869">
                       <h2>Why We Stand Out?</h2>
-                      <h6>What makes Fenizo the top choice for startups and enterprises</h6>
+                      <h6>What makes CloneScript the top choice for startups and enterprises</h6>
                     </header>
                   </div>
                 </div>

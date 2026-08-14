@@ -38,7 +38,7 @@ export default function DevProcess() {
                       <h3>Behind the Code - Our Proven Development Process</h3>
                       <div className="st-desc">
                         <p style={{ textAlign: 'center' }}>
-                          At Fenizo, we use a simple and efficient development process to deliver a high-quality website and
+                          At CloneScript, we use a simple and efficient development process to deliver a high-quality website and
                           app tailored to your business demands.
                         </p>
                       </div>

@@ -31,7 +31,7 @@ const dashboards = [
 export default function TuroClonePage() {
   usePageStylesheets(pageStylesheets.turoClone)
 
-  useSeo('Turo Clone - Build An App Like Turo | Fenizo')
+  useSeo('Turo Clone - Build An App Like Turo | CloneScript')
 
   return (
     <main className="content" id="content">

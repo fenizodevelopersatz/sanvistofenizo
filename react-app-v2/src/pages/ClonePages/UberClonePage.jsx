@@ -24,7 +24,7 @@ import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
 export default function UberClonePage() {
   usePageStylesheets(pageStylesheets.uberClone)
 
-  useSeo('Uber Clone Script | #1 Taxi Booking App | Fenizo')
+  useSeo('Uber Clone Script | #1 Taxi Booking App | CloneScript')
 
   return (
     <main className="content" id="content">

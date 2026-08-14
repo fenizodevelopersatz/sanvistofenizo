@@ -107,8 +107,8 @@ body:not(.fenizo-page-styles-loading) .fenizo-site > .content { animation: feniz
 
 .fenizo-site .navbar-brand .logo-default {
   display: block;
-  width: 200px;
-  max-width: min(200px, 44vw);
+  width: 240px;
+  max-width: min(240px, 48vw);
   height: auto;
   max-height: 67px;
   object-fit: contain;
@@ -210,13 +210,30 @@ body:not(.fenizo-page-styles-loading) .fenizo-site > .content { animation: feniz
 .fenizo-site .content { width: 100%; max-width: 100%; }
 
 .fenizo-site .wpb-content-wrapper > .vc_section,
-.fenizo-site .wpb-content-wrapper > .vc_row,
-.fenizo-site .wpb-content-wrapper > .vc_section > .vc_row {
+.fenizo-site .wpb-content-wrapper > .vc_row {
   width: 100%;
   max-width: 100%;
   margin-right: 0;
   margin-left: 0;
   left: auto;
+}
+
+.fenizo-site .wpb-content-wrapper > .vc_section > .vc_row {
+  width: auto;
+  max-width: 100%;
+  left: auto;
+}
+
+.fenizo-site .wpb-content-wrapper > .vc_section > .vc_row:not([class*='vc_custom_']) {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.fenizo-site .wpb-content-wrapper > .vc_row > .vc_row {
+  width: auto;
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .fenizo-site .fancy-title :where(h1, h2, h3) { color: var(--fenizo-ink); letter-spacing: -.025em; }
@@ -286,6 +303,11 @@ body:not(.fenizo-page-styles-loading) .fenizo-site > .content { animation: feniz
   box-shadow: var(--fenizo-shadow-sm);
 }
 
+.fenizo-site .main-footer .vc_custom_1773139863014 img {
+  width: 240px;
+  height: auto;
+}
+
 .fenizo-site .main-footer .lqd-custom-menu li + li { margin-top: 7px; }
 .fenizo-site .main-footer .lqd-custom-menu a { color: #5b6070; line-height: 1.55; }
 .fenizo-site .main-footer .lqd-custom-menu a:hover { color: var(--fenizo-blue); }
@@ -304,7 +326,7 @@ body:not(.fenizo-page-styles-loading) .fenizo-site > .content { animation: feniz
 
 @media (max-width: 1199px) {
   :root { --fenizo-container: 1080px; }
-  .fenizo-site .navbar-brand .logo-default { width: 176px; }
+  .fenizo-site .navbar-brand .logo-default { width: 210px; }
   .fenizo-site .main-footer .vc_custom_1726132830590 > .vc_row > .ld-container > .ld-row {
     grid-template-columns: minmax(230px, .9fr) minmax(340px, 1.25fr) minmax(260px, .95fr);
     gap: 28px;
@@ -318,7 +340,7 @@ body:not(.fenizo-page-styles-loading) .fenizo-site > .content { animation: feniz
   .fenizo-site .mainbar,
   .fenizo-site .mainbar-row { min-height: 82px; }
   .fenizo-site .mainbar-wrap { height: 82px; }
-  .fenizo-site .navbar-brand .logo-default { width: 160px; max-height: 58px; }
+  .fenizo-site .navbar-brand .logo-default { width: 190px; max-height: 58px; }
   .fenizo-site .main-footer .vc_custom_1726132830590 > .vc_row > .ld-container > .ld-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .fenizo-site .main-footer .vc_custom_1726132830590 > .vc_row > .ld-container > .ld-row > .wpb_column:last-child {
     grid-column: 1 / -1;
@@ -336,7 +358,8 @@ body:not(.fenizo-page-styles-loading) .fenizo-site > .content { animation: feniz
   .fenizo-site .mainbar-wrap { height: 72px; }
   .fenizo-site .navbar-header { display: flex; align-items: center; justify-content: space-between; min-height: 72px; }
   .fenizo-site .navbar-brand { min-height: 56px; }
-  .fenizo-site .navbar-brand .logo-default { width: 142px; max-width: 48vw; max-height: 50px; }
+  .fenizo-site .navbar-brand .logo-default { width: 174px; max-width: 52vw; max-height: 50px; }
+  .fenizo-site .main-footer .vc_custom_1773139863014 img { width: 200px; }
   .fenizo-site .main-footer .vc_custom_1726132830590 { padding: 48px 0 36px; }
   .fenizo-site .main-footer .vc_custom_1726132830590 > .vc_row > .ld-container > .ld-row,
   .fenizo-site .main-footer .vc_custom_1726298125755,

@@ -2,9 +2,9 @@ export const whyChooseUs = [
   { icon: 'fas fa-hand-holding-usd', title: 'One Time Payment', desc: 'One-time payment to get lifetime access to clone scripts.' },
   { icon: 'fas fa-cog', title: 'Free Installation', desc: 'We offer Free installation for all our products to clients.' },
   { icon: 'fas fa-user-clock', title: 'Lifetime Updates', desc: 'Our premium products are constantly upgraded to stand out.' },
-  { icon: 'fas fa-code', title: '100% Source Code', desc: 'Fenizo provides the best Amazon clone with complete source code to the users.' },
+  { icon: 'fas fa-code', title: '100% Source Code', desc: 'CloneScript provides the best Amazon clone with complete source code to the users.' },
   { icon: 'fas fa-universal-access', title: 'Whitelabel Solution', desc: 'Amazon clone is designed as a Whitelabel solution to get full access.' },
-  { icon: 'fas fa-dollar-sign', title: '100% Money Back Guarantee', desc: 'Fenizo offers a special 100% money-back guarantee for our buyers.' },
+  { icon: 'fas fa-dollar-sign', title: '100% Money Back Guarantee', desc: 'CloneScript offers a special 100% money-back guarantee for our buyers.' },
 ]
 
 export const standardFeatureGroups = [
@@ -158,10 +158,10 @@ export const pricingPlans = [
 
 export const faqs = [
   { q: 'What is Amazon Clone?', a: 'Amazon Clone is a ready-made eCommerce script that has all the core features, allowing the entrepreneurs to launch the multi-vendor marketplace quickly. It provides customization capabilities like product listing, payment options, etc.' },
-  { q: 'How to reach our support team?', a: 'Once you purchase our products, if you have any doubts or queries you can reach our support team via support@fenizotechnologies.com to clarify your doubts.' },
+  { q: 'How to reach our support team?', a: 'Once you purchase our products, if you have any doubts or queries you can reach our support team via info@clonescript.com to clarify your doubts.' },
   { q: 'Is it possible to claim full ownership of your clone script/themes once purchased?', a: 'Yes, once you purchase it, you will completely own your website.' },
   { q: 'What is 100% Source Code?', a: 'You get the complete source code of your website so you can customize it based on your desired and business needs. The script/themes are not encrypted files.' },
-  { q: 'Can I Resell the Script/Theme From Fenizo?', a: 'No, once you purchase an Amazon clone script or any themes from us, you don’t have to resell or distribute them. If you violate you are liable for illegal activities.' },
+  { q: 'Can I Resell the Script/Theme From CloneScript?', a: 'No, once you purchase an Amazon clone script or any themes from us, you don’t have to resell or distribute them. If you violate you are liable for illegal activities.' },
   { q: 'How Single and Multi Domain Licence Differs?', a: 'A single-domain license allows usage for only one business on a single domain. For example, you can use it exclusively on mywebsite.com. In contrast, a multi-domain license permits usage for multiple businesses across unlimited domains.' },
 ]
 

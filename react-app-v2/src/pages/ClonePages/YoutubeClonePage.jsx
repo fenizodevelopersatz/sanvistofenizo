@@ -23,7 +23,7 @@ import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 export default function YoutubeClonePage() {
   usePageStylesheets(pageStylesheets.youtubeClone)
 
-  useSeo('YouTube Clone Script | Video Streaming App | Fenizo')
+  useSeo('YouTube Clone Script | Video Streaming App | CloneScript')
 
   return (
     <main className="content" id="content">

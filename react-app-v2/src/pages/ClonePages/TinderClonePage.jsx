@@ -20,7 +20,7 @@ import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
 export default function TinderClonePage() {
   usePageStylesheets(pageStylesheets.tinderClone)
 
-  useSeo('Tinder Clone Script | Online Dating App Solution | Fenizo')
+  useSeo('Tinder Clone Script | Online Dating App Solution | CloneScript')
 
   return (
     <main className="content" id="content">

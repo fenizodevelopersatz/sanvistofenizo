@@ -50,7 +50,7 @@ export default function OurServices() {
                       <h2>Our Services</h2>
                       <div className="st-desc">
                         <p style={{ textAlign: 'center' }}>
-                          Fenizo offers a wide range of services from web development to ready-made clone scripts, which can
+                          CloneScript offers a wide range of services from web development to ready-made clone scripts, which can
                           be tailored to meet your business needs. Our services are designed to help you launch your business
                           quickly and scale efficiently.
                         </p>

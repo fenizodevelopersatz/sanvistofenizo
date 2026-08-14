@@ -12,7 +12,7 @@ import PricingPlans from '../../components/shared/PricingPlans.jsx'
 export default function WhatsappClonePage() {
   usePageStylesheets(pageStylesheets.whatsappClone)
 
-  useSeo('WhatsApp Clone - Best Messaging App Like WhatsApp | Fenizo')
+  useSeo('WhatsApp Clone - Best Messaging App Like WhatsApp | CloneScript')
 
   return (
     <main className="content" id="content">

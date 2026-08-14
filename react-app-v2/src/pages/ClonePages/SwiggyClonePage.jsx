@@ -23,7 +23,7 @@ import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 export default function SwiggyClonePage() {
   usePageStylesheets(pageStylesheets.swiggyClone)
 
-  useSeo('Swiggy Clone Script | Food Delivery App | Fenizo')
+  useSeo('Swiggy Clone Script | Food Delivery App | CloneScript')
 
   return (
     <main className="content" id="content">

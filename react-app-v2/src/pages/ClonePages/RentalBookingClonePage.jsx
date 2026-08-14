@@ -25,7 +25,7 @@ import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
 export default function RentalBookingClonePage() {
   usePageStylesheets(pageStylesheets.rentalBookingScript)
 
-  useSeo('Rental Booking Script | Best Booking Clone | Fenizo')
+  useSeo('Rental Booking Script | Best Booking Clone | CloneScript')
 
   return (
     <main className="content" id="content">

@@ -23,7 +23,7 @@ import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 export default function AirbnbClonePage() {
   usePageStylesheets(pageStylesheets.airbnbClone)
 
-  useSeo('Airbnb Clone - Launch a Vacation Rental Marketplace Like Airbnb | Fenizo')
+  useSeo('Airbnb Clone - Launch a Vacation Rental Marketplace Like Airbnb | CloneScript')
 
   return (
     <main className="content" id="content">

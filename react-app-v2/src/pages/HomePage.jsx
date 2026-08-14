@@ -18,7 +18,7 @@ import './HomePage.css'
 export default function HomePage() {
   usePageStylesheets(pageStylesheets.home)
 
-  useSeo('Fenizo | Web, Mobile App & Software Development Company')
+  useSeo('CloneScript | Web, Mobile App & Software Development Company')
 
   return (
     <main className="content fenizo-homepage" id="content">

@@ -25,7 +25,7 @@ export default function WhyChooseUsTinder() {
                   <header className="fancy-title">
                     <h2>Why Choose Us?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Fenizo offers enriched features and a highly customizable Tinder Clone Script designed to assist you in launching a powerful online dating platform with ease. Our white-label solution includes real-time chat, secure user authentication, and responsive web and mobile apps.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>CloneScript offers enriched features and a highly customizable Tinder Clone Script designed to assist you in launching a powerful online dating platform with ease. Our white-label solution includes real-time chat, secure user authentication, and responsive web and mobile apps.</span></p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">

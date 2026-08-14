@@ -26,7 +26,7 @@ export default function Hero() {
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
                       <p>
-                        Fenizo Technologies designs and builds websites, mobile apps, SaaS products, e-commerce
+                        CloneScript designs and builds websites, mobile apps, SaaS products, e-commerce
                         platforms and custom software for growing businesses — backed by ready-to-launch clone
                         scripts when speed to market matters most.
                       </p>
@@ -63,8 +63,8 @@ export default function Hero() {
                           width="556"
                           height="439"
                           className="vc_single_image-img attachment-full"
-                          alt="Web and app development at Fenizo Technologies"
-                          title="fenizo-hero-development"
+                          alt="Web and app development at CloneScript"
+                          title="clonescript-hero-development"
                           fetchPriority="high"
                           decoding="async"
                         />

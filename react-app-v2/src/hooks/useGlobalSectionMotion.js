@@ -8,12 +8,16 @@ export function useGlobalSectionMotion(routeKey) {
 
     let observer
     let mutationObserver
+    let scrollFrame
+    let handleScroll
     const observed = new WeakSet()
+    const pending = new Set()
     const frame = window.requestAnimationFrame(() => {
       observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
           if (!entry.isIntersecting) return
           entry.target.classList.add('fenizo-section-visible')
+          pending.delete(entry.target)
           observer.unobserve(entry.target)
         })
       }, {
@@ -30,17 +34,36 @@ export function useGlobalSectionMotion(routeKey) {
             section.classList.add('fenizo-section-visible')
             return
           }
+          pending.add(section)
           observer.observe(section)
         })
+      }
+
+      const revealPassedSections = () => {
+        scrollFrame = undefined
+        pending.forEach((section) => {
+          if (section.getBoundingClientRect().top >= window.innerHeight * 0.96) return
+          section.classList.add('fenizo-section-visible')
+          pending.delete(section)
+          observer.unobserve(section)
+        })
+      }
+
+      handleScroll = () => {
+        if (scrollFrame) return
+        scrollFrame = window.requestAnimationFrame(revealPassedSections)
       }
 
       scan()
       mutationObserver = new MutationObserver(scan)
       mutationObserver.observe(document.getElementById('wrap'), { childList: true, subtree: true })
+      window.addEventListener('scroll', handleScroll, { passive: true })
     })
 
     return () => {
       window.cancelAnimationFrame(frame)
+      if (scrollFrame) window.cancelAnimationFrame(scrollFrame)
+      if (handleScroll) window.removeEventListener('scroll', handleScroll)
       observer?.disconnect()
       mutationObserver?.disconnect()
     }

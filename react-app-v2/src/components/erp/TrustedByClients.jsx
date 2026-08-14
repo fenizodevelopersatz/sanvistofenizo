@@ -74,7 +74,7 @@ export default function TrustedByClients() {
                     <div className="vc_empty_space" style={{ height: 20 }}><span className="vc_empty_space_inner"></span></div>
                     <div className="wpb_text_column wpb_content_element">
                       <div className="wpb_wrapper">
-                        <p style={{ textAlign: 'center' }}>Fenizo Technologies has years of experience in delivering high-quality product development solutions.</p>
+                        <p style={{ textAlign: 'center' }}>CloneScript has years of experience in delivering high-quality product development solutions.</p>
                       </div>
                     </div>
                     <div className="vc_empty_space" style={{ height: 40 }}><span className="vc_empty_space_inner"></span></div>
