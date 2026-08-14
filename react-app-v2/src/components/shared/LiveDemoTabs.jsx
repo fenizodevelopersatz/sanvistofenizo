@@ -55,7 +55,7 @@ export default function LiveDemoTabs({ dashboards }) {
                                   </div>
                                   <div className="iconbox iconbox-inline iconbox-circle iconbox-xs">
                                     <div className="iconbox-icon-wrap"><span className="iconbox-icon-container"><i className="fa fa-solid fa-envelope"></i></span></div>
-                                    <h3 className="font-weight-normal"><a href={`mailto:${siteContact.demoEmail}`}>{siteContact.demoEmail}</a></h3>
+                                    <h3 className="font-weight-normal"><a href={`mailto:${active.email || siteContact.demoEmail}`}>{active.email || siteContact.demoEmail}</a></h3>
                                   </div>
                                   <div className="iconbox iconbox-inline iconbox-circle iconbox-xs">
                                     <div className="iconbox-icon-wrap"><span className="iconbox-icon-container"><i className="fa fa-solid fa-key"></i></span></div>

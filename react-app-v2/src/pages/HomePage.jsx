@@ -21,16 +21,18 @@ export default function HomePage() {
   useSeo('Fenizo | Web, Mobile App & Software Development Company')
 
   return (
-    <main className="content" id="content">
+    <main className="content fenizo-homepage" id="content">
       <div className="wpb-content-wrapper">
-        <section className="vc_section">
+        <section className="fenizo-intro-section vc_section">
           <Hero />
           <StarRatingBanner />
           <TrustedByLogos />
         </section>
         <WhyWeStandOut />
-        <section className="vc_section">
+        <section className="fenizo-milestones-section vc_section">
           <AchievementBanner />
+        </section>
+        <section className="fenizo-showcase-section vc_section vc_custom_1745486374572 vc_section-has-fill">
           <TeamToolsBanner />
         </section>
         <OurServices />
@@ -38,7 +40,7 @@ export default function HomePage() {
         <ViewAllProductsBanner />
         <TechStackBanner />
         <DevProcess />
-        <section className="vc_section vc_custom_1745486388430 vc_section-has-fill">
+        <section className="fenizo-connect-section vc_section vc_custom_1745486388430 vc_section-has-fill">
           <ConnectWithUs />
         </section>
       </div>

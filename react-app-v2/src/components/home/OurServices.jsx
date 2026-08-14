@@ -33,8 +33,8 @@ function ServiceCard({ service }) {
 
 export default function OurServices() {
   return (
-    <section className="vc_section vc_custom_1745486374572" id="services">
-      <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40a963b">
+    <section className="fenizo-services-section vc_section vc_custom_1745486374572" id="services">
+      <section className="fenizo-section-intro vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40a963b">
         <div className="ld-container container">
           <div className="row ld-row">
             <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-xs-offset-1 vc_col-xs-10">

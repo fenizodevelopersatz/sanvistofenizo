@@ -24,9 +24,9 @@ export default function TrustedByLogos() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="row ld-row">
+                  <div className="fenizo-trust-grid row ld-row">
                     {trustCategories.map((cat, i) => (
-                      <div className="wpb_column vc_column_container vc_col-sm-6 vc_col-xs-6" key={i} style={{ marginBottom: 20 }}>
+                      <div className="fenizo-trust-item wpb_column vc_column_container" key={i}>
                         <div className="iconbox iconbox-center iconbox-heading-md">
                           <div className="iconbox-icon-wrap">
                             <span className="iconbox-icon-container">

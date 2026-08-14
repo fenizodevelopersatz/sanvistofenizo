@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
 import { testimonials } from '../../data/testimonials.js'
 import InitialsAvatar from './InitialsAvatar.jsx'
+import './BlockquoteTestimonials.css'
 
-export default function BlockquoteTestimonials({ count = 3, offset = 0 }) {
+export default function BlockquoteTestimonials({ count = 3, offset = 0, visibleCount = 1 }) {
   const items = testimonials.slice(offset, offset + count)
   const [active, setActive] = useState(0)
 
@@ -11,7 +12,10 @@ export default function BlockquoteTestimonials({ count = 3, offset = 0 }) {
     return () => clearInterval(id)
   }, [items.length])
 
-  const item = items[active]
+  const visibleItems = Array.from(
+    { length: Math.min(visibleCount, items.length) },
+    (_, index) => items[(active + index) % items.length],
+  )
 
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
@@ -22,8 +26,9 @@ export default function BlockquoteTestimonials({ count = 3, offset = 0 }) {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <div className="carousel-container carousel-nav-left carousel-nav-md carousel-dots-style1">
-                    <div className="carousel-items row">
-                      <div className="carousel-item">
+                    <div className={`carousel-items row blockquote-testimonial-grid${visibleCount > 1 ? ' blockquote-testimonial-grid--split' : ''}`}>
+                      {visibleItems.map((item) => (
+                      <div className="carousel-item" key={item.name}>
                         <div className="testimonial testimonial-whole-filled testimonial-whole-shadowed testimonial-details-top testimonial-avatar-shadowed text-left testimonial-details-sm testimonial-avatar-sm testimonial-avatar-topleft avatar-fix">
                           <div className="testimonial-quote">
                             <blockquote>
@@ -46,6 +51,7 @@ export default function BlockquoteTestimonials({ count = 3, offset = 0 }) {
                           </div>
                         </div>
                       </div>
+                      ))}
                     </div>
                     <div className="carousel-dots">
                       {items.map((t, i) => (

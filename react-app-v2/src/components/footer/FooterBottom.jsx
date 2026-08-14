@@ -112,7 +112,7 @@ export default function FooterBottom() {
               </div>
             </div>
 
-            <div className="wpb_column vc_column_container vc_col-sm-8 vc_col-md-8">
+            <div className="wpb_column vc_column_container vc_col-sm-4 vc_col-md-5">
               <div className="vc_column-inner">
                 <div className="wpb_wrapper vc_custom_1726298044719">
                   <div className="wpb_wrapper-inner">
@@ -134,40 +134,44 @@ export default function FooterBottom() {
               </div>
             </div>
 
-          </div>
-        </div>
-      </section>
-      </section>
-
-      <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a4108873">
-        <div className="ld-container container">
-          <div className="row ld-row">
-            <div className="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill">
+            <div className="wpb_column vc_column_container vc_col-sm-3 vc_col-has-fill">
               <div className="vc_column-inner">
-                <div className="wpb_wrapper vc_custom_1726132866277">
+                <div className="wpb_wrapper vc_custom_1726203548888">
                   <div className="wpb_wrapper-inner">
-                    <div className="ld-fancy-heading text-center">
-                      <p className="lqd-highlight-underline lqd-highlight-grow-left">
-                        <span className="ld-fh-txt">
-                          <span className="safensecure" style={{ fontSize: 16 }}>
-                            <strong>Safe &amp; Secure</strong> Checkout
-                          </span>
-                        </span>
-                      </p>
-                    </div>
-                    <div className="wpb_single_image wpb_content_element vc_align_center">
-                      <figure className="wpb_wrapper vc_figure">
-                        <div className="vc_single_image-wrapper vc_box_border_grey">
-                          <img src="/wp-content/uploads/2023/03/fenizo-payments.png" width="598" height="238" className="vc_single_image-img attachment-full" alt="accepted payment methods" title="accepted payment methods" loading="lazy" decoding="async" />
+                    <div className="vc_row wpb_row vc_inner vc_row-fluid liquid-row-shadowbox-6a665a4108873">
+                      <div className="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill">
+                        <div className="vc_column-inner">
+                          <div className="wpb_wrapper vc_custom_1726132866277">
+                            <div className="wpb_wrapper-inner">
+                              <div className="ld-fancy-heading text-center">
+                                <p className="lqd-highlight-underline lqd-highlight-grow-left">
+                                  <span className="ld-fh-txt">
+                                    <span className="safensecure" style={{ fontSize: 16 }}>
+                                      <strong>Safe &amp; Secure</strong> Checkout
+                                    </span>
+                                  </span>
+                                </p>
+                              </div>
+                              <div className="wpb_single_image wpb_content_element vc_align_center vc_custom_1726211991731">
+                                <figure className="wpb_wrapper vc_figure">
+                                  <div className="vc_single_image-wrapper vc_box_border_grey">
+                                    <img src="/wp-content/uploads/2023/03/fenizo-payments.png" width="598" height="238" className="vc_single_image-img attachment-full" alt="accepted payment methods" title="accepted payment methods" loading="lazy" decoding="async" />
+                                  </div>
+                                </figure>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                      </figure>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
+      </section>
       </section>
 
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a4109782">

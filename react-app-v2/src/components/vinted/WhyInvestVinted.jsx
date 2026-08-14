@@ -37,7 +37,7 @@ export default function WhyInvestVinted() {
                   <div className="wpb_single_image wpb_content_element vc_align_center">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2026/04/why-invest-in-vinted-clone.png" width="780" height="698" className="vc_single_image-img attachment-full" alt="why invest in vinted clone" />
+                        <img src="/wp-content/uploads/2026/04/why-invest-in-vinted-clone.png" width="780" height="698" className="vc_single_image-img attachment-full" alt="why invest in vinted clone" loading="lazy" decoding="async" />
                       </div>
                     </figure>
                   </div>

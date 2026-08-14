@@ -42,7 +42,6 @@ export default function AchievementBanner() {
                 className="wpb_wrapper"
                 ref={imgRef}
                 style={{
-                  marginTop: '10%',
                   opacity: imgInView ? 1 : 0,
                   transform: imgInView ? 'translateX(0)' : 'translateX(150px)',
                   transition: 'opacity 1.6s cubic-bezier(0.23,1,0.32,1) 0.25s, transform 1.6s cubic-bezier(0.23,1,0.32,1) 0.25s',

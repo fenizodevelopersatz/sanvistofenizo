@@ -34,7 +34,7 @@ export default function BlogTeaser() {
                         <div className="col-md-4" key={i}>
                           <article className="liquid-lp post type-post status-publish format-standard has-post-thumbnail hentry">
                             <figure className="liquid-lp-media rounded">
-                              <a href="#"><img src={post.image} width="740" height="500" className="attachment-liquid-rounded-blog size-liquid-rounded-blog wp-post-image" alt={post.alt} /></a>
+                              <a href="#"><img src={post.image} width="740" height="500" className="attachment-liquid-rounded-blog size-liquid-rounded-blog wp-post-image" alt={post.alt} loading="lazy" decoding="async" /></a>
                             </figure>
                             <header className="liquid-lp-header">
                               <h2 className="entry-title liquid-lp-title h5"><a href="#" rel="bookmark">{post.title}</a></h2>

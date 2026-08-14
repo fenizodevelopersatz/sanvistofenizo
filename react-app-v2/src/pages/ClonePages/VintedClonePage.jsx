@@ -1,5 +1,6 @@
 import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
+import { useSectionMotion } from '../../hooks/useSectionMotion.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import { siteContact } from '../../data/siteContact.js'
 import { comparisonLabels } from '../../data/comparisonLabels.js'
@@ -9,7 +10,7 @@ import {
 } from '../../data/vinted/vintedData.js'
 
 import VintedHero from '../../components/vinted/VintedHero.jsx'
-import TrustedByBadges from '../../components/shared/TrustedByBadges.jsx'
+import VintedReviewLogos from '../../components/vinted/VintedReviewLogos.jsx'
 import BlockquoteTestimonials from '../../components/shared/BlockquoteTestimonials.jsx'
 import WhatIsVintedAndVideo from '../../components/vinted/WhatIsVintedAndVideo.jsx'
 import WhyChooseChecklist from '../../components/shared/WhyChooseChecklist.jsx'
@@ -28,6 +29,7 @@ import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
+import './VintedClonePage.css'
 
 const dashboards = [
   { label: 'User/Seller Dashboard', email: 'buyer@email.com', password: '12345678', url: siteContact.cloneDemoUrl },
@@ -42,20 +44,20 @@ const whyChoosePoints = [
 ]
 
 export default function VintedClonePage() {
-  usePageStylesheets(pageStylesheets.vintedClone)
+  const stylesReady = usePageStylesheets(pageStylesheets.vintedClone)
+  const motionRef = useSectionMotion(stylesReady)
 
   useSeo('Vinted Clone Script | Fashion Resale Marketplace App | Fenizo')
 
   return (
     <main className="content" id="content">
-      <div className="wpb-content-wrapper">
+      <div ref={motionRef} className="wpb-content-wrapper vinted-motion-page">
         <section className="vc_section">
           <VintedHero />
         </section>
 
         <section className="vc_section vc_custom_1776320292174 vc_section-has-fill">
-          <TrustedByBadges heading="by Our Clients" />
-          <BlockquoteTestimonials count={3} offset={0} />
+          <VintedReviewLogos />
           <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
             <div className="ld-container container">
               <div className="row ld-row">
@@ -80,34 +82,38 @@ export default function VintedClonePage() {
               </div>
             </div>
           </section>
+          <BlockquoteTestimonials count={3} offset={0} visibleCount={2} />
         </section>
 
         <WhatIsVintedAndVideo />
 
-        <WhyChooseChecklist
-          heading="Why"
-          accentWord="Choose Us?"
-          desc="Take your online classified marketplace to success with our ready-to-launch and feature-packed Vinted Clone App."
-          points={whyChoosePoints}
-          image="/assets/images/fenizo/achievement-stats.svg"
-          imageAlt="Fenizo Technologies: serving 20+ countries with 24+ happy clients worldwide"
-        />
+        <section className="vinted-overview-group vc_section">
+          <WhyChooseChecklist
+            heading="Why"
+            accentWord="Choose Us?"
+            desc="Take your online classified marketplace to success with our ready-to-launch and feature-packed Vinted Clone App."
+            points={whyChoosePoints}
+            image="/wp-content/uploads/2026/04/website-aboutus-1.webp"
+            imageAlt="Fenizo marketplace delivery achievements"
+          />
 
-        <VintedIntroBanner />
-        <WhyInvestVinted />
-        <AiFeaturesGrid items={aiFeatures} columns={2} />
-
-        <ComparisonTable labels={comparisonLabels} ours={comparisonOurs} others={comparisonOthers} cloneName="Vinted Clone" />
+          <VintedIntroBanner />
+          <WhyInvestVinted />
+          <AiFeaturesGrid items={aiFeatures} columns={2} />
+          <ComparisonTable labels={comparisonLabels} ours={comparisonOurs} others={comparisonOthers} cloneName="Vinted Clone" />
+        </section>
         <PdfDownloadCta
           heading="Explore the Full Capabilities of Our Vinted Clone"
           desc="Take a closer look at the features designed to support smooth operations, strong user engagement, and steady business growth. Get the complete product feature details to understand how the platform works."
+          image="/wp-content/uploads/2026/04/vinted-document.webp"
+          imageAlt="Vinted clone features document"
         />
 
         <RoleFeatureTabs heading="Essential Features of Our Vinted Marketplace Software" roles={roleTabs} />
 
-        <TechStackRow items={techStack} />
+        <TechStackRow items={techStack} heading="Technology We Use" />
 
-        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+        <section className="vinted-live-demo-cta vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
           <div className="ld-container container">
             <div className="row ld-row">
               <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-0 vc_col-md-6 vc_col-xs-offset-1 vc_col-xs-10 vc_col-has-fill">
@@ -132,6 +138,22 @@ export default function VintedClonePage() {
                           <span className="btn-icon"><i className="fa fa-solid fa-calendar"></i></span>
                         </span>
                       </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-0 vc_col-md-6 vc_col-xs-offset-1 vc_col-xs-10">
+                <div className="vc_column-inner">
+                  <div className="wpb_wrapper">
+                    <div className="wpb_wrapper-inner">
+                      <img
+                        src="/wp-content/uploads/2026/04/website-thumb-1.webp"
+                        width="600"
+                        height="500"
+                        alt="Vinted clone live demo"
+                        loading="lazy"
+                        decoding="async"
+                      />
                     </div>
                   </div>
                 </div>
@@ -165,7 +187,11 @@ export default function VintedClonePage() {
         </section>
         <ProcessSteps steps={launchSteps} />
 
-        <RevenueBenefits items={revenueBenefits} subheading="Boost your revenue with earning features designed to support business growth." />
+        <RevenueBenefits
+          items={revenueBenefits}
+          image="/wp-content/uploads/2026/04/revenue_benefits.webp"
+          subheading="Boost your revenue with earning features designed to support business growth."
+        />
 
         <LiveDemoTabs dashboards={dashboards} />
 

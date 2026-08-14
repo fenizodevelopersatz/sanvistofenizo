@@ -51,7 +51,7 @@ export default function RevenueBenefits({ heading = 'Revenue Benefits', subheadi
           </div>
           {image && (
             <div className="wpb_column vc_column_container vc_col-sm-6 vc_hidden-sm vc_hidden-xs">
-              <img src={image} alt="revenue benefits" style={{ maxWidth: '100%' }} />
+              <img src={image} alt="revenue benefits" style={{ maxWidth: '100%' }} loading="lazy" decoding="async" />
             </div>
           )}
           <div className="wpb_column vc_column_container vc_col-sm-3" style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>

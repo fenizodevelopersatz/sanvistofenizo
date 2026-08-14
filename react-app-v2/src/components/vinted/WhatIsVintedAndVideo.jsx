@@ -59,7 +59,7 @@ export default function WhatIsVintedAndVideo() {
                           </div>
                           <div className="liquid-img-container-inner">
                             <figure>
-                              <img src="/wp-content/uploads/2026/04/vinted-clone.webp" width="1024" height="583" alt="vinted-clone" />
+                              <img src="/wp-content/uploads/2026/04/vinted-clone.webp" width="1024" height="583" alt="vinted-clone" loading="lazy" decoding="async" />
                             </figure>
                           </div>
                         </div>

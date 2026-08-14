@@ -7,18 +7,12 @@ export default function TechStackBanner() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper vc_custom_1745485929701">
                 <div className="wpb_wrapper-inner">
-                  <div className="ld-empty-space">
-                    <span className="liquid_empty_space_inner"></span>
-                  </div>
                   <header className="fancy-title text-center">
                     <h3>Robust Tech Stack We Used</h3>
                   </header>
-                  <div className="ld-empty-space">
-                    <span className="liquid_empty_space_inner"></span>
-                  </div>
                   <div className="fenizo-tech-stack__media">
                     <picture>
-                      <source media="(max-width: 767px)" srcSet="/wp-content/uploads/2025/04/Group-48097199.png" />
+                      <source media="(max-width: 991px)" srcSet="/wp-content/uploads/2025/04/Group-48097199.png" />
                       <img
                         src="/wp-content/uploads/2025/10/technology-stacks-fenizo.png"
                         width="1999"

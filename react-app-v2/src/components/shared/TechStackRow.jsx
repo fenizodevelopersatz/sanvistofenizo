@@ -28,7 +28,7 @@ export default function TechStackRow({ items, heading = 'Technology Stack' }) {
                     <div className="iconbox iconbox-xl iconbox-contents-show-onhover" style={{ color: t.color }}>
                       <div className="iconbox-icon-wrap">
                         <span className="iconbox-icon-container">
-                          {t.type === 'icon' ? <i className={t.icon}></i> : <img src={t.image} className="liquid-image-icon" width="60" height="36" alt={t.title} />}
+                          {t.type === 'icon' ? <i className={t.icon}></i> : <img src={t.image} className="liquid-image-icon" width="60" height="36" alt={t.title} loading="lazy" decoding="async" />}
                         </span>
                       </div>
                       <h3>{t.title}</h3>

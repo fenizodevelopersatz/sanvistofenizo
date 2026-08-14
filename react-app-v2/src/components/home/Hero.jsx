@@ -53,7 +53,7 @@ export default function Hero() {
           </div>
           <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-0 vc_col-md-6 vc_col-xs-offset-1 vc_col-xs-10 vc_hidden-xs">
             <div className="vc_column-inner">
-              <div className="wpb_wrapper" style={{ marginTop: '10%' }}>
+              <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <div className="wpb_single_image wpb_content_element vc_align_left">
                     <figure className="wpb_wrapper vc_figure">

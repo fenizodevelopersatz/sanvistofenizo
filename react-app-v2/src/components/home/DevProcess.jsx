@@ -21,7 +21,7 @@ export default function DevProcess() {
   const [left, right] = [devProcessSteps.slice(0, 3), devProcessSteps.slice(3, 6)]
 
   return (
-    <>
+    <section className="fenizo-process-section vc_section">
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40be25f">
         <div className="ld-container container">
           <div className="row ld-row">
@@ -103,6 +103,6 @@ export default function DevProcess() {
           </div>
         </div>
       </section>
-    </>
+    </section>
   )
 }

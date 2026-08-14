@@ -9,14 +9,16 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transform: translate3d(100%, 0, 0);
-  transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+  transform: translate3d(0, 0, 0);
+  clip-path: inset(0 0 0 100%);
+  transition: opacity 0.3s, visibility 0.3s, clip-path 0.3s;
 }
 .ld-module-cart-offcanvas .ld-module-dropdown.show {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
   transform: translate3d(0, 0, 0);
+  clip-path: inset(0);
 }
 
 /* Menu items with no built page in this app yet. Rendered as a non-anchor

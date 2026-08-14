@@ -3,8 +3,8 @@ import WhyWeStandOutRow from './WhyWeStandOutRow.jsx'
 
 export default function WhyWeStandOut() {
   return (
-    <section className="vc_section vc_custom_1742024412511 vc_section-has-fill">
-      <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40a0f1e">
+    <section className="fenizo-why-section vc_section vc_custom_1742024412511 vc_section-has-fill">
+      <section className="fenizo-section-intro vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40a0f1e">
         <div className="ld-container container">
           <div className="row ld-row">
             <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-xs-offset-1 vc_col-xs-10">

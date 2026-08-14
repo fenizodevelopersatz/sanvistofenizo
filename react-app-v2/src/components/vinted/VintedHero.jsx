@@ -15,7 +15,7 @@ export default function VintedHero() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
-                  <a className="btn btn-default btn-xsm circle btn-bordered border-thin btn-icon-left badge-pill-animated" data-localscroll="true">
+                  <a className="btn btn-default btn-xsm circle btn-bordered border-thin btn-icon-left badge-pill-animated vinted-hero-badge" data-localscroll="true">
                     <span>
                       <span className="btn-txt">AI-Powered</span>
                       <span className="btn-icon"><i className="fa fa-solid fa-bolt"></i></span>
@@ -36,7 +36,7 @@ export default function VintedHero() {
                   </div>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <div className="ld-fancy-heading text-center">
-                    <h4 className="lqd-highlight-underline lqd-highlight-grow-left" data-text-rotator="true">
+                    <h4 className="lqd-highlight-underline lqd-highlight-grow-left vinted-hero-rotator" data-text-rotator="true">
                       <span className="ld-fh-txt">
                         {' '}
                         <span className="txt-rotate-keywords">
@@ -49,7 +49,7 @@ export default function VintedHero() {
                     </h4>
                   </div>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
-                  <a href="#demo" className="btn btn-solid btn-sm round btn-bordered border-thin" data-localscroll="true">
+                  <a href="#demo" className="btn btn-solid btn-sm round btn-bordered border-thin vinted-hero-primary-cta" data-localscroll="true">
                     <span>
                       <span className="btn-txt">Live Demo</span>
                       <span className="btn-icon"><i className="fa fa-regular fa-eye"></i></span>

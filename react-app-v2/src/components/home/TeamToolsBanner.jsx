@@ -5,7 +5,7 @@ export default function TeamToolsBanner() {
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-12">
             <div className="vc_column-inner">
-              <div className="wpb_wrapper vc_custom_1742215997062">
+              <div className="fenizo-showcase-content wpb_wrapper vc_custom_1742215997062">
                 <div className="wpb_wrapper-inner">
                   <div className="ld-fancy-heading text-center text-capitalize">
                     <h3 className="lqd-highlight-underline lqd-highlight-grow-left">
@@ -16,9 +16,6 @@ export default function TeamToolsBanner() {
                       </span>
                     </h3>
                   </div>
-                  <div className="ld-empty-space">
-                    <span className="liquid_empty_space_inner"></span>
-                  </div>
                   <div className="vc_btn3-container vc_btn3-inline vc_do_btn">
                     <button
                       type="button"
@@ -28,9 +25,6 @@ export default function TeamToolsBanner() {
                     >
                       Enquiry Now <i className="vc_btn3-icon fas fa-headset"></i>
                     </button>
-                  </div>
-                  <div className="ld-empty-space">
-                    <span className="liquid_empty_space_inner"></span>
                   </div>
                   <div className="wpb_single_image wpb_content_element vc_align_left vc_custom_1761555679935">
                     <figure className="wpb_wrapper vc_figure">

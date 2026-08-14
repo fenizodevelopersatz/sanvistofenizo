@@ -1,15 +1,24 @@
 import { useState } from 'react'
 import { useContactForm } from '../../hooks/useContactForm.js'
 
-export default function PdfDownloadCta({ heading, desc }) {
+export default function PdfDownloadCta({ heading, desc, image, imageAlt = '' }) {
   const [isOpen, setIsOpen] = useState(false)
   const { values, handleChange, handleSubmit, submitted } = useContactForm({ fullname: '', email: '' })
 
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+    <section className={`fenizo-pdf-cta vc_row wpb_row vc_row-fluid liquid-row-shadowbox${image ? ' fenizo-pdf-cta--illustrated' : ''}`}>
       <div className="ld-container container">
-        <div className="row ld-row">
-          <div className="wpb_column vc_column_container vc_col-sm-12 text-center">
+        <div className="fenizo-pdf-cta__panel row ld-row">
+          {image && (
+            <div className="fenizo-pdf-cta__media wpb_column vc_column_container vc_col-sm-4 text-center">
+              <div className="vc_column-inner">
+                <div className="wpb_wrapper">
+                  <img src={image} width="300" height="300" alt={imageAlt} loading="lazy" decoding="async" />
+                </div>
+              </div>
+            </div>
+          )}
+          <div className={`wpb_column vc_column_container ${image ? 'vc_col-sm-8' : 'vc_col-sm-12 text-center'}`}>
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
@@ -33,7 +42,7 @@ export default function PdfDownloadCta({ heading, desc }) {
       </div>
 
       {isOpen && (
-        <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.6)', zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center' }} onClick={() => setIsOpen(false)}>
+        <div className="fenizo-pdf-modal" style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.6)', zIndex: 2000000000, display: 'flex', alignItems: 'center', justifyContent: 'center' }} onClick={() => setIsOpen(false)}>
           <div style={{ background: '#fff', borderRadius: 20, padding: 30, maxWidth: 480, width: '90%', position: 'relative' }} onClick={(e) => e.stopPropagation()}>
             <header className="fancy-title">
               <h6>Fill the Form to Get the Features Document</h6>

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function ViewAllProductsBanner() {
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40bb923">
+    <section className="fenizo-products-cta-row vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40bb923">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-12 text-center">

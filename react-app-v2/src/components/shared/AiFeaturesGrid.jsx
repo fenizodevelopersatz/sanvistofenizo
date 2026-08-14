@@ -39,7 +39,7 @@ export default function AiFeaturesGrid({ items, heading = 'AI-Powered Capabiliti
                     <Reveal delay={0.1 * (i % columns)}>
                       <div className="iconbox iconbox-heading-xs iconbox-icon-image" style={CARD_STYLE}>
                         <div className="iconbox-icon-wrap">
-                          <span className="iconbox-icon-container"><img src={f.image} className="liquid-image-icon" width="60" height="52" alt={f.title} /></span>
+                          <span className="iconbox-icon-container"><img src={f.image} className="liquid-image-icon" width="60" height="52" alt={f.title} loading="lazy" decoding="async" /></span>
                         </div>
                         <div className="contents">
                           <h3>{f.title}</h3>

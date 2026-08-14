@@ -1,0 +1,60 @@
+.carousel-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.carousel-dots .dot {
+  appearance: none;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #333;
+  opacity: 0.25;
+  cursor: pointer;
+  transition: opacity 200ms ease, transform 200ms ease, background-color 200ms ease;
+}
+
+.carousel-dots .dot.is-selected {
+  background: #002692;
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+.carousel-dots .dot:hover {
+  opacity: 0.7;
+}
+
+.carousel-dots .dot:focus-visible {
+  outline: 3px solid rgb(0 38 146 / 28%);
+  outline-offset: 4px;
+}
+
+@media (max-width: 767px) {
+  .blockquote-testimonial-grid--split {
+    grid-template-columns: 1fr;
+  }
+
+  .blockquote-testimonial-grid--split > .carousel-item:nth-child(n + 2) {
+    display: none;
+  }
+}
+.blockquote-testimonial-grid--split {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.blockquote-testimonial-grid--split > .carousel-item {
+  width: auto;
+  min-width: 0;
+}

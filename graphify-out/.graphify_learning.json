@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-14T10:54:21.685796+00:00",
+  "nodes": {
+    "components_footer_footer_footer": {
+      "code_fingerprint": "30924f724637d4556a0b4e60da3ba5971bf099c62148ef1a6db26f0f560668f3",
+      "label": "Footer()",
+      "last": "2026-08-14T09:38:53.815294+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-14T09:38:53.815294+00:00",
+          "outcome": "useful",
+          "q": "see index.html compare the this section fooder on same row but our react Fix the issue"
+        }
+      ],
+      "score": 0.998789899,
+      "source_file": "components/footer/Footer.jsx",
+      "status": "tentative",
+      "uses": 1
+    },
+    "components_footer_footerbottom": {
+      "code_fingerprint": "882a0c062ca1d61ab6f165b77877c0159b324e40e051ccdabec22e8ef1d0ebd0",
+      "label": "FooterBottom.jsx",
+      "last": "2026-08-14T09:38:53.815294+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-14T09:38:53.815294+00:00",
+          "outcome": "useful",
+          "q": "see index.html compare the this section fooder on same row but our react Fix the issue"
+        }
+      ],
+      "score": 0.998789899,
+      "source_file": "components/footer/FooterBottom.jsx",
+      "status": "tentative",
+      "uses": 1
+    },
+    "components_layout_layout": {
+      "code_fingerprint": "a06b171ac65dfdf283f01ae1da4777257f267f653a71b0f8f0e7769d6c4ea4a2",
+      "label": "Layout()",
+      "last": "2026-08-14T09:38:53.815294+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-14T09:38:53.815294+00:00",
+          "outcome": "useful",
+          "q": "see index.html compare the this section fooder on same row but our react Fix the issue"
+        }
+      ],
+      "score": 0.998789899,
+      "source_file": "components/Layout.jsx",
+      "status": "tentative",
+      "uses": 1
+    }
+  },
+  "version": 1
+}
