@@ -134,4 +134,11 @@ export const footerSitemap = [
       ['/vinted-clone', 'Resale App'],
     ],
   },
+  {
+    title: 'BUSINESS SOFTWARE',
+    links: [
+      ['/erp-software', 'ERP Software'],
+      ['/school-crm', 'School Management System'],
+    ],
+  },
 ]

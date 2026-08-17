@@ -94,19 +94,25 @@
 
 /* Colorful card treatment: each card cycles through a 5-color pastel palette (by testimonial
    identity, not carousel position, so a given reviewer keeps the same color as it rotates)
-   instead of the legacy theme's plain white-and-shadow card. */
-.testimonial.testimonial-colorful {
+   instead of the legacy theme's plain white-and-shadow card.
+   Selectors repeat the .testimonial-colorful class (a no-op combinator, since both classes are
+   always present together) purely to reach 3-class specificity — page-specific grid CSS like
+   ErpSoftwarePage.css's ".erp-testimonial-grid .testimonial" is a (0,2,0) selector that would
+   otherwise win the cascade and force the card back to a plain white background. */
+.testimonial.testimonial-colorful.testimonial-colorful {
   position: relative;
   padding: 32px 24px 24px;
+  border: none;
   border-radius: 20px;
+  box-shadow: none;
   overflow: hidden;
 }
 
-.testimonial-colorful-0 { background: #EDE7FF; --testimonial-accent: #7C5CFC; }
-.testimonial-colorful-1 { background: #FFF1DA; --testimonial-accent: #F5A623; }
-.testimonial-colorful-2 { background: #E3F1FF; --testimonial-accent: #2F6FE4; }
-.testimonial-colorful-3 { background: #FFE3EE; --testimonial-accent: #EC4899; }
-.testimonial-colorful-4 { background: #DEFBF0; --testimonial-accent: #12B886; }
+.testimonial.testimonial-colorful-0.testimonial-colorful-0 { background: #EDE7FF; --testimonial-accent: #7C5CFC; }
+.testimonial.testimonial-colorful-1.testimonial-colorful-1 { background: #FFF1DA; --testimonial-accent: #F5A623; }
+.testimonial.testimonial-colorful-2.testimonial-colorful-2 { background: #E3F1FF; --testimonial-accent: #2F6FE4; }
+.testimonial.testimonial-colorful-3.testimonial-colorful-3 { background: #FFE3EE; --testimonial-accent: #EC4899; }
+.testimonial.testimonial-colorful-4.testimonial-colorful-4 { background: #DEFBF0; --testimonial-accent: #12B886; }
 
 .testimonial-colorful__quote-mark {
   position: absolute;

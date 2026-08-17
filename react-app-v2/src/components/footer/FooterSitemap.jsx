@@ -30,7 +30,7 @@ const sitemapColumnGroups = [
   [2, 8, 10],
   [3, 7],
   [4, 13],
-  [9, 11, 12],
+  [9, 11, 12, 14],
 ].map((indexes) => indexes.map((index) => styledSitemap[index]).filter(Boolean))
 
 function SitemapLink({ href, label }) {

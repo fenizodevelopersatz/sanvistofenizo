@@ -19,7 +19,7 @@ export default function TechStackBanner() {
                         height="787"
                         className="fenizo-tech-stack__art"
                         alt="Technology stack used by CloneScript: MySQL, Firebase, Node.js, WordPress, Vue, Xcode, Flutter, PHP, Java, Android, React, and Laravel"
-                        loading="lazy"
+                        loading="eager"
                         decoding="async"
                       />
                     </picture>

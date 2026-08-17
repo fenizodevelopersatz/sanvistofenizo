@@ -22,12 +22,12 @@ export default function MobileScreens() {
       </div>
 
       <div className="ld-container container-fluid">
-        <div className="row ld-row" style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 20 }}>
+        <div className="row ld-row" style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 20, alignItems: 'start' }}>
           {mobileScreens.map((src, i) => (
             <div className="wpb_single_image wpb_content_element vc_align_left" key={i}>
               <figure className="wpb_wrapper vc_figure">
                 <div className="vc_single_image-wrapper vc_box_border_grey">
-                  <img src={src} className="vc_single_image-img attachment-full" alt={`OLX Clone screen ${i + 1}`} loading="lazy" style={{ maxWidth: '100%' }} />
+                  <img src={src} className="vc_single_image-img attachment-full" alt={`OLX Clone screen ${i + 1}`} loading="eager" decoding="async" style={{ maxWidth: '100%' }} />
                 </div>
               </figure>
             </div>
