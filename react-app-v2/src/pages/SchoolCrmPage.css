@@ -1,0 +1,27 @@
+/* SchoolCrmPage has no original WPBakery/HTML export to reverse-engineer exact per-section
+   spacing from (it's a brand-new page built for the React rebuild) — unlike sibling pages
+   (e.g. VintedClonePage.css), which hardcode bespoke pixel heights matched to their original
+   HTML. Without that source of truth, this applies the design system's own generic vertical
+   rhythm (--fenizo-section-y / --fenizo-section-y-compact, from FenizoDesignSystem.css)
+   uniformly to every top-level section instead of fabricating fake "original" measurements. */
+.schoolcrm-motion-page > section {
+  padding-top: var(--fenizo-section-y-compact);
+  padding-bottom: var(--fenizo-section-y-compact);
+}
+
+.schoolcrm-motion-page > section:first-child {
+  padding-top: var(--fenizo-section-y-compact);
+  padding-bottom: var(--fenizo-section-y);
+}
+
+@media (min-width: 992px) {
+  .schoolcrm-motion-page > section {
+    padding-top: var(--fenizo-section-y);
+    padding-bottom: var(--fenizo-section-y-compact);
+  }
+
+  .schoolcrm-motion-page > section:first-child {
+    padding-top: var(--fenizo-section-y);
+    padding-bottom: var(--fenizo-section-y);
+  }
+}

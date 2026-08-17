@@ -24,6 +24,7 @@ import PricingPlans from '../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../components/shared/MoneyBackGuarantee.jsx'
 import FaqAccordion from '../components/shared/FaqAccordion.jsx'
 import BlogTeaser from '../components/shared/BlogTeaser.jsx'
+import './SchoolCrmPage.css'
 
 const dashboards = [
   { label: 'Admin Dashboard', email: 'admin@gmail.com', password: '12345678', url: siteContact.cloneDemoUrl },
@@ -38,7 +39,7 @@ export default function SchoolCrmPage() {
 
   return (
     <main className="content" id="content">
-      <div className="wpb-content-wrapper">
+      <div className="wpb-content-wrapper schoolcrm-motion-page">
         <section className="vc_section">
           <SchoolCrmHero />
         </section>

@@ -50,9 +50,9 @@ export default function Hero() {
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
                         <img
-                          src="/wp-content/uploads/2024/11/Group-2673.png"
+                          src="/wp-content/uploads/home.png"
                           width="556"
-                          height="439"
+                          height="371"
                           className="vc_single_image-img attachment-full"
                           alt="Web and app development at CloneScript"
                           title="clonescript-hero-development"
