@@ -18,15 +18,23 @@ export default function MoneyBackGuarantee() {
                   padding: '30px 40px',
                 }}
               >
-                <img
-                  src="/wp-content/uploads/2024/12/Group-15.png"
-                  alt=""
-                  width="120"
-                  height="108"
-                  style={{ maxWidth: 120, width: '100%', height: 'auto', flexShrink: 0 }}
-                  loading="eager"
-                  decoding="async"
-                />
+                <span
+                  aria-hidden="true"
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    width: 64,
+                    height: 64,
+                    flexShrink: 0,
+                    borderRadius: '50%',
+                    background: '#4b922e',
+                    color: '#fff',
+                    fontSize: 28,
+                  }}
+                >
+                  <i className="fa fa-solid fa-shield-halved"></i>
+                </span>
                 <header className="fancy-title" style={{ flex: 1, minWidth: 220 }}>
                   <h2>100% Money Back Guaranteed</h2>
                   <div className="st-desc">

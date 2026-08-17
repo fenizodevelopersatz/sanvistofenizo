@@ -83,7 +83,7 @@ export default function ZillowClonePage() {
             ['Built on Proven ', 'Business Model to Start Earning Faster.', ''],
             ['Seamless Operations with ', 'Reliable Customer Support.', ''],
           ]}
-          image="/wp-content/uploads/2025/04/why-choose.webp"
+          image="/wp-content/uploads/2025/02/Group-48097141.webp"
           imageAlt="CloneScript real estate platform delivery achievements"
         />
 
