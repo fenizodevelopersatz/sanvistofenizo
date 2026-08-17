@@ -158,7 +158,7 @@ export const pricingPlans = [
 
 export const faqs = [
   { q: 'What is Amazon Clone?', a: 'Amazon Clone is a ready-made eCommerce script that has all the core features, allowing the entrepreneurs to launch the multi-vendor marketplace quickly. It provides customization capabilities like product listing, payment options, etc.' },
-  { q: 'How to reach our support team?', a: 'Once you purchase our products, if you have any doubts or queries you can reach our support team via info@clonescript.com to clarify your doubts.' },
+  { q: 'How to reach our support team?', a: 'Once you purchase our products, if you have any doubts or queries you can reach our support team via hello@example.com to clarify your doubts.' },
   { q: 'Is it possible to claim full ownership of your clone script/themes once purchased?', a: 'Yes, once you purchase it, you will completely own your website.' },
   { q: 'What is 100% Source Code?', a: 'You get the complete source code of your website so you can customize it based on your desired and business needs. The script/themes are not encrypted files.' },
   { q: 'Can I Resell the Script/Theme From CloneScript?', a: 'No, once you purchase an Amazon clone script or any themes from us, you don’t have to resell or distribute them. If you violate you are liable for illegal activities.' },

@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-const SITE_URL = 'https://clonescript.com'
+const SITE_URL = 'https://example.com'
 const DEFAULT_DESCRIPTION = 'CloneScript builds websites, mobile apps, SaaS products and ready-to-launch clone scripts for growing businesses.'
 
 function upsertMeta(attr, key, content) {
