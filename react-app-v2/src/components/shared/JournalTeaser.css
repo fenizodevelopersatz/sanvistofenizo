@@ -1,0 +1,51 @@
+.journal-teaser__grid {
+  align-items: start;
+  gap: 34px 30px;
+}
+
+.journal-teaser__card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.journal-teaser__media {
+  margin-bottom: 18px;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #f3f5fb;
+  box-shadow: 0 12px 32px rgba(16, 27, 72, 0.08);
+}
+
+.journal-teaser__media a {
+  display: block;
+}
+
+.journal-teaser__image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 740 / 500;
+  height: auto;
+  object-fit: cover;
+}
+
+.journal-teaser__header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.journal-teaser__header .entry-title,
+.journal-teaser__header .liquid-lp-title {
+  margin-bottom: 0;
+}
+
+.journal-teaser__header .liquid-lp-date {
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  .journal-teaser__grid {
+    gap: 24px;
+  }
+}

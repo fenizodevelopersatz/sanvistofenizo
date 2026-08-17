@@ -1,4 +1,5 @@
 import { recentBlogPosts } from '../../data/recentBlogPosts.js'
+import './JournalTeaser.css'
 
 export default function BlogTeaser() {
   return (
@@ -28,15 +29,15 @@ export default function BlogTeaser() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="liquid-blog-posts">
-                    <div className="liquid-blog-grid row">
+                  <div className="liquid-blog-posts journal-teaser">
+                    <div className="liquid-blog-grid row journal-teaser__grid">
                       {recentBlogPosts.map((post, i) => (
                         <div className="col-md-4" key={i}>
-                          <article className="liquid-lp post type-post status-publish format-standard has-post-thumbnail hentry">
-                            <figure className="liquid-lp-media rounded">
-                              <a href="#"><img src={post.image} width="740" height="500" className="attachment-liquid-rounded-blog size-liquid-rounded-blog wp-post-image" alt={post.alt} loading="lazy" decoding="async" /></a>
+                          <article className="liquid-lp post type-post status-publish format-standard has-post-thumbnail hentry journal-teaser__card">
+                            <figure className="liquid-lp-media rounded journal-teaser__media">
+                              <a href="#"><img src={post.image} width="740" height="500" className="attachment-liquid-rounded-blog size-liquid-rounded-blog wp-post-image journal-teaser__image" alt={post.alt} loading="lazy" decoding="async" /></a>
                             </figure>
-                            <header className="liquid-lp-header">
+                            <header className="liquid-lp-header journal-teaser__header">
                               <h2 className="entry-title liquid-lp-title h5"><a href="#" rel="bookmark">{post.title}</a></h2>
                               <time className="liquid-lp-date font-style-italic size-lg">{post.date}</time>
                             </header>

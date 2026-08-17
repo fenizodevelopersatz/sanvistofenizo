@@ -34,8 +34,8 @@ export default function TuroClonePage() {
   useSeo('Turo Clone - Build An App Like Turo | CloneScript')
 
   return (
-    <main className="content" id="content">
-      <div className="wpb-content-wrapper">
+    <main className="content turo-clone-page" id="content">
+      <div className="wpb-content-wrapper turo-clone-page__content">
         <section className="vc_section">
           <TuroHero />
         </section>
