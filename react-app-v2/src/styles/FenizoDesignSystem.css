@@ -292,6 +292,15 @@ body:not(.fenizo-page-styles-loading) .fenizo-site > .content { animation: feniz
   margin: 0;
 }
 
+/* Neutralize the legacy .vc_row clearfix (content:" "; display:table), which otherwise
+   generates two extra ::before/::after grid items and throws off auto-placement. */
+.fenizo-site .main-footer .vc_custom_1726298125755::before,
+.fenizo-site .main-footer .vc_custom_1726298125755::after,
+.fenizo-site .main-footer .vc_custom_1726298044719 .vc_inner::before,
+.fenizo-site .main-footer .vc_custom_1726298044719 .vc_inner::after {
+  content: none;
+}
+
 .fenizo-site .main-footer .vc_custom_1726298125755 > .wpb_column,
 .fenizo-site .main-footer .vc_custom_1726298044719 .vc_inner > .wpb_column { float: none; width: 100%; padding: 0; }
 
