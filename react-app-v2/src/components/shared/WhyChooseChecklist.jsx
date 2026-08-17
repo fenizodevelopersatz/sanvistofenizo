@@ -1,6 +1,6 @@
 import Reveal from './Reveal.jsx'
 
-export default function WhyChooseChecklist({ heading, accentWord, desc, points, image, imageAlt, color = '#002692' }) {
+export default function WhyChooseChecklist({ heading, accentWord, desc, points, image, imageAlt, color = '#002692', headingIcon }) {
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
       <div className="ld-container container">
@@ -13,7 +13,10 @@ export default function WhyChooseChecklist({ heading, accentWord, desc, points, 
                   <Reveal direction="left">
                     <div className="ld-fancy-heading text-left sv_text_top">
                       <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                        <span className="ld-fh-txt"> {heading}<span style={{ color }}> {accentWord}</span></span>
+                        <span className="ld-fh-txt">
+                          {headingIcon && <img src={headingIcon} width="30" height="30" alt="" style={{ display: 'inline', verticalAlign: 'middle', marginRight: 6 }} loading="eager" decoding="async" />}
+                          {' '}{heading}<span style={{ color }}> {accentWord}</span>
+                        </span>
                       </h2>
                     </div>
                     <div className="wpb_text_column wpb_content_element">

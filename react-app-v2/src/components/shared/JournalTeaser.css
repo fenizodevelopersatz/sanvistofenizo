@@ -1,4 +1,9 @@
-.journal-teaser .ld-fancy-heading h2 {
+/* Scoped to #blog (the section wrapping both the heading and the
+   .journal-teaser grid below it), not .journal-teaser itself -- that class
+   lives on a sibling div in a separate branch of the tree, never an
+   ancestor of these headings, so a ".journal-teaser …" selector here could
+   never have matched them in either BlogTeaser.jsx or ErpBlogTeaser.jsx. */
+#blog .ld-fancy-heading h2 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -6,7 +11,7 @@
   line-height: 1.1;
 }
 
-.journal-teaser .ld-fancy-heading p {
+#blog .ld-fancy-heading p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -61,12 +66,17 @@
 }
 
 @media (max-width: 767px) {
-  .journal-teaser .ld-fancy-heading h2,
-  .journal-teaser .ld-fancy-heading p {
-    white-space: normal;
-  }
-
   .journal-teaser__grid {
     gap: 24px;
+  }
+}
+
+/* Kept single-line (nowrap, set above) at every width instead of wrapping on
+   mobile -- the subtitle's natural width already fits its column at 375px+
+   (346px content in a 365px column), but narrower phones (~320-360px) need
+   a smaller font to avoid overflowing their column at a fixed 16px. */
+@media (max-width: 380px) {
+  #blog .ld-fancy-heading p {
+    font-size: 13px !important;
   }
 }

@@ -46,7 +46,7 @@ export default function SchoolCrmPage() {
 
         <section className="vc_section vc_section-has-fill">
           <TrustedByBadges heading="by Schools & Institutes" />
-          <BlockquoteTestimonials count={3} offset={0} />
+          <BlockquoteTestimonials count={3} offset={0} visibleCount={2} />
         </section>
 
         <section className="vc_section">

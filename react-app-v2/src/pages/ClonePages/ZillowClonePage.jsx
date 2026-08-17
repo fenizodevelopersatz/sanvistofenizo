@@ -42,7 +42,7 @@ export default function ZillowClonePage() {
 
         <section className="vc_section vc_custom_1776320292174 vc_section-has-fill">
           <TrustedByBadges heading="by Real Estate Founders" />
-          <BlockquoteTestimonials items={placeholderTestimonials} />
+          <BlockquoteTestimonials items={placeholderTestimonials} visibleCount={2} />
           <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
             <div className="ld-container container">
               <div className="row ld-row">

@@ -41,6 +41,7 @@ export default function AirbnbClonePage() {
             image="/wp-content/driver.jpeg"
             imageAlt="CloneScript rental platform delivery achievements"
             color="#fe5337"
+            headingIcon="/wp-content/uploads/2026/01/why-choose-star.webp"
           />
 
           <AiFeaturesGrid items={aiFeatures} heading="Advanced AI Features in Airbnb Clone" columns={4} />
