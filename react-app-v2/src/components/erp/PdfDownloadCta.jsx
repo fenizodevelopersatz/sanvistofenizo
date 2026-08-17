@@ -65,7 +65,7 @@ export default function PdfDownloadCta() {
 
       {isOpen && (
         <div className="lqd-modal" style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.6)', zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center' }} onClick={() => setIsOpen(false)}>
-          <div className="lqd-modal-inner" style={{ background: '#fff', borderRadius: 20, padding: 30, maxWidth: 480, width: '90%' }} onClick={(e) => e.stopPropagation()}>
+          <div className="lqd-modal-inner" style={{ background: "#6DFFD8 url('/wp-content/uploads/2024/11/rectangle-39789-2-6749ac8630272.webp') center/cover no-repeat", borderRadius: 20, padding: 30, maxWidth: 480, width: '90%' }} onClick={(e) => e.stopPropagation()}>
             <div className="lqd-modal-content">
               <header className="fancy-title">
                 <h6>Fill the Form to Get the Features Document</h6>

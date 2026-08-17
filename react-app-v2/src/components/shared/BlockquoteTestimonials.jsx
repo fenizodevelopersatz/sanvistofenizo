@@ -14,7 +14,10 @@ export default function BlockquoteTestimonials({ count = 3, offset = 0, visibleC
 
   const visibleItems = Array.from(
     { length: Math.min(visibleCount, items.length) },
-    (_, index) => items[(active + index) % items.length],
+    (_, index) => {
+      const itemIndex = (active + index) % items.length
+      return { item: items[itemIndex], itemIndex }
+    },
   )
 
   return (
@@ -27,9 +30,15 @@ export default function BlockquoteTestimonials({ count = 3, offset = 0, visibleC
                 <div className="wpb_wrapper-inner">
                   <div className="carousel-container carousel-nav-left carousel-nav-md carousel-dots-style1 blockquote-testimonial-carousel">
                     <div className={`carousel-items row blockquote-testimonial-grid${visibleCount > 1 ? ' blockquote-testimonial-grid--split' : ''}`}>
-                      {visibleItems.map((item) => (
+                      {visibleItems.map(({ item, itemIndex }) => (
                       <div className="carousel-item" key={item.name}>
-                        <div className="testimonial testimonial-whole-filled testimonial-whole-shadowed testimonial-details-top testimonial-avatar-shadowed text-left testimonial-details-sm testimonial-avatar-sm testimonial-avatar-topleft avatar-fix">
+                        <div className={`testimonial testimonial-colorful testimonial-colorful-${itemIndex % 5} testimonial-details-top testimonial-avatar-shadowed text-left testimonial-details-sm testimonial-avatar-sm testimonial-avatar-topleft avatar-fix`}>
+                          <i className="fa fa-solid fa-quote-left testimonial-colorful__quote-mark" aria-hidden="true"></i>
+                          <ul className="star-rating testimonial-colorful__stars">
+                            {[1, 2, 3, 4, 5].map((n) => (
+                              <li key={n}><i className="fa fa-star"></i></li>
+                            ))}
+                          </ul>
                           <div className="testimonial-quote">
                             <blockquote>
                               <p><span style={{ fontSize: 14, color: 'black', textAlign: 'left' }}>{item.text}</span></p>
@@ -45,12 +54,8 @@ export default function BlockquoteTestimonials({ count = 3, offset = 0, visibleC
                               <h5>{item.name}</h5>
                               {item.location && <span style={{ fontSize: 12, color: '#8a8a8a' }}>{item.location}</span>}
                             </div>
-                            <ul className="star-rating">
-                              {[1, 2, 3, 4, 5].map((n) => (
-                                <li key={n}><i className="fa fa-star"></i></li>
-                              ))}
-                            </ul>
                           </div>
+                          <span className="testimonial-colorful__badge">CloneScript</span>
                         </div>
                       </div>
                       ))}
