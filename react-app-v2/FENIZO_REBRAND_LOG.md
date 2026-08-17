@@ -218,6 +218,34 @@ dev server to verify against the live app rather than just reading code.
   real screenshots, so visual (not DOM-level) comparison wasn't possible; flagging rather than
   claiming it was checked.
 
+### (later session) — Restored original per-page testimonials on explicit request, then re-cleaned brand traces they reintroduced
+A separate rebrand direction from this same site's owner: several sections (footer nav-column
+badges, the "Recognized by clients" carousel on Vinted/Zillow/Alibaba, the sitewide "Book a
+Meeting" video-testimonial carousel) were missing content that exists in the original HTML.
+Explicitly directed to restore the *original* per-page testimonials/photos/video links (not the
+`fc7b35d` real-Fenizo-facts set) for these specific sections, brand name swapped only — the
+tradeoff (real customer photos/quotes/videos vs. names that read as placeholder-style) was raised
+and the owner chose restoration. New data: `src/data/placeholderTestimonials.js` (Ms. Zemira /
+Mr. Jaxon / Mr. Henry trio, shared verbatim by Vinted/Zillow/Alibaba in the original) and
+`src/data/videoTestimonials.js` (6-person video-testimonial carousel, global). `TestimonialCarousel.jsx`
+and the shared `BlockquoteTestimonials.jsx` both gained an `items` prop so callers can override the
+default real-testimonials pool without duplicating carousel markup.
+
+This reintroduced the brand's old domain in 7 asset filenames carried over from the original site
+(`google-sangvish.webp` and 5 sibling badge images, `razeb-sangvish.png`) plus 2 explanatory source
+comments — the exact class of issue `a2e624c` had already zeroed out. Renamed all 7 files to
+`*-clonescript.*` (in `public/wp-content/uploads/2025/01/` and `2024/07/`) and updated every
+reference; reworded the 2 comments. Verified `grep -ril sangvish src/` and `find public -iname
+"*sangvish*"` both return nothing, and re-verified each affected image still loads (200, not 404)
+across Home/Vinted/ERP/schedule-free-demo in the running app.
+
+Also note: this codebase went through a second rename after the above — **Fenizo → CloneScript**
+(`siteContact.js`'s `companyName` etc. — see git log `406f0fc`). This log file's older entries
+still say "Fenizo" throughout; that's the brand name *at the time those entries were written*, not
+a claim about the current state. `useSeo.js`'s canonical/OG `SITE_URL` still hardcodes
+`fenizotechnologies.com` (the domain, not just the display name) — flagged but not changed, since
+domain ownership wasn't part of either rebrand instruction.
+
 ## 5. Where the "real facts" came from
 
 Fetched directly from `https://fenizotechnologies.com` on 2026-08-10. Key facts used

@@ -1,6 +1,6 @@
-// The "Book a Meeting" section's video-testimonial carousel from the original site (Sangvish/
-// Fenizo era), brand references updated to CloneScript. Real client photos and their actual
-// testimonial videos on YouTube — same content across every page, since the section is global.
+// The "Book a Meeting" section's video-testimonial carousel from the original site, brand
+// references updated to CloneScript. Real client photos and their actual testimonial videos
+// on YouTube — same content across every page, since the section is global.
 export const videoTestimonials = [
   {
     name: 'Ms. Luclecia',
@@ -10,7 +10,7 @@ export const videoTestimonials = [
   },
   {
     name: 'Mr. Razab',
-    image: '/wp-content/uploads/2024/07/razeb-sangvish.png',
+    image: '/wp-content/uploads/2024/07/razeb-clonescript.png',
     text: 'I would like to thankyou for your support and the product they gave this website. 5 out 5 from me guys!',
     video: 'https://youtu.be/X_ndqoBG65o',
   },

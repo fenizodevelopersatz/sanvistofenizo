@@ -46,7 +46,7 @@ export default function WhyChooseChecklist({ heading, accentWord, desc, points, 
                     <div className="wpb_single_image wpb_content_element vc_align_center">
                       <figure className="wpb_wrapper vc_figure">
                         <div className="vc_single_image-wrapper vc_box_border_grey">
-                          <img src={image} width="650" height="583" className="vc_single_image-img attachment-full" alt={imageAlt} loading="lazy" decoding="async" />
+                          <img src={image} width="650" height="583" className="vc_single_image-img attachment-full" alt={imageAlt} loading="eager" decoding="async" />
                         </div>
                       </figure>
                     </div>

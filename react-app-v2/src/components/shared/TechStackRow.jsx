@@ -1,3 +1,5 @@
+import './TechStackRow.css'
+
 export default function TechStackRow({ items, heading = 'Technology Stack' }) {
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
@@ -19,23 +21,13 @@ export default function TechStackRow({ items, heading = 'Technology Stack' }) {
           </div>
         </div>
 
-        <div className="row ld-row">
+        <div className="tech-stack-grid">
           {items.map((t, i) => (
-            <div className="wpb_column vc_column_container vc_col-sm-1/5" key={i}>
-              <div className="vc_column-inner">
-                <div className="wpb_wrapper">
-                  <div className="wpb_wrapper-inner">
-                    <div className="iconbox iconbox-xl iconbox-contents-show-onhover" style={{ color: t.color }}>
-                      <div className="iconbox-icon-wrap">
-                        <span className="iconbox-icon-container">
-                          {t.type === 'icon' ? <i className={t.icon}></i> : <img src={t.image} className="liquid-image-icon" width="60" height="36" alt={t.title} loading="lazy" decoding="async" />}
-                        </span>
-                      </div>
-                      <h3>{t.title}</h3>
-                    </div>
-                  </div>
-                </div>
+            <div className="tech-stack-grid__card" key={i} style={{ '--tech-color': t.color }}>
+              <div className="tech-stack-grid__icon">
+                {t.type === 'icon' ? <i className={t.icon} style={{ color: t.color }}></i> : <img src={t.image} width="60" height="36" alt={t.title} loading="lazy" decoding="async" />}
               </div>
+              <h3>{t.title}</h3>
             </div>
           ))}
         </div>

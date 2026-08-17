@@ -1,10 +1,10 @@
 const trustPlatforms = [
-  ['google-sangvish.webp', 'Google reviews'],
-  ['glassdoor-sangvish.webp', 'Glassdoor reviews'],
-  ['trustpilot-sangvish.webp', 'Trustpilot reviews'],
-  ['ambitionbox-sangvish.webp', 'AmbitionBox reviews'],
-  ['sitejabber-sangvish.webp', 'Sitejabber reviews'],
-  ['justdial-sangvish.webp', 'Justdial reviews'],
+  ['google-clonescript.webp', 'Google reviews'],
+  ['glassdoor-clonescript.webp', 'Glassdoor reviews'],
+  ['trustpilot-clonescript.webp', 'Trustpilot reviews'],
+  ['ambitionbox-clonescript.webp', 'AmbitionBox reviews'],
+  ['sitejabber-clonescript.webp', 'Sitejabber reviews'],
+  ['justdial-clonescript.webp', 'Justdial reviews'],
 ]
 
 export default function TrustedByClients() {

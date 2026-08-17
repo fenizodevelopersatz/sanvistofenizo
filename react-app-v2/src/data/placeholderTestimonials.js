@@ -1,6 +1,6 @@
-// The original per-page testimonial carousels (Sangvish/Fenizo era), brand references
-// updated to CloneScript. Same trio verbatim across Vinted, Zillow and Alibaba on the
-// original site — not unique per page.
+// The original per-page testimonial carousels, brand references updated to CloneScript.
+// Same trio verbatim across Vinted, Zillow and Alibaba on the original site — not unique
+// per page.
 export const placeholderTestimonials = [
   {
     name: 'Ms. Zemira',
