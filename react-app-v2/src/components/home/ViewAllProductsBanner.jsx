@@ -9,7 +9,7 @@ export default function ViewAllProductsBanner() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="ld-empty-space">
+                  <div className="ld-empty-space" style={{ height: 20 }}>
                     <span className="liquid_empty_space_inner"></span>
                   </div>
                   <Link to="/#products" title="Products" className="fenizo-products-cta btn btn-solid btn-md circle btn-bordered border-thin btn-icon-circle">

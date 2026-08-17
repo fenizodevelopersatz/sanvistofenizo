@@ -19,7 +19,7 @@ export default function ReadyMadeSolutions() {
   const isInternal = item.link !== '#'
 
   return (
-    <section className="fenizo-ready-made vc_section" id="products">
+    <section className="fenizo-ready-made" id="products">
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40b4cac">
         <div className="ld-container container">
           <div className="row ld-row">

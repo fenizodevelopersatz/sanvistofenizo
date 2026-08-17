@@ -9,7 +9,7 @@ export default function TrustedByLogos() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="ld-empty-space">
+                  <div className="ld-empty-space" style={{ height: 20 }}>
                     <span className="liquid_empty_space_inner"></span>
                   </div>
                   <header className="fancy-title">

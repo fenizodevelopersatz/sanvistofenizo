@@ -11,7 +11,7 @@ export default function WhyWeStandOut() {
               <div className="vc_column-inner">
                 <div className="wpb_wrapper">
                   <div className="wpb_wrapper-inner">
-                    <div className="ld-empty-space">
+                    <div className="ld-empty-space" style={{ height: 100 }}>
                       <span className="liquid_empty_space_inner"></span>
                     </div>
                     <div className="ld-fancy-heading ld-fh-has-fill text-center">

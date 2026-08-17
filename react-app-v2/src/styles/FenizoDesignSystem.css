@@ -268,7 +268,7 @@ body:not(.fenizo-page-styles-loading) .fenizo-site > .content { animation: feniz
   left: auto;
 }
 
-.fenizo-site .main-footer .vc_custom_1726132830590 { padding: 64px 0 48px; background: var(--fenizo-surface-soft); }
+.fenizo-site .main-footer .vc_custom_1726132830590 { padding: 32px 0 24px; background: var(--fenizo-surface-soft); }
 
 .fenizo-site .main-footer .vc_custom_1726132830590 > .vc_row > .ld-container > .ld-row {
   display: grid;
@@ -339,7 +339,7 @@ body:not(.fenizo-page-styles-loading) .fenizo-site > .content { animation: feniz
   .fenizo-site .mainbar-wrap,
   .fenizo-site .mainbar,
   .fenizo-site .mainbar-row { min-height: 82px; }
-  .fenizo-site .mainbar-wrap { height: 82px; }
+  .fenizo-site .mainbar-wrap { min-height: 82px; height: auto; }
   .fenizo-site .navbar-brand .logo-default { width: 190px; max-height: 58px; }
   .fenizo-site .main-footer .vc_custom_1726132830590 > .vc_row > .ld-container > .ld-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .fenizo-site .main-footer .vc_custom_1726132830590 > .vc_row > .ld-container > .ld-row > .wpb_column:last-child {
@@ -355,12 +355,12 @@ body:not(.fenizo-page-styles-loading) .fenizo-site > .content { animation: feniz
   .fenizo-site .mainbar-wrap,
   .fenizo-site .mainbar,
   .fenizo-site .mainbar-row { min-height: 72px; }
-  .fenizo-site .mainbar-wrap { height: 72px; }
+  .fenizo-site .mainbar-wrap { min-height: 72px; height: auto; }
   .fenizo-site .navbar-header { display: flex; align-items: center; justify-content: space-between; min-height: 72px; }
   .fenizo-site .navbar-brand { min-height: 56px; }
   .fenizo-site .navbar-brand .logo-default { width: 174px; max-width: 52vw; max-height: 50px; }
   .fenizo-site .main-footer .vc_custom_1773139863014 img { width: 200px; }
-  .fenizo-site .main-footer .vc_custom_1726132830590 { padding: 48px 0 36px; }
+  .fenizo-site .main-footer .vc_custom_1726132830590 { padding: 24px 0 18px; }
   .fenizo-site .main-footer .vc_custom_1726132830590 > .vc_row > .ld-container > .ld-row,
   .fenizo-site .main-footer .vc_custom_1726298125755,
   .fenizo-site .main-footer .vc_custom_1726298044719 .vc_inner { grid-template-columns: 1fr; }

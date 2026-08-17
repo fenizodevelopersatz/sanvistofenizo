@@ -43,13 +43,13 @@ export default function FooterBottom() {
               <div className="vc_column-inner">
                 <div className="wpb_wrapper vc_custom_1726203463031">
                   <div className="wpb_wrapper-inner">
-                    <div className="ld-empty-space">
+                    <div className="ld-empty-space" style={{ height: 25 }}>
                       <span className="liquid_empty_space_inner"></span>
                     </div>
                     <div className="wpb_single_image wpb_content_element vc_align_left vc_custom_1773139863014">
                       <img src={siteBrand.logo} width={siteBrand.logoWidth} height={siteBrand.logoHeight} alt={siteBrand.name} loading="lazy" decoding="async" />
                     </div>
-                    <div className="ld-empty-space">
+                    <div className="ld-empty-space" style={{ height: 15 }}>
                       <span className="liquid_empty_space_inner"></span>
                     </div>
                     <header className="fancy-title vc_custom_1726232338760">
@@ -105,7 +105,7 @@ export default function FooterBottom() {
                         </li>
                       ))}
                     </ul>
-                    <div className="ld-empty-space">
+                    <div className="ld-empty-space" style={{ height: 10 }}>
                       <span className="liquid_empty_space_inner"></span>
                     </div>
                   </div>
@@ -122,7 +122,7 @@ export default function FooterBottom() {
                         <FooterNavColumn col={col} key={i} />
                       ))}
                     </div>
-                    <div className="ld-empty-space">
+                    <div className="ld-empty-space" style={{ height: 35 }}>
                       <span className="liquid_empty_space_inner"></span>
                     </div>
                     <div className="vc_row wpb_row vc_inner vc_row-fluid">
@@ -182,7 +182,7 @@ export default function FooterBottom() {
               <div className="vc_column-inner">
                 <div className="wpb_wrapper">
                   <div className="wpb_wrapper-inner">
-                    <div className="ld-empty-space">
+                    <div className="ld-empty-space" style={{ height: 50 }}>
                       <span className="liquid_empty_space_inner"></span>
                     </div>
                     <header className="fancy-title text-center custom-footer-title">
@@ -248,7 +248,7 @@ export default function FooterBottom() {
                         </span>
                       </p>
                     </div>
-                    <div className="ld-empty-space">
+                    <div className="ld-empty-space" style={{ height: 20 }}>
                       <span className="liquid_empty_space_inner"></span>
                     </div>
                     <div className="wpb_text_column wpb_content_element">

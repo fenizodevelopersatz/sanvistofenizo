@@ -20,7 +20,7 @@ export default function StarRatingBanner() {
                       </div>
                     </figure>
                   </div>
-                  <div className="ld-empty-space">
+                  <div className="ld-empty-space" style={{ height: 32 }}>
                     <span className="liquid_empty_space_inner"></span>
                   </div>
                 </div>
