@@ -1,15 +1,18 @@
 import { useContactForm } from '../../hooks/useContactForm.js'
 
 export default function SupportForm() {
-  const { values, handleChange, handleSubmit, submitted } = useContactForm({
-    fullname: '',
-    email: '',
-    invoice: '',
-    product: '',
-    query: '',
-    logindetails: '',
-    requirement: '',
-  })
+  const { values, handleChange, handleSubmit, submitted, status, errorMessage } = useContactForm(
+    {
+      fullname: '',
+      email: '',
+      invoice: '',
+      product: '',
+      query: '',
+      logindetails: '',
+      requirement: '',
+    },
+    { enableApiSend: true, subject: 'New Support Request (Contact Us page)' }
+  )
 
   if (submitted) {
     return (
@@ -24,7 +27,8 @@ export default function SupportForm() {
   return (
     <div className="lqd-contact-form lqd-contact-form-inputs-round lqd-contact-form-button-round vc_custom_1769413486789">
       <div className="wpcf7">
-        <form className="wpcf7-form init" onSubmit={handleSubmit}>
+        <form className={`wpcf7-form ${status}`} onSubmit={handleSubmit}>
+          <div className="wpcf7-response-output" role="status">{errorMessage}</div>
           <div className="row">
             <div className="col-sm-6">
               <p>
@@ -148,7 +152,13 @@ export default function SupportForm() {
             </div>
           </div>
           <p>
-            <input className="wpcf7-form-control wpcf7-submit has-spinner btn btn-accent" type="submit" value="Send Request" />
+            <input
+              className="wpcf7-form-control wpcf7-submit has-spinner btn btn-accent"
+              type="submit"
+              value={status === 'submitting' ? 'Sending…' : 'Send Request'}
+              disabled={status === 'submitting'}
+            />
+            <span className="wpcf7-spinner"></span>
           </p>
         </form>
       </div>

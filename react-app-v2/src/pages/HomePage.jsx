@@ -36,10 +36,12 @@ export default function HomePage() {
           <TeamToolsBanner />
         </section>
         <OurServices />
-        <ReadyMadeSolutions />
-        <ViewAllProductsBanner />
-        <TechStackBanner />
-        <DevProcess />
+        <section className="fenizo-solutions-section vc_section">
+          <ReadyMadeSolutions />
+          <ViewAllProductsBanner />
+          <TechStackBanner />
+          <DevProcess />
+        </section>
         <section className="fenizo-connect-section vc_section vc_custom_1745486388430 vc_section-has-fill">
           <ConnectWithUs />
         </section>

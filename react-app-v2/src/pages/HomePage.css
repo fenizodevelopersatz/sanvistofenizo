@@ -2,6 +2,8 @@
 .wpb-content-wrapper > .vc_row,
 .wpb-content-wrapper > .vc_section > .vc_row,
 .fenizo-process-section > .vc_row,
+.fenizo-services-section > .vc_row,
+.fenizo-ready-made > .vc_row,
 .main-footer > .vc_section,
 .main-footer > .vc_section > .vc_row,
 .main-footer .ld-container > .ld-row {
@@ -21,12 +23,6 @@
 
 #root:has(.fenizo-homepage) .mainbar-row {
   min-height: 75px;
-}
-
-@media (max-width: 1199px) {
-  #root:has(.fenizo-homepage) .mainbar-row {
-    min-height: 98px;
-  }
 }
 
 .fenizo-intro-section {
@@ -107,7 +103,7 @@
 }
 
 .fenizo-services-section {
-  padding-top: var(--fenizo-section-space);
+  padding-top: var(--fenizo-compact-space);
   padding-bottom: var(--fenizo-panel-space);
 }
 
@@ -124,18 +120,17 @@
   color: #333 !important;
 }
 
-.fenizo-ready-made {
+.fenizo-solutions-section {
   padding-top: var(--fenizo-section-space);
+  padding-bottom: var(--fenizo-section-space);
+}
+
+.fenizo-ready-made {
   scroll-margin-top: 96px;
 }
 
-.fenizo-products-cta-row {
-  padding-top: 20px;
-}
-
-.fenizo-process-section {
-  padding-top: var(--fenizo-section-space);
-  padding-bottom: var(--fenizo-section-space);
+.fenizo-solutions-section > .fenizo-process-section {
+  margin-top: var(--fenizo-compact-space);
 }
 
 .fenizo-connect-section {
@@ -247,7 +242,7 @@
 }
 
 .fenizo-tech-stack {
-  margin-top: var(--fenizo-section-space);
+  margin-top: var(--fenizo-compact-space);
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -344,7 +339,7 @@
   }
 
   #root:has(.fenizo-homepage) .mainbar-row {
-    min-height: 98px;
+    min-height: 82px;
   }
 
   .fenizo-why-section > .fenizo-section-intro .fancy-title h2,
@@ -406,7 +401,7 @@
   }
 
   #root:has(.fenizo-homepage) .mainbar-row {
-    min-height: 98px;
+    min-height: 72px;
   }
 
   .fenizo-trust-grid {
