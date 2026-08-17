@@ -1,0 +1,56 @@
+.footer-currency-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  border: 1px solid #e5e8f0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgb(16 27 72 / 8%);
+  padding: 6px;
+  margin-bottom: 20px;
+}
+
+.footer-currency-selector__option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 8px 10px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 150ms ease;
+}
+
+.footer-currency-selector__option:hover {
+  background: #f5f7ff;
+}
+
+.footer-currency-selector__option.is-selected {
+  background: #eef2fb;
+}
+
+.footer-currency-selector__flag {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.footer-currency-selector__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+.footer-currency-selector__code {
+  font-weight: 700;
+  font-size: 14px;
+  color: #101b48;
+}
+
+.footer-currency-selector__label {
+  font-size: 12px;
+  color: #8a8a8a;
+}

@@ -27,7 +27,7 @@ export default function FooterReviewLogos() {
                         width="165"
                         height="48"
                         alt={label}
-                        loading="lazy"
+                        loading="eager"
                         decoding="async"
                       />
                     ))}

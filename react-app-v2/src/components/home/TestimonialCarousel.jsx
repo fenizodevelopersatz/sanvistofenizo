@@ -15,30 +15,33 @@ function ArrowIcon({ direction }) {
   )
 }
 
-export default function TestimonialCarousel({ cardBg = '#f9f9f9' }) {
+export default function TestimonialCarousel({ cardBg = '#f9f9f9', items: itemsProp }) {
+  const items = itemsProp ?? testimonials
   const [active, setActive] = useState(0)
 
   useEffect(() => {
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    if (reduceMotion || testimonials.length < 2) return undefined
+    if (reduceMotion || items.length < 2) return undefined
 
     const id = window.setInterval(
-      () => setActive((index) => (index + 1) % testimonials.length),
+      () => setActive((index) => (index + 1) % items.length),
       AUTOPLAY_DELAY,
     )
     return () => window.clearInterval(id)
-  }, [])
+  }, [items.length])
 
-  const item = testimonials[active]
+  const item = items[active]
   const hasVideo = item.video && item.video !== '#'
-  const showPrevious = () => setActive((active - 1 + testimonials.length) % testimonials.length)
-  const showNext = () => setActive((active + 1) % testimonials.length)
+  const showPrevious = () => setActive((active - 1 + items.length) % items.length)
+  const showNext = () => setActive((active + 1) % items.length)
 
   return (
     <section className="fenizo-testimonial" aria-roledescription="carousel" aria-label="Client testimonials">
       <article className="fenizo-testimonial__card" style={{ backgroundColor: cardBg }} aria-live="polite">
         <div className="fenizo-testimonial__avatar">
-          <InitialsAvatar name={item.name} size={60} />
+          {item.image
+            ? <img src={item.image} width="60" height="60" alt={item.name} loading="eager" decoding="async" style={{ borderRadius: '50%', objectFit: 'cover' }} />
+            : <InitialsAvatar name={item.name} size={60} />}
         </div>
         <div className="fenizo-testimonial__content">
           <h3>{item.name}</h3>
@@ -58,7 +61,7 @@ export default function TestimonialCarousel({ cardBg = '#f9f9f9' }) {
           <ArrowIcon direction="previous" />
         </button>
         <div className="fenizo-testimonial__dots" aria-label="Choose testimonial">
-          {testimonials.map((testimonial, index) => (
+          {items.map((testimonial, index) => (
             <button
               type="button"
               key={testimonial.name}

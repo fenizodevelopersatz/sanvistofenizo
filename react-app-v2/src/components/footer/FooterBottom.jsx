@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { socialLinks, footerNavColumns, trustBadges } from '../../data/socialLinks.js'
 import { siteContact } from '../../data/siteContact.js'
 import { siteBrand } from '../../data/siteBrand.js'
+import CurrencySelector from './CurrencySelector.jsx'
 
 function NavLink({ href, label }) {
   if (href === '#') return <a href={href}>{label}</a>
@@ -139,6 +140,7 @@ export default function FooterBottom() {
               <div className="vc_column-inner">
                 <div className="wpb_wrapper vc_custom_1726203548888">
                   <div className="wpb_wrapper-inner">
+                    <CurrencySelector />
                     <div className="vc_row wpb_row vc_inner vc_row-fluid liquid-row-shadowbox-6a665a4108873">
                       <div className="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill">
                         <div className="vc_column-inner">

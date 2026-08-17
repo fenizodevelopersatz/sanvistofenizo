@@ -1,5 +1,6 @@
 import TestimonialCarousel from './TestimonialCarousel.jsx'
 import MeetingBookingForm from './MeetingBookingForm.jsx'
+import { videoTestimonials } from '../../data/videoTestimonials.js'
 
 export default function ScheduleFormSection() {
   return (
@@ -20,7 +21,7 @@ export default function ScheduleFormSection() {
                   <div className="vc_empty_space" style={{ height: 15 }}>
                     <span className="vc_empty_space_inner"></span>
                   </div>
-                  <TestimonialCarousel />
+                  <TestimonialCarousel items={videoTestimonials} />
                 </div>
               </div>
             </div>

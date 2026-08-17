@@ -1,3 +1,11 @@
+/* .carousel-container is styled overflow:hidden globally for real sliding carousels, where it
+   hides off-screen slides. This component swaps content via React state instead of sliding a
+   strip, so nothing should ever be off-screen — but the hidden overflow was clipping the bottom
+   of the cards whenever the grid's auto-sized height landed a few px short of its content. */
+.blockquote-testimonial-carousel {
+  overflow: visible;
+}
+
 .carousel-dots {
   display: flex;
   align-items: center;
@@ -49,6 +57,11 @@
   width: 100%;
   margin-right: 0;
   margin-left: 0;
+  /* The same legacy fallback also sets overflow-x: scroll, which per spec forces the computed
+     overflow-y to auto too (a non-visible overflow-x with unset overflow-y always does this).
+     That turns the grid into a scroll container whose auto height can come out a hair short of
+     its content, showing a nested scrollbar. Neither axis should scroll here — the page scrolls. */
+  overflow: visible;
 }
 
 /* This element also carries the Bootstrap-style .row class, whose ::before/::after clearfix

@@ -124,11 +124,23 @@
   background: #f5f7ff;
 }
 
+/* .carousel-container is styled overflow:hidden globally for real sliding carousels, where it
+   hides off-screen slides. This section swaps content via React state instead of sliding a
+   strip, so nothing should ever be off-screen — but the hidden overflow was clipping the bottom
+   of the cards whenever the grid's auto-sized height landed a few px short of its content. */
+.erp-testimonials-section .carousel-container {
+  overflow: visible;
+}
+
 .erp-testimonial-grid {
   display: grid !important;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 28px;
   margin: 0 !important;
+  /* The legacy .carousel-items:not(.flickity-enabled) fallback sets overflow-x: scroll, which
+     per spec forces overflow-y to compute as auto too. That makes this a scroll container whose
+     auto height can land a few px short of its content, showing a nested scrollbar. */
+  overflow: visible !important;
 }
 
 .erp-testimonial-grid .carousel-item {

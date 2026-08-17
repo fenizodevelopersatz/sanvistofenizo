@@ -4,6 +4,7 @@ import { useSectionMotion } from '../../hooks/useSectionMotion.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import { siteContact } from '../../data/siteContact.js'
 import { comparisonLabels } from '../../data/comparisonLabels.js'
+import { placeholderTestimonials } from '../../data/placeholderTestimonials.js'
 import {
   aiFeatures, comparisonOurs, comparisonOthers, roleTabs, techStack,
   standOutFeatures, revenueBenefits, launchSteps, pricingPlans, faqs,
@@ -82,7 +83,7 @@ export default function VintedClonePage() {
               </div>
             </div>
           </section>
-          <BlockquoteTestimonials count={3} offset={0} visibleCount={2} />
+          <BlockquoteTestimonials items={placeholderTestimonials} visibleCount={2} />
         </section>
 
         <WhatIsVintedAndVideo />

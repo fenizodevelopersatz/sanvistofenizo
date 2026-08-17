@@ -3,8 +3,8 @@ import { testimonials } from '../../data/testimonials.js'
 import InitialsAvatar from './InitialsAvatar.jsx'
 import './BlockquoteTestimonials.css'
 
-export default function BlockquoteTestimonials({ count = 3, offset = 0, visibleCount = 1 }) {
-  const items = testimonials.slice(offset, offset + count)
+export default function BlockquoteTestimonials({ count = 3, offset = 0, visibleCount = 1, items: itemsProp }) {
+  const items = itemsProp ?? testimonials.slice(offset, offset + count)
   const [active, setActive] = useState(0)
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export default function BlockquoteTestimonials({ count = 3, offset = 0, visibleC
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="carousel-container carousel-nav-left carousel-nav-md carousel-dots-style1">
+                  <div className="carousel-container carousel-nav-left carousel-nav-md carousel-dots-style1 blockquote-testimonial-carousel">
                     <div className={`carousel-items row blockquote-testimonial-grid${visibleCount > 1 ? ' blockquote-testimonial-grid--split' : ''}`}>
                       {visibleItems.map((item) => (
                       <div className="carousel-item" key={item.name}>
@@ -37,7 +37,9 @@ export default function BlockquoteTestimonials({ count = 3, offset = 0, visibleC
                           </div>
                           <div className="testimonial-details">
                             <figure className="avatar">
-                              <InitialsAvatar name={item.name} size={48} />
+                              {item.image
+                                ? <img src={item.image} width="48" height="48" alt={item.name} loading="eager" decoding="async" style={{ borderRadius: '50%', objectFit: 'cover' }} />
+                                : <InitialsAvatar name={item.name} size={48} />}
                             </figure>
                             <div className="testimonial-info">
                               <h5>{item.name}</h5>

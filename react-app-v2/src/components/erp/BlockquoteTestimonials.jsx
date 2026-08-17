@@ -52,7 +52,7 @@ export default function BlockquoteTestimonials() {
                           </div>
                           <div className="testimonial-details">
                             <figure className="avatar">
-                              <img src={item.image} width="54" height="54" alt={item.name} loading="lazy" decoding="async" />
+                              <img src={item.image} width="54" height="54" alt={item.name} loading="eager" decoding="async" />
                             </figure>
                             <div className="testimonial-info">
                               <h5>{item.name}</h5>

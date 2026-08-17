@@ -6,6 +6,7 @@ import {
   launchSteps, dashboards, pricingPlans, comparisonOurs, comparisonOthers, faqs,
 } from '../../data/zillow/zillowData.js'
 import { comparisonLabels } from '../../data/comparisonLabels.js'
+import { placeholderTestimonials } from '../../data/placeholderTestimonials.js'
 
 import ZillowHero from '../../components/zillow/ZillowHero.jsx'
 import TrustedByBadges from '../../components/shared/TrustedByBadges.jsx'
@@ -41,7 +42,7 @@ export default function ZillowClonePage() {
 
         <section className="vc_section vc_custom_1776320292174 vc_section-has-fill">
           <TrustedByBadges heading="by Real Estate Founders" />
-          <BlockquoteTestimonials count={3} offset={0} />
+          <BlockquoteTestimonials items={placeholderTestimonials} />
           <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
             <div className="ld-container container">
               <div className="row ld-row">

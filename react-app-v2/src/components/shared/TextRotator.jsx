@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './TextRotator.css'
 
-export default function TextRotator({ keywords, interval = 2600 }) {
+export default function TextRotator({ keywords, interval = 2500 }) {
   const [active, setActive] = useState(0)
 
   useEffect(() => {

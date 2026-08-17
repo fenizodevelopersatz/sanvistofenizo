@@ -1018,13 +1018,13 @@ color: #111111 !important;
 }
 .megamenu-products .newtag .iconbox-label{
     display: inline-block;
-    padding: 1px 3px 1px 3px;
+    padding: 1px 4px 1px 4px;
     position: absolute;
-    top: 5px;
-    right: 8px;
+    top: 4px;
+    right: 6px;
     border-radius: 6px 6px 6px 0px;
     background: #e8245b;
-    font-size: 10px;
+    font-size: 8px;
     text-transform: capitalize;
     letter-spacing: 0em;
     color: #fff;

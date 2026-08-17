@@ -1,6 +1,7 @@
 import TestimonialCarousel from '../home/TestimonialCarousel.jsx'
 import { trustCategories } from '../../data/trustedByLogos.js'
 import { siteBrand } from '../../data/siteBrand.js'
+import { videoTestimonials } from '../../data/videoTestimonials.js'
 
 export default function SocialProofPanel() {
   return (
@@ -50,7 +51,7 @@ export default function SocialProofPanel() {
                 </div>
               ))}
             </div>
-            <TestimonialCarousel cardBg="#ffffff" />
+            <TestimonialCarousel cardBg="#ffffff" items={videoTestimonials} />
             <div className="ld-empty-space">
               <span className="liquid_empty_space_inner"></span>
             </div>
