@@ -3,13 +3,16 @@ import { demoProducts } from '../../data/demoProducts.js'
 import { siteContact } from '../../data/siteContact.js'
 
 export default function DemoForm() {
-  const { values, handleChange, handleSubmit, submitted } = useContactForm({
-    name: '',
-    email: '',
-    phone: '',
-    product: demoProducts[0],
-    consent: true,
-  })
+  const { values, handleChange, handleSubmit, submitted, status, errorMessage } = useContactForm(
+    {
+      name: '',
+      email: '',
+      phone: '',
+      product: demoProducts[0],
+      consent: true,
+    },
+    { enableApiSend: true, subject: 'New Demo Request (Schedule Free Demo page)' }
+  )
 
   return (
     <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-0 vc_col-md-6 vc_col-xs-offset-1 vc_col-xs-10 vc_col-has-fill">
@@ -78,7 +81,8 @@ export default function DemoForm() {
                           </div>
                         ) : (
                           <div className="wpcf7">
-                            <form className="wpcf7-form init" onSubmit={handleSubmit}>
+                            <form className={`wpcf7-form ${status}`} onSubmit={handleSubmit}>
+                              <div className="wpcf7-response-output" role="status">{errorMessage}</div>
                               <div className="row">
                                 <div className="col-sm-6">
                                   <p>
@@ -173,7 +177,13 @@ export default function DemoForm() {
                               </div>
                               <div>
                                 <p>
-                                  <input className="wpcf7-form-control wpcf7-submit has-spinner btn btn-accent" type="submit" value="Schedule Now" />
+                                  <input
+                                    className="wpcf7-form-control wpcf7-submit has-spinner btn btn-accent"
+                                    type="submit"
+                                    value={status === 'submitting' ? 'Sending…' : 'Schedule Now'}
+                                    disabled={status === 'submitting'}
+                                  />
+                                  <span className="wpcf7-spinner"></span>
                                 </p>
                               </div>
                             </form>

@@ -1,13 +1,16 @@
 import { useContactForm } from '../../hooks/useContactForm.js'
 
 export default function MeetingBookingForm() {
-  const { values, handleChange, handleSubmit, submitted } = useContactForm({
-    fullname: '',
-    email: '',
-    phone: '',
-    message: '',
-    consent: true,
-  })
+  const { values, handleChange, handleSubmit, submitted, status, errorMessage } = useContactForm(
+    {
+      fullname: '',
+      email: '',
+      phone: '',
+      message: '',
+      consent: true,
+    },
+    { enableApiSend: true, subject: 'New Meeting Booking Request (Home page)' }
+  )
 
   return (
     <div className="lqd-contact-form">
@@ -17,7 +20,8 @@ export default function MeetingBookingForm() {
             Thanks! We&rsquo;ve received your request and will get back to you shortly.
           </div>
         ) : (
-          <form className="wpcf7-form init" onSubmit={handleSubmit}>
+          <form className={`wpcf7-form ${status}`} onSubmit={handleSubmit}>
+            <div className="wpcf7-response-output" role="status">{errorMessage}</div>
             <div className="row">
               <div className="col-sm-6">
                 <p>
@@ -112,7 +116,13 @@ export default function MeetingBookingForm() {
             </div>
             <div>
               <p>
-                <input className="wpcf7-form-control wpcf7-submit has-spinner btn circle btn-accent" type="submit" value="Schedule Now!" />
+                <input
+                  className="wpcf7-form-control wpcf7-submit has-spinner btn circle btn-accent"
+                  type="submit"
+                  value={status === 'submitting' ? 'Sending…' : 'Schedule Now!'}
+                  disabled={status === 'submitting'}
+                />
+                <span className="wpcf7-spinner"></span>
               </p>
             </div>
           </form>
