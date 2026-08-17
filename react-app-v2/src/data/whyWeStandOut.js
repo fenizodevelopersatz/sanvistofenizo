@@ -2,8 +2,8 @@ export const whyWeStandOutItems = [
   {
     title: 'Future Proof',
     desc: 'Our solutions are built with the up-to-date tech stack to ensure your platform stays modern and future-ready.',
-    image: '/wp-content/uploads/2025/07/web-development-service.webp',
-    imageAlt: 'web-development-service',
+    image: '/wp-content/uploads/2025/07/web-future.png',
+    imageAlt: 'web-future',
     imageWidth: 452,
     imageHeight: 415,
     imageFirst: true,

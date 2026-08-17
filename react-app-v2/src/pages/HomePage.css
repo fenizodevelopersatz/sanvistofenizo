@@ -13,12 +13,12 @@
 
 #root:has(.fenizo-homepage) {
   --fenizo-section-space: clamp(82px, 8vw, 112px);
-  --fenizo-panel-space: clamp(64px, 6vw, 84px);
+  --fenizo-panel-space: clamp(56px, 5vw, 72px);
   --fenizo-compact-space: clamp(40px, 4vw, 56px);
-  --fenizo-intro-space: clamp(72px, 7vw, 96px);
+  --fenizo-intro-space: clamp(56px, 6vw, 84px);
   --fenizo-showcase-gap: 32px;
-  --fenizo-contact-bottom: 64px;
-  --fenizo-footer-heading-space: 44px;
+  --fenizo-contact-bottom: 32px;
+  --fenizo-footer-heading-space: 28px;
 }
 
 #root:has(.fenizo-homepage) .mainbar-row {
@@ -30,6 +30,7 @@
 }
 
 .fenizo-hero {
+  margin-top: 8px;
   margin-bottom: var(--fenizo-section-space);
 }
 
@@ -325,17 +326,17 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   #root:has(.fenizo-homepage) {
-    --fenizo-section-space: 100px;
-    --fenizo-panel-space: 72px;
+    --fenizo-section-space: 88px;
+    --fenizo-panel-space: 56px;
     --fenizo-compact-space: 52px;
-    --fenizo-intro-space: 72px;
+    --fenizo-intro-space: 60px;
     --fenizo-showcase-gap: 32px;
-    --fenizo-contact-bottom: 60px;
-    --fenizo-footer-heading-space: 40px;
+    --fenizo-contact-bottom: 32px;
+    --fenizo-footer-heading-space: 24px;
   }
 
   .fenizo-hero {
-    margin-top: 50px;
+    margin-top: 8px;
   }
 
   #root:has(.fenizo-homepage) .mainbar-row {
@@ -387,17 +388,17 @@
 
 @media (max-width: 767px) {
   #root:has(.fenizo-homepage) {
-    --fenizo-section-space: 64px;
-    --fenizo-panel-space: 48px;
+    --fenizo-section-space: 56px;
+    --fenizo-panel-space: 36px;
     --fenizo-compact-space: 40px;
-    --fenizo-intro-space: 56px;
+    --fenizo-intro-space: 48px;
     --fenizo-showcase-gap: 20px;
-    --fenizo-contact-bottom: 40px;
-    --fenizo-footer-heading-space: 32px;
+    --fenizo-contact-bottom: 24px;
+    --fenizo-footer-heading-space: 20px;
   }
 
   .fenizo-hero {
-    margin-top: 50px;
+    margin-top: 8px;
   }
 
   #root:has(.fenizo-homepage) .mainbar-row {
