@@ -184,7 +184,7 @@ export default function FooterBottom() {
               <div className="vc_column-inner">
                 <div className="wpb_wrapper">
                   <div className="wpb_wrapper-inner">
-                    <div className="ld-empty-space" style={{ height: 50 }}>
+                    <div className="ld-empty-space" style={{ height: 72 }}>
                       <span className="liquid_empty_space_inner"></span>
                     </div>
                     <header className="fancy-title text-center custom-footer-title">
@@ -250,7 +250,7 @@ export default function FooterBottom() {
                         </span>
                       </p>
                     </div>
-                    <div className="ld-empty-space" style={{ height: 20 }}>
+                    <div className="ld-empty-space" style={{ height: 34 }}>
                       <span className="liquid_empty_space_inner"></span>
                     </div>
                     <div className="wpb_text_column wpb_content_element">

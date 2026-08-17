@@ -30,7 +30,7 @@
 }
 
 .fenizo-hero {
-  margin-top: 8px;
+  margin-top: 44px;
   margin-bottom: var(--fenizo-section-space);
 }
 
@@ -336,7 +336,7 @@
   }
 
   .fenizo-hero {
-    margin-top: 8px;
+    margin-top: 36px;
   }
 
   #root:has(.fenizo-homepage) .mainbar-row {
@@ -398,7 +398,7 @@
   }
 
   .fenizo-hero {
-    margin-top: 8px;
+    margin-top: 28px;
   }
 
   #root:has(.fenizo-homepage) .mainbar-row {
