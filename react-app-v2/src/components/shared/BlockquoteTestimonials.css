@@ -36,16 +36,13 @@
   outline-offset: 4px;
 }
 
-@media (max-width: 767px) {
-  .blockquote-testimonial-grid--split {
-    grid-template-columns: 1fr;
-  }
-
-  .blockquote-testimonial-grid--split > .carousel-item:nth-child(n + 2) {
-    display: none;
-  }
-}
-.blockquote-testimonial-grid--split {
+/* The legacy theme's un-initialized-Flickity fallback (.carousel-items:not(.flickity-enabled),
+   specificity 0,2,0) and its item width rule (.carousel-item:not([class*="col-"]), also 0,2,0)
+   both tie or beat a single class, and this carousel never runs the real Flickity JS that would
+   normally neutralize them — so without three classes here to clear that bar, the fallback wins
+   and forces every card to 100% width in an unwrapped flex row, pushing the second testimonial
+   off-screen instead of showing 2-up. */
+.carousel-items.row.blockquote-testimonial-grid--split {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 30px;
@@ -54,7 +51,30 @@
   margin-left: 0;
 }
 
-.blockquote-testimonial-grid--split > .carousel-item {
+/* This element also carries the Bootstrap-style .row class, whose ::before/::after clearfix
+   (content:" "; display:table) isn't neutralized for plain .row here (only .ld-row gets that
+   treatment elsewhere). Left alone, those two pseudo-elements become extra grid items and the
+   two real cards land diagonally instead of side by side — same failure mode as the .row
+   clearfix bug in the footer nav columns. */
+.carousel-items.row.blockquote-testimonial-grid--split::before,
+.carousel-items.row.blockquote-testimonial-grid--split::after {
+  content: none;
+}
+
+.carousel-items.row.blockquote-testimonial-grid--split > .carousel-item {
   width: auto;
   min-width: 0;
+}
+
+/* Must come after the base rule above: same 0,3,0 specificity, so with an equal-specificity
+   tie the later rule in source order wins — this needs to be that later rule to take effect
+   inside the media query. */
+@media (max-width: 767px) {
+  .carousel-items.row.blockquote-testimonial-grid--split {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel-items.row.blockquote-testimonial-grid--split > .carousel-item:nth-child(n + 2) {
+    display: none;
+  }
 }

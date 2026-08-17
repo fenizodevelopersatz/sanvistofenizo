@@ -1,5 +1,6 @@
 import ScheduleFormSection from '../home/ScheduleFormSection.jsx'
 import FooterSitemap from './FooterSitemap.jsx'
+import FooterReviewLogos from './FooterReviewLogos.jsx'
 import FooterBottom from './FooterBottom.jsx'
 import './Footer.css'
 
@@ -10,6 +11,7 @@ export default function Footer() {
         <ScheduleFormSection />
       </section>
       <FooterSitemap />
+      <FooterReviewLogos />
       <FooterBottom />
     </footer>
   )

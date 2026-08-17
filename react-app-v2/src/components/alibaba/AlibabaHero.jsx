@@ -1,3 +1,12 @@
+import TextRotator from '../shared/TextRotator.jsx'
+
+const rotatingKeywords = [
+  { text: 'Modern UI/UX', color: 'rgb(255, 87, 87)' },
+  { text: 'Secure Platform', color: 'rgb(87, 161, 255)' },
+  { text: 'Fast Performance', color: 'rgb(0, 214, 53)' },
+  { text: '100 % Customizable', color: 'rgb(210, 71, 204)' },
+]
+
 export default function AlibabaHero() {
   return (
     <section className="vc_row wpb_row vc_row-fluid sv_first_row liquid-row-shadowbox">
@@ -30,12 +39,7 @@ export default function AlibabaHero() {
                     <h4 className="lqd-highlight-underline lqd-highlight-grow-left" data-text-rotator="true">
                       <span className="ld-fh-txt">
                         {' '}
-                        <span className="txt-rotate-keywords">
-                          <span className="keyword active" style={{ color: 'rgb(255, 87, 87)' }}>Modern UI/UX</span>
-                          <span className="keyword" style={{ color: 'rgb(87, 161, 255)' }}>Secure Platform</span>
-                          <span className="keyword" style={{ color: 'rgb(0, 214, 53)' }}>Fast Performance</span>
-                          <span className="keyword" style={{ color: 'rgb(210, 71, 204)' }}>100 % Customizable</span>
-                        </span>
+                        <TextRotator keywords={rotatingKeywords} />
                       </span>
                     </h4>
                   </div>

@@ -1,3 +1,12 @@
+import TextRotator from '../shared/TextRotator.jsx'
+
+const rotatingKeywords = [
+  { text: 'Cloud-Based', color: 'rgb(255, 87, 87)' },
+  { text: 'Mobile Ready', color: 'rgb(87, 161, 255)' },
+  { text: 'Secure & Scalable', color: 'rgb(0, 214, 53)' },
+  { text: '100% Customizable', color: 'rgb(210, 71, 204)' },
+]
+
 export default function SchoolCrmHero() {
   return (
     <section className="vc_row wpb_row vc_row-fluid sv_first_row liquid-row-shadowbox">
@@ -30,12 +39,7 @@ export default function SchoolCrmHero() {
                     <h4 className="lqd-highlight-underline lqd-highlight-grow-left" data-text-rotator="true">
                       <span className="ld-fh-txt">
                         {' '}
-                        <span className="txt-rotate-keywords">
-                          <span className="keyword active" style={{ color: 'rgb(255, 87, 87)' }}>Cloud-Based</span>
-                          <span className="keyword" style={{ color: 'rgb(87, 161, 255)' }}>Mobile Ready</span>
-                          <span className="keyword" style={{ color: 'rgb(0, 214, 53)' }}>Secure & Scalable</span>
-                          <span className="keyword" style={{ color: 'rgb(210, 71, 204)' }}>100% Customizable</span>
-                        </span>
+                        <TextRotator keywords={rotatingKeywords} />
                       </span>
                     </h4>
                   </div>
