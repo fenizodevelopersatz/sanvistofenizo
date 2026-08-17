@@ -14,7 +14,7 @@ export default function TechStackBanner() {
                     <picture>
                       <source media="(max-width: 991px)" srcSet="/wp-content/uploads/2025/04/Group-48097199.png" />
                       <img
-                        src="/wp-content/uploads/2025/10/technology-stacks-fenizo.png"
+                        src="/wp-content/uploads/2025/10/technology-stacks-clonescript.png"
                         width="1999"
                         height="787"
                         className="fenizo-tech-stack__art"

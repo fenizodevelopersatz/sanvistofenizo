@@ -2,7 +2,7 @@ import Reveal from './Reveal.jsx'
 
 export default function RevenueBenefits({ heading = 'Revenue Benefits', subheading, items, image, color = 'rgb(0, 38, 146)' }) {
   const [left, right] = [items.slice(0, Math.ceil(items.length / 2)), items.slice(Math.ceil(items.length / 2))]
-  const cardStyle = { padding: 20, backgroundColor: '#F9F5FD78', borderRadius: 15 }
+  const cardStyle = { padding: 20, backgroundColor: '#FFFFFF', borderRadius: 15 }
 
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
@@ -51,7 +51,7 @@ export default function RevenueBenefits({ heading = 'Revenue Benefits', subheadi
           </div>
           {image && (
             <div className="wpb_column vc_column_container vc_col-sm-6 vc_hidden-sm vc_hidden-xs">
-              <img src={image} alt="revenue benefits" style={{ maxWidth: '100%' }} loading="lazy" decoding="async" />
+              <img src={image} alt="revenue benefits" style={{ maxWidth: '100%' }} loading="eager" decoding="async" />
             </div>
           )}
           <div className="wpb_column vc_column_container vc_col-sm-3" style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>

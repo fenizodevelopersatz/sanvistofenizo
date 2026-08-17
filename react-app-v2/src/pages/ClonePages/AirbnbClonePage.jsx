@@ -38,8 +38,8 @@ export default function AirbnbClonePage() {
             accentWord="Choose Us?"
             desc=""
             points={whyChooseUsPoints}
-            image="/wp-content/uploads/2026/03/web-developer.webp"
-            imageAlt="web-developer"
+            image="/wp-content/uploads/2025/04/why-choose.webp"
+            imageAlt="CloneScript rental platform delivery achievements"
             color="#fe5337"
           />
 

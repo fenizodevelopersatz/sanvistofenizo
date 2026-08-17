@@ -9,7 +9,7 @@ const reviewPlatforms = [
 
 export default function FooterReviewLogos() {
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox" style={{ backgroundColor: '#f5f7ff' }}>
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-12">

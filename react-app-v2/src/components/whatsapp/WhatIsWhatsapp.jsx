@@ -63,7 +63,7 @@ export default function WhatIsWhatsapp() {
                     <div className="wpb_single_image wpb_content_element vc_align_left">
                       <figure className="wpb_wrapper vc_figure">
                         <div className="vc_single_image-wrapper vc_box_border_grey">
-                          <img src="/wp-content/uploads/2024/01/confused-young-lady-fenizo.webp" width="535" height="357" className="vc_single_image-img attachment-full" alt="What is a WhatsApp Clone" loading="lazy" />
+                          <img src="/wp-content/uploads/2025/04/why-choose.webp" width="535" height="357" className="vc_single_image-img attachment-full" alt="What is a WhatsApp Clone" loading="lazy" />
                         </div>
                       </figure>
                     </div>

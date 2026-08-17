@@ -158,7 +158,7 @@ export default function FooterBottom() {
                               <div className="wpb_single_image wpb_content_element vc_align_center vc_custom_1726211991731">
                                 <figure className="wpb_wrapper vc_figure">
                                   <div className="vc_single_image-wrapper vc_box_border_grey">
-                                    <img src="/wp-content/uploads/2023/03/fenizo-payments.png" width="598" height="238" className="vc_single_image-img attachment-full" alt="accepted payment methods" title="accepted payment methods" loading="lazy" decoding="async" />
+                                    <img src="/wp-content/uploads/2023/03/Group-726.png" width="598" height="238" className="vc_single_image-img attachment-full" alt="accepted payment methods" title="accepted payment methods" loading="lazy" decoding="async" />
                                   </div>
                                 </figure>
                               </div>

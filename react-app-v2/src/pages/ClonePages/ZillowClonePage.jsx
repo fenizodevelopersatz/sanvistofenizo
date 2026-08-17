@@ -83,8 +83,8 @@ export default function ZillowClonePage() {
             ['Built on Proven ', 'Business Model to Start Earning Faster.', ''],
             ['Seamless Operations with ', 'Reliable Customer Support.', ''],
           ]}
-          image="/assets/images/fenizo/achievement-stats.svg"
-          imageAlt="CloneScript: serving 20+ countries with 24+ happy clients worldwide"
+          image="/wp-content/uploads/2025/04/why-choose.webp"
+          imageAlt="CloneScript real estate platform delivery achievements"
         />
 
         <AiFeaturesGrid items={aiFeatures} heading="AI-Powered Capabilities" columns={4} />

@@ -24,7 +24,7 @@ export default function FounderCta() {
                   <div className="wpb_single_image wpb_content_element vc_align_left">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/assets/images/fenizo/expert-chat.svg" width="480" height="520" className="vc_single_image-img attachment-full" alt="Chat with a CloneScript development expert" loading="lazy" />
+                        <img src="/wp-content/uploads/2024/12/Group-15.png" width="480" height="520" className="vc_single_image-img attachment-full" alt="Chat with a development expert" loading="lazy" />
                       </div>
                     </figure>
                   </div>
