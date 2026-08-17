@@ -43,9 +43,9 @@ export default function StandOutFeaturesGrid({ heading, subheading, items, color
                 <div className="wpb_wrapper">
                   <div className="wpb_wrapper-inner">
                     <Reveal delay={0.1 * (i % 3)}>
-                      <div className="iconbox text-left iconbox-shadow-hover iconbox-xl iconbox-heading-xs premium-icon-box" style={cardStyle}>
+                      <div className="iconbox text-left iconbox-shadow-hover iconbox-heading-xs premium-icon-box" style={cardStyle}>
                         <div className="iconbox-icon-wrap">
-                          <span className="iconbox-icon-container"><i className={f.icon}></i></span>
+                          <span className="iconbox-icon-container"><i className={f.icon} style={{ color }}></i></span>
                         </div>
                         <div className="contents">
                           <h3 className="font-weight-semibold">{f.title}</h3>

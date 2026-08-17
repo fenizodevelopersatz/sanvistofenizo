@@ -56,7 +56,7 @@ export default function WhyChooseErp() {
                   <div className="wpb_single_image wpb_content_element vc_align_center">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2024/11/Group-2673.png" width="650" height="583" className="vc_single_image-img attachment-full" alt="Illustration of business growth and achievements" title="example-achievements" loading="lazy" decoding="async" />
+                        <img src="/wp-content/5.png" width="650" height="583" className="vc_single_image-img attachment-full" alt="Girl giving thumbs up" title="girl-thumbs-up" loading="lazy" decoding="async" />
                       </div>
                     </figure>
                   </div>

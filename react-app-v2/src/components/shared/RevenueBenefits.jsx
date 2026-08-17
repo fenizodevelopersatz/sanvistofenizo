@@ -40,7 +40,7 @@ export default function RevenueBenefits({ heading = 'Revenue Benefits', subheadi
             {left.map((f, i) => (
               <Reveal direction="left" delay={0.1 * i} key={i}>
                 <div className="iconbox iconbox-shadow" style={{ ...cardStyle, color }}>
-                  <div className="iconbox-icon-wrap"><span className="iconbox-icon-container"><i className={f.icon}></i></span></div>
+                  <div className="iconbox-icon-wrap"><span className="iconbox-icon-container"><i className={f.icon} style={{ color }}></i></span></div>
                   <div className="contents">
                     <h3>{f.title}</h3>
                     <p style={{ textAlign: 'center' }}><span style={{ fontSize: 12 }}>{f.desc}</span></p>
@@ -58,7 +58,7 @@ export default function RevenueBenefits({ heading = 'Revenue Benefits', subheadi
             {right.map((f, i) => (
               <Reveal direction="right" delay={0.1 * i} key={i}>
                 <div className="iconbox iconbox-shadow" style={{ ...cardStyle, color }}>
-                  <div className="iconbox-icon-wrap"><span className="iconbox-icon-container"><i className={f.icon}></i></span></div>
+                  <div className="iconbox-icon-wrap"><span className="iconbox-icon-container"><i className={f.icon} style={{ color }}></i></span></div>
                   <div className="contents">
                     <h3>{f.title}</h3>
                     <p style={{ textAlign: 'center' }}><span style={{ fontSize: 12 }}>{f.desc}</span></p>

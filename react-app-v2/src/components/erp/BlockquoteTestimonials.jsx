@@ -5,19 +5,19 @@ const testimonials = [
   {
     name: 'Ms. Zemira',
     location: 'Online retailer',
-    image: '/wp-content/uploads/2024/04/3.png',
+    image: '/wp-content/uploads/2024/04/1.png',
     text: 'Starting my online store was tough, but then I discovered the CloneScript ERP platform. It has been a lifesaver—from setting up my shop to handling inventory—and now I am seeing sales!',
   },
   {
     name: 'Mr. Jaxon',
     location: 'Business owner',
-    image: '/wp-content/uploads/2024/04/6.png',
+    image: '/wp-content/uploads/2024/04/2.png',
     text: 'Their business platform was user-friendly and feature-packed. It helped me create a successful operation with the tools my team needs at an affordable cost.',
   },
   {
     name: 'Mr. Henry',
     location: 'Operations manager',
-    image: '/wp-content/uploads/2024/04/5.png',
+    image: '/wp-content/uploads/2024/04/3.png',
     text: 'Launching and managing our online business was a breeze with CloneScript. We can connect daily operations, customers, and reporting while the business keeps growing.',
   },
 ]
