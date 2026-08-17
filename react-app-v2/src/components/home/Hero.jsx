@@ -9,17 +9,6 @@ export default function Hero() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="ld-fancy-heading" style={{ marginBottom: 14 }}>
-                    <span
-                      style={{
-                        display: 'inline-block', fontSize: 13, fontWeight: 600, letterSpacing: 0.5,
-                        color: '#0030b8', background: '#eef2fb', border: '1px solid #dbe3f5',
-                        borderRadius: 20, padding: '6px 16px',
-                      }}
-                    >
-                      Digital Product &amp; Software Development
-                    </span>
-                  </div>
                   <h1 style={{ fontSize: 32, color: '#101B48', textAlign: 'left' }} className="vc_custom_heading">
                     We Build Digital Products That Move Businesses Forward.
                   </h1>
@@ -35,18 +24,20 @@ export default function Hero() {
                   <div className="ld-empty-space" style={{ height: 32 }}>
                     <span className="liquid_empty_space_inner"></span>
                   </div>
-                  <Link to="/contact-us" className="btn btn-solid btn-md circle btn-bordered border-thin btn-icon-circle" style={{ marginRight: 15, marginBottom: 10 }}>
-                    <span>
-                      <span className="btn-txt">Start Your Project</span>
-                      <span className="btn-icon"><i className="fas fa-long-arrow-alt-right"></i></span>
-                    </span>
-                  </Link>
-                  <a href="#services" className="btn btn-default btn-md circle btn-bordered border-thin btn-icon-circle" style={{ marginBottom: 10 }}>
-                    <span>
-                      <span className="btn-txt">Explore Our Services</span>
-                      <span className="btn-icon"><i className="fas fa-long-arrow-alt-right"></i></span>
-                    </span>
-                  </a>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 12 }}>
+                    <Link to="/contact-us" className="btn btn-solid btn-md circle btn-bordered border-thin btn-icon-circle" style={{ margin: 0 }}>
+                      <span>
+                        <span className="btn-txt">Start Your Project</span>
+                        <span className="btn-icon"><i className="fas fa-long-arrow-alt-right"></i></span>
+                      </span>
+                    </Link>
+                    <a href="#services" className="btn btn-default btn-md circle btn-bordered border-thin btn-icon-circle" style={{ margin: 0 }}>
+                      <span>
+                        <span className="btn-txt">Explore Our Services</span>
+                        <span className="btn-icon"><i className="fas fa-long-arrow-alt-right"></i></span>
+                      </span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
