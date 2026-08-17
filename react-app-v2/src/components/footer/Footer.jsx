@@ -7,7 +7,13 @@ import './Footer.css'
 export default function Footer() {
   return (
     <footer className="main-footer site-footer footer" id="footer">
+      <div className="ld-empty-space" style={{ height: 60 }}>
+        <span className="liquid_empty_space_inner"></span>
+      </div>
       <section id="schedule_form" className="fenizo-contact-section vc_section section-box-shadow schedule-bg vc_custom_1740027174021 vc_section-has-fill">
+        <div className="ld-empty-space" style={{ height: 100 }}>
+          <span className="liquid_empty_space_inner"></span>
+        </div>
         <ScheduleFormSection />
       </section>
       <FooterSitemap />

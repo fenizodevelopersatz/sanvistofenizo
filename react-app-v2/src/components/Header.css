@@ -53,14 +53,19 @@ html.overflow-hidden {
    color:#fff, meant to pair with a colored :before fill (driven by the same
    missing JS) that never reaches opacity:1 without it -- left alone, that turns
    title/subtitle text white with no fill behind it, i.e. invisible. Keep the
-   text dark instead; verified via a real hover that this reads clearly. */
+   text dark instead; verified via a real hover that this reads clearly.
+   !important is required: a plain (non-important) litespeed rule
+   (".iconbox-shadow, .iconbox-shadow-hover, .iconbox-bordered, .iconbox-filled
+   {background-color:#fff}") was winning over this despite lower specificity --
+   confirmed live that a real :hover left every item plain white, not the
+   intended tint, on every page consistently, not gray as it visually reads. */
 .megamenu-column .iconbox:hover {
-  background-color: #f5f5f7;
+  background-color: #eef3ff !important;
 }
 .megamenu-column .iconbox-filled-hover:hover,
 .megamenu-column .iconbox-filled-hover:hover h3,
 .megamenu-column .iconbox-filled-hover:hover p {
-  color: #101b48;
+  color: #101b48 !important;
 }
 
 /* The mega-menu item icon was sized for a wider desktop card than this

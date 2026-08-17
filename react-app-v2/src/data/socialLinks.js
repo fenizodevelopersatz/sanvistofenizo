@@ -3,7 +3,9 @@ export const socialLinks = [
   { href: 'https://twitter.com/example', icon: 'fa fa-twitter' },
   { href: 'https://www.linkedin.com/company/example', icon: 'fa fa-linkedin' },
   { href: 'https://www.instagram.com/example', icon: 'fa fa-instagram' },
+  { href: 'https://github.com/example', icon: 'fa fa-github' },
   { href: 'https://youtu.be/#', icon: 'fa fa-youtube' },
+  { href: 'https://www.pinterest.com/example', icon: 'fa fa-pinterest' },
 ]
 
 export const footerNavColumns = [

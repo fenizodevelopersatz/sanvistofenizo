@@ -95,7 +95,7 @@ export default function FooterBottom() {
                       <div className="iconbox-icon-wrap">
                         <span className="iconbox-icon-container"></span>
                       </div>
-                      <h3 className="font-weight-semibold">Follow Us:</h3>
+                      <h3 className="font-weight-semibold">Follow US On:</h3>
                     </div>
                     <ul className="social-icon branded-text square social-icon-sm custom-social-icon-shadow">
                       {socialLinks.map((s, i) => (
