@@ -19,6 +19,7 @@ import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
+import './YoutubeClonePage.css'
 
 export default function YoutubeClonePage() {
   usePageStylesheets(pageStylesheets.youtubeClone)
@@ -26,8 +27,8 @@ export default function YoutubeClonePage() {
   useSeo('YouTube Clone Script | Video Streaming App | CloneScript')
 
   return (
-    <main className="content" id="content">
-      <div className="wpb-content-wrapper">
+    <main className="content youtube-clone-page" id="content">
+      <div className="wpb-content-wrapper youtube-clone-page__content">
         <section className="vc_section">
           <YoutubeHero />
         </section>

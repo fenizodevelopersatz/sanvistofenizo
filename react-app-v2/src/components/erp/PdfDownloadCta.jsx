@@ -38,7 +38,7 @@ export default function PdfDownloadCta() {
       <div className="ld-container container erp-guide-container">
         <div className="row ld-row erp-guide-panel">
           <div className="erp-guide-visual">
-            <img src="/wp-content/uploads/2026/07/erp-feature-guide.webp" width="307" height="406" alt="ERP feature guide" loading="lazy" decoding="async" />
+            <img src="/wp-content/uploads/2026/07/erp-feature-guide.png" width="307" height="406" alt="ERP feature guide" loading="lazy" decoding="async" />
           </div>
           <div className="wpb_column vc_column_container vc_col-sm-12 text-center erp-guide-copy">
             <div className="vc_column-inner">

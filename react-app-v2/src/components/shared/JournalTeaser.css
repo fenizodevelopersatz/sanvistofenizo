@@ -1,3 +1,19 @@
+.journal-teaser .ld-fancy-heading h2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  line-height: 1.1;
+}
+
+.journal-teaser .ld-fancy-heading p {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
 .journal-teaser__grid {
   align-items: start;
   gap: 34px 30px;
@@ -45,6 +61,11 @@
 }
 
 @media (max-width: 767px) {
+  .journal-teaser .ld-fancy-heading h2,
+  .journal-teaser .ld-fancy-heading p {
+    white-space: normal;
+  }
+
   .journal-teaser__grid {
     gap: 24px;
   }

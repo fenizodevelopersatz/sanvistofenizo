@@ -37,6 +37,17 @@ body {
   font-family: var(--fenizo-font);
 }
 
+.fenizo-site > .content,
+.fenizo-site > .content > .wpb-content-wrapper,
+.fenizo-site > .content > .wpb-content-wrapper > .vc_section:first-child,
+.fenizo-site > .content > .wpb-content-wrapper > .vc_row:first-child {
+  padding-top: clamp(24px, 3vw, 44px);
+}
+
+.fenizo-site .main-footer {
+  margin-top: clamp(36px, 4vw, 64px);
+}
+
 .fenizo-site :where(h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, select) { font-family: inherit; }
 .fenizo-site :where(h1, h2, h3, h4, h5, h6) { text-wrap: balance; }
 .fenizo-site :where(p, li) { text-wrap: pretty; }

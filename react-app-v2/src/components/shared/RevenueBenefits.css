@@ -1,0 +1,109 @@
+.revenue-benefits {
+  --revenue-benefits-gap: clamp(18px, 2vw, 28px);
+  --revenue-benefits-card-radius: 18px;
+  --revenue-benefits-card-padding: clamp(18px, 2vw, 26px);
+}
+
+.revenue-benefits__heading {
+  margin-bottom: clamp(14px, 2vw, 24px);
+}
+
+.revenue-benefits__layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(280px, 1.25fr) minmax(220px, 1fr);
+  gap: var(--revenue-benefits-gap);
+  align-items: center;
+  justify-items: center;
+}
+
+.revenue-benefits__column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.revenue-benefits__card {
+  background: #fff;
+  border-radius: var(--revenue-benefits-card-radius);
+  padding: var(--revenue-benefits-card-padding);
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 16px 40px rgba(19, 47, 103, 0.08);
+}
+
+.revenue-benefits__card .iconbox-icon-wrap {
+  margin-bottom: 10px;
+}
+
+.revenue-benefits__content h3 {
+  margin: 0 0 10px;
+  line-height: 1.15;
+}
+
+.revenue-benefits__content p {
+  margin: 0;
+  line-height: 1.8;
+}
+
+.revenue-benefits__content span {
+  font-size: 12px;
+}
+
+.revenue-benefits__media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.revenue-benefits__image-wrap {
+  width: min(100%, 560px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.revenue-benefits__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+@media (max-width: 1199px) {
+  .revenue-benefits__layout {
+    grid-template-columns: minmax(220px, 1fr) minmax(240px, 1fr);
+  }
+
+  .revenue-benefits__media {
+    grid-column: 1 / -1;
+    order: 1;
+  }
+
+  .revenue-benefits__column--left {
+    order: 2;
+  }
+
+  .revenue-benefits__column--right {
+    order: 3;
+  }
+}
+
+@media (max-width: 767px) {
+  .revenue-benefits__layout {
+    grid-template-columns: 1fr;
+  }
+
+  .revenue-benefits__media,
+  .revenue-benefits__column--left,
+  .revenue-benefits__column--right {
+    order: initial;
+  }
+
+  .revenue-benefits__card {
+    min-height: auto;
+  }
+}
