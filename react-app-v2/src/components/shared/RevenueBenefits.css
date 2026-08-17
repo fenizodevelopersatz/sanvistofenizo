@@ -16,11 +16,27 @@
   justify-items: center;
 }
 
+/* This element also carries the Bootstrap-style .row class, whose ::before/::after
+   clearfix (content:" "; display:table) becomes two extra grid items once the
+   parent is display:grid -- 5 items competing for 3 declared columns pushed the
+   real 3 into a staggered second row instead of one clean row. Same failure mode
+   fixed elsewhere this session (footer nav columns, testimonial grid). */
+.revenue-benefits__layout::before,
+.revenue-benefits__layout::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* !important needed: this div still carries the legacy .vc_col-sm-3 class
+   (width:25%) from the old Bootstrap-float grid it used to belong to, which
+   ties this rule at equal specificity -- left unbeaten, the column shrinks to
+   25% of its actual CSS-grid cell width, forcing severe text-wrap and
+   ballooning each card's height well past its 170px min-height. */
 .revenue-benefits__column {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  width: 100%;
+  width: 100% !important;
 }
 
 .revenue-benefits__card {
@@ -53,10 +69,14 @@
   font-size: 12px;
 }
 
+/* Same legacy .vc_col-sm-6 (width:50%) conflict as .revenue-benefits__column
+   above -- without !important the image column shrinks to half its grid
+   cell's width, and the image inside shrinks with it. */
 .revenue-benefits__media {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100% !important;
 }
 
 .revenue-benefits__image-wrap {

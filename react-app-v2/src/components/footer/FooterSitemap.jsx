@@ -42,7 +42,7 @@ function SitemapLink({ href, label }) {
 
 export default function FooterSitemap() {
   return (
-    <section data-vc-full-width="true" className="fenizo-business-solutions vc_section vc_custom_1726227127650 vc_section-has-fill">
+    <section id="products" data-vc-full-width="true" className="fenizo-business-solutions vc_section vc_custom_1726227127650 vc_section-has-fill">
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40d6738">
         <div className="ld-container container">
           <div className="row ld-row">

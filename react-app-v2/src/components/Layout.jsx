@@ -7,6 +7,7 @@ import FlashSalePopup from './FlashSalePopup.jsx'
 import RouteFallback from './RouteFallback.jsx'
 import { useGlobalSectionMotion } from '../hooks/useGlobalSectionMotion.js'
 import { expectPageStyles } from '../hooks/usePageStylesheets.js'
+import { useHashScroll } from '../hooks/useHashScroll.js'
 
 export default function Layout() {
   const { pathname } = useLocation()
@@ -19,6 +20,7 @@ export default function Layout() {
   }, [pathname])
 
   useGlobalSectionMotion(pathname)
+  useHashScroll()
 
   return (
     <div id="wrap" className={`fenizo-site fenizo-route-${routeClass}`}>

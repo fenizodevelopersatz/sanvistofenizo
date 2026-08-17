@@ -14,8 +14,8 @@ export const footerNavColumns = [
     links: [
       ['#', 'About Us'],
       ['#', 'Our Services'],
-      ['#', 'Our Products'],
-      ['#', 'Portfolio'],
+      ['/#products', 'Our Products'],
+      ['/#products', 'Portfolio'],
       ['#', 'Our Blog'],
       ['#', 'Career'],
     ],
