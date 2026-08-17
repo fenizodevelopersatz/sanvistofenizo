@@ -107,6 +107,8 @@ export const techStack = [
   { type: 'image', image: '/wp-content/uploads/2026/04/mongodb.webp', color: 'rgb(71, 162, 72)', title: 'Mongodb' },
   { type: 'image', image: '/wp-content/uploads/2026/05/nextjs.webp', color: 'rgb(104, 160, 99)', title: 'Next Js' },
   { type: 'icon', icon: 'fa fa-brands fa-node', color: 'rgb(104, 160, 99)', title: 'Node Js' },
+  { type: 'image', image: '/wp-content/uploads/2022/01/mysql-1.png', color: 'rgb(0, 95, 133)', title: 'MySQL' },
+  { type: 'icon', icon: 'fa fa-solid fa-database', color: 'rgb(51, 103, 145)', title: 'PostgreSQL' },
 ]
 
 export const pricingPlans = [

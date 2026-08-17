@@ -25,7 +25,7 @@ export default function TechStackRow({ items, heading = 'Technology Stack' }) {
           {items.map((t, i) => (
             <div className="tech-stack-grid__card" key={i} style={{ '--tech-color': t.color }}>
               <div className="tech-stack-grid__icon">
-                {t.type === 'icon' ? <i className={t.icon} style={{ color: t.color }}></i> : <img src={t.image} width="60" height="36" alt={t.title} loading="lazy" decoding="async" />}
+                {t.type === 'icon' ? <i className={t.icon} style={{ color: t.color }}></i> : <img src={t.image} width="60" height="36" alt={t.title} loading="eager" decoding="async" />}
               </div>
               <h3>{t.title}</h3>
             </div>

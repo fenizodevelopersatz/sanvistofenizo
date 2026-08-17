@@ -246,6 +246,27 @@ a claim about the current state. `useSeo.js`'s canonical/OG `SITE_URL` still har
 `fenizotechnologies.com` (the domain, not just the display name) — flagged but not changed, since
 domain ownership wasn't part of either rebrand instruction.
 
+### (later session) — Fixed a site-wide invisible-page bug the Fenizo→CloneScript rename left behind
+Every page was rendering correctly (right content, right layout) but **invisible** — `#wrap`/
+`main.content` stuck at `visibility: hidden` forever, on every route, even minutes after all
+stylesheets and fonts had finished loading. Root cause: `index.html`'s static app-shell spinner
+(shows a spinner + hides `#wrap` before React mounts) and `src/hooks/usePageStylesheets.js` /
+`src/styles/FenizoDesignSystem.css` (which reveal the page once route-specific CSS is ready) are
+two halves of one mechanism that only work if they agree on a class name. The Fenizo→CloneScript
+rename (`406f0fc`) renamed `index.html`'s copy of the class to `clonescript-page-styles-loading`
+but missed the other two files, which kept managing the old `fenizo-page-styles-loading` name —
+so `index.html`'s class was set on `<body>` at first paint and then *nothing ever cleared it*.
+Fixed by renaming the hook and CSS to the same `clonescript-page-styles-loading` name. Separately
+hardened the hook's reveal step, which was gated purely on two chained `requestAnimationFrame`
+calls: browsers pause `requestAnimationFrame` indefinitely for a tab that never composites a frame
+(backgrounded on load, minimized, or this project's browser-automation test environment), so a
+real user opening the site in a background tab could hit the same permanent-hidden state even with
+the class names fixed. Added a 300ms `setTimeout` fallback that races the rAF chain — normal
+foreground loads still get the intended anti-FOUC double-rAF timing, everything else self-heals
+within 300ms instead of hanging forever. This also explains why the Vinted Clone page's FAQ
+section looked "missing" — it was present and correctly wired, just invisible along with
+everything else in `main.content`.
+
 ## 5. Where the "real facts" came from
 
 Fetched directly from `https://fenizotechnologies.com` on 2026-08-10. Key facts used

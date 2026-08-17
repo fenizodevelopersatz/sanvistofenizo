@@ -51,7 +51,7 @@ export default function WhatIsVintedAndVideo() {
                       <div className="liquid-img-group-single" data-shadow-style="3" data-roundness="8">
                         <div className="liquid-img-group-img-container">
                           <div className="liquid-img-group-content content-floated-mid">
-                            <a href="https://youtu.be/ezpqPlPAaq4" target="_blank" rel="noreferrer" className="btn btn-naked fresco btn-icon-block btn-icon-top btn-icon-lg btn-icon-circle btn-icon-solid btn-icon-ripple">
+                            <a href="https://youtu.be/#" target="_blank" rel="noreferrer" className="btn btn-naked fresco btn-icon-block btn-icon-top btn-icon-lg btn-icon-circle btn-icon-solid btn-icon-ripple">
                               <span>
                                 <span className="btn-icon"><i className="fa fa-solid fa-play"></i></span>
                               </span>

@@ -58,13 +58,15 @@ body {
 }
 
 /* A real loading boundary prevents unstyled WPBakery rows from flashing while
-   preserving the stable shared header/footer shell. */
-body.fenizo-page-styles-loading .fenizo-site > .content {
+   preserving the stable shared header/footer shell. Same class name that
+   index.html's initial app-shell spinner uses, so a single toggle in
+   usePageStylesheets.js covers both the first paint and route transitions. */
+body.clonescript-page-styles-loading .fenizo-site > .content {
   min-height: 68vh;
   visibility: hidden;
 }
 
-body:not(.fenizo-page-styles-loading) .fenizo-site > .content { animation: fenizo-page-enter 420ms var(--fenizo-ease) both; }
+body:not(.clonescript-page-styles-loading) .fenizo-site > .content { animation: fenizo-page-enter 420ms var(--fenizo-ease) both; }
 @keyframes fenizo-page-enter {
   from { opacity: 0; transform: translate3d(0, 8px, 0); }
   to { opacity: 1; transform: none; }
