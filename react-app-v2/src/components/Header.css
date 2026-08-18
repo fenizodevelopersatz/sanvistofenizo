@@ -77,3 +77,35 @@ html.overflow-hidden {
   height: 40px !important;
   font-size: 16px !important;
 }
+
+/* The theme's cart CSS (.ld-cart-product, .ld-cart-product-remove, etc.)
+   ships fully built in the litespeed bundle but was never wired to real
+   markup -- CartDropdown now renders live localStorage cart items into it.
+   .ld-cart-product-details only has a width from the source CSS (it
+   originally wrapped a product-info figure/link this app doesn't have), so
+   the plan-name + product-name spans need their own stacking rule, and
+   .ld-cart-button's vertical button stack (relied on by the theme's own
+   ".btn+.btn{margin-top:1em}" rule) needs a flex-column ancestor. Both are
+   scoped under .ld-module-cart-offcanvas to outrank the base theme rules
+   regardless of stylesheet load order. */
+.ld-module-cart-offcanvas .ld-cart-product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-width: 55%;
+}
+.ld-module-cart-offcanvas .ld-cart-product-name {
+  font-weight: 600;
+}
+.ld-module-cart-offcanvas .ld-cart-product-meta {
+  display: block;
+  font-size: 12px;
+  color: #767676;
+}
+.ld-module-cart-offcanvas .ld-cart-button {
+  display: flex;
+  flex-direction: column;
+}
+.ld-module-cart-offcanvas .ld-cart-clear {
+  cursor: pointer;
+}
