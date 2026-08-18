@@ -1,15 +1,23 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useCart } from '../hooks/useCart.js'
+import { useCurrency } from '../hooks/useCurrency.js'
 import { subscribeToCartOpenRequests } from '../lib/cart.js'
+import { formatMoney, formatPriceString } from '../lib/currency.js'
 
-function formatPrice(value) {
-  return `$${value.toLocaleString('en-US')}`
+// "10/10 features included" -- surfaces the feature checklist each pricing
+// card already captured into the cart item, without needing a full
+// expand/collapse per row.
+function featureSummary(features) {
+  if (!Array.isArray(features) || features.length === 0) return null
+  const included = features.filter(([, isIncluded]) => isIncluded).length
+  return `${included}/${features.length} features included`
 }
 
 export default function CartDropdown() {
   const [isOpen, setIsOpen] = useState(false)
   const { items, count, total, removeItem, clear } = useCart()
+  const { currency } = useCurrency()
 
   // An "Invest Now" click anywhere on the site asks this dropdown to open,
   // so adding a plan gives the user immediate visual confirmation.
@@ -55,9 +63,14 @@ export default function CartDropdown() {
                     <div className="ld-cart-product" key={item.id}>
                       <div className="ld-cart-product-details">
                         <span className="ld-cart-product-name">{item.planName}</span>
-                        <span className="ld-cart-product-meta">{item.productName}</span>
+                        <Link to={item.pageUrl} className="ld-cart-product-meta" onClick={() => setIsOpen(false)}>
+                          {item.productName}
+                        </Link>
+                        {featureSummary(item.features) && (
+                          <span className="ld-cart-product-features">{featureSummary(item.features)}</span>
+                        )}
                       </div>
-                      <span className="ld-cart-product-price">{item.price}</span>
+                      <span className="ld-cart-product-price">{formatPriceString(item.price, currency)}</span>
                       <a
                         href="#"
                         className="remove ld-cart-product-remove"
@@ -80,7 +93,7 @@ export default function CartDropdown() {
                 <div className="ld-cart-foot">
                   <div className="ld-cart-total">
                     <span className="ld-cart-total-label">Subtotal:</span>
-                    <span className="ld-cart-total-price">{formatPrice(total)}</span>
+                    <span className="ld-cart-total-price">{formatMoney(total, currency)}</span>
                   </div>
                   <div className="ld-cart-button">
                     <Link to="/schedule-free-demo" className="btn btn-solid" onClick={() => setIsOpen(false)}>

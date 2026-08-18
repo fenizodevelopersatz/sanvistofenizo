@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import { sendContactPayload } from '../lib/contactApi.js'
 
-export function useContactForm(initialValues, { enableApiSend = false, subject = '' } = {}) {
+export function useContactForm(initialValues, { enableApiSend = false, subject = '', getExtraPayload, onSuccess } = {}) {
   const [values, setValues] = useState(initialValues)
   const [status, setStatus] = useState('init')
   const [errorMessage, setErrorMessage] = useState('')
@@ -30,9 +30,11 @@ export function useContactForm(initialValues, { enableApiSend = false, subject =
     setErrorMessage('')
 
     try {
-      await sendContactPayload({ ...values, subject })
+      const extra = getExtraPayload ? getExtraPayload() : undefined
+      await sendContactPayload({ ...values, subject, ...extra })
       setValues(initialValues)
       setStatus('sent')
+      onSuccess?.()
     } catch (err) {
       setStatus('failed')
       setErrorMessage(err.message)

@@ -3,6 +3,8 @@
 // localStorage as the single source of truth and re-syncs through the
 // events below, so cart state stays consistent across the whole app without
 // prop drilling.
+import { parsePrice } from './currency.js'
+
 const STORAGE_KEY = 'clonescript_cart'
 const CHANGE_EVENT = 'clonescript:cart-change'
 const OPEN_REQUEST_EVENT = 'clonescript:cart-open-request'
@@ -21,10 +23,6 @@ function writeCart(items) {
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items))
   window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: items }))
   return items
-}
-
-export function parsePrice(price) {
-  return Number(String(price).replace(/[^0-9.]/g, '')) || 0
 }
 
 export function getCart() {

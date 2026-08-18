@@ -1,7 +1,9 @@
 import { useLocation } from 'react-router-dom'
 import Reveal from './Reveal.jsx'
 import { useCart } from '../../hooks/useCart.js'
+import { useCurrency } from '../../hooks/useCurrency.js'
 import { requestCartOpen } from '../../lib/cart.js'
+import { formatPriceString } from '../../lib/currency.js'
 
 // This component is reused across every clone-script page, each with its own
 // route and <title> (set per-page via useSeo) but no "product name" prop --
@@ -14,6 +16,7 @@ function currentProductName() {
 export default function PricingPlans({ plans, heading = 'Pick Price Plan' }) {
   const { pathname } = useLocation()
   const { items, addItem } = useCart()
+  const { currency } = useCurrency()
   const productSlug = pathname.replace(/^\/|\/$/g, '') || 'home'
 
   const handleInvest = (plan) => {
@@ -66,7 +69,7 @@ export default function PricingPlans({ plans, heading = 'Pick Price Plan' }) {
                           )}
                           <div className="pricing-table-header">
                             <h5>{plan.name}</h5>
-                            <p className="pricing">{plan.price}</p>
+                            <p className="pricing">{formatPriceString(plan.price, currency)}</p>
                           </div>
                           <div className="pricing-table-body">
                             <ul style={{ textAlign: 'left' }}>

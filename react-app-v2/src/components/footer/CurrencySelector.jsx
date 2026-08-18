@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useCurrency } from '../../hooks/useCurrency.js'
 import './CurrencySelector.css'
 
 const currencies = [
@@ -6,8 +6,11 @@ const currencies = [
   { code: 'INR', label: 'Indian Rupee', flag: '🇮🇳' },
 ]
 
+// Selecting a currency here persists it (localStorage) and broadcasts it to
+// every pricing card and the cart dropdown across the site -- see
+// hooks/useCurrency.js.
 export default function CurrencySelector() {
-  const [selected, setSelected] = useState('USD')
+  const { currency: selected, setCurrency } = useCurrency()
 
   return (
     <div className="footer-currency-selector" role="radiogroup" aria-label="Currency">
@@ -18,7 +21,7 @@ export default function CurrencySelector() {
           className={`footer-currency-selector__option${c.code === selected ? ' is-selected' : ''}`}
           role="radio"
           aria-checked={c.code === selected}
-          onClick={() => setSelected(c.code)}
+          onClick={() => setCurrency(c.code)}
         >
           <span className="footer-currency-selector__flag" aria-hidden="true">{c.flag}</span>
           <span className="footer-currency-selector__text">

@@ -1,6 +1,8 @@
 import { pricingPlans } from '../../data/erp/coreModules.js'
 import { useCart } from '../../hooks/useCart.js'
+import { useCurrency } from '../../hooks/useCurrency.js'
 import { requestCartOpen } from '../../lib/cart.js'
+import { formatPriceString } from '../../lib/currency.js'
 
 const PRODUCT_NAME = 'ERP Software'
 const PRODUCT_SLUG = 'erp-software'
@@ -8,6 +10,7 @@ const PAGE_URL = '/erp-software'
 
 export default function PricingPlans() {
   const { items, addItem } = useCart()
+  const { currency } = useCurrency()
 
   const handleInvest = (plan) => {
     const id = `${PRODUCT_SLUG}:${plan.name}`
@@ -59,7 +62,7 @@ export default function PricingPlans() {
                         )}
                         <div className="pricing-table-header">
                           <h5>{plan.name}</h5>
-                          <p className="pricing">{plan.price}</p>
+                          <p className="pricing">{formatPriceString(plan.price, currency)}</p>
                         </div>
                         <div className="pricing-table-body">
                           <ul style={{ textAlign: 'left' }}>

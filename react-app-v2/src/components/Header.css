@@ -97,10 +97,23 @@ html.overflow-hidden {
 .ld-module-cart-offcanvas .ld-cart-product-name {
   font-weight: 600;
 }
+/* .ld-cart-product-meta is a Link back to that item's product page (the
+   cart's "more information" -- see CartDropdown), so it needs its own
+   link-reset instead of inheriting the theme's default anchor styling. */
 .ld-module-cart-offcanvas .ld-cart-product-meta {
   display: block;
   font-size: 12px;
   color: #767676;
+  text-decoration: none;
+}
+.ld-module-cart-offcanvas .ld-cart-product-meta:hover {
+  color: var(--color-primary, #0030b8);
+  text-decoration: underline;
+}
+.ld-module-cart-offcanvas .ld-cart-product-features {
+  display: block;
+  font-size: 11px;
+  color: #9a9a9a;
 }
 .ld-module-cart-offcanvas .ld-cart-button {
   display: flex;

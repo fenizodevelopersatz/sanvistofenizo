@@ -1,6 +1,8 @@
 import { useContactForm } from '../../hooks/useContactForm.js'
 import { demoProducts } from '../../data/demoProducts.js'
 import { siteContact } from '../../data/siteContact.js'
+import { clearCart, getCart, getCartTotal } from '../../lib/cart.js'
+import { getCurrency } from '../../lib/currency.js'
 
 export default function DemoForm() {
   const { values, handleChange, handleSubmit, submitted, status, errorMessage } = useContactForm(
@@ -11,7 +13,26 @@ export default function DemoForm() {
       product: demoProducts[0],
       consent: true,
     },
-    { enableApiSend: true, subject: 'New Demo Request (Schedule Free Demo page)' }
+    {
+      enableApiSend: true,
+      subject: 'New Demo Request (Schedule Free Demo page)',
+      // Read straight from localStorage at submit time (not the render-time
+      // cart hook) so the payload always reflects whatever is in the cart
+      // the instant "Schedule Now" is clicked.
+      getExtraPayload: () => {
+        const cart = getCart()
+        const currency = getCurrency()
+        return {
+          cart,
+          cartTotalUsd: getCartTotal(cart),
+          currency,
+        }
+      },
+      // The cart only clears once the demo request has actually reached the
+      // API -- a failed send (e.g. offline) leaves it intact so nothing is
+      // silently lost.
+      onSuccess: clearCart,
+    }
   )
 
   return (
