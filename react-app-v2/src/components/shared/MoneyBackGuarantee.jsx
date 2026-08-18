@@ -18,23 +18,15 @@ export default function MoneyBackGuarantee() {
                   padding: '30px 40px',
                 }}
               >
-                <span
-                  aria-hidden="true"
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    width: 64,
-                    height: 64,
-                    flexShrink: 0,
-                    borderRadius: '50%',
-                    background: '#4b922e',
-                    color: '#fff',
-                    fontSize: 28,
-                  }}
-                >
-                  <i className="fa fa-solid fa-shield-halved"></i>
-                </span>
+                <img
+                  src="/wp-content/uploads/7days.jpg"
+                  alt="7 day money back guarantee seal"
+                  width="90"
+                  height="90"
+                  loading="lazy"
+                  decoding="async"
+                  style={{ flexShrink: 0, objectFit: 'contain' }}
+                />
                 <header className="fancy-title" style={{ flex: 1, minWidth: 220 }}>
                   <h2>100% Money Back Guaranteed</h2>
                   <div className="st-desc">

@@ -7,7 +7,7 @@ import { comparisonLabels } from '../../data/comparisonLabels.js'
 import { placeholderTestimonials } from '../../data/placeholderTestimonials.js'
 import {
   aiFeatures, comparisonOurs, comparisonOthers, roleTabs, techStack,
-  standOutFeatures, revenueBenefits, launchSteps, pricingPlans, faqs,
+  standOutFeatures, revenueBenefits, launchSteps, pricingPlans,
 } from '../../data/vinted/vintedData.js'
 
 import VintedHero from '../../components/vinted/VintedHero.jsx'
@@ -28,7 +28,7 @@ import RevenueBenefits from '../../components/shared/RevenueBenefits.jsx'
 import LiveDemoTabs from '../../components/shared/LiveDemoTabs.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
-import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
+import FaqServerTabs from '../../components/vinted/FaqServerTabs.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 import './VintedClonePage.css'
 
@@ -201,11 +201,7 @@ export default function VintedClonePage() {
         <PricingPlans plans={pricingPlans} />
         <MoneyBackGuarantee />
 
-        <FaqAccordion
-          heading="Do you have any doubts? Get Instant Solutions Here"
-          subheading="Our FAQ Section provides complete clarification for all your queries about the vinted clone script"
-          faqs={faqs}
-        />
+        <FaqServerTabs />
 
         <BlogTeaser />
       </div>

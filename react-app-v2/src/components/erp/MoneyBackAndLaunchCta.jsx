@@ -37,7 +37,7 @@ export function MoneyBackGuarantee() {
       <div className="ld-container container">
         <div className="row ld-row erp-moneyback-panel">
           <div className="erp-moneyback-visual">
-            <img src="/wp-content/uploads/2024/12/Group-15.png" width="185" height="120" alt="100 percent money back guarantee" loading="lazy" decoding="async" />
+            <img src="/wp-content/uploads/7days.jpg" width="160" height="160" alt="7 day money back guarantee seal" loading="lazy" decoding="async" />
           </div>
           <div className="wpb_column vc_column_container vc_col-sm-12">
             <div className="vc_column-inner">
