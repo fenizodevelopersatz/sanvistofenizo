@@ -4,7 +4,6 @@ import { useStickyHeader } from '../hooks/useStickyHeader.js'
 import { useMobileNav } from '../hooks/useMobileNav.js'
 import MegaMenu from './MegaMenu.jsx'
 import CartDropdown from './CartDropdown.jsx'
-import LoginModal from './LoginModal.jsx'
 import GradientButton from './GradientButton.jsx'
 import { siteBrand } from '../data/siteBrand.js'
 import './Header.css'
@@ -147,7 +146,13 @@ export default function Header() {
 
               <div className="col vc_col-sm-3 text-right text-lg-right">
                 <CartDropdown />
-                <LoginModal />
+                <div className="header-module">
+                  <Link to="/schedule-free-demo" title="my-account" className="btn btn-naked btn-icon-left">
+                    <span>
+                      <span className="btn-icon"><i className="fas fa-circle-user"></i></span>
+                    </span>
+                  </Link>
+                </div>
                 <div className="header-module">
                   <GradientButton href="/schedule-free-demo" title="Schedule Free Demo" text="Schedule Demo Tour" size="sm" svgId="svg-border-header-cta" />
                 </div>
