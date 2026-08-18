@@ -110,6 +110,11 @@ export const pricingPlans = [
   },
 ]
 
+export const serverRequirements = {
+  vpsServer: ['OS: Ubuntu 22.04 LTS', 'CPU: 2–4 Cores', 'RAM: 4–8 GB', 'Storage: 40+ GB SSD', 'Node.js: v18 or higher'],
+  database: ['MongoDB 5+'],
+}
+
 export const faqs = [
   { q: 'What is a Vinted Clone?', a: 'Vinted Clone Script is a 100% customizable solution that lets you build a classified marketplace for buying and selling products under different categories.' },
   { q: 'How much does it cost to build a Vinted clone app?', a: 'CloneScript provides three different packages for vinted clone, you can check our pricing plans to find the best option that suits your business side and needs.' },

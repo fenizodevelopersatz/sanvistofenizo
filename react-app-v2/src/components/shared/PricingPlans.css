@@ -24,3 +24,18 @@
   text-decoration: none !important;
   color: inherit !important;
 }
+
+/* A soft lifted card + a secondary currency figure next to the primary
+   price, so the amount is never shown in only one currency -- whichever
+   currency the footer selector isn't on is still visible, just de-emphasized. */
+#prices .pricing-table {
+  box-shadow: 0 20px 45px rgba(16, 27, 72, 0.12);
+}
+#prices .pricing-table.featured {
+  box-shadow: 0 24px 55px rgba(0, 48, 184, 0.18);
+}
+#prices .pricing-secondary {
+  font-size: 0.55em;
+  font-weight: 400;
+  color: #767676;
+}

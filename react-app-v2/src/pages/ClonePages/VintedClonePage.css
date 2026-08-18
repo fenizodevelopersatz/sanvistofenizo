@@ -92,6 +92,35 @@
   margin: 0 auto;
 }
 
+/* The "Book a Live Demo" photo had no framing at all -- just a bare <img>.
+   Gives it the colorful, bordered treatment the rest of this page's CTAs
+   use: a soft blurred color-blob behind it, plus a white border + shadow
+   on the photo itself so it reads as a deliberately framed portrait. */
+.vinted-live-demo-photo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 28px;
+}
+.vinted-live-demo-photo::before {
+  content: '';
+  position: absolute;
+  inset: 8px;
+  z-index: 0;
+  border-radius: 50%;
+  filter: blur(18px);
+  background:
+    radial-gradient(circle at 28% 26%, rgba(224, 130, 255, 0.4), transparent 60%),
+    radial-gradient(circle at 72% 70%, rgba(120, 190, 255, 0.4), transparent 60%);
+}
+.vinted-live-demo-photo img {
+  position: relative;
+  z-index: 1;
+  border-radius: 24px;
+  border: 4px solid #fff;
+  box-shadow: 0 20px 50px rgba(16, 27, 72, 0.18);
+}
+
 .vinted-motion-page > .fenizo-section-motion[data-fenizo-reveal='visible'] {
   opacity: 1;
   transform: translate3d(0, 0, 0);

@@ -67,3 +67,15 @@ export function formatMoney(usdValue, currency) {
 export function formatPriceString(price, currency) {
   return formatMoney(parsePrice(price), currency)
 }
+
+// Pricing cards show both currencies at once (never just one, so the amount
+// is never "missing" regardless of the footer currency toggle) -- primary
+// is whichever currency is currently selected, secondary is the other one.
+export function formatBothCurrencies(price, primaryCurrency) {
+  const secondaryCurrency = primaryCurrency === 'INR' ? 'USD' : 'INR'
+  const usdValue = parsePrice(price)
+  return {
+    primary: formatMoney(usdValue, primaryCurrency),
+    secondary: formatMoney(usdValue, secondaryCurrency),
+  }
+}
