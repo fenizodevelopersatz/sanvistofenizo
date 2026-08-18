@@ -380,11 +380,11 @@
 }
 
 .erp-industries-section {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .erp-industries-section > .container:first-child {
-  margin-bottom: 55px;
+  margin-bottom: 40px;
 }
 
 .erp-industries-viewport {
@@ -395,9 +395,9 @@
 .erp-industries-grid {
   display: flex !important;
   width: max-content;
-  gap: 16px;
+  gap: 14px;
   margin: 0 !important;
-  animation: erp-industries-scroll 34s linear infinite;
+  animation: erp-industries-scroll 28s linear infinite;
 }
 
 @keyframes erp-industries-scroll {
@@ -410,7 +410,23 @@
 }
 
 .erp-industries-grid .fancy-box {
-  flex: 0 0 300px;
+  flex: 0 0 250px;
+  /* The vendor .cb-img-container/.fancy-box-contents rules are
+     position:absolute; height:100%, meant to fill a card with an explicit
+     height (WPBakery normally inlines one per-instance). Without a definite
+     height here, that 100% doesn't resolve against anything sane and the
+     card balloons to thousands of px tall -- this height is load-bearing,
+     not decorative. */
+  height: 260px;
+  /* The vendor .fancy-box-overlay.tall class (also on this element) sets
+     padding-bottom: 133.335% -- the pre-aspect-ratio trick for reserving
+     height as a percentage of width. Percentage padding resolves against
+     the CONTAINING BLOCK's width, which here is this flex row's
+     width:max-content track (3154px+), not this card's own 250px -- so it
+     was demanding ~4200px of padding, and padding can't compress below its
+     computed value, so it dragged the explicit height above along with it.
+     The explicit height already does this box's sizing; kill the hack. */
+  padding-bottom: 0 !important;
   transition: transform 300ms ease, box-shadow 300ms ease;
 }
 
@@ -422,7 +438,7 @@
 .erp-industries-grid img {
   display: block;
   width: 100%;
-  height: 330px;
+  height: 260px;
   object-fit: cover;
 }
 
@@ -577,6 +593,11 @@
 .erp-pricing-section {
   padding: 70px 0 50px;
   scroll-margin-top: 95px;
+}
+
+#prices.erp-pricing-section > .container {
+  width: min(1360px, calc(100% - 48px));
+  max-width: 1360px;
 }
 
 .erp-pricing-section > .container > .row + .row {
@@ -926,15 +947,17 @@
   }
 
   .erp-industries-grid {
-    gap: 12px;
+    gap: 10px;
   }
 
   .erp-industries-grid .fancy-box {
-    flex: 0 0 68vw;
+    flex: 0 0 58vw;
+    height: 280px;
+    padding-bottom: 0 !important;
   }
 
   .erp-industries-grid img {
-    height: 360px;
+    height: 280px;
   }
 
   .erp-tech-grid .iconbox {

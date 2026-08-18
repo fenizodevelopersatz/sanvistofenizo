@@ -37,7 +37,7 @@ export default function IndustriesCarousel() {
                 style={{ position: 'relative', borderRadius: 15, overflow: 'hidden' }}
               >
                 <div className="cb-img-container border-radius-3">
-                  <img src={ind.image} alt={ind.title} loading="lazy" decoding="async" />
+                  <img src={ind.image} alt={ind.title} loading="eager" decoding="async" />
                 </div>
                 <span className="cb-overlay" style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0.75) 100%)' }}></span>
                 <div className="fancy-box-contents border-radius-3" style={{ position: 'absolute', left: 0, right: 0, bottom: 0, padding: '20px' }}>
