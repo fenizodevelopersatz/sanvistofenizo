@@ -52,10 +52,27 @@ export default function TuroClonePage() {
           <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
             <div className="ld-container container">
               <div className="row ld-row">
+                <div className="wpb_column vc_column_container vc_col-sm-12 vc_hidden-sm vc_hidden-xs">
+                  <div className="vc_column-inner">
+                    <div className="wpb_wrapper">
+                      <div className="wpb_wrapper-inner">
+                        <div className="ld-empty-space" style={{ height: 50 }}><span className="liquid_empty_space_inner"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+            <div className="ld-container container">
+              <div className="row ld-row">
                 <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1 text-center">
                   <div className="vc_column-inner">
                     <div className="wpb_wrapper">
                       <div className="wpb_wrapper-inner">
+                        <div className="ld-empty-space" style={{ height: 20 }}><span className="liquid_empty_space_inner"></span></div>
                         <div className="ld-fancy-heading text-center">
                           <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
                             <span className="ld-fh-txt"> Ready-to-Launch <span style={{ color: '#0077ff' }}> Turo Clone</span> Platform</span>
@@ -68,11 +85,28 @@ export default function TuroClonePage() {
                             </p>
                           </div>
                         </div>
-                        <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
+                        <div className="ld-empty-space" style={{ height: 40 }}><span className="liquid_empty_space_inner"></span></div>
                         <a href={`https://api.whatsapp.com/send?phone=${siteContact.whatsappApiNumber}&text=${encodeURIComponent('Hello, I am interested with this product Turo Clone')}`} target="_blank" rel="noreferrer" className="footer-whatsapp page-whatsapp-light">
                           <i className="fab fa-whatsapp"></i>
                           <span>Get Professional Support</span>
                         </a>
+                        <div className="ld-empty-space" style={{ height: 20 }}><span className="liquid_empty_space_inner"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+            <div className="ld-container container">
+              <div className="row ld-row">
+                <div className="wpb_column vc_column_container vc_col-sm-12 vc_hidden-sm vc_hidden-xs">
+                  <div className="vc_column-inner">
+                    <div className="wpb_wrapper">
+                      <div className="wpb_wrapper-inner">
+                        <div className="ld-empty-space" style={{ height: 50 }}><span className="liquid_empty_space_inner"></span></div>
                       </div>
                     </div>
                   </div>

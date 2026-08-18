@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function TeamToolsBanner() {
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40b1a2c">
@@ -17,14 +19,13 @@ export default function TeamToolsBanner() {
                     </h3>
                   </div>
                   <div className="vc_btn3-container vc_btn3-inline vc_do_btn">
-                    <button
-                      type="button"
+                    <Link
+                      to="/schedule-free-demo"
                       style={{ backgroundColor: '#006FFF', color: '#FFFFFF' }}
                       className="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-icon-right"
-                      onClick={() => window.tidioChatApi?.open()}
                     >
                       Enquiry Now <i className="vc_btn3-icon fas fa-headset"></i>
-                    </button>
+                    </Link>
                   </div>
                   <div className="wpb_single_image wpb_content_element vc_align_left vc_custom_1761555679935">
                     <figure className="wpb_wrapper vc_figure">

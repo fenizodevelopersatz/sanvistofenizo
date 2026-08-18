@@ -23,6 +23,23 @@ textarea { font: inherit; }
   outline-offset: 3px;
 }
 
+/* Vendored theme CSS puts a clearfix (content:" "; display:table) on every
+   .row/.ld-row via ::before/::after for float-based layouts. Several
+   components repurpose that same class as a CSS Grid container (inline
+   `display: grid`) for quick grids -- the clearfix pseudo-element still
+   generates a box there too and becomes an anonymous first grid item,
+   silently shifting every real child over by one cell and spilling the
+   last item into its own row (confirmed on turo-clone's "Add-On Features"
+   icon grid: 15 items rendered as 4/5/5/1 instead of 5/5/5). The same
+   `className="row ld-row" style={{ display: 'grid', ... }}` idiom is used
+   in 19+ components sitewide, so fix it once here instead of per-component. */
+.row[style*="display: grid"]::before,
+.row[style*="display: grid"]::after,
+.ld-row[style*="display: grid"]::before,
+.ld-row[style*="display: grid"]::after {
+  content: none;
+}
+
 .carousel-container,
 .carousel-items,
 .flickity-viewport { max-width: 100%; }
