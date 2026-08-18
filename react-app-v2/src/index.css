@@ -47,6 +47,31 @@ textarea { font: inherit; }
 .carousel-container,
 .flickity-viewport { overflow: hidden; }
 
+.money-back-panel {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  background-color: #f4fef0;
+  border: 1px solid #4b922e;
+  border-radius: 15px;
+  padding: 30px 40px;
+  transform: rotate(-2deg);
+  box-shadow: 0 18px 30px -12px rgba(46, 125, 50, 0.35);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.money-back-panel:hover {
+  transform: rotate(0deg);
+  box-shadow: 0 12px 20px -10px rgba(46, 125, 50, 0.25);
+}
+
+@media (max-width: 767px) {
+  .money-back-panel {
+    transform: rotate(-1deg);
+  }
+}
+
 .route-loading {
   min-height: 55vh;
   display: grid;

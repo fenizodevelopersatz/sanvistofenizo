@@ -94,7 +94,7 @@ export const dashboardScreenshots = [
   '/wp-content/uploads/2026/07/products.webp',
   '/wp-content/uploads/2026/07/accounts.webp',
   '/wp-content/uploads/2026/07/store-settings.webp',
-  '/wp-content/uploads/2026/07/3D-dashboard.webp',
+  '3d-live-preview',
   '/wp-content/uploads/2026/07/customers.webp',
   '/wp-content/uploads/2026/07/system-settings.webp',
 ]

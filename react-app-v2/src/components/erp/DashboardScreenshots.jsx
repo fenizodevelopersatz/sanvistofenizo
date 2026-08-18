@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { dashboardScreenshots } from '../../data/erp/coreModules.js'
+import Dashboard3DPreview from './Dashboard3DPreview.jsx'
 
 export default function DashboardScreenshots() {
   const [active, setActive] = useState(0)
@@ -40,8 +41,12 @@ export default function DashboardScreenshots() {
                 <div className="wpb_wrapper-inner">
                   <div className="lqd-mockup-device lqd-mockup-imac-style-1 pos-rel erp-dashboard-mockup">
                     <img src="/wp-content/themes/ave/assets/img/mockups/imac/mockup-1.png" alt="iMac" style={{ width: '100%', display: 'block' }} loading="lazy" decoding="async" />
-                    <div style={{ position: 'absolute', top: '4.5%', left: '13.5%', width: '73%', height: '69%', overflow: 'hidden' }}>
-                      <img src={dashboardScreenshots[active]} alt="ERP dashboard screenshot" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" decoding="async" />
+                    <div style={{ position: 'absolute', top: '4.5%', left: '13.5%', width: '73%', height: '69%', overflow: 'hidden', containerType: 'inline-size' }}>
+                      {dashboardScreenshots[active] === '3d-live-preview' ? (
+                        <Dashboard3DPreview />
+                      ) : (
+                        <img src={dashboardScreenshots[active]} alt="ERP dashboard screenshot" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" decoding="async" />
+                      )}
                     </div>
                   </div>
                   <div className="carousel-dots" style={{ textAlign: 'center', marginTop: 16 }}>

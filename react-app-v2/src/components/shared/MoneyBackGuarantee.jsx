@@ -5,19 +5,7 @@ export default function MoneyBackGuarantee() {
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-12">
             <div className="vc_column-inner">
-              <div
-                className="wpb_wrapper"
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: 24,
-                  flexWrap: 'wrap',
-                  backgroundColor: '#f4fef0',
-                  border: '1px solid #4b922e',
-                  borderRadius: 15,
-                  padding: '30px 40px',
-                }}
-              >
+              <div className="wpb_wrapper money-back-panel">
                 <img
                   src="/wp-content/uploads/money-back-badge.svg"
                   alt="7 day money back guarantee seal"
