@@ -624,6 +624,14 @@
   border: 1px solid #aedba7;
   border-radius: 14px;
   background: #f2fff0;
+  transform: rotate(-2deg);
+  box-shadow: 0 18px 30px -12px rgba(46, 125, 50, 0.35);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.erp-moneyback-panel:hover {
+  transform: rotate(0deg);
+  box-shadow: 0 12px 20px -10px rgba(46, 125, 50, 0.25);
 }
 
 .erp-moneyback-panel > div {
@@ -998,6 +1006,7 @@
     grid-template-columns: 1fr;
     gap: 18px;
     padding: 30px 22px;
+    transform: rotate(-1deg);
   }
 
   .erp-moneyback-visual img {
