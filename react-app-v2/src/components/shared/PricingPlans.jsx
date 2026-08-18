@@ -4,6 +4,7 @@ import { useCart } from '../../hooks/useCart.js'
 import { useCurrency } from '../../hooks/useCurrency.js'
 import { requestCartOpen } from '../../lib/cart.js'
 import { formatPriceString } from '../../lib/currency.js'
+import './PricingPlans.css'
 
 // This component is reused across every clone-script page, each with its own
 // route and <title> (set per-page via useSeo) but no "product name" prop --

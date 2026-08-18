@@ -1,3 +1,4 @@
+import { useLocation, useNavigate } from 'react-router-dom'
 import { useSeo } from '../hooks/useSeo.js'
 import { usePageStylesheets } from '../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../data/pageStylesheets.js'
@@ -6,8 +7,19 @@ import DemoForm from '../components/schedule/DemoForm.jsx'
 
 export default function ScheduleFreeDemoPage() {
   usePageStylesheets(pageStylesheets.scheduleFreeDemo)
+  const navigate = useNavigate()
+  const location = useLocation()
 
   useSeo('Schedule Free Demo - CloneScript')
+
+  // This page runs under MinimalLayout (no site header/nav) to keep focus on
+  // the form, so it needs its own way out: return to wherever the visitor
+  // came from inside the app, or home if they landed here directly (no prior
+  // in-app history entry to go back to).
+  const goBack = () => {
+    if (location.key !== 'default') navigate(-1)
+    else navigate('/')
+  }
 
   return (
     <main className="content" id="content">
@@ -22,6 +34,17 @@ export default function ScheduleFreeDemoPage() {
                       <div className="ld-empty-space">
                         <span className="liquid_empty_space_inner"></span>
                       </div>
+                      <button
+                        type="button"
+                        onClick={goBack}
+                        className="btn btn-naked btn-icon-left"
+                        style={{ paddingLeft: 0 }}
+                      >
+                        <span>
+                          <span className="btn-txt">Back</span>
+                          <span className="btn-icon"><i className="fas fa-arrow-left"></i></span>
+                        </span>
+                      </button>
                     </div>
                   </div>
                 </div>

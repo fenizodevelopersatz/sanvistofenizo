@@ -3,6 +3,7 @@ import { useCart } from '../../hooks/useCart.js'
 import { useCurrency } from '../../hooks/useCurrency.js'
 import { requestCartOpen } from '../../lib/cart.js'
 import { formatPriceString } from '../../lib/currency.js'
+import '../shared/PricingPlans.css'
 
 const PRODUCT_NAME = 'ERP Software'
 const PRODUCT_SLUG = 'erp-software'

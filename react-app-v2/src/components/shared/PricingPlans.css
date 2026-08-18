@@ -1,0 +1,26 @@
+/* The vendored theme CSS (shared-713aa8f4.css, loaded on every page) draws a
+   "flash sale" overlay on every pricing card: a giant rotated red "X"
+   (#prices .pricing-table-header::before) plus a green "sale price" whose
+   text is a static string baked in per plan-tier class -- .native-business
+   always renders "$999", .native-business-plus always renders "$1499",
+   for every product regardless of that plan's real price (see
+   erp/PricingPlans.jsx and shared/PricingPlans.jsx, which apply those
+   classes). It also force-strikes the real price with
+   `text-decoration: line-through !important`, greying it out as the
+   "original" price under that fake "sale" figure.
+   None of this can react to the currency selector -- the ::after content is
+   frozen at build time -- so switching to INR left a correctly-converted,
+   struck-through ₹ price sitting under a green figure permanently stuck on
+   "$999"/"$1499". Since that figure was never tied to real per-plan pricing
+   to begin with, disable the whole overlay here and let the actual
+   (currency-aware) price render normally. !important is required to beat
+   the vendor rules of the same specificity. */
+#prices .pricing-table-header::before,
+#prices .pricing-table-header::after {
+  content: none !important;
+  display: none !important;
+}
+#prices .pricing-table .pricing {
+  text-decoration: none !important;
+  color: inherit !important;
+}
