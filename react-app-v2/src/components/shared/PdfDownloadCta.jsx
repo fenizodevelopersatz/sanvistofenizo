@@ -1,24 +1,25 @@
 import { useState } from 'react'
 import { useContactForm } from '../../hooks/useContactForm.js'
 
-export default function PdfDownloadCta({ heading, desc, image, imageAlt = '' }) {
+export default function PdfDownloadCta({ heading, desc, image, imageAlt = '', media }) {
   const [isOpen, setIsOpen] = useState(false)
   const { values, handleChange, handleSubmit, submitted } = useContactForm({ fullname: '', email: '' })
+  const hasMedia = Boolean(media || image)
 
   return (
-    <section className={`fenizo-pdf-cta vc_row wpb_row vc_row-fluid liquid-row-shadowbox${image ? ' fenizo-pdf-cta--illustrated' : ''}`}>
+    <section className={`fenizo-pdf-cta vc_row wpb_row vc_row-fluid liquid-row-shadowbox${hasMedia ? ' fenizo-pdf-cta--illustrated' : ''}`}>
       <div className="ld-container container">
         <div className="fenizo-pdf-cta__panel row ld-row">
-          {image && (
+          {hasMedia && (
             <div className="fenizo-pdf-cta__media wpb_column vc_column_container vc_col-sm-4 text-center">
               <div className="vc_column-inner">
                 <div className="wpb_wrapper">
-                  <img src={image} width="300" height="300" alt={imageAlt} loading="lazy" decoding="async" />
+                  {media || <img src={image} width="300" height="300" alt={imageAlt} loading="lazy" decoding="async" />}
                 </div>
               </div>
             </div>
           )}
-          <div className={`wpb_column vc_column_container ${image ? 'vc_col-sm-8' : 'vc_col-sm-12 text-center'}`}>
+          <div className={`wpb_column vc_column_container ${hasMedia ? 'vc_col-sm-8' : 'vc_col-sm-12 text-center'}`}>
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">

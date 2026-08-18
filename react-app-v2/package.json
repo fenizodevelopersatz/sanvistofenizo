@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint src",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "images:scan": "node tools/image-replacer/scan.js"
   },
   "dependencies": {
     "react": "^19.2.8",

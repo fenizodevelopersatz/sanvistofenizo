@@ -47,6 +47,21 @@ textarea { font: inherit; }
 .carousel-container,
 .flickity-viewport { overflow: hidden; }
 
+.fenizo-pdf-cta__media {
+  width: 100%;
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+.fenizo-pdf-cta__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 260px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
 .money-back-panel {
   display: flex;
   align-items: center;

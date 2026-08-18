@@ -17,6 +17,7 @@ import AiFeaturesSection from '../../components/alibaba/AiFeaturesSection.jsx'
 import WhyInvest from '../../components/alibaba/WhyInvest.jsx'
 import ComparisonTable from '../../components/shared/ComparisonTable.jsx'
 import PdfDownloadCta from '../../components/shared/PdfDownloadCta.jsx'
+import GuideCoverArt from '../../components/shared/GuideCoverArt.jsx'
 import RoleFeatureTabs from '../../components/alibaba/RoleFeatureTabs.jsx'
 import TechStackRow from '../../components/shared/TechStackRow.jsx'
 import StandOutFeaturesGrid from '../../components/shared/StandOutFeaturesGrid.jsx'
@@ -88,8 +89,24 @@ export default function AlibabaClonePage() {
         <PdfDownloadCta
           heading="Grab Our Best Alibaba Clone App&rsquo;s Features Document Now!"
           desc="One Click to Get Our Alibaba Clone Product&rsquo;s Complete Knowledge."
-          image="/wp-content/uploads/2026/06/alibaba-clone-doc.webp"
-          imageAlt="Alibaba clone features document"
+          media={(
+            <GuideCoverArt
+              brand="SANGVISH"
+              titleLine1="B2B Marketplace Software"
+              titleLine2="Smart Solution"
+              tagline="Core Features &middot; Demo Version &middot; Technology"
+              badge="AI Powered"
+              gradientFrom="#2d5bff"
+              gradientVia="#1e40d6"
+              gradientTo="#0a1f6e"
+              accentColor="#ffc233"
+              features={[
+                { icon: '≡', label: 'Core Features' },
+                { icon: '▶', label: 'Demo Version' },
+                { icon: '⚙', label: 'Technology' },
+              ]}
+            />
+          )}
         />
 
         <RoleFeatureTabs />
