@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import LaunchIllustration from './LaunchIllustration.jsx'
 
 export function LaunchCta() {
   return (
@@ -23,7 +24,7 @@ export function LaunchCta() {
             </div>
           </div>
           <div className="erp-launch-visual">
-            <img src="/wp-content/uploads/2026/07/erp_solution.webp" width="560" height="450" alt="ERP solution interface" loading="lazy" decoding="async" />
+            <LaunchIllustration />
           </div>
         </div>
       </div>

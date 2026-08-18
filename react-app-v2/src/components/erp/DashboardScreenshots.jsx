@@ -41,7 +41,7 @@ export default function DashboardScreenshots() {
                 <div className="wpb_wrapper-inner">
                   <div className="lqd-mockup-device lqd-mockup-imac-style-1 pos-rel erp-dashboard-mockup">
                     <img src="/wp-content/themes/ave/assets/img/mockups/imac/mockup-1.png" alt="iMac" style={{ width: '100%', display: 'block' }} loading="lazy" decoding="async" />
-                    <div style={{ position: 'absolute', top: '4.5%', left: '13.5%', width: '73%', height: '69%', overflow: 'hidden', containerType: 'inline-size' }}>
+                    <div style={{ position: 'absolute', top: '4.97%', left: '3.81%', width: '92.36%', height: '62.62%', overflow: 'hidden', containerType: 'inline-size' }}>
                       {dashboardScreenshots[active] === '3d-live-preview' ? (
                         <Dashboard3DPreview />
                       ) : (

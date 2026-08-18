@@ -705,6 +705,13 @@
   object-fit: contain;
 }
 
+.erp-launch-visual svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  color: #6d4fe0;
+}
+
 .erp-dashboard-section {
   padding: 60px 0 75px;
   background: #f8f9ff;
