@@ -92,6 +92,11 @@
   margin: 0 auto;
 }
 
+.vinted-live-demo-card {
+  padding: 48px 40px;
+  align-items: center;
+}
+
 /* The "Book a Live Demo" photo had no framing at all -- just a bare <img>.
    Gives it the colorful, bordered treatment the rest of this page's CTAs
    use: a soft blurred color-blob behind it, plus a white border + shadow
@@ -282,5 +287,9 @@
 
   .fenizo-pdf-cta__media {
     margin-bottom: 24px;
+  }
+
+  .vinted-live-demo-card {
+    padding: 28px 20px;
   }
 }

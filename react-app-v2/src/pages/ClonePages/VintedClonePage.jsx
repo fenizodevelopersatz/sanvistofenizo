@@ -116,7 +116,7 @@ export default function VintedClonePage() {
 
         <section className="vinted-live-demo-cta vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
           <div className="ld-container container">
-            <div className="row ld-row">
+            <div className="row ld-row vinted-live-demo-card orange_border">
               <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-0 vc_col-md-6 vc_col-xs-offset-1 vc_col-xs-10 vc_col-has-fill">
                 <div className="vc_column-inner">
                   <div className="wpb_wrapper">

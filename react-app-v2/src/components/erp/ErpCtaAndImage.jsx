@@ -58,7 +58,7 @@ export default function ErpCtaAndImage() {
                     <div className="wpb_single_image wpb_content_element vc_align_center">
                       <figure className="wpb_wrapper vc_figure">
                         <div className="vc_single_image-wrapper vc_box_border_grey">
-                          <img src="/wp-content/uploads/2026/07/erp-software.webp" width="1140" height="679" className="vc_single_image-img attachment-full" alt="ERP software product guide cover" title="erp-software" fetchPriority="high" decoding="async" />
+                          <img src="/wp-content/uploads/2026/07/erp-software.png" width="1140" height="679" className="vc_single_image-img attachment-full" alt="ERP software product guide cover" title="erp-software" fetchPriority="high" decoding="async" />
                         </div>
                       </figure>
                     </div>
