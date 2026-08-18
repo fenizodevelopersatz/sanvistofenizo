@@ -31,11 +31,11 @@ export default function TeamToolsBanner() {
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
                         <img
-                          src="/wp-content/uploads/2025/10/clone-script-solutions.webp"
-                          width="1093"
-                          height="362"
+                          src="/wp-content/uploads/2026/08/team-tools-solutions.png"
+                          width="2814"
+                          height="1536"
                           className="vc_single_image-img attachment-full"
-                          alt="clone-script-solutions"
+                          alt="CloneScript digital solutions across e-commerce, rental, transport and education"
                           title="clone-script-solutions"
                           loading="lazy"
                           decoding="async"

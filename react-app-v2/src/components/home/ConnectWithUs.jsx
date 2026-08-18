@@ -66,11 +66,11 @@ export default function ConnectWithUs() {
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
                         <img
-                          src="/wp-content/uploads/2024/11/Group-2673.png"
-                          width="557"
-                          height="364"
+                          src="/wp-content/reviews/home-page-connect-with-us-transparent.png"
+                          width="680"
+                          height="318"
                           className="vc_single_image-img attachment-full"
-                          alt="web-development-company"
+                          alt="Connect with the CloneScript team"
                           loading="lazy"
                           decoding="async"
                         />

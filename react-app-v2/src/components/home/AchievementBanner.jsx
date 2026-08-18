@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useInView } from '../../hooks/useInView.js'
+import './AchievementBanner.css'
 
 export default function AchievementBanner() {
   const [imgRef, imgInView] = useInView()
@@ -48,21 +49,33 @@ export default function AchievementBanner() {
                 }}
               >
                 <div className="wpb_wrapper-inner">
-                  <div className="wpb_single_image wpb_content_element vc_align_left">
-                    <figure className="wpb_wrapper vc_figure">
-                      <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img
-                          src="/wp-content/uploads/2024/11/Group-2673.png"
-                          width="650"
-                          height="583"
-                          className="vc_single_image-img attachment-full"
-                          alt="CloneScript: serving 20+ countries with 24+ happy clients worldwide"
-                          title="clonescript-achievements"
-                          loading="lazy"
-                          decoding="async"
-                        />
-                      </div>
-                    </figure>
+                  <div className="achievement-photo-frame">
+                    <img
+                      src="/wp-content/uploads/2026/08/home-achievement-photo.png"
+                      width="1920"
+                      height="1587"
+                      className="achievement-photo-frame__img"
+                      alt="CloneScript: serving 20+ countries with 24+ happy clients worldwide"
+                      title="clonescript-achievements"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                    <span className="achievement-badge achievement-badge--tl">
+                      <strong>13+</strong>
+                      <span>Year Experience</span>
+                    </span>
+                    <span className="achievement-badge achievement-badge--tr">
+                      <strong>60+</strong>
+                      <span>Products</span>
+                    </span>
+                    <span className="achievement-badge achievement-badge--bl">
+                      <strong>50+</strong>
+                      <span>Countries</span>
+                    </span>
+                    <span className="achievement-badge achievement-badge--br">
+                      <strong>500+</strong>
+                      <span>Customers</span>
+                    </span>
                   </div>
                 </div>
               </div>

@@ -10,7 +10,7 @@ export default function WhyChooseTuro() {
                   <div className="wpb_single_image wpb_content_element vc_align_left">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2024/11/Group-2673.png" width="650" height="583" className="vc_single_image-img attachment-large" alt="Illustration of business growth and achievements" title="example-achievements" loading="lazy" />
+                        <img src="/wp-content/uploads/2026/08/turo-why-choose-us.png" width="419" height="596" className="vc_single_image-img attachment-large" alt="CloneScript team member ready to support your Turo clone launch" title="turo-why-choose-us" loading="lazy" />
                       </div>
                     </figure>
                   </div>

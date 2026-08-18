@@ -19,6 +19,11 @@ $recipientName  = 'CloneScript Team';
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
+// Chrome's Private Network Access check requires this on the preflight response
+// whenever the page origin (e.g. a devtunnels.ms/ngrok URL) is treated as "public"
+// but the request targets localhost/a private IP -- without it the browser blocks
+// the request as a CORS failure even though the Allow-Origin header is correct.
+header('Access-Control-Allow-Private-Network: true');
 header('Content-Type: application/json; charset=utf-8');
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {

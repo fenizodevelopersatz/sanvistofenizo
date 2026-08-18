@@ -73,12 +73,12 @@ export default function DevProcess() {
                       <figure className="wpb_wrapper vc_figure">
                         <div className="vc_single_image-wrapper vc_box_border_grey">
                           <img
-                            src="/wp-content/uploads/2025/10/Web-Devleopment-Process.webp"
-                            width="550"
-                            height="684"
+                            src="/wp-content/uploads/2026/08/dev-process-showcase.png"
+                            width="1920"
+                            height="2220"
                             className="vc_single_image-img attachment-full"
-                            alt="Web-Devleopment-Process"
-                            title="Web-Devleopment-Process"
+                            alt="CloneScript app and platform showcase across services, e-commerce, and rentals"
+                            title="dev-process-showcase"
                             loading="lazy"
                             decoding="async"
                           />
