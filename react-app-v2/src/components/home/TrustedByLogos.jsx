@@ -1,4 +1,8 @@
 import { trustCategories } from '../../data/trustedByLogos.js'
+import './TrustedByLogos.css'
+
+// Doubled so the marquee track can loop seamlessly -- see TrustedByLogos.css.
+const marqueeItems = [...trustCategories, ...trustCategories]
 
 export default function TrustedByLogos() {
   return (
@@ -24,21 +28,27 @@ export default function TrustedByLogos() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="fenizo-trust-grid row ld-row">
-                    {trustCategories.map((cat, i) => (
-                      <div className="fenizo-trust-item wpb_column vc_column_container" key={i}>
-                        <div className="iconbox iconbox-center iconbox-heading-md">
-                          <div className="iconbox-icon-wrap">
-                            <span className="iconbox-icon-container">
-                              <i className={cat.icon} style={{ color: '#0030b8', fontSize: 26 }}></i>
-                            </span>
-                          </div>
-                          <div className="contents">
-                            <h3 className="font-weight-semibold" style={{ fontSize: 15 }}>{cat.label}</h3>
+                  <div className="fenizo-trust-marquee" aria-label="Why businesses choose us">
+                    <div className="fenizo-trust-marquee__track">
+                      {marqueeItems.map((cat, i) => (
+                        <div
+                          className="fenizo-trust-marquee__item"
+                          key={i}
+                          aria-hidden={i >= trustCategories.length ? 'true' : undefined}
+                        >
+                          <div className="iconbox iconbox-center iconbox-heading-md">
+                            <div className="iconbox-icon-wrap">
+                              <span className="iconbox-icon-container">
+                                <i className={cat.icon} style={{ color: '#0030b8', fontSize: 26 }}></i>
+                              </span>
+                            </div>
+                            <div className="contents">
+                              <h3 className="font-weight-semibold" style={{ fontSize: 15 }}>{cat.label}</h3>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    ))}
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
