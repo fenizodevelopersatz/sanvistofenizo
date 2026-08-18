@@ -19,7 +19,7 @@ export default function MoneyBackGuarantee() {
                 }}
               >
                 <img
-                  src="/wp-content/uploads/7days.jpg"
+                  src="/wp-content/uploads/money-back-badge.svg"
                   alt="7 day money back guarantee seal"
                   width="90"
                   height="90"
