@@ -87,6 +87,176 @@ export const faqs = [
   { q: 'How Much Does it Cost to Develop an App Like Airbnb?', a: 'The Airbnb Clone App Development cost is different based on their business requirement for the features and advanced tools.' },
 ]
 
+export const serverRequirements = [
+  'PHP Above 8.1',
+  'MySQL – 4.x & 5.x',
+  'PDO PHP Extension',
+  'OpenSSL PHP Extension',
+  'Mbstring PHP Extension',
+  'XML PHP Extension',
+  'Tokenizer PHP Extension',
+]
+
+export const folderPermissions = [
+  'Specify write permission for the listed folders.',
+  'bootstrap/cache/',
+  'storage/framework/',
+  'storage/logs/',
+  'storage/app/',
+]
+
+export const changeLog = [
+  {
+    version: '6.0',
+    date: 'Sep 2025',
+    title: 'Version 6.0',
+    items: ['design updated', 'added new features'],
+  },
+  {
+    version: '5.1',
+    date: '',
+    title: 'Version 5.1',
+    items: [
+      'Initiate the latest expected experience module.',
+      'The Latest Home page’s unique design with a filter',
+      'host or guest cancellation option',
+      'updated the filter’s location option.',
+      'On the admin page, the Ajax warning disappears.',
+      'Pined Map location based on price-wise',
+      'Added GDPR Cookie Policy',
+    ],
+  },
+  {
+    version: '5.1',
+    date: '',
+    title: 'Version 5.1',
+    items: [
+      'Enable or Disable experience in the admin panel',
+      'Added Reports of experience',
+      'Added remove or delete account feature',
+      'You can modify your home page with new and classic designs, now added',
+      'Upload image added',
+      'best responsive fixed',
+      'Issue fixed in search for the country',
+      'added calendar feature',
+    ],
+  },
+  {
+    version: '5.3',
+    date: '',
+    title: 'Version 5.3',
+    items: [
+      'Upload multiple images option added',
+      'Fixed the Facebook Connect bug',
+      'Solved Date Format Issue',
+    ],
+  },
+  {
+    version: '5.6',
+    date: '',
+    title: 'Version 5.6',
+    items: [
+      'Announcing an hourly booking option',
+      'Added Maintenance Mode',
+      'Bug solved in Ical sync',
+      'Bug fixed in the home page banner’s language',
+      'Added new bed-type-based bedroom feature',
+      'Added MapBox Map',
+      'Added booking with kids’ count',
+      'Added image cropping functionality',
+      'The small SMTP issue was fixed.',
+      'Admin has the control to edit the email',
+    ],
+  },
+  {
+    version: '4.0',
+    date: '',
+    title: 'Version 4.0',
+    items: [
+      'Major UI/UX update',
+      'Login popup included',
+      'Search functionality enhanced',
+      'Add listing page enhancement implemented',
+      'Updated to Laravel 7.0',
+      'Admin panel js conflict issue solved',
+    ],
+  },
+  {
+    version: '4.1',
+    date: '',
+    title: 'Version 4.1',
+    items: [
+      'Currency and Language switcher introduced for mobile device',
+      'Upgraded to Laravel',
+      'Numerous upgrades were implemented across both frontend & admin interfaces.',
+      'Now from the admin panel, you can update the color code',
+    ],
+  },
+  {
+    version: '4.2',
+    date: '',
+    title: 'Version 4.2',
+    items: [
+      'Admin panel upgraded',
+      'Updates made to the edit listing page',
+      'property details page enhanced',
+      'Introduced Host cancellation option',
+      'Request payment concept enhanced for host',
+      'The social share feature improved',
+      'Google recaptcha included',
+    ],
+  },
+  {
+    version: '4.4',
+    date: '',
+    title: 'Version 4.4',
+    items: [
+      'Razorpay payment gateway Integrated',
+      'Multi-language option implemented for the slider',
+      'Country code can be auto-select with the geolocation',
+      'Amenities icon included',
+    ],
+  },
+  {
+    version: '3.0',
+    date: '',
+    title: 'Version 3.0',
+    items: [
+      'Booking enhanced',
+      'Currency issue rectified',
+      'Static page editor implemented',
+      'Few bugs resolved',
+    ],
+  },
+  {
+    version: '2.0',
+    date: '',
+    title: 'Version 2.0',
+    items: [
+      'Integrated Stripe payment gateway',
+      'Support for multiple languages included',
+      'Included Social login',
+      'Few bugs resolved',
+    ],
+  },
+  {
+    version: '1.0',
+    date: '',
+    title: 'Version 1.0',
+    items: ['Initial Version'],
+  },
+  {
+    version: '1.5',
+    date: '',
+    title: 'Version 1.5',
+    items: [
+      'The map search bug solved',
+      'Multi-currency feature introduced',
+      'Design Enhanced',
+    ],
+  },
+]
+
 export const screenshots = [
   '/wp-content/uploads/2025/11/dashboard.webp',
   '/wp-content/uploads/2025/11/place-description.webp',

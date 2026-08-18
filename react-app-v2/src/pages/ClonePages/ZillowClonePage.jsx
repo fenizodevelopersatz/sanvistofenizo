@@ -3,7 +3,7 @@ import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
   aiFeatures, roleTabs, techStack, standOutFeatures, revenueBenefits,
-  launchSteps, dashboards, pricingPlans, comparisonOurs, comparisonOthers, faqs,
+  launchSteps, dashboards, pricingPlans, comparisonOurs, comparisonOthers,
 } from '../../data/zillow/zillowData.js'
 import { comparisonLabels } from '../../data/comparisonLabels.js'
 import { placeholderTestimonials } from '../../data/placeholderTestimonials.js'
@@ -25,7 +25,7 @@ import LiveDemoTabs from '../../components/shared/LiveDemoTabs.jsx'
 import LaunchCta from '../../components/shared/LaunchCta.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
-import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
+import FaqServerTabs from '../../components/zillow/FaqServerTabs.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 
 export default function ZillowClonePage() {
@@ -159,11 +159,7 @@ export default function ZillowClonePage() {
         <PricingPlans plans={pricingPlans} />
         <MoneyBackGuarantee />
 
-        <FaqAccordion
-          heading="Have Doubts? Get Answers Right Here"
-          subheading="Clear all your doubts about our real estate Zillow Clone Script with our extensive FAQ section."
-          faqs={faqs}
-        />
+        <FaqServerTabs />
 
         <BlogTeaser />
       </div>

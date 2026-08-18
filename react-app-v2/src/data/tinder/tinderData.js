@@ -74,6 +74,15 @@ export const faqs = [
   { q: 'How Much Does a Tinder Clone App Cost?', a: 'Our Tinder Clone App is the most affordable for users. Which may be changed based on your business requirements. Feel free to reach our support team to know more about it.' },
 ]
 
+export const serverRequirements = [
+  { label: 'Web Hosting with cPanel (Recommended)', value: 'VPS with CPanel' },
+  { label: 'Domain name' },
+  { label: 'Firebase Blaze Plan (Real-time chats and Live stream comments)', link: 'https://firebase.google.com/' },
+  { label: 'Agora (Live streaming)', link: 'https://www.agora.io/en/products/interactive-live-streaming/' },
+  { label: 'Branch (Deep Linking)', link: 'https://www.branch.io/' },
+  { label: 'Google Play Console & Apple Developer Programme (To publish the app)' },
+]
+
 export const screenshots = [
   { image: '/wp-content/uploads/2025/09/filter.webp', alt: 'filter' },
   { image: '/wp-content/uploads/2025/09/stories.webp', alt: 'stories' },

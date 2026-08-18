@@ -122,6 +122,11 @@ export const pricingPlans = [
   },
 ]
 
+export const serverRequirements = {
+  vpsServer: ['OS: Ubuntu 22.04 LTS', 'CPU: 2–4 Cores', 'RAM: 4–8 GB', 'Storage: 40+ GB SSD', 'Node.js: v18 or higher'],
+  database: ['MongoDB 5+'],
+}
+
 export const faqs = [
   { q: 'What is a Turo Clone Script?', a: 'A Turo Clone Script is a pre-designed script which allows you to quickly start a peer-to-peer car sharing website, allowing vehicle owners list their car and renters book it online.' },
   { q: 'Who can use this Turo Clone Script?', a: 'The platform is ideal for startups, entrepreneurs, car rental businesses, and anyone looking to build a vehicle-sharing marketplace.' },

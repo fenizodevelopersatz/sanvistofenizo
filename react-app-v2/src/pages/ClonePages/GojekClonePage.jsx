@@ -2,7 +2,7 @@ import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
-  standardFeatures, addOnFeatures, revenueBenefits, pricingPlans, faqs, appScreens,
+  standardFeatures, addOnFeatures, revenueBenefits, pricingPlans, appScreens,
 } from '../../data/gojek/gojekData.js'
 
 import GojekHero from '../../components/gojek/GojekHero.jsx'
@@ -17,7 +17,7 @@ import BusinessOpportunities from '../../components/gojek/BusinessOpportunities.
 import LaunchCta from '../../components/shared/LaunchCta.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
-import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
+import FaqServerTabs from '../../components/gojek/FaqServerTabs.jsx'
 
 export default function GojekClonePage() {
   usePageStylesheets(pageStylesheets.gojekClone)
@@ -126,11 +126,7 @@ export default function GojekClonePage() {
           </div>
         </section>
 
-        <FaqAccordion
-          heading="Have Doubts? Get Answers Right Here"
-          subheading="Explore our comprehensive FAQ section to get all the insights you need about our Gojek Clone Script."
-          faqs={faqs}
-        />
+        <FaqServerTabs />
       </div>
     </main>
   )

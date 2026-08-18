@@ -53,6 +53,15 @@
   margin-top: 28px;
 }
 
+.main-footer .footer-review-platforms__logos a {
+  display: block;
+  transition: opacity 150ms ease;
+}
+
+.main-footer .footer-review-platforms__logos a:hover {
+  opacity: 0.75;
+}
+
 .main-footer .footer-review-platforms__logos img {
   display: block;
   width: 165px;

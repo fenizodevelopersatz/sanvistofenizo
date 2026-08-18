@@ -139,3 +139,8 @@ export const faqs = [
   { q: 'Can i resell the script/Theme from CloneScript?', a: 'No, Once you purchase an alibaba clone script or any themes from us, you don’t have to resell or distribute them. If you violate you are liable for illegal activities.' },
   { q: 'How Single and Multi Domain Licence Differs?', a: 'A single-domain license allows usage for only one business on a single domain. For example, you can use it exclusively on mywebsite.com.' },
 ]
+
+export const serverRequirements = {
+  vpsServer: ['OS: Ubuntu 22.04 LTS', 'CPU: 2–4 Cores', 'RAM: 4–8 GB', 'Storage: 40+ GB SSD', 'Node.js: v18 or higher'],
+  database: ['MongoDB 5+'],
+}

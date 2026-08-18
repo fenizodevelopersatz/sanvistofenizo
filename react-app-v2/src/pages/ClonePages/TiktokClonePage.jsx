@@ -2,13 +2,14 @@ import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
-  featureGroups, standOutFeatures, addOnFeatures, revenueBenefits, screenshots, pricingPlans, faqs,
+  featureGroups, standOutFeatures, addOnFeatures, revenueBenefits, screenshots, pricingPlans,
 } from '../../data/tiktok/tiktokData.js'
 
 import TiktokHero from '../../components/tiktok/TiktokHero.jsx'
 import TrustedByBadges from '../../components/shared/TrustedByBadges.jsx'
 import WhatIsTiktok from '../../components/tiktok/WhatIsTiktok.jsx'
 import FounderExpertCta from '../../components/tiktok/FounderExpertCta.jsx'
+import FaqServerTabs from '../../components/tiktok/FaqServerTabs.jsx'
 import AmazonFeatureTabs from '../../components/amazon/AmazonFeatureTabs.jsx'
 import StandOutFeaturesGrid from '../../components/shared/StandOutFeaturesGrid.jsx'
 import SimpleIconGrid from '../../components/shared/SimpleIconGrid.jsx'
@@ -16,7 +17,6 @@ import RevenueBenefits from '../../components/shared/RevenueBenefits.jsx'
 import LaunchCta from '../../components/shared/LaunchCta.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
-import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 
 export default function TiktokClonePage() {
@@ -188,11 +188,7 @@ export default function TiktokClonePage() {
           </div>
         </section>
 
-        <FaqAccordion
-          heading="Have Queries? Get Solutions Right Here"
-          subheading="Get answers for all your queries about our TikTok Clone Script with our comprehensive FAQ section."
-          faqs={faqs}
-        />
+        <FaqServerTabs />
 
         <BlogTeaser />
       </div>

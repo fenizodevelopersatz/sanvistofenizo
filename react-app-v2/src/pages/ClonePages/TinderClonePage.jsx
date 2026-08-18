@@ -2,7 +2,7 @@ import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
-  featureGroups, standardFeatures, addOnFeatures, revenueBenefits, pricingPlans, faqs, screenshots,
+  featureGroups, standardFeatures, addOnFeatures, revenueBenefits, pricingPlans, screenshots,
 } from '../../data/tinder/tinderData.js'
 
 import TinderHero from '../../components/tinder/TinderHero.jsx'
@@ -15,7 +15,7 @@ import StandOutFeaturesGrid from '../../components/shared/StandOutFeaturesGrid.j
 import RevenueBenefits from '../../components/shared/RevenueBenefits.jsx'
 import LaunchCta from '../../components/shared/LaunchCta.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
-import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
+import FaqServerTabs from '../../components/tinder/FaqServerTabs.jsx'
 
 export default function TinderClonePage() {
   usePageStylesheets(pageStylesheets.tinderClone)
@@ -149,11 +149,7 @@ export default function TinderClonePage() {
           </div>
         </section>
 
-        <FaqAccordion
-          heading="Have Queries? Get Solutions Right Here"
-          subheading="Get answers for all your queries about our online dating script with our comprehensive FAQ section."
-          faqs={faqs}
-        />
+        <FaqServerTabs />
       </div>
     </main>
   )

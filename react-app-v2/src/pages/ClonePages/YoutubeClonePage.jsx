@@ -3,7 +3,7 @@ import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
   standardFeatures, addOnFeatures, multimediaFeatures, revenueBenefits,
-  featureGroups, pricingPlans, faqs, screenshots,
+  featureGroups, pricingPlans, screenshots,
 } from '../../data/youtube/youtubeData.js'
 
 import YoutubeHero from '../../components/youtube/YoutubeHero.jsx'
@@ -17,7 +17,7 @@ import PdfDownloadCta from '../../components/shared/PdfDownloadCta.jsx'
 import LaunchCta from '../../components/shared/LaunchCta.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
-import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
+import FaqServerTabs from '../../components/youtube/FaqServerTabs.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 import './YoutubeClonePage.css'
 
@@ -184,11 +184,7 @@ export default function YoutubeClonePage() {
           </div>
         </section>
 
-        <FaqAccordion
-          heading="Have Queries? Get Solutions Right Here"
-          subheading="Get answers for all your queries about our YouTube Clone Script with our comprehensive FAQ section."
-          faqs={faqs}
-        />
+        <FaqServerTabs />
 
         <BlogTeaser />
       </div>

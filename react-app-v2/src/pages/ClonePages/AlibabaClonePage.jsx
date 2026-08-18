@@ -3,7 +3,7 @@ import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import { siteContact } from '../../data/siteContact.js'
 import {
-  techStack, standOutFeatures, launchSteps, addOnFeatures, pricingPlans, faqs,
+  techStack, standOutFeatures, launchSteps, addOnFeatures, pricingPlans,
   comparisonOurs, comparisonOthers,
 } from '../../data/alibaba/alibabaData.js'
 import { comparisonLabels } from '../../data/comparisonLabels.js'
@@ -26,7 +26,8 @@ import LaunchCta from '../../components/shared/LaunchCta.jsx'
 import LiveDemoTabs from '../../components/shared/LiveDemoTabs.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
-import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
+import FaqServerTabs from '../../components/alibaba/FaqServerTabs.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 
 const dashboards = [
@@ -87,22 +88,56 @@ export default function AlibabaClonePage() {
         <PdfDownloadCta
           heading="Grab Our Best Alibaba Clone App&rsquo;s Features Document Now!"
           desc="One Click to Get Our Alibaba Clone Product&rsquo;s Complete Knowledge."
+          image="/wp-content/uploads/2026/06/alibaba-clone-doc.webp"
+          imageAlt="Alibaba clone features document"
         />
 
         <RoleFeatureTabs />
 
         <TechStackRow items={techStack} />
 
-        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+        <section className="alibaba-live-demo-cta vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
           <div className="ld-container container">
             <div className="row ld-row">
-              <div className="wpb_column vc_column_container vc_col-sm-12">
+              <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-0 vc_col-md-6 vc_col-xs-offset-1 vc_col-xs-10 vc_col-has-fill">
                 <div className="vc_column-inner">
                   <div className="wpb_wrapper">
                     <div className="wpb_wrapper-inner">
-                      <header className="fancy-title text-center">
+                      <img
+                        src="/wp-content/uploads/2026/06/alibaba-clone-invest.webp"
+                        alt="Alibaba clone platform preview"
+                        width="600"
+                        height="450"
+                        loading="lazy"
+                        decoding="async"
+                        style={{ display: 'block', width: 'min(560px, 100%)', height: 'auto', margin: '0 auto' }}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-0 vc_col-md-6 vc_col-xs-offset-1 vc_col-xs-10">
+                <div className="vc_column-inner">
+                  <div className="wpb_wrapper">
+                    <div className="wpb_wrapper-inner">
+                      <div className="ld-fancy-heading">
+                        <h2 className="ld-gradient-heading lqd-highlight-underline lqd-highlight-grow-left"><span className="ld-fh-txt"> Book a Live Demo</span></h2>
+                      </div>
+                      <header className="fancy-title">
                         <h2>Check out Our Alibaba Clone in action</h2>
+                        <div className="st-desc">
+                          <p style={{ textAlign: 'left' }}>
+                            <span style={{ fontWeight: 400 }}>Request a one-on-one demo to get firsthand experience of the platform in real business scenarios. You will be guided through the features and buyer and supplier processes and answer any questions you may have.</span>
+                          </p>
+                        </div>
                       </header>
+                      <a href="#schedule_form" className="btn btn-solid btn-sm round btn-bordered border-thin btn-gradient">
+                        <span>
+                          <span className="btn-gradient-bg"></span>
+                          <span className="btn-txt">Book Demo</span>
+                          <span className="btn-icon"><i className="fa fa-solid fa-calendar"></i></span>
+                        </span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -145,11 +180,9 @@ export default function AlibabaClonePage() {
         <PricingPlans plans={pricingPlans} />
         <MoneyBackGuarantee />
 
-        <FaqAccordion
-          heading="Have Doubts? Get Answers Right Here"
-          subheading="Clear all your doubts about our B2B Alibaba Clone Script with our extensive FAQ section."
-          faqs={faqs}
-        />
+        <FaqServerTabs />
+
+        <TestimonialRotatorSection />
 
         <BlogTeaser />
       </div>

@@ -406,3 +406,12 @@ export const faqs = [
   { q: 'Can I customize the Gojek Clone Script for my business?', a: 'Yes, our Gojek Clone Script is fully customizable. You can add or remove services, modify the branding, and tailor the features to fit your business model.' },
   { q: 'What are the built-in earning models in the Gojek Clone?', a: 'You can monetize the app via multiple streams, like admin commissions, subscription plans, surge pricing, store commission, and provider commission.' },
 ]
+
+export const serverRequirements = {
+  items: [
+    'PHP Version (8.0 or above)',
+    'SSL Certificate',
+    'Google Map API Key',
+    'Upgraded Google Firebase Account with (Blaze) Plan',
+  ],
+}

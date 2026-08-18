@@ -85,6 +85,12 @@ export const faqs = [
   { q: 'What is 100% customizable source code?', a: 'Once you purchase a YouTube clone from CloneScript, you will get the complete source code and complete access. After purchasing, you will receive free technical support for 1 year, ensuring seamless functionality and performance.' },
 ]
 
+export const serverRequirements = [
+  'Server: VPS (Virtual Private Server)',
+  'Web Server: Apache',
+  'PHP version 8.1 and above',
+]
+
 export const screenshots = [
   '/wp-content/uploads/2025/08/youtube-app-8-scaled.webp',
   '/wp-content/uploads/2025/08/youtube-app-7-scaled.webp',

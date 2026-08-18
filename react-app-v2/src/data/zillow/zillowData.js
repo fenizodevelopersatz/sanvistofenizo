@@ -141,3 +141,36 @@ export const faqs = [
   { q: 'How Much Does it Cost for a Zillow Clone App?', a: 'Launching a Zillow Clone from scratch can be expensive. However, CloneScript offers a Zillow Clone at an affordable price, with three different pricing plans to suit various business needs.' },
   { q: 'What Type of Support Will I Get After Purchase?', a: 'We provide three months of free technical support with every Zillow Clone purchase to ensure everything runs smoothly.' },
 ]
+
+export const serverRequirements = {
+  vpsServer: ['OS: Ubuntu 22.04 LTS', 'CPU: 2–4 Cores', 'RAM: 4–8 GB', 'Storage: 40+ GB SSD', 'Node.js: v18 or higher'],
+  database: ['MongoDB 5+'],
+}
+
+export const changeLog = [
+  {
+    version: 'Version 2.0',
+    date: 'June, 2026',
+    items: [
+      'AI Chatbot for Property Assistance',
+      'AI Property Description Generator',
+      'AI Property Recommendations',
+      'Neighborhood Insights',
+      'Local Market Updates',
+      'Property Comparison Tool',
+      'Voice Search',
+      'Location-Based Property Search',
+      'Virtual Property Tours',
+      'Saved Search Alerts',
+      'EMI Calculator',
+      'Enhanced Seller Dashboard',
+      'Enhanced Agent Dashboard',
+      'Improved Admin Dashboard & Management Features',
+    ],
+  },
+  {
+    version: 'Version 1.0',
+    date: 'April, 2026',
+    items: ['Initial Release'],
+  },
+]

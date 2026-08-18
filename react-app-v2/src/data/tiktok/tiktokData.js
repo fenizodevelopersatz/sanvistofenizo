@@ -89,6 +89,49 @@ export const pricingPlans = [
   },
 ]
 
+export const serverRequirements = [
+  {
+    heading: 'Server & Hosting',
+    items: [
+      'VPS with cPanel – Required to host the backend system and database securely.',
+      'Domain Name – Must be configured and pointed to the server for proper app functionality.',
+    ],
+  },
+  {
+    heading: 'Core Services & APIs',
+    items: [
+      'Firebase (Blaze Plan) – Used for user authentication, push notifications, livestreaming support, and real-time chat functionality.',
+      'Sightengine – Integrated for AI-powered image and video content moderation.',
+      'Google Places API – Enables geo-tagging of posts and location-based content discovery.',
+    ],
+  },
+  {
+    heading: 'Monetization & Payments',
+    items: [
+      'RevenueCat – Manages in-app subscriptions and in-app purchases efficiently across platforms.',
+    ],
+  },
+  {
+    heading: 'Livestreaming & Real-Time Interaction',
+    items: [
+      'ZEGOCLOUD – Powers livestreaming, PK battles, guest streaming, and real-time audience interaction.',
+    ],
+  },
+  {
+    heading: 'Engagement Enhancements',
+    items: [
+      'GIPHY – Allows users to add GIFs in chat messages and comments for better engagement.',
+    ],
+  },
+  {
+    heading: 'App Publishing Requirements',
+    items: [
+      'Google Play Console – Required to publish and manage the Android app.',
+      'Apple Developer Program – Required to publish and distribute the iOS app on the App Store.',
+    ],
+  },
+]
+
 export const faqs = [
   { q: 'What Is a TikTok Clone?', a: 'A TikTok Clone is a ready-made video-sharing app that replicates core TikTok features such as short-video creation, uploading, editing, live streaming, likes, comments, and sharing. With CloneScript’s TikTok Clone Script, entrepreneurs can quickly launch their own branded short-video platform without building everything from scratch.' },
   { q: 'What Is a TikTok Clone Script?', a: 'TikTok Clone Script is a fully customizable, scalable, and feature-rich solution designed to help startups and businesses launch a video-sharing app like TikTok within 7 days. It includes user apps, an admin panel, monetization tools, and advanced features to support rapid growth.' },

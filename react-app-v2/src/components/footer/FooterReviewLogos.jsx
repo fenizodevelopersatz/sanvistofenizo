@@ -1,10 +1,10 @@
 const reviewPlatforms = [
-  ['google-clonescript.webp', 'Google reviews'],
-  ['glassdoor-clonescript.webp', 'Glassdoor reviews'],
-  ['trustpilot-clonescript.webp', 'Trustpilot reviews'],
-  ['ambitionbox-clonescript.webp', 'AmbitionBox reviews'],
-  ['sitejabber-clonescript.webp', 'Sitejabber reviews'],
-  ['justdial-clonescript.webp', 'Justdial reviews'],
+  ['google-clonescript.webp', 'Google reviews', 'https://bit.ly/sangvish-reviews'],
+  ['glassdoor-clonescript.webp', 'Glassdoor reviews', 'https://www.glassdoor.co.in/Overview/Working-at-SangVish-Technologies-EI_IE2904552.11,32.htm'],
+  ['trustpilot-clonescript.webp', 'Trustpilot reviews', 'https://www.trustpilot.com/review/sangvish.com'],
+  ['ambitionbox-clonescript.webp', 'AmbitionBox reviews', 'https://www.ambitionbox.com/overview/sangvish-technologies-overview'],
+  ['sitejabber-clonescript.webp', 'Sitejabber reviews', 'https://www.sitejabber.com/reviews/sangvish.com'],
+  ['justdial-clonescript.webp', 'Justdial reviews', 'https://bit.ly/sangvish'],
 ]
 
 export default function FooterReviewLogos() {
@@ -16,21 +16,28 @@ export default function FooterReviewLogos() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
+                  <div className="ld-empty-space" style={{ height: 40 }}>
+                    <span className="liquid_empty_space_inner"></span>
+                  </div>
                   <header className="fancy-title text-center">
                     <h3>Our Client&apos;s Reviews and Ratings Across Platforms</h3>
                   </header>
                   <div className="footer-review-platforms__logos" aria-label="Review platforms">
-                    {reviewPlatforms.map(([file, label]) => (
-                      <img
-                        key={file}
-                        src={`/wp-content/uploads/2025/01/${file}`}
-                        width="165"
-                        height="48"
-                        alt={label}
-                        loading="eager"
-                        decoding="async"
-                      />
+                    {reviewPlatforms.map(([file, label, href]) => (
+                      <a key={file} href={href} target="_blank" rel="noreferrer" aria-label={label}>
+                        <img
+                          src={`/wp-content/uploads/2025/01/${file}`}
+                          width="165"
+                          height="48"
+                          alt={label}
+                          loading="eager"
+                          decoding="async"
+                        />
+                      </a>
                     ))}
+                  </div>
+                  <div className="ld-empty-space" style={{ height: 40 }}>
+                    <span className="liquid_empty_space_inner"></span>
                   </div>
                 </div>
               </div>

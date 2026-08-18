@@ -4,7 +4,7 @@ import { pageStylesheets } from '../../data/pageStylesheets.js'
 import { siteContact } from '../../data/siteContact.js'
 import {
   upcomingAiFeature, roleShowcase, standOutFeatures, addOnFeatures, revenueBenefits,
-  techStack, pricingPlans, faqs, screenshots,
+  techStack, pricingPlans, screenshots,
 } from '../../data/turo/turoData.js'
 
 import TuroHero from '../../components/turo/TuroHero.jsx'
@@ -20,7 +20,7 @@ import TechStackRow from '../../components/shared/TechStackRow.jsx'
 import LiveDemoTabs from '../../components/shared/LiveDemoTabs.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
-import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
+import FaqServerTabs from '../../components/turo/FaqServerTabs.jsx'
 
 const dashboards = [
   { label: 'User Dashboard', email: 'user@yopmail.com', password: '12345678', url: siteContact.cloneDemoUrl },
@@ -289,11 +289,7 @@ export default function TuroClonePage() {
           </section>
         </section>
 
-        <FaqAccordion
-          heading="Have Doubts? Get Answers Right Here"
-          subheading="Explore our comprehensive FAQ section to get all the insights you need about our Car Rental Script."
-          faqs={faqs}
-        />
+        <FaqServerTabs />
       </div>
     </main>
   )
