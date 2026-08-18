@@ -3,7 +3,7 @@ import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
   whyChooseUsPoints, aiFeatures, comparisonLabels, comparisonOurs, comparisonOthers,
-  exclusiveBenefits, revenueBenefits, pricingPlans, faqs, screenshots,
+  exclusiveBenefits, revenueBenefits, pricingPlans, screenshots,
 } from '../../data/airbnb/airbnbData.js'
 
 import AirbnbHero from '../../components/airbnb/AirbnbHero.jsx'
@@ -17,7 +17,7 @@ import AirbnbLiveDemo from '../../components/airbnb/AirbnbLiveDemo.jsx'
 import AirbnbTestimonials from '../../components/airbnb/AirbnbTestimonials.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
-import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
+import FaqServerTabs from '../../components/airbnb/FaqServerTabs.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 
 export default function AirbnbClonePage() {
@@ -191,11 +191,7 @@ export default function AirbnbClonePage() {
           </section>
         </section>
 
-        <FaqAccordion
-          heading="Have Doubts? Get Answers Right Here"
-          subheading="Clear all your doubts about our Airbnb Clone Script with our extensive FAQ section."
-          faqs={faqs}
-        />
+        <FaqServerTabs />
 
         <BlogTeaser />
       </div>

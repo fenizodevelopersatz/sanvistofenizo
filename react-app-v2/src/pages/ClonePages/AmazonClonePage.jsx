@@ -3,7 +3,7 @@ import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
   whyChooseUs, standardFeatureGroups, generalIconFeatures, platformRows,
-  addOnFeatures, generalFeatureColumns, dashboards, pricingPlans, faqs, screenshots,
+  addOnFeatures, generalFeatureColumns, dashboards, pricingPlans, screenshots,
 } from '../../data/amazon/amazonData.js'
 
 import AmazonHero from '../../components/amazon/AmazonHero.jsx'
@@ -17,7 +17,7 @@ import PdfDownloadCta from '../../components/shared/PdfDownloadCta.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import LiveDemoTabs from '../../components/shared/LiveDemoTabs.jsx'
-import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
+import FaqServerTabs from '../../components/amazon/FaqServerTabs.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 
 export default function AmazonClonePage() {
@@ -291,11 +291,7 @@ export default function AmazonClonePage() {
           </div>
         </section>
 
-        <FaqAccordion
-          heading="Do You Have Any Doubts? Clear Solution Here?"
-          subheading="Here you will get complete answer for your all doubts! Want to get any assistance feel free to Contact us!"
-          faqs={faqs}
-        />
+        <FaqServerTabs />
 
         <BlogTeaser />
       </div>

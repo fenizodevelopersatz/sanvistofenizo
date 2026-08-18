@@ -165,6 +165,252 @@ export const faqs = [
   { q: 'How Single and Multi Domain Licence Differs?', a: 'A single-domain license allows usage for only one business on a single domain. For example, you can use it exclusively on mywebsite.com. In contrast, a multi-domain license permits usage for multiple businesses across unlimited domains.' },
 ]
 
+export const serverRequirements = {
+  items: [
+    'MySQL for Database',
+    'Ability to Setup Cron Jobs',
+    'Operating System Linux',
+    'PHP version 8.1 & Above',
+    'Apache Web Server',
+  ],
+}
+
+export const changeLog = [
+  {
+    version: '8.0', date: 'October 2024', title: 'Mega Update',
+    items: [
+      'UI/UX Design Improved',
+      'UI/UX Designs Major Bugs Fixed',
+      'Improved Mobile View Layout',
+      'Page Builder Replace Site Origin to Elementor',
+      'WC Vendor to WCFM Multi Vendor Plugin Upgraded',
+    ],
+  },
+  {
+    version: '7.1', date: 'June 2024', title: '',
+    items: [
+      'Latest Design Updated',
+      'Page Speed Improved',
+      'Now Change Skin Color From the Admin Panel',
+      'Code Optimized',
+    ],
+  },
+  {
+    version: '6.0', date: '', title: '',
+    items: [
+      'Theme Updated For Latest WordPress',
+      'Deprecated Plugins Removed',
+      'Responsive Menu Updated',
+    ],
+  },
+  {
+    version: '6.2', date: '', title: '',
+    items: [
+      'Woocommerce Template Updated',
+      'Minor Design Issue Fixed',
+      'Logo Cache Issue Fixed',
+    ],
+  },
+  {
+    version: '6.5', date: '', title: '',
+    items: [
+      'Store Search Issue Fixed',
+      'Theme Speed Updated',
+      'Payout Information Added',
+    ],
+  },
+  {
+    version: '6.8', date: '', title: '',
+    items: [
+      'Deprecated Plugins Removed',
+      'Product Gallery Updated',
+      'Responsive Menu Updated',
+      'Mega Menu Updated',
+      'Css Code Optimized',
+      'Site Origin Carousel Bug Fixed',
+    ],
+  },
+  {
+    version: '5.0', date: '', title: '',
+    items: [
+      'Responsive Fixed',
+      'Optimized Theme For WordPress 5.1',
+      'Single Product Page Bug Fixed',
+    ],
+  },
+  {
+    version: '5.1', date: '', title: '',
+    items: [
+      'Home Page Design Updated',
+      'Mega Menu Feature Added',
+      'Plugin Installation Path Issue Fixed',
+      'Footer Link Responsive Bug Fixed',
+    ],
+  },
+  {
+    version: '4.0', date: '', title: '',
+    items: [
+      'Blank Screen Bug Fixed',
+      'Home Page & Inner Page Design Improved',
+      'Add Product Page Improved',
+      'Theme Options Bug Fixed',
+    ],
+  },
+  {
+    version: '4.5', date: '', title: '',
+    items: [
+      'Add Product Page Design Issue Fixed',
+      'Font Awesome Version Updated',
+      'Speed Improved',
+      'Few Features Improved',
+    ],
+  },
+  {
+    version: '3.0', date: '', title: '',
+    items: [
+      'Responsive improved for Apple Devices',
+      'Home Page Improved',
+      'Single Product Page Improved',
+      '404 error due to username bug fixed',
+      'Bank Withdrawal Method Added',
+      'Woo-Commerce Template Updated',
+    ],
+  },
+  {
+    version: '3.1', date: '', title: '',
+    items: [
+      'Responsive Fixed For Above 15-Inch Monitors',
+      'Header Design Updated',
+      'Demo Content Updated',
+      'Home Page Updated',
+      "All Vendors' Page Designs Updated",
+    ],
+  },
+  {
+    version: '3.4', date: '', title: '',
+    items: [
+      'RTL Design Improved',
+      'Display Logo Instead Of Text Logo In Mobile View',
+      'Single Product Page Unwanted Space Removed',
+      'Woocommerce Template Updated',
+      'Refund & Support Page Added',
+      'All Vendor Page Design Updated',
+      'Search Vendor Page Added',
+      'Google Translate Added',
+      'Demo Content Updated',
+    ],
+  },
+  {
+    version: '3.5', date: '', title: '',
+    items: [
+      'Woocommerce Template Updated',
+      'Url Mismatch Fixed',
+      'Few Small Bugs Fixed',
+    ],
+  },
+  {
+    version: '2.0', date: '', title: '',
+    items: [
+      'WooCommerce Template Update',
+      'WooCommerce 3.0 Compatible',
+      'Responsive Layout Improved',
+      'Grid & List View Feature Added',
+      'Product Comparison',
+      'Social Share',
+      'Major & Minor Issues Fixed',
+      'Home Page Featured Author Selection',
+    ],
+  },
+  {
+    version: '2.0.1', date: '', title: '',
+    items: [
+      'Shipping Method Bug Fixed',
+      'Translation Missing Fixed',
+      'Improved Theme Features',
+    ],
+  },
+  {
+    version: '2.0.2', date: '', title: '',
+    items: [
+      'Safari Responsive Issue Fixed',
+      'RTL Support Added',
+      'Translation Bug Fixed',
+      'Shipping Payment Bug Fixed',
+    ],
+  },
+  {
+    version: '1.0', date: '', title: '',
+    items: [
+      'Initial Release',
+    ],
+  },
+  {
+    version: '1.1', date: '', title: '',
+    items: [
+      'Woocommerce Support Added',
+      'Custom CSS Added',
+      'Facebook Login Bug Fixed',
+    ],
+  },
+  {
+    version: '1.2', date: '', title: '',
+    items: [
+      'Custom Email Template Feature Added',
+      'Responsive Design Issue Fixed',
+      'Improved Some Features',
+    ],
+  },
+  {
+    version: '1.3', date: '', title: '',
+    items: [
+      'Added Facebook',
+      'Twitter',
+      'Google+',
+      'Etc Login',
+      'Product Filter Bug Fixed',
+      'Responsive Improved',
+      'Page Builder Updated',
+    ],
+  },
+  {
+    version: '1.4', date: '', title: '',
+    items: [
+      'Woocommerce Shipping Zones Added',
+      'Few Bugs Fixed',
+    ],
+  },
+  {
+    version: '1.5', date: '', title: '',
+    items: [
+      'Package Updated',
+      'Improved Some Features',
+    ],
+  },
+  {
+    version: '1.6', date: '', title: '',
+    items: [
+      'Buddypress Menu Bug Fixed',
+      'Products Search Improved',
+      'Affiliate Feature Added',
+      'Wishlist Feature Added',
+      'Language Translation Bug Fixed',
+      'Shipping & Tracking Feature Added',
+      'All Vendors Page Added',
+      'Product Zoom-In Feature Added',
+    ],
+  },
+  {
+    version: '1.9', date: '', title: '',
+    items: [
+      'Child Theme Added',
+      'Template Updated',
+      'Translation Added For Few More Strings',
+      'Shipping & Tracking Feature Improved',
+      'Few Small Bugs Fixed',
+    ],
+  },
+]
+
 export const screenshots = [
   '/wp-content/uploads/2025/09/profile.webp',
   '/wp-content/uploads/2025/09/orders.webp',

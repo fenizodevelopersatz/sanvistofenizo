@@ -91,7 +91,11 @@ export default function GojekClonePage() {
 
         <section className="vc_section">
           <BusinessOpportunities />
-          <LaunchCta heading="Stop Waiting. Start Building App like Gojek Today!" />
+          <LaunchCta
+            heading="Stop Waiting. Start Building App like Gojek Today!"
+            image="/wp-content/uploads/2025/08/gojek-today.webp"
+            imageAlt="Gojek clone app preview"
+          />
         </section>
 
         <PricingPlans plans={pricingPlans} heading="Pick a Plan" />

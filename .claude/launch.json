@@ -20,6 +20,12 @@
       "runtimeArgs": ["--prefix", "react-app-v2", "run", "dev"],
       "port": 5174,
       "autoPort": true
+    },
+    {
+      "name": "mail-server",
+      "runtimeExecutable": "php",
+      "runtimeArgs": ["-S", "localhost:8800", "-t", "MAIL"],
+      "port": 8800
     }
   ]
 }

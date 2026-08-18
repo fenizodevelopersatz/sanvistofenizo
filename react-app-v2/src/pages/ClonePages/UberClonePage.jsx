@@ -2,7 +2,7 @@ import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
-  standOutFeatures, addOnFeatures, revenueBenefits, pricingPlans, faqs, screenshots,
+  standOutFeatures, addOnFeatures, revenueBenefits, pricingPlans, screenshots,
 } from '../../data/uber/uberData.js'
 
 import UberHero from '../../components/uber/UberHero.jsx'
@@ -19,7 +19,7 @@ import SimpleIconGrid from '../../components/shared/SimpleIconGrid.jsx'
 import RevenueBenefits from '../../components/shared/RevenueBenefits.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
-import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
+import FaqServerTabs from '../../components/uber/FaqServerTabs.jsx'
 
 export default function UberClonePage() {
   usePageStylesheets(pageStylesheets.uberClone)
@@ -220,11 +220,7 @@ export default function UberClonePage() {
         </section>
 
         <section className="vc_section">
-          <FaqAccordion
-            heading="Have Doubts? Get Answers Right Here"
-            subheading="Get answers for all your queries about our exclusive Uber Clone Script with our comprehensive FAQ section."
-            faqs={faqs}
-          />
+          <FaqServerTabs />
         </section>
       </div>
     </main>

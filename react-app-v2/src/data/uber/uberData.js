@@ -95,6 +95,68 @@ export const faqs = [
   { q: 'What does it mean to have a 100% source code?', a: 'Our Uber clone app is a 100% customizable and scalable taxi app development services that helps startups change the design to their taxi business requirements. That means you can get the complete source code for your app.' },
 ]
 
+export const serverRequirements = [
+  {
+    heading: 'Flutter/iOS Requirements',
+    items: [
+      'Android Studio Giraffe',
+      'Flutter: 3.22.x',
+    ],
+  },
+  {
+    heading: 'PHP.INI Requirements',
+    items: [
+      'open_basedir must be disabled',
+    ],
+  },
+  {
+    heading: 'File and folder permissions',
+    items: [
+      '/bootstrap 775',
+      '/storage 775 (recursively)',
+    ],
+  },
+  {
+    heading: 'Install PHP GRPC Extension',
+    items: [
+      { label: 'For Ubuntu:', code: 'sudo apt-get install php-grpc' },
+      { label: 'For Windows:', text: 'Download the gRPC extension DLL file for your specific PHP version from the PECL website.' },
+    ],
+  },
+  {
+    heading: 'Laravel Requirements',
+    items: [
+      'PHP 8.1',
+      'GRPC PHP Extension',
+      'PDO PHP Extension',
+      'Mbstring PHP Extension',
+      'Tokenizer PHP Extension',
+      'XML PHP Extension',
+      'Ctype PHP Extension',
+      'JSON PHP Extension',
+      'GD PHP Extension (or Imagick PHP Extension)',
+      'PHP Fileinfo extension',
+      'PHP Zip Archive',
+      'Rewrite Module (Apache or Nginx)',
+      'Server Requirements',
+      'MySQL 5.7+',
+    ],
+  },
+]
+
+export const changeLog = [
+  {
+    version: 'Version 1.1',
+    date: 'June, 2024',
+    items: ['Multiple New Features Added'],
+  },
+  {
+    version: 'Version 1.0',
+    date: '',
+    items: ['Initial Version'],
+  },
+]
+
 export const screenshots = [
   '/wp-content/uploads/2025/08/taxibooking-12.webp',
   '/wp-content/uploads/2025/08/taxibooking-10.webp',
