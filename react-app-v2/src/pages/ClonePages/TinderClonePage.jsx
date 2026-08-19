@@ -114,7 +114,11 @@ export default function TinderClonePage() {
           </div>
         </section>
 
-        <LaunchCta heading="Take the First Step Toward Success – Let&rsquo;s Begin!" />
+        <LaunchCta
+          heading="Take the First Step Toward Success – Let&rsquo;s Begin!"
+          image="/wp-content/uploads/2025/09/best-dating-script.webp"
+          imageAlt="Dating clone app preview showing post creation and profile screens"
+        />
 
         <PricingPlans plans={pricingPlans} heading="Pick a Plan" />
 

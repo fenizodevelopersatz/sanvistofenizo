@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { createPortal } from 'react-dom'
 import { useContactForm } from '../../hooks/useContactForm.js'
 
 export default function PdfDownloadCta({ heading, desc, image, imageAlt = '', media }) {
@@ -42,7 +43,7 @@ export default function PdfDownloadCta({ heading, desc, image, imageAlt = '', me
         </div>
       </div>
 
-      {isOpen && (
+      {isOpen && createPortal(
         <div className="clonescript-pdf-modal" style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)', zIndex: 2000000000, display: 'flex', alignItems: 'center', justifyContent: 'center' }} onClick={() => setIsOpen(false)}>
           <div style={{ background: "#6DFFD8 url('/wp-content/uploads/2024/11/rectangle-39789-2-6749ac8630272.webp') center/cover no-repeat", borderRadius: 20, padding: 30, maxWidth: 480, width: '90%', position: 'relative' }} onClick={(e) => e.stopPropagation()}>
             <header className="fancy-title">
@@ -74,7 +75,8 @@ export default function PdfDownloadCta({ heading, desc, image, imageAlt = '', me
             </div>
             <button type="button" onClick={() => setIsOpen(false)} aria-label="Close" style={{ position: 'absolute', top: 10, right: 15, background: 'none', border: 'none', fontSize: 20, cursor: 'pointer' }}>X</button>
           </div>
-        </div>
+        </div>,
+        document.body,
       )}
     </section>
   )

@@ -81,7 +81,11 @@ export default function YoutubeClonePage() {
           </div>
         </section>
 
-        <LaunchCta heading="Launch Your Profitable Business with Our No. 1 YouTube Clone App" />
+        <LaunchCta
+          heading="Launch Your Profitable Business with Our No. 1 YouTube Clone App"
+          image="/wp-content/uploads/2025/01/Group-48096911.webp"
+          imageAlt="CloneScript achievement stats: happy clients, years of experience, skilled employees, successful projects"
+        />
 
         <section className="vc_row wpb_row vc_row-fluid">
           <div className="ld-container container">
@@ -150,7 +154,11 @@ export default function YoutubeClonePage() {
           </div>
         </section>
 
-        <LaunchCta heading="Start Your Dream Business Today to Earn More Revenue." />
+        <LaunchCta
+          heading="Start Your Dream Business Today to Earn More Revenue."
+          image="/wp-content/uploads/2025/09/all-in-one-media.webp"
+          imageAlt="YouTube clone app preview showing video library and home feed"
+        />
 
         <PricingPlans plans={pricingPlans} />
         <MoneyBackGuarantee />

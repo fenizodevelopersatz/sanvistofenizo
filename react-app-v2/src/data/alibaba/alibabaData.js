@@ -80,6 +80,13 @@ export const launchSteps = [
   { icon: 'icon-ion-ios-rocket', title: 'Launch Support', desc: 'Get expert assistance to help you launch and manage your marketplace successfully.' },
 ]
 
+export const revenueBenefits = [
+  { icon: 'fa fa-solid fa-crown', title: 'Subscription Plans', desc: 'Offer premium plans to suppliers and create a steady source of recurring income.' },
+  { icon: 'fa fa-solid fa-percent', title: 'Platform Commission', desc: 'Earn a share from every successful order placed through your B2B platform.' },
+  { icon: 'fa fa-solid fa-gem', title: 'Premium Listings', desc: 'Generate additional revenue by offering premium listing placements to suppliers.' },
+  { icon: 'fa fa-solid fa-sack-dollar', title: 'Supplier Earnings', desc: 'Help suppliers monitor their sales and payouts from a single, easy-to-use dashboard.' },
+]
+
 export const addOnFeatures = [
   ['fa fa-solid fa-shield-halved', 'Secure Login'],
   ['fa fa-solid fa-ban', 'Spam Protection'],

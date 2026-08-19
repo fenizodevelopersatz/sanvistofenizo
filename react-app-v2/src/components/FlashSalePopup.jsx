@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import './LeadPopup.css'
 
-const FLASH_SALE_IMAGE = '/wp-content/reviews/2.png'
+const FLASH_SALE_IMAGE = '/wp-content/animated_sale.gif'
 
 export default function FlashSalePopup() {
   const { pathname } = useLocation()
@@ -28,8 +28,8 @@ export default function FlashSalePopup() {
       <div className="clonescript-flash-popup__card">
         <img
           src={FLASH_SALE_IMAGE}
-          width="1696"
-          height="2528"
+          width="420"
+          height="627"
           alt="Flash Sale — 50% off limited-time offer"
           className="clonescript-flash-popup__image"
           decoding="async"

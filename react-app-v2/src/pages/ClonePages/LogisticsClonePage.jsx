@@ -108,9 +108,14 @@ export default function LogisticsClonePage() {
           heading="Revenue Benefits"
           subheading="Unlock revenue potential with our Logistics Service App's flexible earning models!"
           items={revenueBenefits}
+          image="/wp-content/uploads/2026/04/revenue_benefits.webp"
         />
 
-        <LaunchCta heading="Launch Your Logistics & Delivery Business Faster with Expert Support and Guidance." />
+        <LaunchCta
+          heading="Launch Your Logistics &amp; Delivery Business Faster with Expert Support and Guidance."
+          image="/wp-content/uploads/2026/08/logistics-launch-boxes.webp"
+          imageAlt="Packed and labeled shipment boxes staged with a hand truck, ready to ship"
+        />
 
         <PricingPlans plans={pricingPlans} />
         <MoneyBackGuarantee />

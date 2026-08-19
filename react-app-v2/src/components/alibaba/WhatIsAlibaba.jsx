@@ -37,7 +37,7 @@ export default function WhatIsAlibaba() {
                   <div className="wpb_single_image wpb_content_element vc_align_center">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2026/06/alibaba-clone-demo.webp" width="600" height="400" className="vc_single_image-img attachment-full" alt="Two business partners shaking hands over a signed agreement, representing an Alibaba-style B2B marketplace deal" title="alibaba-clone-demo" />
+                        <img src="/wp-content/uploads/2026/08/alibaba-marketplace-boxes.webp" width="600" height="400" className="vc_single_image-img attachment-full" alt="Stacked, labeled shipping boxes ready for dispatch, representing B2B marketplace order fulfillment" title="alibaba-marketplace-boxes" />
                       </div>
                     </figure>
                   </div>

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { createPortal } from 'react-dom'
 import { useContactForm } from '../../hooks/useContactForm.js'
 import GuideCoverPreview from './GuideCoverPreview.jsx'
 
@@ -64,7 +65,7 @@ export default function PdfDownloadCta() {
         </div>
       </div>
 
-      {isOpen && (
+      {isOpen && createPortal(
         <div className="lqd-modal" style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)', zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center' }} onClick={() => setIsOpen(false)}>
           <div className="lqd-modal-inner" style={{ background: "#6DFFD8 url('/wp-content/uploads/2024/11/rectangle-39789-2-6749ac8630272.webp') center/cover no-repeat", borderRadius: 20, padding: 30, maxWidth: 480, width: '90%' }} onClick={(e) => e.stopPropagation()}>
             <div className="lqd-modal-content">
@@ -98,7 +99,8 @@ export default function PdfDownloadCta() {
               <button type="button" className="pum-close" onClick={() => setIsOpen(false)} aria-label="Close" style={{ position: 'absolute', top: 10, right: 15, background: 'none', border: 'none', fontSize: 20, cursor: 'pointer' }}>X</button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body,
       )}
     </section>
   )

@@ -1,3 +1,5 @@
+import './SimpleIconGrid.css'
+
 export default function SimpleIconGrid({ items, title, desc, columns = 3, iconColor = '#006fff' }) {
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
@@ -32,7 +34,7 @@ export default function SimpleIconGrid({ items, title, desc, columns = 3, iconCo
               <div className="iconbox-icon-wrap">
                 <span className="iconbox-icon-container"><i className={item.icon}></i></span>
               </div>
-              <h3 className="font-weight-normal">{item.title}</h3>
+              <h3 className="font-weight-semibold">{item.title}</h3>
             </div>
           ))}
         </div>

@@ -2,6 +2,7 @@ import { useSeo } from '../hooks/useSeo.js'
 import { usePageStylesheets } from '../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../data/pageStylesheets.js'
 import Hero from '../components/home/Hero.jsx'
+import OverviewVideo from '../components/home/OverviewVideo.jsx'
 import StarRatingBanner from '../components/home/StarRatingBanner.jsx'
 import TrustedByLogos from '../components/home/TrustedByLogos.jsx'
 import WhyWeStandOut from '../components/home/WhyWeStandOut.jsx'
@@ -28,6 +29,7 @@ export default function HomePage() {
           <StarRatingBanner />
           <TrustedByLogos />
         </section>
+        <OverviewVideo />
         <WhyWeStandOut />
         <section className="clonescript-milestones-section vc_section">
           <AchievementBanner />

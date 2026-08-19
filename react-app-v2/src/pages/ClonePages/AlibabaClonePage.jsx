@@ -4,10 +4,11 @@ import { pageStylesheets } from '../../data/pageStylesheets.js'
 import { siteContact } from '../../data/siteContact.js'
 import {
   techStack, standOutFeatures, launchSteps, addOnFeatures, pricingPlans,
-  comparisonOurs, comparisonOthers,
+  comparisonOurs, comparisonOthers, roleTabs, revenueBenefits,
 } from '../../data/alibaba/alibabaData.js'
 import { comparisonLabels } from '../../data/comparisonLabels.js'
 import { placeholderTestimonials } from '../../data/placeholderTestimonials.js'
+import './AlibabaClonePage.css'
 
 import AlibabaHero from '../../components/alibaba/AlibabaHero.jsx'
 import TrustedByBadges from '../../components/shared/TrustedByBadges.jsx'
@@ -18,11 +19,12 @@ import WhyInvest from '../../components/alibaba/WhyInvest.jsx'
 import ComparisonTable from '../../components/shared/ComparisonTable.jsx'
 import PdfDownloadCta from '../../components/shared/PdfDownloadCta.jsx'
 import GuideCoverArt from '../../components/shared/GuideCoverArt.jsx'
-import RoleFeatureTabs from '../../components/alibaba/RoleFeatureTabs.jsx'
+import RoleFeatureTabs from '../../components/shared/RoleFeatureTabs.jsx'
 import TechStackRow from '../../components/shared/TechStackRow.jsx'
 import StandOutFeaturesGrid from '../../components/shared/StandOutFeaturesGrid.jsx'
 import ProcessSteps from '../../components/shared/ProcessSteps.jsx'
 import SimpleIconGrid from '../../components/shared/SimpleIconGrid.jsx'
+import RevenueBenefits from '../../components/shared/RevenueBenefits.jsx'
 import LaunchCta from '../../components/shared/LaunchCta.jsx'
 import LiveDemoTabs from '../../components/shared/LiveDemoTabs.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
@@ -109,7 +111,11 @@ export default function AlibabaClonePage() {
           )}
         />
 
-        <RoleFeatureTabs />
+        <RoleFeatureTabs
+          heading="Alibaba Software Multiple Stunning Features"
+          desc="Our Whitelabel Alibaba clone will help you to boost your business in the fastest possible way."
+          roles={roleTabs}
+        />
 
         <TechStackRow items={techStack} />
 
@@ -190,7 +196,18 @@ export default function AlibabaClonePage() {
 
         <SimpleIconGrid items={addOnFeatures} title="Add-On Features of Alibaba Clone Script" columns={3} iconColor="#002692" />
 
-        <LaunchCta heading="Launch Your B2B Marketplace Faster with Expert Support and Guidance." />
+        <RevenueBenefits
+          heading="Revenue Benefits"
+          subheading="Our Alibaba Clone provides a strong foundation for building a profitable B2B marketplace and expanding your business in the global trade industry."
+          items={revenueBenefits}
+          image="/wp-content/uploads/2026/04/revenue_benefits.webp"
+        />
+
+        <LaunchCta
+          heading="Launch Your B2B Marketplace Faster with Expert Support and Guidance."
+          image="/wp-content/uploads/2026/06/alibaba-clone-solution.webp"
+          imageAlt="Alibaba clone marketplace app preview on two phones"
+        />
 
         <LiveDemoTabs dashboards={dashboards} />
 

@@ -154,7 +154,11 @@ export default function TiktokClonePage() {
           </section>
         </section>
 
-        <LaunchCta heading="Right Time to Start Your Video Sharing Business!" />
+        <LaunchCta
+          heading="Right Time to Start Your Video Sharing Business!"
+          image="/wp-content/uploads/2026/01/CTA-Design.webp"
+          imageAlt="Short video clone app preview showing video feed and profile screens"
+        />
 
         <PricingPlans plans={pricingPlans} heading="Pick a Plan" />
         <MoneyBackGuarantee />
