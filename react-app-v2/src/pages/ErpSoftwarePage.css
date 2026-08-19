@@ -963,9 +963,11 @@
   grid-template-columns: 190px minmax(0, 1fr);
   align-items: center;
   gap: 35px;
-  max-width: 930px;
-  margin: 0 auto;
-  padding: 35px 55px;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 35px 64px;
   border: 1px solid #aedba7;
   border-radius: 14px;
   background: #f2fff0;
