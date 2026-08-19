@@ -41,7 +41,7 @@ export const roleTabs = {
     label: 'Admin',
     icon: 'fas fa-user-shield',
     tabs: [
-      { icon: 'fa fa-solid fa-chart-pie', title: 'Platform Analytics', image: '/wp-content/uploads/2026/04/platform_analytics.webp', desc: 'Monitor platform performance with advanced analytics, track user activity, and gain real-time revenue insights to make data-driven business decisions.' },
+      { icon: 'fa fa-solid fa-chart-pie', title: 'Platform Analytics', image: '/wp-content/uploads/2026/04/platform_analytics-vinted.webp', desc: 'Monitor platform performance with advanced analytics, track user activity, and gain real-time revenue insights to make data-driven business decisions.' },
       { icon: 'fa fa-solid fa-right-to-bracket', title: 'Social Login', image: '/wp-content/uploads/2026/04/social_login.webp', desc: 'Provide seamless and secure user access with integrated Google and Facebook login options, improving user experience and increasing registration rates.' },
       { icon: 'fa fa-solid fa-pen-to-square', title: 'Content Management', image: '/wp-content/uploads/2026/04/content_management.webp', desc: 'Efficiently manage website pages, product listings, and dynamic content using a flexible and user-friendly content management system (CMS).' },
       { icon: 'fa fa-solid fa-palette', title: 'Brand Settings', image: '/wp-content/uploads/2026/04/brand_settings.webp', desc: 'Customize your platform’s branding, including logo, colors, and visual identity, to create a consistent and professional marketplace experience.' },
