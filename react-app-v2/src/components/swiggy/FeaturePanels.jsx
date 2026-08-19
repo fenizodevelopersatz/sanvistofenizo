@@ -1,9 +1,11 @@
+import './FeaturePanels.css'
+
 function Panel({ roleKey, role }) {
   const left = role.features.slice(0, 3)
   const right = role.features.slice(3, 6)
 
   return (
-    <section id={roleKey} className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox vc_row-o-content-middle vc_row-flex">
+    <section id={roleKey} className="swiggy-feature-panel vc_row wpb_row vc_row-fluid liquid-row-shadowbox vc_row-o-content-middle vc_row-flex">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-4 vc_col-md-offset-0 vc_col-md-3 vc_col-xs-offset-1 vc_col-xs-10">
@@ -76,7 +78,7 @@ export default function FeaturePanels({ roles }) {
                   <header className="fancy-title text-center">
                     <p>Explore Our Best Swiggy Clone Script Robust Features!</p>
                   </header>
-                  <div id="fixed-menu" className="lqd-custom-menu text-center fixed-menu">
+                  <div id="fixed-menu" className="lqd-custom-menu lqd-sticky-menu text-center fixed-menu swiggy-fixed-menu">
                     <ul className="reset-ul inline-nav menu-items-have-fill">
                       {Object.entries(roles).map(([key, role]) => (
                         <li key={key}><a href={`#${key}`} data-localscroll="true"><i className={`${role.icon} custom-tab-icon`}></i> {role.label}</a></li>
