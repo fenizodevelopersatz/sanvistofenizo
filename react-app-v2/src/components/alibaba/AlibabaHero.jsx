@@ -17,6 +17,14 @@ export default function AlibabaHero() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
+                  <div className="ld-empty-space" style={{ height: 80 }}><span className="liquid_empty_space_inner"></span></div>
+                  <a href="#demo" className="btn btn-default btn-xsm circle btn-bordered border-thin btn-icon-left badge-pill-animated" data-localscroll="true">
+                    <span>
+                      <span className="btn-txt">AI-Powered</span>
+                      <span className="btn-icon"><i className="fa fa-solid fa-bolt"></i></span>
+                    </span>
+                  </a>
+                  <div className="ld-empty-space" style={{ height: 20 }}><span className="liquid_empty_space_inner"></span></div>
                   <div className="ld-fancy-heading text-center">
                     <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
                       <span className="ld-fh-txt">
@@ -34,7 +42,7 @@ export default function AlibabaHero() {
                       </p>
                     </div>
                   </div>
-                  <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
+                  <div className="ld-empty-space" style={{ height: 40 }}><span className="liquid_empty_space_inner"></span></div>
                   <div className="ld-fancy-heading text-center">
                     <h4 className="lqd-highlight-underline lqd-highlight-grow-left" data-text-rotator="true">
                       <span className="ld-fh-txt">
@@ -43,7 +51,7 @@ export default function AlibabaHero() {
                       </span>
                     </h4>
                   </div>
-                  <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
+                  <div className="ld-empty-space" style={{ height: 40 }}><span className="liquid_empty_space_inner"></span></div>
                   <a href="#demo" className="btn btn-solid btn-sm round btn-bordered border-thin" data-localscroll="true">
                     <span>
                       <span className="btn-txt">Live Demo</span>
@@ -56,7 +64,7 @@ export default function AlibabaHero() {
                       <span className="btn-icon"><i className="fa fa-solid fa-dollar-sign"></i></span>
                     </span>
                   </a>
-                  <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
+                  <div className="ld-empty-space" style={{ height: 120 }}><span className="liquid_empty_space_inner"></span></div>
                   <div className="iconbox iconbox-side iconbox-heading-xs">
                     <div className="iconbox-icon-wrap"><span className="iconbox-icon-container"><i className="fa fa-solid fa-wand-sparkles"></i></span></div>
                     <h3 className="font-weight-semibold">AI-Powered</h3>

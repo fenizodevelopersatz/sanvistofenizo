@@ -154,7 +154,11 @@ export default function ZillowClonePage() {
 
         <LiveDemoTabs dashboards={dashboards} />
 
-        <LaunchCta heading="Experience Our Zillow Clone in Real Time" />
+        <LaunchCta
+          heading="Experience Our Zillow Clone in Real Time"
+          image="/wp-content/uploads/2026/04/zillow-clone-invest.webp"
+          imageAlt="Zillow clone property-search experience displayed on a laptop"
+        />
 
         <PricingPlans plans={pricingPlans} />
         <MoneyBackGuarantee />

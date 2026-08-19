@@ -1,0 +1,42 @@
+/* The original theme's ".vc_col-md-4" is a float-based "column" with no matching-height
+   guarantee, same root cause as TechStackRow.css. When one card's title/desc ran shorter
+   than its siblings, floats wrapped the next card into the wrong horizontal slot instead of
+   a clean new row -- producing an orphaned card with a jarring amount of empty bottom padding
+   and gaps elsewhere in the grid. Grid sidesteps this: every card in a row stretches to the
+   same height regardless of content length, and wrapping is always correct. The hover lift
+   (".hover-flash-card") replicates an effect that previously lived only in 4 of the 17 pages'
+   own bundles that use this component -- applied here once, uniformly, for all of them. */
+.stand-out-features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: 0;
+}
+
+.stand-out-features-grid__card {
+  height: 100%;
+}
+
+.stand-out-features-grid__card > .iconbox {
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.stand-out-features-grid__card:hover > .iconbox {
+  transform: translateY(-12px);
+}
+
+@media (max-width: 991px) {
+  .stand-out-features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .stand-out-features-grid {
+    grid-template-columns: 1fr;
+  }
+}

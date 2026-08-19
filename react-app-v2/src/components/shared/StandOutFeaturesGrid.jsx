@@ -1,4 +1,5 @@
 import Reveal from './Reveal.jsx'
+import './StandOutFeaturesGrid.css'
 
 export default function StandOutFeaturesGrid({ heading, subheading, items, color = 'rgb(0, 38, 146)' }) {
   const cardStyle = {
@@ -36,27 +37,19 @@ export default function StandOutFeaturesGrid({ heading, subheading, items, color
       </div>
 
       <div className="ld-container container">
-        <div className="row ld-row">
+        <div className="stand-out-features-grid">
           {items.map((f, i) => (
-            <div className="hover-flash-card wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-0 vc_col-md-4 vc_col-sm-offset-1" key={i}>
-              <div className="vc_column-inner">
-                <div className="wpb_wrapper">
-                  <div className="wpb_wrapper-inner">
-                    <Reveal delay={0.1 * (i % 3)}>
-                      <div className="iconbox text-left iconbox-shadow-hover iconbox-heading-xs premium-icon-box" style={cardStyle}>
-                        <div className="iconbox-icon-wrap">
-                          <span className="iconbox-icon-container"><i className={f.icon} style={{ color }}></i></span>
-                        </div>
-                        <div className="contents">
-                          <h3 className="font-weight-semibold">{f.title}</h3>
-                          <p><span style={{ color: '#1a1a1a', fontSize: 15 }}>{f.desc}</span></p>
-                        </div>
-                      </div>
-                    </Reveal>
-                  </div>
+            <Reveal delay={0.1 * (i % 3)} className="stand-out-features-grid__card hover-flash-card" key={i}>
+              <div className="iconbox text-left iconbox-shadow-hover iconbox-heading-xs premium-icon-box" style={cardStyle}>
+                <div className="iconbox-icon-wrap">
+                  <span className="iconbox-icon-container"><i className={f.icon} style={{ color }}></i></span>
+                </div>
+                <div className="contents">
+                  <h3 className="font-weight-semibold">{f.title}</h3>
+                  <p><span style={{ color: '#1a1a1a', fontSize: 15 }}>{f.desc}</span></p>
                 </div>
               </div>
-            </div>
+            </Reveal>
           ))}
         </div>
       </div>
