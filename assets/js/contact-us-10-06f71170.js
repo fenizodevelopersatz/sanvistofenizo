@@ -1,1 +1,1 @@
-document.getElementById("open-skype").onclick=function(){window.location.href="skype:sangvishtech?chat"}
+document.getElementById("open-skype").onclick=function(){window.location.href="skype:clonescripttech?chat"}

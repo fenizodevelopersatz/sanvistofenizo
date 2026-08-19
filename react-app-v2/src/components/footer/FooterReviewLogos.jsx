@@ -1,10 +1,10 @@
 const reviewPlatforms = [
-  ['google-clonescript.webp', 'Google reviews', 'https://bit.ly/sangvish-reviews'],
-  ['glassdoor-clonescript.webp', 'Glassdoor reviews', 'https://www.glassdoor.co.in/Overview/Working-at-SangVish-Technologies-EI_IE2904552.11,32.htm'],
-  ['trustpilot-clonescript.webp', 'Trustpilot reviews', 'https://www.trustpilot.com/review/sangvish.com'],
-  ['ambitionbox-clonescript.webp', 'AmbitionBox reviews', 'https://www.ambitionbox.com/overview/sangvish-technologies-overview'],
-  ['sitejabber-clonescript.webp', 'Sitejabber reviews', 'https://www.sitejabber.com/reviews/sangvish.com'],
-  ['justdial-clonescript.webp', 'Justdial reviews', 'https://bit.ly/sangvish'],
+  ['google-clonescript.webp', 'Google reviews', 'https://bit.ly/clonescript-reviews'],
+  ['glassdoor-clonescript.webp', 'Glassdoor reviews', 'https://www.glassdoor.co.in/Overview/Working-at-CloneScript-EI_IE2904552.11,32.htm'],
+  ['trustpilot-clonescript.webp', 'Trustpilot reviews', 'https://www.trustpilot.com/review/clonescript.com'],
+  ['ambitionbox-clonescript.webp', 'AmbitionBox reviews', 'https://www.clonescript.com'],
+  ['sitejabber-clonescript.webp', 'Sitejabber reviews', 'https://www.clonescript.com'],
+  ['justdial-clonescript.webp', 'Justdial reviews', 'https://bit.ly/clonescript'],
 ]
 
 export default function FooterReviewLogos() {

@@ -91,7 +91,7 @@ export default function AlibabaClonePage() {
           desc="One Click to Get Our Alibaba Clone Product&rsquo;s Complete Knowledge."
           media={(
             <GuideCoverArt
-              brand="SANGVISH"
+              brand="CloneScript"
               titleLine1="B2B Marketplace Software"
               titleLine2="Smart Solution"
               tagline="Core Features &middot; Demo Version &middot; Technology"
