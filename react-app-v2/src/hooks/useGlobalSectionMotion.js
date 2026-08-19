@@ -16,7 +16,7 @@ export function useGlobalSectionMotion(routeKey) {
       observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
           if (!entry.isIntersecting) return
-          entry.target.classList.add('fenizo-section-visible')
+          entry.target.classList.add('clonescript-section-visible')
           pending.delete(entry.target)
           observer.unobserve(entry.target)
         })
@@ -29,9 +29,9 @@ export function useGlobalSectionMotion(routeKey) {
         document.querySelectorAll(SECTION_SELECTOR).forEach((section) => {
           if (observed.has(section)) return
           observed.add(section)
-          section.classList.add('fenizo-section-observed')
+          section.classList.add('clonescript-section-observed')
           if (section.getBoundingClientRect().top < window.innerHeight * 0.92) {
-            section.classList.add('fenizo-section-visible')
+            section.classList.add('clonescript-section-visible')
             return
           }
           pending.add(section)
@@ -43,7 +43,7 @@ export function useGlobalSectionMotion(routeKey) {
         scrollFrame = undefined
         pending.forEach((section) => {
           if (section.getBoundingClientRect().top >= window.innerHeight * 0.96) return
-          section.classList.add('fenizo-section-visible')
+          section.classList.add('clonescript-section-visible')
           pending.delete(section)
           observer.unobserve(section)
         })

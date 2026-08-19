@@ -1,6 +1,6 @@
 // The old carousel here displayed real third-party companies' actual logos (e.g. an
 // accommodation-booking brand, a resale-marketplace brand) with no verified relationship
-// to Fenizo — a false-endorsement risk, not just leftover branding. Replaced with
+// to CloneScript — a false-endorsement risk, not just leftover branding. Replaced with
 // verifiable category badges instead of inventing client names/logos.
 export const trustCategories = [
   { icon: 'fa-solid fa-rocket', label: 'Built for Startups' },

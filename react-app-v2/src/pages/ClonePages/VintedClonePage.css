@@ -45,7 +45,7 @@
   padding-bottom: 98px;
 }
 
-.vinted-motion-page > .fenizo-section-motion[data-fenizo-reveal='pending'] {
+.vinted-motion-page > .clonescript-section-motion[data-clonescript-reveal='pending'] {
   opacity: 0;
   transform: translate3d(0, 52px, 0);
 }
@@ -67,7 +67,7 @@
   object-fit: contain;
 }
 
-.fenizo-pdf-cta__panel {
+.clonescript-pdf-cta__panel {
   align-items: center;
   max-width: 920px;
   min-height: 300px;
@@ -77,7 +77,7 @@
   background: #ccefff;
 }
 
-.fenizo-pdf-cta__media img {
+.clonescript-pdf-cta__media img {
   display: block;
   width: 240px;
   max-height: 260px;
@@ -126,7 +126,7 @@
   box-shadow: 0 20px 50px rgba(16, 27, 72, 0.18);
 }
 
-.vinted-motion-page > .fenizo-section-motion[data-fenizo-reveal='visible'] {
+.vinted-motion-page > .clonescript-section-motion[data-clonescript-reveal='visible'] {
   opacity: 1;
   transform: translate3d(0, 0, 0);
   transition:
@@ -135,7 +135,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .vinted-motion-page > .fenizo-section-motion {
+  .vinted-motion-page > .clonescript-section-motion {
     opacity: 1;
     transform: none;
     transition: none;
@@ -166,14 +166,14 @@
 
   .vinted-motion-page > section:nth-child(2) {
     min-height: 0;
-    padding-top: var(--fenizo-section-y);
-    padding-bottom: var(--fenizo-section-y-compact);
+    padding-top: var(--clonescript-section-y);
+    padding-bottom: var(--clonescript-section-y-compact);
   }
 
   .vinted-motion-page > section:nth-child(3) {
     min-height: 0;
-    padding-top: var(--fenizo-section-y);
-    padding-bottom: var(--fenizo-section-y);
+    padding-top: var(--clonescript-section-y);
+    padding-bottom: var(--clonescript-section-y);
   }
 
   .vinted-motion-page > section:nth-child(2) > section:nth-child(2) {
@@ -184,7 +184,7 @@
     display: flex;
     min-height: 0;
     flex-direction: column;
-    gap: var(--fenizo-section-y-compact);
+    gap: var(--clonescript-section-y-compact);
   }
 
   .vinted-overview-group > section:nth-child(n + 2) {
@@ -263,8 +263,8 @@
   .vinted-motion-page > section:nth-child(n + 5):nth-child(-n + 16) {
     height: auto;
     min-height: 0;
-    padding-top: var(--fenizo-section-y);
-    padding-bottom: var(--fenizo-section-y-compact);
+    padding-top: var(--clonescript-section-y);
+    padding-bottom: var(--clonescript-section-y-compact);
   }
 
   .vinted-motion-page > section:nth-child(7),
@@ -280,12 +280,12 @@
     margin-top: 42px;
   }
 
-  .fenizo-pdf-cta__panel {
+  .clonescript-pdf-cta__panel {
     width: calc(100% - 30px);
     padding: 28px 20px;
   }
 
-  .fenizo-pdf-cta__media {
+  .clonescript-pdf-cta__media {
     margin-bottom: 24px;
   }
 

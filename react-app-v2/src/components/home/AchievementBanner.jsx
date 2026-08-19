@@ -6,7 +6,7 @@ export default function AchievementBanner() {
   const [imgRef, imgInView] = useInView()
 
   return (
-    <section className="fenizo-reveal-x-row vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40a6e93 vc_row-o-content-middle vc_row-flex">
+    <section className="clonescript-reveal-x-row vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40a6e93 vc_row-o-content-middle vc_row-flex">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-0 vc_col-md-6 vc_col-xs-offset-1 vc_col-xs-10">

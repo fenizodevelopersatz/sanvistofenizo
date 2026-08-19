@@ -42,7 +42,7 @@ function SitemapLink({ href, label }) {
 
 export default function FooterSitemap() {
   return (
-    <section id="products" data-vc-full-width="true" className="fenizo-business-solutions vc_section vc_custom_1726227127650 vc_section-has-fill">
+    <section id="products" data-vc-full-width="true" className="clonescript-business-solutions vc_section vc_custom_1726227127650 vc_section-has-fill">
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40d6738">
         <div className="ld-container container">
           <div className="row ld-row">
@@ -76,14 +76,14 @@ export default function FooterSitemap() {
                         <div className="wpb_column vc_column_container vc_col-sm-2" key={i}>
                           <div className="vc_column-inner">
                             <div className="wpb_wrapper">
-                              <div className="fenizo-sitemap-column wpb_wrapper-inner">
+                              <div className="clonescript-sitemap-column wpb_wrapper-inner">
                                 {column.map((category) => (
                                   <div
-                                    className="fenizo-sitemap-category"
+                                    className="clonescript-sitemap-category"
                                     key={category.title}
                                     style={{
-                                      '--fenizo-footer-title-bg': category.titleBackground,
-                                      '--fenizo-footer-title-color': category.titleColor,
+                                      '--clonescript-footer-title-bg': category.titleBackground,
+                                      '--clonescript-footer-title-color': category.titleColor,
                                     }}
                                   >
                                     <div className="ld-fancy-heading ld-fh-has-fill text-left text-uppercase">

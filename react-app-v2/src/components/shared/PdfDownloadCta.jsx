@@ -7,11 +7,11 @@ export default function PdfDownloadCta({ heading, desc, image, imageAlt = '', me
   const hasMedia = Boolean(media || image)
 
   return (
-    <section className={`fenizo-pdf-cta vc_row wpb_row vc_row-fluid liquid-row-shadowbox${hasMedia ? ' fenizo-pdf-cta--illustrated' : ''}`}>
+    <section className={`clonescript-pdf-cta vc_row wpb_row vc_row-fluid liquid-row-shadowbox${hasMedia ? ' clonescript-pdf-cta--illustrated' : ''}`}>
       <div className="ld-container container">
-        <div className="fenizo-pdf-cta__panel row ld-row">
+        <div className="clonescript-pdf-cta__panel row ld-row">
           {hasMedia && (
-            <div className="fenizo-pdf-cta__media wpb_column vc_column_container vc_col-sm-4 text-center">
+            <div className="clonescript-pdf-cta__media wpb_column vc_column_container vc_col-sm-4 text-center">
               <div className="vc_column-inner">
                 <div className="wpb_wrapper">
                   {media || <img src={image} width="300" height="300" alt={imageAlt} loading="lazy" decoding="async" />}
@@ -43,7 +43,7 @@ export default function PdfDownloadCta({ heading, desc, image, imageAlt = '', me
       </div>
 
       {isOpen && (
-        <div className="fenizo-pdf-modal" style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)', zIndex: 2000000000, display: 'flex', alignItems: 'center', justifyContent: 'center' }} onClick={() => setIsOpen(false)}>
+        <div className="clonescript-pdf-modal" style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)', zIndex: 2000000000, display: 'flex', alignItems: 'center', justifyContent: 'center' }} onClick={() => setIsOpen(false)}>
           <div style={{ background: "#6DFFD8 url('/wp-content/uploads/2024/11/rectangle-39789-2-6749ac8630272.webp') center/cover no-repeat", borderRadius: 20, padding: 30, maxWidth: 480, width: '90%', position: 'relative' }} onClick={(e) => e.stopPropagation()}>
             <header className="fancy-title">
               <h6>Fill the Form to Get the Features Document</h6>

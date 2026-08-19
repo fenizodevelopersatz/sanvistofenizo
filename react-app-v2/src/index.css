@@ -47,13 +47,13 @@ textarea { font: inherit; }
 .carousel-container,
 .flickity-viewport { overflow: hidden; }
 
-.fenizo-pdf-cta__media {
+.clonescript-pdf-cta__media {
   width: 100%;
   max-width: 240px;
   margin: 0 auto;
 }
 
-.fenizo-pdf-cta__media img {
+.clonescript-pdf-cta__media img {
   display: block;
   width: 100%;
   height: auto;

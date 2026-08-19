@@ -23,7 +23,7 @@ export default function Layout() {
   useHashScroll()
 
   return (
-    <div id="wrap" className={`fenizo-site fenizo-route-${routeClass}`}>
+    <div id="wrap" className={`clonescript-site clonescript-route-${routeClass}`}>
       <Header />
       <Suspense fallback={<RouteFallback />}>
         <Outlet />

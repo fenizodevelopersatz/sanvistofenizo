@@ -11,7 +11,7 @@ export default function ScheduleFormSection() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="fenizo-meeting-visual wpb_single_image wpb_content_element vc_align_center">
+                  <div className="clonescript-meeting-visual wpb_single_image wpb_content_element vc_align_center">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
                         <img src="/wp-content/uploads/2024/12/Group-15.png" width="480" height="520" className="vc_single_image-img attachment-full" alt="Illustration of a specialist ready to discuss a software project" title="example-specialist-chat" loading="lazy" decoding="async" />

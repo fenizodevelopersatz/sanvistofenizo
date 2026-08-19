@@ -28,13 +28,12 @@ function upsertLink(rel, href) {
 // has static defaults for the very first paint.
 export function useSeo(title, description = DEFAULT_DESCRIPTION) {
   useEffect(() => {
-    const brandedTitle = title.replaceAll('Fenizo', 'CloneScript')
-    document.title = brandedTitle
+    document.title = title
     upsertMeta('name', 'description', description)
-    upsertMeta('property', 'og:title', brandedTitle)
+    upsertMeta('property', 'og:title', title)
     upsertMeta('property', 'og:description', description)
     upsertMeta('property', 'og:url', `${SITE_URL}${window.location.pathname}`)
-    upsertMeta('name', 'twitter:title', brandedTitle)
+    upsertMeta('name', 'twitter:title', title)
     upsertMeta('name', 'twitter:description', description)
     upsertLink('canonical', `${SITE_URL}${window.location.pathname}`)
   }, [title, description])

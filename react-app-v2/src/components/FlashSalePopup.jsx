@@ -24,20 +24,20 @@ export default function FlashSalePopup() {
   if (!isOpen) return null
 
   return (
-    <aside role="dialog" aria-modal="false" aria-label="Flash sale offer" className="fenizo-flash-popup">
-      <div className="fenizo-flash-popup__card">
+    <aside role="dialog" aria-modal="false" aria-label="Flash sale offer" className="clonescript-flash-popup">
+      <div className="clonescript-flash-popup__card">
         <img
           src={FLASH_SALE_IMAGE}
           width="1696"
           height="2528"
           alt="Flash Sale — 50% off limited-time offer"
-          className="fenizo-flash-popup__image"
+          className="clonescript-flash-popup__image"
           decoding="async"
           fetchPriority="high"
         />
         <button
           type="button"
-          className="fenizo-flash-popup__close"
+          className="clonescript-flash-popup__close"
           aria-label="Close flash sale offer"
           onClick={() => setDismissedPath(pathname)}
         >

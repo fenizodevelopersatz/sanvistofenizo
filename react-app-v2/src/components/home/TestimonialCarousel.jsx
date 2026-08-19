@@ -36,31 +36,31 @@ export default function TestimonialCarousel({ cardBg = '#f9f9f9', items: itemsPr
   const showNext = () => setActive((active + 1) % items.length)
 
   return (
-    <section className="fenizo-testimonial" aria-roledescription="carousel" aria-label="Client testimonials">
-      <article className="fenizo-testimonial__card" style={{ backgroundColor: cardBg }} aria-live="polite">
-        <div className="fenizo-testimonial__avatar">
+    <section className="clonescript-testimonial" aria-roledescription="carousel" aria-label="Client testimonials">
+      <article className="clonescript-testimonial__card" style={{ backgroundColor: cardBg }} aria-live="polite">
+        <div className="clonescript-testimonial__avatar">
           {item.image
             ? <img src={item.image} width="60" height="60" alt={item.name} loading="eager" decoding="async" style={{ borderRadius: '50%', objectFit: 'cover' }} />
             : <InitialsAvatar name={item.name} size={60} />}
         </div>
-        <div className="fenizo-testimonial__content">
+        <div className="clonescript-testimonial__content">
           <h3>{item.name}</h3>
-          {item.location ? <p className="fenizo-testimonial__role">{item.location}</p> : null}
+          {item.location ? <p className="clonescript-testimonial__role">{item.location}</p> : null}
           <blockquote>{item.text}</blockquote>
           {hasVideo ? (
-            <a className="fenizo-testimonial__video" href={item.video} target="_blank" rel="noreferrer">
-              <span className="fenizo-testimonial__play" aria-hidden="true">▶</span>
+            <a className="clonescript-testimonial__video" href={item.video} target="_blank" rel="noreferrer">
+              <span className="clonescript-testimonial__play" aria-hidden="true">▶</span>
               <span>Play Testimonial Video</span>
             </a>
           ) : null}
         </div>
       </article>
 
-      <div className="fenizo-testimonial__controls">
-        <button type="button" className="fenizo-testimonial__arrow" aria-label="Previous testimonial" onClick={showPrevious}>
+      <div className="clonescript-testimonial__controls">
+        <button type="button" className="clonescript-testimonial__arrow" aria-label="Previous testimonial" onClick={showPrevious}>
           <ArrowIcon direction="previous" />
         </button>
-        <div className="fenizo-testimonial__dots" aria-label="Choose testimonial">
+        <div className="clonescript-testimonial__dots" aria-label="Choose testimonial">
           {items.map((testimonial, index) => (
             <button
               type="button"
@@ -72,7 +72,7 @@ export default function TestimonialCarousel({ cardBg = '#f9f9f9', items: itemsPr
             />
           ))}
         </div>
-        <button type="button" className="fenizo-testimonial__arrow" aria-label="Next testimonial" onClick={showNext}>
+        <button type="button" className="clonescript-testimonial__arrow" aria-label="Next testimonial" onClick={showNext}>
           <ArrowIcon direction="next" />
         </button>
       </div>

@@ -15,7 +15,7 @@ export default function MinimalLayout() {
   }, [pathname])
 
   return (
-    <div id="wrap" className={`fenizo-site fenizo-site-minimal fenizo-route-${routeClass}`}>
+    <div id="wrap" className={`clonescript-site clonescript-site-minimal clonescript-route-${routeClass}`}>
       <Suspense fallback={<RouteFallback />}>
         <Outlet />
       </Suspense>

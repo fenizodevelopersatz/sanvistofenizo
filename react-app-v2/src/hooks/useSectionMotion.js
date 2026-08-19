@@ -13,14 +13,14 @@ export function useSectionMotion(isReady = true) {
     let scrollFrame = 0
     let observer
     const reveal = (section) => {
-      section.dataset.fenizoReveal = 'visible'
+      section.dataset.clonescriptReveal = 'visible'
       section.classList.add('is-section-visible')
       observer?.unobserve(section)
     }
 
     sections.forEach((section) => {
-      section.classList.add('fenizo-section-motion')
-      section.dataset.fenizoReveal = 'pending'
+      section.classList.add('clonescript-section-motion')
+      section.dataset.clonescriptReveal = 'pending'
     })
 
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -38,7 +38,7 @@ export function useSectionMotion(isReady = true) {
 
     const revealReachedSections = () => {
       sections.forEach((section) => {
-        if (section.dataset.fenizoReveal !== 'pending') return
+        if (section.dataset.clonescriptReveal !== 'pending') return
         if (section.getBoundingClientRect().top < window.innerHeight * 1.12) reveal(section)
       })
     }

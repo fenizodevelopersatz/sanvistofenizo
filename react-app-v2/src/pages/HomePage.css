@@ -1,9 +1,9 @@
 .wpb-content-wrapper > .vc_section,
 .wpb-content-wrapper > .vc_row,
 .wpb-content-wrapper > .vc_section > .vc_row,
-.fenizo-process-section > .vc_row,
-.fenizo-services-section > .vc_row,
-.fenizo-ready-made > .vc_row,
+.clonescript-process-section > .vc_row,
+.clonescript-services-section > .vc_row,
+.clonescript-ready-made > .vc_row,
 .main-footer > .vc_section,
 .main-footer > .vc_section > .vc_row,
 .main-footer .ld-container > .ld-row {
@@ -11,136 +11,136 @@
   margin-left: 0;
 }
 
-#root:has(.fenizo-homepage) {
-  --fenizo-section-space: clamp(82px, 8vw, 112px);
-  --fenizo-panel-space: clamp(56px, 5vw, 72px);
-  --fenizo-compact-space: clamp(40px, 4vw, 56px);
-  --fenizo-intro-space: clamp(56px, 6vw, 84px);
-  --fenizo-showcase-gap: 32px;
-  --fenizo-contact-bottom: 32px;
-  --fenizo-footer-heading-space: 28px;
+#root:has(.clonescript-homepage) {
+  --clonescript-section-space: clamp(82px, 8vw, 112px);
+  --clonescript-panel-space: clamp(56px, 5vw, 72px);
+  --clonescript-compact-space: clamp(40px, 4vw, 56px);
+  --clonescript-intro-space: clamp(56px, 6vw, 84px);
+  --clonescript-showcase-gap: 32px;
+  --clonescript-contact-bottom: 32px;
+  --clonescript-footer-heading-space: 28px;
 }
 
-#root:has(.fenizo-homepage) .mainbar-row {
+#root:has(.clonescript-homepage) .mainbar-row {
   min-height: 75px;
 }
 
-.fenizo-intro-section {
-  padding-bottom: var(--fenizo-panel-space);
+.clonescript-intro-section {
+  padding-bottom: var(--clonescript-panel-space);
 }
 
-.fenizo-hero {
+.clonescript-hero {
   margin-top: 44px;
-  margin-bottom: var(--fenizo-section-space);
+  margin-bottom: var(--clonescript-section-space);
 }
 
-.fenizo-why-section {
-  padding-bottom: var(--fenizo-panel-space);
+.clonescript-why-section {
+  padding-bottom: var(--clonescript-panel-space);
 }
 
-.fenizo-why-section > .fenizo-section-intro {
-  padding-top: var(--fenizo-intro-space);
+.clonescript-why-section > .clonescript-section-intro {
+  padding-top: var(--clonescript-intro-space);
 }
 
-.fenizo-milestones-section {
-  padding-top: var(--fenizo-section-space) !important;
+.clonescript-milestones-section {
+  padding-top: var(--clonescript-section-space) !important;
 }
 
-.fenizo-showcase-section {
-  padding-top: var(--fenizo-panel-space) !important;
-  padding-bottom: var(--fenizo-panel-space) !important;
+.clonescript-showcase-section {
+  padding-top: var(--clonescript-panel-space) !important;
+  padding-bottom: var(--clonescript-panel-space) !important;
 }
 
-.fenizo-showcase-content > .wpb_wrapper-inner {
+.clonescript-showcase-content > .wpb_wrapper-inner {
   position: relative;
   top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--fenizo-showcase-gap);
+  gap: var(--clonescript-showcase-gap);
 }
 
-.fenizo-showcase-content .vc_btn3-container,
-.fenizo-showcase-content .wpb_single_image,
-.fenizo-showcase-content .ld-fancy-heading {
+.clonescript-showcase-content .vc_btn3-container,
+.clonescript-showcase-content .wpb_single_image,
+.clonescript-showcase-content .ld-fancy-heading {
   align-self: center;
 }
 
-.fenizo-connect-section .iconbox-icon-container {
+.clonescript-connect-section .iconbox-icon-container {
   width: 60px !important;
   height: 60px !important;
 }
 
-.fenizo-connect-section .vc_inner > .wpb_column:nth-child(1) .iconbox-icon-container {
+.clonescript-connect-section .vc_inner > .wpb_column:nth-child(1) .iconbox-icon-container {
   background-color: #ff3c3c !important;
 }
 
-.fenizo-connect-section .vc_inner > .wpb_column:nth-child(2) .iconbox-icon-container {
+.clonescript-connect-section .vc_inner > .wpb_column:nth-child(2) .iconbox-icon-container {
   background-color: #1da400 !important;
 }
 
-.fenizo-connect-section .vc_inner > .wpb_column:nth-child(-n + 2) .iconbox {
+.clonescript-connect-section .vc_inner > .wpb_column:nth-child(-n + 2) .iconbox {
   margin-bottom: 10px;
 }
 
-.fenizo-services-section {
-  padding-top: var(--fenizo-compact-space);
-  padding-bottom: var(--fenizo-panel-space);
+.clonescript-services-section {
+  padding-top: var(--clonescript-compact-space);
+  padding-bottom: var(--clonescript-panel-space);
 }
 
-.fenizo-services-section .iconbox-icon-container {
+.clonescript-services-section .iconbox-icon-container {
   width: 36px !important;
   height: 40px !important;
   color: #006fff !important;
 }
 
-.fenizo-process-section .iconbox-icon-container {
+.clonescript-process-section .iconbox-icon-container {
   width: 60px !important;
   height: 60px !important;
   background-color: #fff !important;
   color: #333 !important;
 }
 
-.fenizo-solutions-section {
-  padding-top: var(--fenizo-section-space);
-  padding-bottom: var(--fenizo-section-space);
+.clonescript-solutions-section {
+  padding-top: var(--clonescript-section-space);
+  padding-bottom: var(--clonescript-section-space);
 }
 
-.fenizo-ready-made {
+.clonescript-ready-made {
   scroll-margin-top: 96px;
 }
 
-.fenizo-solutions-section > .fenizo-process-section {
-  margin-top: var(--fenizo-compact-space);
+.clonescript-solutions-section > .clonescript-process-section {
+  margin-top: var(--clonescript-compact-space);
 }
 
-.fenizo-connect-section {
-  padding-top: var(--fenizo-panel-space) !important;
-  padding-bottom: var(--fenizo-compact-space);
+.clonescript-connect-section {
+  padding-top: var(--clonescript-panel-space) !important;
+  padding-bottom: var(--clonescript-compact-space);
 }
 
-.fenizo-contact-section {
-  padding-top: var(--fenizo-panel-space) !important;
-  padding-bottom: var(--fenizo-contact-bottom);
+.clonescript-contact-section {
+  padding-top: var(--clonescript-panel-space) !important;
+  padding-bottom: var(--clonescript-contact-bottom);
 }
 
-.fenizo-business-solutions > .vc_row:first-child {
-  padding-top: var(--fenizo-footer-heading-space);
+.clonescript-business-solutions > .vc_row:first-child {
+  padding-top: var(--clonescript-footer-heading-space);
 }
 
-.fenizo-sitemap-column {
+.clonescript-sitemap-column {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.fenizo-reveal-x-row,
-.fenizo-ready-made,
-.fenizo-solution-carousel {
+.clonescript-reveal-x-row,
+.clonescript-ready-made,
+.clonescript-solution-carousel {
   overflow: clip;
 }
 
-.fenizo-solution-carousel .carousel-items {
+.clonescript-solution-carousel .carousel-items {
   width: 100%;
   min-width: 0;
   margin-right: 0;
@@ -149,21 +149,21 @@
   overflow-y: hidden !important;
 }
 
-.fenizo-solution-carousel .carousel-item {
+.clonescript-solution-carousel .carousel-item {
   width: 100%;
   min-width: 0;
 }
 
-.fenizo-solution-carousel .st-desc p {
+.clonescript-solution-carousel .st-desc p {
   text-align: left;
 }
 
-.fenizo-solution-carousel .vc_inner {
+.clonescript-solution-carousel .vc_inner {
   margin-right: 0;
   margin-left: 0;
 }
 
-.fenizo-solution-carousel__dots {
+.clonescript-solution-carousel__dots {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -172,7 +172,7 @@
   margin-top: 20px;
 }
 
-.fenizo-solution-carousel__dots .dot {
+.clonescript-solution-carousel__dots .dot {
   appearance: none;
   display: block;
   width: 18px;
@@ -187,22 +187,22 @@
   transition: width 180ms ease, background-color 180ms ease, transform 180ms ease;
 }
 
-.fenizo-solution-carousel__dots .dot:hover {
+.clonescript-solution-carousel__dots .dot:hover {
   background: #7890cf;
   transform: translateY(-1px);
 }
 
-.fenizo-solution-carousel__dots .dot.is-selected {
+.clonescript-solution-carousel__dots .dot.is-selected {
   width: 32px;
   background: #0030b8;
 }
 
-.fenizo-solution-carousel__dots .dot:focus-visible {
+.clonescript-solution-carousel__dots .dot:focus-visible {
   outline: 3px solid rgba(0, 48, 184, 0.28);
   outline-offset: 4px;
 }
 
-.fenizo-products-cta {
+.clonescript-products-cta {
   min-height: 52px;
   margin: 0;
   border-color: #0030b8 !important;
@@ -216,19 +216,19 @@
   transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
 }
 
-.fenizo-products-cta:hover {
+.clonescript-products-cta:hover {
   transform: translateY(-2px);
   background: #00248a !important;
   box-shadow: 0 16px 32px rgba(0, 48, 184, 0.26);
 }
 
-.fenizo-tech-stack {
-  margin-top: var(--fenizo-compact-space);
+.clonescript-tech-stack {
+  margin-top: var(--clonescript-compact-space);
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.fenizo-tech-stack > .container > .ld-row > .wpb_column > .vc_column-inner > .wpb_wrapper {
+.clonescript-tech-stack > .container > .ld-row > .wpb_column > .vc_column-inner > .wpb_wrapper {
   overflow: hidden;
   padding: 70px 20px 55px !important;
   border: 1px solid rgba(0, 48, 184, 0.08);
@@ -237,21 +237,21 @@
   box-shadow: 0 18px 50px rgba(16, 27, 72, 0.08);
 }
 
-.fenizo-tech-stack .fancy-title {
+.clonescript-tech-stack .fancy-title {
   margin-bottom: 90px;
 }
 
-.fenizo-tech-stack .fancy-title h3 {
+.clonescript-tech-stack .fancy-title h3 {
   margin-bottom: 0;
 }
 
-.fenizo-tech-stack__media,
-.fenizo-tech-stack__media picture {
+.clonescript-tech-stack__media,
+.clonescript-tech-stack__media picture {
   display: block;
   width: 100%;
 }
 
-.fenizo-tech-stack__art {
+.clonescript-tech-stack__art {
   display: block;
   width: 100%;
   height: auto;
@@ -259,7 +259,7 @@
   object-fit: contain;
 }
 
-.fenizo-meeting-visual img {
+.clonescript-meeting-visual img {
   display: block;
   width: min(400px, 100%);
   height: auto;
@@ -273,142 +273,142 @@
 }
 
 @media (min-width: 992px) {
-  .fenizo-why-section > .fenizo-section-intro .fancy-title h2,
-  .fenizo-services-section > .fenizo-section-intro .fancy-title h2,
-  .fenizo-ready-made > .vc_row:first-child .fancy-title h2,
-  .fenizo-connect-section .fancy-title h2 {
+  .clonescript-why-section > .clonescript-section-intro .fancy-title h2,
+  .clonescript-services-section > .clonescript-section-intro .fancy-title h2,
+  .clonescript-ready-made > .vc_row:first-child .fancy-title h2,
+  .clonescript-connect-section .fancy-title h2 {
     font-size: 34px;
     line-height: 1.2;
   }
 
-  .fenizo-milestones-section .fancy-title h3,
-  .fenizo-tech-stack .fancy-title h3,
-  .fenizo-process-section > .vc_row:first-child .fancy-title h3 {
+  .clonescript-milestones-section .fancy-title h3,
+  .clonescript-tech-stack .fancy-title h3,
+  .clonescript-process-section > .vc_row:first-child .fancy-title h3 {
     font-size: 34px;
     line-height: 1.5;
   }
 
-  .fenizo-showcase-section .ld-fancy-heading h3 {
+  .clonescript-showcase-section .ld-fancy-heading h3 {
     font-size: 36px;
     line-height: 1.5;
     font-weight: 700;
   }
 
-  .fenizo-business-solutions > .vc_row:first-child .fancy-title h3 {
+  .clonescript-business-solutions > .vc_row:first-child .fancy-title h3 {
     font-size: 30px;
     line-height: 1.5;
   }
 
-  .fenizo-why-section > .fenizo-reveal-x-row:last-of-type .vc_single_image-img {
+  .clonescript-why-section > .clonescript-reveal-x-row:last-of-type .vc_single_image-img {
     max-width: 458px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  #root:has(.fenizo-homepage) {
-    --fenizo-section-space: 88px;
-    --fenizo-panel-space: 56px;
-    --fenizo-compact-space: 52px;
-    --fenizo-intro-space: 60px;
-    --fenizo-showcase-gap: 32px;
-    --fenizo-contact-bottom: 32px;
-    --fenizo-footer-heading-space: 24px;
+  #root:has(.clonescript-homepage) {
+    --clonescript-section-space: 88px;
+    --clonescript-panel-space: 56px;
+    --clonescript-compact-space: 52px;
+    --clonescript-intro-space: 60px;
+    --clonescript-showcase-gap: 32px;
+    --clonescript-contact-bottom: 32px;
+    --clonescript-footer-heading-space: 24px;
   }
 
-  .fenizo-hero {
+  .clonescript-hero {
     margin-top: 36px;
   }
 
-  #root:has(.fenizo-homepage) .mainbar-row {
+  #root:has(.clonescript-homepage) .mainbar-row {
     min-height: 82px;
   }
 
-  .fenizo-why-section > .fenizo-section-intro .fancy-title h2,
-  .fenizo-services-section > .fenizo-section-intro .fancy-title h2,
-  .fenizo-ready-made > .vc_row:first-child .fancy-title h2,
-  .fenizo-connect-section .fancy-title h2,
-  .fenizo-milestones-section .fancy-title h3,
-  .fenizo-tech-stack .fancy-title h3,
-  .fenizo-process-section > .vc_row:first-child .fancy-title h3,
-  .fenizo-showcase-section .ld-fancy-heading h3 {
+  .clonescript-why-section > .clonescript-section-intro .fancy-title h2,
+  .clonescript-services-section > .clonescript-section-intro .fancy-title h2,
+  .clonescript-ready-made > .vc_row:first-child .fancy-title h2,
+  .clonescript-connect-section .fancy-title h2,
+  .clonescript-milestones-section .fancy-title h3,
+  .clonescript-tech-stack .fancy-title h3,
+  .clonescript-process-section > .vc_row:first-child .fancy-title h3,
+  .clonescript-showcase-section .ld-fancy-heading h3 {
     font-size: 32px;
     line-height: 1.35;
   }
 
-  .fenizo-business-solutions > .vc_row:first-child .fancy-title h3 {
+  .clonescript-business-solutions > .vc_row:first-child .fancy-title h3 {
     font-size: 26px;
     line-height: 1.4;
   }
 
-  .fenizo-tech-stack > .container > .ld-row > .wpb_column > .vc_column-inner > .wpb_wrapper {
+  .clonescript-tech-stack > .container > .ld-row > .wpb_column > .vc_column-inner > .wpb_wrapper {
     padding: 70px 20px 55px !important;
   }
 
-  .fenizo-tech-stack .fancy-title {
+  .clonescript-tech-stack .fancy-title {
     margin-bottom: 40px;
   }
 
-  .fenizo-tech-stack .fancy-title h3 {
+  .clonescript-tech-stack .fancy-title h3 {
     font-size: 34px;
     line-height: 1.5;
   }
 
-  .fenizo-tech-stack__art {
+  .clonescript-tech-stack__art {
     max-width: 449px;
   }
 }
 
 @supports not (overflow: clip) {
-  .fenizo-reveal-x-row,
-  .fenizo-ready-made,
-  .fenizo-solution-carousel {
+  .clonescript-reveal-x-row,
+  .clonescript-ready-made,
+  .clonescript-solution-carousel {
     overflow-x: hidden;
   }
 }
 
 @media (max-width: 767px) {
-  #root:has(.fenizo-homepage) {
-    --fenizo-section-space: 56px;
-    --fenizo-panel-space: 36px;
-    --fenizo-compact-space: 40px;
-    --fenizo-intro-space: 48px;
-    --fenizo-showcase-gap: 20px;
-    --fenizo-contact-bottom: 24px;
-    --fenizo-footer-heading-space: 20px;
+  #root:has(.clonescript-homepage) {
+    --clonescript-section-space: 56px;
+    --clonescript-panel-space: 36px;
+    --clonescript-compact-space: 40px;
+    --clonescript-intro-space: 48px;
+    --clonescript-showcase-gap: 20px;
+    --clonescript-contact-bottom: 24px;
+    --clonescript-footer-heading-space: 20px;
   }
 
-  .fenizo-hero {
+  .clonescript-hero {
     margin-top: 28px;
   }
 
-  #root:has(.fenizo-homepage) .mainbar-row {
+  #root:has(.clonescript-homepage) .mainbar-row {
     min-height: 72px;
   }
 
-  .fenizo-showcase-content > .wpb_wrapper-inner {
+  .clonescript-showcase-content > .wpb_wrapper-inner {
     top: 0;
   }
 
-  .fenizo-business-solutions > .vc_row:first-child .fancy-title h3 {
+  .clonescript-business-solutions > .vc_row:first-child .fancy-title h3 {
     font-size: 24px;
     line-height: 1.4;
   }
 
-  .fenizo-tech-stack > .container > .ld-row > .wpb_column > .vc_column-inner > .wpb_wrapper {
+  .clonescript-tech-stack > .container > .ld-row > .wpb_column > .vc_column-inner > .wpb_wrapper {
     padding: 70px 7px 55px !important;
     border-radius: 18px;
   }
 
-  .fenizo-tech-stack .fancy-title {
+  .clonescript-tech-stack .fancy-title {
     margin-bottom: 40px;
   }
 
-  .fenizo-tech-stack .fancy-title h3 {
+  .clonescript-tech-stack .fancy-title h3 {
     font-size: 34px;
     line-height: 1.5;
   }
 
-  .fenizo-tech-stack__art {
+  .clonescript-tech-stack__art {
     max-width: 449px;
   }
 
@@ -417,14 +417,14 @@
     margin-left: auto;
   }
 
-  .fenizo-sitemap-column {
+  .clonescript-sitemap-column {
     gap: 20px;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .fenizo-solution-carousel__dots .dot,
-  .fenizo-products-cta {
+  .clonescript-solution-carousel__dots .dot,
+  .clonescript-products-cta {
     transition: none;
   }
 }

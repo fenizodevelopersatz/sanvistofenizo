@@ -19,7 +19,7 @@ export default function ReadyMadeSolutions() {
   const isInternal = item.link !== '#'
 
   return (
-    <section className="fenizo-ready-made">
+    <section className="clonescript-ready-made">
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40b4cac">
         <div className="ld-container container">
           <div className="row ld-row">
@@ -51,7 +51,7 @@ export default function ReadyMadeSolutions() {
                 <div className="wpb_wrapper">
                   <div className="wpb_wrapper-inner">
                     <div
-                      className="fenizo-solution-carousel carousel-container carousel-nav-left carousel-nav-md carousel-dots-style1"
+                      className="clonescript-solution-carousel carousel-container carousel-nav-left carousel-nav-md carousel-dots-style1"
                       aria-roledescription="carousel"
                       aria-label="Ready-made solutions"
                       onMouseEnter={() => setIsPaused(true)}
@@ -111,7 +111,7 @@ export default function ReadyMadeSolutions() {
                           </div>
                         </div>
                       </div>
-                      <div className="fenizo-solution-carousel__dots carousel-dots" aria-label="Choose a ready-made solution">
+                      <div className="clonescript-solution-carousel__dots carousel-dots" aria-label="Choose a ready-made solution">
                         {readyMadeSolutions.map((_, i) => (
                           <button
                             type="button"

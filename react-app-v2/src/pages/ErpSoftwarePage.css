@@ -1100,12 +1100,12 @@
   font-size: 14px;
 }
 
-.erp-motion-page > .fenizo-section-motion[data-fenizo-reveal='pending'] {
+.erp-motion-page > .clonescript-section-motion[data-clonescript-reveal='pending'] {
   opacity: 0;
   transform: translateY(42px);
 }
 
-.erp-motion-page > .fenizo-section-motion[data-fenizo-reveal='visible'] {
+.erp-motion-page > .clonescript-section-motion[data-clonescript-reveal='visible'] {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 760ms cubic-bezier(0.22, 1, 0.36, 1), transform 760ms cubic-bezier(0.22, 1, 0.36, 1);
@@ -1389,7 +1389,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .erp-motion-page > .fenizo-section-motion[data-fenizo-reveal] {
+  .erp-motion-page > .clonescript-section-motion[data-clonescript-reveal] {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;

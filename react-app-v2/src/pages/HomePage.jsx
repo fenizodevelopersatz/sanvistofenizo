@@ -21,28 +21,28 @@ export default function HomePage() {
   useSeo('CloneScript | Web, Mobile App & Software Development Company')
 
   return (
-    <main className="content fenizo-homepage" id="content">
+    <main className="content clonescript-homepage" id="content">
       <div className="wpb-content-wrapper">
-        <section className="fenizo-intro-section vc_section">
+        <section className="clonescript-intro-section vc_section">
           <Hero />
           <StarRatingBanner />
           <TrustedByLogos />
         </section>
         <WhyWeStandOut />
-        <section className="fenizo-milestones-section vc_section">
+        <section className="clonescript-milestones-section vc_section">
           <AchievementBanner />
         </section>
-        <section className="fenizo-showcase-section vc_section vc_custom_1745486374572 vc_section-has-fill">
+        <section className="clonescript-showcase-section vc_section vc_custom_1745486374572 vc_section-has-fill">
           <TeamToolsBanner />
         </section>
         <OurServices />
-        <section className="fenizo-solutions-section vc_section">
+        <section className="clonescript-solutions-section vc_section">
           <ReadyMadeSolutions />
           <ViewAllProductsBanner />
           <TechStackBanner />
           <DevProcess />
         </section>
-        <section className="fenizo-connect-section vc_section vc_custom_1745486388430 vc_section-has-fill">
+        <section className="clonescript-connect-section vc_section vc_custom_1745486388430 vc_section-has-fill">
           <ConnectWithUs />
         </section>
       </div>

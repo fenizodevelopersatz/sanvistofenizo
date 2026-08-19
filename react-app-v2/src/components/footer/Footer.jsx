@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="ld-empty-space" style={{ height: 90 }}>
         <span className="liquid_empty_space_inner"></span>
       </div>
-      <section id="schedule_form" className="fenizo-contact-section vc_section section-box-shadow schedule-bg vc_custom_1740027174021 vc_section-has-fill">
+      <section id="schedule_form" className="clonescript-contact-section vc_section section-box-shadow schedule-bg vc_custom_1740027174021 vc_section-has-fill">
         <div className="ld-empty-space" style={{ height: 140 }}>
           <span className="liquid_empty_space_inner"></span>
         </div>

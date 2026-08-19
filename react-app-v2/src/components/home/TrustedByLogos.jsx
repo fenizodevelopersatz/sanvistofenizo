@@ -28,11 +28,11 @@ export default function TrustedByLogos() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="fenizo-trust-marquee" aria-label="Why businesses choose us">
-                    <div className="fenizo-trust-marquee__track">
+                  <div className="clonescript-trust-marquee" aria-label="Why businesses choose us">
+                    <div className="clonescript-trust-marquee__track">
                       {marqueeItems.map((cat, i) => (
                         <div
-                          className="fenizo-trust-marquee__item"
+                          className="clonescript-trust-marquee__item"
                           key={i}
                           aria-hidden={i >= trustCategories.length ? 'true' : undefined}
                         >

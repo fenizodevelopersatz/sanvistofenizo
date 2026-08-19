@@ -2,7 +2,7 @@
    spacing from (it's a brand-new page built for the React rebuild) — unlike sibling pages
    (e.g. VintedClonePage.css), which hardcode bespoke pixel heights matched to their original
    HTML. Without that source of truth, this applies the design system's own generic vertical
-   rhythm (--fenizo-section-y / --fenizo-section-y-compact, from FenizoDesignSystem.css)
+   rhythm (--clonescript-section-y / --clonescript-section-y-compact, from CloneScriptDesignSystem.css)
    uniformly to every top-level section instead of fabricating fake "original" measurements. */
 /* !important is required here: the base litespeed bundle has two same-specificity (0,3,0)
    rules that both match ".vc_section.vc_section-has-fill + .vc_section" (one sets
@@ -10,24 +10,24 @@
    CSS itself, resolved only by source order), both of which otherwise beat this rule's
    (0,1,1) specificity regardless of which of the two wins their own tie. */
 .schoolcrm-motion-page > section {
-  padding-top: var(--fenizo-section-y-compact) !important;
-  padding-bottom: var(--fenizo-section-y-compact) !important;
+  padding-top: var(--clonescript-section-y-compact) !important;
+  padding-bottom: var(--clonescript-section-y-compact) !important;
 }
 
 .schoolcrm-motion-page > section:first-child {
-  padding-top: var(--fenizo-section-y-compact) !important;
-  padding-bottom: var(--fenizo-section-y) !important;
+  padding-top: var(--clonescript-section-y-compact) !important;
+  padding-bottom: var(--clonescript-section-y) !important;
 }
 
 @media (min-width: 992px) {
   .schoolcrm-motion-page > section {
-    padding-top: var(--fenizo-section-y) !important;
-    padding-bottom: var(--fenizo-section-y-compact) !important;
+    padding-top: var(--clonescript-section-y) !important;
+    padding-bottom: var(--clonescript-section-y-compact) !important;
   }
 
   .schoolcrm-motion-page > section:first-child {
-    padding-top: var(--fenizo-section-y) !important;
-    padding-bottom: var(--fenizo-section-y) !important;
+    padding-top: var(--clonescript-section-y) !important;
+    padding-bottom: var(--clonescript-section-y) !important;
   }
 }
 

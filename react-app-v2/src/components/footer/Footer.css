@@ -7,40 +7,40 @@
   left: auto !important;
 }
 
-.main-footer .fenizo-business-solutions > .vc_row:first-child .fancy-title h3 {
+.main-footer .clonescript-business-solutions > .vc_row:first-child .fancy-title h3 {
   color: #000;
   font-size: 30px;
   font-weight: 600;
   line-height: 1.5;
 }
 
-.main-footer .fenizo-sitemap-category .ld-fancy-heading h4 {
+.main-footer .clonescript-sitemap-category .ld-fancy-heading h4 {
   display: inline-block;
   max-width: 100%;
   margin: 0 0 8px;
   padding: 7px 8px;
   border-radius: 4px;
-  background: var(--fenizo-footer-title-bg);
-  color: var(--fenizo-footer-title-color);
+  background: var(--clonescript-footer-title-bg);
+  color: var(--clonescript-footer-title-color);
   font-size: 16px;
   font-weight: 600;
   line-height: 1.2;
   overflow-wrap: break-word;
 }
 
-.main-footer .fenizo-sitemap-category .ld-fancy-heading h4 .ld-fh-txt {
+.main-footer .clonescript-sitemap-category .ld-fancy-heading h4 .ld-fh-txt {
   color: inherit;
 }
 
 @media (max-width: 991px) {
-  .main-footer .fenizo-business-solutions > .vc_row:first-child .fancy-title h3 {
+  .main-footer .clonescript-business-solutions > .vc_row:first-child .fancy-title h3 {
     font-size: 26px;
     line-height: 1.4;
   }
 }
 
 @media (max-width: 767px) {
-  .main-footer .fenizo-business-solutions > .vc_row:first-child .fancy-title h3 {
+  .main-footer .clonescript-business-solutions > .vc_row:first-child .fancy-title h3 {
     font-size: 24px;
   }
 }
