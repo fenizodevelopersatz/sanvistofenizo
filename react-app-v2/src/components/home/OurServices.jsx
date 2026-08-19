@@ -67,6 +67,32 @@ export default function OurServices() {
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40aa6b7">
         <div className="ld-container container">
           <div className="row ld-row">
+            <div className="wpb_column vc_column_container vc_col-sm-12">
+              <div className="vc_column-inner">
+                <div className="wpb_wrapper">
+                  <div className="wpb_single_image wpb_content_element vc_align_center">
+                    <figure className="wpb_wrapper vc_figure">
+                      <div className="vc_single_image-wrapper vc_box_border_grey">
+                        <img
+                          src="/wp-content/uploads/2026/08/our-services-team.webp"
+                          alt="CloneScript's team collaborating to deliver software solutions worldwide"
+                          width="1600"
+                          height="1067"
+                          className="vc_single_image-img attachment-full"
+                          loading="lazy"
+                          decoding="async"
+                          style={{ display: 'block', width: '100%', height: 'auto', borderRadius: 20, marginBottom: 40 }}
+                        />
+                      </div>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="ld-container container">
+          <div className="row ld-row">
             {ourServicesItems.map((service, i) => (
               <ServiceCard service={service} key={i} />
             ))}
