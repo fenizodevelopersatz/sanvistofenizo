@@ -89,7 +89,11 @@ export default function SchoolCrmPage() {
         </section>
         <ProcessSteps steps={launchSteps} />
 
-        <LaunchCta heading="Launch Your School Management Platform Faster with Expert Support and Guidance." />
+        <LaunchCta
+          heading="Launch Your School Management Platform Faster with Expert Support and Guidance."
+          image="/wp-content/uploads/2026/08/schoolcrm-launch-classroom.webp"
+          imageAlt="Teacher assisting students with their coursework at a desk in a classroom"
+        />
 
         <LiveDemoTabs dashboards={dashboards} />
 
