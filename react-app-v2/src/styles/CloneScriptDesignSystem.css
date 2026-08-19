@@ -286,6 +286,15 @@ body:not(.clonescript-page-styles-loading) .clonescript-site > .content { animat
   border-radius: 35px !important;
 }
 
+/* The meeting form is rendered from the shared footer.  Most legacy routes
+   receive this card style from their page bundle; logistics does not, so keep
+   the source treatment available to every route here. */
+.vc_custom_1775890206239 {
+  padding: 20px !important;
+  background-color: #ffffff !important;
+  border-radius: 30px !important;
+}
+
 /* Header's mega-menu dropdown panel (MegaMenu.jsx, rendered sitewide by Header.jsx) has
    the exact same problem: its white background is this one rule, duplicated identically
    in every original page's own -12- bundle. Without it the panel is fully transparent

@@ -42,7 +42,7 @@ if (!is_array($payload)) {
     $payload = $_POST;
 }
 
-$name    = trim($payload['name'] ?? '');
+$name    = trim($payload['fullname'] ?? $payload['name'] ?? '');
 $email   = trim($payload['email'] ?? '');
 $phone   = trim($payload['phone'] ?? '');
 $product = trim($payload['product'] ?? '');
