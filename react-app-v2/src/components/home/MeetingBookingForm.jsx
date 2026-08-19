@@ -73,6 +73,9 @@ export default function MeetingBookingForm() {
                       placeholder="(eg: +91-9876543210)"
                       type="tel"
                       name="phone"
+                      inputMode="tel"
+                      pattern="[0-9+() -]{7,20}"
+                      title="Enter a valid WhatsApp number (7 to 20 digits or common phone symbols)."
                       value={values.phone}
                       onChange={handleChange}
                     />
