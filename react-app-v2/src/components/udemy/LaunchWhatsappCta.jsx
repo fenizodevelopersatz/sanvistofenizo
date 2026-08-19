@@ -33,7 +33,7 @@ export default function LaunchWhatsappCta() {
                   <div className="wpb_single_image wpb_content_element vc_align_left">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2025/02/Group-48097141.webp" width="494" height="455" className="vc_single_image-img attachment-full" alt="Grow your eLearning business with CloneScript" loading="eager" decoding="async" />
+                        <img src="/wp-content/uploads/2025/02/why-choose.png" width="494" height="455" className="vc_single_image-img attachment-full" alt="Grow your eLearning business with CloneScript" loading="eager" decoding="async" />
                       </div>
                     </figure>
                   </div>

@@ -108,7 +108,7 @@ export default function LogisticsClonePage() {
           heading="Revenue Benefits"
           subheading="Unlock revenue potential with our Logistics Service App's flexible earning models!"
           items={revenueBenefits}
-          image="/wp-content/uploads/2026/04/revenue_benefits.webp"
+          image="/wp-content/uploads/2026/04/revenue_benefits.png"
         />
 
         <LaunchCta

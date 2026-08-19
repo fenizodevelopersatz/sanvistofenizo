@@ -200,7 +200,7 @@ export default function AlibabaClonePage() {
           heading="Revenue Benefits"
           subheading="Our Alibaba Clone provides a strong foundation for building a profitable B2B marketplace and expanding your business in the global trade industry."
           items={revenueBenefits}
-          image="/wp-content/uploads/2026/04/revenue_benefits.webp"
+          image="/wp-content/uploads/2026/04/revenue_benefits.png"
         />
 
         <LaunchCta

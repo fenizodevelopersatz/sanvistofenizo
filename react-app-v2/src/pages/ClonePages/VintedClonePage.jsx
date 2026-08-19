@@ -94,7 +94,7 @@ export default function VintedClonePage() {
             accentWord="Choose Us?"
             desc="Take your online classified marketplace to success with our ready-to-launch and feature-packed Vinted Clone App."
             points={whyChoosePoints}
-            image="/wp-content/uploads/2025/02/why-choose-us-vinted-clone.png"
+            image="/wp-content/uploads/2025/02/why-choose-us-vinted-clone.jpg"
             imageAlt="CloneScript team member"
           />
 
@@ -192,7 +192,7 @@ export default function VintedClonePage() {
 
         <RevenueBenefits
           items={revenueBenefits}
-          image="/wp-content/uploads/2026/04/revenue_benefits.webp"
+          image="/wp-content/uploads/2026/04/revenue_benefits.png"
           subheading="Boost your revenue with earning features designed to support business growth."
         />
 

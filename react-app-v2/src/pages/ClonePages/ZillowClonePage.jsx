@@ -83,7 +83,7 @@ export default function ZillowClonePage() {
             ['Built on Proven ', 'Business Model to Start Earning Faster.', ''],
             ['Seamless Operations with ', 'Reliable Customer Support.', ''],
           ]}
-          image="/wp-content/uploads/2025/02/Group-48097141.webp"
+          image="/wp-content/uploads/2025/02/why-choose.png"
           imageAlt="CloneScript real estate platform delivery achievements"
         />
 
@@ -149,7 +149,7 @@ export default function ZillowClonePage() {
           heading="Revenue Benefits"
           subheading="Enhance Your Earnings with Our Zillow Clone&rsquo;s Next-Gen Revenue Strategies!"
           items={revenueBenefits}
-          image="/wp-content/uploads/2026/04/revenue_benefits.webp"
+          image="/wp-content/uploads/2026/04/revenue_benefits.png"
         />
 
         <LiveDemoTabs dashboards={dashboards} />
