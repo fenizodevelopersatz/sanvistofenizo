@@ -165,4 +165,10 @@ export const pageStylesheets = {
     '/wp-content/litespeed/css/7bc6d89b3d2905faa79fed5d3dba86ce.css',
     ...TYPOGRAPHY_OVERRIDE,
   ],
+  // logisticsClone is the same situation as schoolCrm above: no original WPBakery
+  // export exists for this product, so it's built entirely from components/shared/*.
+  logisticsClone: [
+    '/wp-content/litespeed/css/7bc6d89b3d2905faa79fed5d3dba86ce.css',
+    ...TYPOGRAPHY_OVERRIDE,
+  ],
 }

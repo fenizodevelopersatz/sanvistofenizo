@@ -121,7 +121,7 @@ export const footerSitemap = [
       ['#', 'Grocery Delivery App'],
       ['#', 'Alcohol Delivery App'],
       ['#', 'Pharmacy Delivery App'],
-      ['#', 'Logistics Service App'],
+      ['/logistics-clone', 'Logistics Service App'],
     ],
   },
   {

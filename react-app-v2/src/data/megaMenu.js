@@ -1,5 +1,5 @@
 // `link: null, enabled: false` marks items with no built page. As of this pass all
-// 21 source pages have a React page built and routed in App.jsx, so every item below
+// 22 products have a React page built and routed in App.jsx, so every item below
 // is enabled -- keep this pattern for any future product added without its page yet.
 export const megaMenuColumns = [
   [
@@ -25,7 +25,7 @@ export const megaMenuColumns = [
     { id: 'ld_icon_box_6a665a4092998', icon: 'fa fa-solid fa-face-grin-hearts', title: 'Dating Script', subtitle: 'Tinder Clone', link: '/tinder-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(255,234,212) 0.66%, rgb(174,210,255) 97.36%)' },
   ],
   [
-    { id: 'ld_icon_box_6a665a4092d67', icon: 'fa fa-solid fa-truck-plane', title: 'Logistics Service App', subtitle: 'Logistics Delivery App', link: null, enabled: false, isNew: true, gradient: 'radial-gradient(circle, rgb(255,239,212) 0.66%, rgb(174,255,202) 100%)' },
+    { id: 'ld_icon_box_6a665a4092d67', icon: 'fa fa-solid fa-truck-plane', title: 'Logistics Service App', subtitle: 'Logistics Delivery App', link: '/logistics-clone', enabled: true, isNew: true, gradient: 'radial-gradient(circle, rgb(255,239,212) 0.66%, rgb(174,255,202) 100%)' },
     { id: 'ld_icon_box_6a665a4092f2b', icon: 'fa fa-brands fa-youtube', title: 'Video Sharing Platform', subtitle: 'YouTube clone', link: '/youtube-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(255,234,212) 0.66%, rgb(174,255,227) 97.69%)' },
     { id: 'ld_icon_box_6a665a4093090', icon: 'fa fa-brands fa-square-whatsapp', title: 'Instant Messaging App', subtitle: 'Whatsapp Clone', link: '/whatsapp-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(255,234,212) 0%, rgb(255,174,174) 97.36%)' },
     { id: 'ld_icon_box_6a665a40931fe', icon: 'fa fa-brands fa-tiktok', title: 'Short Video Sharing App', subtitle: 'TikTok Clone', link: '/tiktok-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(255,234,212) 0%, rgb(255,174,174) 97.36%)' },

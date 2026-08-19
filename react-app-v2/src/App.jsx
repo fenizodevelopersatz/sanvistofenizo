@@ -24,6 +24,7 @@ const TinderClonePage = lazy(() => import('./pages/ClonePages/TinderClonePage.js
 const WhatsappClonePage = lazy(() => import('./pages/ClonePages/WhatsappClonePage.jsx'))
 const TiktokClonePage = lazy(() => import('./pages/ClonePages/TiktokClonePage.jsx'))
 const OlxClonePage = lazy(() => import('./pages/ClonePages/OlxClonePage.jsx'))
+const LogisticsClonePage = lazy(() => import('./pages/ClonePages/LogisticsClonePage.jsx'))
 
 function RouteFallback() {
   return (
@@ -61,6 +62,7 @@ export default function App() {
           <Route path="/whatsapp-clone" element={<WhatsappClonePage />} />
           <Route path="/tiktok-clone" element={<TiktokClonePage />} />
           <Route path="/olx-clone" element={<OlxClonePage />} />
+          <Route path="/logistics-clone" element={<LogisticsClonePage />} />
           </Route>
           <Route element={<MinimalLayout />}>
             <Route path="/schedule-free-demo" element={<ScheduleFreeDemoPage />} />
