@@ -1,4 +1,5 @@
 import Reveal from '../shared/Reveal.jsx'
+import TinderShowcase from './TinderShowcase.jsx'
 import { trustCategories } from '../../data/trustedByLogos.js'
 
 export default function TinderHero() {
@@ -54,13 +55,7 @@ export default function TinderHero() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="wpb_single_image wpb_content_element vc_align_center">
-                    <figure className="wpb_wrapper vc_figure">
-                      <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2025/09/tinder-clone.webp" width="2070" height="1238" alt="tinder-clone" title="tinder-clone" loading="lazy" />
-                      </div>
-                    </figure>
-                  </div>
+                  <TinderShowcase />
                 </div>
               </div>
             </div>

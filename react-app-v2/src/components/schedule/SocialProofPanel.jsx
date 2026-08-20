@@ -23,7 +23,7 @@ export default function SocialProofPanel() {
                 <div className="banner_wrapper">
                   <div className="banner banner-65734 bottom vert custom-banners-theme-standard custom-banners-theme-standard-white">
                     <img
-                      src="/wp-content/uploads/2023/04/price-banner.png"
+                      src="/wp-content/uploads/2023/04/clonescript-price-banner.png"
                       width="1140"
                       height="321"
                       className="attachment-full size-full"

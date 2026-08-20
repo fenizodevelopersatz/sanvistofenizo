@@ -238,16 +238,52 @@ body:not(.clonescript-page-styles-loading) .clonescript-site > .content { animat
 .clonescript-site .btn-bordered-gradient .btn-gradient-bg-hover { background: linear-gradient(110deg, #0529d8 0%, #4132e8 48%, #a745dc 100%); }
 
 .clonescript-site .custom-border-glow {
+  position: relative;
   display: inline-flex;
   align-items: center;
   gap: 6px;
   min-height: 40px;
   padding: 7px 13px;
-  border: 1px solid #ffca45;
+  border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 12px;
-  background: #ffc438;
-  color: #0b0b0d;
-  box-shadow: 0 0 0 6px rgb(255 196 56 / 20%);
+  background: linear-gradient(110deg, var(--clonescript-blue, #4f6ef7), var(--clonescript-violet, #8b7cf6));
+  color: #fff;
+  box-shadow: 0 0 0 6px rgba(79, 70, 229, 0.16);
+  overflow: hidden;
+}
+
+/* Sliding shine line across the VIP Club badge -- box-shadow lives outside
+   the border box so this element's own overflow:hidden (needed to clip the
+   streak to the pill's rounded corners) doesn't cut off the pulse-gold glow
+   ring above. */
+.clonescript-site .custom-border-glow::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -30%;
+  width: 22%;
+  height: 100%;
+  background: linear-gradient(115deg, transparent 0%, rgba(255, 255, 255, 0.75) 50%, transparent 100%);
+  transform: skewX(-20deg);
+  animation: clonescript-vip-shine 2.8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes clonescript-vip-shine {
+  0%, 15% { left: -30%; }
+  65%, 100% { left: 130%; }
+}
+
+/* Overrides the vendored gold pulse-glow animation (shared-713aa8f4.css's
+   .pulse-gold/@keyframes gold-pulse-animation) to match -- confirmed that
+   class isn't reused anywhere else in src/. */
+.clonescript-site .pulse-gold {
+  animation-name: clonescript-vip-pulse;
+}
+
+@keyframes clonescript-vip-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(79, 70, 229, 0.55); }
+  100% { box-shadow: 0 0 0 7px rgba(139, 124, 246, 0.22); }
 }
 
 /* Content primitives and the root fix for full-width row overflow. */
