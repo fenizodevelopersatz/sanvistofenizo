@@ -1,3 +1,4 @@
+import { useLocation } from 'react-router-dom'
 import './DecorativeBackground.css'
 
 // Sitewide ambient backdrop -- fixed behind all page content (see .cs-decor
@@ -6,7 +7,37 @@ import './DecorativeBackground.css'
 // static (no animation) and concentrated at the edges per spec: soft
 // central glow, a dot grid upper-left, violet-to-pink contour lines
 // upper-right, and a few large soft blobs -- center stays clean/white.
+
+// Bottom-right decoration per product page, paired with the bottom-left
+// rocket -- routes not listed here (home, contact, schedule-demo) fall back
+// to the generic growth-chart glyph instead.
+const pageIcons = {
+  '/erp-software': 'fa-building-columns',
+  '/school-crm': 'fa-school',
+  '/alibaba-clone': 'fa-boxes-stacked',
+  '/vinted-clone': 'fa-shirt',
+  '/zillow-clone': 'fa-house',
+  '/amazon-clone': 'fa-cart-shopping',
+  '/youtube-clone': 'fa-circle-play',
+  '/turo-clone': 'fa-car',
+  '/airbnb-clone': 'fa-house-chimney',
+  '/rental-booking-script': 'fa-calendar-check',
+  '/uber-clone': 'fa-car-side',
+  '/gojek-clone': 'fa-motorcycle',
+  '/swiggy-clone': 'fa-utensils',
+  '/fiverr-clone': 'fa-briefcase',
+  '/udemy-clone': 'fa-graduation-cap',
+  '/tinder-clone': 'fa-heart',
+  '/whatsapp-clone': 'fa-comment-dots',
+  '/tiktok-clone': 'fa-video',
+  '/olx-clone': 'fa-tags',
+  '/logistics-clone': 'fa-truck-fast',
+}
+
 export default function DecorativeBackground() {
+  const { pathname } = useLocation()
+  const pageIcon = pageIcons[pathname]
+
   return (
     <div className="cs-decor" aria-hidden="true">
       <span className="cs-decor__glow" />
@@ -34,15 +65,22 @@ export default function DecorativeBackground() {
         <span className="cs-decor__rocket-glow" />
         <i className="fas fa-rocket" aria-hidden="true"></i>
       </div>
-      <div className="cs-decor__chart">
-        <i className="fas fa-arrow-trend-up cs-decor__chart-arrow" aria-hidden="true"></i>
-        <div className="cs-decor__chart-bars">
-          <span style={{ height: '35%' }} />
-          <span style={{ height: '55%' }} />
-          <span style={{ height: '75%' }} />
-          <span style={{ height: '95%' }} />
+      {pageIcon ? (
+        <div className="cs-decor__page-icon">
+          <span className="cs-decor__page-icon-glow" />
+          <i className={`fas ${pageIcon}`} aria-hidden="true"></i>
         </div>
-      </div>
+      ) : (
+        <div className="cs-decor__chart">
+          <i className="fas fa-arrow-trend-up cs-decor__chart-arrow" aria-hidden="true"></i>
+          <div className="cs-decor__chart-bars">
+            <span style={{ height: '35%' }} />
+            <span style={{ height: '55%' }} />
+            <span style={{ height: '75%' }} />
+            <span style={{ height: '95%' }} />
+          </div>
+        </div>
+      )}
     </div>
   )
 }

@@ -108,6 +108,41 @@
   filter: drop-shadow(0 10px 16px rgba(113, 56, 232, 0.35));
 }
 
+/* Page-topic glyph, bottom-right -- same slot/footprint as .cs-decor__chart,
+   swapped in per route (see pageIcons in DecorativeBackground.jsx) as the
+   rocket's counterpart. Gradient fill via background-clip:text rather than
+   a flat color like the rocket, to match the violet-to-blue reference badge
+   this was modeled on; drop-shadow still works on the clipped text since it
+   follows the glyph's alpha shape, not its fill. */
+.cs-decor__page-icon {
+  position: absolute;
+  right: 2%;
+  bottom: 3%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cs-decor__page-icon-glow {
+  position: absolute;
+  inset: -30%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(91, 141, 239, 0.26), transparent 70%);
+  filter: blur(20px);
+}
+
+.cs-decor__page-icon i {
+  position: relative;
+  font-size: 44px;
+  background: linear-gradient(160deg, #8b5cf6 0%, #5b8def 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 10px 16px rgba(91, 141, 239, 0.35));
+}
+
 /* Ascending growth chart, bottom-right -- the "vertical trading chart"
    counterpart to the rocket. */
 .cs-decor__chart {
@@ -159,7 +194,8 @@
 
 @media (max-width: 767px) {
   .cs-decor__rocket,
-  .cs-decor__chart {
+  .cs-decor__chart,
+  .cs-decor__page-icon {
     display: none;
   }
 }

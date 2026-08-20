@@ -28,7 +28,7 @@ export default function RentalCategoriesCarousel() {
         <div className="ld-container container-fluid">
           <div className="row ld-row" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 20 }}>
             {rentalCategories.map((cat, i) => (
-              <div id={`ld_content_box_${i}`} className="fancy-box border-radius-3 scheme-light fancy-box-overlay tall fancy-box-custom-height" key={i}>
+              <div id={`ld_content_box_${i}`} className="fancy-box border-radius-3 scheme-light fancy-box-overlay tall" key={i}>
                 <div className="cb-img-container border-radius-3">
                   <figure className="fancy-box-image border-radius-3">
                     <img src={cat.image} width="330" height="441" alt={cat.title} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />

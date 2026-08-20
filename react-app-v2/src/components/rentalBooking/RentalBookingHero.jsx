@@ -58,7 +58,7 @@ export default function RentalBookingHero() {
                   <div className="wpb_single_image wpb_content_element vc_align_center">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2026/01/rental-booking-script.webp" width="1607" height="955" className="vc_single_image-img attachment-full" alt="rental-booking-script" title="rental-booking-script" loading="lazy" />
+                        <img src="/wp-content/uploads/2026/01/rental-booking-script.png" width="1607" height="955" className="vc_single_image-img attachment-full" alt="rental-booking-script" title="rental-booking-script" loading="lazy" />
                       </div>
                     </figure>
                   </div>
