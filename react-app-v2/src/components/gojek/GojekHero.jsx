@@ -39,7 +39,7 @@ export default function GojekHero() {
                   <div className="wpb_single_image wpb_content_element vc_align_center">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2025/08/gojek-clone.webp" width="2298" height="1027" className="vc_single_image-img attachment-full" alt="gojek-clone" title="gojek-clone" loading="lazy" />
+                        <img src="/wp-content/uploads/2025/08/gojek-clone.png" width="2298" height="1027" className="vc_single_image-img attachment-full" alt="gojek-clone" title="gojek-clone" loading="lazy" />
                       </div>
                     </figure>
                   </div>

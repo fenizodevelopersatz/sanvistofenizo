@@ -237,6 +237,28 @@ body:not(.clonescript-page-styles-loading) .clonescript-site > .content { animat
 .clonescript-site .btn-bordered-gradient .btn-gradient-bg { background: linear-gradient(110deg, #1239ff 0%, #5241ff 48%, #c05cf1 100%); }
 .clonescript-site .btn-bordered-gradient .btn-gradient-bg-hover { background: linear-gradient(110deg, #0529d8 0%, #4132e8 48%, #a745dc 100%); }
 
+/* GradientButton.jsx's SVG (width/height="100%", <rect> with no fill attr)
+   relies on the vendored .btn-gradient-border rule for its real sizing and
+   fill:transparent -- but that rule lives in a page-specific stylesheet
+   loaded later by usePageStylesheets, not this globally-bundled file. Header
+   buttons (Schedule Demo Tour, etc.) render before that arrives on every
+   route, so without this, the SVG briefly shows at its unconstrained
+   percentage size with the SVG-spec default rect fill (black) -- a large
+   black box flashing over the header until the page bundle catches up.
+   Duplicated here, load-order-independent, so it never happens regardless
+   of how slow that fetch is. */
+.clonescript-site .btn-gradient-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+  fill: transparent;
+  stroke: transparent;
+}
+
+.clonescript-site .btn-gradient-border rect { fill: transparent; }
+
 .clonescript-site .custom-border-glow {
   position: relative;
   display: inline-flex;

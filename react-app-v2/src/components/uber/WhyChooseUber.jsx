@@ -10,7 +10,7 @@ export default function WhyChooseUber() {
                   <div className="wpb_single_image wpb_content_element vc_align_left">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2025/01/Group-48096911.webp" width="1213" height="923" className="vc_single_image-img attachment-full" alt="Group 48096911" loading="lazy" />
+                        <img src="/wp-content/clonescript-driver.png" width="1159" height="1358" className="vc_single_image-img attachment-full" alt="CloneScript driver" loading="lazy" />
                       </div>
                     </figure>
                   </div>
