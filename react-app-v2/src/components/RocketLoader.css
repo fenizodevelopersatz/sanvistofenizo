@@ -1,0 +1,99 @@
+.cs-rocket-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.cs-rocket-loader__stage {
+  position: relative;
+  width: 140px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.cs-rocket-loader__sway {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 96px;
+  margin-left: -48px;
+  margin-top: -84px;
+  animation: cs-rocket-launch 2.6s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+.cs-rocket-loader__ship {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 14px 20px rgba(16, 27, 72, 0.28));
+}
+
+@keyframes cs-rocket-launch {
+  0%   { transform: translate(-6px, 130%) rotate(-4deg); }
+  20%  { transform: translate(8px, 88%) rotate(3deg); }
+  40%  { transform: translate(-8px, 44%) rotate(-3deg); }
+  60%  { transform: translate(6px, 0%) rotate(2deg); }
+  80%  { transform: translate(-6px, -56%) rotate(-3deg); }
+  100% { transform: translate(4px, -130%) rotate(2deg); }
+}
+
+.cs-rocket-loader__flame {
+  transform-box: fill-box;
+  transform-origin: 50% 0%;
+  animation: cs-rocket-flicker 0.35s ease-in-out infinite alternate;
+}
+
+@keyframes cs-rocket-flicker {
+  from { transform: scaleY(0.85) scaleX(0.94); opacity: 0.9; }
+  to   { transform: scaleY(1.08) scaleX(1.04); opacity: 1; }
+}
+
+.cs-rocket-loader__puff {
+  position: absolute;
+  left: 50%;
+  bottom: 18%;
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.35), transparent 70%);
+  animation: cs-rocket-puff 2.6s ease-out infinite;
+}
+
+.cs-rocket-loader__puff--1 { animation-delay: 0s; }
+.cs-rocket-loader__puff--2 { animation-delay: 0.87s; margin-left: -22px; }
+.cs-rocket-loader__puff--3 { animation-delay: 1.74s; margin-left: 2px; }
+
+@keyframes cs-rocket-puff {
+  0%   { transform: translateY(0) scale(0.6); opacity: 0; }
+  15%  { opacity: 0.6; }
+  100% { transform: translateY(90px) scale(1.6); opacity: 0; }
+}
+
+@media (max-width: 767px) {
+  .cs-rocket-loader__stage {
+    width: 110px;
+    height: 180px;
+  }
+
+  .cs-rocket-loader__sway {
+    width: 78px;
+    margin-left: -39px;
+    margin-top: -68px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cs-rocket-loader__sway {
+    animation: none;
+  }
+
+  .cs-rocket-loader__flame {
+    animation: none;
+  }
+
+  .cs-rocket-loader__puff {
+    display: none;
+  }
+}

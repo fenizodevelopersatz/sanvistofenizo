@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout.jsx'
 import MinimalLayout from './components/MinimalLayout.jsx'
+import RouteFallback from './components/RouteFallback.jsx'
 const HomePage = lazy(() => import('./pages/HomePage.jsx'))
 const ContactUsPage = lazy(() => import('./pages/ContactUsPage.jsx'))
 const ScheduleFreeDemoPage = lazy(() => import('./pages/ScheduleFreeDemoPage.jsx'))
@@ -25,15 +26,6 @@ const WhatsappClonePage = lazy(() => import('./pages/ClonePages/WhatsappClonePag
 const TiktokClonePage = lazy(() => import('./pages/ClonePages/TiktokClonePage.jsx'))
 const OlxClonePage = lazy(() => import('./pages/ClonePages/OlxClonePage.jsx'))
 const LogisticsClonePage = lazy(() => import('./pages/ClonePages/LogisticsClonePage.jsx'))
-
-function RouteFallback() {
-  return (
-    <main className="route-loading" aria-busy="true" aria-label="Loading page">
-      <span className="route-loading__spinner" aria-hidden="true" />
-      <span>Loading CloneScript experience…</span>
-    </main>
-  )
-}
 
 export default function App() {
   return (

@@ -234,17 +234,6 @@ textarea { font: inherit; }
   font-weight: 600;
 }
 
-.route-loading__spinner {
-  width: 42px;
-  aspect-ratio: 1;
-  border: 4px solid #e7eaf5;
-  border-top-color: #5f2eea;
-  border-radius: 50%;
-  animation: route-spin 0.75s linear infinite;
-}
-
-@keyframes route-spin { to { transform: rotate(1turn); } }
-
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     scroll-behavior: auto !important;
