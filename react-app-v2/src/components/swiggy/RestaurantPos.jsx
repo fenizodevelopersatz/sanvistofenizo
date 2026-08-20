@@ -1,3 +1,5 @@
+import CloneScriptImage from '../shared/CloneScriptImage.jsx'
+
 export default function RestaurantPos() {
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox vc_row-o-content-middle vc_row-flex">
@@ -36,7 +38,7 @@ export default function RestaurantPos() {
                   <div className="wpb_single_image wpb_content_element vc_align_left">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2025/03/restaruant-POS-system.webp" width="1368" height="880" className="vc_single_image-img attachment-full" alt="restaurant pos app" loading="lazy" />
+                        <CloneScriptImage src="/wp-content/uploads/2025/03/restaruant-POS-system.webp" width="1368" height="880" className="vc_single_image-img attachment-full" alt="restaurant pos app" loading="lazy" />
                       </div>
                     </figure>
                   </div>

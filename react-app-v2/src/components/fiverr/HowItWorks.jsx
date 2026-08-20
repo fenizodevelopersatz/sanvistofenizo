@@ -32,7 +32,7 @@ export default function HowItWorks() {
                     <div className="wpb_single_image wpb_content_element vc_align_center">
                       <figure className="wpb_wrapper vc_figure">
                         <div className="vc_single_image-wrapper vc_box_border_grey">
-                          <img src="/wp-content/uploads/2025/06/fiverr-clone-app-works.webp" width="1440" height="1698" className="vc_single_image-img attachment-full" alt="fiverr-clone-app-works" title="fiverr-clone-app-works" loading="lazy" />
+                          <img src="/wp-content/uploads/2025/06/fiverr-clone-app-works.png" width="1440" height="1698" className="vc_single_image-img attachment-full" alt="fiverr-clone-app-works" title="fiverr-clone-app-works" loading="lazy" />
                         </div>
                       </figure>
                     </div>

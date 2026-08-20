@@ -61,7 +61,7 @@ export default function FiverrHero() {
                     <div className="wpb_single_image wpb_content_element vc_align_center">
                       <figure className="wpb_wrapper vc_figure">
                         <div className="vc_single_image-wrapper vc_box_border_grey">
-                          <img src="/wp-content/uploads/2025/09/fiverr-clone-scaled.webp" width="2560" height="1537" className="vc_single_image-img attachment-full" alt="fiverr-clone" title="fiverr-clone" loading="lazy" />
+                          <img src="/wp-content/uploads/2025/09/fiverr-clone-scaled.jpg" width="2560" height="1537" className="vc_single_image-img attachment-full" alt="fiverr-clone" title="fiverr-clone" loading="lazy" />
                         </div>
                       </figure>
                     </div>

@@ -1,4 +1,5 @@
 import './FeaturePanels.css'
+import CloneScriptImage from '../shared/CloneScriptImage.jsx'
 
 function Panel({ roleKey, role }) {
   const left = role.features.slice(0, 3)
@@ -15,7 +16,7 @@ function Panel({ roleKey, role }) {
                   <div className="wpb_single_image wpb_content_element vc_align_center">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src={role.image} width="300" height="615" className="vc_single_image-img attachment-full" alt={role.imageAlt} loading="lazy" />
+                        <CloneScriptImage src={role.image} width="300" height="615" className="vc_single_image-img attachment-full" alt={role.imageAlt} loading="lazy" />
                       </div>
                     </figure>
                   </div>

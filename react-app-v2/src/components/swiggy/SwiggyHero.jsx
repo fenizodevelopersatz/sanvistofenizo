@@ -1,4 +1,5 @@
 import Reveal from '../shared/Reveal.jsx'
+import CloneScriptImage from '../shared/CloneScriptImage.jsx'
 
 export default function SwiggyHero() {
   return (
@@ -45,7 +46,7 @@ export default function SwiggyHero() {
                   <div className="wpb_single_image wpb_content_element vc_align_center">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2025/04/deliveroo-clone.webp" width="1123" height="512" className="vc_single_image-img attachment-full" alt="swiggy clone app" title="swiggy clone app" loading="lazy" />
+                        <CloneScriptImage src="/wp-content/uploads/2025/04/deliveroo-clone.webp" width="1123" height="512" className="vc_single_image-img attachment-full" alt="swiggy clone app" title="swiggy clone app" loading="lazy" />
                       </div>
                     </figure>
                   </div>

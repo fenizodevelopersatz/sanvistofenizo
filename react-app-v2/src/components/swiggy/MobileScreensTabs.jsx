@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import CloneScriptImage from '../shared/CloneScriptImage.jsx'
 
 export default function MobileScreensTabs({ groups }) {
   const [active, setActive] = useState(0)
@@ -40,7 +41,11 @@ export default function MobileScreensTabs({ groups }) {
             <div className="wpb_single_image wpb_content_element vc_align_left" key={s.image}>
               <figure className="wpb_wrapper vc_figure">
                 <div className="vc_single_image-wrapper vc_box_border_grey">
-                  <img src={s.image} alt={s.alt} loading="lazy" style={{ maxWidth: '100%' }} />
+                  {s.image.endsWith('/dine-in-booking.webp') ? (
+                    <CloneScriptImage src={s.image} alt={s.alt} loading="lazy" style={{ maxWidth: '100%' }} />
+                  ) : (
+                    <img src={s.image} alt={s.alt} loading="lazy" style={{ maxWidth: '100%' }} />
+                  )}
                 </div>
               </figure>
             </div>

@@ -19,6 +19,7 @@ import StandOutFeaturesGrid from '../../components/shared/StandOutFeaturesGrid.j
 import RevenueBenefits from '../../components/shared/RevenueBenefits.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
+import CloneScriptImage from '../../components/shared/CloneScriptImage.jsx'
 
 export default function SwiggyClonePage() {
   usePageStylesheets(pageStylesheets.swiggyClone)
@@ -87,7 +88,7 @@ export default function SwiggyClonePage() {
                         <div className="wpb_single_image wpb_content_element vc_align_center">
                           <figure className="wpb_wrapper vc_figure">
                             <div className="vc_single_image-wrapper vc_box_border_grey">
-                              <img src="/wp-content/uploads/2025/03/how-it-works-1.webp" width="1440" height="1578" className="vc_single_image-img attachment-full" alt="how it works" loading="lazy" />
+                              <CloneScriptImage src="/wp-content/uploads/2025/03/how-it-works-1.png" width="1440" height="1578" className="vc_single_image-img attachment-full" alt="how it works" loading="lazy" />
                             </div>
                           </figure>
                         </div>
@@ -223,7 +224,7 @@ export default function SwiggyClonePage() {
                         <div className="wpb_single_image wpb_content_element vc_align_center">
                           <figure className="wpb_wrapper vc_figure">
                             <div className="vc_single_image-wrapper vc_box_border_grey">
-                              <img src="/wp-content/uploads/2025/03/Online-food-delivery-app.webp" width="1370" height="1244" className="vc_single_image-img attachment-full" alt="Online food delivery app" loading="lazy" />
+                              <CloneScriptImage src="/wp-content/uploads/2025/03/Online-food-delivery-app.webp" width="1370" height="1244" className="vc_single_image-img attachment-full" alt="Online food delivery app" loading="lazy" />
                             </div>
                           </figure>
                         </div>

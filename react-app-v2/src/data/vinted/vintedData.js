@@ -19,7 +19,7 @@ export const roleTabs = {
     label: 'User',
     icon: 'fas fa-user',
     tabs: [
-      { icon: 'fa fa-solid fa-magnifying-glass', title: 'Smart Search', image: '/wp-content/uploads/2026/04/smart_search.webp', desc: 'Easily discover products with an advanced, high-speed search system that includes smart filters, keyword suggestions, and accurate results to help users find exactly what they need in seconds.' },
+      { icon: 'fa fa-solid fa-magnifying-glass', title: 'Smart Search', image: '/wp-content/uploads/2026/04/smart_search.jpg', desc: 'Easily discover products with an advanced, high-speed search system that includes smart filters, keyword suggestions, and accurate results to help users find exactly what they need in seconds.' },
       { icon: 'fa fa-solid fa-heart', title: 'Wishlist Manager', image: '/wp-content/uploads/2026/04/wishlist-1.webp', desc: 'Save your favorite products in a personalized wishlist, organize items for future purchases, and quickly access them anytime to make faster buying decisions.' },
       { icon: 'fa fa-solid fa-message', title: 'Private Chat', image: '/wp-content/uploads/2026/04/private_chat.webp', desc: 'Communicate directly with sellers through a secure, real-time messaging system, allowing users to ask questions, negotiate prices, and build trust before making a purchase.' },
       { icon: 'fa fa-solid fa-clock-rotate-left', title: 'Order History', image: '/wp-content/uploads/2026/04/order_history.webp', desc: 'Access a complete record of all your past orders, including product details, payment status, and delivery updates, all in one easy-to-manage dashboard.' },
