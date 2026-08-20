@@ -1,0 +1,122 @@
+.cs-dash-mock {
+  width: 100%;
+  aspect-ratio: 1.35;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--clonescript-line, #dfe4f2);
+  box-shadow: 0 20px 44px -18px rgba(16, 27, 72, 0.35);
+  display: flex;
+  flex-direction: column;
+}
+
+.cs-dash-mock__topbar {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 12px;
+  background: #f5f7ff;
+  border-bottom: 1px solid var(--clonescript-line, #dfe4f2);
+}
+
+.cs-dash-mock__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #dfe4f2;
+}
+
+.cs-dash-mock__user {
+  margin-left: auto;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 10px;
+}
+
+.cs-dash-mock__body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+}
+
+.cs-dash-mock__sidebar {
+  flex-shrink: 0;
+  width: 16%;
+  padding: 12px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #fafbff;
+  border-right: 1px solid var(--clonescript-line, #dfe4f2);
+}
+
+.cs-dash-mock__nav-item {
+  display: block;
+  height: 8px;
+  border-radius: 4px;
+  background: #e4e8f5;
+}
+
+.cs-dash-mock__main {
+  flex: 1;
+  min-width: 0;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cs-dash-mock__stats {
+  display: flex;
+  gap: 10px;
+}
+
+.cs-dash-mock__stat {
+  flex: 1;
+  min-width: 0;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: #f5f7ff;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cs-dash-mock__stat-value {
+  font-weight: 800;
+  font-size: clamp(11px, 2.4vw, 15px);
+  line-height: 1.2;
+}
+
+.cs-dash-mock__stat-label {
+  font-size: clamp(7px, 1.6vw, 9px);
+  color: var(--clonescript-muted, #687087);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cs-dash-mock__rows {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+}
+
+.cs-dash-mock__rows span {
+  display: block;
+  height: 10px;
+  border-radius: 4px;
+  background: #eef1fa;
+}
+
+.cs-dash-mock__rows span:nth-child(1) { width: 92%; }
+.cs-dash-mock__rows span:nth-child(2) { width: 78%; }
+.cs-dash-mock__rows span:nth-child(3) { width: 85%; }

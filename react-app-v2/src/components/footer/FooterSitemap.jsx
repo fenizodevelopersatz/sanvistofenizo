@@ -24,20 +24,31 @@ const styledSitemap = footerSitemap.map((category, index) => ({
   titleColor: sitemapTitleStyles[index]?.[1] ?? '#101b48',
 }))
 
-const sitemapColumnGroups = [
-  [0, 6],
-  [1, 5],
-  [2, 8, 10],
-  [3, 7],
-  [4, 13],
-  [9, 11, 12, 14],
-].map((indexes) => indexes.map((index) => styledSitemap[index]).filter(Boolean))
+const styledSitemapByTitle = new Map(styledSitemap.map((category) => [category.title, category]))
 
-function SitemapLink({ href, label }) {
+// Referenced by title (not array position) so reordering footerSitemap.js --
+// e.g. to promote a category to the top of the sitemap -- can't silently
+// scramble which categories land in which column.
+const sitemapColumnGroups = [
+  ['BUSINESS SOFTWARE', 'Rental & Booking'],
+  ['UBER CLONE FOR X', 'ON DEMAND MULTI SERVICE APPS'],
+  ['TAXI BOOKING SOLUTIONS', 'E-LEARNING SCRIPTS', 'SOCIAL NETWORKING'],
+  ['ECOMMERCE SCRIPT', 'TRAVEL & BOOKING'],
+  ['FOOD DELIVERY SCRIPTS', 'CLASSIFIED SCRIPTS', 'FREELANCE MARKETPLACE'],
+  ['REAL ESTATE SCRIPT', 'HANDYMAN SERVICE', 'ON DEMAND DELIVERY'],
+].map((titles) => titles.map((title) => styledSitemapByTitle.get(title)).filter(Boolean))
+
+function SitemapLink({ href, label, isNew }) {
+  const content = (
+    <>
+      {label}
+      {isNew && <span className="clonescript-sitemap-newtag">New</span>}
+    </>
+  )
   if (href === '#') {
-    return <a href={href}>{label}</a>
+    return <a href={href}>{content}</a>
   }
-  return <Link to={href}>{label}</Link>
+  return <Link to={href}>{content}</Link>
 }
 
 export default function FooterSitemap() {
@@ -92,9 +103,9 @@ export default function FooterSitemap() {
                                       </h4>
                                     </div>
                                     <ul className="lqd-custom-menu reset-ul custom-li-arrow">
-                                      {category.links.map(([href, label], j) => (
+                                      {category.links.map(([href, label, isNew], j) => (
                                         <li key={j}>
-                                          <SitemapLink href={href} label={label} />
+                                          <SitemapLink href={href} label={label} isNew={isNew} />
                                         </li>
                                       ))}
                                     </ul>

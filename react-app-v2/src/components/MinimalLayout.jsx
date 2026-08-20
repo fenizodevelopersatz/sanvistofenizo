@@ -2,6 +2,7 @@ import { Suspense, useInsertionEffect } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import FlashSalePopup from './FlashSalePopup.jsx'
 import RouteFallback from './RouteFallback.jsx'
+import DecorativeBackground from './DecorativeBackground.jsx'
 import { expectPageStyles } from '../hooks/usePageStylesheets.js'
 
 // For pages that ship with no header/footer in source (e.g. schedule-free-demo.html) —
@@ -16,6 +17,7 @@ export default function MinimalLayout() {
 
   return (
     <div id="wrap" className={`clonescript-site clonescript-site-minimal clonescript-route-${routeClass}`}>
+      <DecorativeBackground />
       <Suspense fallback={<RouteFallback />}>
         <Outlet />
       </Suspense>

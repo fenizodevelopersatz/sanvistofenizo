@@ -4,6 +4,7 @@ import { siteContact } from '../../data/siteContact.js'
 export default function LiveDemoTabs({ dashboards }) {
   const [tab, setTab] = useState(0)
   const active = dashboards[tab]
+  const hasVisual = Boolean(active.visual || active.image)
 
   return (
     <section id="demo" className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
@@ -45,7 +46,7 @@ export default function LiveDemoTabs({ dashboards }) {
                     <div className="tabs-content">
                       <div role="tabpanel" className="tabs-pane fade active in">
                         <div className="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-middle vc_row-flex">
-                          <div className="wpb_column vc_column_container vc_col-sm-12 text-center">
+                          <div className={`wpb_column vc_column_container text-center ${hasVisual ? 'vc_col-sm-10 vc_col-md-offset-0 vc_col-md-6 vc_col-xs-offset-1 vc_col-xs-10' : 'vc_col-sm-12'}`}>
                             <div className="vc_column-inner">
                               <div className="wpb_wrapper">
                                 <div className="wpb_wrapper-inner">
@@ -71,6 +72,19 @@ export default function LiveDemoTabs({ dashboards }) {
                               </div>
                             </div>
                           </div>
+                          {hasVisual && (
+                            <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-0 vc_col-md-6 vc_col-xs-offset-1 vc_col-xs-10">
+                              <div className="vc_column-inner">
+                                <div className="wpb_wrapper">
+                                  <div className="clonescript-demo-tab__visual">
+                                    {active.visual || (
+                                      <img src={active.image} alt={active.imageAlt || `${active.label} preview`} loading="lazy" decoding="async" />
+                                    )}
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          )}
                         </div>
                       </div>
                     </div>

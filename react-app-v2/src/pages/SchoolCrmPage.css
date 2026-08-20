@@ -44,3 +44,56 @@
   padding-top: 70px !important;
   padding-bottom: 90px !important;
 }
+
+/* Swirling pink/blue ribbon accents behind the PDF download CTA -- CSS-only
+   (elongated blurred gradient bands, not SVG) so PdfDownloadCta itself, a
+   shared component used on other pages, stays untouched and no extra DOM
+   wrapper disturbs the > section:nth-child spacing rules above. */
+.schoolcrm-motion-page .clonescript-pdf-cta {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.schoolcrm-motion-page .clonescript-pdf-cta::before,
+.schoolcrm-motion-page .clonescript-pdf-cta::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  border-radius: 999px;
+  filter: blur(26px);
+}
+
+.schoolcrm-motion-page .clonescript-pdf-cta::before {
+  top: -55%;
+  left: -15%;
+  width: 140%;
+  height: 90px;
+  background: linear-gradient(90deg, #e72ad4, #7135e8 55%, #2457f5);
+  transform: rotate(-12deg);
+  opacity: 0.4;
+}
+
+.schoolcrm-motion-page .clonescript-pdf-cta::after {
+  bottom: -50%;
+  right: -15%;
+  width: 130%;
+  height: 70px;
+  background: linear-gradient(90deg, #2457f5, #e72ad4 60%, #ff8ad8);
+  transform: rotate(10deg);
+  opacity: 0.35;
+}
+
+.schoolcrm-motion-page .clonescript-pdf-cta .clonescript-pdf-cta__panel {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .schoolcrm-motion-page .clonescript-pdf-cta::before,
+  .schoolcrm-motion-page .clonescript-pdf-cta::after {
+    height: 50px;
+    filter: blur(18px);
+  }
+}

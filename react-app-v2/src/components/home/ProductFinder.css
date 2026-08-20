@@ -1,0 +1,128 @@
+.cs-finder {
+  padding-top: var(--clonescript-compact-space, 48px);
+}
+
+.cs-finder__search {
+  position: relative;
+  max-width: 560px;
+  margin: 36px auto 32px;
+  display: flex;
+  align-items: center;
+}
+
+.cs-finder__search i.fa-search {
+  position: absolute;
+  left: 18px;
+  color: var(--clonescript-muted, #687087);
+  font-size: 15px;
+  pointer-events: none;
+}
+
+.cs-finder__search input {
+  width: 100%;
+  padding: 14px 44px;
+  border-radius: 999px;
+  border: 1px solid var(--clonescript-line, #dfe4f2);
+  background: var(--clonescript-surface, #fff);
+  font-size: 15px;
+  color: var(--clonescript-ink, #101b48);
+  box-shadow: var(--clonescript-shadow-sm, 0 8px 24px rgb(16 27 72 / 8%));
+  transition: border-color 200ms ease, box-shadow 200ms ease;
+}
+
+.cs-finder__search input:focus {
+  outline: none;
+  border-color: var(--clonescript-blue, #0038c9);
+  box-shadow: 0 0 0 4px rgba(0, 56, 201, 0.12);
+}
+
+.cs-finder__clear {
+  position: absolute;
+  right: 14px;
+  border: none;
+  background: none;
+  color: var(--clonescript-muted, #687087);
+  cursor: pointer;
+  padding: 6px;
+  line-height: 1;
+}
+
+.cs-finder__clear:hover {
+  color: var(--clonescript-ink, #101b48);
+}
+
+.cs-finder__empty {
+  text-align: center;
+  color: var(--clonescript-muted, #687087);
+  padding: 32px 0;
+}
+
+.cs-finder__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.cs-finder__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: var(--clonescript-ink, #101b48);
+  border: 1px solid rgba(16, 27, 72, 0.06);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.cs-finder__item:hover,
+.cs-finder__item:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px -14px rgba(16, 27, 72, 0.28);
+}
+
+.cs-finder__icon {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  color: var(--clonescript-blue-dark, #002a98);
+}
+
+.cs-finder__text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.cs-finder__title {
+  font-weight: 700;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cs-finder__subtitle {
+  font-size: 12px;
+  color: var(--clonescript-muted, #687087);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 767px) {
+  .cs-finder__grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+
+  .cs-finder__search {
+    margin: 28px auto 24px;
+  }
+}

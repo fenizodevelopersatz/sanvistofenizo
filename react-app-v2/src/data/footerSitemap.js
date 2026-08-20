@@ -2,8 +2,8 @@ export const footerSitemap = [
   {
     title: 'BUSINESS SOFTWARE',
     links: [
-      ['/school-crm', 'School Management System'],
-      ['/erp-software', 'ERP Software'],
+      ['/school-crm', 'School Management System', true],
+      ['/erp-software', 'ERP Software', true],
     ],
   },
   {
@@ -52,7 +52,7 @@ export const footerSitemap = [
     title: 'ECOMMERCE SCRIPT',
     links: [
       ['/amazon-clone', 'Multi-Seller Script'],
-      ['/alibaba-clone', 'B2B Script'],
+      ['/alibaba-clone', 'B2B Script', true],
       ['#', 'B2C Script'],
       ['#', 'Auction Script'],
       ['#', 'Crafts Marketplace Script'],
@@ -128,7 +128,7 @@ export const footerSitemap = [
       ['#', 'Grocery Delivery App'],
       ['#', 'Alcohol Delivery App'],
       ['#', 'Pharmacy Delivery App'],
-      ['/logistics-clone', 'Logistics Service App'],
+      ['/logistics-clone', 'Logistics Service App', true],
     ],
   },
   {
@@ -138,7 +138,7 @@ export const footerSitemap = [
       ['#', 'Buy & Sell App'],
       ['#', 'Second-Hand App'],
       ['#', 'Listings App'],
-      ['/vinted-clone', 'Resale App'],
+      ['/vinted-clone', 'Resale App', true],
     ],
   },
 ]

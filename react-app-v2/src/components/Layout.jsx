@@ -5,6 +5,8 @@ import Footer from './footer/Footer.jsx'
 import FloatingWhatsAppButton from './FloatingWhatsAppButton.jsx'
 import FlashSalePopup from './FlashSalePopup.jsx'
 import RouteFallback from './RouteFallback.jsx'
+import DecorativeBackground from './DecorativeBackground.jsx'
+import StickyMobileCta from './home/StickyMobileCta.jsx'
 import { useGlobalSectionMotion } from '../hooks/useGlobalSectionMotion.js'
 import { expectPageStyles } from '../hooks/usePageStylesheets.js'
 import { useHashScroll } from '../hooks/useHashScroll.js'
@@ -24,6 +26,7 @@ export default function Layout() {
 
   return (
     <div id="wrap" className={`clonescript-site clonescript-route-${routeClass}`}>
+      <DecorativeBackground />
       <Header />
       <Suspense fallback={<RouteFallback />}>
         <Outlet />
@@ -31,6 +34,7 @@ export default function Layout() {
       <Footer />
       <FloatingWhatsAppButton />
       <FlashSalePopup />
+      {pathname === '/' && <StickyMobileCta />}
     </div>
   )
 }

@@ -7,6 +7,7 @@
   --clonescript-violet: #a853ef;
   --clonescript-surface: #fff;
   --clonescript-surface-soft: #f5f7ff;
+  --clonescript-canvas: #fafaff;
   --clonescript-line: #dfe4f2;
   --clonescript-font: 'Poppins', 'Segoe UI', Arial, sans-serif;
   --clonescript-container: 1170px;
@@ -22,17 +23,20 @@ html { color-scheme: light; scroll-behavior: smooth; }
 
 body {
   min-width: 320px;
-  background: var(--clonescript-surface);
+  background: var(--clonescript-canvas);
   color: var(--clonescript-text);
   font-family: var(--clonescript-font);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
+/* Transparent so the fixed DecorativeBackground (z-index:-1, mounted as this
+   element's first child) shows through in the gaps between opaque section
+   fills -- body's own background (above) is the actual canvas color. */
 .clonescript-site {
   width: 100%;
   min-height: 100vh;
-  background: var(--clonescript-surface);
+  background: transparent;
   color: var(--clonescript-text);
   font-family: var(--clonescript-font);
 }

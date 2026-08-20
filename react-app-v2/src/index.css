@@ -62,6 +62,20 @@ textarea { font: inherit; }
   margin: 0 auto;
 }
 
+.clonescript-demo-tab__visual {
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.clonescript-demo-tab__visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 20px 44px -18px rgba(16, 27, 72, 0.35);
+}
+
 .money-back-panel {
   display: flex;
   align-items: center;

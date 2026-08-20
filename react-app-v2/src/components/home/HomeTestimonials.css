@@ -1,0 +1,9 @@
+.cs-home-testimonials {
+  padding-top: var(--clonescript-compact-space, 48px);
+}
+
+.cs-home-testimonials__panel {
+  max-width: 620px;
+  margin: 32px auto 0;
+  padding: 0 20px;
+}

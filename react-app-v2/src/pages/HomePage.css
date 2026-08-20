@@ -46,6 +46,13 @@
   padding-top: var(--clonescript-section-space) !important;
 }
 
+/* Stats now sit right below Hero, which already contributes its own
+   margin-bottom spacer -- drop this section's own top padding so the two
+   don't stack into a double gap. */
+.clonescript-milestones-section--after-hero {
+  padding-top: 0 !important;
+}
+
 .clonescript-showcase-section {
   padding-top: var(--clonescript-panel-space) !important;
   padding-bottom: var(--clonescript-panel-space) !important;

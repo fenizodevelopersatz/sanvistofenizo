@@ -32,6 +32,21 @@
   color: inherit;
 }
 
+.clonescript-sitemap-newtag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: #ff3c78;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
 @media (max-width: 991px) {
   .main-footer .clonescript-business-solutions > .vc_row:first-child .fancy-title h3 {
     font-size: 26px;

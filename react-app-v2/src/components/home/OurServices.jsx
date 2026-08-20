@@ -1,5 +1,6 @@
 import { ourServicesItems } from '../../data/ourServices.js'
 import { useInView } from '../../hooks/useInView.js'
+import TeamCollabArt from './TeamCollabArt.jsx'
 
 function ServiceCard({ service }) {
   const [ref, isInView] = useInView()
@@ -70,22 +71,7 @@ export default function OurServices() {
             <div className="wpb_column vc_column_container vc_col-sm-12">
               <div className="vc_column-inner">
                 <div className="wpb_wrapper">
-                  <div className="wpb_single_image wpb_content_element vc_align_center">
-                    <figure className="wpb_wrapper vc_figure">
-                      <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img
-                          src="/wp-content/uploads/2026/08/our-services-team.webp"
-                          alt="CloneScript's team collaborating to deliver software solutions worldwide"
-                          width="1600"
-                          height="1067"
-                          className="vc_single_image-img attachment-full"
-                          loading="lazy"
-                          decoding="async"
-                          style={{ display: 'block', width: '100%', height: 'auto', borderRadius: 20, marginBottom: 40 }}
-                        />
-                      </div>
-                    </figure>
-                  </div>
+                  <TeamCollabArt />
                 </div>
               </div>
             </div>

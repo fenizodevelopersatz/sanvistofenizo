@@ -1,0 +1,58 @@
+import { Link } from 'react-router-dom'
+import { readyMadeSolutions } from '../../data/readyMadeSolutions.js'
+import './ProductCategoryCards.css'
+
+export default function ProductCategoryCards() {
+  return (
+    <section className="cs-category-cards vc_row wpb_row vc_row-fluid">
+      <div className="ld-container container">
+        <div className="row ld-row">
+          <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-xs-offset-1 vc_col-xs-10">
+            <div className="vc_column-inner">
+              <div className="wpb_wrapper">
+                <div className="wpb_wrapper-inner">
+                  <div className="ld-fancy-heading ld-fh-has-fill text-center">
+                    <p className="circle lqd-highlight-underline lqd-highlight-grow-left">
+                      <span className="ld-fh-txt"> Browse by Category</span>
+                    </p>
+                  </div>
+                  <header className="fancy-title text-center">
+                    <h2>Find the Right Solution for Your Business</h2>
+                    <div className="st-desc">
+                      <p style={{ textAlign: 'center' }}>Every category below is a ready-to-launch, fully customizable script.</p>
+                    </div>
+                  </header>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="ld-container container">
+        <div className="cs-category-cards__grid">
+          {readyMadeSolutions.map((solution) => {
+            const isInternal = solution.link !== '#'
+            const CardLink = isInternal ? Link : 'a'
+            const linkProps = isInternal
+              ? { to: solution.link }
+              : { href: solution.link, target: '_blank', rel: 'noreferrer' }
+            return (
+              <CardLink key={solution.title} {...linkProps} className="cs-category-card">
+                <span className="cs-category-card__media">
+                  <img src={solution.image} alt={solution.imageAlt} loading="lazy" decoding="async" />
+                </span>
+                <span className="cs-category-card__body">
+                  <span className="cs-category-card__title">{solution.title}</span>
+                  <span className="cs-category-card__cta">
+                    Explore <i className="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+                  </span>
+                </span>
+              </CardLink>
+            )
+          })}
+        </div>
+      </div>
+    </section>
+  )
+}

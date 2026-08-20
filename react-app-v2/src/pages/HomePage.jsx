@@ -6,14 +6,19 @@ import OverviewVideo from '../components/home/OverviewVideo.jsx'
 import StarRatingBanner from '../components/home/StarRatingBanner.jsx'
 import TrustedByLogos from '../components/home/TrustedByLogos.jsx'
 import WhyWeStandOut from '../components/home/WhyWeStandOut.jsx'
+import HomeTestimonials from '../components/home/HomeTestimonials.jsx'
 import AchievementBanner from '../components/home/AchievementBanner.jsx'
 import OurServices from '../components/home/OurServices.jsx'
 import TeamToolsBanner from '../components/home/TeamToolsBanner.jsx'
+import ProductCategoryCards from '../components/home/ProductCategoryCards.jsx'
 import ReadyMadeSolutions from '../components/home/ReadyMadeSolutions.jsx'
+import ProductFinder from '../components/home/ProductFinder.jsx'
 import ViewAllProductsBanner from '../components/home/ViewAllProductsBanner.jsx'
 import TechStackBanner from '../components/home/TechStackBanner.jsx'
+import ProcessSnapshot from '../components/home/ProcessSnapshot.jsx'
 import DevProcess from '../components/home/DevProcess.jsx'
 import ConnectWithUs from '../components/home/ConnectWithUs.jsx'
+import LaunchCta from '../components/shared/LaunchCta.jsx'
 import './HomePage.css'
 
 export default function HomePage() {
@@ -24,29 +29,38 @@ export default function HomePage() {
   return (
     <main className="content clonescript-homepage" id="content">
       <div className="wpb-content-wrapper">
-        <section className="clonescript-intro-section vc_section">
+        <section className="vc_section">
           <Hero />
+        </section>
+        <section className="clonescript-milestones-section clonescript-milestones-section--after-hero vc_section">
+          <AchievementBanner />
+        </section>
+        <section className="clonescript-intro-section vc_section">
           <StarRatingBanner />
           <TrustedByLogos />
         </section>
         <OverviewVideo />
         <WhyWeStandOut />
-        <section className="clonescript-milestones-section vc_section">
-          <AchievementBanner />
-        </section>
+        <HomeTestimonials />
         <section className="clonescript-showcase-section vc_section vc_custom_1745486374572 vc_section-has-fill">
           <TeamToolsBanner />
         </section>
         <OurServices />
         <section className="clonescript-solutions-section vc_section">
+          <ProductCategoryCards />
           <ReadyMadeSolutions />
+          <ProductFinder />
           <ViewAllProductsBanner />
           <TechStackBanner />
+          <ProcessSnapshot />
           <DevProcess />
         </section>
         <section className="clonescript-connect-section vc_section vc_custom_1745486388430 vc_section-has-fill">
           <ConnectWithUs />
         </section>
+        <LaunchCta
+          heading="Ready to Launch Your Next Big Idea? Let's Build It Together."
+        />
       </div>
     </main>
   )

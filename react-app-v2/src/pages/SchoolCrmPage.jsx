@@ -14,6 +14,8 @@ import TrustedByBadges from '../components/shared/TrustedByBadges.jsx'
 import BlockquoteTestimonials from '../components/shared/BlockquoteTestimonials.jsx'
 import ComparisonTable from '../components/shared/ComparisonTable.jsx'
 import PdfDownloadCta from '../components/shared/PdfDownloadCta.jsx'
+import GuideCoverArt from '../components/shared/GuideCoverArt.jsx'
+import DashboardMockup from '../components/schoolCrm/DashboardMockup.jsx'
 import StandOutFeaturesGrid from '../components/shared/StandOutFeaturesGrid.jsx'
 import SimpleIconGrid from '../components/shared/SimpleIconGrid.jsx'
 import TechStackRow from '../components/shared/TechStackRow.jsx'
@@ -28,9 +30,27 @@ import BlogTeaser from '../components/shared/BlogTeaser.jsx'
 import './SchoolCrmPage.css'
 
 const dashboards = [
-  { label: 'Admin Dashboard', email: 'admin@gmail.com', password: '12345678', url: siteContact.cloneDemoUrl },
-  { label: 'Teacher Dashboard', email: 'teacher@gmail.com', password: 'password123', url: siteContact.cloneDemoUrl },
-  { label: 'Parent Dashboard', email: 'parent@gmail.com', password: 'password123', url: siteContact.cloneDemoUrl },
+  {
+    label: 'Admin Dashboard',
+    email: 'admin@gmail.com',
+    password: '12345678',
+    url: siteContact.cloneDemoUrl,
+    visual: <DashboardMockup role="Admin" accent="#2457f5" avatarIcon="fa-user-shield" stats={[{ value: '1,240', label: 'Students' }, { value: '86', label: 'Staff' }]} />,
+  },
+  {
+    label: 'Teacher Dashboard',
+    email: 'teacher@gmail.com',
+    password: 'password123',
+    url: siteContact.cloneDemoUrl,
+    visual: <DashboardMockup role="Teacher" accent="#7135e8" avatarIcon="fa-chalkboard-user" stats={[{ value: '32', label: 'Students' }, { value: '96%', label: 'Attendance' }]} />,
+  },
+  {
+    label: 'Parent Dashboard',
+    email: 'parent@gmail.com',
+    password: 'password123',
+    url: siteContact.cloneDemoUrl,
+    visual: <DashboardMockup role="Parent" accent="#e72ad4" avatarIcon="fa-user" stats={[{ value: '2', label: 'Children' }, { value: 'A+', label: 'Latest Grade' }]} />,
+  },
 ]
 
 export default function SchoolCrmPage() {
@@ -64,6 +84,24 @@ export default function SchoolCrmPage() {
         <PdfDownloadCta
           heading="Grab Our Best School CRM Features Document Now!"
           desc="One Click to Get Our School CRM Product's Complete Knowledge."
+          media={(
+            <GuideCoverArt
+              brand="CloneScript"
+              titleLine1="School Management"
+              titleLine2="Software Suite"
+              tagline="Core Modules &middot; Live Demo &middot; Tech Stack"
+              badge="Cloud-Based"
+              gradientFrom="#3b5bff"
+              gradientVia="#1e3fc4"
+              gradientTo="#0a1f6e"
+              accentColor="#ffc233"
+              features={[
+                { icon: '≡', label: 'Core Modules' },
+                { icon: '▶', label: 'Live Demo' },
+                { icon: '⚙', label: 'Tech Stack' },
+              ]}
+            />
+          )}
         />
 
         <SimpleIconGrid items={standardFeatures} title="Standard Features of School CRM" columns={3} iconColor="#002692" />
