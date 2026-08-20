@@ -39,7 +39,7 @@ export default function AddOnFeaturesFlip() {
                         <div className="ld-flipbox-face ld-flipbox-front">
                           <span className="ld-flipbox-overlay ld-overlay"></span>
                           <div className="ld-flipbox-inner">
-                            <div className="iconbox iconbox-heading-md" style={{ color: '#4aceff' }}>
+                            <div className="iconbox iconbox-heading-md" style={{ color: '#4f46e5' }}>
                               <div className="iconbox-icon-wrap">
                                 <span className="iconbox-icon-container"><i className={f.icon}></i></span>
                               </div>
@@ -52,7 +52,7 @@ export default function AddOnFeaturesFlip() {
                           <div className="ld-flipbox-inner">
                             <div className="wpb_text_column wpb_content_element">
                               <div className="wpb_wrapper">
-                                <p style={{ textAlign: 'center' }}><span style={{ color: '#101b48' }}>{f.desc}</span></p>
+                                <p style={{ textAlign: 'center' }}><span style={{ color: '#475569' }}>{f.desc}</span></p>
                               </div>
                             </div>
                           </div>

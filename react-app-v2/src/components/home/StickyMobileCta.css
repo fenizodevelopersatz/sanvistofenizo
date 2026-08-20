@@ -26,7 +26,7 @@
     width: 100%;
     padding: 13px 16px;
     border-radius: 999px;
-    background: linear-gradient(110deg, #1239ff, #5241ff, #c05cf1);
+    background: var(--clonescript-btn-primary, #4f46e5);
     color: #fff;
     font-weight: 700;
     font-size: 15px;

@@ -49,6 +49,9 @@ export default function RevenueBenefits({ heading = 'Revenue Benefits', subheadi
               </Reveal>
             ))}
           </div>
+          <span className="revenue-benefits__arrow revenue-benefits__arrow--left" aria-hidden="true">
+            <i className="fas fa-long-arrow-alt-right"></i>
+          </span>
           {image && (
             <div className="wpb_column vc_column_container vc_col-sm-6 revenue-benefits__media">
               <div className="revenue-benefits__image-wrap">
@@ -56,6 +59,9 @@ export default function RevenueBenefits({ heading = 'Revenue Benefits', subheadi
               </div>
             </div>
           )}
+          <span className="revenue-benefits__arrow revenue-benefits__arrow--right" aria-hidden="true">
+            <i className="fas fa-long-arrow-alt-left"></i>
+          </span>
           <div className="wpb_column vc_column_container vc_col-sm-3 revenue-benefits__column revenue-benefits__column--right">
             {right.map((f, i) => (
               <Reveal direction="right" delay={0.1 * i} key={i}>

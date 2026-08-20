@@ -24,21 +24,21 @@
 }
 
 .cs-decor__blob--1 {
-  top: -8%;
-  left: -6%;
-  width: 320px;
-  height: 320px;
-  background: radial-gradient(circle, #eee9ff, rgba(238, 233, 255, 0) 70%);
-  opacity: 0.8;
+  top: -6%;
+  left: -8%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle at 35% 35%, rgba(139, 92, 246, 0.4), rgba(91, 141, 239, 0.18) 55%, transparent 72%);
+  opacity: 0.9;
 }
 
 .cs-decor__blob--2 {
   bottom: -10%;
   right: -8%;
-  width: 380px;
-  height: 380px;
-  background: radial-gradient(circle, #eaf2ff, rgba(234, 242, 255, 0) 70%);
-  opacity: 0.8;
+  width: 440px;
+  height: 440px;
+  background: radial-gradient(circle at 65% 65%, rgba(91, 141, 239, 0.32), rgba(232, 62, 188, 0.14) 55%, transparent 72%);
+  opacity: 0.9;
 }
 
 .cs-decor__blob--3 {
@@ -152,7 +152,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .cs-decor__rocket,
   .cs-decor__chart {
     display: none;

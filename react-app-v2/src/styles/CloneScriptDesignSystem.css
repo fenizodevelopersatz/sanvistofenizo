@@ -1,14 +1,18 @@
 :root {
-  --clonescript-ink: #111936;
-  --clonescript-text: #3d4358;
-  --clonescript-muted: #667085;
-  --clonescript-blue: #0038c9;
-  --clonescript-blue-dark: #002a98;
-  --clonescript-violet: #a853ef;
+  /* Softer, low-saturation palette -- easier on the eyes for long viewing,
+     still blue/purple brand identity but no neon/highly-saturated tones.
+     ink/text/muted/canvas/line are exact Tailwind slate-900/600/500/50/200. */
+  --clonescript-ink: #172554;
+  --clonescript-text: #475569;
+  --clonescript-muted: #64748b;
+  --clonescript-blue: #4f6ef7;
+  --clonescript-blue-dark: #4f46e5;
+  --clonescript-violet: #8b7cf6;
+  --clonescript-accent-soft: #c084fc;
   --clonescript-surface: #fff;
-  --clonescript-surface-soft: #f5f7ff;
-  --clonescript-canvas: #f8f8ff;
-  --clonescript-line: #dfe4f2;
+  --clonescript-surface-soft: #eef2ff;
+  --clonescript-canvas: #f8fafc;
+  --clonescript-line: #e2e8f0;
   --clonescript-font: 'Poppins', 'Segoe UI', Arial, sans-serif;
   --clonescript-container: 1170px;
   --clonescript-gutter: clamp(20px, 4vw, 48px);
@@ -18,13 +22,15 @@
   --clonescript-radius-lg: clamp(20px, 2.4vw, 28px);
   --clonescript-shadow-sm: 0 8px 24px rgb(16 27 72 / 8%);
   --clonescript-ease: cubic-bezier(0.22, 1, 0.36, 1);
-  /* Premium SaaS accent gradient (headings, CTAs, gradient badges) --
-     distinct from --clonescript-blue/-violet, which drive the older
-     nav/button styling and stay unchanged to avoid a sitewide button-color
-     shift. */
-  --clonescript-brand-from: #3157f5;
-  --clonescript-brand-via: #7138e8;
-  --clonescript-brand-to: #e62ccf;
+  /* Solid primary-button color (spec explicitly wants flat buttons here,
+     not a gradient) and a soft card-background gradient, kept as separate
+     tokens from --clonescript-blue/-violet (still used for icons/links)
+     so button vs. accent colors can be tuned independently. */
+  --clonescript-btn-primary: #4f46e5;
+  --clonescript-card-gradient: linear-gradient(135deg, #eef2ff 0%, #f3e8ff 100%);
+  --clonescript-brand-from: #4f6ef7;
+  --clonescript-brand-via: #8b7cf6;
+  --clonescript-brand-to: #8b7cf6;
   --clonescript-brand-gradient: linear-gradient(110deg, var(--clonescript-brand-from), var(--clonescript-brand-via), var(--clonescript-brand-to));
 }
 
@@ -32,8 +38,12 @@ html { color-scheme: light; scroll-behavior: smooth; }
 
 body {
   min-width: 320px;
-  background: var(--clonescript-canvas);
-  color: var(--clonescript-text);
+  /* !important: a same-specificity `body{background-color:#fff}` rule in the
+     vendored litespeed bundle loads later (dynamically, per-route) and wins
+     the cascade tie otherwise -- confirmed via a direct stylesheet-rule scan,
+     not assumed. */
+  background: var(--clonescript-canvas) !important;
+  color: var(--clonescript-text) !important;
   font-family: var(--clonescript-font);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

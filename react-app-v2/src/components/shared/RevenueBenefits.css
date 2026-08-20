@@ -10,7 +10,7 @@
 
 .revenue-benefits__layout {
   display: grid;
-  grid-template-columns: minmax(220px, 1fr) minmax(280px, 1.25fr) minmax(220px, 1fr);
+  grid-template-columns: minmax(190px, 1fr) auto minmax(280px, 1.25fr) auto minmax(190px, 1fr);
   gap: var(--revenue-benefits-gap);
   align-items: center;
   justify-items: center;
@@ -79,6 +79,25 @@
   width: 100% !important;
 }
 
+.revenue-benefits__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--revenue-benefits-arrow-color, #f0a500);
+  font-size: clamp(28px, 3vw, 44px);
+  line-height: 1;
+  filter: drop-shadow(0 8px 12px rgba(19, 47, 103, 0.12));
+  pointer-events: none;
+}
+
+.revenue-benefits__arrow--left {
+  grid-column: 2;
+}
+
+.revenue-benefits__arrow--right {
+  grid-column: 4;
+}
+
 .revenue-benefits__image-wrap {
   width: min(100%, 560px);
   display: flex;
@@ -101,6 +120,10 @@
   .revenue-benefits__media {
     grid-column: 1 / -1;
     order: 1;
+  }
+
+  .revenue-benefits__arrow {
+    display: none;
   }
 
   .revenue-benefits__column--left {

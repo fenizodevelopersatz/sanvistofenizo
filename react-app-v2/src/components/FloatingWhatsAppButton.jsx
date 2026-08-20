@@ -14,6 +14,7 @@ export default function FloatingWhatsAppButton() {
         >
           <span className="btn-icon">
             <i className="fab fa-whatsapp" aria-hidden="true"></i>
+            <span className="clonescript-whatsapp-badge" aria-hidden="true">2</span>
           </span>
           <span className="mob_schedule_wa slide-left">
             Chat with us <span style={{ fontSize: 20 }}>👋</span>

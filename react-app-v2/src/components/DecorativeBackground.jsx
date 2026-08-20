@@ -17,17 +17,17 @@ export default function DecorativeBackground() {
       <svg className="cs-decor__curves" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <linearGradient id="cs-curve-a" x1="0%" y1="100%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#8b5cf6" stopOpacity="0.5" />
-            <stop offset="100%" stopColor="#e83ebc" stopOpacity="0.12" />
+            <stop offset="0%" stopColor="#8b5cf6" stopOpacity="0.75" />
+            <stop offset="100%" stopColor="#e83ebc" stopOpacity="0.25" />
           </linearGradient>
           <linearGradient id="cs-curve-b" x1="0%" y1="100%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#6c3bff" stopOpacity="0.4" />
-            <stop offset="100%" stopColor="#e83ebc" stopOpacity="0.08" />
+            <stop offset="0%" stopColor="#6c3bff" stopOpacity="0.65" />
+            <stop offset="100%" stopColor="#e83ebc" stopOpacity="0.18" />
           </linearGradient>
         </defs>
-        <path d="M40,380 C160,300 220,220 260,160 C300,100 360,60 480,20" stroke="url(#cs-curve-a)" strokeWidth="2.5" fill="none" />
-        <path d="M0,300 C120,260 180,180 240,120 C300,60 380,30 500,10" stroke="url(#cs-curve-b)" strokeWidth="2" fill="none" />
-        <path d="M80,400 C200,340 260,260 320,190 C380,120 420,80 500,50" stroke="url(#cs-curve-a)" strokeWidth="1.5" fill="none" opacity="0.6" />
+        <path d="M40,380 C160,300 220,220 260,160 C300,100 360,60 480,20" stroke="url(#cs-curve-a)" strokeWidth="3.5" fill="none" />
+        <path d="M0,300 C120,260 180,180 240,120 C300,60 380,30 500,10" stroke="url(#cs-curve-b)" strokeWidth="3" fill="none" />
+        <path d="M80,400 C200,340 260,260 320,190 C380,120 420,80 500,50" stroke="url(#cs-curve-a)" strokeWidth="2" fill="none" opacity="0.8" />
       </svg>
 
       <div className="cs-decor__rocket">
