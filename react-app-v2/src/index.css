@@ -3,6 +3,34 @@ body {
   margin: 0;
 }
 
+/* "Big box" flip-feature grids (Fiverr/OLX/Udemy "Add-On Features" --
+   AddOnFeaturesFlip.jsx / FreeAddOnFeatures.jsx, all sharing this same
+   vendored .ld-flipbox markup). The gradient/white-back CSS the original
+   theme shipped for this targets WPBakery instance-ID classes that don't
+   exist in this JSX, so both faces were silently falling back to a flat
+   var(--color-primary) blue -- including the back face, which has inline
+   black description text (see AddOnFeaturesFlip.jsx) and needs a light
+   background to be legible at all. !important because a later-loaded
+   stylesheet (shared-*.css) sets the flat blue with equal/higher
+   specificity. Scoped to .ld-flipbox-face (iconbox-heading-md only) so it
+   never touches the small icon grids (SimpleIconGrid/StandOutFeaturesGrid),
+   which use iconbox-heading-xs instead. */
+.ld-flipbox-face.ld-flipbox-front {
+  background: var(--clonescript-brand-gradient, linear-gradient(135deg, #3157f5, #7138e8, #e62ccf)) !important;
+  border-radius: var(--clonescript-radius-lg, 22px) !important;
+  box-shadow: 0 20px 44px -18px rgba(76, 41, 196, 0.45);
+}
+
+.ld-flipbox-face.ld-flipbox-back {
+  background: #fff !important;
+  border-radius: var(--clonescript-radius-lg, 22px) !important;
+  box-shadow: 0 20px 44px -18px rgba(16, 27, 72, 0.2);
+}
+
+.ld-flipbox.ld-flipbox-shadow-onhover:hover .ld-flipbox-wrap {
+  box-shadow: 0 30px 60px -16px rgba(76, 41, 196, 0.5) !important;
+}
+
 /* Defensive: the vendored header's Bootstrap-style .row/.col grid uses
    negative gutter margins that bleed past the viewport at some breakpoints
    (confirmed independent of DecorativeBackground and reproducible on every

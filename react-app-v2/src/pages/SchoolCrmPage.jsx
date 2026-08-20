@@ -36,14 +36,16 @@ const dashboards = [
     email: 'admin@gmail.com',
     password: '12345678',
     url: siteContact.cloneDemoUrl,
-    visual: <DashboardMockup role="Admin" accent="#2457f5" avatarIcon="fa-user-shield" stats={[{ value: '1,240', label: 'Students' }, { value: '86', label: 'Staff' }]} />,
+    image: '/wp-content/school/school-dashboard-preview.png',
+    imageAlt: 'School CRM admin dashboard with student, mentor, and attendance overview',
   },
   {
     label: 'Teacher Dashboard',
     email: 'teacher@gmail.com',
     password: 'password123',
     url: siteContact.cloneDemoUrl,
-    visual: <DashboardMockup role="Teacher" accent="#7135e8" avatarIcon="fa-chalkboard-user" stats={[{ value: '32', label: 'Students' }, { value: '96%', label: 'Attendance' }]} />,
+    image: '/wp-content/school/school-analytics-preview.png',
+    imageAlt: 'School CRM mentor analytics with teaching-level and gender distribution charts',
   },
   {
     label: 'Parent Dashboard',
