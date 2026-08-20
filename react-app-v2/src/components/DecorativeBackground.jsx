@@ -2,25 +2,32 @@ import './DecorativeBackground.css'
 
 // Sitewide ambient backdrop -- fixed behind all page content (see .cs-decor
 // z-index:-1 in the CSS, and the transparent .clonescript-site override in
-// CloneScriptDesignSystem.css that lets it show through). Pure CSS/SVG, no
-// images, so it stays lightweight and never blocks interaction.
+// CloneScriptDesignSystem.css that lets it show through). Deliberately
+// static (no animation) and concentrated at the edges per spec: soft
+// central glow, a dot grid upper-left, violet-to-pink contour lines
+// upper-right, and a few large soft blobs -- center stays clean/white.
 export default function DecorativeBackground() {
   return (
     <div className="cs-decor" aria-hidden="true">
-      <span className="cs-decor__orb cs-decor__orb--1" />
-      <span className="cs-decor__orb cs-decor__orb--2" />
-      <span className="cs-decor__orb cs-decor__orb--3" />
-      <span className="cs-decor__orb cs-decor__orb--4" />
-      <span className="cs-decor__orb cs-decor__orb--5" />
-      <span className="cs-decor__glass" />
-      <span className="cs-decor__dots cs-decor__dots--tl" />
-      <span className="cs-decor__dots cs-decor__dots--br" />
-      <div className="cs-decor__accent cs-decor__accent--1"><span /></div>
-      <div className="cs-decor__accent cs-decor__accent--2"><span /></div>
-      <div className="cs-decor__accent cs-decor__accent--3"><span /></div>
-      <svg className="cs-decor__lines" viewBox="0 0 1440 900" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M-50,620 C250,520 420,720 720,580 C980,460 1150,620 1490,520" fill="none" stroke="#E72AD4" strokeOpacity="0.14" strokeWidth="2" />
-        <path d="M-50,180 C300,90 520,280 820,140 C1050,40 1200,190 1490,110" fill="none" stroke="#7135E8" strokeOpacity="0.12" strokeWidth="2" />
+      <span className="cs-decor__glow" />
+      <span className="cs-decor__blob cs-decor__blob--1" />
+      <span className="cs-decor__blob cs-decor__blob--2" />
+      <span className="cs-decor__blob cs-decor__blob--3" />
+      <span className="cs-decor__dots" />
+      <svg className="cs-decor__curves" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="cs-curve-a" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stopColor="#8b5cf6" stopOpacity="0.5" />
+            <stop offset="100%" stopColor="#e83ebc" stopOpacity="0.12" />
+          </linearGradient>
+          <linearGradient id="cs-curve-b" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stopColor="#6c3bff" stopOpacity="0.4" />
+            <stop offset="100%" stopColor="#e83ebc" stopOpacity="0.08" />
+          </linearGradient>
+        </defs>
+        <path d="M40,380 C160,300 220,220 260,160 C300,100 360,60 480,20" stroke="url(#cs-curve-a)" strokeWidth="2.5" fill="none" />
+        <path d="M0,300 C120,260 180,180 240,120 C300,60 380,30 500,10" stroke="url(#cs-curve-b)" strokeWidth="2" fill="none" />
+        <path d="M80,400 C200,340 260,260 320,190 C380,120 420,80 500,50" stroke="url(#cs-curve-a)" strokeWidth="1.5" fill="none" opacity="0.6" />
       </svg>
     </div>
   )

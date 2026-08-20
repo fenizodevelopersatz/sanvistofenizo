@@ -20,11 +20,11 @@
   border-bottom: 1px solid var(--clonescript-line, #dfe4f2);
 }
 
-.cs-dash-mock__dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: #dfe4f2;
+.cs-dash-mock__brand {
+  font-weight: 800;
+  font-size: clamp(9px, 2vw, 12px);
+  color: var(--clonescript-ink, #111936);
+  letter-spacing: -0.01em;
 }
 
 .cs-dash-mock__user {
@@ -102,21 +102,18 @@
   text-overflow: ellipsis;
 }
 
-.cs-dash-mock__rows {
+.cs-dash-mock__chart {
   flex: 1;
+  min-height: 0;
   display: flex;
-  flex-direction: column;
-  gap: 8px;
-  justify-content: center;
+  align-items: flex-end;
+  gap: clamp(4px, 1.4cqw, 10px);
+  padding: 10px 4px 0;
+  border-top: 1px solid var(--clonescript-line, #dfe4f2);
 }
 
-.cs-dash-mock__rows span {
-  display: block;
-  height: 10px;
-  border-radius: 4px;
-  background: #eef1fa;
+.cs-dash-mock__chart span {
+  flex: 1;
+  min-height: 6%;
+  border-radius: 4px 4px 1px 1px;
 }
-
-.cs-dash-mock__rows span:nth-child(1) { width: 92%; }
-.cs-dash-mock__rows span:nth-child(2) { width: 78%; }
-.cs-dash-mock__rows span:nth-child(3) { width: 85%; }

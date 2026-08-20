@@ -1,4 +1,6 @@
 import TextRotator from '../shared/TextRotator.jsx'
+import SchoolCrmHeroVisual from './SchoolCrmHeroVisual.jsx'
+import './SchoolCrmHero.css'
 
 const rotatingKeywords = [
   { text: 'Cloud-Based', color: 'rgb(255, 87, 87)' },
@@ -9,33 +11,31 @@ const rotatingKeywords = [
 
 export default function SchoolCrmHero() {
   return (
-    <section className="vc_row wpb_row vc_row-fluid sv_first_row liquid-row-shadowbox">
+    <section className="cs-schoolcrm-hero vc_row wpb_row vc_row-fluid sv_first_row liquid-row-shadowbox vc_row-o-content-middle vc_row-flex">
       <div className="ld-container container">
         <div className="row ld-row">
-          <div className="wpb_column vc_column_container vc_col-sm-1"><div className="vc_column-inner"><div className="wpb_wrapper"><div className="wpb_wrapper-inner"></div></div></div></div>
-          <div className="wpb_column vc_column_container vc_col-sm-10 text-center">
+          <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-0 vc_col-md-6 vc_col-xs-offset-1 vc_col-xs-10">
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="ld-fancy-heading text-center">
-                    <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
+                  <div className="ld-fancy-heading text-left">
+                    <h1 className="cs-schoolcrm-hero__heading lqd-highlight-underline lqd-highlight-grow-left">
                       <span className="ld-fh-txt">
-                        <span style={{ color: '#002692' }}>School CRM</span>
+                        <span style={{ color: '#3157f5' }}>School CRM</span>
                         <br />
                         <span className="hero-heading">The All-in-One School Management System!</span>
-                        <br />
                       </span>
                     </h1>
                   </div>
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
-                      <p style={{ textAlign: 'center' }}>
+                      <p className="cs-schoolcrm-hero__desc" style={{ textAlign: 'left' }}>
                         <span style={{ fontWeight: 400 }}>School CRM is a cloud-based school management software that brings admissions, attendance, fees, exams, and parent communication together on one secure platform.</span>
                       </p>
                     </div>
                   </div>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
-                  <div className="ld-fancy-heading text-center">
+                  <div className="ld-fancy-heading text-left">
                     <h4 className="lqd-highlight-underline lqd-highlight-grow-left" data-text-rotator="true">
                       <span className="ld-fh-txt">
                         {' '}
@@ -65,7 +65,15 @@ export default function SchoolCrmHero() {
               </div>
             </div>
           </div>
-          <div className="wpb_column vc_column_container vc_col-sm-1"><div className="vc_column-inner"><div className="wpb_wrapper"><div className="wpb_wrapper-inner"></div></div></div></div>
+          <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-md-offset-0 vc_col-md-6 vc_col-xs-offset-1 vc_col-xs-10 vc_hidden-xs">
+            <div className="vc_column-inner">
+              <div className="wpb_wrapper">
+                <div className="wpb_wrapper-inner">
+                  <SchoolCrmHeroVisual />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

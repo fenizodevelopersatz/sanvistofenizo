@@ -192,7 +192,7 @@ export default function VintedClonePage() {
 
         <RevenueBenefits
           items={revenueBenefits}
-          image="/wp-content/uploads/2026/04/revenue_benefits.png"
+          image="/wp-content/revenue_benefits.png"
           subheading="Boost your revenue with earning features designed to support business growth."
         />
 

@@ -27,6 +27,7 @@ import MoneyBackGuarantee from '../components/shared/MoneyBackGuarantee.jsx'
 import FaqAccordion from '../components/shared/FaqAccordion.jsx'
 import TestimonialRotatorSection from '../components/footer/TestimonialRotatorSection.jsx'
 import BlogTeaser from '../components/shared/BlogTeaser.jsx'
+import PremiumCta from '../components/shared/PremiumCta.jsx'
 import './SchoolCrmPage.css'
 
 const dashboards = [
@@ -129,7 +130,10 @@ export default function SchoolCrmPage() {
         <ProcessSteps steps={launchSteps} />
 
         <LaunchCta
-          heading="Launch Your School Management Platform Faster with Expert Support and Guidance."
+          variant="dark"
+          badge="CTA"
+          heading="Launch Your Platform"
+          desc="CloneScript School CRM is a cloud-hosted school management system with separate dashboards for admissions, attendance, and fees."
           image="/wp-content/uploads/2026/08/schoolcrm-launch-classroom.webp"
           imageAlt="Teacher assisting students with their coursework at a desk in a classroom"
         />
@@ -153,6 +157,13 @@ export default function SchoolCrmPage() {
         />
 
         <BlogTeaser />
+
+        <PremiumCta
+          heading="Ready to Transform Your School?"
+          subheading="Manage your entire school from one powerful platform."
+          buttonText="Start Your Free Demo"
+          icon="fa-graduation-cap"
+        />
       </div>
     </main>
   )

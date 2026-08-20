@@ -3,6 +3,16 @@ body {
   margin: 0;
 }
 
+/* Defensive: the vendored header's Bootstrap-style .row/.col grid uses
+   negative gutter margins that bleed past the viewport at some breakpoints
+   (confirmed independent of DecorativeBackground and reproducible on every
+   route, e.g. ~18px overflow at 768px tablet width) -- clip it at the body
+   level rather than chase it through vendored CSS, since body isn't part of
+   the header's sticky/dropdown positioning chain. */
+body {
+  overflow-x: hidden;
+}
+
 *,
 *::before,
 *::after { box-sizing: border-box; }

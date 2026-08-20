@@ -40,8 +40,8 @@ export default function TestimonialCarousel({ cardBg = '#f9f9f9', items: itemsPr
       <article className="clonescript-testimonial__card" style={{ backgroundColor: cardBg }} aria-live="polite">
         <div className="clonescript-testimonial__avatar">
           {item.image
-            ? <img src={item.image} width="60" height="60" alt={item.name} loading="eager" decoding="async" style={{ borderRadius: '50%', objectFit: 'cover' }} />
-            : <InitialsAvatar name={item.name} size={60} />}
+            ? <img src={item.image} width="64" height="64" alt={item.name} loading="eager" decoding="async" style={{ borderRadius: '50%', objectFit: 'cover' }} />
+            : <InitialsAvatar name={item.name} size={64} />}
         </div>
         <div className="clonescript-testimonial__content">
           <h3>{item.name}</h3>

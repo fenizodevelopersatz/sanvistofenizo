@@ -41,14 +41,14 @@ export default function BlockquoteTestimonials({ count = 3, offset = 0, visibleC
                           </ul>
                           <div className="testimonial-quote">
                             <blockquote>
-                              <p><span style={{ fontSize: 14, color: 'black', textAlign: 'left' }}>{item.text}</span></p>
+                              <p><span style={{ fontSize: 18, color: 'black', textAlign: 'left' }}>{item.text}</span></p>
                             </blockquote>
                           </div>
                           <div className="testimonial-details">
                             <figure className="avatar">
                               {item.image
-                                ? <img src={item.image} width="48" height="48" alt={item.name} loading="eager" decoding="async" style={{ borderRadius: '50%', objectFit: 'cover' }} />
-                                : <InitialsAvatar name={item.name} size={48} />}
+                                ? <img src={item.image} width="64" height="64" alt={item.name} loading="eager" decoding="async" style={{ borderRadius: '50%', objectFit: 'cover' }} />
+                                : <InitialsAvatar name={item.name} size={64} />}
                             </figure>
                             <div className="testimonial-info">
                               <h5>{item.name}</h5>

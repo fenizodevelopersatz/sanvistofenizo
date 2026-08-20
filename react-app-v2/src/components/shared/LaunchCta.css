@@ -55,3 +55,88 @@
     margin-top: 24px;
   }
 }
+
+/* Dark "banner" variant: solid gradient panel, full-bleed photo flush to the
+   card edge, CTA pill badge, white type. The panel/columns here are plain
+   block/float layout (not flexbox -- confirmed via computed styles; `order`
+   and `align-items` are silently no-ops on this container), so the image is
+   pulled out of flow with position:absolute and pinned to the panel's full
+   height/right edge instead of trying to flex/stretch it into place. That
+   also means source order no longer matters, so content can stay first in
+   the DOM while rendering on the left. */
+.clonescript-launch-cta--dark .clonescript-launch-cta__panel {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1239ff 0%, #0a1f6e 100%);
+  border-color: transparent;
+}
+
+.clonescript-launch-cta--dark .clonescript-launch-cta__content {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 56%;
+  padding: clamp(28px, 4vw, 54px);
+}
+
+.clonescript-launch-cta--dark .clonescript-launch-cta__image-col {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 44%;
+  padding: 0;
+}
+
+.clonescript-launch-cta--dark .clonescript-launch-cta__image-col .vc_column-inner,
+.clonescript-launch-cta--dark .clonescript-launch-cta__image-col .wpb_wrapper,
+.clonescript-launch-cta--dark .clonescript-launch-cta__image-col .wpb_wrapper-inner,
+.clonescript-launch-cta--dark .clonescript-launch-cta__image-col .wpb_single_image,
+.clonescript-launch-cta--dark .clonescript-launch-cta__image-col figure,
+.clonescript-launch-cta--dark .clonescript-launch-cta__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.clonescript-launch-cta--dark .clonescript-launch-cta__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  object-fit: cover;
+}
+
+.clonescript-launch-cta--dark .clonescript-launch-cta__badge {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 5px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.clonescript-launch-cta--dark .clonescript-launch-cta__content .fancy-title h3 {
+  color: #fff;
+}
+
+.clonescript-launch-cta--dark .clonescript-launch-cta__content .st-desc p {
+  margin: 0 0 24px;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.clonescript-launch-cta--dark .clonescript-launch-cta__content .btn.btn-solid {
+  background: #fff !important;
+  border-color: #fff !important;
+  color: #0a1f6e !important;
+}

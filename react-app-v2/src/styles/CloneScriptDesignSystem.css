@@ -1,13 +1,13 @@
 :root {
-  --clonescript-ink: #101b48;
+  --clonescript-ink: #111936;
   --clonescript-text: #3d4358;
-  --clonescript-muted: #687087;
+  --clonescript-muted: #667085;
   --clonescript-blue: #0038c9;
   --clonescript-blue-dark: #002a98;
   --clonescript-violet: #a853ef;
   --clonescript-surface: #fff;
   --clonescript-surface-soft: #f5f7ff;
-  --clonescript-canvas: #fafaff;
+  --clonescript-canvas: #f8f8ff;
   --clonescript-line: #dfe4f2;
   --clonescript-font: 'Poppins', 'Segoe UI', Arial, sans-serif;
   --clonescript-container: 1170px;
@@ -15,8 +15,17 @@
   --clonescript-section-y: clamp(68px, 7vw, 108px);
   --clonescript-section-y-compact: clamp(42px, 5vw, 72px);
   --clonescript-radius-md: 18px;
+  --clonescript-radius-lg: clamp(20px, 2.4vw, 28px);
   --clonescript-shadow-sm: 0 8px 24px rgb(16 27 72 / 8%);
   --clonescript-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  /* Premium SaaS accent gradient (headings, CTAs, gradient badges) --
+     distinct from --clonescript-blue/-violet, which drive the older
+     nav/button styling and stay unchanged to avoid a sitewide button-color
+     shift. */
+  --clonescript-brand-from: #3157f5;
+  --clonescript-brand-via: #7138e8;
+  --clonescript-brand-to: #e62ccf;
+  --clonescript-brand-gradient: linear-gradient(110deg, var(--clonescript-brand-from), var(--clonescript-brand-via), var(--clonescript-brand-to));
 }
 
 html { color-scheme: light; scroll-behavior: smooth; }
