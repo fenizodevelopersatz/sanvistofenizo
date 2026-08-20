@@ -1,6 +1,5 @@
 import { ourServicesItems } from '../../data/ourServices.js'
 import { useInView } from '../../hooks/useInView.js'
-import TeamCollabArt from './TeamCollabArt.jsx'
 
 function ServiceCard({ service }) {
   const [ref, isInView] = useInView()
@@ -66,17 +65,6 @@ export default function OurServices() {
       </section>
 
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40aa6b7">
-        <div className="ld-container container">
-          <div className="row ld-row">
-            <div className="wpb_column vc_column_container vc_col-sm-12">
-              <div className="vc_column-inner">
-                <div className="wpb_wrapper">
-                  <TeamCollabArt />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="ld-container container">
           <div className="row ld-row">
             {ourServicesItems.map((service, i) => (

@@ -10,13 +10,11 @@ import AchievementBanner from '../components/home/AchievementBanner.jsx'
 import OurServices from '../components/home/OurServices.jsx'
 import TeamToolsBanner from '../components/home/TeamToolsBanner.jsx'
 import ProductCategoryCards from '../components/home/ProductCategoryCards.jsx'
-import ProductFinder from '../components/home/ProductFinder.jsx'
 import ViewAllProductsBanner from '../components/home/ViewAllProductsBanner.jsx'
 import TechStackBanner from '../components/home/TechStackBanner.jsx'
 import ProcessSnapshot from '../components/home/ProcessSnapshot.jsx'
 import DevProcess from '../components/home/DevProcess.jsx'
 import ConnectWithUs from '../components/home/ConnectWithUs.jsx'
-import PremiumCta from '../components/shared/PremiumCta.jsx'
 import './HomePage.css'
 
 export default function HomePage() {
@@ -45,7 +43,6 @@ export default function HomePage() {
         <OurServices />
         <section className="clonescript-solutions-section vc_section">
           <ProductCategoryCards />
-          <ProductFinder />
           <ViewAllProductsBanner />
           <TechStackBanner />
           <ProcessSnapshot />
@@ -54,12 +51,6 @@ export default function HomePage() {
         <section className="clonescript-connect-section vc_section vc_custom_1745486388430 vc_section-has-fill">
           <ConnectWithUs />
         </section>
-        <PremiumCta
-          heading="Ready to Launch Your Next Big Idea?"
-          subheading="Let's build it together with a ready-to-launch script and a team that's got your back."
-          buttonText="Start Your Free Demo"
-          icon="fa-rocket"
-        />
       </div>
     </main>
   )
