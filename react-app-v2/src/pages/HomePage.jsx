@@ -2,12 +2,10 @@ import { useSeo } from '../hooks/useSeo.js'
 import { usePageStylesheets } from '../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../data/pageStylesheets.js'
 import Hero from '../components/home/Hero.jsx'
-import HeroFlourishes from '../components/home/HeroFlourishes.jsx'
 import OverviewVideo from '../components/home/OverviewVideo.jsx'
 import StarRatingBanner from '../components/home/StarRatingBanner.jsx'
 import TrustedByLogos from '../components/home/TrustedByLogos.jsx'
 import WhyWeStandOut from '../components/home/WhyWeStandOut.jsx'
-import HomeTestimonials from '../components/home/HomeTestimonials.jsx'
 import AchievementBanner from '../components/home/AchievementBanner.jsx'
 import OurServices from '../components/home/OurServices.jsx'
 import TeamToolsBanner from '../components/home/TeamToolsBanner.jsx'
@@ -29,9 +27,8 @@ export default function HomePage() {
   return (
     <main className="content clonescript-homepage" id="content">
       <div className="wpb-content-wrapper">
-        <section className="vc_section" style={{ position: 'relative' }}>
+        <section className="vc_section">
           <Hero />
-          <HeroFlourishes />
         </section>
         <section className="clonescript-milestones-section clonescript-milestones-section--after-hero vc_section">
           <AchievementBanner />
@@ -42,7 +39,6 @@ export default function HomePage() {
         </section>
         <OverviewVideo />
         <WhyWeStandOut />
-        <HomeTestimonials />
         <section className="clonescript-showcase-section vc_section vc_custom_1745486374572 vc_section-has-fill">
           <TeamToolsBanner />
         </section>

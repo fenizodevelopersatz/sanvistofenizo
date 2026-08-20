@@ -12,9 +12,9 @@
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(700px 500px at 22% 8%, rgba(108, 59, 255, 0.1), transparent 60%),
-    radial-gradient(650px 480px at 78% 6%, rgba(232, 62, 188, 0.08), transparent 60%),
-    radial-gradient(600px 500px at 50% 100%, rgba(91, 141, 239, 0.08), transparent 65%);
+    radial-gradient(700px 500px at 22% 8%, rgba(108, 59, 255, 0.13), transparent 60%),
+    radial-gradient(650px 480px at 78% 6%, rgba(232, 62, 188, 0.11), transparent 60%),
+    radial-gradient(600px 500px at 50% 100%, rgba(91, 141, 239, 0.1), transparent 65%);
 }
 
 .cs-decor__blob {
@@ -74,6 +74,69 @@
   height: auto;
 }
 
+/* Rocket, bottom-left -- speed/launch, framing page content from the corner
+   on every route (viewport-fixed, like the rest of .cs-decor). */
+.cs-decor__rocket {
+  position: absolute;
+  left: 1.5%;
+  bottom: 3%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cs-decor__rocket-glow {
+  position: absolute;
+  inset: -30%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.26), transparent 70%);
+  filter: blur(20px);
+}
+
+.cs-decor__rocket i {
+  position: relative;
+  font-size: 44px;
+  color: #7138e8;
+  transform: rotate(-40deg);
+  filter: drop-shadow(0 10px 16px rgba(113, 56, 232, 0.35));
+}
+
+/* Ascending growth chart, bottom-right -- the "vertical trading chart"
+   counterpart to the rocket. */
+.cs-decor__chart {
+  position: absolute;
+  right: 2%;
+  bottom: 4%;
+  width: 128px;
+  height: 96px;
+}
+
+.cs-decor__chart-bars {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  gap: 9px;
+}
+
+.cs-decor__chart-bars span {
+  flex: 1;
+  border-radius: 6px 6px 2px 2px;
+  background: linear-gradient(180deg, #8b5cf6, #5b8def);
+  opacity: 0.85;
+}
+
+.cs-decor__chart-arrow {
+  position: absolute;
+  top: -14px;
+  right: 4px;
+  font-size: 22px;
+  color: #e83ebc;
+  filter: drop-shadow(0 6px 10px rgba(232, 62, 188, 0.3));
+}
+
 @media (max-width: 767px) {
   .cs-decor__dots {
     width: 55vw;
@@ -85,6 +148,13 @@
   }
 
   .cs-decor__blob--3 {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .cs-decor__rocket,
+  .cs-decor__chart {
     display: none;
   }
 }

@@ -29,6 +29,20 @@ export default function DecorativeBackground() {
         <path d="M0,300 C120,260 180,180 240,120 C300,60 380,30 500,10" stroke="url(#cs-curve-b)" strokeWidth="2" fill="none" />
         <path d="M80,400 C200,340 260,260 320,190 C380,120 420,80 500,50" stroke="url(#cs-curve-a)" strokeWidth="1.5" fill="none" opacity="0.6" />
       </svg>
+
+      <div className="cs-decor__rocket">
+        <span className="cs-decor__rocket-glow" />
+        <i className="fas fa-rocket" aria-hidden="true"></i>
+      </div>
+      <div className="cs-decor__chart">
+        <i className="fas fa-arrow-trend-up cs-decor__chart-arrow" aria-hidden="true"></i>
+        <div className="cs-decor__chart-bars">
+          <span style={{ height: '35%' }} />
+          <span style={{ height: '55%' }} />
+          <span style={{ height: '75%' }} />
+          <span style={{ height: '95%' }} />
+        </div>
+      </div>
     </div>
   )
 }

@@ -33,8 +33,8 @@ export default function CartDropdown() {
           aria-expanded={isOpen}
           onClick={() => setIsOpen((o) => !o)}
         >
-          <span className="ld-module-trigger-icon" style={{ color: 'rgb(0, 0, 0)' }}>
-            <i className="fa fa-brands fa-opencart"></i>
+          <span className="ld-module-trigger-icon" style={{ color: '#7138e8' }}>
+            <i className="fa fa-solid fa-cart-shopping"></i>
           </span>
           <span className="ld-module-trigger-count header-cart-fragments">{count}</span>
         </span>
