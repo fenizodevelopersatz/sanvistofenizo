@@ -58,7 +58,7 @@ export default function UberHero() {
                   <div className="wpb_single_image wpb_content_element vc_align_center">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2025/08/taxibooking-3.webp" width="998" height="679" className="vc_single_image-img attachment-full" alt="Uber Clone" title="Uber Clone" loading="lazy" />
+                        <img src="/wp-content/uploads/2025/08/taxibooking-3.png" width="998" height="679" className="vc_single_image-img attachment-full" alt="Uber Clone" title="Uber Clone" loading="lazy" />
                       </div>
                     </figure>
                   </div>

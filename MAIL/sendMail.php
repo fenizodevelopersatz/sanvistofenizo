@@ -5,16 +5,35 @@ use PHPMailer\PHPMailer\Exception;
 
 require 'vendor/autoload.php';
 
-// TODO: move these off of the filesystem and into real environment
-// variables before this ever reaches a public server.
-$smtpHost     = 'smtp.hostinger.com';
-$smtpUsername = 'enquirie@fenizomlmsoft.com';
-$smtpPassword = 'tquRBj4~';
-$smtpPort     = 465;
+// Minimal .env loader (no composer dependency) -- mirrors the
+// react-app-v2/.env convention. KEY=VALUE lines only, '#' comments ignored.
+function loadEnvFile(string $path): void
+{
+    if (!is_file($path)) {
+        return;
+    }
+    foreach (file($path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) as $line) {
+        $line = trim($line);
+        if ($line === '' || str_starts_with($line, '#') || !str_contains($line, '=')) {
+            continue;
+        }
+        [$key, $value] = explode('=', $line, 2);
+        $key = trim($key);
+        if (getenv($key) === false) {
+            putenv($key . '=' . trim($value));
+        }
+    }
+}
 
-// TODO: replace with the real inbox that should receive demo-request leads.
-$recipientEmail = 'phptestingtls@gmail.com';
-$recipientName  = 'CloneScript Team';
+loadEnvFile(__DIR__ . '/.env');
+
+$smtpHost     = getenv('SMTP_HOST') ?: '';
+$smtpUsername = getenv('SMTP_USERNAME') ?: '';
+$smtpPassword = getenv('SMTP_PASSWORD') ?: '';
+$smtpPort     = (int) (getenv('SMTP_PORT') ?: 465);
+
+$recipientEmail = getenv('RECIPIENT_EMAIL') ?: '';
+$recipientName  = getenv('RECIPIENT_NAME') ?: 'CloneScript Team';
 
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST, OPTIONS');
@@ -25,6 +44,16 @@ header('Access-Control-Allow-Headers: Content-Type');
 // the request as a CORS failure even though the Allow-Origin header is correct.
 header('Access-Control-Allow-Private-Network: true');
 header('Content-Type: application/json; charset=utf-8');
+
+// Config check happens after the CORS headers above so the error response
+// itself is still readable by the browser instead of being blocked as a
+// CORS failure.
+if ($smtpHost === '' || $smtpUsername === '' || $smtpPassword === '' || $recipientEmail === '') {
+    http_response_code(500);
+    error_log('sendMail.php: missing SMTP config -- copy MAIL/.env.example to MAIL/.env and fill it in.');
+    echo json_encode(['success' => false, 'message' => 'Mail is not configured on the server.']);
+    exit;
+}
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(204);
