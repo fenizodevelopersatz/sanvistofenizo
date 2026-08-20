@@ -18,7 +18,7 @@ export default function TinderShowcase() {
 
       <figure className="cs-tinder-showcase__frame">
         <img
-          src="/wp-content/uploads/2025/09/best-dating-script.webp"
+          src="/wp-content/uploads/2025/09/tinder-banner-image.png"
           alt="Tinder clone app preview showing post creation and profile screens"
           loading="lazy"
           decoding="async"
