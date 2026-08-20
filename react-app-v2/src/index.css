@@ -3,6 +3,48 @@ body {
   margin: 0;
 }
 
+/* Moved to the left edge (vendored default is right:3%, right:20px on
+   mobile -- see shared-713aa8f4.css); !important since neither vendored
+   rule uses it and load order between dynamically-injected page bundles
+   isn't reliable enough to trust a plain override here. */
+.float_social {
+  left: 3% !important;
+  right: auto !important;
+}
+
+@media (max-width: 767px) {
+  .float_social {
+    left: 20px !important;
+    right: auto !important;
+  }
+}
+
+/* The "Chat with us" hover tooltip and its slide-left drift animation
+   (shared-713aa8f4.css) both assumed the button sits on the right edge,
+   sliding text further left/inward on hover. Mirrored so it drifts right/
+   inward now that the button is on the left instead. Scoped to
+   .float_social -- confirmed .slide-left/.mob_schedule_wa aren't reused
+   anywhere else in src/, so this can't affect anything else. */
+.float_social .mob_schedule_wa {
+  right: auto !important;
+  left: -10% !important;
+  transform: translateX(40%) translateY(-10px) !important;
+}
+
+.float_social .whatlink:hover .mob_schedule_wa {
+  transform: translateX(50%) translateY(-10px) !important;
+}
+
+.float_social .slide-left {
+  animation-name: cs-whatsapp-slide-right !important;
+}
+
+@keyframes cs-whatsapp-slide-right {
+  0% { transform: translateX(0); }
+  16.67% { transform: translateX(100px); }
+  100% { transform: translateX(100px); }
+}
+
 /* Notification-style badge on the floating WhatsApp button, matching the
    header cart's count-badge treatment. */
 .float_social .btn-icon {
