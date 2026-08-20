@@ -23,6 +23,7 @@ import LiveDemoTabs from '../components/shared/LiveDemoTabs.jsx'
 import PricingPlans from '../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../components/shared/MoneyBackGuarantee.jsx'
 import FaqAccordion from '../components/shared/FaqAccordion.jsx'
+import TestimonialRotatorSection from '../components/footer/TestimonialRotatorSection.jsx'
 import BlogTeaser from '../components/shared/BlogTeaser.jsx'
 import './SchoolCrmPage.css'
 
@@ -104,6 +105,13 @@ export default function SchoolCrmPage() {
           heading="Have Doubts? Get Answers Right Here"
           subheading="Clear all your doubts about our School CRM with our extensive FAQ section."
           faqs={faqs}
+        />
+
+        <TestimonialRotatorSection
+          image="/wp-content/reviews/school-review.png"
+          imageAlt="Five School CRM customer testimonials"
+          width={1140}
+          height={760}
         />
 
         <BlogTeaser />

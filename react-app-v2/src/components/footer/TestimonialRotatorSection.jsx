@@ -1,4 +1,9 @@
-export default function TestimonialRotatorSection() {
+export default function TestimonialRotatorSection({
+  image = '/wp-content/reviews/clonescript_reviews.png',
+  imageAlt = 'Five CloneScript customer testimonials',
+  width = 1536,
+  height = 1024,
+}) {
   return (
     <>
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox-6a665a40d1c33">
@@ -61,13 +66,13 @@ export default function TestimonialRotatorSection() {
                   <div className="wpb_wrapper-inner">
                     <figure style={{ margin: 0 }}>
                       <img
-                        src="/wp-content/reviews/clonescript_reviews.png"
-                        alt="Five CloneScript customer testimonials"
-                        width="1536"
-                        height="1024"
+                        src={image}
+                        alt={imageAlt}
+                        width={width}
+                        height={height}
                         loading="lazy"
                         decoding="async"
-                        style={{ display: 'block', width: 'min(1536px, 100%)', height: 'auto', margin: '0 auto' }}
+                        style={{ display: 'block', width: `min(${width}px, 100%)`, height: 'auto', margin: '0 auto' }}
                       />
                     </figure>
                   </div>

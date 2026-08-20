@@ -1,5 +1,12 @@
 export const footerSitemap = [
   {
+    title: 'BUSINESS SOFTWARE',
+    links: [
+      ['/school-crm', 'School Management System'],
+      ['/erp-software', 'ERP Software'],
+    ],
+  },
+  {
     title: 'Rental & Booking',
     links: [
       ['#', 'Airbnb Clone'],
@@ -132,13 +139,6 @@ export const footerSitemap = [
       ['#', 'Second-Hand App'],
       ['#', 'Listings App'],
       ['/vinted-clone', 'Resale App'],
-    ],
-  },
-  {
-    title: 'BUSINESS SOFTWARE',
-    links: [
-      ['/erp-software', 'ERP Software'],
-      ['/school-crm', 'School Management System'],
     ],
   },
 ]
