@@ -3,10 +3,14 @@ import './DecorativeBackground.css'
 
 // Sitewide ambient backdrop -- fixed behind all page content (see .cs-decor
 // z-index:-1 in the CSS, and the transparent .clonescript-site override in
-// CloneScriptDesignSystem.css that lets it show through). Deliberately
-// static (no animation) and concentrated at the edges per spec: soft
-// central glow, a dot grid upper-left, violet-to-pink contour lines
-// upper-right, and a few large soft blobs -- center stays clean/white.
+// CloneScriptDesignSystem.css that lets it show through). Concentrated at
+// the edges: soft central glow, a dot grid upper-left, violet-to-pink
+// contour lines upper-right, and a few large soft blobs -- center stays
+// clean/white. Layout.jsx mounts this once per hard page load (it lives
+// above the routed <Outlet>, so client-side navigation never remounts it),
+// which is what the rocket's launch-in and the curves' draw-in below key
+// off of -- see index.html's own rocket keyframes for the pre-React loader
+// this hands off to.
 
 // Bottom-right decoration per product page, paired with the bottom-left
 // rocket -- routes not listed here (home, contact, schedule-demo) fall back
@@ -56,9 +60,9 @@ export default function DecorativeBackground() {
             <stop offset="100%" stopColor="#e83ebc" stopOpacity="0.28" />
           </linearGradient>
         </defs>
-        <path d="M40,380 C160,300 220,220 260,160 C300,100 360,60 480,20" stroke="url(#cs-curve-a)" strokeWidth="4.5" fill="none" />
-        <path d="M0,300 C120,260 180,180 240,120 C300,60 380,30 500,10" stroke="url(#cs-curve-b)" strokeWidth="4" fill="none" />
-        <path d="M80,400 C200,340 260,260 320,190 C380,120 420,80 500,50" stroke="url(#cs-curve-a)" strokeWidth="2.5" fill="none" opacity="0.9" />
+        <path className="cs-decor__curve-path cs-decor__curve-path--1" d="M40,380 C160,300 220,220 260,160 C300,100 360,60 480,20" stroke="url(#cs-curve-a)" strokeWidth="4.5" fill="none" />
+        <path className="cs-decor__curve-path cs-decor__curve-path--2" d="M0,300 C120,260 180,180 240,120 C300,60 380,30 500,10" stroke="url(#cs-curve-b)" strokeWidth="4" fill="none" />
+        <path className="cs-decor__curve-path cs-decor__curve-path--3" d="M80,400 C200,340 260,260 320,190 C380,120 420,80 500,50" stroke="url(#cs-curve-a)" strokeWidth="2.5" fill="none" opacity="0.9" />
       </svg>
 
       <div className="cs-decor__rocket">

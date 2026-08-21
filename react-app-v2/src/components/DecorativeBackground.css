@@ -70,7 +70,10 @@
 }
 
 /* Flowing contour lines, upper-right, drawn slightly past the viewport edge
-   so they read as a continuation rather than a hard border. */
+   so they read as a continuation rather than a hard border. Each path draws
+   itself in on mount (stroke-dashoffset 0 -> visible), staggered so they
+   trail one another rather than snapping in together, then settles into a
+   slow continuous drift so the corner doesn't go fully static once drawn. */
 .cs-decor__curves {
   position: absolute;
   top: -5%;
@@ -79,8 +82,34 @@
   height: auto;
 }
 
+.cs-decor__curve-path {
+  stroke-dasharray: 900;
+  stroke-dashoffset: 900;
+  animation:
+    cs-decor-curve-draw 1.6s cubic-bezier(0.22, 1, 0.36, 1) both,
+    cs-decor-curve-drift 7s ease-in-out 1.6s infinite;
+}
+
+.cs-decor__curve-path--1 { animation-delay: 0.15s, 1.75s; }
+.cs-decor__curve-path--2 { animation-delay: 0.35s, 1.95s; }
+.cs-decor__curve-path--3 { animation-delay: 0.55s, 2.15s; }
+
+@keyframes cs-decor-curve-draw {
+  from { stroke-dashoffset: 900; }
+  to   { stroke-dashoffset: 0; }
+}
+
+@keyframes cs-decor-curve-drift {
+  0%, 100% { transform: translate(0, 0); }
+  50%      { transform: translate(-6px, 5px); }
+}
+
 /* Rocket, bottom-left -- speed/launch, framing page content from the corner
-   on every route (viewport-fixed, like the rest of .cs-decor). */
+   on every route (viewport-fixed, like the rest of .cs-decor). Launches in
+   from below the viewport on mount -- i.e. on every hard page load, since
+   Layout.jsx never remounts this for client-side navigation -- picking up
+   where index.html's own pre-React rocket loader hands off, then settles
+   into a slow idle bob so the corner still feels alive once it lands. */
 .cs-decor__rocket {
   position: absolute;
   left: 1.5%;
@@ -90,6 +119,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  animation:
+    cs-decor-rocket-enter 1.1s cubic-bezier(0.22, 1, 0.36, 1) both,
+    cs-decor-rocket-idle 4.5s ease-in-out 1.1s infinite;
+}
+
+@keyframes cs-decor-rocket-enter {
+  0%   { transform: translateY(160%) scale(0.85); opacity: 0; }
+  65%  { transform: translateY(-6%) scale(1.02); opacity: 1; }
+  100% { transform: translateY(0) scale(1); opacity: 1; }
+}
+
+@keyframes cs-decor-rocket-idle {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-5px); }
 }
 
 .cs-decor__rocket-glow {
@@ -189,6 +232,17 @@
 
   .cs-decor__blob--3 {
     display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cs-decor__rocket {
+    animation: none;
+  }
+
+  .cs-decor__curve-path {
+    animation: none;
+    stroke-dashoffset: 0;
   }
 }
 

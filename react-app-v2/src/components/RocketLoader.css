@@ -8,7 +8,7 @@
 .cs-rocket-loader__stage {
   position: relative;
   width: 140px;
-  height: 220px;
+  height: 260px;
   overflow: hidden;
 }
 
@@ -29,13 +29,19 @@
   filter: drop-shadow(0 14px 20px rgba(16, 27, 72, 0.28));
 }
 
+/* Amplitude stays inside the stage's own bounds (previous ±130% pushed the
+   ship almost entirely past the overflow:hidden edges for most of the loop,
+   so a random moment showed only a clipped sliver -- nose or fin, no fill,
+   no flame, no window). ±46% keeps the fully-illustrated ship on screen for
+   the bulk of every cycle; only the two endpoints clip slightly, reading as
+   "just launching in" / "just exiting" rather than "mostly invisible". */
 @keyframes cs-rocket-launch {
-  0%   { transform: translate(-6px, 130%) rotate(-4deg); }
-  20%  { transform: translate(8px, 88%) rotate(3deg); }
-  40%  { transform: translate(-8px, 44%) rotate(-3deg); }
-  60%  { transform: translate(6px, 0%) rotate(2deg); }
-  80%  { transform: translate(-6px, -56%) rotate(-3deg); }
-  100% { transform: translate(4px, -130%) rotate(2deg); }
+  0%   { transform: translate(-6px, 46%) rotate(-4deg); }
+  20%  { transform: translate(8px, 26%) rotate(3deg); }
+  40%  { transform: translate(-8px, 6%) rotate(-3deg); }
+  60%  { transform: translate(6px, -14%) rotate(2deg); }
+  80%  { transform: translate(-6px, -34%) rotate(-3deg); }
+  100% { transform: translate(4px, -46%) rotate(2deg); }
 }
 
 .cs-rocket-loader__flame {
@@ -74,7 +80,7 @@
 @media (max-width: 767px) {
   .cs-rocket-loader__stage {
     width: 110px;
-    height: 180px;
+    height: 210px;
   }
 
   .cs-rocket-loader__sway {
