@@ -4,7 +4,7 @@ import { pageStylesheets } from '../data/pageStylesheets.js'
 import { siteContact } from '../data/siteContact.js'
 import {
   coreModules, standardFeatures, addOnFeatures, techStack, launchSteps,
-  pricingPlans, comparisonOurs, comparisonOthers, faqs,
+  pricingPlans, comparisonOurs, comparisonOthers, faqs, customerReviews,
 } from '../data/schoolCrm/schoolCrmData.js'
 import { comparisonLabels } from '../data/comparisonLabels.js'
 
@@ -16,6 +16,7 @@ import ComparisonTable from '../components/shared/ComparisonTable.jsx'
 import PdfDownloadCta from '../components/shared/PdfDownloadCta.jsx'
 import GuideCoverArt from '../components/shared/GuideCoverArt.jsx'
 import DashboardMockup from '../components/schoolCrm/DashboardMockup.jsx'
+import SchoolReviewCards from '../components/schoolCrm/SchoolReviewCards.jsx'
 import StandOutFeaturesGrid from '../components/shared/StandOutFeaturesGrid.jsx'
 import SimpleIconGrid from '../components/shared/SimpleIconGrid.jsx'
 import TechStackRow from '../components/shared/TechStackRow.jsx'
@@ -151,12 +152,7 @@ export default function SchoolCrmPage() {
           faqs={faqs}
         />
 
-        <TestimonialRotatorSection
-          image="/wp-content/reviews/school-review.png"
-          imageAlt="Five School CRM customer testimonials"
-          width={1140}
-          height={760}
-        />
+        <TestimonialRotatorSection content={<SchoolReviewCards reviews={customerReviews} />} />
 
         <BlogTeaser />
 

@@ -102,3 +102,59 @@ export const faqs = [
   { q: 'Can I resell the script/theme from CloneScript?', a: 'No, once you purchase School CRM or any theme from us, you don’t have to resell or distribute them. If you violate this you are liable for illegal activities.' },
   { q: 'How do Single and Multi Domain License differ?', a: 'A single-domain license allows usage for only one school on a single domain. For example, you can use it exclusively on myschool.com.' },
 ]
+
+/* Five customer reviews, split out of the single wp-content/reviews/school-review.png
+   collage into real markup. `avatar` files are circular crops taken from that same
+   collage; `bg`/`accent` reproduce each original card's pastel/accent pair. */
+export const customerReviews = [
+  {
+    name: 'Dr. Suresh Menon',
+    role: 'School Principal',
+    rating: 4.5,
+    quote: 'CloneScript School CRM has revolutionized our entire school’s fee management. It saves us days of work each month and parents find it very convenient. Outstanding features.',
+    avatar: '/wp-content/reviews/school/review-suresh-menon.webp',
+    bg: '#e3ddf9',
+    accent: '#6836b0',
+    dot: '#9872dc',
+  },
+  {
+    name: 'Neha Kulkarni',
+    role: 'Academic Coordinator',
+    rating: 5,
+    quote: 'The parent communication module is incredible. We can send instant updates, homework assignments, and announcements directly to parents, improving engagement across the board.',
+    avatar: '/wp-content/reviews/school/review-neha-kulkarni.webp',
+    bg: '#fcf1d3',
+    accent: '#b98a2c',
+    dot: '#dbb052',
+  },
+  {
+    name: 'Fahad Khan',
+    role: 'Parent',
+    rating: 4,
+    quote: 'I love how easy it is to track my son’s academic progress, view his report cards, and check his attendance all through the app. Highly recommended!',
+    avatar: '/wp-content/reviews/school/review-fahad-khan.webp',
+    bg: '#dde8fa',
+    accent: '#3f6f9f',
+    dot: '#5785bb',
+  },
+  {
+    name: 'Renuka Das',
+    role: 'Senior Teacher',
+    rating: 5,
+    quote: 'Scheduling has been seamless this year. The platform’s automated scheduling features are a lifesaver, avoiding timetable clashes and streamlining faculty assignments perfectly.',
+    avatar: '/wp-content/reviews/school/review-renuka-das.webp',
+    bg: '#ddf5e4',
+    accent: '#3f8a66',
+    dot: '#5aa785',
+  },
+  {
+    name: 'Rahul Sharma',
+    role: 'School Administrator',
+    rating: 4.5,
+    quote: 'The student records system is very well structured and secure. Integrations with other essential tools like online fee portals are perfect, making our job so much easier.',
+    avatar: '/wp-content/reviews/school/review-rahul-sharma.webp',
+    bg: '#fedde2',
+    accent: '#b34a66',
+    dot: '#c9617c',
+  },
+]

@@ -3,6 +3,10 @@ export default function TestimonialRotatorSection({
   imageAlt = 'Five CloneScript customer testimonials',
   width = 1536,
   height = 1024,
+  /* Pages that render their reviews as real markup instead of one flat collage
+     image pass the markup here; it takes the image's place in the same section
+     so the section count (and SchoolCrmPage.css's nth-child rhythm) is unchanged. */
+  content = null,
 }) {
   return (
     <>
@@ -64,17 +68,19 @@ export default function TestimonialRotatorSection({
               <div className="vc_column-inner">
                 <div className="wpb_wrapper">
                   <div className="wpb_wrapper-inner">
-                    <figure style={{ margin: 0 }}>
-                      <img
-                        src={image}
-                        alt={imageAlt}
-                        width={width}
-                        height={height}
-                        loading="lazy"
-                        decoding="async"
-                        style={{ display: 'block', width: `min(${width}px, 100%)`, height: 'auto', margin: '0 auto' }}
-                      />
-                    </figure>
+                    {content ?? (
+                      <figure style={{ margin: 0 }}>
+                        <img
+                          src={image}
+                          alt={imageAlt}
+                          width={width}
+                          height={height}
+                          loading="lazy"
+                          decoding="async"
+                          style={{ display: 'block', width: `min(${width}px, 100%)`, height: 'auto', margin: '0 auto' }}
+                        />
+                      </figure>
+                    )}
                   </div>
                 </div>
               </div>
