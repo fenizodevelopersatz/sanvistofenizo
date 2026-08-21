@@ -18,6 +18,10 @@ import LaunchCta from '../../components/shared/LaunchCta.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
+import TiktokScene from '../../components/tiktok/TiktokScene.jsx'
+import TiktokPhoneStack from '../../components/tiktok/TiktokPhoneStack.jsx'
+import TiltCard from '../../components/tiktok/TiltCard.jsx'
+import './TiktokClonePage.css'
 
 export default function TiktokClonePage() {
   usePageStylesheets(pageStylesheets.tiktokClone)
@@ -25,8 +29,10 @@ export default function TiktokClonePage() {
   useSeo('TikTok Clone Script | Launch Video Sharing App in 7 Days | CloneScript')
 
   return (
-    <main className="content" id="content">
+    <main className="content tiktok-clone-page" id="content">
       <div className="wpb-content-wrapper">
+        <TiktokScene />
+
         <section className="vc_section">
           <TiktokHero />
         </section>
@@ -89,13 +95,15 @@ export default function TiktokClonePage() {
                   <div className="vc_column-inner">
                     <div className="wpb_wrapper">
                       <div className="wpb_wrapper-inner">
-                        <div className="wpb_single_image wpb_content_element vc_align_left">
-                          <figure className="wpb_wrapper vc_figure">
-                            <div className="vc_single_image-wrapper vc_box_border_grey">
-                              <img src="/wp-content/uploads/2026/01/video-sharing-app.png" width="1031" height="1060" className="vc_single_image-img attachment-full" alt="video-sharing-app" title="video-sharing-app" loading="lazy" />
-                            </div>
-                          </figure>
-                        </div>
+                        <TiltCard className="tiktok-media-float" max={11}>
+                          <div className="wpb_single_image wpb_content_element vc_align_left">
+                            <figure className="wpb_wrapper vc_figure">
+                              <div className="vc_single_image-wrapper vc_box_border_grey">
+                                <img src="/wp-content/uploads/2026/01/video-sharing-app.png" width="1031" height="1060" className="vc_single_image-img attachment-full" alt="video-sharing-app" title="video-sharing-app" loading="lazy" />
+                              </div>
+                            </figure>
+                          </div>
+                        </TiltCard>
                       </div>
                     </div>
                   </div>
@@ -138,13 +146,15 @@ export default function TiktokClonePage() {
                         <header className="fancy-title text-center">
                           <h2>Technology We Used</h2>
                         </header>
-                        <div className="wpb_single_image wpb_content_element vc_align_center">
-                          <figure className="wpb_wrapper vc_figure">
-                            <div className="vc_single_image-wrapper vc_box_border_grey">
-                              <img src="/wp-content/uploads/2026/01/Technology.webp" width="2183" height="1164" className="vc_single_image-img attachment-full" alt="Technology" title="Technology" loading="lazy" />
-                            </div>
-                          </figure>
-                        </div>
+                        <TiltCard className="tiktok-media-float" max={6}>
+                          <div className="wpb_single_image wpb_content_element vc_align_center">
+                            <figure className="wpb_wrapper vc_figure">
+                              <div className="vc_single_image-wrapper vc_box_border_grey">
+                                <img src="/wp-content/uploads/2026/01/Technology.webp" width="2183" height="1164" className="vc_single_image-img attachment-full" alt="Technology" title="Technology" loading="lazy" />
+                              </div>
+                            </figure>
+                          </div>
+                        </TiltCard>
                       </div>
                     </div>
                   </div>
@@ -158,6 +168,8 @@ export default function TiktokClonePage() {
           heading="Right Time to Start Your Video Sharing Business!"
           image="/wp-content/uploads/2026/01/CTA-Design.webp"
           imageAlt="Short video clone app preview showing video feed and profile screens"
+          variant="dark"
+          badge="Launch in 7 Days"
         />
 
         <PricingPlans plans={pricingPlans} heading="Pick a Plan" />
@@ -173,17 +185,7 @@ export default function TiktokClonePage() {
                       <header className="fancy-title text-center">
                         <h2>TikTok Clone Mobile App Screens</h2>
                       </header>
-                      <div className="row ld-row" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20 }}>
-                        {screenshots.map((src, i) => (
-                          <div className="wpb_single_image wpb_content_element vc_align_center" key={i}>
-                            <figure className="wpb_wrapper vc_figure">
-                              <div className="vc_single_image-wrapper vc_box_border_grey">
-                                <img src={src} alt={`TikTok Clone screen ${i + 1}`} loading="lazy" style={{ maxWidth: '100%' }} />
-                              </div>
-                            </figure>
-                          </div>
-                        ))}
-                      </div>
+                      <TiktokPhoneStack screens={screenshots} altPrefix="TikTok Clone screen" />
                     </div>
                   </div>
                 </div>

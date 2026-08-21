@@ -1,4 +1,13 @@
 import Reveal from '../shared/Reveal.jsx'
+import ProductShowcase from '../shared/ProductShowcase.jsx'
+import TiltCard from './TiltCard.jsx'
+
+// Feature labels lifted from this page's own copy (tiktokData.js) rather than
+// invented stats -- the hero render already contains its own demo numbers.
+const heroChips = [
+  { icon: 'fa-satellite-dish', label: 'Live Streaming', pos: 'tl', color: '#06c7c9' },
+  { icon: 'fa-gift', label: 'Virtual Gifts', pos: 'bl', color: '#fe3b6c' },
+]
 
 export default function TiktokHero() {
   return (
@@ -59,15 +68,18 @@ export default function TiktokHero() {
           <div className="wpb_column vc_column_container vc_col-sm-12">
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
-                <div className="wpb_wrapper-inner">
-                  <div className="wpb_single_image wpb_content_element vc_align_center">
-                    <figure className="wpb_wrapper vc_figure">
-                      <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2026/01/tiktok-clone-1.webp" width="1625" height="1008" className="vc_single_image-img attachment-full" alt="tiktok-clone" title="tiktok-clone" loading="lazy" />
-                      </div>
-                    </figure>
-                  </div>
-                </div>
+                <TiltCard className="wpb_wrapper-inner tiktok-hero-stage" max={7}>
+                  <ProductShowcase
+                    image="/wp-content/uploads/2026/01/tiktok-clone-1.webp"
+                    imageAlt="tiktok-clone"
+                    imageTitle="tiktok-clone"
+                    imageWidth={1625}
+                    imageHeight={1008}
+                    chips={heroChips}
+                    glowColorA="rgba(6, 199, 201, 0.18)"
+                    glowColorB="rgba(254, 59, 108, 0.16)"
+                  />
+                </TiltCard>
               </div>
             </div>
           </div>

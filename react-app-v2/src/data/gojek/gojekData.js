@@ -51,7 +51,7 @@ export const serviceOffers = [
           { icon: 'fas fa-percentage', title: 'Offers List' },
           { icon: 'fas fa-star', title: 'View Ratings' },
           { icon: 'fas fa-tag', title: 'Redeem Coupon' },
-          { icon: 'fab fa-opencart', title: 'Manage Cart' },
+          { icon: 'fas fa-shopping-cart', title: 'Manage Cart' },
           { icon: 'fas fa-file-alt', title: 'Categorized Items' },
           { icon: 'fas fa-share-alt', title: 'Share Product' },
           { icon: 'far fa-plus-square', title: 'New Arrivals' },

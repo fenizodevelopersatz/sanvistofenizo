@@ -1,4 +1,5 @@
 import Reveal from '../shared/Reveal.jsx'
+import FloatingProductCard from '../shared/FloatingProductCard.jsx'
 
 export default function WhatIsTiktok() {
   return (
@@ -31,13 +32,14 @@ export default function WhatIsTiktok() {
               <div className="vc_column-inner">
                 <div className="wpb_wrapper">
                   <Reveal as="div" className="wpb_wrapper-inner" direction="right">
-                    <div className="wpb_single_image wpb_content_element vc_align_left">
-                      <figure className="wpb_wrapper vc_figure">
-                        <div className="vc_single_image-wrapper vc_box_border_grey">
-                          <img src="/wp-content/uploads/2026/01/tiktok-clone-app-1.webp" width="1606" height="1400" className="vc_single_image-img attachment-full" alt="" title="tiktok-clone-app" loading="lazy" />
-                        </div>
-                      </figure>
-                    </div>
+                    <FloatingProductCard
+                      image="/wp-content/uploads/2026/01/tiktok-clone-app-1.webp"
+                      imageAlt=""
+                      imageTitle="tiktok-clone-app"
+                      imageWidth={1606}
+                      imageHeight={1400}
+                      tilt="left"
+                    />
                   </Reveal>
                 </div>
               </div>

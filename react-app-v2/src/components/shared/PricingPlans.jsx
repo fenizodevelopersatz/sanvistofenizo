@@ -93,7 +93,7 @@ export default function PricingPlans({ plans, heading = 'Pick Price Plan' }) {
                             >
                               <span>
                                 <span className="btn-txt">{inCart ? 'Added to Cart' : 'Invest Now'}</span>
-                                <span className="btn-icon"><i className={inCart ? 'fa fa-solid fa-check' : 'fa fa-brands fa-opencart'}></i></span>
+                                <span className="btn-icon"><i className={inCart ? 'fa fa-solid fa-check' : 'fa fa-solid fa-cart-shopping'}></i></span>
                               </span>
                             </button>
                           </div>
