@@ -2,7 +2,7 @@ import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
-  standardFeatures, addOnFeatures, revenueBenefits, pricingPlans, appScreens,
+  standardFeatures, addOnFeatures, revenueBenefits, pricingPlans, appScreens, customerReviews,
 } from '../../data/gojek/gojekData.js'
 
 import GojekHero from '../../components/gojek/GojekHero.jsx'
@@ -18,6 +18,8 @@ import LaunchCta from '../../components/shared/LaunchCta.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import FaqServerTabs from '../../components/gojek/FaqServerTabs.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 export default function GojekClonePage() {
   usePageStylesheets(pageStylesheets.gojekClone)
@@ -131,6 +133,8 @@ export default function GojekClonePage() {
         </section>
 
         <FaqServerTabs />
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
       </div>
     </main>
   )

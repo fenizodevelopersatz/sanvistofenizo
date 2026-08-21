@@ -2,7 +2,7 @@ import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
-  standOutFeatures, addOnFeatures, revenueBenefits, pricingPlans, screenshots,
+  standOutFeatures, addOnFeatures, revenueBenefits, pricingPlans, screenshots, customerReviews,
 } from '../../data/uber/uberData.js'
 
 import UberHero from '../../components/uber/UberHero.jsx'
@@ -20,6 +20,8 @@ import RevenueBenefits from '../../components/shared/RevenueBenefits.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import FaqServerTabs from '../../components/uber/FaqServerTabs.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 export default function UberClonePage() {
   usePageStylesheets(pageStylesheets.uberClone)
@@ -222,6 +224,8 @@ export default function UberClonePage() {
         <section className="vc_section">
           <FaqServerTabs />
         </section>
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
       </div>
     </main>
   )

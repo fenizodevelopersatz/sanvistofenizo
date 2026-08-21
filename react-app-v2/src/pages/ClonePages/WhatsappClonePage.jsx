@@ -1,13 +1,15 @@
 import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
-import { features, pricingPlans } from '../../data/whatsapp/whatsappData.js'
+import { features, pricingPlans, customerReviews } from '../../data/whatsapp/whatsappData.js'
 
 import WhatsappHero from '../../components/whatsapp/WhatsappHero.jsx'
 import WhatIsWhatsapp from '../../components/whatsapp/WhatIsWhatsapp.jsx'
 import WhatWeOffer from '../../components/whatsapp/WhatWeOffer.jsx'
 import WhatsappFeatures from '../../components/whatsapp/WhatsappFeatures.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 export default function WhatsappClonePage() {
   usePageStylesheets(pageStylesheets.whatsappClone)
@@ -49,6 +51,8 @@ export default function WhatsappClonePage() {
           </section>
           <PricingPlans plans={pricingPlans} heading="Choose Your Price Plans" />
         </section>
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
       </div>
     </main>
   )

@@ -80,3 +80,59 @@ export const faqs = [
   { q: 'How to Build an OLX Clone App?', a: 'Olx clone script is the trending online classified marketplace, if you want to start from scratch, it takes too much time. You can hire our developers to get complete support to launch a ready-made Olx clone script to start your successful business and achieve your business goals.' },
   { q: 'What is 100% Source Code?', a: 'CloneScript provides 100% source code to buyers. Once you purchase the script/app, you gain complete ownership of the code.' },
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Karim Belhadj',
+    role: 'Classifieds Seller',
+    rating: 4.5,
+    quote: 'Effortless ad listings mean I post an item and it is live in under a minute, photos and all.',
+    avatar: '/wp-content/reviews/olx/review-karim-belhadj.webp',
+    bg: '#e0fbe9',
+    accent: '#0eaa44',
+    dot: '#5ae289',
+  },
+  {
+    name: 'Renata Souza',
+    role: 'Platform Founder',
+    rating: 5,
+    quote: 'Subscription plans gave us a real revenue stream from day one instead of relying only on ads.',
+    avatar: '/wp-content/reviews/olx/review-renata-souza.webp',
+    bg: '#e0fbf4',
+    accent: '#0eaa85',
+    dot: '#5ae2c2',
+  },
+  {
+    name: 'Yusuf Demir',
+    role: 'Frequent Buyer',
+    rating: 4.5,
+    quote: 'The search filter option actually narrows results the way I expect, I stopped scrolling past irrelevant listings.',
+    avatar: '/wp-content/reviews/olx/review-yusuf-demir.webp',
+    bg: '#e0f8fb',
+    accent: '#0e9baa',
+    dot: '#5ad5e2',
+  },
+  {
+    name: 'Camille Laurent',
+    role: 'Marketplace Operator',
+    rating: 4.5,
+    quote: 'Favorite lists and the dynamic slider keep buyers coming back to check on saved items.',
+    avatar: '/wp-content/reviews/olx/review-camille-laurent.webp',
+    bg: '#e0eefb',
+    accent: '#0e62aa',
+    dot: '#5aa3e2',
+  },
+  {
+    name: 'Ravi Chandran',
+    role: 'Local Reseller',
+    rating: 5,
+    quote: 'Popular items surfaces what is actually selling in my area, I know what to list next.',
+    avatar: '/wp-content/reviews/olx/review-ravi-chandran.webp',
+    bg: '#e0e3fb',
+    accent: '#0e1eaa',
+    dot: '#5a68e2',
+  },
+]

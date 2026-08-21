@@ -3,7 +3,7 @@ import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
   whyChooseUs, standardFeatureGroups, generalIconFeatures, platformRows,
-  addOnFeatures, generalFeatureColumns, dashboards, pricingPlans, screenshots,
+  addOnFeatures, generalFeatureColumns, dashboards, pricingPlans, screenshots, customerReviews,
 } from '../../data/amazon/amazonData.js'
 
 import AmazonHero from '../../components/amazon/AmazonHero.jsx'
@@ -19,6 +19,8 @@ import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import LiveDemoTabs from '../../components/shared/LiveDemoTabs.jsx'
 import FaqServerTabs from '../../components/amazon/FaqServerTabs.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 export default function AmazonClonePage() {
   usePageStylesheets(pageStylesheets.amazonClone)
@@ -292,6 +294,8 @@ export default function AmazonClonePage() {
         </section>
 
         <FaqServerTabs />
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
 
         <BlogTeaser />
       </div>

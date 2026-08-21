@@ -1,7 +1,7 @@
 import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
-import { standardFeatures, revenueBenefits, pricingPlans } from '../../data/fiverr/fiverrData.js'
+import { standardFeatures, revenueBenefits, pricingPlans, customerReviews } from '../../data/fiverr/fiverrData.js'
 
 import FiverrHero from '../../components/fiverr/FiverrHero.jsx'
 import TrustedByBuyers from '../../components/fiverr/TrustedByBuyers.jsx'
@@ -19,6 +19,8 @@ import ScheduleServiceCta from '../../components/fiverr/ScheduleServiceCta.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MobileScreens from '../../components/fiverr/MobileScreens.jsx'
 import FaqServerTabs from '../../components/fiverr/FaqServerTabs.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 export default function FiverrClonePage() {
   usePageStylesheets(pageStylesheets.fiverrClone)
@@ -102,6 +104,8 @@ export default function FiverrClonePage() {
         <section className="vc_section">
           <FaqServerTabs />
         </section>
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
       </div>
     </main>
   )

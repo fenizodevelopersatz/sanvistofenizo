@@ -264,3 +264,59 @@ export const screenshots = [
   '/wp-content/uploads/2025/11/services.webp',
   '/wp-content/uploads/2025/11/payment.webp',
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Emma Caldwell',
+    role: 'Host, Lake Tahoe',
+    rating: 5,
+    quote: 'The AI Price Optimizer keeps my listings competitively priced without me checking rates every day, bookings have never been steadier.',
+    avatar: '/wp-content/reviews/airbnb/review-emma-caldwell.webp',
+    bg: '#fbe0f0',
+    accent: '#aa0e6d',
+    dot: '#e25aad',
+  },
+  {
+    name: 'Marco Ferreira',
+    role: 'Vacation Rental Owner',
+    rating: 4.5,
+    quote: 'Setup really was zero-cost like they promised. I had my rental site live and taking bookings within a week.',
+    avatar: '/wp-content/reviews/airbnb/review-marco-ferreira.webp',
+    bg: '#fbe0e5',
+    accent: '#aa0e2c',
+    dot: '#e25a74',
+  },
+  {
+    name: 'Priya Nair',
+    role: 'Guest and Frequent Traveler',
+    rating: 5,
+    quote: 'Smart Property Picks actually shows me places I would want to stay, not just what is nearby. Booking feels effortless now.',
+    avatar: '/wp-content/reviews/airbnb/review-priya-nair.webp',
+    bg: '#fbe4e0',
+    accent: '#aa240e',
+    dot: '#e26d5a',
+  },
+  {
+    name: 'Daniel Osei',
+    role: 'Property Manager',
+    rating: 4.5,
+    quote: 'The AI Chatbot Assistant handles guest questions at 2am so I do not have to. It has paid for itself in saved time alone.',
+    avatar: '/wp-content/reviews/airbnb/review-daniel-osei.webp',
+    bg: '#fbede0',
+    accent: '#aa5d0e',
+    dot: '#e29f5a',
+  },
+  {
+    name: 'Sophia Lindgren',
+    role: 'Boutique Host',
+    rating: 5,
+    quote: 'Support walked me through the free 1:1 demo and I actually understood every feature before going live.',
+    avatar: '/wp-content/reviews/airbnb/review-sophia-lindgren.webp',
+    bg: '#fbf9e0',
+    accent: '#aaa10e',
+    dot: '#e2da5a',
+  },
+]

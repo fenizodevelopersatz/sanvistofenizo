@@ -151,3 +151,59 @@ export const serverRequirements = {
   vpsServer: ['OS: Ubuntu 22.04 LTS', 'CPU: 2–4 Cores', 'RAM: 4–8 GB', 'Storage: 40+ GB SSD', 'Node.js: v18 or higher'],
   database: ['MongoDB 5+'],
 }
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Wei Zhang',
+    role: 'Export Manager',
+    rating: 5,
+    quote: 'The AI RFQ Assistant cuts our quote turnaround from days to hours. Buyers get replies while they are still comparing suppliers.',
+    avatar: '/wp-content/reviews/alibaba/review-wei-zhang.webp',
+    bg: '#fbe0e9',
+    accent: '#aa0e42',
+    dot: '#e25a88',
+  },
+  {
+    name: 'Fatima Al-Sayed',
+    role: 'Procurement Lead',
+    rating: 4.5,
+    quote: 'AI Market Insights flagged a pricing shift before our competitors noticed. That alone justified the whole platform.',
+    avatar: '/wp-content/reviews/alibaba/review-fatima-al-sayed.webp',
+    bg: '#fbe2e0',
+    accent: '#aa1b0e',
+    dot: '#e2655a',
+  },
+  {
+    name: 'Carlos Medina',
+    role: 'B2B Supplier',
+    rating: 4.5,
+    quote: 'Our storefront finally feels built for wholesale, not retail. Bulk order tools work exactly how our buyers expect.',
+    avatar: '/wp-content/reviews/alibaba/review-carlos-medina.webp',
+    bg: '#fbebe0',
+    accent: '#aa4f0e',
+    dot: '#e2935a',
+  },
+  {
+    name: 'Ingrid Bauer',
+    role: 'Sourcing Director',
+    rating: 5,
+    quote: 'The AI Chatbot answers spec questions instantly, so my team can focus on negotiating instead of repeating themselves.',
+    avatar: '/wp-content/reviews/alibaba/review-ingrid-bauer.webp',
+    bg: '#fbf5e0',
+    accent: '#aa880e',
+    dot: '#e2c45a',
+  },
+  {
+    name: 'Rajiv Malhotra',
+    role: 'Trading Company Owner',
+    rating: 4.5,
+    quote: 'Search history and AI query summaries mean I never lose track of a supplier conversation mid-negotiation.',
+    avatar: '/wp-content/reviews/alibaba/review-rajiv-malhotra.webp',
+    bg: '#f5fbe0',
+    accent: '#88aa0e',
+    dot: '#c5e25a',
+  },
+]

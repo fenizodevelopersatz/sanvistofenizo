@@ -3,7 +3,7 @@ import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
   standardFeatures, addOnFeatures, multimediaFeatures, revenueBenefits,
-  featureGroups, pricingPlans, screenshots,
+  featureGroups, pricingPlans, screenshots, customerReviews,
 } from '../../data/youtube/youtubeData.js'
 
 import YoutubeHero from '../../components/youtube/YoutubeHero.jsx'
@@ -19,6 +19,8 @@ import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import FaqServerTabs from '../../components/youtube/FaqServerTabs.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 import './YoutubeClonePage.css'
 
 export default function YoutubeClonePage() {
@@ -193,6 +195,8 @@ export default function YoutubeClonePage() {
         </section>
 
         <FaqServerTabs />
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
 
         <BlogTeaser />
       </div>

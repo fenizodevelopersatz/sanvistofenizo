@@ -122,3 +122,59 @@ export const faqs = [
   { q: 'Is the classified script customizable?', a: 'Our Classified Script is 100% customizable and scalable based on your business demand.' },
   { q: 'What kind of support will I receive after purchasing a Vinted clone?', a: 'After purchasing, you will receive free technical support for 3 months for our vinted clone, ensuring seamless performance.' },
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Elodie Marchand',
+    role: 'Fashion Reseller',
+    rating: 5,
+    quote: 'AI Image-Based Search means buyers find my listings just by uploading a photo of what they want.',
+    avatar: '/wp-content/reviews/vinted/review-elodie-marchand.webp',
+    bg: '#e0fbe8',
+    accent: '#0eaa3d',
+    dot: '#5ae283',
+  },
+  {
+    name: 'Greta Lindqvist',
+    role: 'Marketplace Founder',
+    rating: 4.5,
+    quote: 'Chatbot support handles sizing questions instantly, our buyers stopped waiting hours for replies.',
+    avatar: '/wp-content/reviews/vinted/review-greta-lindqvist.webp',
+    bg: '#e0fbf3',
+    accent: '#0eaa7e',
+    dot: '#5ae2bc',
+  },
+  {
+    name: 'Simone Okafor',
+    role: 'Thrift Store Owner',
+    rating: 4.5,
+    quote: 'Wishlist manager brings shoppers back the moment an item they saved goes on sale.',
+    avatar: '/wp-content/reviews/vinted/review-simone-okafor.webp',
+    bg: '#e0f9fb',
+    accent: '#0ea2aa',
+    dot: '#5adbe2',
+  },
+  {
+    name: 'Felix Adler',
+    role: 'Platform Operator',
+    rating: 4.5,
+    quote: 'Private chat and order history together made our dispute rate drop noticeably.',
+    avatar: '/wp-content/reviews/vinted/review-felix-adler.webp',
+    bg: '#e0effb',
+    accent: '#0e69aa',
+    dot: '#5aa9e2',
+  },
+  {
+    name: 'Priya Sundaram',
+    role: 'Vintage Seller',
+    rating: 5,
+    quote: 'Smart search actually understands brand names and sizes, not just keywords. Sales are way up.',
+    avatar: '/wp-content/reviews/vinted/review-priya-sundaram.webp',
+    bg: '#e0e4fb',
+    accent: '#0e25aa',
+    dot: '#5a6fe2',
+  },
+]

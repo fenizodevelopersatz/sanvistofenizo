@@ -4,7 +4,7 @@ import { pageStylesheets } from '../../data/pageStylesheets.js'
 import { siteContact } from '../../data/siteContact.js'
 import {
   upcomingAiFeature, roleShowcase, standOutFeatures, addOnFeatures, revenueBenefits,
-  techStack, pricingPlans, screenshots,
+  techStack, pricingPlans, screenshots, customerReviews,
 } from '../../data/turo/turoData.js'
 
 import TuroHero from '../../components/turo/TuroHero.jsx'
@@ -21,6 +21,8 @@ import LiveDemoTabs from '../../components/shared/LiveDemoTabs.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import FaqServerTabs from '../../components/turo/FaqServerTabs.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 const dashboards = [
   { label: 'User Dashboard', email: 'user@yopmail.com', password: '12345678', url: siteContact.cloneDemoUrl },
@@ -290,6 +292,8 @@ export default function TuroClonePage() {
         </section>
 
         <FaqServerTabs />
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
       </div>
     </main>
   )

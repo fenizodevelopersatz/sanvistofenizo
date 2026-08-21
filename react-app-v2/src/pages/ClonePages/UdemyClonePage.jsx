@@ -2,7 +2,7 @@ import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
-  standardFeatures, revenueBenefits, dashboards, pricingPlans, screenshots,
+  standardFeatures, revenueBenefits, dashboards, pricingPlans, screenshots, customerReviews,
 } from '../../data/udemy/udemyData.js'
 
 import UdemyHero from '../../components/udemy/UdemyHero.jsx'
@@ -21,6 +21,8 @@ import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import UdemyFaqTabs from '../../components/udemy/UdemyFaqTabs.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 export default function UdemyClonePage() {
   usePageStylesheets(pageStylesheets.udemyClone)
@@ -186,6 +188,8 @@ export default function UdemyClonePage() {
         </section>
 
         <UdemyFaqTabs />
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
 
         <BlogTeaser />
       </div>

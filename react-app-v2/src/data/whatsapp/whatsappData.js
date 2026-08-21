@@ -15,3 +15,59 @@ export const pricingPlans = [
     features: [['Single Domain license', true], ['One-Time Payment', true], ['100% Source Code', true], ['3 Months Support', true], ['Unlimited Updates', true], ['Free Installation', true], ['Android App', true], ['iOS App', true], ['Mobile App Submission', true], ['Access All Features', true]],
   },
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Diane Kowalski',
+    role: 'Small Business Owner',
+    rating: 5,
+    quote: 'Instant chat and file sharing replaced three separate tools we used to juggle with customers.',
+    avatar: '/wp-content/reviews/whatsapp/review-diane-kowalski.webp',
+    bg: '#eafae1',
+    accent: '#4c9c1b',
+    dot: '#8de25a',
+  },
+  {
+    name: 'Emeka Nnamdi',
+    role: 'Customer Support Lead',
+    rating: 4.5,
+    quote: 'Group and private chat side by side keeps team conversations and customer chats from ever mixing up.',
+    avatar: '/wp-content/reviews/whatsapp/review-emeka-nnamdi.webp',
+    bg: '#e1fae2',
+    accent: '#1b9c21',
+    dot: '#5ae260',
+  },
+  {
+    name: 'Lucia Fernandez',
+    role: 'Community Manager',
+    rating: 4.5,
+    quote: 'My channel lets us broadcast updates without spamming individual customer chats.',
+    avatar: '/wp-content/reviews/whatsapp/review-lucia-fernandez.webp',
+    bg: '#e1faea',
+    accent: '#1b9c4c',
+    dot: '#5ae28d',
+  },
+  {
+    name: 'Trevor Adams',
+    role: 'Operations Manager',
+    rating: 4.5,
+    quote: 'Video and voice calling built right in means we never send customers to a third-party app.',
+    avatar: '/wp-content/reviews/whatsapp/review-trevor-adams.webp',
+    bg: '#e1faf3',
+    accent: '#1b9c7b',
+    dot: '#5ae2bf',
+  },
+  {
+    name: 'Naomi Osei',
+    role: 'Business Owner',
+    rating: 5,
+    quote: 'Notifications are reliable enough that we never miss a customer message anymore.',
+    avatar: '/wp-content/reviews/whatsapp/review-naomi-osei.webp',
+    bg: '#e1f5fa',
+    accent: '#1b869c',
+    dot: '#5acae2',
+  },
+]

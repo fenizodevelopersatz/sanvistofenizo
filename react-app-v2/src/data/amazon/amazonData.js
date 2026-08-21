@@ -419,3 +419,59 @@ export const screenshots = [
   '/wp-content/uploads/2025/09/ecommerce-script-settings.webp',
   '/wp-content/uploads/2025/09/categories.webp',
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Grace Whitfield',
+    role: 'Online Store Owner',
+    rating: 5,
+    quote: 'One-time payment and lifetime updates meant no surprise bills. Two years in, we are still getting new features for free.',
+    avatar: '/wp-content/reviews/amazon/review-grace-whitfield.webp',
+    bg: '#fbe0e4',
+    accent: '#aa0e25',
+    dot: '#e25a6f',
+  },
+  {
+    name: 'Tomasz Nowak',
+    role: 'eCommerce Seller',
+    rating: 4.5,
+    quote: 'Getting the full source code mattered to us. We have customized checkout without fighting anyone else\'s roadmap.',
+    avatar: '/wp-content/reviews/amazon/review-tomasz-nowak.webp',
+    bg: '#fbe7e0',
+    accent: '#aa370e',
+    dot: '#e27e5a',
+  },
+  {
+    name: 'Aaliyah Brooks',
+    role: 'Marketplace Founder',
+    rating: 5,
+    quote: 'Free installation had us live in a weekend. Their whitelabel setup made it feel like our own brand from day one.',
+    avatar: '/wp-content/reviews/amazon/review-aaliyah-brooks.webp',
+    bg: '#fbf0e0',
+    accent: '#aa6b0e',
+    dot: '#e2ac5a',
+  },
+  {
+    name: 'Ben Whitaker',
+    role: 'Multi-vendor Operator',
+    rating: 4.5,
+    quote: 'The 100% money-back guarantee made the decision easy, but honestly we never needed to use it.',
+    avatar: '/wp-content/reviews/amazon/review-ben-whitaker.webp',
+    bg: '#fbfae0',
+    accent: '#aaa50e',
+    dot: '#e2dd5a',
+  },
+  {
+    name: 'Meera Iyer',
+    role: 'D2C Brand Owner',
+    rating: 5,
+    quote: 'Our storefront scales the way a giant marketplace\'s does. Customers cannot tell it is not a huge platform behind it.',
+    avatar: '/wp-content/reviews/amazon/review-meera-iyer.webp',
+    bg: '#f0fbe0',
+    accent: '#6baa0e',
+    dot: '#ace25a',
+  },
+]

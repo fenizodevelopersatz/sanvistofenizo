@@ -16,7 +16,7 @@ import ComparisonTable from '../components/shared/ComparisonTable.jsx'
 import PdfDownloadCta from '../components/shared/PdfDownloadCta.jsx'
 import GuideCoverArt from '../components/shared/GuideCoverArt.jsx'
 import DashboardMockup from '../components/schoolCrm/DashboardMockup.jsx'
-import SchoolReviewCards from '../components/schoolCrm/SchoolReviewCards.jsx'
+import ReviewCards from '../components/shared/ReviewCards.jsx'
 import StandOutFeaturesGrid from '../components/shared/StandOutFeaturesGrid.jsx'
 import SimpleIconGrid from '../components/shared/SimpleIconGrid.jsx'
 import TechStackRow from '../components/shared/TechStackRow.jsx'
@@ -152,7 +152,7 @@ export default function SchoolCrmPage() {
           faqs={faqs}
         />
 
-        <TestimonialRotatorSection content={<SchoolReviewCards reviews={customerReviews} />} />
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
 
         <BlogTeaser />
 

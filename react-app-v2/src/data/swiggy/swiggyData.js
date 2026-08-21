@@ -158,3 +158,59 @@ export const mobileScreens = {
     ],
   },
 }
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Ananya Krishnan',
+    role: 'Restaurant Owner',
+    rating: 5,
+    quote: 'Delivery tracking cut our where-is-my-order calls to almost zero. Customers just watch it arrive.',
+    avatar: '/wp-content/reviews/swiggy/review-ananya-krishnan.webp',
+    bg: '#fbe0e8',
+    accent: '#aa0e3c',
+    dot: '#e25a82',
+  },
+  {
+    name: 'Marco Silva',
+    role: 'Delivery Platform Operator',
+    rating: 4.5,
+    quote: 'Checkout flow is fast enough that people actually finish their orders instead of abandoning carts.',
+    avatar: '/wp-content/reviews/swiggy/review-marco-silva.webp',
+    bg: '#fbe3e0',
+    accent: '#aa210e',
+    dot: '#e26b5a',
+  },
+  {
+    name: 'Devika Menon',
+    role: 'Cloud Kitchen Founder',
+    rating: 4.5,
+    quote: 'Popular restaurant lists gave us visibility we could not get any other way when we launched.',
+    avatar: '/wp-content/reviews/swiggy/review-devika-menon.webp',
+    bg: '#fbece0',
+    accent: '#aa550e',
+    dot: '#e2985a',
+  },
+  {
+    name: 'Tunde Adeyemi',
+    role: 'Regional Manager',
+    rating: 4.5,
+    quote: 'Advanced search means customers actually find our menu items by name, not just by browsing.',
+    avatar: '/wp-content/reviews/swiggy/review-tunde-adeyemi.webp',
+    bg: '#fbf6e0',
+    accent: '#aa8e0e',
+    dot: '#e2ca5a',
+  },
+  {
+    name: 'Claire Dubois',
+    role: 'Multi-brand Restaurateur',
+    rating: 5,
+    quote: 'New arrivals view keeps our seasonal menu in front of repeat customers automatically.',
+    avatar: '/wp-content/reviews/swiggy/review-claire-dubois.webp',
+    bg: '#f4fbe0',
+    accent: '#82aa0e',
+    dot: '#c0e25a',
+  },
+]

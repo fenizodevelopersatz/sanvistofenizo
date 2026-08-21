@@ -143,3 +143,59 @@ export const screenshots = [
   '/wp-content/uploads/2026/05/search.webp',
   '/wp-content/uploads/2026/05/fleets.webp',
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Grant Sullivan',
+    role: 'Car Host',
+    rating: 5,
+    quote: 'AI Auto-Fill Listings turned a 20-minute listing chore into two minutes. I added my whole fleet in an afternoon.',
+    avatar: '/wp-content/reviews/turo/review-grant-sullivan.webp',
+    bg: '#e0fbe0',
+    accent: '#0eaa10',
+    dot: '#5ae25c',
+  },
+  {
+    name: 'Valentina Rossi',
+    role: 'Fleet Owner',
+    rating: 5,
+    quote: 'Real-time availability stopped our double-bookings completely, guests only see what is actually free.',
+    avatar: '/wp-content/reviews/turo/review-valentina-rossi.webp',
+    bg: '#e0fbeb',
+    accent: '#0eaa51',
+    dot: '#5ae294',
+  },
+  {
+    name: 'Mateus Almeida',
+    role: 'Platform Founder',
+    rating: 4.5,
+    quote: 'Secure authentication gave both hosts and renters real confidence before handing over keys.',
+    avatar: '/wp-content/reviews/turo/review-mateus-almeida.webp',
+    bg: '#e0fbf4',
+    accent: '#0eaa85',
+    dot: '#5ae2c2',
+  },
+  {
+    name: 'Brianna Hayes',
+    role: 'Frequent Renter',
+    rating: 4.5,
+    quote: 'Smart search found exactly the car I wanted by location and price without endless scrolling.',
+    avatar: '/wp-content/reviews/turo/review-brianna-hayes.webp',
+    bg: '#e0f7fb',
+    accent: '#0e96aa',
+    dot: '#5ad0e2',
+  },
+  {
+    name: 'Connor Whitfield',
+    role: 'Car Sharing Operator',
+    rating: 4.5,
+    quote: 'User profile controls let hosts set their own rules, which cut support tickets way down.',
+    avatar: '/wp-content/reviews/turo/review-connor-whitfield.webp',
+    bg: '#e0ebfb',
+    accent: '#0e52aa',
+    dot: '#5a96e2',
+  },
+]

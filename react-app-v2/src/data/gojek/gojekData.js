@@ -415,3 +415,59 @@ export const serverRequirements = {
     'Upgraded Google Firebase Account with (Blaze) Plan',
   ],
 }
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Made Wirawan',
+    role: 'Local Store Owner',
+    rating: 5,
+    quote: 'Find Nearest Store puts us in front of customers who did not know we existed. Orders picked up within the first month.',
+    avatar: '/wp-content/reviews/gojek/review-made-wirawan.webp',
+    bg: '#f1fbe0',
+    accent: '#71aa0e',
+    dot: '#b1e25a',
+  },
+  {
+    name: 'Dewi Anggraini',
+    role: 'Platform Operator',
+    rating: 4.5,
+    quote: 'Categorized items and filters keep the app fast even with thousands of listings across our city.',
+    avatar: '/wp-content/reviews/gojek/review-dewi-anggraini.webp',
+    bg: '#e6fbe0',
+    accent: '#30aa0e',
+    dot: '#78e25a',
+  },
+  {
+    name: 'Farhan Aziz',
+    role: 'Delivery Partner',
+    rating: 4.5,
+    quote: 'Location info and the dynamic slider make it obvious where demand is highest each day.',
+    avatar: '/wp-content/reviews/gojek/review-farhan-aziz.webp',
+    bg: '#e0fbe3',
+    accent: '#0eaa1f',
+    dot: '#5ae269',
+  },
+  {
+    name: 'Nadia Kusuma',
+    role: 'Super App Founder',
+    rating: 5,
+    quote: 'Popular stores gives new merchants visibility they would never get on their own. It has built real loyalty.',
+    avatar: '/wp-content/reviews/gojek/review-nadia-kusuma.webp',
+    bg: '#e0fbed',
+    accent: '#0eaa58',
+    dot: '#5ae29b',
+  },
+  {
+    name: 'Bayu Saputra',
+    role: 'Regional Manager',
+    rating: 4.5,
+    quote: 'Everything from rides to deliveries runs through one clean dashboard. Our ops team is not juggling five tools anymore.',
+    avatar: '/wp-content/reviews/gojek/review-bayu-saputra.webp',
+    bg: '#e0fbf8',
+    accent: '#0eaa9c',
+    dot: '#5ae2d6',
+  },
+]

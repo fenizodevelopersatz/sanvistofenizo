@@ -2,7 +2,7 @@ import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
-  featureGroups, standardFeatures, addOnFeatures, revenueBenefits, pricingPlans, screenshots,
+  featureGroups, standardFeatures, addOnFeatures, revenueBenefits, pricingPlans, screenshots, customerReviews,
 } from '../../data/tinder/tinderData.js'
 
 import TinderHero from '../../components/tinder/TinderHero.jsx'
@@ -16,6 +16,8 @@ import RevenueBenefits from '../../components/shared/RevenueBenefits.jsx'
 import LaunchCta from '../../components/shared/LaunchCta.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import FaqServerTabs from '../../components/tinder/FaqServerTabs.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 export default function TinderClonePage() {
   usePageStylesheets(pageStylesheets.tinderClone)
@@ -154,6 +156,8 @@ export default function TinderClonePage() {
         </section>
 
         <FaqServerTabs />
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
       </div>
     </main>
   )

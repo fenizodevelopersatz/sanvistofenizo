@@ -7,7 +7,7 @@ import { comparisonLabels } from '../../data/comparisonLabels.js'
 import { placeholderTestimonials } from '../../data/placeholderTestimonials.js'
 import {
   aiFeatures, comparisonOurs, comparisonOthers, roleTabs, techStack,
-  standOutFeatures, revenueBenefits, launchSteps, pricingPlans,
+  standOutFeatures, revenueBenefits, launchSteps, pricingPlans, customerReviews,
 } from '../../data/vinted/vintedData.js'
 
 import VintedHero from '../../components/vinted/VintedHero.jsx'
@@ -30,6 +30,8 @@ import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import FaqServerTabs from '../../components/vinted/FaqServerTabs.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 import './VintedClonePage.css'
 
 const dashboards = [
@@ -202,6 +204,8 @@ export default function VintedClonePage() {
         <MoneyBackGuarantee />
 
         <FaqServerTabs />
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
 
         <BlogTeaser />
       </div>

@@ -91,3 +91,59 @@ export const screenshots = [
   { image: '/wp-content/uploads/2025/09/create-post.webp', alt: 'create post' },
   { image: '/wp-content/uploads/2025/09/profile-2.webp', alt: 'profile' },
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Lucas Bennett',
+    role: 'App User',
+    rating: 4.5,
+    quote: 'Search profiles by interests actually matched me with people who share what I care about, not just proximity.',
+    avatar: '/wp-content/reviews/tinder/review-lucas-bennett.webp',
+    bg: '#fbe0f8',
+    accent: '#aa0e98',
+    dot: '#e25ad3',
+  },
+  {
+    name: 'Freya Johansson',
+    role: 'Platform Founder',
+    rating: 5,
+    quote: 'Feed section and stories together kept engagement up way past what our first version managed.',
+    avatar: '/wp-content/reviews/tinder/review-freya-johansson.webp',
+    bg: '#fbe0ec',
+    accent: '#aa0e57',
+    dot: '#e25a9a',
+  },
+  {
+    name: 'Noah Castillo',
+    role: 'Product Lead',
+    rating: 4.5,
+    quote: 'Saved profiles made it painless for users to revisit someone they were not ready to message yet.',
+    avatar: '/wp-content/reviews/tinder/review-noah-castillo.webp',
+    bg: '#fbe0e3',
+    accent: '#aa0e23',
+    dot: '#e25a6d',
+  },
+  {
+    name: 'Aisha Rahman',
+    role: 'Community Manager',
+    rating: 5,
+    quote: 'Video and image stories gave our users a more honest way to show who they are before matching.',
+    avatar: '/wp-content/reviews/tinder/review-aisha-rahman.webp',
+    bg: '#fbe6e0',
+    accent: '#aa310e',
+    dot: '#e2795a',
+  },
+  {
+    name: 'Ethan Walsh',
+    role: 'Startup Founder',
+    rating: 4.5,
+    quote: 'Share and reposts turned our early users into our best source of new signups.',
+    avatar: '/wp-content/reviews/tinder/review-ethan-walsh.webp',
+    bg: '#fbf1e0',
+    accent: '#aa750e',
+    dot: '#e2b45a',
+  },
+]

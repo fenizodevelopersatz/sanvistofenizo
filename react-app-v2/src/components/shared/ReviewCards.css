@@ -1,10 +1,12 @@
-/* Real-markup replacement for the single school-review.png testimonial collage.
-   Layout mirrors the source image -- three cards on the first row, the remaining
-   two centred underneath -- which flex-wrap + justify-content:center produces on
-   its own, without a hardcoded second-row rule. Cards get an explicit third-of-a-
-   row basis (rather than flex-grow) so the two on the last row stay exactly as
-   wide as the three above them instead of stretching to fill. */
-.schoolreview-grid {
+/* Shared 5-card review grid used across pages (originally built to replace the
+   single-image school-review.png collage on SchoolCrmPage; now reused site-wide
+   with per-page content/colors/avatars passed in as data). Three cards on the
+   first row, the remaining two centred underneath -- flex-wrap +
+   justify-content:center produces that on its own, without a hardcoded second-row
+   rule. Cards get an explicit third-of-a-row basis (rather than flex-grow) so the
+   two on the last row stay exactly as wide as the three above them instead of
+   stretching to fill. */
+.reviewcard-grid {
   --rv-gap: clamp(16px, 2vw, 26px);
   display: flex;
   flex-wrap: wrap;
@@ -16,7 +18,7 @@
   text-align: left;
 }
 
-.schoolreview-card {
+.reviewcard {
   --rv-bg: #eef2ff;
   --rv-accent: #4f46e5;
   --rv-dot: #8b7cf6;
@@ -33,13 +35,13 @@
   transition: transform 260ms var(--clonescript-ease, ease), box-shadow 260ms var(--clonescript-ease, ease);
 }
 
-.schoolreview-card:hover {
+.reviewcard:hover {
   transform: translateY(-6px);
   box-shadow: 0 18px 42px rgb(16 27 72 / 14%);
 }
 
 /* The small solid circle in the top-right corner of every card in the original. */
-.schoolreview-card__dot {
+.reviewcard__dot {
   position: absolute;
   top: 20px;
   right: 22px;
@@ -50,7 +52,7 @@
   opacity: 0.8;
 }
 
-.schoolreview-card__head {
+.reviewcard__head {
   display: flex;
   align-items: center;
   gap: 14px;
@@ -59,19 +61,19 @@
   padding-right: 42px;
 }
 
-.schoolreview-card__mark {
+.reviewcard__mark {
   color: var(--rv-accent);
   font-size: 28px;
   line-height: 1;
   opacity: 0.85;
 }
 
-.schoolreview-card__stars {
+.reviewcard__stars {
   display: inline-flex;
   gap: 3px;
 }
 
-.schoolreview-card__star {
+.reviewcard__star {
   position: relative;
   width: 15px;
   height: 15px;
@@ -81,21 +83,21 @@
 
 /* Half stars: a width-clipped coloured copy sits over a faded full star, so a 4.5
    rating renders exactly without needing a separate half-star glyph. */
-.schoolreview-card__star-bg,
-.schoolreview-card__star-fg {
+.reviewcard__star-bg,
+.reviewcard__star-fg {
   position: absolute;
   inset: 0;
   color: var(--rv-accent);
 }
 
-.schoolreview-card__star-bg { opacity: 0.25; }
+.reviewcard__star-bg { opacity: 0.25; }
 
-.schoolreview-card__star-fg {
+.reviewcard__star-fg {
   overflow: hidden;
   white-space: nowrap;
 }
 
-.schoolreview-card__quote {
+.reviewcard__quote {
   flex: 1 1 auto;
   margin: 0;
   padding: 0;
@@ -105,7 +107,7 @@
   line-height: 1.65;
 }
 
-.schoolreview-card__author {
+.reviewcard__author {
   display: flex;
   gap: 14px;
   align-items: center;
@@ -116,14 +118,14 @@
 
 /* Avatar keeps the source design's white ring plus the offset accent disc
    peeking out behind its lower-right edge. */
-.schoolreview-card__avatar {
+.reviewcard__avatar {
   position: relative;
   flex: 0 0 auto;
   width: 62px;
   height: 62px;
 }
 
-.schoolreview-card__avatar::before {
+.reviewcard__avatar::before {
   content: '';
   position: absolute;
   right: -6px;
@@ -134,7 +136,7 @@
   background: var(--rv-dot);
 }
 
-.schoolreview-card__avatar img {
+.reviewcard__avatar img {
   position: relative;
   z-index: 1;
   display: block;
@@ -145,16 +147,16 @@
   object-fit: cover;
 }
 
-.schoolreview-card__meta { min-width: 0; }
+.reviewcard__meta { min-width: 0; }
 
-.schoolreview-card__name {
+.reviewcard__name {
   display: block;
   color: var(--rv-accent);
   font-size: 15px;
   font-weight: 600;
 }
 
-.schoolreview-card__role {
+.reviewcard__role {
   display: block;
   margin-top: 2px;
   color: #5b6079;
@@ -162,9 +164,9 @@
 }
 
 @media (max-width: 991px) {
-  .schoolreview-card { flex-basis: calc((100% - var(--rv-gap)) / 2); }
+  .reviewcard { flex-basis: calc((100% - var(--rv-gap)) / 2); }
 }
 
 @media (max-width: 575px) {
-  .schoolreview-card { flex-basis: 100%; }
+  .reviewcard { flex-basis: 100%; }
 }

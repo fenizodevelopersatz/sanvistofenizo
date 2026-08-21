@@ -126,3 +126,59 @@ export const mobileScreens = [
   '/wp-content/uploads/2025/08/fiverr-app-5.webp',
   '/wp-content/uploads/2025/08/fiverr-app-3.webp',
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Owen Bright',
+    role: 'Freelance Designer',
+    rating: 4.5,
+    quote: 'Managing gigs and messages in one place cut my admin time in half. I spend that time actually designing now.',
+    avatar: '/wp-content/reviews/fiverr/review-owen-bright.webp',
+    bg: '#e6fae0',
+    accent: '#369f18',
+    dot: '#78e25a',
+  },
+  {
+    name: 'Chidinma Okafor',
+    role: 'Marketplace Founder',
+    rating: 5,
+    quote: 'Package tiers were simple to set up and buyers understand exactly what they are paying for.',
+    avatar: '/wp-content/reviews/fiverr/review-chidinma-okafor.webp',
+    bg: '#e0fae5',
+    accent: '#189f33',
+    dot: '#5ae275',
+  },
+  {
+    name: 'Sana Qureshi',
+    role: 'Freelance Copywriter',
+    rating: 4.5,
+    quote: 'The communication channel keeps every client thread organized, nothing gets lost between projects anymore.',
+    avatar: '/wp-content/reviews/fiverr/review-sana-qureshi.webp',
+    bg: '#e0faee',
+    accent: '#189f60',
+    dot: '#5ae2a2',
+  },
+  {
+    name: 'Lars Eriksson',
+    role: 'Platform Operator',
+    rating: 5,
+    quote: 'Find Talent search actually surfaces the right freelancers fast, our match rate went up noticeably.',
+    avatar: '/wp-content/reviews/fiverr/review-lars-eriksson.webp',
+    bg: '#e0faf8',
+    accent: '#189f92',
+    dot: '#5ae2d4',
+  },
+  {
+    name: 'Isabella Conti',
+    role: 'Creative Director',
+    rating: 4.5,
+    quote: 'Saved items and created projects make it easy for clients to come back and reorder without starting over.',
+    avatar: '/wp-content/reviews/fiverr/review-isabella-conti.webp',
+    bg: '#e0f2fa',
+    accent: '#18739f',
+    dot: '#5ab5e2',
+  },
+]

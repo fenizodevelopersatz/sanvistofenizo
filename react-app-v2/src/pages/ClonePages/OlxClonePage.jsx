@@ -1,7 +1,7 @@
 import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
-import { standOutFeatures, revenueBenefits, pricingPlans } from '../../data/olx/olxData.js'
+import { standOutFeatures, revenueBenefits, pricingPlans, customerReviews } from '../../data/olx/olxData.js'
 
 import OlxHero from '../../components/olx/OlxHero.jsx'
 import TrustedByBuyers from '../../components/olx/TrustedByBuyers.jsx'
@@ -19,6 +19,8 @@ import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MobileScreens from '../../components/olx/MobileScreens.jsx'
 import OlxFaqSection from '../../components/olx/OlxFaqSection.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 export default function OlxClonePage() {
   usePageStylesheets(pageStylesheets.olxClone)
@@ -120,6 +122,8 @@ export default function OlxClonePage() {
         <section className="vc_section">
           <OlxFaqSection />
         </section>
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
       </div>
     </main>
   )

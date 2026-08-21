@@ -2,7 +2,7 @@ import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
-  standOutFeatures, addOnFeatures, revenueBenefits, pricingPlans, faqs,
+  standOutFeatures, addOnFeatures, revenueBenefits, pricingPlans, faqs, customerReviews,
 } from '../../data/rentalBooking/rentalBookingData.js'
 
 import RentalBookingHero from '../../components/rentalBooking/RentalBookingHero.jsx'
@@ -21,6 +21,8 @@ import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import AppScreens from '../../components/rentalBooking/AppScreens.jsx'
 import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 export default function RentalBookingClonePage() {
   usePageStylesheets(pageStylesheets.rentalBookingScript)
@@ -171,6 +173,8 @@ export default function RentalBookingClonePage() {
             faqs={faqs}
           />
         </section>
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
       </div>
     </main>
   )

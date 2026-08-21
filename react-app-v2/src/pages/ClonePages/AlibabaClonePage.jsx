@@ -4,7 +4,7 @@ import { pageStylesheets } from '../../data/pageStylesheets.js'
 import { siteContact } from '../../data/siteContact.js'
 import {
   techStack, standOutFeatures, launchSteps, addOnFeatures, pricingPlans,
-  comparisonOurs, comparisonOthers, roleTabs, revenueBenefits,
+  comparisonOurs, comparisonOthers, roleTabs, revenueBenefits, customerReviews,
 } from '../../data/alibaba/alibabaData.js'
 import { comparisonLabels } from '../../data/comparisonLabels.js'
 import { placeholderTestimonials } from '../../data/placeholderTestimonials.js'
@@ -31,6 +31,7 @@ import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import FaqServerTabs from '../../components/alibaba/FaqServerTabs.jsx'
 import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 
 const dashboards = [
@@ -216,7 +217,7 @@ export default function AlibabaClonePage() {
 
         <FaqServerTabs />
 
-        <TestimonialRotatorSection />
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
 
         <BlogTeaser />
       </div>

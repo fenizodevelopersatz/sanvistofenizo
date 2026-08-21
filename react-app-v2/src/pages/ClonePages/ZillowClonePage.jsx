@@ -3,7 +3,7 @@ import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
   aiFeatures, roleTabs, techStack, standOutFeatures, revenueBenefits,
-  launchSteps, dashboards, pricingPlans, comparisonOurs, comparisonOthers,
+  launchSteps, dashboards, pricingPlans, comparisonOurs, comparisonOthers, customerReviews,
 } from '../../data/zillow/zillowData.js'
 import { comparisonLabels } from '../../data/comparisonLabels.js'
 import { placeholderTestimonials } from '../../data/placeholderTestimonials.js'
@@ -11,6 +11,8 @@ import { placeholderTestimonials } from '../../data/placeholderTestimonials.js'
 import ZillowHero from '../../components/zillow/ZillowHero.jsx'
 import TrustedByBadges from '../../components/shared/TrustedByBadges.jsx'
 import BlockquoteTestimonials from '../../components/shared/BlockquoteTestimonials.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 import WhatIsZillow from '../../components/zillow/WhatIsZillow.jsx'
 import WhyChooseChecklist from '../../components/shared/WhyChooseChecklist.jsx'
 import AiFeaturesGrid from '../../components/shared/AiFeaturesGrid.jsx'
@@ -164,6 +166,8 @@ export default function ZillowClonePage() {
         <MoneyBackGuarantee />
 
         <FaqServerTabs />
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
 
         <BlogTeaser />
       </div>

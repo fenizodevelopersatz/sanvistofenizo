@@ -134,3 +134,59 @@ export const screenshots = [
   '/wp-content/uploads/2025/09/udemy-17.webp',
   '/wp-content/uploads/2025/09/udemy-15.webp',
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Alan Whitcombe',
+    role: 'Course Instructor',
+    rating: 5,
+    quote: 'Course quizzes and certification make my courses feel complete, students actually finish what they start.',
+    avatar: '/wp-content/reviews/udemy/review-alan-whitcombe.webp',
+    bg: '#e0e4fb',
+    accent: '#0e26aa',
+    dot: '#5a6fe2',
+  },
+  {
+    name: 'Naledi Mokoena',
+    role: 'Online Educator',
+    rating: 4.5,
+    quote: 'Google Calendar integration means live sessions never get missed by students juggling time zones.',
+    avatar: '/wp-content/reviews/udemy/review-naledi-mokoena.webp',
+    bg: '#e7e0fb',
+    accent: '#360eaa',
+    dot: '#7e5ae2',
+  },
+  {
+    name: 'Ravi Desai',
+    role: 'Ed-tech Founder',
+    rating: 4.5,
+    quote: 'Subscription plans gave us predictable revenue instead of chasing one-off course sales.',
+    avatar: '/wp-content/reviews/udemy/review-ravi-desai.webp',
+    bg: '#f0e0fb',
+    accent: '#6a0eaa',
+    dot: '#ab5ae2',
+  },
+  {
+    name: 'Charlotte Byrne',
+    role: 'Learning Platform Manager',
+    rating: 5,
+    quote: 'Course enrollment is smooth enough that we stopped losing students at the checkout step.',
+    avatar: '/wp-content/reviews/udemy/review-charlotte-byrne.webp',
+    bg: '#f9e0fb',
+    accent: '#a40eaa',
+    dot: '#dd5ae2',
+  },
+  {
+    name: 'Hassan Malik',
+    role: 'Support Lead',
+    rating: 4.5,
+    quote: 'The support system built into the platform means students get answers without ever leaving a lesson.',
+    avatar: '/wp-content/reviews/udemy/review-hassan-malik.webp',
+    bg: '#fbe0f0',
+    accent: '#aa0e6c',
+    dot: '#e25aad',
+  },
+]

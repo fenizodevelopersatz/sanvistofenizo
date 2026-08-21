@@ -174,3 +174,59 @@ export const changeLog = [
     items: ['Initial Release'],
   },
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Margaret Ellison',
+    role: 'Real Estate Broker',
+    rating: 5,
+    quote: 'AI Property Recommendations actually match what buyers are looking for, not just what is newly listed.',
+    avatar: '/wp-content/reviews/zillow/review-margaret-ellison.webp',
+    bg: '#e0fbf6',
+    accent: '#0eaa90',
+    dot: '#5ae2cb',
+  },
+  {
+    name: 'Tariq Hussain',
+    role: 'Real Estate Agent',
+    rating: 4.5,
+    quote: 'The AI Chatbot answers listing questions after hours, leads do not go cold overnight anymore.',
+    avatar: '/wp-content/reviews/zillow/review-tariq-hussain.webp',
+    bg: '#e0f4fb',
+    accent: '#0e83aa',
+    dot: '#5ac0e2',
+  },
+  {
+    name: 'Beatriz Costa',
+    role: 'Property Platform Founder',
+    rating: 5,
+    quote: 'AI-Powered Descriptions save my team hours every week and the copy reads better than what we wrote ourselves.',
+    avatar: '/wp-content/reviews/zillow/review-beatriz-costa.webp',
+    bg: '#e0ebfb',
+    accent: '#0e4faa',
+    dot: '#5a93e2',
+  },
+  {
+    name: 'Nathaniel Cross',
+    role: 'Broker',
+    rating: 4.5,
+    quote: 'Property search filters are precise enough that clients find real matches, not just a wall of listings.',
+    avatar: '/wp-content/reviews/zillow/review-nathaniel-cross.webp',
+    bg: '#e0e1fb',
+    accent: '#0e15aa',
+    dot: '#5a61e2',
+  },
+  {
+    name: 'Simone Laurent',
+    role: 'Neighborhood Specialist',
+    rating: 4.5,
+    quote: 'AI Neighborhood Insights give buyers context we used to explain over dozens of phone calls.',
+    avatar: '/wp-content/reviews/zillow/review-simone-laurent.webp',
+    bg: '#eae0fb',
+    accent: '#4a0eaa',
+    dot: '#8e5ae2',
+  },
+]

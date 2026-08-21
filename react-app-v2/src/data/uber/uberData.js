@@ -165,3 +165,59 @@ export const screenshots = [
   '/wp-content/uploads/2025/08/taxibooking-7.webp',
   '/wp-content/uploads/2025/08/taxibooking-6.webp',
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Malik Johnson',
+    role: 'Driver Partner',
+    rating: 5,
+    quote: 'SOS functionality gives me real peace of mind on late-night trips, it is a feature I actually notice.',
+    avatar: '/wp-content/reviews/uber/review-malik-johnson.webp',
+    bg: '#e6fbe0',
+    accent: '#32aa0e',
+    dot: '#7ae25a',
+  },
+  {
+    name: 'Elena Petrova',
+    role: 'Rider',
+    rating: 4.5,
+    quote: 'Show nearby taxis is accurate down to the minute, I stopped wondering if my ride was actually coming.',
+    avatar: '/wp-content/reviews/uber/review-elena-petrova.webp',
+    bg: '#e0fbe5',
+    accent: '#0eaa2b',
+    dot: '#5ae273',
+  },
+  {
+    name: 'Samuel Otieno',
+    role: 'Fleet Operator',
+    rating: 4.5,
+    quote: 'Book for others let our dispatch team handle rides for clients without juggling multiple phones.',
+    avatar: '/wp-content/reviews/uber/review-samuel-otieno.webp',
+    bg: '#e0fbee',
+    accent: '#0eaa5f',
+    dot: '#5ae2a1',
+  },
+  {
+    name: 'Wren Callahan',
+    role: 'Frequent Rider',
+    rating: 4.5,
+    quote: 'Payment methods just work, I have never had a failed transaction mid-ride.',
+    avatar: '/wp-content/reviews/uber/review-wren-callahan.webp',
+    bg: '#e0fbf7',
+    accent: '#0eaa98',
+    dot: '#5ae2d2',
+  },
+  {
+    name: 'Rohan Kapoor',
+    role: 'Taxi Business Owner',
+    rating: 5,
+    quote: 'Track location keeps both driver and rider calm, nobody is guessing where the other one is.',
+    avatar: '/wp-content/reviews/uber/review-rohan-kapoor.webp',
+    bg: '#e0f2fb',
+    accent: '#0e78aa',
+    dot: '#5ab7e2',
+  },
+]

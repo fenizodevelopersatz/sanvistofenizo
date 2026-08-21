@@ -4,13 +4,12 @@ import { pageStylesheets } from '../../data/pageStylesheets.js'
 import { comparisonLabels } from '../../data/comparisonLabels.js'
 import {
   coreModules, standardFeatures, addOnFeatures, techStack, launchSteps,
-  pricingPlans, comparisonOurs, comparisonOthers, faqs,
+  pricingPlans, comparisonOurs, comparisonOthers, faqs, customerReviews,
 } from '../../data/logistics/logisticsData.js'
 
 import LogisticsHero from '../../components/logistics/LogisticsHero.jsx'
 import WhatIsLogistics from '../../components/logistics/WhatIsLogistics.jsx'
 import TrustedByBadges from '../../components/shared/TrustedByBadges.jsx'
-import BlockquoteTestimonials from '../../components/shared/BlockquoteTestimonials.jsx'
 import WhyChooseChecklist from '../../components/shared/WhyChooseChecklist.jsx'
 import StandOutFeaturesGrid from '../../components/shared/StandOutFeaturesGrid.jsx'
 import ComparisonTable from '../../components/shared/ComparisonTable.jsx'
@@ -24,6 +23,8 @@ import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 const revenueBenefits = [
   { icon: 'fa fa-solid fa-truck-fast', title: 'Delivery Fees', desc: 'Earn per-delivery fees from every completed order.' },
@@ -46,7 +47,6 @@ export default function LogisticsClonePage() {
 
         <section className="vc_section vc_section-has-fill">
           <TrustedByBadges heading="by Logistics & Courier Founders" />
-          <BlockquoteTestimonials count={3} offset={0} visibleCount={2} />
         </section>
 
         <section className="vc_section">
@@ -125,6 +125,8 @@ export default function LogisticsClonePage() {
           subheading="Clear all your doubts about our Logistics Service App with our extensive FAQ section."
           faqs={faqs}
         />
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
 
         <BlogTeaser />
       </div>

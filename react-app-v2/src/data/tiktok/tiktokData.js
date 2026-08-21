@@ -140,3 +140,59 @@ export const faqs = [
   { q: 'How Fast Can I Launch a TikTok Clone App with CloneScript?', a: 'With CloneScript, you can launch your TikTok-like video-sharing app in as little as 7 days. Our team takes care of setup, customization, deployment, and technical support—ensuring a smooth and quick go-to-market experience.' },
   { q: 'Is a TikTok Clone a Good Business Idea in 2026 and Beyond?', a: 'Yes. Short-video platforms continue to dominate user engagement globally. With AI-powered content discovery, creator monetization, and social commerce integrations, launching a TikTok Clone app is a highly profitable and future-ready business model.' },
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Jaden Michaels',
+    role: 'Content Creator',
+    rating: 5,
+    quote: 'Filters and effects are genuinely fun to use, my upload-to-post time dropped by half.',
+    avatar: '/wp-content/reviews/tiktok/review-jaden-michaels.webp',
+    bg: '#fbe0f9',
+    accent: '#aa0ea1',
+    dot: '#e25adb',
+  },
+  {
+    name: 'Yuki Tanaka',
+    role: 'Livestream Host',
+    rating: 4.5,
+    quote: 'User livestreaming just works, no lag, no dropped viewers mid-stream.',
+    avatar: '/wp-content/reviews/tiktok/review-yuki-tanaka.webp',
+    bg: '#fbe0ee',
+    accent: '#aa0e60',
+    dot: '#e25aa2',
+  },
+  {
+    name: 'Amelia Foster',
+    role: 'Platform Founder',
+    rating: 5,
+    quote: 'The analytics dashboard tells us exactly which videos to promote before they even go viral.',
+    avatar: '/wp-content/reviews/tiktok/review-amelia-foster.webp',
+    bg: '#fbe0e5',
+    accent: '#aa0e2c',
+    dot: '#e25a75',
+  },
+  {
+    name: 'Diego Ramirez',
+    role: 'Social App Operator',
+    rating: 4.5,
+    quote: 'Wallet and gifting kept creators engaged in a way our old platform never managed.',
+    avatar: '/wp-content/reviews/tiktok/review-diego-ramirez.webp',
+    bg: '#fbe4e0',
+    accent: '#aa290e',
+    dot: '#e2725a',
+  },
+  {
+    name: 'Grace Kim',
+    role: 'Video Editor',
+    rating: 4.5,
+    quote: 'The chat page keeps creator-fan conversations organized without cluttering the main feed.',
+    avatar: '/wp-content/reviews/tiktok/review-grace-kim.webp',
+    bg: '#fbf0e0',
+    accent: '#aa6c0e',
+    dot: '#e2ac5a',
+  },
+]

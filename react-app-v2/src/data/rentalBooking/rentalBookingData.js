@@ -129,3 +129,59 @@ export const appScreens = [
   '/wp-content/uploads/2026/01/booking.webp',
   '/wp-content/uploads/2026/01/details.webp',
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Holly Marsh',
+    role: 'Equipment Rental Owner',
+    rating: 5,
+    quote: 'Instant checkout means customers book and pay without calling us first. Bookings doubled in two months.',
+    avatar: '/wp-content/reviews/rentalBooking/review-holly-marsh.webp',
+    bg: '#e0fbf5',
+    accent: '#0eaa88',
+    dot: '#5ae2c5',
+  },
+  {
+    name: 'Petr Novak',
+    role: 'Rental Fleet Manager',
+    rating: 4.5,
+    quote: 'Flexible booking windows fit how our customers actually rent, by the hour or by the week.',
+    avatar: '/wp-content/reviews/rentalBooking/review-petr-novak.webp',
+    bg: '#e0f5fb',
+    accent: '#0e8baa',
+    dot: '#5ac7e2',
+  },
+  {
+    name: 'Amara Johnson',
+    role: 'Booking Platform Founder',
+    rating: 4.5,
+    quote: 'Wishlist and notifications bring people back before their next trip even starts.',
+    avatar: '/wp-content/reviews/rentalBooking/review-amara-johnson.webp',
+    bg: '#e0ecfb',
+    accent: '#0e57aa',
+    dot: '#5a9ae2',
+  },
+  {
+    name: 'Tobias Richter',
+    role: 'Operations Lead',
+    rating: 4.5,
+    quote: 'Booking history gives our support team the full picture in seconds instead of digging through email.',
+    avatar: '/wp-content/reviews/rentalBooking/review-tobias-richter.webp',
+    bg: '#e0e2fb',
+    accent: '#0e1daa',
+    dot: '#5a68e2',
+  },
+  {
+    name: 'Leila Haddad',
+    role: 'Small Business Owner',
+    rating: 5,
+    quote: 'Browsing rentals feels as smooth as any big travel site, our customers noticed the difference immediately.',
+    avatar: '/wp-content/reviews/rentalBooking/review-leila-haddad.webp',
+    bg: '#e9e0fb',
+    accent: '#420eaa',
+    dot: '#875ae2',
+  },
+]

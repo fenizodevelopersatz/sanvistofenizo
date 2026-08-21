@@ -98,3 +98,59 @@ export const screenshots = [
   '/wp-content/uploads/2025/09/youtube-clone-home.webp',
   '/wp-content/uploads/2025/08/youtube-app-2-scaled.webp',
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Isaac Bergstrom',
+    role: 'Content Platform Founder',
+    rating: 5,
+    quote: 'Unlimited music and shorts kept creators on our platform instead of splitting content elsewhere.',
+    avatar: '/wp-content/reviews/youtube/review-isaac-bergstrom.webp',
+    bg: '#fbe0f4',
+    accent: '#aa0e83',
+    dot: '#e25ac0',
+  },
+  {
+    name: 'Priyanka Bhatt',
+    role: 'Video Creator',
+    rating: 4.5,
+    quote: 'Multilingual support let us reach viewers we could not before, our watch time doubled.',
+    avatar: '/wp-content/reviews/youtube/review-priyanka-bhatt.webp',
+    bg: '#fbe0e9',
+    accent: '#aa0e42',
+    dot: '#e25a87',
+  },
+  {
+    name: 'Marcus Delacroix',
+    role: 'Streaming Operator',
+    rating: 4.5,
+    quote: 'History view and category browsing keep viewers coming back for more without getting lost.',
+    avatar: '/wp-content/reviews/youtube/review-marcus-delacroix.webp',
+    bg: '#fbe0e0',
+    accent: '#aa0e0e',
+    dot: '#e25a5a',
+  },
+  {
+    name: 'Fiona Sutherland',
+    role: 'Platform Manager',
+    rating: 4.5,
+    quote: 'Upload videos is fast and reliable even at scale, our creators stopped complaining about failed uploads.',
+    avatar: '/wp-content/reviews/youtube/review-fiona-sutherland.webp',
+    bg: '#fbeae0',
+    accent: '#aa470e',
+    dot: '#e28c5a',
+  },
+  {
+    name: 'Arjun Verma',
+    role: 'Media Founder',
+    rating: 5,
+    quote: 'Rent management opened up a premium content revenue stream we did not have before.',
+    avatar: '/wp-content/reviews/youtube/review-arjun-verma.webp',
+    bg: '#fbf5e0',
+    accent: '#aa8b0e',
+    dot: '#e2c75a',
+  },
+]

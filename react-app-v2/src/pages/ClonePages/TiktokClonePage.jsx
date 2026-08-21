@@ -2,7 +2,7 @@ import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
-  featureGroups, standOutFeatures, addOnFeatures, revenueBenefits, screenshots, pricingPlans,
+  featureGroups, standOutFeatures, addOnFeatures, revenueBenefits, screenshots, pricingPlans, customerReviews,
 } from '../../data/tiktok/tiktokData.js'
 
 import TiktokHero from '../../components/tiktok/TiktokHero.jsx'
@@ -21,6 +21,8 @@ import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 import TiktokScene from '../../components/tiktok/TiktokScene.jsx'
 import TiktokPhoneStack from '../../components/tiktok/TiktokPhoneStack.jsx'
 import TiltCard from '../../components/tiktok/TiltCard.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 import './TiktokClonePage.css'
 
 export default function TiktokClonePage() {
@@ -195,6 +197,8 @@ export default function TiktokClonePage() {
         </section>
 
         <FaqServerTabs />
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
 
         <BlogTeaser />
       </div>

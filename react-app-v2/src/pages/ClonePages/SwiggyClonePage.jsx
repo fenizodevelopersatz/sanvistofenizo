@@ -3,7 +3,7 @@ import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
   featurePanels, standardFeatures, addOnFeatures, revenueBenefits,
-  pricingPlans, faqs, serverRequirements, mobileScreens,
+  pricingPlans, faqs, serverRequirements, mobileScreens, customerReviews,
 } from '../../data/swiggy/swiggyData.js'
 
 import SwiggyHero from '../../components/swiggy/SwiggyHero.jsx'
@@ -20,6 +20,8 @@ import RevenueBenefits from '../../components/shared/RevenueBenefits.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import CloneScriptImage from '../../components/shared/CloneScriptImage.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 export default function SwiggyClonePage() {
   usePageStylesheets(pageStylesheets.swiggyClone)
@@ -264,6 +266,8 @@ export default function SwiggyClonePage() {
         <section className="vc_section">
           <FaqServerTabs faqs={faqs} requirements={serverRequirements} />
         </section>
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
       </div>
     </main>
   )

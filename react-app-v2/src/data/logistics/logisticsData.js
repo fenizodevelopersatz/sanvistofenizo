@@ -103,3 +103,59 @@ export const faqs = [
   { q: 'Can I resell the script/theme from CloneScript?', a: 'No, once you purchase the Logistics Service App or any theme from us, you don’t have to resell or distribute them. If you violate this you are liable for illegal activities.' },
   { q: 'How do Single and Multi Domain License differ?', a: 'A single-domain license allows usage for only one business on a single domain. For example, you can use it exclusively on mylogistics.com.' },
 ]
+
+/* Five customer reviews with real per-card markup, replacing any shared placeholder
+   testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,
+   no real person) portraits, unique to this page across the whole site. */
+export const customerReviews = [
+  {
+    name: 'Harriet Solano',
+    role: 'Fleet Operations Manager',
+    rating: 5,
+    quote: 'Real-time GPS tracking means we stop fielding where-is-my-delivery calls. Customers can just see it for themselves.',
+    avatar: '/wp-content/reviews/logistics/review-harriet-solano.webp',
+    bg: '#e0fafb',
+    accent: '#0ea9aa',
+    dot: '#5ae1e2',
+  },
+  {
+    name: 'Deepak Suri',
+    role: 'Warehouse Director',
+    rating: 4.5,
+    quote: 'Warehouse and hub management finally talks to dispatch. We cut a full step out of every order.',
+    avatar: '/wp-content/reviews/logistics/review-deepak-suri.webp',
+    bg: '#e0effb',
+    accent: '#0e68aa',
+    dot: '#5aa9e2',
+  },
+  {
+    name: 'Anke Vermeulen',
+    role: 'Logistics Founder',
+    rating: 5,
+    quote: 'Route optimization alone paid for the platform in fuel savings within the first quarter.',
+    avatar: '/wp-content/reviews/logistics/review-anke-vermeulen.webp',
+    bg: '#e0e6fb',
+    accent: '#0e34aa',
+    dot: '#5a7be2',
+  },
+  {
+    name: 'Julian Ferreira',
+    role: 'Dispatch Lead',
+    rating: 4.5,
+    quote: 'Proof of delivery with photo capture ended nearly every damage dispute we used to have.',
+    avatar: '/wp-content/reviews/logistics/review-julian-ferreira.webp',
+    bg: '#e3e0fb',
+    accent: '#210eaa',
+    dot: '#6b5ae2',
+  },
+  {
+    name: 'Priyanka Rao',
+    role: 'Supply Chain Manager',
+    rating: 4.5,
+    quote: 'Fleet and rider management gives us visibility we never had with spreadsheets. Onboarding new riders takes minutes now.',
+    avatar: '/wp-content/reviews/logistics/review-priyanka-rao.webp',
+    bg: '#efe0fb',
+    accent: '#650eaa',
+    dot: '#a65ae2',
+  },
+]

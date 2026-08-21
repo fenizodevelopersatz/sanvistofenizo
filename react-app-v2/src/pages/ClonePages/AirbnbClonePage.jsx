@@ -3,7 +3,7 @@ import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
   whyChooseUsPoints, aiFeatures, comparisonLabels, comparisonOurs, comparisonOthers,
-  exclusiveBenefits, revenueBenefits, pricingPlans, screenshots,
+  exclusiveBenefits, revenueBenefits, pricingPlans, screenshots, customerReviews,
 } from '../../data/airbnb/airbnbData.js'
 
 import AirbnbHero from '../../components/airbnb/AirbnbHero.jsx'
@@ -19,6 +19,8 @@ import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import FaqServerTabs from '../../components/airbnb/FaqServerTabs.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
+import ReviewCards from '../../components/shared/ReviewCards.jsx'
+import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 export default function AirbnbClonePage() {
   usePageStylesheets(pageStylesheets.airbnbClone)
@@ -192,6 +194,8 @@ export default function AirbnbClonePage() {
         </section>
 
         <FaqServerTabs />
+
+        <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
 
         <BlogTeaser />
       </div>
