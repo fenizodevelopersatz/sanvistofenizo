@@ -12,9 +12,9 @@ export default function TeamToolsBanner() {
                   <div className="ld-fancy-heading text-center text-capitalize">
                     <h3 className="lqd-highlight-underline lqd-highlight-grow-left">
                       <span className="ld-fh-txt">
-                        We&rsquo;ve got the team, the tech and the tools
+                        We&rsquo;ve got the talent, the tech, and the tools
                         <br />
-                        Let&rsquo;s Start Something Innovative Together.
+                        Let&rsquo;s Build Something Innovative Together.
                       </span>
                     </h3>
                   </div>

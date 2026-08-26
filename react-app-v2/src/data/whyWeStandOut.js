@@ -1,7 +1,7 @@
 export const whyWeStandOutItems = [
   {
-    title: 'Future Proof',
-    desc: 'Our solutions are built with the up-to-date tech stack to ensure your platform stays modern and future-ready.',
+    title: 'Future-Ready Technology',
+    desc: 'We use modern technologies, updated frameworks, and scalable development practices to build powerful digital solutions. Our platforms are designed to remain flexible, secure, and adaptable, helping businesses meet changing market demands and stay ready for future growth and innovation.',
     image: '/wp-content/uploads/2025/07/web-future.png',
     imageAlt: 'web-future',
     imageWidth: 452,
@@ -11,8 +11,8 @@ export const whyWeStandOutItems = [
     textFrom: 'right',
   },
   {
-    title: 'Excellent Support',
-    desc: 'We are with you every step of the way. Whenever you face a challenge, our support team is just a message away to resolve any technical issues you encounter.',
+    title: 'Dedicated Technical Support',
+    desc: 'Our dedicated Technical Support Services help businesses maintain smooth and reliable digital operations. From troubleshooting technical issues to resolving platform concerns, we provide timely assistance, practical solutions, and dependable guidance throughout your journey.',
     image: '/wp-content/uploads/2025/04/contact-us-v1763374802-620x414.webp',
     imageAlt: 'Customer support team',
     imageWidth: 620,
@@ -22,8 +22,8 @@ export const whyWeStandOutItems = [
     textFrom: 'right',
   },
   {
-    title: 'Clean and Maintainable Code',
-    desc: 'Future developers can easily understand how it works and start working with it. We focus on writing simple, maintainable, well-commented, and well-documented code.',
+    title: 'Simple & Maintainable Code',
+    desc: 'We follow Clean Coding Practices to develop readable, structured, and maintainable solutions. Our development approach makes future updates, troubleshooting, integrations, and feature enhancements easier while supporting long-term performance and scalability.',
     image: '/wp-content/uploads/2024/09/clean-maintainable-code.png',
     imageAlt: 'Clean and maintainable code',
     imageWidth: 1194,
@@ -33,8 +33,8 @@ export const whyWeStandOutItems = [
     textFrom: 'left',
   },
   {
-    title: 'Enhanced Security',
-    desc: 'All your data is highly confidential, and we follow multi-layered security protocols. So you don’t have to worry about security.',
+    title: 'Strong Security Standards',
+    desc: 'We implement Strong Security Measures to protect business information, customer data, and digital platforms. Our solutions incorporate secure development practices, data protection, authentication, and controlled access to create reliable and secure digital environments.',
     image: '/wp-content/uploads/2025/11/ai-functional-safety.svg',
     imageAlt: 'AI functional safety',
     imageWidth: 533,

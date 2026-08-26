@@ -17,8 +17,8 @@ export default function TrustedByLogos() {
                     <span className="liquid_empty_space_inner"></span>
                   </div>
                   <header className="fancy-title">
-                    <h2>Trusted Technology Partner</h2>
-                    <h6>Step into the Future With Us</h6>
+                    <h2>The Choice of Industry Leaders</h2>
+                    <h6>Shape the Future With Us</h6>
                   </header>
                 </div>
               </div>

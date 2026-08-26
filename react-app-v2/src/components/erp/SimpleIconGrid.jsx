@@ -26,11 +26,14 @@ export default function SimpleIconGrid({ items, title, desc, columns = 3, varian
       <div className="ld-container container">
         <div className="row ld-row erp-simple-icon-grid" style={{ '--erp-columns': columns }}>
           {items.map((item, i) => (
-            <div className="iconbox iconbox-inline iconbox-square erp-simple-icon-card" key={i} style={{ color: '#006fff' }}>
-              <div className="iconbox-icon-wrap">
-                <span className="iconbox-icon-container"><i className={item.icon}></i></span>
+            <div className="erp-simple-icon-card" key={i}>
+              <div className="iconbox iconbox-inline iconbox-square" style={{ color: '#006fff' }}>
+                <div className="iconbox-icon-wrap">
+                  <span className="iconbox-icon-container"><i className={item.icon}></i></span>
+                </div>
+                <h3 className="font-weight-normal">{item.title}</h3>
               </div>
-              <h3 className="font-weight-normal">{item.title}</h3>
+              {item.desc && <p className="erp-simple-icon-card__desc">{item.desc}</p>}
             </div>
           ))}
         </div>

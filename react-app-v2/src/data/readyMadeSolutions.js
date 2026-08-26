@@ -1,7 +1,7 @@
 export const readyMadeSolutions = [
   {
-    title: 'Rental & Booking Script',
-    desc: 'Rental and Booking Scripts are robust and user-friendly platforms built to streamline the rental booking process.  The rental scripts are enriched with enormous features that make your website and app ideal for managing various rental services.',
+    title: 'Rental & Booking Solutions',
+    desc: 'Our Rental & Booking Scripts provide user-friendly platforms that simplify booking and rental management. Flexible features help businesses efficiently manage reservations, customers, rental services, availability, and everyday operations.',
     image: '/wp-content/uploads/2025/10/rental-and-booking-script-solutions.webp',
     imageAlt: 'rental-and-booking-script-solutions',
     imageWidth: 320,
@@ -9,8 +9,8 @@ export const readyMadeSolutions = [
     link: '/airbnb-clone',
   },
   {
-    title: 'Taxi Booking Script',
-    desc: 'Taxi Booking Scripts are a complete solution for any ride-hailing service, allowing efficient taxi booking management. We provide customizable scripts which include Uber clone, Via clone, Ola clone, Lyft clone, etc.',
+    title: 'Taxi Booking Solutions',
+    desc: 'Our Taxi Booking Scripts provide customizable solutions for businesses looking to launch and manage ride-hailing platforms. Build feature-rich transportation platforms with booking, driver management, payments, tracking, and other essential capabilities.',
     image: '/wp-content/uploads/2025/10/taxi-booking-business-solution.webp',
     imageAlt: 'taxi-booking-business-solution',
     imageWidth: 425,
@@ -18,8 +18,8 @@ export const readyMadeSolutions = [
     link: '/uber-clone',
   },
   {
-    title: 'Ecommerce Scripts',
-    desc: 'Our eCommerce scripts offer the ideal solution for effortlessly building and managing the eCommerce marketplaces. With a range of customizable features and secure payment options, it’s the ultimate tool for entrepreneurs looking to thrive in the eCommerce industry.',
+    title: 'eCommerce Marketplace Solutions',
+    desc: 'Our eCommerce Scripts provide a reliable way to create and manage online marketplaces. With customizable functionality and secure payment options, businesses can efficiently launch, operate, and scale feature-rich eCommerce platforms.',
     image: '/wp-content/uploads/2025/10/ecommerce-business-solutions.webp',
     imageAlt: 'ecommerce-business-solutions',
     imageWidth: 405,
@@ -27,8 +27,8 @@ export const readyMadeSolutions = [
     link: '/amazon-clone',
   },
   {
-    title: 'On-Demand Service Scripts',
-    desc: 'CloneScript On-Demand Service Scripts are ready-to-go solutions for businesses looking to enter the service industry. We offer a variety of service marketplaces such as a Handyman app like Uber, Taskrabbit clone, Thumbtack clone, and more.',
+    title: 'On-Demand Service Marketplace Solutions',
+    desc: 'Our On-Demand Service Scripts provide customizable solutions for businesses entering the service marketplace industry. Build platforms for handyman services, professional marketplaces, home services, and various other on-demand business models.',
     image: '/wp-content/uploads/2025/10/on-demand-service-business-solutions.webp',
     imageAlt: 'on-demand-service-business-solutions',
     imageWidth: 388,
@@ -36,8 +36,8 @@ export const readyMadeSolutions = [
     link: '/gojek-clone',
   },
   {
-    title: 'Uber Clone for X',
-    desc: 'CloneScript’s Uber Clone for X script enables business owners to effortlessly build their own on-demand service platforms customized for any industry, including Uber for Babysitters, Beauty Services, Car Wash, Doctors, Electricians, and much more.',
+    title: 'Uber Clone for Any Business',
+    desc: 'Our Uber Clone for X solution enables businesses to build customized on-demand platforms across multiple industries. Create scalable solutions for transportation, beauty, healthcare, home services, professional services, and other service-based business models.',
     image: '/wp-content/uploads/2025/10/uber-clone-for-x-solutions.webp',
     imageAlt: 'on-demand-service-business-solutions',
     imageWidth: 425,

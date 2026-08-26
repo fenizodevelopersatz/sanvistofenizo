@@ -10,14 +10,15 @@ export default function Hero() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <h1 style={{ fontSize: 32, color: '#101B48', textAlign: 'left' }} className="vc_custom_heading">
-                    We Build Digital Products That Move Businesses Forward.
+                    Custom Web & Mobile App Development Company
                   </h1>
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
                       <p>
-                        CloneScript designs and builds websites, mobile apps, SaaS products, e-commerce
-                        platforms and custom software for growing businesses — backed by ready-to-launch clone
-                        scripts when speed to market matters most.
+                        We create custom web and mobile app solutions that combine modern design, advanced
+                        technology, and scalable performance. From business applications to marketplace
+                        platforms and PHP solutions, we help businesses build secure, engaging, and
+                        growth-focused digital products.
                       </p>
                     </div>
                   </div>

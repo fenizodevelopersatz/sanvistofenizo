@@ -249,9 +249,8 @@
 
 .erp-simple-icon-card {
   min-width: 0;
-  min-height: 60px;
   margin: 0 !important;
-  padding: 10px 14px;
+  padding: 14px 16px;
   border: 1px solid var(--erp-border);
   border-radius: 12px;
   background: #fff;
@@ -282,18 +281,13 @@
   line-height: 1 !important;
 }
 
-.erp-simple-icon-section--powerful .erp-simple-icon-card {
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.erp-simple-icon-section--powerful .erp-simple-icon-card .iconbox-icon-wrap {
-  margin: 0 0 14px;
-}
-
-.erp-simple-icon-section--powerful .erp-simple-icon-card .iconbox-icon-container {
-  margin-right: 0;
+.erp-simple-icon-card__desc {
+  min-width: 0;
+  margin: 10px 0 0;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
 }
 
 .erp-why-section {

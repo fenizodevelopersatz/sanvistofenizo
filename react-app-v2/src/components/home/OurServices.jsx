@@ -22,8 +22,9 @@ function ServiceCard({ service }) {
                   <i className="far fa-check-circle"></i>
                 </span>
               </div>
-              <h3 className="font-weight-semibold">{service}</h3>
+              <h3 className="font-weight-semibold">{service.title}</h3>
             </div>
+            <p className="clonescript-service-desc">{service.desc}</p>
           </div>
         </div>
       </div>
@@ -47,12 +48,12 @@ export default function OurServices() {
                       </p>
                     </div>
                     <header className="fancy-title text-center">
-                      <h2>Our Services</h2>
+                      <h2>Technology Services for Growing Businesses</h2>
                       <div className="st-desc">
                         <p style={{ textAlign: 'center' }}>
-                          CloneScript offers a wide range of services from web development to ready-made clone scripts, which can
-                          be tailored to meet your business needs. Our services are designed to help you launch your business
-                          quickly and scale efficiently.
+                          From Custom Web and Mobile Development to ready-made clone solutions, we deliver flexible
+                          digital services tailored to your business goals. Our solutions help businesses launch
+                          faster, streamline operations, adapt to market requirements, and scale confidently.
                         </p>
                       </div>
                     </header>

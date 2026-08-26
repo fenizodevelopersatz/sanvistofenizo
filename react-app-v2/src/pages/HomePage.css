@@ -101,6 +101,13 @@
   color: #006fff !important;
 }
 
+.clonescript-service-desc {
+  margin: 6px 0 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
 .clonescript-process-section .iconbox-icon-container {
   width: 60px !important;
   height: 60px !important;

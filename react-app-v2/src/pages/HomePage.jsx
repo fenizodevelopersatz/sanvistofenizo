@@ -20,7 +20,10 @@ import './HomePage.css'
 export default function HomePage() {
   usePageStylesheets(pageStylesheets.home)
 
-  useSeo('CloneScript | Web, Mobile App & Software Development Company')
+  useSeo(
+    'Custom Web & Mobile App Development Solutions | Clone Script',
+    'We deliver custom web and mobile app development solutions with modern design, advanced technology, scalable performance, and secure business solutions.'
+  )
 
   return (
     <main className="content clonescript-homepage" id="content">

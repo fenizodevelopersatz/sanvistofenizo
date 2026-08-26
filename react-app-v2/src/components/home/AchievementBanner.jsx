@@ -19,11 +19,12 @@ export default function AchievementBanner() {
                     </p>
                   </div>
                   <header className="fancy-title">
-                    <h3>Milestones That Matter</h3>
+                    <h3>Achievements Built on Trust</h3>
                     <div className="st-desc">
                       <p>
-                        Our greatest milestones are made possible by our clients&rsquo; trust, with each achievement reflecting
-                        the value we provide and the platforms we build.
+                        Every milestone reflects the Trust of Our Clients and the value created through successful
+                        digital projects. Our achievements demonstrate our commitment to quality, innovation,
+                        reliable technology, customer satisfaction, and sustainable business relationships.
                       </p>
                     </div>
                   </header>

@@ -17,9 +17,13 @@ export default function ProductCategoryCards() {
                     </p>
                   </div>
                   <header className="fancy-title text-center">
-                    <h2>Find the Right Solution for Your Business</h2>
+                    <h2>Ready-to-Launch Business Solutions</h2>
                     <div className="st-desc">
-                      <p style={{ textAlign: 'center' }}>Every category below is a ready-to-launch, fully customizable script.</p>
+                      <p style={{ textAlign: 'center' }}>
+                        Our Ready-to-Launch Business Solutions help entrepreneurs enter competitive markets faster
+                        with customizable platforms. From eCommerce and on-demand services to taxi, rental, and
+                        booking solutions, businesses can streamline operations and scale confidently.
+                      </p>
                     </div>
                   </header>
                 </div>

@@ -21,16 +21,26 @@ export default function SchoolCrmHero() {
                   <div className="ld-fancy-heading text-left">
                     <h1 className="cs-schoolcrm-hero__heading lqd-highlight-underline lqd-highlight-grow-left">
                       <span className="ld-fh-txt">
-                        <span style={{ color: '#3157f5' }}>School CRM</span>
+                        <span style={{ color: '#3157f5' }}>School CRM Software</span>{' '}
                         <br />
-                        <span className="hero-heading">The All-in-One School Management System!</span>
+                        <span className="hero-heading">for Smarter Education Management</span>
                       </span>
                     </h1>
                   </div>
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
                       <p className="cs-schoolcrm-hero__desc" style={{ textAlign: 'left' }}>
-                        <span style={{ fontWeight: 400 }}>School CRM is a cloud-based school management software that brings admissions, attendance, fees, exams, and parent communication together on one secure platform.</span>
+                        <span style={{ fontWeight: 400 }}>
+                          Build an organized school-management ecosystem with CloneScript. Our School CRM helps
+                          educational institutions manage admissions, students, parents, teachers, fees,
+                          communication, and administrative activities from one centralized platform.
+                        </span>
+                      </p>
+                      <p className="cs-schoolcrm-hero__desc" style={{ textAlign: 'left' }}>
+                        <span style={{ fontWeight: 400 }}>
+                          The software reduces repetitive work, improves communication, and gives school
+                          administrators clearer insights into everyday operations.
+                        </span>
                       </p>
                     </div>
                   </div>

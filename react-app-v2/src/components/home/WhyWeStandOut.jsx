@@ -20,8 +20,8 @@ export default function WhyWeStandOut() {
                       </p>
                     </div>
                     <header className="fancy-title text-center vc_custom_1745238282869">
-                      <h2>Why We Stand Out?</h2>
-                      <h6>What makes CloneScript the top choice for startups and enterprises</h6>
+                      <h2>What Sets Us Apart?</h2>
+                      <h6>Why Startups and Enterprises Choose Us</h6>
                     </header>
                   </div>
                 </div>

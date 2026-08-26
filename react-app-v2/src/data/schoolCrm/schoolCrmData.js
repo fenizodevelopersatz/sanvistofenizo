@@ -11,37 +11,28 @@ export const coreModules = [
 ]
 
 export const standardFeatures = [
-  { icon: 'fa fa-solid fa-user-shield', title: 'Role-Based Access Control' },
-  { icon: 'fa fa-solid fa-code-branch', title: 'Multi-Branch Support' },
-  { icon: 'fa fa-solid fa-fingerprint', title: 'Biometric Attendance Integration' },
-  { icon: 'fa fa-solid fa-credit-card', title: 'Online Fee Payment Gateway' },
-  { icon: 'fa fa-brands fa-whatsapp', title: 'SMS, Email & WhatsApp Alerts' },
-  { icon: 'fa fa-solid fa-mobile-screen-button', title: 'Dedicated Parent App' },
-  { icon: 'fa fa-solid fa-language', title: 'Multi-Language Support' },
-  { icon: 'fa fa-solid fa-file-circle-check', title: 'Automated Report Cards' },
-  { icon: 'fa fa-solid fa-database', title: 'Automated Data Backup' },
-  { icon: 'fa fa-solid fa-sack-dollar', title: 'Staff Payroll & HR' },
-  { icon: 'fa fa-solid fa-clipboard-list', title: 'Homework & Assignment Tracker' },
-  { icon: 'fa fa-solid fa-video', title: 'Live Class Integration' },
+  { icon: 'fa fa-solid fa-display', title: 'Responsive Dashboard', desc: 'Users can access permitted features through desktops, tablets, and mobile devices.' },
+  { icon: 'fa fa-solid fa-magnifying-glass', title: 'Search and Filters', desc: 'Quickly locate students, parents, applications, payments, or staff records.' },
+  { icon: 'fa fa-solid fa-bell', title: 'Automated Notifications', desc: 'Send reminders for admissions, payments, attendance, events, meetings, and examinations.' },
+  { icon: 'fa fa-solid fa-language', title: 'Multilingual Support', desc: 'The interface and selected communication templates can support multiple languages.' },
+  { icon: 'fa fa-solid fa-file-circle-check', title: 'Custom Reports', desc: 'Create reports based on classes, dates, admission stages, fee status, attendance, or other available fields.' },
+  { icon: 'fa fa-solid fa-file-export', title: 'Data Export', desc: 'Authorized users can export selected reports in supported formats.' },
+  { icon: 'fa fa-solid fa-clock-rotate-left', title: 'Activity Logs', desc: 'Maintain records of important account and data-management activities for accountability.' },
+  { icon: 'fa fa-solid fa-cloud', title: 'Cloud Access', desc: 'Authorized users can access the system securely from supported locations and devices.' },
+  { icon: 'fa fa-solid fa-database', title: 'Data Backup', desc: 'Scheduled backups can help protect important institutional records.' },
+  { icon: 'fa fa-solid fa-palette', title: 'Custom Branding', desc: 'Add the school’s logo, colours, contact information, and visual identity.' },
 ]
 
 export const addOnFeatures = [
-  ['fa fa-solid fa-shield-halved', 'Secure Login'],
-  ['fa fa-solid fa-key', 'OTP Verification'],
-  ['fa fa-solid fa-bell', 'Push Notifications'],
-  ['fa fa-solid fa-folder-open', 'Document Vault'],
-  ['fa fa-solid fa-id-card', 'ID Card Generator'],
-  ['fa fa-solid fa-certificate', 'Certificate Generator'],
-  ['fa fa-solid fa-user-check', 'Visitor Management'],
-  ['fa fa-solid fa-boxes-stacked', 'Inventory Management'],
-  ['fa fa-solid fa-people-group', 'Alumni Network'],
-  ['fa fa-solid fa-calendar-star', 'Event Calendar'],
-  ['fa fa-solid fa-location-dot', 'Bus GPS Tracking'],
-  ['fa fa-solid fa-bed', 'Hostel Management'],
-  ['fa fa-solid fa-chart-column', 'Performance Analytics'],
-  ['fa fa-solid fa-file-invoice-dollar', 'Fee Receipt Download'],
-  ['fa fa-solid fa-address-book', 'Staff Directory'],
-].map(([icon, title]) => ({ icon, title }))
+  { icon: 'fa fa-solid fa-book-open', title: 'Learning Management Integration', desc: 'Connect the School CRM with an LMS for lessons, assignments, assessments, and digital learning materials.' },
+  { icon: 'fa fa-solid fa-bus', title: 'Transport Management', desc: 'Manage routes, vehicles, stops, drivers, and student transport assignments.' },
+  { icon: 'fa fa-solid fa-book', title: 'Library Management', desc: 'Track books, memberships, issue dates, returns, and overdue records.' },
+  { icon: 'fa fa-solid fa-bed', title: 'Hostel Management', desc: 'Manage rooms, student allocations, fees, visitor records, and hostel-related information.' },
+  { icon: 'fa fa-solid fa-fingerprint', title: 'Biometric Attendance', desc: 'Integrate supported biometric or smart-card devices for attendance recording.' },
+  { icon: 'fa fa-solid fa-mobile-screen-button', title: 'Mobile Applications', desc: 'Provide separate mobile access for administrators, teachers, parents, and students.' },
+  { icon: 'fa fa-brands fa-whatsapp', title: 'WhatsApp Integration', desc: 'Send approved admission, payment, meeting, and announcement messages through an authorized WhatsApp integration.' },
+  { icon: 'fa fa-solid fa-robot', title: 'AI-Powered Assistance', desc: 'AI can help draft communication, summarize permitted reports, organize enquiries, and assist staff with routine administrative tasks. Human review should remain part of important decisions.' },
+]
 
 export const techStack = [
   { type: 'icon', icon: 'fa fa-brands fa-html5', color: 'rgb(227, 79, 38)', title: 'Html' },
@@ -95,12 +86,12 @@ export const comparisonOthers = [
 ]
 
 export const faqs = [
-  { q: 'What is School CRM?', a: 'School CRM is a ready-to-launch school management software that brings admissions, attendance, fees, exams, and parent communication together on one platform. Start your own school management business with little or no development investment.' },
-  { q: 'How to reach our support team?', a: 'Once you purchase our products, if you have any doubts or queries you can reach our support team via email to clarify your doubts.' },
-  { q: 'Is it possible to claim full ownership of your clone script/themes once purchased?', a: 'Yes, once you purchase it, you will completely own your website.' },
-  { q: 'What is 100% source code?', a: 'You get the complete source code of your website so you can customize it based on your desired and business needs. The script/themes are not encrypted files.' },
-  { q: 'Can I resell the script/theme from CloneScript?', a: 'No, once you purchase School CRM or any theme from us, you don’t have to resell or distribute them. If you violate this you are liable for illegal activities.' },
-  { q: 'How do Single and Multi Domain License differ?', a: 'A single-domain license allows usage for only one school on a single domain. For example, you can use it exclusively on myschool.com.' },
+  { q: 'What is a School CRM?', a: 'A School CRM is software that helps educational institutions manage admission enquiries, students, parents, teachers, fees, communication, and administrative activities.' },
+  { q: 'How is a School CRM different from an LMS?', a: 'A School CRM focuses on admissions, relationships, communication, and administration. An LMS mainly handles lessons, learning materials, assignments, and online assessments. Both systems can be integrated.' },
+  { q: 'Can the School CRM be customized?', a: 'Yes. The modules, branding, workflows, user roles, reports, communication methods, and integrations can be customized.' },
+  { q: 'Can parents access the platform?', a: 'Yes. Authorized parents can access permitted information such as attendance, fees, announcements, academic progress, and meeting updates.' },
+  { q: 'Does the system support multiple branches?', a: 'Multi-branch management can be included to control separate locations through one administrative platform.' },
+  { q: 'How much does School CRM software cost?', a: 'The cost depends on the required modules, number of users, branches, mobile applications, integrations, and customization.' },
 ]
 
 /* Five customer reviews, split out of the single wp-content/reviews/school-review.png
@@ -157,4 +148,165 @@ export const customerReviews = [
     accent: '#b34a66',
     dot: '#c9617c',
   },
+]
+
+export const whyChooseUsPoints = [
+  'Centralized student information',
+  'Admission enquiry management',
+  'Automated follow-ups',
+  'Parent and teacher communication',
+  'Attendance tracking',
+  'Fee collection and reminders',
+  'Teacher and staff management',
+  'Academic reporting',
+  'Mobile-friendly access',
+  'Role-based permissions',
+  'Multiple branch management',
+  'Custom dashboards and reports',
+]
+
+export const admissionManagementFeatures = [
+  { icon: 'fa fa-solid fa-inbox', title: 'Enquiry Management', desc: 'Capture enquiries received through the school website, telephone, email, walk-ins, campaigns, and social channels.' },
+  { icon: 'fa fa-solid fa-user-tag', title: 'Lead Assignment', desc: 'Assign admission enquiries to specific counsellors or staff members based on location, class, programme, or availability.' },
+  { icon: 'fa fa-solid fa-bell', title: 'Follow-Up Reminders', desc: 'Schedule calls, meetings, counselling sessions, and application reminders so the admission team does not miss important follow-ups.' },
+  { icon: 'fa fa-solid fa-diagram-project', title: 'Admission Pipeline', desc: 'Track each applicant through stages such as new enquiry, contacted, counselling scheduled, application submitted, document review, selected, and enrolled.' },
+  { icon: 'fa fa-solid fa-file-circle-plus', title: 'Online Application Forms', desc: 'Parents can submit admission applications and upload required documents through a secure online form.' },
+  { icon: 'fa fa-solid fa-file-shield', title: 'Document Verification', desc: 'Authorized staff can review birth certificates, previous academic records, address documents, and other required information.' },
+  { icon: 'fa fa-solid fa-circle-check', title: 'Admission Status Updates', desc: 'Parents can receive updates when an application is submitted, reviewed, approved, rejected, or moved to another stage.' },
+]
+
+export const studentManagementFeatures = [
+  { icon: 'fa fa-solid fa-address-card', title: 'Centralized Student Profiles', desc: 'Maintain student information, guardian details, academic records, attendance, fees, documents, and communication history in one profile.' },
+  { icon: 'fa fa-solid fa-sitemap', title: 'Class and Section Management', desc: 'Organize students according to academic year, grade, class, section, course, or programme.' },
+  { icon: 'fa fa-solid fa-fingerprint', title: 'Attendance Tracking', desc: 'Teachers can record daily attendance, while administrators and authorized parents can review attendance information.' },
+  { icon: 'fa fa-solid fa-file-lines', title: 'Academic Records', desc: 'Store marks, grades, assessments, progress reports, achievements, and teacher feedback.' },
+  { icon: 'fa fa-solid fa-folder-open', title: 'Student Document Management', desc: 'Upload and manage permitted academic, admission, identity, and consent documents securely.' },
+  { icon: 'fa fa-solid fa-arrow-up-right-dots', title: 'Student Promotion', desc: 'Move eligible students to the next academic year, class, or section while maintaining their previous records.' },
+  { icon: 'fa fa-solid fa-people-arrows', title: 'Transfer and Alumni Records', desc: 'Maintain organized records for transferred students, graduates, and alumni.' },
+]
+
+export const parentCommunicationFeatures = [
+  { icon: 'fa fa-solid fa-house-user', title: 'Parent Portal', desc: 'Parents can access permitted information about attendance, fees, announcements, academic progress, and upcoming events.' },
+  { icon: 'fa fa-solid fa-user-graduate', title: 'Student Portal', desc: 'Students can view timetables, assignments, announcements, results, and other educational information allowed by the school.' },
+  { icon: 'fa fa-solid fa-bullhorn', title: 'Announcements', desc: 'Send school notices, holiday updates, examination schedules, event information, and urgent communication.' },
+  { icon: 'fa fa-solid fa-envelope', title: 'SMS and Email Integration', desc: 'Important reminders and notifications can be delivered through integrated email or SMS services.' },
+  { icon: 'fa fa-solid fa-bell', title: 'Push Notifications', desc: 'Mobile users can receive real-time alerts about attendance, payments, assignments, meetings, and school announcements.' },
+  { icon: 'fa fa-solid fa-calendar-check', title: 'Meeting Scheduling', desc: 'Parents can request or schedule meetings with authorized teachers and school staff.' },
+]
+
+export const teacherStaffFeatures = [
+  { icon: 'fa fa-solid fa-chalkboard-user', title: 'Teacher Profiles', desc: 'Maintain staff information, qualifications, assigned classes, subjects, schedules, and permitted documents.' },
+  { icon: 'fa fa-solid fa-calendar-days', title: 'Timetable Management', desc: 'Create and manage class, subject, teacher, and room schedules from one interface.' },
+  { icon: 'fa fa-solid fa-clipboard-check', title: 'Attendance Entry', desc: 'Teachers can record and update student attendance for their assigned classes.' },
+  { icon: 'fa fa-solid fa-clipboard-list', title: 'Assignment Management', desc: 'Teachers can publish assignments, attach learning materials, set deadlines, and review submissions.' },
+  { icon: 'fa fa-solid fa-graduation-cap', title: 'Marks and Grades', desc: 'Authorized teachers can enter marks, calculate grades, and prepare progress reports.' },
+  { icon: 'fa fa-solid fa-comments', title: 'Internal Communication', desc: 'Teachers and staff can receive notices, task updates, meeting schedules, and institutional announcements.' },
+]
+
+export const feePaymentFeatures = [
+  { icon: 'fa fa-solid fa-sliders', title: 'Fee Structure Management', desc: 'Create fee structures based on class, programme, academic year, transport, or additional services.' },
+  { icon: 'fa fa-solid fa-credit-card', title: 'Online Fee Payment', desc: 'Parents can pay eligible fees through supported payment gateways.' },
+  { icon: 'fa fa-solid fa-bell', title: 'Automated Fee Reminders', desc: 'Send reminders for upcoming, pending, and overdue payments.' },
+  { icon: 'fa fa-solid fa-percent', title: 'Discounts and Scholarships', desc: 'Manage approved concessions, sibling discounts, scholarships, and special fee arrangements.' },
+  { icon: 'fa fa-solid fa-receipt', title: 'Digital Receipts', desc: 'Generate downloadable receipts after successful payments.' },
+  { icon: 'fa fa-solid fa-chart-pie', title: 'Payment Reports', desc: 'Review collected fees, pending balances, refunds, discounts, and payment-method summaries.' },
+]
+
+export const adminFeatures = [
+  { icon: 'fa fa-solid fa-gauge', title: 'Centralized Dashboard', desc: 'View enquiries, admissions, students, attendance, fees, staff activity, and important updates from a single dashboard.' },
+  { icon: 'fa fa-solid fa-user-gear', title: 'User Management', desc: 'Create and manage accounts for administrators, admission teams, teachers, finance staff, parents, and students.' },
+  { icon: 'fa fa-solid fa-user-shield', title: 'Roles and Permissions', desc: 'Control which information and features each user role can access.' },
+  { icon: 'fa fa-solid fa-calendar', title: 'Academic Year Management', desc: 'Configure academic years, terms, classes, sections, subjects, and examination periods.' },
+  { icon: 'fa fa-solid fa-building', title: 'Branch Management', desc: 'Manage multiple school branches from one platform while maintaining separate data and reports where required.' },
+  { icon: 'fa fa-solid fa-chart-line', title: 'Reports and Analytics', desc: 'Generate reports for admissions, attendance, fees, academic performance, enquiries, communication, and staff activity.' },
+  { icon: 'fa fa-solid fa-gear', title: 'System Settings', desc: 'Manage school branding, languages, notification templates, payment options, and general platform settings.' },
+]
+
+export const dataPrivacyFeatures = [
+  { icon: 'fa fa-solid fa-user-lock', title: 'Role-Based Access', desc: 'Users receive access only to the information required for their responsibilities.' },
+  { icon: 'fa fa-solid fa-key', title: 'Secure Authentication', desc: 'Strong passwords, OTP verification, and optional multi-factor authentication can protect user accounts.' },
+  { icon: 'fa fa-solid fa-shield-halved', title: 'Student Data Privacy', desc: 'Student information should be collected, stored, and used only for legitimate educational and administrative purposes.' },
+  { icon: 'fa fa-solid fa-people-roof', title: 'Parent and Guardian Access', desc: 'Parents or guardians should only be able to view records connected to their authorized student accounts.' },
+  { icon: 'fa fa-solid fa-file-signature', title: 'Consent Management', desc: 'Schools can record appropriate guardian consent for communication, photographs, activities, and other permitted uses.' },
+  { icon: 'fa fa-solid fa-list-check', title: 'Audit Logs', desc: 'Important changes to student, payment, attendance, and administrative records can be logged for review.' },
+]
+
+export const schoolCrmBenefits = [
+  { icon: 'fa fa-solid fa-list-ol', title: 'Organized Admissions', desc: 'Manage enquiries and applications through a clear admission pipeline.' },
+  { icon: 'fa fa-solid fa-comments', title: 'Better Parent Communication', desc: 'Keep parents informed through timely and consistent updates.' },
+  { icon: 'fa fa-solid fa-gauge-high', title: 'Reduced Administrative Work', desc: 'Automate reminders, notifications, reports, and repetitive data-management tasks.' },
+  { icon: 'fa fa-solid fa-check-double', title: 'Improved Data Accuracy', desc: 'Centralized records reduce duplicate entries and disconnected information.' },
+  { icon: 'fa fa-solid fa-bolt', title: 'Faster Decision-Making', desc: 'Dashboards and reports provide administrators with clearer operational insights.' },
+  { icon: 'fa fa-solid fa-arrow-trend-up', title: 'Scalable School Management', desc: 'Add new students, staff members, programmes, classes, and branches as the institution grows.' },
+]
+
+export const scalableTechnologyCapabilities = [
+  'Responsive web applications',
+  'Android and iOS applications',
+  'Secure backend APIs',
+  'Scalable databases',
+  'Cloud hosting',
+  'Push notifications',
+  'SMS and email integrations',
+  'Payment gateways',
+  'Role-based access',
+  'Data encryption',
+  'Automated backups',
+  'Analytics and reporting',
+  'Third-party integrations',
+]
+
+export const schoolCrmPackageFeatures = [
+  'Responsive web platform',
+  'Admission CRM',
+  'Student management',
+  'Parent portal',
+  'Teacher portal',
+  'Attendance management',
+  'Fee management',
+  'Communication tools',
+  'Admin dashboard',
+  'Reports and analytics',
+  'Role-based permissions',
+  'Custom branding',
+  'Installation assistance',
+  'Initial technical support',
+]
+
+export const applicationScreens = [
+  'Login',
+  'Admin dashboard',
+  'Enquiry management',
+  'Admission pipeline',
+  'Application form',
+  'Student profiles',
+  'Parent profiles',
+  'Teacher management',
+  'Class and section management',
+  'Attendance',
+  'Timetable',
+  'Assignments',
+  'Marks and grades',
+  'Fee management',
+  'Online payments',
+  'Announcements',
+  'Notifications',
+  'Reports',
+  'User roles',
+  'System settings',
+]
+
+export const serverRequirements = [
+  'Domain name',
+  'VPS or cloud hosting',
+  'SSL certificate',
+  'Scalable database',
+  'Email or SMS service',
+  'Push-notification provider',
+  'Payment gateway',
+  'Secure document storage',
+  'Automated backups',
+  'Performance monitoring',
+  'Android publishing account',
+  'Apple Developer Program account',
 ]

@@ -35,11 +35,12 @@ export default function DevProcess() {
                       </p>
                     </div>
                     <header className="fancy-title text-center">
-                      <h3>Behind the Code - Our Proven Development Process</h3>
+                      <h3>Our Proven Approach to Product Development</h3>
                       <div className="st-desc">
                         <p style={{ textAlign: 'center' }}>
-                          At CloneScript, we use a simple and efficient development process to deliver a high-quality website and
-                          app tailored to your business demands.
+                          We follow a structured Development Process combining business analysis, thoughtful design,
+                          quality development, and thorough testing. Our approach helps us deliver secure, scalable,
+                          and user-friendly platforms aligned with specific business requirements.
                         </p>
                       </div>
                     </header>

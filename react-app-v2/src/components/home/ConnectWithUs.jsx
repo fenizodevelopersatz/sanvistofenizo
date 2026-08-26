@@ -10,7 +10,15 @@ export default function ConnectWithUs() {
               <div className="wpb_wrapper vc_custom_1745496524078">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h2>Connect With Us to Make Your Dream Happen</h2>
+                    <h2>Let&rsquo;s Turn Your Business Idea Into Reality</h2>
+                    <div className="st-desc">
+                      <p>
+                        Turn your business idea into a powerful Digital Solution with our expert Development
+                        Services. From initial planning and UI/UX design to development, testing, and launch, we
+                        build secure, scalable, and customized platforms designed to support long-term business
+                        growth.
+                      </p>
+                    </div>
                   </header>
                   <div className="vc_row wpb_row vc_inner vc_row-fluid">
                     <div className="wpb_column vc_column_container vc_col-sm-4 vc_col-md-1/5 vc_col-xs-4">

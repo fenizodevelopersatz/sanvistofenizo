@@ -10,13 +10,14 @@ export default function WhatIsSchoolCrm() {
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <div className="ld-fancy-heading text-center">
                     <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> What is <span style={{ color: '#002692' }}>School CRM?</span></span>
+                      <span className="ld-fh-txt"> What Is a <span style={{ color: '#002692' }}>School CRM?</span></span>
                     </h2>
                   </div>
                   <header className="fancy-title text-center">
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>School CRM is a ready-to-launch school management software that digitizes admissions, attendance, fee collection, exams, timetables, and parent communication for schools, colleges, and coaching institutes — replacing paperwork and spreadsheets with one connected system.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>It brings admins, teachers, students, and parents onto a single platform with role-based dashboards, so every stakeholder sees exactly what they need — no more scattered notice boards, phone calls, or manual registers.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>A School CRM is a customer relationship and education management system created for schools, academies, and educational institutions.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>It helps institutions manage the complete student journey—from the first enquiry and admission application to enrolment, attendance, academic communication, fee collection, and parent engagement.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Instead of maintaining disconnected spreadsheets and paper records, schools can organize important information in one secure system.</span></p>
                     </div>
                   </header>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
