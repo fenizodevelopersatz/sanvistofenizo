@@ -10,11 +10,11 @@ export default function IndustriesCarousel() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title text-center">
-                    <h2>Industries We Serve</h2>
+                    <h2>Industries Supported by Our ERP Software</h2>
                     <div className="st-desc">
                       <p style={{ textAlign: 'center' }}>
-                        Our Enterprise Resource Planning (ERP) SaaS supports a wide range of businesses by helping manage
-                        inventory, sales, purchasing, and everyday operations from one place.
+                        The ERP platform can serve businesses from different industries by connecting sales, inventory,
+                        purchases, payments, employees, and customer information.
                       </p>
                     </div>
                   </header>

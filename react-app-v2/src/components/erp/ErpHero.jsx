@@ -18,15 +18,22 @@ export default function ErpHero() {
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <div className="ld-fancy-heading text-center">
                     <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> All-in-One <span style={{ color: '#002692' }}>ERP SaaS</span> Solution for Business Managements</span>
+                      <span className="ld-fh-txt"> All-in-One <span style={{ color: '#002692' }}>ERP SaaS</span> Software for Business Operations</span>
                     </h1>
                   </div>
                   <div className="wpb_text_column wpb_content_element vc_custom_1782729398741">
                     <div className="wpb_wrapper">
                       <p style={{ textAlign: 'center' }}>
                         <span style={{ fontWeight: 400 }}>
-                          Manage your business operations from one place with a complete ERP Software solution designed to keep
-                          inventory, sales, purchasing, accounting, and daily activities organized.
+                          Bring your essential business processes into a single digital environment. Our ERP SaaS software
+                          helps companies coordinate inventory, accounting, sales, purchases, employees, customers, and daily
+                          operational tasks without depending on multiple disconnected applications.
+                        </span>
+                      </p>
+                      <p style={{ textAlign: 'center' }}>
+                        <span style={{ fontWeight: 400 }}>
+                          The centralized platform gives teams access to consistent information, simplifies collaboration, and
+                          helps decision-makers understand business performance more clearly.
                         </span>
                       </p>
                     </div>

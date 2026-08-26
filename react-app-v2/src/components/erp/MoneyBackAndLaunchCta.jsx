@@ -11,11 +11,18 @@ export function LaunchCta() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h3>Launch your ERP solution faster with expert support and guidance</h3>
+                    <h3>Let&rsquo;s Create a Smarter ERP Solution for Your Business</h3>
+                    <div className="st-desc">
+                      <p>
+                        Convert your operational needs into a practical ERP platform that fits your everyday processes.
+                        From configuration and data setup to employee onboarding and long-term support, professional
+                        guidance can help your organization adopt the system smoothly.
+                      </p>
+                    </div>
                   </header>
                   <Link to="/schedule-free-demo" target="_blank" className="btn btn-solid btn-sm circle btn-bordered border-thin">
                     <span>
-                      <span className="btn-txt">Schedule now</span>
+                      <span className="btn-txt">Get Professional ERP Support</span>
                       <span className="btn-icon"><i className="fas fa-calendar-alt"></i></span>
                     </span>
                   </Link>

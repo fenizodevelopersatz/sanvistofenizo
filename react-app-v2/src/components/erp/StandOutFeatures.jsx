@@ -10,12 +10,29 @@ export default function StandOutFeatures() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <div className="ld-fancy-heading text-center">
-                    <h2>What makes our ERP SaaS stand out?</h2>
+                    <h2>What Makes Our ERP SaaS Different?</h2>
+                  </div>
+                  <div className="wpb_text_column wpb_content_element">
+                    <div className="wpb_wrapper">
+                      <p style={{ textAlign: 'center' }}>
+                        Our ERP platform balances comprehensive business functionality with a manageable user experience.
+                        Employees can access relevant information, understand their responsibilities, and respond more
+                        quickly to operational changes.
+                      </p>
+                    </div>
                   </div>
                   <div className="ld-fancy-heading text-center">
                     <h6 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> Our business management software helps businesses stay organized by keeping key operations connected and easy to manage.</span>
+                      <span className="ld-fh-txt"> Connected Business Processes Without Unnecessary Complexity</span>
                     </h6>
+                  </div>
+                  <div className="wpb_text_column wpb_content_element">
+                    <div className="wpb_wrapper">
+                      <p style={{ textAlign: 'center' }}>
+                        Bring departments and business information together through a system designed for both everyday
+                        employees and management teams.
+                      </p>
+                    </div>
                   </div>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                 </div>

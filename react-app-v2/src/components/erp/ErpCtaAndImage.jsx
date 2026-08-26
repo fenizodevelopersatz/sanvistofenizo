@@ -27,13 +27,13 @@ export default function ErpCtaAndImage() {
                     <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                     <button type="button" data-scroll-target="#demo" className="btn btn-solid btn-sm round btn-bordered border-thin btn-icon-left" onClick={(event) => scrollToSection(event, '#demo')}>
                       <span>
-                        <span className="btn-txt">Live Demo</span>
+                        <span className="btn-txt">Explore Demo</span>
                         <span className="btn-icon"><i className="fa fa-solid fa-play"></i></span>
                       </span>
                     </button>
                     <button type="button" data-scroll-target="#prices" className="btn btn-default btn-sm round btn-bordered border-thin btn-icon-left" onClick={(event) => scrollToSection(event, '#prices')}>
                       <span>
-                        <span className="btn-txt">View Prices</span>
+                        <span className="btn-txt">View Plans</span>
                         <span className="btn-icon"><i className="fa fa-solid fa-dollar-sign"></i></span>
                       </span>
                     </button>

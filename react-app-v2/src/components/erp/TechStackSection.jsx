@@ -11,10 +11,13 @@ export default function TechStackSection() {
                 <div className="wpb_wrapper-inner">
                   <div className="ld-fancy-heading text-center">
                     <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> Technology We Use</span>
+                      <span className="ld-fh-txt"> Technology Stack Used for ERP Development</span>
                     </h2>
                   </div>
-                  <p className="erp-section-description">Built using trusted technologies to ensure stable and secure operations.</p>
+                  <p className="erp-section-description">
+                    The ERP platform can be built using dependable frontend, backend, database, and mobile technologies
+                    selected for stability, security, and maintainability.
+                  </p>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                 </div>
               </div>
@@ -36,7 +39,7 @@ export default function TechStackSection() {
                       </div>
                       <h3>{t.title}</h3>
                       <div className="contents">
-                        <p><span style={{ fontSize: 14 }}>{t.category}</span></p>
+                        <p><span style={{ fontSize: 14 }}>{t.desc}</span></p>
                       </div>
                     </div>
                   </div>

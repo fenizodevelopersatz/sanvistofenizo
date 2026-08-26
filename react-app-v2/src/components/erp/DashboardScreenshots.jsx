@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
-import { dashboardScreenshots } from '../../data/erp/coreModules.js'
+import { dashboardScreenshots, erpDashboardScreens } from '../../data/erp/coreModules.js'
 import Dashboard3DPreview from './Dashboard3DPreview.jsx'
+import DashboardMockup from '../shared/DashboardMockup.jsx'
+import '../shared/SimpleListSection.css'
 
 export default function DashboardScreenshots() {
   const [active, setActive] = useState(0)
@@ -19,13 +21,21 @@ export default function DashboardScreenshots() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title text-center">
-                    <h2>ERP Dashboard Screenshots</h2>
+                    <h2>ERP Dashboard and Interface Screens</h2>
                     <div className="st-desc">
                       <p style={{ textAlign: 'center' }}>
-                        <span style={{ fontWeight: 400 }}>View the live ERP interface and explore the features designed for everyday business management.</span>
+                        <span style={{ fontWeight: 400 }}>Preview important parts of the ERP software, including:</span>
                       </p>
                     </div>
                   </header>
+                  <ul className="clonescript-simple-list" style={{ '--clonescript-list-columns': 2, maxWidth: 640, marginLeft: 'auto', marginRight: 'auto' }}>
+                    {erpDashboardScreens.map((item, i) => (
+                      <li key={i}>
+                        <i className="fa fa-solid fa-check" aria-hidden="true"></i>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             </div>
@@ -42,10 +52,10 @@ export default function DashboardScreenshots() {
                   <div className="lqd-mockup-device lqd-mockup-imac-style-1 pos-rel erp-dashboard-mockup">
                     <img src="/wp-content/themes/ave/assets/img/mockups/imac/mockup-1.png" alt="iMac" style={{ width: '100%', display: 'block' }} loading="lazy" decoding="async" />
                     <div style={{ position: 'absolute', top: '4.97%', left: '3.81%', width: '92.36%', height: '62.62%', overflow: 'hidden', containerType: 'inline-size' }}>
-                      {dashboardScreenshots[active] === '3d-live-preview' ? (
+                      {dashboardScreenshots[active].type === '3d' ? (
                         <Dashboard3DPreview />
                       ) : (
-                        <img src={dashboardScreenshots[active]} alt="ERP dashboard screenshot" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" decoding="async" />
+                        <DashboardMockup {...dashboardScreenshots[active]} />
                       )}
                     </div>
                   </div>

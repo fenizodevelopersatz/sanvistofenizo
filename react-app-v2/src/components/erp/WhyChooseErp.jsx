@@ -1,8 +1,12 @@
 const points = [
-  ['Simplify business operations with our ', 'Business Management Software.'],
-  ['Reduce Manual Work with ', 'Simple & Efficient Workflows.'],
-  ['Access Business Information from a ', 'Centralized System.'],
-  ['Receive ', 'Reliable Support', ' for your ERP Solution.'],
+  'Centralized operational information',
+  'Reduced repetitive data entry',
+  'Better communication between departments',
+  'Clearer performance reporting',
+  'Faster access to business records',
+  'Flexible user permissions',
+  'Support for multiple branches',
+  'Scalable system architecture',
 ]
 
 export default function WhyChooseErp() {
@@ -17,29 +21,32 @@ export default function WhyChooseErp() {
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <div className="ld-fancy-heading text-left sv_text_top">
                     <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> Why Choose Our<span style={{ color: '#002692' }}> ERP SaaS?</span></span>
+                      <span className="ld-fh-txt"> Why Choose Our<span style={{ color: '#002692' }}> ERP SaaS Platform?</span></span>
                     </h2>
                   </div>
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
                       <p style={{ textAlign: 'left' }}>
-                        Our ERP software brings inventory, sales, purchasing, billing, and inventory management together in one
-                        business management software, helping businesses stay organized and manage daily operations more
-                        effectively.
+                        Our ERP software connects finance, inventory, sales, purchasing, employees, customers, and store
+                        operations through one centralized system.
+                      </p>
+                      <p style={{ textAlign: 'left' }}>
+                        By giving departments access to consistent business information, the solution can reduce duplicated
+                        work, improve reporting accuracy, and help employees complete daily responsibilities efficiently.
+                      </p>
+                      <p style={{ textAlign: 'left' }}>
+                        The platform can also be configured around your organizational structure, operating process, number
+                        of branches, product categories, and future development plans.
                       </p>
                     </div>
                   </div>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
-                  {points.map((parts, i) => (
+                  {points.map((point, i) => (
                     <div className="ld-fancy-heading text-left sv_border_why_choose_us" key={i}>
                       <p className="lqd-highlight-underline lqd-highlight-grow-left">
                         <span className="ld-fh-txt">
                           <i className="fa-solid fa-circle-check" style={{ color: 'black' }}></i>{' '}
-                          {parts.length === 2 ? (
-                            <>{parts[0]}<span style={{ color: '#002692', fontWeight: 'bold' }}>{parts[1]}</span></>
-                          ) : (
-                            <>{parts[0]}<span style={{ color: '#002692', fontWeight: 'bold' }}>{parts[1]}</span>{parts[2]}</>
-                          )}
+                          {point}
                         </span>
                       </p>
                     </div>

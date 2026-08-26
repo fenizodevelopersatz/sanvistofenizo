@@ -12,9 +12,9 @@ export default function CoreModules() {
                   <div className="wpb_wrapper-inner">
                     <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                     <header className="fancy-title text-center">
-                      <h2>All-In-One Business ERP System</h2>
+                      <h2>Integrated ERP Modules for Complete Business Management</h2>
                       <div className="st-desc">
-                        <p style={{ textAlign: 'center' }}>A complete ERP Solution for managing business operations, helping teams stay organized and work more efficiently.</p>
+                        <p style={{ textAlign: 'center' }}>Connect important departments through a unified ERP system designed to improve accuracy, communication, and operational control.</p>
                       </div>
                     </header>
                   </div>
@@ -39,6 +39,7 @@ export default function CoreModules() {
                         </div>
                         <h3 className="font-weight-semibold">{m.title}</h3>
                       </div>
+                      {m.desc && <p className="erp-core-card__desc">{m.desc}</p>}
                     </div>
                   </div>
                 </div>

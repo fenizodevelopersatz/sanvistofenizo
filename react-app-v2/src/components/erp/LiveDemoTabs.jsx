@@ -5,8 +5,8 @@ export default function LiveDemoTabs() {
   const [tab, setTab] = useState('website')
 
   const tabs = {
-    website: { label: 'Website', url: siteContact.erpStoreDemoUrl, image: '/wp-content/uploads/2026/07/Online-Store.webp', alt: 'ERP online store live demo' },
-    admin: { label: 'Admin Dashboard', url: siteContact.erpAdminDemoUrl, image: '/wp-content/uploads/2026/07/admin_dashboard.webp', alt: 'ERP admin dashboard live demo' },
+    website: { label: 'User-Facing Demo', url: siteContact.erpStoreDemoUrl, image: '/wp-content/uploads/2026/07/Online-Store.webp', alt: 'ERP online store live demo' },
+    admin: { label: 'Administration Dashboard', url: siteContact.erpAdminDemoUrl, image: '/wp-content/uploads/2026/07/admin_dashboard.webp', alt: 'ERP admin dashboard live demo' },
   }
 
   return (
@@ -18,13 +18,29 @@ export default function LiveDemoTabs() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title text-center">
-                    <h2>Live Demo</h2>
+                    <h2>Explore the ERP Live Demo</h2>
                     <div className="st-desc">
                       <p style={{ textAlign: 'center' }}>
-                        <span style={{ fontWeight: 400 }}>Explore the live demo and see how the system supports everyday business activities.</span>
+                        <span style={{ fontWeight: 400 }}>Use the demonstration platform to review modules, workflows, reports, dashboards, and everyday business processes before selecting the solution.</span>
                       </p>
                     </div>
                   </header>
+                  <div className="erp-demo-captions">
+                    <div className="iconbox iconbox-heading-xs" style={{ color: '#002692' }}>
+                      <div className="iconbox-icon-wrap"><span className="iconbox-icon-container"><i className="fa fa-solid fa-user"></i></span></div>
+                      <div className="contents">
+                        <h3 className="font-weight-semibold">User-Facing ERP Demo</h3>
+                        <p>See how employees or customers navigate the interface and interact with available functionality.</p>
+                      </div>
+                    </div>
+                    <div className="iconbox iconbox-heading-xs" style={{ color: '#002692' }}>
+                      <div className="iconbox-icon-wrap"><span className="iconbox-icon-container"><i className="fa fa-solid fa-gauge"></i></span></div>
+                      <div className="contents">
+                        <h3 className="font-weight-semibold">Administration Dashboard Demo</h3>
+                        <p>Explore the controls used to manage users, products, inventory, orders, payments, reports, and system settings.</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -90,13 +90,18 @@ export const industries = [
   { image: '/wp-content/uploads/2026/06/restaurant.webp', title: 'Restaurants', desc: 'Track ingredients, menu products, customer orders, billing, stock consumption, and everyday sales.' },
 ]
 
+// CSS-only dashboard mockups (see components/shared/DashboardMockup.jsx) --
+// the images previously here were generic stock photos (a warehouse, a
+// calculator, a clothing rack) that didn't show any actual software UI, and
+// no image-gen tool is available to produce real screenshots for a demo
+// product. '3d' renders the existing Dashboard3DPreview instead.
 export const dashboardScreenshots = [
-  '/wp-content/uploads/2026/07/products.webp',
-  '/wp-content/uploads/2026/07/accounts.webp',
-  '/wp-content/uploads/2026/07/store-settings.webp',
-  '3d-live-preview',
-  '/wp-content/uploads/2026/07/customers.webp',
-  '/wp-content/uploads/2026/07/system-settings.webp',
+  { type: 'mockup', role: 'Product Management', accent: '#2563eb', avatarIcon: 'fa-boxes-stacked', stats: [{ value: '1,248', label: 'Products' }, { value: '36', label: 'Categories' }, { value: '12', label: 'Low Stock' }], chartBars: [55, 70, 48, 82, 60, 74] },
+  { type: 'mockup', role: 'Accounting', accent: '#14b8a6', avatarIcon: 'fa-file-invoice-dollar', stats: [{ value: '$48.2K', label: 'Revenue' }, { value: '$19.4K', label: 'Expenses' }, { value: '$3.1K', label: 'Outstanding' }], chartBars: [40, 65, 58, 90, 72, 50] },
+  { type: 'mockup', role: 'Store Settings', accent: '#f59e0b', avatarIcon: 'fa-store', stats: [{ value: '4', label: 'Branches' }, { value: '6', label: 'Tax Rules' }, { value: '3', label: 'Currencies' }], chartBars: [50, 50, 60, 60, 70, 70] },
+  { type: '3d' },
+  { type: 'mockup', role: 'Customer Records', accent: '#8b5cf6', avatarIcon: 'fa-users', stats: [{ value: '3,942', label: 'Customers' }, { value: '87', label: 'New' }, { value: '42%', label: 'Repeat Rate' }], chartBars: [35, 55, 62, 78, 85, 68] },
+  { type: 'mockup', role: 'System Configuration', accent: '#ef4444', avatarIcon: 'fa-gear', stats: [{ value: '18', label: 'Active Users' }, { value: '5', label: 'Roles' }, { value: '3', label: 'Integrations' }], chartBars: [60, 45, 70, 55, 65, 40] },
 ]
 
 export const erpDashboardScreens = [

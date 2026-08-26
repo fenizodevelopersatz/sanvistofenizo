@@ -19,7 +19,7 @@ import BlockquoteTestimonials from '../components/shared/BlockquoteTestimonials.
 import ComparisonTable from '../components/shared/ComparisonTable.jsx'
 import PdfDownloadCta from '../components/shared/PdfDownloadCta.jsx'
 import GuideCoverArt from '../components/shared/GuideCoverArt.jsx'
-import DashboardMockup from '../components/schoolCrm/DashboardMockup.jsx'
+import DashboardMockup from '../components/shared/DashboardMockup.jsx'
 import ReviewCards from '../components/shared/ReviewCards.jsx'
 import StandOutFeaturesGrid from '../components/shared/StandOutFeaturesGrid.jsx'
 import SimpleListSection from '../components/shared/SimpleListSection.jsx'

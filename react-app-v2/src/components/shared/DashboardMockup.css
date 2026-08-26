@@ -8,7 +8,19 @@
   box-shadow: 0 20px 44px -18px rgba(16, 27, 72, 0.35);
   display: flex;
   flex-direction: column;
+  /* Self-contained container-query root: internal text/gaps below scale off
+     this element's own rendered width (cqw), not the viewport (vw). That
+     matters once this same component is dropped into a much narrower slot
+     than its original School CRM context, e.g. the ERP dashboard preview's
+     fixed-height iMac frame -- vw-based sizing there would size text off
+     the full viewport instead of the actual (tiny) card width. */
+  container-type: inline-size;
 }
+
+/* A parent with an explicit height (like the ERP dashboard preview's
+   absolutely-positioned, overflow:hidden slot) can override this via
+   `height: 100% !important` -- aspect-ratio only fills in a dimension that
+   isn't otherwise determined, so an explicit height safely takes over. */
 
 .cs-dash-mock__topbar {
   flex-shrink: 0;
@@ -22,7 +34,7 @@
 
 .cs-dash-mock__brand {
   font-weight: 800;
-  font-size: clamp(9px, 2vw, 12px);
+  font-size: clamp(9px, 4cqw, 12px);
   color: var(--clonescript-ink, #111936);
   letter-spacing: -0.01em;
 }
@@ -90,12 +102,12 @@
 
 .cs-dash-mock__stat-value {
   font-weight: 800;
-  font-size: clamp(11px, 2.4vw, 15px);
+  font-size: clamp(11px, 4.8cqw, 15px);
   line-height: 1.2;
 }
 
 .cs-dash-mock__stat-label {
-  font-size: clamp(7px, 1.6vw, 9px);
+  font-size: clamp(7px, 3.2cqw, 9px);
   color: var(--clonescript-muted, #687087);
   white-space: nowrap;
   overflow: hidden;

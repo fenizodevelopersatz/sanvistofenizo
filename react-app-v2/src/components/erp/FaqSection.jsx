@@ -6,13 +6,13 @@ export default function FaqSection() {
   const [tab, setTab] = useState('faq')
 
   const requirements = [
-    'PHP Above 8.1',
-    'MySQL - 4.x & 5.x',
-    'PDO PHP Extension',
-    'OpenSSL PHP Extension',
-    'Mbstring PHP Extension',
-    'XML PHP Extension',
-    'Tokenizer PHP Extension',
+    'PDO PHP extension',
+    'OpenSSL PHP extension',
+    'Mbstring PHP extension',
+    'XML PHP extension',
+    'Tokenizer PHP extension',
+    'Valid SSL certificate',
+    'Adequate server memory and storage',
   ]
 
   return (
@@ -20,8 +20,9 @@ export default function FaqSection() {
       <div className="ld-container container">
         <div className="row ld-row erp-faq-heading">
           <div className="wpb_column vc_column_container vc_col-sm-12 text-center">
-            <h3>Have Doubts? Get Answers Right Here</h3>
-            <p>Clear all your doubts about our ERP Software with our extensive FAQ section.</p>
+            <h3>ERP Software Frequently Asked Questions</h3>
+            <p style={{ fontWeight: 600 }}>Find Answers to Common ERP Questions</p>
+            <p>Understand how ERP software works, which businesses can use it, what reports it provides, and how implementation support is delivered.</p>
           </div>
         </div>
 
@@ -56,11 +57,15 @@ export default function FaqSection() {
           <div className="erp-server-panel" role="tabpanel">
             <img src="/wp-content/uploads/2024/12/image-778.webp" width="520" height="390" alt="ERP server requirements" loading="lazy" decoding="async" />
             <div>
-              <h3>Server Requirements</h3>
-              <p>Use the following environment to install and run the ERP platform reliably.</p>
+              <h3>ERP Server Requirements</h3>
+              <p>The ERP software requires a compatible hosting environment with supported PHP and MySQL versions. Common server dependencies may include:</p>
               <ul>
                 {requirements.map((requirement) => <li key={requirement}><i className="fa fa-check" aria-hidden="true"></i>{requirement}</li>)}
               </ul>
+              <p>
+                The final hosting capacity should be selected according to user volume, business data, product records,
+                transactions, integrations, and expected platform traffic.
+              </p>
             </div>
           </div>
         )}

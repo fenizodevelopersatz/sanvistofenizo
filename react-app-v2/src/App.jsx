@@ -8,6 +8,8 @@ const ContactUsPage = lazy(() => import('./pages/ContactUsPage.jsx'))
 const ScheduleFreeDemoPage = lazy(() => import('./pages/ScheduleFreeDemoPage.jsx'))
 const ErpSoftwarePage = lazy(() => import('./pages/ErpSoftwarePage.jsx'))
 const SchoolCrmPage = lazy(() => import('./pages/SchoolCrmPage.jsx'))
+const TermsOfServicePage = lazy(() => import('./pages/TermsOfServicePage.jsx'))
+const RefundPolicyPage = lazy(() => import('./pages/RefundPolicyPage.jsx'))
 const AlibabaClonePage = lazy(() => import('./pages/ClonePages/AlibabaClonePage.jsx'))
 const VintedClonePage = lazy(() => import('./pages/ClonePages/VintedClonePage.jsx'))
 const ZillowClonePage = lazy(() => import('./pages/ClonePages/ZillowClonePage.jsx'))
@@ -37,6 +39,8 @@ export default function App() {
           <Route path="/contact-us" element={<ContactUsPage />} />
           <Route path="/erp-software" element={<ErpSoftwarePage />} />
           <Route path="/school-crm" element={<SchoolCrmPage />} />
+          <Route path="/terms-of-service" element={<TermsOfServicePage />} />
+          <Route path="/refund-policy" element={<RefundPolicyPage />} />
           <Route path="/alibaba-clone" element={<AlibabaClonePage />} />
           <Route path="/vinted-clone" element={<VintedClonePage />} />
           <Route path="/zillow-clone" element={<ZillowClonePage />} />

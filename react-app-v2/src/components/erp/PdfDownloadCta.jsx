@@ -47,14 +47,14 @@ export default function PdfDownloadCta() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h3>Explore the Full Capabilities of Our ERP Solution</h3>
+                    <h3>Explore the Complete ERP Feature Set</h3>
                     <div className="st-desc">
-                      <p><span style={{ color: '#161518' }}>Discover how our ERP system helps simplify daily operations and keeps business processes running smoothly. Download the complete feature guide to learn more.</span></p>
+                      <p><span style={{ color: '#161518' }}>Review the full range of ERP capabilities and understand how the platform can be adapted to different departments and business requirements.</span></p>
                     </div>
                   </header>
                   <a href="#download-pdf" className="btn btn-solid btn-sm round btn-bordered border-thin" onClick={(e) => { e.preventDefault(); setIsOpen(true) }}>
                     <span>
-                      <span className="btn-txt">Download</span>
+                      <span className="btn-txt">Download Complete Feature Guide</span>
                       <span className="btn-icon"><i className="fa fa-solid fa-cloud-arrow-down"></i></span>
                     </span>
                   </a>

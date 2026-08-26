@@ -16,11 +16,13 @@ function FooterNavColumn({ col }) {
       <div className="vc_column-inner">
         <div className="wpb_wrapper">
           <div className="wpb_wrapper-inner">
-            <div className={`ld-fancy-heading text-left text-uppercase${col.headingTag ? ' custom-footer-menu-li' : ''}`}>
-              <HeadingTag className="lqd-highlight-underline lqd-highlight-grow-left">
-                <span className="ld-fh-txt"> {col.title}</span>
-              </HeadingTag>
-            </div>
+            {col.showTitle === false ? null : (
+              <div className={`ld-fancy-heading text-left text-uppercase${col.headingTag ? ' custom-footer-menu-li' : ''}`}>
+                <HeadingTag className="lqd-highlight-underline lqd-highlight-grow-left">
+                  <span className="ld-fh-txt"> {col.title}</span>
+                </HeadingTag>
+              </div>
+            )}
             <ul className="lqd-custom-menu reset-ul">
               {col.links.map(([href, label], j) => (
                 <li key={j}><NavLink href={href} label={label} /></li>

@@ -17,7 +17,7 @@ export default function DetailedFeatures() {
                   </div>
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
-                      <p style={{ textAlign: 'center' }}>Manage your business operations efficiently with a complete set of integrated ERP modules.</p>
+                      <p style={{ textAlign: 'center' }}>Manage important business processes through interconnected modules that share accurate and updated information.</p>
                     </div>
                   </div>
                 </div>
