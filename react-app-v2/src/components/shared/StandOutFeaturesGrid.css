@@ -39,6 +39,11 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  /* .iconbox-icon-wrap and .contents (title+desc) are the only two flex
+     children here, stacked in a column -- neither carries its own
+     margin/gap, so the title sat flush against the icon with zero
+     breathing room on every card, on every page using this component. */
+  gap: 16px;
   transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 }
 

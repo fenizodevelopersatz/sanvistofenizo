@@ -203,20 +203,26 @@
      the individual rules were dead weight. Only three age survive because
      they set a property (margin-top) or target a nested element (img) the
      catch-all doesn't touch -- renumbered here to the sections' new
-     positions (verified live via `Array.from(container.children).filter(...)`):
-     nth-child(11) = TechStackRow, nth-child(16) = RevenueBenefits,
-     nth-child(26) = the testimonial/review section. */
-  .vinted-motion-page > section:nth-child(11) {
+     positions after the RoleFeatureTabs restoration shifted every later
+     child index by -3 (verified live via
+     `Array.from(container.children).filter(...)`):
+     nth-child(8) = TechStackRow, nth-child(13) = RevenueBenefits,
+     nth-child(23) = the testimonial/review section. Note the margin-top
+     declarations below have always been overridden back to 0 by the reset
+     rule at the end of this block (same selector, same specificity, later
+     in the cascade) -- true since the original nth-child(7)/(17) numbering
+     too, so this is pre-existing, not something this renumbering changed. */
+  .vinted-motion-page > section:nth-child(8) {
     margin-top: 49px !important;
   }
 
-  .vinted-motion-page > section:nth-child(16) img {
+  .vinted-motion-page > section:nth-child(13) img {
     width: 540px;
     max-height: 430px;
     object-fit: contain;
   }
 
-  .vinted-motion-page > section:nth-child(26) {
+  .vinted-motion-page > section:nth-child(23) {
     margin-top: 38px !important;
   }
 
@@ -227,8 +233,8 @@
     padding-bottom: var(--clonescript-section-y-compact);
   }
 
-  .vinted-motion-page > section:nth-child(11),
-  .vinted-motion-page > section:nth-child(26) {
+  .vinted-motion-page > section:nth-child(8),
+  .vinted-motion-page > section:nth-child(23) {
     margin-top: 0 !important;
   }
 }

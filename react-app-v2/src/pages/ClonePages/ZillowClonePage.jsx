@@ -3,9 +3,9 @@ import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
-  aiFeatures, techStack, buyerRenterFeatures, agentFeatures, sellerFeatures, adminFeatures,
-  standOutFeatures, revenueBenefits, additionalRevenueModels, launchSteps, dashboards,
-  packageInclusions, pricingPlans, comparisonOurs, comparisonOthers, customerReviews,
+  aiFeatures, roleTabs, techStack, standOutFeatures, revenueBenefits, additionalRevenueModels,
+  launchSteps, dashboards, packageInclusions, pricingPlans, comparisonOurs, comparisonOthers,
+  customerReviews,
 } from '../../data/zillow/zillowData.js'
 import { comparisonLabels } from '../../data/comparisonLabels.js'
 import { placeholderTestimonials } from '../../data/placeholderTestimonials.js'
@@ -20,6 +20,7 @@ import WhyChooseChecklist from '../../components/shared/WhyChooseChecklist.jsx'
 import AiFeaturesGrid from '../../components/shared/AiFeaturesGrid.jsx'
 import ComparisonTable from '../../components/shared/ComparisonTable.jsx'
 import PdfDownloadCta from '../../components/shared/PdfDownloadCta.jsx'
+import RoleFeatureTabs from '../../components/shared/RoleFeatureTabs.jsx'
 import TechStackRow from '../../components/shared/TechStackRow.jsx'
 import StandOutFeaturesGrid from '../../components/shared/StandOutFeaturesGrid.jsx'
 import ProcessSteps from '../../components/shared/ProcessSteps.jsx'
@@ -202,28 +203,7 @@ export default function ZillowClonePage() {
           desc="Experience the latest features crafted for scalability, high performance, user engagement, and business success. Download the Complete Product Features Guide."
         />
 
-        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
-          <div className="ld-container container">
-            <div className="row ld-row">
-              <div className="wpb_column vc_column_container vc_col-sm-12">
-                <div className="vc_column-inner">
-                  <div className="wpb_wrapper">
-                    <div className="wpb_wrapper-inner">
-                      <header className="fancy-title text-center">
-                        <h2>Complete Zillow Clone Features</h2>
-                      </header>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <StandOutFeaturesGrid heading="Buyer and Renter Features" subheading="Everything buyers and renters need to search, compare, and connect with confidence." items={buyerRenterFeatures} />
-        <StandOutFeaturesGrid heading="Agent Features" subheading="The tools agents need to manage listings, leads, and appointments efficiently." items={agentFeatures} />
-        <StandOutFeaturesGrid heading="Property Owner and Seller Features" subheading="Give owners and sellers full control over their listings, inquiries, and performance." items={sellerFeatures} />
-        <StandOutFeaturesGrid heading="Administrator Features" subheading="Complete oversight of users, listings, categories, packages, and platform content." items={adminFeatures} />
+        <RoleFeatureTabs heading="Complete Zillow Clone Features" roles={roleTabs} />
 
         <StandOutFeaturesGrid
           heading="Platform-Wide Capabilities"

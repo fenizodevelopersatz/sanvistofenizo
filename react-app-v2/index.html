@@ -22,6 +22,13 @@
          classes) to keep the two implementations independent -- this element is
          never touched by React, only ever shown/hidden via the body class below.
 
+         Opaque background is deliberate: this must be the ONLY thing on screen
+         while anything is still loading (JS bundle, the first route's lazy
+         chunk, that page's own CSS + fonts) -- not the header/footer with an
+         invisible content gap behind it. See the closing <script> below for how
+         its hide is timed to the same "fully ready" signal that reveals
+         .content, instead of React's first paint.
+
          The ship makes a real bottom-of-screen-to-top-of-screen launch pass (not a
          small in-place sway) -- .cs-shell-rocket-stage is the full-viewport "sky" the
          ship travels through and clips against, while .cs-shell-rocket-sway is
@@ -36,6 +43,7 @@
         position: fixed;
         inset: 0;
         z-index: 2147483646;
+        background: #fff;
       }
 
       body.clonescript-page-styles-loading #cs-shell-loader {
@@ -241,25 +249,37 @@
     </div>
     <div id="root"></div>
     <script>
-      // The rocket above is a plain-HTML stand-in for the moment before React
-      // has mounted anything at all. Once React commits its first paint --
-      // even just RouteFallback's OWN rocket, while the first route chunk is
-      // still loading -- this shell rocket must disappear immediately, or the
-      // two render on top of each other (both are the same size/shape, so the
-      // duplication was very visible, not a subtle overlap). Watching #root
-      // for its first child is the one signal that's true "React has taken
-      // over" regardless of which route or how long its chunk takes to load,
-      // so this can't race the CSS-bundle-loading class toggle that drives
-      // the shell rocket's own visibility.
+      // The rocket above must stay up as the ONLY thing on screen for the
+      // *entire* first load -- not just until React mounts something. React
+      // committing its first paint only means the JS bundle executed; it says
+      // nothing about whether the matched route's lazy chunk has arrived or
+      // whether that page's own CSS + fonts (usePageStylesheets.js) have
+      // loaded. Hiding this early used to leave a gap where the header/footer
+      // were visible around a blank, invisible .content placeholder with no
+      // rocket at all until those finished.
+      //
+      // usePageStylesheets.js already tracks exactly that "is anything still
+      // loading" state via the `clonescript-page-styles-loading` body class --
+      // the same class this file sets by default below, and the same class
+      // whose removal is what reveals each page's .content. So this just
+      // waits for that class to be removed for the first time, then hides the
+      // shell rocket for good, so the CSS rule above and this script always
+      // agree on when it's safe to reveal what's underneath.
+      //
+      // Deliberately one-shot: later in-app route changes re-add this class
+      // (see Layout.jsx/expectPageStyles) so the page can be re-hidden while
+      // its new stylesheet loads, but that transition already has its own
+      // lighter treatment (.content fades in once ready) -- it should not
+      // bring back a full-screen rocket every time.
       (function () {
-        var root = document.getElementById('root')
         var loader = document.getElementById('cs-shell-loader')
-        if (!root || !loader) return
+        if (!loader) return
         function hide() { loader.style.display = 'none' }
-        if (root.childNodes.length > 0) { hide(); return }
+        function stillLoading() { return document.body.classList.contains('clonescript-page-styles-loading') }
+        if (!stillLoading()) { hide(); return }
         new MutationObserver(function (_, observer) {
-          if (root.childNodes.length > 0) { hide(); observer.disconnect() }
-        }).observe(root, { childList: true })
+          if (!stillLoading()) { hide(); observer.disconnect() }
+        }).observe(document.body, { attributes: true, attributeFilter: ['class'] })
       })()
     </script>
     <script type="module" src="/src/main.jsx"></script>

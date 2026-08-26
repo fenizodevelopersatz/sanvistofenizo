@@ -74,7 +74,7 @@ export default function WhatIsZillow() {
                           </div>
                           <div className="liquid-img-container-inner">
                             <figure>
-                              <img src="/wp-content/uploads/2026/04/user_dashboard.jpg" width="4059" height="2280" alt="user_dashboard" loading="lazy" />
+                              <img src="/wp-content/uploads/2026/04/zillow-clone-invest.webp" width="4059" height="2280" alt="user_dashboard" loading="lazy" />
                             </figure>
                           </div>
                         </div>

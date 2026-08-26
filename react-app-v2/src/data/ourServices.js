@@ -23,8 +23,4 @@ export const ourServicesItems = [
     title: 'Digital Marketing',
     desc: 'Improve your online visibility with result-focused Digital Marketing Services. We combine SEO, content marketing, social media, and digital strategies to increase brand awareness, reach relevant audiences, improve engagement, and support sustainable online growth.',
   },
-  {
-    title: 'Robust Tech Stack',
-    desc: 'We use a Robust Technology Stack to develop secure, scalable, and high-performing digital solutions. By combining modern frontend, backend, database, cloud, and development technologies, we create reliable platforms capable of supporting evolving business requirements.',
-  },
 ]

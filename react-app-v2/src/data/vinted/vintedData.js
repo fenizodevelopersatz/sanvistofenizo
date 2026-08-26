@@ -31,56 +31,50 @@ export const comparisonOthers = [
   'The quality and duration of support may be somewhat limited.',
 ]
 
-export const buyerFeatures = [
-  { icon: 'fa fa-solid fa-user-plus', title: 'User Registration', desc: 'Users can easily sign up using their email address, phone number, or a social-login option that suits them, and start diving into the marketplace right away.' },
-  { icon: 'fa fa-solid fa-magnifying-glass', title: 'Smart Product Search', desc: 'Discover products by searching with keywords, categories, brands, sizes, colors, conditions, locations, price ranges, and other customizable filters.' },
-  { icon: 'fa fa-solid fa-layer-group', title: 'Product Categories', desc: 'Explore products through well-organized categories and subcategories, making it a breeze for users to find relevant listings quickly.' },
-  { icon: 'fa fa-solid fa-heart', title: 'Wishlist Manager', desc: 'Keep track of products that catch your eye by saving them to a personal wishlist, so you can come back to them later.' },
-  { icon: 'fa fa-solid fa-message', title: 'Private Chat', desc: 'Engage directly with sellers through a secure messaging system, where you can ask questions, request more info, and negotiate prices.' },
-  { icon: 'fa fa-solid fa-handshake', title: 'Make an Offer', desc: 'Buyers can propose price offers on eligible listings, while sellers have the option to accept, decline, or counteroffer.' },
-  { icon: 'fa fa-solid fa-lock', title: 'Secure Checkout', desc: 'Finalize your purchases through a streamlined checkout process that includes approved payment options and delivery details.' },
-  { icon: 'fa fa-solid fa-credit-card', title: 'Multiple Payment Methods', desc: 'We support a variety of regional and international payment gateways tailored to the target market.' },
-  { icon: 'fa fa-solid fa-clock-rotate-left', title: 'Order History', desc: 'Easily access your past purchases, check payment statuses, seller details, delivery progress, and transaction information.' },
-  { icon: 'fa fa-solid fa-truck-fast', title: 'Order Tracking', desc: 'Keep an eye on the shipping status of your purchased items from the moment they’re dispatched until they arrive at your doorstep.' },
-  { icon: 'fa fa-solid fa-bell', title: 'Live Notifications', desc: 'Stay in the loop with notifications about new messages, accepted offers, payments, shipping updates, order statuses, and other key activities in the marketplace.' },
-  { icon: 'fa fa-solid fa-star', title: 'Ratings and Reviews', desc: 'Share your thoughts by rating completed transactions and providing feedback on your buying or selling experience.' },
-  { icon: 'fa fa-solid fa-rotate-left', title: 'Refund Requests', desc: 'If you need to, submit refund or dispute requests for eligible transactions, following the marketplace’s guidelines.' },
-  { icon: 'fa fa-solid fa-gear', title: 'User Settings', desc: 'Easily manage your profile information, delivery addresses, payment preferences, notification settings, privacy controls, and account security.' },
-]
-
-export const sellerFeatures = [
-  { icon: 'fa fa-solid fa-gauge', title: 'Seller Dashboard', desc: 'Take charge of your product listings, orders, conversations, offers, earnings, delivery status, and account activity all from one convenient dashboard.' },
-  { icon: 'fa fa-solid fa-box-open', title: 'Product Listing', desc: 'Create comprehensive product listings that include title, description, category, brand, size, colour, material, condition, price, images, and delivery options.' },
-  { icon: 'fa fa-solid fa-boxes-stacked', title: 'Inventory Management', desc: 'Keep an eye on your active, reserved, sold, expired, and removed products all from one convenient spot.' },
-  { icon: 'fa fa-solid fa-clipboard-check', title: 'Order Management', desc: 'Check out new orders, confirm what’s in stock, get products ready, update order statuses, and handle completed sales with ease.' },
-  { icon: 'fa fa-solid fa-truck', title: 'Shipping Management', desc: 'Select from available delivery methods, generate shipping details when possible, and keep your dispatch status up to date.' },
-  { icon: 'fa fa-solid fa-comments', title: 'Customer Chat', desc: 'Engage directly with potential buyers, answer their product inquiries, discuss offers, and keep them posted on order updates.' },
-  { icon: 'fa fa-solid fa-tags', title: 'Offer Management', desc: 'Look over buyer offers and decide whether to accept, decline, or counter with a different price.' },
-  { icon: 'fa fa-solid fa-percent', title: 'Bundle Discounts', desc: 'Set up discounts for customers who buy multiple products from the same seller.' },
-  { icon: 'fa fa-solid fa-sack-dollar', title: 'Seller Earnings', desc: 'Check your sales income, see marketplace deductions, track pending balances, completed payouts, and review your transaction history.' },
-  { icon: 'fa fa-solid fa-chart-column', title: 'Sales Analytics', desc: 'Monitor product views, wishlist activity, offers, completed sales, revenue, and your overall seller performance.' },
-  { icon: 'fa fa-solid fa-id-card', title: 'Seller Profile', desc: 'Showcase seller details, ratings, reviews, active listings, sold items, and overall marketplace activity.' },
-  { icon: 'fa fa-solid fa-umbrella-beach', title: 'Vacation Mode', desc: 'Easily pause product sales or let customers know about limited availability without having to delete your existing listings.' },
-]
-
-export const adminFeatures = [
-  { icon: 'fa fa-solid fa-chart-pie', title: 'Platform Analytics', desc: 'Keep an eye on how the marketplace is performing, including user registrations, active listings, completed orders, transaction values, commissions, and overall revenue.' },
-  { icon: 'fa fa-solid fa-users-gear', title: 'User Management', desc: 'Oversee buyers, sellers, moderators, support staff, and administrators with role-based permissions for better control.' },
-  { icon: 'fa fa-solid fa-circle-check', title: 'Product Moderation', desc: 'Check, approve, reject, suspend, or remove listings that don’t comply with marketplace guidelines.' },
-  { icon: 'fa fa-regular fa-folder-open', title: 'Category Management', desc: 'Create and manage product categories, subcategories, brands, sizes, colors, conditions, and custom listing fields to keep everything organized.' },
-  { icon: 'fa fa-solid fa-cart-shopping', title: 'Order Management', desc: 'Track marketplace orders, payments, shipping statuses, cancellations, refunds, and any disputes that may arise.' },
-  { icon: 'fa fa-solid fa-percent', title: 'Commission Management', desc: 'Set up percentage-based commissions, fixed marketplace fees, category-specific charges, or benefits for different seller plans.' },
-  { icon: 'fa fa-solid fa-crown', title: 'Subscription Management', desc: 'Create seller packages that come with various listing limits, promotional perks, durations, and pricing options.' },
-  { icon: 'fa fa-solid fa-bullhorn', title: 'Promotion Management', desc: 'Take charge of featured listings, boosted products, homepage placements, sponsored categories, and your advertising campaigns.' },
-  { icon: 'fa fa-solid fa-money-check-dollar', title: 'Payment Management', desc: 'Keep an eye on payment statuses, commissions, marketplace earnings, refunds, and seller payouts.' },
-  { icon: 'fa fa-solid fa-scale-balanced', title: 'Refund and Dispute Management', desc: 'Evaluate eligible refund requests and transaction disputes by following marketplace policies and using the available order evidence.' },
-  { icon: 'fa fa-solid fa-truck-ramp-box', title: 'Shipping Configuration', desc: 'Set up shipping providers, delivery zones, rates, tracking options, and the delivery methods you want to offer.' },
-  { icon: 'fa fa-solid fa-file-lines', title: 'Content Management', desc: 'Oversee homepage content, promotional banners, policies, FAQs, category pages, help articles, and marketplace announcements.' },
-  { icon: 'fa fa-solid fa-palette', title: 'Brand Settings', desc: 'Personalize your marketplace with a custom logo, colors, typography, favicon, email templates, and overall visual identity.' },
-  { icon: 'fa fa-solid fa-envelope', title: 'Email Configuration', desc: 'Set up transactional emails for account verification, orders, payments, shipping, refunds, and notifications.' },
-  { icon: 'fa fa-solid fa-money-bill-transfer', title: 'Currency Localization', desc: 'Accommodate various currencies, regional price formats, languages, taxes, and local marketplace settings.' },
-  { icon: 'fa fa-solid fa-file-invoice', title: 'Reports', desc: 'Generate insightful reports covering users, products, orders, payments, commissions, sellers, revenue, refunds, and overall marketplace activity.' },
-]
+/* Restores the ORIGINAL tabbed layout (RoleFeatureTabs) and its already-migrated
+   per-tab screenshots -- only title/desc text is updated to the new copy. Each role's
+   new copy list has more items than existing image slots; the items kept are the
+   closest thematic match to each existing image. See [[zillow_role_tabs_layout_restore]]
+   for why this component should never have been swapped for a plain grid in the first
+   place. Social Login has no matching item anywhere in the new copy's admin list, so
+   that one tab keeps its original (pre-rewrite) title/desc rather than forcing a
+   mismatched new title onto an unrelated image. */
+export const roleTabs = {
+  user: {
+    label: 'User',
+    icon: 'fas fa-user',
+    tabs: [
+      { icon: 'fa fa-solid fa-magnifying-glass', title: 'Smart Product Search', image: '/wp-content/uploads/2026/04/smart_search.webp', desc: 'Discover products by searching with keywords, categories, brands, sizes, colors, conditions, locations, price ranges, and other customizable filters.' },
+      { icon: 'fa fa-solid fa-heart', title: 'Wishlist Manager', image: '/wp-content/uploads/2026/04/wishlist-1.webp', desc: 'Keep track of products that catch your eye by saving them to a personal wishlist, so you can come back to them later.' },
+      { icon: 'fa fa-solid fa-message', title: 'Private Chat', image: '/wp-content/uploads/2026/04/private_chat.webp', desc: 'Engage directly with sellers through a secure messaging system, where you can ask questions, request more info, and negotiate prices.' },
+      { icon: 'fa fa-solid fa-clock-rotate-left', title: 'Order History', image: '/wp-content/uploads/2026/04/order_history.webp', desc: 'Easily access your past purchases, check payment statuses, seller details, delivery progress, and transaction information.' },
+      { icon: 'fa fa-solid fa-bell', title: 'Live Notifications', image: '/wp-content/uploads/2026/04/live_notify.webp', desc: 'Stay in the loop with notifications about new messages, accepted offers, payments, shipping updates, order statuses, and other key activities in the marketplace.' },
+      { icon: 'fa fa-solid fa-lock', title: 'Secure Checkout', image: '/wp-content/uploads/2026/04/secure_checkout.webp', desc: 'Finalize your purchases through a streamlined checkout process that includes approved payment options and delivery details.' },
+    ],
+  },
+  seller: {
+    label: 'Seller',
+    icon: 'fas fa-user-check',
+    tabs: [
+      { icon: 'fa fa-solid fa-box-open', title: 'Product Listing', image: '/wp-content/uploads/2026/04/product_listing.webp', desc: 'Create comprehensive product listings that include title, description, category, brand, size, colour, material, condition, price, images, and delivery options.' },
+      { icon: 'fa fa-solid fa-clipboard-check', title: 'Order Management', image: '/wp-content/uploads/2026/04/order_tracking.webp', desc: 'Check out new orders, confirm what’s in stock, get products ready, update order statuses, and handle completed sales with ease.' },
+      { icon: 'fa fa-solid fa-comments', title: 'Customer Chat', image: '/wp-content/uploads/2026/04/customer_chat.webp', desc: 'Engage directly with potential buyers, answer their product inquiries, discuss offers, and keep them posted on order updates.' },
+      { icon: 'fa fa-solid fa-tags', title: 'Bundle Discounts', image: '/wp-content/uploads/2026/04/bundle_discount.webp', desc: 'Set up discounts for customers who buy multiple products from the same seller.' },
+    ],
+  },
+  admin: {
+    label: 'Admin',
+    icon: 'fas fa-user-shield',
+    tabs: [
+      { icon: 'fa fa-solid fa-chart-pie', title: 'Platform Analytics', image: '/wp-content/uploads/2026/04/platform_analytics-vinted.webp', desc: 'Keep an eye on how the marketplace is performing, including user registrations, active listings, completed orders, transaction values, commissions, and overall revenue.' },
+      { icon: 'fa fa-solid fa-right-to-bracket', title: 'Social Login', image: '/wp-content/uploads/2026/04/social_login.webp', desc: 'Provide seamless and secure user access with integrated Google and Facebook login options, improving user experience and increasing registration rates.' },
+      { icon: 'fa fa-solid fa-file-lines', title: 'Content Management', image: '/wp-content/uploads/2026/04/content_management.webp', desc: 'Oversee homepage content, promotional banners, policies, FAQs, category pages, help articles, and marketplace announcements.' },
+      { icon: 'fa fa-solid fa-palette', title: 'Brand Settings', image: '/wp-content/uploads/2026/04/brand_settings.webp', desc: 'Personalize your marketplace with a custom logo, colors, typography, favicon, email templates, and overall visual identity.' },
+      { icon: 'fa fa-solid fa-envelope', title: 'Email Configuration', image: '/wp-content/uploads/2026/04/email_settings.webp', desc: 'Set up transactional emails for account verification, orders, payments, shipping, refunds, and notifications.' },
+      { icon: 'fa fa-solid fa-money-bill-transfer', title: 'Currency Localization', image: '/wp-content/uploads/2026/04/currencies-localization.webp', desc: 'Accommodate various currencies, regional price formats, languages, taxes, and local marketplace settings.' },
+    ],
+  },
+}
 
 export const additionalCapabilities = [
   { icon: 'fa fa-solid fa-warehouse', title: 'Smart Inventory Management', desc: 'Keep tabs on products, listing statuses, stock levels, order movements, and seller activities all from a centralized inventory system.' },

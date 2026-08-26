@@ -21,54 +21,66 @@ export const techStack = [
   { type: 'icon', icon: 'fa fa-solid fa-money-check-dollar', color: 'rgb(2, 44, 34)', title: 'Razorpay' },
 ]
 
-export const buyerRenterFeatures = [
-  { icon: 'fa fa-solid fa-magnifying-glass', title: 'Advanced Property Search', desc: 'Easily search by location, property type, whether it’s for sale or rent, price range, number of rooms and bathrooms, area size, amenities, furnishing status, and other customizable criteria.' },
-  { icon: 'fa fa-solid fa-map-location-dot', title: 'Map-Based Property Discovery', desc: 'Discover properties using an interactive map that shows how close they are to your favorite spots.' },
-  { icon: 'fa fa-solid fa-heart', title: 'Saved Properties and Wishlists', desc: 'Bookmark properties you like, revisit them later, and compare different options before making your final choice.' },
-  { icon: 'fa fa-solid fa-bell', title: 'Saved Searches and Alerts', desc: 'Save your favorite search criteria and get notified when new properties that match your preferences hit the market.' },
-  { icon: 'fa fa-solid fa-envelope-open-text', title: 'Direct Property Enquiries', desc: 'Reach out to property agents or owners easily through enquiry forms, messaging, and approved communication channels.' },
-  { icon: 'fa fa-regular fa-calendar', title: 'Property Visit Scheduling', desc: 'Set up a convenient date and time for either an in-person or virtual property visit.' },
-  { icon: 'fa fa-solid fa-scale-balanced', title: 'Property Comparison', desc: 'Easily compare your chosen properties by looking at their prices, locations, sizes, number of rooms, amenities, and other key details.' },
-  { icon: 'fa fa-solid fa-calculator', title: 'Mortgage and EMI Calculator', desc: 'Get a quick estimate of your property loan payments by entering the loan amount, repayment period, and interest rate.' },
-  { icon: 'fa fa-solid fa-bell-concierge', title: 'Notification System', desc: 'Stay in the loop with email, SMS, push notifications, or in-platform alerts about inquiries, appointments, saved searches, and updates on listings.' },
-  { icon: 'fa fa-solid fa-share-nodes', title: 'Property Sharing', desc: 'Effortlessly share relevant property listings with family, friends, or business contacts through your favorite communication platforms.' },
-]
-
-export const agentFeatures = [
-  { icon: 'fa fa-solid fa-gauge-high', title: 'Agent Dashboard', desc: 'Manage all your active listings, inquiries, appointments, leads, package usage, and overall performance from a single, convenient workspace.' },
-  { icon: 'fa fa-solid fa-table-list', title: 'Advanced Property Listing', desc: 'Craft detailed property listings that include pricing, images, videos, floor plans, location details, documents, room specifications, amenities, and availability.' },
-  { icon: 'fa fa-solid fa-user-clock', title: 'Lead and Enquiry Management', desc: 'Keep track of buyer and renter inquiries, update lead statuses, add notes, and ensure a smooth follow-up process.' },
-  { icon: 'fa fa-solid fa-cloud-arrow-up', title: 'Document Management', desc: 'Easily upload and manage essential documents like ownership, identity, project, or compliance papers with secure access controls.' },
-  { icon: 'fa fa-solid fa-file-invoice-dollar', title: 'Billing and Invoice History', desc: 'Easily check your subscription purchases, listing credits, invoices, payments, and transaction history all in one place.' },
-  { icon: 'fa fa-solid fa-route', title: 'Tour Request Tracking', desc: 'Accept, decline, reschedule, and keep an eye on property-visit requests effortlessly.' },
-  { icon: 'fa fa-solid fa-building', title: 'Property Status Management', desc: 'Stay on top of property availability by updating statuses like active, reserved, rented, sold, or unavailable.' },
-  { icon: 'fa fa-solid fa-id-badge', title: 'SEO-Friendly Agent Profiles', desc: 'Build agent profiles that are easy to find, complete with contact details, service areas, professional qualifications, and current listings.' },
-  { icon: 'fa fa-solid fa-chart-column', title: 'Listing Performance Analytics', desc: 'Monitor how your listings are performing by tracking views, saved properties, inquiries, visit requests, and lead interactions.' },
-]
-
-export const sellerFeatures = [
-  { icon: 'fa fa-solid fa-gauge-high', title: 'Seller Dashboard', desc: 'Take control of your property listings, inquiries, scheduled visits, transactions, and account activities all from a single dashboard.' },
-  { icon: 'fa fa-solid fa-file-pen', title: 'Guided Property Submission', desc: 'Easily create and update listings using structured forms and customizable fields tailored to your properties.' },
-  { icon: 'fa fa-solid fa-calendar-check', title: 'Property Visit Availability', desc: 'Set your available appointment times and manage visit requests without any scheduling conflicts.' },
-  { icon: 'fa fa-solid fa-envelope-open', title: 'Direct Enquiry Management', desc: 'Engage with potential buyers or renters and keep a well-organized record of all enquiries.' },
-  { icon: 'fa fa-solid fa-list-ol', title: 'Listing and Package Limits', desc: 'Keep an eye on how many active listings you have, track your credits, check package validity, and explore available upgrade options.' },
-  { icon: 'fa fa-solid fa-receipt', title: 'Payment and Transaction History', desc: 'Take a look at your listing fees, package purchases, invoices, refunds, and all related transaction details.' },
-  { icon: 'fa fa-solid fa-chart-line', title: 'Property Performance', desc: 'Monitor how your listings are performing by tracking views, saves, enquiries, visits, and other key performance metrics.' },
-  { icon: 'fa fa-solid fa-box-open', title: 'Package Activity Monitoring', desc: 'Stay updated on package validity, listing limits, subscription usage, and when it\'s time to renew.' },
-]
-
-export const adminFeatures = [
-  { icon: 'fa fa-solid fa-chart-pie', title: 'Advanced Analytics Dashboard', desc: 'Keep tabs on users, property listings, enquiries, appointments, subscriptions, platform revenue, and user activity through comprehensive reports.' },
-  { icon: 'fa fa-solid fa-users-gear', title: 'User and Role Management', desc: 'Oversee buyers, renters, sellers, agents, moderators, and administrators with role-based permissions for better management.' },
-  { icon: 'fa fa-solid fa-circle-check', title: 'Listing Approval and Moderation', desc: 'Review, approve, reject, suspend, edit, or flag property listings in line with platform policies.' },
-  { icon: 'fa fa-regular fa-folder-open', title: 'Category and Field Management', desc: 'Create and manage property categories, subcategories, listing types, locations, custom property fields, and search filters.' },
-  { icon: 'fa fa-solid fa-list-check', title: 'Amenities Management', desc: 'Easily create reusable amenity groups tailored for residential, commercial, rental, land, and project listings.' },
-  { icon: 'fa fa-solid fa-crown', title: 'Package and Membership Management', desc: 'Craft pricing plans that come with customizable listing limits, validity periods, credits, visibility options, and promotional perks.' },
-  { icon: 'fa fa-solid fa-rectangle-ad', title: 'Advertising Management', desc: 'Take charge of banner ads, sponsored placements, campaign timelines, and advertiser details.' },
-  { icon: 'fa fa-regular fa-calendar-check', title: 'Appointment Management', desc: 'Keep track of all property visit requests and tackle any scheduling hiccups across the marketplace.' },
-  { icon: 'fa fa-solid fa-file-lines', title: 'Content Management System', desc: 'Publish and manage pages, policies, FAQs, blogs, location details, banners, and media content seamlessly.' },
-  { icon: 'fa fa-solid fa-sliders', title: 'Platform Configuration', desc: 'Oversee currencies, languages, notifications, tax settings, email templates, branding, integrations, and system-wide configurations.' },
-]
+/* Preserves the ORIGINAL tabbed layout (RoleFeatureTabs) and its already-migrated
+   per-tab screenshots exactly -- only title/desc text is updated to the new copy.
+   Each role's new copy list has more items than there are existing image slots (6 per
+   role); the 6 chosen per role are the closest thematic match to each existing image,
+   and the remaining new-copy items (Lead and Enquiry Management, SEO-Friendly Agent
+   Profiles, Saved Searches and Alerts, Property Comparison, Mortgage and EMI Calculator,
+   Property Sharing, Guided Property Submission, Property Performance, Listing Approval
+   and Moderation, Advertising Management, Content Management System, Platform
+   Configuration) don't have a home here since there's no matching screenshot -- see
+   [[zillow_role_tabs_layout_restore]]. */
+export const roleTabs = {
+  user: {
+    label: 'Buyer/Renter',
+    icon: 'fas fa-user',
+    tabs: [
+      { icon: 'fa fa-solid fa-magnifying-glass', title: 'Advanced Property Search', image: '/wp-content/uploads/2026/04/property-search.webp', desc: 'Easily search by location, property type, whether it’s for sale or rent, price range, number of rooms and bathrooms, area size, amenities, furnishing status, and other customizable criteria.' },
+      { icon: 'fa fa-solid fa-bell', title: 'Notification System', image: '/wp-content/uploads/2026/04/notifications.webp', desc: 'Stay in the loop with email, SMS, push notifications, or in-platform alerts about inquiries, appointments, saved searches, and updates on listings.' },
+      { icon: 'fa fa-solid fa-heart', title: 'Saved Properties and Wishlists', image: '/wp-content/uploads/2026/04/wishlist.webp', desc: 'Bookmark properties you like, revisit them later, and compare different options before making your final choice.' },
+      { icon: 'fa fa-solid fa-user-tie', title: 'Direct Property Enquiries', image: '/wp-content/uploads/2026/04/contact-agent-seller.webp', desc: 'Reach out to property agents or owners easily through enquiry forms, messaging, and approved communication channels.' },
+      { icon: 'fa fa-regular fa-calendar', title: 'Property Visit Scheduling', image: '/wp-content/uploads/2026/04/property-schedule-user.webp', desc: 'Set up a convenient date and time for either an in-person or virtual property visit.' },
+      { icon: 'fa fa-solid fa-map-location-dot', title: 'Map-Based Property Discovery', image: '/wp-content/uploads/2026/04/property-view.webp', desc: 'Discover properties using an interactive map that shows how close they are to your favorite spots.' },
+    ],
+  },
+  agent: {
+    label: 'Agent',
+    icon: 'fas fa-user-tie',
+    tabs: [
+      { icon: 'fa fa-solid fa-gauge-high', title: 'Agent Dashboard', image: '/wp-content/uploads/2026/04/agent_dashboard.webp', desc: 'Manage all your active listings, inquiries, appointments, leads, package usage, and overall performance from a single, convenient workspace.' },
+      { icon: 'fa fa-solid fa-table-list', title: 'Advanced Property Listing', image: '/wp-content/uploads/2026/04/agent-property-listing.webp', desc: 'Craft detailed property listings that include pricing, images, videos, floor plans, location details, documents, room specifications, amenities, and availability.' },
+      { icon: 'fa fa-solid fa-cloud-arrow-up', title: 'Document Management', image: '/wp-content/uploads/2026/04/upload-document.webp', desc: 'Easily upload and manage essential documents like ownership, identity, project, or compliance papers with secure access controls.' },
+      { icon: 'fa fa-solid fa-money-bill', title: 'Billing and Invoice History', image: '/wp-content/uploads/2026/04/invoice.webp', desc: 'Easily check your subscription purchases, listing credits, invoices, payments, and transaction history all in one place.' },
+      { icon: 'fa fa-solid fa-route', title: 'Tour Request Tracking', image: '/wp-content/uploads/2026/04/tour-request.webp', desc: 'Accept, decline, reschedule, and keep an eye on property-visit requests effortlessly.' },
+      { icon: 'fa fa-solid fa-building', title: 'Property Status Management', image: '/wp-content/uploads/2026/04/property-status.webp', desc: 'Stay on top of property availability by updating statuses like active, reserved, rented, sold, or unavailable.' },
+    ],
+  },
+  seller: {
+    label: 'Seller',
+    icon: 'fas fa-user-check',
+    tabs: [
+      { icon: 'fa fa-solid fa-gauge-high', title: 'Seller Dashboard', image: '/wp-content/uploads/2026/04/seller_dashboard.webp', desc: 'Take control of your property listings, inquiries, scheduled visits, transactions, and account activities all from a single dashboard.' },
+      { icon: 'fa fa-solid fa-calendar-check', title: 'Property Visit Availability', image: '/wp-content/uploads/2026/04/property-schedule.webp', desc: 'Set your available appointment times and manage visit requests without any scheduling conflicts.' },
+      { icon: 'fa fa-solid fa-envelope-open', title: 'Direct Enquiry Management', image: '/wp-content/uploads/2026/04/enquiry.webp', desc: 'Engage with potential buyers or renters and keep a well-organized record of all enquiries.' },
+      { icon: 'fa fa-solid fa-list-ol', title: 'Listing and Package Limits', image: '/wp-content/uploads/2026/04/lisitng-limit.webp', desc: 'Keep an eye on how many active listings you have, track your credits, check package validity, and explore available upgrade options.' },
+      { icon: 'fa fa-solid fa-receipt', title: 'Payment and Transaction History', image: '/wp-content/uploads/2026/04/invoice-seller.webp', desc: 'Take a look at your listing fees, package purchases, invoices, refunds, and all related transaction details.' },
+      { icon: 'fa fa-solid fa-box-open', title: 'Package Activity Monitoring', image: '/wp-content/uploads/2026/04/package-monitor.webp', desc: 'Stay updated on package validity, listing limits, subscription usage, and when it\'s time to renew.' },
+    ],
+  },
+  admin: {
+    label: 'Admin',
+    icon: 'fas fa-user-shield',
+    tabs: [
+      { icon: 'fa fa-solid fa-gauge', title: 'Advanced Analytics Dashboard', image: '/wp-content/uploads/2026/04/platform_analytics.webp', desc: 'Keep tabs on users, property listings, enquiries, appointments, subscriptions, platform revenue, and user activity through comprehensive reports.' },
+      { icon: 'fa fa-solid fa-circle-user', title: 'User and Role Management', image: '/wp-content/uploads/2026/04/user-management.webp', desc: 'Oversee buyers, renters, sellers, agents, moderators, and administrators with role-based permissions for better management.' },
+      { icon: 'fa fa-regular fa-folder-open', title: 'Category and Field Management', image: '/wp-content/uploads/2026/04/category-management.webp', desc: 'Create and manage property categories, subcategories, listing types, locations, custom property fields, and search filters.' },
+      { icon: 'fa fa-solid fa-list-check', title: 'Amenities Management', image: '/wp-content/uploads/2026/04/amenities-management.webp', desc: 'Easily create reusable amenity groups tailored for residential, commercial, rental, land, and project listings.' },
+      { icon: 'fa fa-solid fa-box', title: 'Package and Membership Management', image: '/wp-content/uploads/2026/04/package-management.webp', desc: 'Craft pricing plans that come with customizable listing limits, validity periods, credits, visibility options, and promotional perks.' },
+      { icon: 'fa fa-regular fa-calendar-check', title: 'Appointment Management', image: '/wp-content/uploads/2026/04/appointment-management.webp', desc: 'Keep track of all property visit requests and tackle any scheduling hiccups across the marketplace.' },
+    ],
+  },
+}
 
 export const standOutFeatures = [
   { icon: 'fa fa-solid fa-file-shield', title: 'Authentication and Security', desc: 'Safeguard user accounts with robust authentication methods, session controls, input validation, access restrictions, upload validation, encryption, and protection against login attempts.' },
