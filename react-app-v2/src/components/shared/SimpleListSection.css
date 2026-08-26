@@ -1,3 +1,8 @@
+.clonescript-simple-list-section {
+  padding-top: var(--clonescript-section-y-compact);
+  padding-bottom: var(--clonescript-section-y-compact);
+}
+
 .clonescript-simple-list {
   display: grid;
   grid-template-columns: repeat(var(--clonescript-list-columns), minmax(0, 1fr));

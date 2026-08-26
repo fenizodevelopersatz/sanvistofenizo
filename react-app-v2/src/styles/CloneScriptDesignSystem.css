@@ -34,6 +34,19 @@
   --clonescript-brand-gradient: linear-gradient(110deg, var(--clonescript-brand-from), var(--clonescript-brand-via), var(--clonescript-brand-to));
 }
 
+/* Sections butt against their neighbor at 0 outer gap by convention (rhythm
+   is meant to live inside each section) -- but that only reads right when a
+   section HAS internal top/bottom padding of its own. Bordered/filled "boxed"
+   sections got their own scoped padding earlier (ComparisonTable, PdfDownloadCta,
+   MoneyBackGuarantee, RoleFeatureTabs, StandOutFeaturesGrid), but plain
+   heading/grid/list sections need the exact same treatment -- without it they
+   visually merge into whatever sits above/below them. Reusable utility for any
+   such section instead of repeating this in every component's own CSS file. */
+.clonescript-section-spaced {
+  padding-top: var(--clonescript-section-y-compact);
+  padding-bottom: var(--clonescript-section-y-compact);
+}
+
 html { color-scheme: light; scroll-behavior: smooth; }
 
 body {

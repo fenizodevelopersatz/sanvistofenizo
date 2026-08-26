@@ -7,7 +7,7 @@ export default function LiveDemoTabs({ dashboards }) {
   const hasVisual = Boolean(active.visual || active.image)
 
   return (
-    <section id="demo" className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+    <section id="demo" className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox clonescript-section-spaced">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-12">

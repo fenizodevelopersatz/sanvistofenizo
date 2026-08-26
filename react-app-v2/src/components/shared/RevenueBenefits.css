@@ -2,6 +2,8 @@
   --revenue-benefits-gap: clamp(18px, 2vw, 28px);
   --revenue-benefits-card-radius: 18px;
   --revenue-benefits-card-padding: clamp(18px, 2vw, 26px);
+  padding-top: var(--clonescript-section-y-compact);
+  padding-bottom: var(--clonescript-section-y-compact);
 }
 
 .revenue-benefits__heading {

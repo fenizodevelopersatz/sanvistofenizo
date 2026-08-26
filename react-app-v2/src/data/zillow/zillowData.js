@@ -112,7 +112,7 @@ export const launchSteps = [
   { icon: 'icon-et-gears', title: 'Platform Setup', desc: 'Our team will set up the approved application package in your server environment and carry out all the necessary deployment checks.' },
   { icon: 'icon-ion-ios-color-wand', title: 'Marketplace Personalization', desc: 'Make the marketplace your own by customizing it with your logo, brand colors, business details, location structure, property categories, and any approved interface changes.' },
   { icon: 'icon-ion-ios-rocket', title: 'Launch Assistance', desc: 'Get the support you need for final configuration, testing, troubleshooting, and operational handover, all based on the project scope we agreed upon.' },
-  { icon: 'fa fa-solid fa-book', title: 'Documentation and Training', desc: 'Receive the relevant product documentation and guided training for your administrators and operational teams, included in your selected package.' },
+  // { icon: 'fa fa-solid fa-book', title: 'Documentation and Training', desc: 'Receive the relevant product documentation and guided training for your administrators and operational teams, included in your selected package.' },
 ]
 
 export const dashboards = [

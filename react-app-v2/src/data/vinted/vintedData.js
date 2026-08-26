@@ -120,7 +120,7 @@ export const launchSteps = [
   { icon: 'fa fa-solid fa-palette', title: 'Marketplace Branding', desc: 'Incorporate your business logo, colors, content, categories, banners, and any other branding elements that have been approved.' },
   { icon: 'fa fa-solid fa-sliders', title: 'Initial Configuration', desc: 'Establish key categories, currencies, languages, payment settings, shipping options, commissions, and marketplace policies.' },
   { icon: 'fa fa-solid fa-rocket', title: 'Launch Assistance', desc: 'Provide support for final testing, configuration reviews, troubleshooting, and preparing for launch in line with the agreed project scope.' },
-  { icon: 'fa fa-solid fa-book', title: 'Documentation and Training', desc: 'Offer the necessary platform documentation and guidance for administrators as part of the selected package.' },
+  // { icon: 'fa fa-solid fa-book', title: 'Documentation and Training', desc: 'Offer the necessary platform documentation and guidance for administrators as part of the selected package.' },
 ]
 
 export const revenueBenefits = [

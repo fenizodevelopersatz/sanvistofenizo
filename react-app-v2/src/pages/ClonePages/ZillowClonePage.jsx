@@ -96,7 +96,7 @@ export default function ZillowClonePage() {
           imageAlt="CloneScript real estate platform delivery achievements"
         />
 
-        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox clonescript-section-spaced">
           <div className="ld-container container">
             <div className="row ld-row">
               <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1 text-center">
@@ -129,7 +129,7 @@ export default function ZillowClonePage() {
           </div>
         </section>
 
-        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox clonescript-section-spaced">
           <div className="ld-container container">
             <div className="row ld-row">
               <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1 text-center">
@@ -179,7 +179,7 @@ export default function ZillowClonePage() {
           columns={3}
         />
 
-        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox clonescript-section-spaced">
           <div className="ld-container container">
             <div className="row ld-row">
               <div className="wpb_column vc_column_container vc_col-sm-12">
@@ -213,7 +213,7 @@ export default function ZillowClonePage() {
 
         <TechStackRow items={techStack} heading="Technology Stack" />
 
-        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox clonescript-section-spaced">
           <div className="ld-container container">
             <div className="row ld-row">
               <div className="wpb_column vc_column_container vc_col-sm-12">
@@ -264,7 +264,7 @@ export default function ZillowClonePage() {
         <PricingPlans plans={pricingPlans} />
         <MoneyBackGuarantee />
 
-        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox clonescript-section-spaced">
           <div className="ld-container container">
             <div className="row ld-row">
               <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1 text-center">

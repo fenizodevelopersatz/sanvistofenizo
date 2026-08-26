@@ -2,7 +2,7 @@ import './TechStackRow.css'
 
 export default function TechStackRow({ items, heading = 'Technology Stack' }) {
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox clonescript-section-spaced">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-12">

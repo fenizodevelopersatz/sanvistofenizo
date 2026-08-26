@@ -1,6 +1,6 @@
 export default function ProcessSteps({ steps }) {
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox clonescript-section-spaced">
       <div className="ld-container container">
         <div className="row ld-row">
           {steps.map((s, i) => (
