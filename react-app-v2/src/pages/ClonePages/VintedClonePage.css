@@ -191,84 +191,44 @@
     margin-top: 0 !important;
   }
 
-  .vinted-motion-page > section:nth-child(5) {
-    min-height: 578px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
-  .vinted-motion-page > section:nth-child(6) {
-    min-height: 2339px;
-  }
-
-  .vinted-motion-page > section:nth-child(7) {
-    height: 722px;
-    margin-top: 49px !important;
-    padding-top: 120px;
-  }
-
-  .vinted-motion-page > section:nth-child(8) {
-    height: 645px;
-    padding-top: 120px;
-    padding-bottom: 80px;
-  }
-
-  .vinted-motion-page > section:nth-child(9) {
-    height: 1244px;
-    padding-top: 110px;
-  }
-
-  .vinted-motion-page > section:nth-child(10) {
-    height: 184px;
-    padding-top: 110px;
-  }
-
+  /* These fixed per-section heights were originally captured to match the
+     page's ORIGINAL (much shorter) content section-by-section. Content added
+     since then (buyer/seller/admin feature grids, extra revenue/pricing/FAQ
+     sections, etc.) shifted every later section's child-index and made most
+     of the individual pixel values stale/inapplicable to their new content
+     anyway. Since the catch-all rule below already overrides height/
+     min-height/padding for this whole range (same selector specificity, and
+     it comes later in the cascade -- confirmed via computed style that the
+     per-child values were being fully overridden even before this cleanup),
+     the individual rules were dead weight. Only three age survive because
+     they set a property (margin-top) or target a nested element (img) the
+     catch-all doesn't touch -- renumbered here to the sections' new
+     positions (verified live via `Array.from(container.children).filter(...)`):
+     nth-child(11) = TechStackRow, nth-child(16) = RevenueBenefits,
+     nth-child(26) = the testimonial/review section. */
   .vinted-motion-page > section:nth-child(11) {
-    height: 492px;
+    margin-top: 49px !important;
   }
 
-  .vinted-motion-page > section:nth-child(12) {
-    height: 749px;
-    padding-top: 110px;
-  }
-
-  .vinted-motion-page > section:nth-child(12) img {
+  .vinted-motion-page > section:nth-child(16) img {
     width: 540px;
     max-height: 430px;
     object-fit: contain;
   }
 
-  .vinted-motion-page > section:nth-child(13) {
-    height: 544px;
-    padding-top: 100px;
-  }
-
-  .vinted-motion-page > section:nth-child(14) {
-    height: 1341px;
-    padding-top: 150px;
-  }
-
-  .vinted-motion-page > section:nth-child(15) {
-    height: 254px;
-  }
-
-  .vinted-motion-page > section:nth-child(16) {
-    height: 1025px;
-  }
-
-  .vinted-motion-page > section:nth-child(17) {
+  .vinted-motion-page > section:nth-child(26) {
     margin-top: 38px !important;
   }
 
-  .vinted-motion-page > section:nth-child(n + 5):nth-child(-n + 16) {
+  .vinted-motion-page > section:nth-child(n + 5):nth-child(-n + 25) {
     height: auto;
     min-height: 0;
     padding-top: var(--clonescript-section-y);
     padding-bottom: var(--clonescript-section-y-compact);
   }
 
-  .vinted-motion-page > section:nth-child(7),
-  .vinted-motion-page > section:nth-child(17) {
+  .vinted-motion-page > section:nth-child(11),
+  .vinted-motion-page > section:nth-child(26) {
     margin-top: 0 !important;
   }
 }

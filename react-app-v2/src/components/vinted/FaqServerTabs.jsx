@@ -12,12 +12,8 @@ function FaqPanel() {
           <div className="wpb_wrapper">
             <div className="wpb_wrapper-inner">
               <header className="fancy-title">
-                <p>Queries &amp; Solutions</p>
-                <h3>Do you have any doubts? Get Instant Solutions Here</h3>
-              </header>
-              <header className="fancy-title">
                 <p>Vinted Clone FAQ</p>
-                <h3>Our FAQ Section provides complete clarification for all your queries about the vinted clone script</h3>
+                <h3>Frequently Asked Questions</h3>
               </header>
               <Link to="/contact-us" target="_blank" className="btn btn-solid text-uppercase circle btn-bordered border-thin">
                 <span><span className="btn-txt">Contact</span></span>
@@ -75,16 +71,11 @@ function ServerPanel() {
             <div className="wpb_wrapper-inner">
               <div className="wpb_text_column wpb_content_element">
                 <div className="wpb_wrapper">
-                  <p><strong>Server Requirements:</strong></p>
-                  <p><strong>VPS Server:</strong></p>
+                  <p><strong>Suggested Server Requirements:</strong></p>
+                  <p>{serverRequirements.intro}</p>
+                  <p>Generally, you might need:</p>
                   <ul>
-                    {serverRequirements.vpsServer.map((r) => (
-                      <li key={r}>{r}</li>
-                    ))}
-                  </ul>
-                  <p><strong>Database:</strong></p>
-                  <ul>
-                    {serverRequirements.database.map((r) => (
+                    {serverRequirements.configFactors.map((r) => (
                       <li key={r}>{r}</li>
                     ))}
                   </ul>

@@ -196,7 +196,7 @@ export default function TuroClonePage() {
           heading="Revenue Benefits"
           subheading="Grow your car-sharing business with a scalable and easy-to-manage Turo clone solution."
           items={revenueBenefits}
-          image="/wp-content/uploads/2026/04/revenue_benefits.png"
+          image="/wp-content/uploads/2026/04/revenue_benefits.webp"
           color="#0077ff"
         />
 

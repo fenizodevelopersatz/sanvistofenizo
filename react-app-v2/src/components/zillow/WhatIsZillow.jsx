@@ -1,4 +1,16 @@
 import Reveal from '../shared/Reveal.jsx'
+import '../shared/SimpleListSection.css'
+
+const idealFor = [
+  'Real estate startups',
+  'Property agencies',
+  'Independent brokers',
+  'Builders and developers',
+  'Rental businesses',
+  'Property managers',
+  'Commercial property companies',
+  'Multi-location real estate marketplaces',
+]
 
 export default function WhatIsZillow() {
   return (
@@ -12,13 +24,18 @@ export default function WhatIsZillow() {
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <div className="ld-fancy-heading text-left">
                     <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> What is <span style={{ color: '#002692' }}>Zillow Clone?</span></span>
+                      <span className="ld-fh-txt"> What Is a <span style={{ color: '#002692' }}>Zillow Clone?</span></span>
                     </h2>
                   </div>
                   <header className="fancy-title">
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Zillow clone script is a pre-built software solution that comes with core features and functionalities of a real estate marketplace, allowing entrepreneurs to launch their own real estate platform where users can rent, buy, and sell properties seamlessly.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>Our Zillow Clone Software comes with features like property listings, advanced search options, user profiles, etc. It offers a complete solution for establishing a successful online real estate marketplace.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>A Zillow Clone is a customizable real estate marketplace solution that comes packed with all the essential features you need to list, discover, compare, sell, and rent properties online. Instead of starting from scratch and building every single feature, entrepreneurs and real estate businesses can kick off with a solid software foundation and tailor it to fit their brand, location, audience, and business model. CloneScript’s Zillow Clone combines property listings, advanced filters, interactive maps, buyer profiles, agent dashboards, seller tools, inquiries, visit scheduling, monetization options, and platform administration.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>This solution is perfect for:</span></p>
+                      <ul className="clonescript-simple-list" style={{ '--clonescript-list-columns': 2, margin: '12px 0' }}>
+                        {idealFor.map((item, i) => (
+                          <li key={i}><i className="fa fa-solid fa-check" aria-hidden="true"></i><span>{item}</span></li>
+                        ))}
+                      </ul>
                       <p>
                         <i className="fa-solid fa-key" style={{ color: '#f59e0b', padding: 8, borderRadius: '50%', marginTop: 6 }}></i>Complete <span style={{ color: '#f59e0b', fontWeight: 'bold' }}> Ownership</span>
                         <br />

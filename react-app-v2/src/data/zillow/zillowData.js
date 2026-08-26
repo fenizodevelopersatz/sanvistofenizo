@@ -1,104 +1,125 @@
 export const aiFeatures = [
-  { image: '/wp-content/uploads/2026/06/ai-property-recommendation.webp', title: 'AI Property Recommendations', desc: 'Discover properties that closely match your preferences and requirements.' },
-  { image: '/wp-content/uploads/2026/06/ai-chatbot-1.webp', title: 'AI Real Estate Chatbot', desc: 'Get instant answers to your real estate questions anytime instantly.' },
-  { image: '/wp-content/uploads/2026/06/ai-description-generator.webp', title: 'AI-Powered Descriptions', desc: 'Create clear and engaging property descriptions within seconds.' },
-  { image: '/wp-content/uploads/2026/06/ai-neighbourhood.png', title: 'AI Neighborhood Insights', desc: 'Explore local amenities, connectivity, and community highlights nearby.' },
+  { image: '/wp-content/uploads/2026/06/ai-property-recommendation.webp', title: 'AI Property Recommendations', desc: 'Suggest properties that align with user preferences, saved searches, browsing habits, budget, desired location, property type, and amenity needs.' },
+  { image: '/wp-content/uploads/2026/06/ai-chatbot-1.webp', title: 'AI Real Estate Assistant', desc: 'Offer immediate answers to common queries about properties, amenities, appointments, navigating the platform, and search filters.' },
+  { image: '/wp-content/uploads/2026/06/ai-description-generator.webp', title: 'AI Property Description Generator', desc: 'Craft structured drafts for property descriptions using details like location, price, property type, number of rooms, amenities, and key highlights.' },
+  { image: '/wp-content/uploads/2026/06/ai-neighbourhood.png', title: 'AI Neighborhood Insights', desc: 'Deliver valuable insights about local schools, hospitals, transportation options, shopping centers, workplaces, recreational areas, and other highlights.' },
+  { image: '/wp-content/uploads/2026/06/ai-query-summary.webp', title: 'Natural-Language Property Search', desc: 'Enable users to search using everyday language, such as “Show me furnished two-bedroom apartments close to my workplace that fit my budget.”' },
 ]
 
-export const roleTabs = {
-  user: {
-    label: 'User',
-    icon: 'fas fa-user',
-    tabs: [
-      { icon: 'fa fa-solid fa-magnifying-glass', title: 'Property Search Filters', image: '/wp-content/uploads/2026/04/property-search.webp' },
-      { icon: 'fa fa-solid fa-bell', title: 'Notification System', image: '/wp-content/uploads/2026/04/notifications.webp' },
-      { icon: 'fa fa-solid fa-heart', title: 'Wishlist & Saved Properties', image: '/wp-content/uploads/2026/04/wishlist.webp' },
-      { icon: 'fa fa-solid fa-user-tie', title: 'Direct Contact', image: '/wp-content/uploads/2026/04/contact-agent-seller.webp' },
-      { icon: 'fa fa-regular fa-calendar', title: 'Flexible Property Visit Booking', image: '/wp-content/uploads/2026/04/property-schedule-user.webp' },
-      { icon: 'fa fa-solid fa-map-location-dot', title: 'Map-Based Property View', image: '/wp-content/uploads/2026/04/property-view.webp' },
-    ],
-  },
-  agent: {
-    label: 'Agent',
-    icon: 'fas fa-user-tie',
-    tabs: [
-      { icon: 'fa fa-solid fa-gauge-high', title: 'Agent Dashboard', image: '/wp-content/uploads/2026/04/agent_dashboard.webp' },
-      { icon: 'fa fa-solid fa-table-list', title: 'Advanced Property Listing', image: '/wp-content/uploads/2026/04/agent-property-listing.webp' },
-      { icon: 'fa fa-solid fa-cloud-arrow-up', title: 'Document Upload System', image: '/wp-content/uploads/2026/04/upload-document.webp' },
-      { icon: 'fa fa-solid fa-money-bill', title: 'Invoice & Billing History', image: '/wp-content/uploads/2026/04/invoice.webp' },
-      { icon: 'fa fa-solid fa-route', title: 'Tour Request Status Tracking', image: '/wp-content/uploads/2026/04/tour-request.webp' },
-      { icon: 'fa fa-solid fa-building', title: 'Property Status Management', image: '/wp-content/uploads/2026/04/property-status.webp' },
-    ],
-  },
-  seller: {
-    label: 'Seller',
-    icon: 'fas fa-user-check',
-    tabs: [
-      { icon: 'fa fa-solid fa-gauge-high', title: 'Seller Dashboard', image: '/wp-content/uploads/2026/04/seller_dashboard.webp' },
-      { icon: 'fa fa-solid fa-calendar-check', title: 'Property Visit Scheduling', image: '/wp-content/uploads/2026/04/property-schedule.webp' },
-      { icon: 'fa fa-solid fa-envelope-open', title: 'Direct Inquiry Management', image: '/wp-content/uploads/2026/04/enquiry.webp' },
-      { icon: 'fa fa-solid fa-list-ol', title: 'Listing Limit', image: '/wp-content/uploads/2026/04/lisitng-limit.webp' },
-      { icon: 'fa fa-solid fa-receipt', title: 'Payment & Transaction History', image: '/wp-content/uploads/2026/04/invoice-seller.webp' },
-      { icon: 'fa fa-solid fa-box-open', title: 'Package Activity Monitoring', image: '/wp-content/uploads/2026/04/package-monitor.webp' },
-    ],
-  },
-  admin: {
-    label: 'Admin',
-    icon: 'fas fa-user-shield',
-    tabs: [
-      { icon: 'fa fa-solid fa-gauge', title: 'Advanced Analytics Dashboard', image: '/wp-content/uploads/2026/04/platform_analytics.webp' },
-      { icon: 'fa fa-solid fa-circle-user', title: 'User Management', image: '/wp-content/uploads/2026/04/user-management.webp' },
-      { icon: 'fa fa-regular fa-folder-open', title: 'Category Management', image: '/wp-content/uploads/2026/04/category-management.webp' },
-      { icon: 'fa fa-solid fa-list-check', title: 'Amenities Management', image: '/wp-content/uploads/2026/04/amenities-management.webp' },
-      { icon: 'fa fa-solid fa-box', title: 'Package Management', image: '/wp-content/uploads/2026/04/package-management.webp' },
-      { icon: 'fa fa-regular fa-calendar-check', title: 'Appointment Management', image: '/wp-content/uploads/2026/04/appointment-management.webp' },
-    ],
-  },
-}
-
 export const techStack = [
-  { type: 'icon', icon: 'fa fa-brands fa-html5', color: 'rgb(227, 79, 38)', title: 'Html' },
-  { type: 'icon', icon: 'fa fa-brands fa-node', color: 'rgb(104, 160, 99)', title: 'Node Js' },
-  { type: 'icon', icon: 'fa fa-brands fa-css', color: 'rgb(21, 114, 182)', title: 'Css' },
-  { type: 'image', image: '/wp-content/uploads/2026/04/express.webp', color: 'rgb(239, 216, 29)', title: 'Express Js' },
+  { type: 'icon', icon: 'fa fa-brands fa-react', color: 'rgb(97, 218, 251)', title: 'React.js' },
+  { type: 'image', image: '/wp-content/uploads/2026/05/nextjs.webp', color: 'rgb(121, 82, 179)', title: 'Next.js' },
+  { type: 'icon', icon: 'fa fa-brands fa-html5', color: 'rgb(227, 79, 38)', title: 'HTML5' },
+  { type: 'icon', icon: 'fa fa-brands fa-css', color: 'rgb(21, 114, 182)', title: 'CSS3' },
   { type: 'icon', icon: 'fa fa-brands fa-bootstrap', color: 'rgb(121, 82, 179)', title: 'Bootstrap' },
-  { type: 'image', image: '/wp-content/uploads/2026/04/mongodb.webp', color: 'rgb(71, 162, 72)', title: 'Mongodb' },
-  { type: 'icon', icon: 'fa fa-brands fa-react', color: 'rgb(97, 218, 251)', title: 'React Js' },
-  { type: 'image', image: '/wp-content/uploads/2026/05/nextjs.webp', color: 'rgb(121, 82, 179)', title: 'Next Js' },
-  { type: 'image', image: '/wp-content/uploads/2022/01/mysql-1.png', color: 'rgb(0, 95, 133)', title: 'MySQL' },
-  { type: 'icon', icon: 'fa fa-solid fa-database', color: 'rgb(51, 103, 145)', title: 'PostgreSQL' },
+  { type: 'icon', icon: 'fa fa-brands fa-node', color: 'rgb(104, 160, 99)', title: 'Node.js' },
+  { type: 'image', image: '/wp-content/uploads/2026/04/express.webp', color: 'rgb(239, 216, 29)', title: 'Express.js' },
+  { type: 'image', image: '/wp-content/uploads/2026/04/mongodb.webp', color: 'rgb(71, 162, 72)', title: 'MongoDB' },
+  { type: 'icon', icon: 'fa fa-solid fa-map-location-dot', color: 'rgb(66, 133, 244)', title: 'Google Maps' },
+  { type: 'icon', icon: 'fa fa-brands fa-stripe', color: 'rgb(99, 91, 255)', title: 'Stripe' },
+  { type: 'icon', icon: 'fa fa-brands fa-paypal', color: 'rgb(0, 112, 186)', title: 'PayPal' },
+  { type: 'icon', icon: 'fa fa-solid fa-money-check-dollar', color: 'rgb(2, 44, 34)', title: 'Razorpay' },
+]
+
+export const buyerRenterFeatures = [
+  { icon: 'fa fa-solid fa-magnifying-glass', title: 'Advanced Property Search', desc: 'Easily search by location, property type, whether it’s for sale or rent, price range, number of rooms and bathrooms, area size, amenities, furnishing status, and other customizable criteria.' },
+  { icon: 'fa fa-solid fa-map-location-dot', title: 'Map-Based Property Discovery', desc: 'Discover properties using an interactive map that shows how close they are to your favorite spots.' },
+  { icon: 'fa fa-solid fa-heart', title: 'Saved Properties and Wishlists', desc: 'Bookmark properties you like, revisit them later, and compare different options before making your final choice.' },
+  { icon: 'fa fa-solid fa-bell', title: 'Saved Searches and Alerts', desc: 'Save your favorite search criteria and get notified when new properties that match your preferences hit the market.' },
+  { icon: 'fa fa-solid fa-envelope-open-text', title: 'Direct Property Enquiries', desc: 'Reach out to property agents or owners easily through enquiry forms, messaging, and approved communication channels.' },
+  { icon: 'fa fa-regular fa-calendar', title: 'Property Visit Scheduling', desc: 'Set up a convenient date and time for either an in-person or virtual property visit.' },
+  { icon: 'fa fa-solid fa-scale-balanced', title: 'Property Comparison', desc: 'Easily compare your chosen properties by looking at their prices, locations, sizes, number of rooms, amenities, and other key details.' },
+  { icon: 'fa fa-solid fa-calculator', title: 'Mortgage and EMI Calculator', desc: 'Get a quick estimate of your property loan payments by entering the loan amount, repayment period, and interest rate.' },
+  { icon: 'fa fa-solid fa-bell-concierge', title: 'Notification System', desc: 'Stay in the loop with email, SMS, push notifications, or in-platform alerts about inquiries, appointments, saved searches, and updates on listings.' },
+  { icon: 'fa fa-solid fa-share-nodes', title: 'Property Sharing', desc: 'Effortlessly share relevant property listings with family, friends, or business contacts through your favorite communication platforms.' },
+]
+
+export const agentFeatures = [
+  { icon: 'fa fa-solid fa-gauge-high', title: 'Agent Dashboard', desc: 'Manage all your active listings, inquiries, appointments, leads, package usage, and overall performance from a single, convenient workspace.' },
+  { icon: 'fa fa-solid fa-table-list', title: 'Advanced Property Listing', desc: 'Craft detailed property listings that include pricing, images, videos, floor plans, location details, documents, room specifications, amenities, and availability.' },
+  { icon: 'fa fa-solid fa-user-clock', title: 'Lead and Enquiry Management', desc: 'Keep track of buyer and renter inquiries, update lead statuses, add notes, and ensure a smooth follow-up process.' },
+  { icon: 'fa fa-solid fa-cloud-arrow-up', title: 'Document Management', desc: 'Easily upload and manage essential documents like ownership, identity, project, or compliance papers with secure access controls.' },
+  { icon: 'fa fa-solid fa-file-invoice-dollar', title: 'Billing and Invoice History', desc: 'Easily check your subscription purchases, listing credits, invoices, payments, and transaction history all in one place.' },
+  { icon: 'fa fa-solid fa-route', title: 'Tour Request Tracking', desc: 'Accept, decline, reschedule, and keep an eye on property-visit requests effortlessly.' },
+  { icon: 'fa fa-solid fa-building', title: 'Property Status Management', desc: 'Stay on top of property availability by updating statuses like active, reserved, rented, sold, or unavailable.' },
+  { icon: 'fa fa-solid fa-id-badge', title: 'SEO-Friendly Agent Profiles', desc: 'Build agent profiles that are easy to find, complete with contact details, service areas, professional qualifications, and current listings.' },
+  { icon: 'fa fa-solid fa-chart-column', title: 'Listing Performance Analytics', desc: 'Monitor how your listings are performing by tracking views, saved properties, inquiries, visit requests, and lead interactions.' },
+]
+
+export const sellerFeatures = [
+  { icon: 'fa fa-solid fa-gauge-high', title: 'Seller Dashboard', desc: 'Take control of your property listings, inquiries, scheduled visits, transactions, and account activities all from a single dashboard.' },
+  { icon: 'fa fa-solid fa-file-pen', title: 'Guided Property Submission', desc: 'Easily create and update listings using structured forms and customizable fields tailored to your properties.' },
+  { icon: 'fa fa-solid fa-calendar-check', title: 'Property Visit Availability', desc: 'Set your available appointment times and manage visit requests without any scheduling conflicts.' },
+  { icon: 'fa fa-solid fa-envelope-open', title: 'Direct Enquiry Management', desc: 'Engage with potential buyers or renters and keep a well-organized record of all enquiries.' },
+  { icon: 'fa fa-solid fa-list-ol', title: 'Listing and Package Limits', desc: 'Keep an eye on how many active listings you have, track your credits, check package validity, and explore available upgrade options.' },
+  { icon: 'fa fa-solid fa-receipt', title: 'Payment and Transaction History', desc: 'Take a look at your listing fees, package purchases, invoices, refunds, and all related transaction details.' },
+  { icon: 'fa fa-solid fa-chart-line', title: 'Property Performance', desc: 'Monitor how your listings are performing by tracking views, saves, enquiries, visits, and other key performance metrics.' },
+  { icon: 'fa fa-solid fa-box-open', title: 'Package Activity Monitoring', desc: 'Stay updated on package validity, listing limits, subscription usage, and when it\'s time to renew.' },
+]
+
+export const adminFeatures = [
+  { icon: 'fa fa-solid fa-chart-pie', title: 'Advanced Analytics Dashboard', desc: 'Keep tabs on users, property listings, enquiries, appointments, subscriptions, platform revenue, and user activity through comprehensive reports.' },
+  { icon: 'fa fa-solid fa-users-gear', title: 'User and Role Management', desc: 'Oversee buyers, renters, sellers, agents, moderators, and administrators with role-based permissions for better management.' },
+  { icon: 'fa fa-solid fa-circle-check', title: 'Listing Approval and Moderation', desc: 'Review, approve, reject, suspend, edit, or flag property listings in line with platform policies.' },
+  { icon: 'fa fa-regular fa-folder-open', title: 'Category and Field Management', desc: 'Create and manage property categories, subcategories, listing types, locations, custom property fields, and search filters.' },
+  { icon: 'fa fa-solid fa-list-check', title: 'Amenities Management', desc: 'Easily create reusable amenity groups tailored for residential, commercial, rental, land, and project listings.' },
+  { icon: 'fa fa-solid fa-crown', title: 'Package and Membership Management', desc: 'Craft pricing plans that come with customizable listing limits, validity periods, credits, visibility options, and promotional perks.' },
+  { icon: 'fa fa-solid fa-rectangle-ad', title: 'Advertising Management', desc: 'Take charge of banner ads, sponsored placements, campaign timelines, and advertiser details.' },
+  { icon: 'fa fa-regular fa-calendar-check', title: 'Appointment Management', desc: 'Keep track of all property visit requests and tackle any scheduling hiccups across the marketplace.' },
+  { icon: 'fa fa-solid fa-file-lines', title: 'Content Management System', desc: 'Publish and manage pages, policies, FAQs, blogs, location details, banners, and media content seamlessly.' },
+  { icon: 'fa fa-solid fa-sliders', title: 'Platform Configuration', desc: 'Oversee currencies, languages, notifications, tax settings, email templates, branding, integrations, and system-wide configurations.' },
 ]
 
 export const standOutFeatures = [
-  { icon: 'fa fa-solid fa-file-shield', title: 'Authentication & Security', desc: 'Provides secure user access, encrypted authentication, secured sessions and strong data privacy controls.' },
-  { icon: 'fa fa-solid fa-file-invoice-dollar', title: 'Automated Billing & Invoicing System', desc: 'Issues invoices, handles recurrent billing, and automates the tracking of payments effectively.' },
-  { icon: 'fa fa-solid fa-map-location-dot', title: 'Map & Location Intelligence', desc: 'Improves the functionality of the map by adding geo-tagging, location insights, and proximity-based recommendations.' },
-  { icon: 'fa fa-solid fa-users', title: 'Role & Access Engine', desc: 'Administers role-based access and authorizations in order to be certain that every user uses the platform depending on established privileges.' },
-  { icon: 'fa fa-solid fa-layer-group', title: 'Content Management System', desc: 'Facilitates the easy development, editing, and administration of web content in the form of blogs, pages and media.' },
-  { icon: 'fa fa-solid fa-coins', title: 'Multi-Currency', desc: 'Our Zillow clone script seamless transactions with support for multiple currencies, live exchange rates, and regional tax computation.' },
-  { icon: 'fa fa-solid fa-gears', title: 'System Performance & Scalability', desc: 'Provides a high-speed performance and scalability to increased user demand and data.' },
-  { icon: 'fa fa-solid fa-gear', title: 'Global Platform Settings', desc: 'Manages all controls of the platform such as system-wide settings and environment management.' },
-  { icon: 'fa fa-solid fa-magnifying-glass', title: 'Core Search Engine', desc: 'Provides quick and precise property search and filtering experience on optimized backend search.' },
+  { icon: 'fa fa-solid fa-file-shield', title: 'Authentication and Security', desc: 'Safeguard user accounts with robust authentication methods, session controls, input validation, access restrictions, upload validation, encryption, and protection against login attempts.' },
+  { icon: 'fa fa-solid fa-file-invoice-dollar', title: 'Automated Billing and Invoicing', desc: 'Easily generate invoices, keep track of payments, manage package purchases, and oversee both one-time and recurring billing processes.' },
+  { icon: 'fa fa-solid fa-map-location-dot', title: 'Map and Location Intelligence', desc: 'Enhance your search results with map markers, geocoding, radius searches, nearby location details, and distance-based discovery.' },
+  { icon: 'fa fa-solid fa-users', title: 'Role and Access Engine', desc: 'Set up permissions based on user roles, ensuring that everyone has access only to the features and information they need for their tasks.' },
+  { icon: 'fa fa-solid fa-coins', title: 'Multi-Currency Support', desc: 'Accommodate various currencies, regional pricing formats, live exchange rate updates, and customizable tax regulations.' },
+  { icon: 'fa fa-solid fa-language', title: 'Multilingual Platform', desc: 'Provide your marketplace in several languages and manage translated content effortlessly through the administration panel.' },
+  { icon: 'fa fa-solid fa-magnifying-glass', title: 'Core Search Engine', desc: 'Deliver quick and precise property searches using structured filters, keywords, sorting options, map boundaries, and saved searches.' },
+  { icon: 'fa fa-solid fa-bell', title: 'Multi-Channel Notifications', desc: 'Keep users informed with notifications via email, SMS, push notifications, and in-platform alerts for inquiries, appointments, payments, property updates, and saved search results.' },
+  { icon: 'fa fa-solid fa-gears', title: 'Performance and Scalability', desc: 'Implement optimized database queries, caching, media management, monitoring, and scalable deployment strategies to handle growing traffic and an expanding list of properties.' },
 ]
 
 export const revenueBenefits = [
-  { icon: 'fa fa-solid fa-bookmark', title: 'Featured Listing', desc: 'Admin can earn from the agents for making their listing featured on the homepage.' },
-  { icon: 'fa fa-solid fa-rectangle-ad', title: 'Google Ads', desc: 'Zillow Clone App allows the admin can earn by displaying Google ads.' },
-  { icon: 'fa fa-solid fa-dollar-sign', title: 'Credit Packages', desc: 'Agents need to purchase the credit packages to list their properties on the platform.' },
-  { icon: 'fa fa-solid fa-money-bill', title: 'Agent Earning', desc: 'An agent can earn by selling or renting the property or project to the users.' },
+  { icon: 'fa fa-solid fa-house-circle-check', title: 'Paid Property Listings', desc: 'Charge property owners, builders, and agents a fee to list their properties or buy listing credits.' },
+  { icon: 'fa fa-solid fa-crown', title: 'Membership Plans', desc: 'Create flexible plans — monthly, quarterly, or annual — that come with various listing limits and perks.' },
+  { icon: 'fa fa-solid fa-star', title: 'Featured Listings', desc: 'Offer users the chance to pay for premium spots in search results, category pages, city pages, and even on the homepage.' },
+  { icon: 'fa fa-solid fa-rectangle-ad', title: 'Advertising', desc: 'Bring in revenue through banner ads, sponsored placements, and promotional campaigns.' },
+]
+
+export const additionalRevenueModels = [
+  'Featured Agents and Builders — let verified agents, builders, and property companies showcase their profiles or projects for a fee',
+  'Lead Packages — offer packages that provide access to qualified inquiries or lead credits',
+  'Booking or Service Fees — charge platform fees for eligible appointments, reservations, or property-related services',
+  'Premium Property Services — photography, listing verification, legal assistance, mortgage referrals, property insurance, moving services, and property management partnerships',
 ]
 
 export const launchSteps = [
-  { icon: 'icon-et-gears', title: 'Platform Setup', desc: 'Our team sets up the marketplace on your server and ensures everything is ready before launch.' },
-  { icon: 'icon-ion-ios-color-wand', title: 'Marketplace Personalization', desc: 'Make the marketplace your own by adding your branding, business details, and visual style.' },
-  { icon: 'icon-ion-ios-rocket', title: 'Launch Support', desc: 'We help you through the launch process so you can start your marketplace without complications.' },
+  { icon: 'icon-et-gears', title: 'Platform Setup', desc: 'Our team will set up the approved application package in your server environment and carry out all the necessary deployment checks.' },
+  { icon: 'icon-ion-ios-color-wand', title: 'Marketplace Personalization', desc: 'Make the marketplace your own by customizing it with your logo, brand colors, business details, location structure, property categories, and any approved interface changes.' },
+  { icon: 'icon-ion-ios-rocket', title: 'Launch Assistance', desc: 'Get the support you need for final configuration, testing, troubleshooting, and operational handover, all based on the project scope we agreed upon.' },
+  { icon: 'fa fa-solid fa-book', title: 'Documentation and Training', desc: 'Receive the relevant product documentation and guided training for your administrators and operational teams, included in your selected package.' },
 ]
 
 export const dashboards = [
-  { label: 'User Dashboard', email: 'user@yopmail.com', password: '12345678' },
+  { label: 'Buyer/Renter Dashboard', email: 'user@yopmail.com', password: '12345678' },
   { label: 'Agent Dashboard', email: 'agent@yopmail.com', password: '12345678' },
   { label: 'Seller Dashboard', email: 'seller@yopmail.com', password: '12345678' },
-  { label: 'Admin Dashboard', email: 'admin@gmail.com', password: 'Admin@123' },
+  { label: 'Administrator Dashboard', email: 'admin@gmail.com', password: 'Admin@123' },
+]
+
+export const packageInclusions = [
+  'Software license',
+  'Source code terms',
+  'Chosen platform modules',
+  'Required user roles',
+  'Customization details',
+  'Web and mobile deliverables',
+  'Deployment services',
+  'Third-party integrations',
+  'Support and maintenance options',
 ]
 
 export const pricingPlans = [
@@ -113,38 +134,61 @@ export const pricingPlans = [
 ]
 
 export const comparisonOurs = [
-  'Ready-made script tailored to your real estate business needs',
-  'Clear development process with complete documentation',
-  'Affordable pricing with no hidden charges',
-  '100% guaranteed launch within the committed timeframe',
-  'One-time payment with no additional costs',
-  'Reliable customer support for all your queries',
-  'Free installation support for a hassle-free setup',
-  'Full source code access with complete ownership control',
+  'Tailored specifically to fit your real estate business model and workflows.',
+  'Comes with a well-defined project scope, clear development milestones, review stages, and a structured launch process.',
+  'A white-label platform that allows you to showcase your logo, colors, content, and overall business identity.',
+  'You get access to the source code based on the license you choose.',
+  'You\'ll receive a straightforward quote based on the features and customization you select.',
+  'Its architecture is designed to be extended with new features, markets, and integrations.',
+  'We can definitely include deployment assistance in the project scope to make things easier for you.',
+  'We offer structured technical support options to ensure you have the help you need.',
 ]
 
 export const comparisonOthers = [
-  'Generic solutions that don’t fully meet business needs',
-  'Unclear and undefined development process',
-  'High costs with hidden charges during development',
-  'No fixed timeline leading to delayed launches',
-  'Recurring subscription and annual fees',
-  'Limited or no customer support',
-  'Additional charges for installation support',
-  'Restricted or no access to full source code',
+  'You might find yourself making compromises or needing extra third-party tools.',
+  'Ownership of the development process and timelines can often be a bit murky.',
+  'You might face limitations when it comes to branding flexibility.',
+  'The source code could be restricted or even unavailable.',
+  'You might encounter unexpected costs due to additional modules.',
+  'Expansion could be constrained by the original product\'s structure.',
+  'Just a heads up, installation might come with an additional charge.',
+  'Keep in mind that the quality and duration of support may be somewhat limited.',
 ]
 
 export const faqs = [
-  { q: 'What is Zillow Clone Script', a: 'Zillow Clone is a white-label real estate solution that enables budding entrepreneurs and real estate business owners to launch their own real estate listing and rental platform quickly and affordably.' },
-  { q: 'How Real Estate App like Zillow Works?', a: 'The Zillow Clone Solution allows users to search and view properties for sale or rent. Agents can list their properties, and users can connect with them directly.' },
-  { q: 'Will I Have Complete Ownership of the Zillow Clone Script?', a: 'Yes, you will receive complete ownership of the Zillow Clone Script. Since it is a white-label solution, you can tailor the website to suit your business needs.' },
-  { q: 'How Much Does it Cost for a Zillow Clone App?', a: 'Launching a Zillow Clone from scratch can be expensive. However, CloneScript offers a Zillow Clone at an affordable price, with three different pricing plans to suit various business needs.' },
-  { q: 'What Type of Support Will I Get After Purchase?', a: 'We provide three months of free technical support with every Zillow Clone purchase to ensure everything runs smoothly.' },
+  { q: 'What Is a Zillow Clone Script?', a: 'A Zillow Clone Script is a flexible software solution designed to help you launch a real estate marketplace. It comes packed with features like property listings, advanced search options, maps, inquiries, appointment scheduling, payment processing, monetization strategies, and administrative tools.' },
+  { q: 'How Does a Real Estate App Like Zillow Work?', a: 'Property owners, builders, or agents can publish their listings. Buyers and renters can then search for properties using various filters and maps, review detailed property information, save their favorite listings, submit inquiries, and schedule visits. Administrators oversee user management, listings, plans, transactions, advertisements, and overall platform settings.' },
+  { q: 'Can I Customize the Platform for My Brand?', a: 'Absolutely! You can tailor the branding, property categories, listing fields, service locations, user roles, packages, currencies, languages, integrations, and workflows to fit your brand perfectly.' },
+  { q: 'Will I Receive Source-Code Ownership?', a: 'The access to and ownership of the source code will depend on the license you choose and the signed agreement. The proposal should clearly outline your usage rights, domain limitations, transfer restrictions, and what components are included.' },
+  { q: 'Can I Manage Categories, Listing Fields, and Page Layouts?', a: 'Yes, you can! The administration panel allows you to manage property categories, subcategories, listing types, fields, forms, search filters, amenities, content sections, and other settings for your marketplace.' },
+  { q: 'Is the Software Available for a One-Time Payment?', a: 'Yes, you can get a one-time license for the core software. However, hosting, maintenance, third-party services, premium integrations, and any future custom development might come with additional costs.' },
+  { q: 'What Is Included in the Zillow Clone Package?', a: 'The package typically includes source code, selected modules, a responsive interface, help with installation, product documentation, support for bug fixes, approved customization, and training for administrators. Check the final quotation for exact details.' },
+  { q: 'What Monetization Options Are Available?', a: 'You can explore paid listings, membership plans, featured listings, listing credits, promoted agents, advertising, lead packages, booking fees, and premium services.' },
+  { q: 'Which Payment Gateways Can Be Integrated?', a: 'The platform is flexible and can integrate with payment gateways like Stripe, PayPal, Razorpay, CCAvenue, or any other provider that suits your target market.' },
+  { q: 'Will CloneScript Help with Platform Installation?', a: 'Absolutely! We can assist with deployment as long as your server meets the technical requirements and you provide the necessary hosting access, domain setup, and any third-party credentials.' },
+  { q: 'Is There a Free Trial or Live Demo?', a: 'Yes, we might offer a guided demo or a temporary test environment, depending on what\'s available. Just reach out to CloneScript to check on the current demo options.' },
+  { q: 'Can the Platform Handle Multiple Languages and Currencies?', a: 'Definitely! Our localization features support various languages, currencies, number formats, regional settings, and even translated content.' },
+  { q: 'Are There AI Features in the Platform?', a: 'Yes, we have AI modules that can help with property recommendations, conversational searches, chatbot responses, drafting listing descriptions, and providing neighborhood insights.' },
+  { q: 'How Is the Zillow Clone Secured?', a: 'Security measures may include secure authentication, role-based access, input validation, session protection, encrypted connections, upload validation, rate limiting, database protection, activity logging, automated backups, and regular security updates.' },
+  { q: 'Can We Develop Mobile Applications?', a: 'Absolutely! We can create Android and iOS applications or responsive web app options, depending on the package you choose.' },
+  { q: 'What Support Is Available After Launch?', a: 'Once your project is live, support can encompass everything from fixing defects and helping with configurations to rolling out updates, monitoring performance, maintaining the system, and planning future enhancements based on the support plan you choose.' },
 ]
 
 export const serverRequirements = {
-  vpsServer: ['OS: Ubuntu 22.04 LTS', 'CPU: 2–4 Cores', 'RAM: 4–8 GB', 'Storage: 40+ GB SSD', 'Node.js: v18 or higher'],
-  database: ['MongoDB 5+'],
+  intro: 'When selecting a hosting environment, it’s essential to consider factors like anticipated traffic, the volume of property listings, storage needs for images and videos, integration requirements, search functionalities, backup policies, and your availability targets.',
+  configFactors: [
+    'A Linux VPS or a compatible cloud environment',
+    'An SSL certificate',
+    'A properly configured domain and DNS',
+    'Supported runtime versions',
+    'A supported database version',
+    'SSD storage',
+    'Automated backups',
+    'Application monitoring',
+    'Activity logging',
+    'Recovery procedures',
+    'CDN or object storage for property media',
+  ],
 }
 
 export const changeLog = [

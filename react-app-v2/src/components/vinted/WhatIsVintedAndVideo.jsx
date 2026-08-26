@@ -1,3 +1,18 @@
+import '../shared/SimpleListSection.css'
+
+const tailoredFor = [
+  'Pre-owned fashion',
+  'Vintage clothing',
+  'Shoes and footwear',
+  'Bags and accessories',
+  'Children’s clothing',
+  'Designer resale',
+  'Handmade products',
+  'Local classified ads',
+  'Sustainable fashion',
+  'Multi-category resale marketplaces',
+]
+
 export default function WhatIsVintedAndVideo() {
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
@@ -10,13 +25,19 @@ export default function WhatIsVintedAndVideo() {
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <div className="ld-fancy-heading text-left">
                     <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> What is <span style={{ color: '#002692' }}>Vinted Clone?</span></span>
+                      <span className="ld-fh-txt"> What Is a <span style={{ color: '#002692' }}>Vinted Clone?</span></span>
                     </h2>
                   </div>
                   <header className="fancy-title">
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Vinted Clone is a complete white-label solution for establishing an online marketplace where users can buy, sell, and swap secondhand clothes, shoes, and accessories. It allows users to create profiles, list products, browse listings, connect with other buyers or sellers, and complete the process.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>Empower your business with complete control, scalable performance, and a growth-ready marketplace solution.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>A Vinted Clone is a customizable marketplace solution that lets users list, discover, buy, and sell pre-owned fashion items all in one digital space. Users can set up profiles, upload products, add images and descriptions, set prices, chat privately, make offers, complete purchases, track deliveries, and leave reviews on completed transactions.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>This platform can be tailored for:</span></p>
+                      <ul className="clonescript-simple-list" style={{ '--clonescript-list-columns': 2, margin: '12px 0' }}>
+                        {tailoredFor.map((item, i) => (
+                          <li key={i}><i className="fa fa-solid fa-check" aria-hidden="true"></i><span>{item}</span></li>
+                        ))}
+                      </ul>
+                      <p><span style={{ fontWeight: 400 }}>CloneScript’s Vinted Clone empowers both startups and established businesses to kickstart a branded resale marketplace without the hassle of building every feature from scratch.</span></p>
                       <p>
                         <i className="fa-solid fa-key" style={{ color: '#f59e0b', padding: 8, borderRadius: '50%', marginTop: 6 }}></i>Complete <span style={{ color: '#f59e0b', fontWeight: 'bold' }}> Control</span>
                         <br />

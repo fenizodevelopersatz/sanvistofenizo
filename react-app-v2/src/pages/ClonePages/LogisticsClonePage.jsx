@@ -199,7 +199,7 @@ export default function LogisticsClonePage() {
           heading="Revenue Opportunities for Logistics Platform Owners"
           subheading="The logistics system can support several monetization models for building a sustainable transport business."
           items={revenueBenefits}
-          image="/wp-content/uploads/2026/04/revenue_benefits.png"
+          image="/wp-content/uploads/2026/04/revenue_benefits.webp"
         />
 
         <SimpleListSection

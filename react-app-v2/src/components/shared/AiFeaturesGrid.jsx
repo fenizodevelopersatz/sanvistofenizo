@@ -1,4 +1,5 @@
 import Reveal from './Reveal.jsx'
+import './AiFeaturesGrid.css'
 
 const CARD_STYLE = {
   padding: 25,
@@ -7,7 +8,7 @@ const CARD_STYLE = {
   border: '1px solid #002692',
 }
 
-export default function AiFeaturesGrid({ items, heading = 'AI-Powered Capabilities', columns = 3 }) {
+export default function AiFeaturesGrid({ items, heading = 'AI-Powered Capabilities', desc, columns = 3 }) {
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
       <div className="ld-container container">
@@ -21,6 +22,11 @@ export default function AiFeaturesGrid({ items, heading = 'AI-Powered Capabiliti
                       <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
                         <span className="ld-fh-txt"> {heading}</span>
                       </h2>
+                      {desc && (
+                        <div className="st-desc">
+                          <p style={{ textAlign: 'center' }}>{desc}</p>
+                        </div>
+                      )}
                     </header>
                   </Reveal>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
@@ -30,7 +36,7 @@ export default function AiFeaturesGrid({ items, heading = 'AI-Powered Capabiliti
           </div>
         </div>
 
-        <div className="row ld-row">
+        <div className="row ld-row ai-features-grid__row" style={{ gridTemplateColumns: `repeat(${columns}, 1fr)` }}>
           {items.map((f, i) => (
             <div className={`wpb_column vc_column_container vc_col-sm-${12 / columns}`} key={i}>
               <div className="vc_column-inner">

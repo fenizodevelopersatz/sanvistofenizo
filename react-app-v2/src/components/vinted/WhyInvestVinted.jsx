@@ -1,3 +1,14 @@
+const keyBusinessBenefits = [
+  'Get up and running quickly with a customizable marketplace foundation',
+  'Build a recognizable fashion resale brand',
+  'Cater to both buyers and sellers on a single platform',
+  'Generate revenue through commissions, subscriptions, and promotions',
+  'Foster a local or global resale community',
+  'Monitor product demand and customer behavior',
+  'Expand into new categories as your business evolves',
+  'Promote more sustainable product reuse',
+]
+
 export default function WhyInvestVinted() {
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox vc_row-o-content-middle vc_row-flex">
@@ -8,21 +19,28 @@ export default function WhyInvestVinted() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h2>Why a Vinted Clone App is Worth Investing In?</h2>
+                    <h2>Why You Should Consider a Vinted Clone Platform</h2>
                     <div className="st-desc">
                       <p>
                         <span style={{ fontWeight: 400 }}>
-                          In this modern world, the second-hand marketplace and resale market is increasingly doing well, as
-                          buyers and sellers are increasingly buying, selling or exchanging used goods or products online. By
-                          investing in a Vinted Clone app, you have an opportunity to capitalise on this growth with a scalable
-                          business model of classifieds. This helps you get to market quickly, generate a consistent revenue
-                          stream and have a high level of user activity in both the local and global marketplace.
+                          The online resale model offers customers a hassle-free way to find great deals while allowing
+                          sellers to give their items a second life.
                         </span>
                       </p>
                       <p>
-                        <i className="fa-solid fa-caret-right" style={{ color: '#002692' }}></i> Easy and fast set up with a highly customizable and scalable solution for quick return on investment.
-                        <br />
-                        <i className="fa-solid fa-caret-right" style={{ color: '#002692' }}></i> Various marketing options with ads, premium discounts and visibility features.
+                        <span style={{ fontWeight: 400 }}>
+                          Having a dedicated marketplace empowers your business to manage its audience, branding, user
+                          experience, marketplace policies, product categories, seller guidelines, and revenue strategies.
+                        </span>
+                      </p>
+                      <p>
+                        <span style={{ fontWeight: 400 }}>Key Business Benefits:</span>
+                        {keyBusinessBenefits.map((point, i) => (
+                          <span key={i}>
+                            <br />
+                            <i className="fa-solid fa-caret-right" style={{ color: '#002692' }}></i> {point}
+                          </span>
+                        ))}
                       </p>
                     </div>
                   </header>

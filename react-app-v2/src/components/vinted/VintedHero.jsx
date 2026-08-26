@@ -1,10 +1,20 @@
 import TextRotator from '../shared/TextRotator.jsx'
+import '../shared/SimpleListSection.css'
 
 const rotatingKeywords = [
   { text: 'Modern UI/UX', color: 'rgb(255, 87, 87)' },
   { text: 'Secure Platform', color: 'rgb(87, 161, 255)' },
   { text: 'Fast Performance', color: 'rgb(0, 214, 53)' },
   { text: '100 % Customizable', color: 'rgb(210, 71, 204)' },
+]
+
+const heroHighlights = [
+  'Secure marketplace architecture',
+  'Quick product discovery',
+  'Tailored business workflows',
+  'Dashboards for buyers, sellers, and administrators',
+  'A scalable web and mobile platform',
+  'Access to source code based on your chosen license',
 ]
 
 export default function VintedHero() {
@@ -33,13 +43,13 @@ export default function VintedHero() {
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <div className="ld-fancy-heading text-center">
                     <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> <span style={{ color: '#002692' }}>Vinted Clone</span> 100% White Lable Solution</span>
+                      <span className="ld-fh-txt"> <span style={{ color: '#002692' }}>Vinted Clone Script</span> for a Scalable Fashion Resale Marketplace</span>
                     </h1>
                   </div>
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
                       <p style={{ textAlign: 'center' }}>
-                        <span style={{ fontWeight: 400 }}>Vinted clone script provides you with everything you need to launch a thriving second-hand marketplace app, and comes with features like Vinted.</span>
+                        <span style={{ fontWeight: 400 }}>Create a trendy online marketplace where users can effortlessly buy and sell pre-loved clothing, shoes, bags, accessories, and more. With CloneScript’s Vinted Clone, you’ll have all the essential tech to handle product listings, manage buyer and seller accounts, process payments, oversee shipping, facilitate private chats, handle offers, track orders, manage refunds, and administer the marketplace.</span>
                       </p>
                     </div>
                   </div>
@@ -52,16 +62,21 @@ export default function VintedHero() {
                       </span>
                     </h4>
                   </div>
+                  <ul className="clonescript-simple-list vinted-hero-list" style={{ '--clonescript-list-columns': 2 }}>
+                    {heroHighlights.map((item, i) => (
+                      <li key={i}><i className="fa fa-solid fa-check" aria-hidden="true"></i><span>{item}</span></li>
+                    ))}
+                  </ul>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <a href="#demo" className="btn btn-solid btn-sm round btn-bordered border-thin vinted-hero-primary-cta" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">Live Demo</span>
+                      <span className="btn-txt">Request a Live Demo</span>
                       <span className="btn-icon"><i className="fa fa-regular fa-eye"></i></span>
                     </span>
                   </a>
                   <a href="#prices" className="btn btn-default btn-sm round btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">View Prices</span>
+                      <span className="btn-txt">Get a Custom Quote</span>
                       <span className="btn-icon"><i className="fa fa-solid fa-dollar-sign"></i></span>
                     </span>
                   </a>

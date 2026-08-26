@@ -6,8 +6,9 @@ import { siteContact } from '../../data/siteContact.js'
 import { comparisonLabels } from '../../data/comparisonLabels.js'
 import { placeholderTestimonials } from '../../data/placeholderTestimonials.js'
 import {
-  aiFeatures, comparisonOurs, comparisonOthers, roleTabs, techStack,
-  standOutFeatures, revenueBenefits, launchSteps, pricingPlans, customerReviews,
+  aiFeatures, comparisonOurs, comparisonOthers, buyerFeatures, sellerFeatures, adminFeatures,
+  additionalCapabilities, techStack, standOutFeatures, launchSteps, revenueBenefits,
+  additionalRevenueModels, packageInclusions, pricingPlans, customerReviews,
 } from '../../data/vinted/vintedData.js'
 
 import VintedHero from '../../components/vinted/VintedHero.jsx'
@@ -20,14 +21,15 @@ import WhyInvestVinted from '../../components/vinted/WhyInvestVinted.jsx'
 import AiFeaturesGrid from '../../components/shared/AiFeaturesGrid.jsx'
 import ComparisonTable from '../../components/shared/ComparisonTable.jsx'
 import PdfDownloadCta from '../../components/shared/PdfDownloadCta.jsx'
-import RoleFeatureTabs from '../../components/shared/RoleFeatureTabs.jsx'
 import TechStackRow from '../../components/shared/TechStackRow.jsx'
 import StandOutFeaturesGrid from '../../components/shared/StandOutFeaturesGrid.jsx'
 import ProcessSteps from '../../components/shared/ProcessSteps.jsx'
 import RevenueBenefits from '../../components/shared/RevenueBenefits.jsx'
+import SimpleListSection from '../../components/shared/SimpleListSection.jsx'
 import LiveDemoTabs from '../../components/shared/LiveDemoTabs.jsx'
 import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
+import LaunchCta from '../../components/shared/LaunchCta.jsx'
 import FaqServerTabs from '../../components/vinted/FaqServerTabs.jsx'
 import BlogTeaser from '../../components/shared/BlogTeaser.jsx'
 import ReviewCards from '../../components/shared/ReviewCards.jsx'
@@ -35,22 +37,28 @@ import TestimonialRotatorSection from '../../components/footer/TestimonialRotato
 import './VintedClonePage.css'
 
 const dashboards = [
-  { label: 'User/Seller Dashboard', email: 'buyer@email.com', password: '12345678', url: siteContact.cloneDemoUrl },
-  { label: 'Admin Dashboard', email: 'admin@gmail.com', password: '12345678', url: siteContact.cloneDemoUrl },
+  { label: 'User/Buyer Dashboard', email: 'buyer@email.com', password: '12345678', url: siteContact.cloneDemoUrl },
+  { label: 'Seller Dashboard', email: 'seller@email.com', password: '12345678', url: siteContact.cloneDemoUrl },
+  { label: 'Administrator Dashboard', email: 'admin@gmail.com', password: '12345678', url: siteContact.cloneDemoUrl },
 ]
 
 const whyChoosePoints = [
-  ['Launch a fully customized ', 'Vinted-like app', ''],
-  ['Free installation and ', 'Setup Support.', ''],
-  ['Proven model for ', 'faster earnings.', ''],
-  ['Reliable Ongoing ', ' Customer Support.', ''],
+  ['', 'Business-Focused Customization', ': tailor categories, listing fields, seller rules, commissions, subscription plans, currencies, languages, and delivery methods.'],
+  ['', 'White-Label Branding', ': use your own business name, logo, colors, typography, banners, and email templates.'],
+  ['', 'Scalable Architecture', ': begin locally and expand into new cities, countries, categories, or mobile apps.'],
+  ['', 'Source-Code Access', ': granted based on your chosen license and agreement.'],
+  ['', 'Deployment Assistance', ': help setting up the approved package in your hosting environment.'],
+  ['', 'Post-Launch Support', ': configuration assistance, troubleshooting, maintenance, and future enhancements.'],
 ]
 
 export default function VintedClonePage() {
   const stylesReady = usePageStylesheets(pageStylesheets.vintedClone)
   const motionRef = useSectionMotion(stylesReady)
 
-  useSeo('Vinted Clone Script | Fashion Resale Marketplace App | CloneScript')
+  useSeo(
+    'Vinted Clone Script | Start Your Own Fashion Resale Marketplace',
+    'Kick off a thriving fashion resale marketplace with CloneScript’s Vinted Clone. Enjoy secure payments, smart search features, seller tools, AI capabilities, and full admin control.',
+  )
 
   return (
     <main className="content" id="content">
@@ -92,9 +100,9 @@ export default function VintedClonePage() {
 
         <section className="vinted-overview-group vc_section">
           <WhyChooseChecklist
-            heading="Why"
-            accentWord="Choose Us?"
-            desc="Take your online classified marketplace to success with our ready-to-launch and feature-packed Vinted Clone App."
+            heading="Why Choose"
+            accentWord="CloneScript?"
+            desc="CloneScript offers a versatile marketplace foundation that you can tailor to fit your audience, categories, operating model, preferred revenue streams, and target locations."
             points={whyChoosePoints}
             image="/wp-content/uploads/2025/02/why-choose-us-vinted-clone.png"
             imageAlt="CloneScript team member"
@@ -102,19 +110,50 @@ export default function VintedClonePage() {
 
           <VintedIntroBanner />
           <WhyInvestVinted />
-          <AiFeaturesGrid items={aiFeatures} columns={2} />
+          <AiFeaturesGrid
+            items={aiFeatures}
+            heading="AI Features in the Vinted Clone"
+            desc="AI-driven features can enhance product discovery, minimize manual tasks, and elevate the quality of marketplace listings."
+            columns={2}
+          />
           <ComparisonTable labels={comparisonLabels} ours={comparisonOurs} others={comparisonOthers} cloneName="Vinted Clone" />
         </section>
         <PdfDownloadCta
-          heading="Explore the Full Capabilities of Our Vinted Clone"
-          desc="Take a closer look at the features designed to support smooth operations, strong user engagement, and steady business growth. Get the complete product feature details to understand how the platform works."
+          heading="Explore the Complete Vinted Clone Features"
+          desc="Dive into the features crafted to enhance product discovery, ensure secure transactions, streamline seller operations, boost user engagement, and foster marketplace growth."
           image="/wp-content/uploads/2026/04/vinted-document.webp"
           imageAlt="Vinted clone features document"
         />
 
-        <RoleFeatureTabs heading="Essential Features of Our Vinted Marketplace Software" roles={roleTabs} />
+        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+          <div className="ld-container container">
+            <div className="row ld-row">
+              <div className="wpb_column vc_column_container vc_col-sm-12">
+                <div className="vc_column-inner">
+                  <div className="wpb_wrapper">
+                    <div className="wpb_wrapper-inner">
+                      <header className="fancy-title text-center">
+                        <h2>Essential Features of the Vinted Clone</h2>
+                      </header>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-        <TechStackRow items={techStack} heading="Technology We Use" />
+        <StandOutFeaturesGrid heading="Buyer Features" subheading="Everything users need to search, discover, negotiate, and complete purchases with confidence." items={buyerFeatures} />
+        <StandOutFeaturesGrid heading="Seller Features" subheading="The tools sellers need to list products, manage orders, and grow their marketplace earnings." items={sellerFeatures} />
+        <StandOutFeaturesGrid heading="Administrator Features" subheading="Complete control over users, listings, categories, commissions, payments, and marketplace content." items={adminFeatures} />
+
+        <StandOutFeaturesGrid
+          heading="Additional Fashion Marketplace Capabilities"
+          subheading="Extend the marketplace with capabilities tailored to resale, fashion, and lifestyle categories."
+          items={additionalCapabilities}
+        />
+
+        <TechStackRow items={techStack} heading="Technology Used for the Vinted Clone" />
 
         <section className="vinted-live-demo-cta vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
           <div className="ld-container container">
@@ -127,17 +166,17 @@ export default function VintedClonePage() {
                         <h2 className="lqd-highlight-underline lqd-highlight-grow-left"><span className="ld-fh-txt"> Book a Live Demo</span></h2>
                       </div>
                       <header className="fancy-title">
-                        <h2>Take a Real-Time Walkthrough of Our Vinted Clone</h2>
+                        <h2>Experience the Vinted Clone in Real Time</h2>
                         <div className="st-desc">
                           <p style={{ textAlign: 'left' }}>
-                            <span style={{ fontWeight: 400 }}>Book a one-on-one session to go through the platform features, see how everything works step by step, and understand how it can fit your business needs.</span>
+                            <span style={{ fontWeight: 400 }}>Schedule a personalized demonstration to dive into product listings, search features, wishlists, private chat, offers, payments, shipping, seller operations, administration, and how to monetize your marketplace. Let us know your target audience, product categories, preferred locations, and revenue model so the CloneScript team can tailor the platform walkthrough just for you.</span>
                           </p>
                         </div>
                       </header>
                       <a href="#schedule_form" className="btn btn-solid btn-sm round btn-bordered border-thin btn-gradient">
                         <span>
                           <span className="btn-gradient-bg"></span>
-                          <span className="btn-txt">Book Demo</span>
+                          <span className="btn-txt">Schedule Your Vinted Clone Demo</span>
                           <span className="btn-icon"><i className="fa fa-solid fa-calendar"></i></span>
                         </span>
                       </a>
@@ -168,8 +207,8 @@ export default function VintedClonePage() {
         </section>
 
         <StandOutFeaturesGrid
-          heading="Why Our Vinted Clone Stands Out?"
-          subheading="Our platform helps businesses stay organized by keeping key operations connected and easy to manage."
+          heading="Why Does Our Vinted Clone Stand Out?"
+          subheading="A powerful marketplace engine that manages everything from buyers and sellers to listings, conversations, orders, payments, shipping, disputes, and revenue."
           items={standOutFeatures}
         />
 
@@ -181,7 +220,7 @@ export default function VintedClonePage() {
                   <div className="wpb_wrapper">
                     <div className="wpb_wrapper-inner">
                       <header className="fancy-title text-center">
-                        <h2>Get All These Supports — Absolutely Free</h2>
+                        <h2>Launch Support for Your Marketplace</h2>
                       </header>
                     </div>
                   </div>
@@ -193,17 +232,88 @@ export default function VintedClonePage() {
         <ProcessSteps steps={launchSteps} />
 
         <RevenueBenefits
+          heading="Revenue Models for the Vinted Clone"
           items={revenueBenefits}
-          image="/wp-content/revenue_benefits.png"
-          subheading="Boost your revenue with earning features designed to support business growth."
+          image="/wp-content/uploads/2026/04/revenue_benefits.webp"
+          subheading="Explore the earning models CloneScript's Vinted Clone supports to help build a sustainable resale business."
+        />
+
+        <SimpleListSection
+          heading="More Ways to Earn"
+          intro="Additional revenue models to consider:"
+          items={additionalRevenueModels}
         />
 
         <LiveDemoTabs dashboards={dashboards} />
 
+        <SimpleListSection
+          heading="Vinted Clone Pricing"
+          intro="When it comes to the cost of a Vinted Clone, several factors come into play, including the type of license you choose, the features you need, any customization, mobile apps, integrations, deployment, and the support plan you opt for. Your quote may cover:"
+          items={packageInclusions}
+          columns={3}
+        />
+
         <PricingPlans plans={pricingPlans} />
         <MoneyBackGuarantee />
 
+        <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+          <div className="ld-container container">
+            <div className="row ld-row">
+              <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1 text-center">
+                <div className="vc_column-inner">
+                  <div className="wpb_wrapper">
+                    <div className="wpb_wrapper-inner">
+                      <header className="fancy-title text-center">
+                        <h2>Quality and Delivery Commitment</h2>
+                        <div className="st-desc">
+                          <p style={{ textAlign: 'center' }}>
+                            At CloneScript, we pride ourselves on a well-organized delivery process that includes
+                            confirming requirements, configuring the marketplace, customizing features, testing,
+                            preparing for deployment, and finally, handing everything over to you.
+                          </p>
+                          <p style={{ textAlign: 'center', fontSize: 13, color: '#666' }}>
+                            Any guarantees regarding refunds, warranties, delivery times, unlimited updates, or support
+                            should only be shared when they align with CloneScript&rsquo;s approved commercial terms and
+                            the signed agreement.
+                          </p>
+                        </div>
+                      </header>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <FaqServerTabs />
+
+        <LaunchCta
+          heading="Create Your Own Vinted Clone with CloneScript"
+          desc="Build a platform where users can find stylish, budget-friendly fashion, list their gently used items, chat securely, make transactions, and foster a trustworthy resale community. Share details about your target audience, the product categories you want, the features you need, any integrations you have in mind, your preferred revenue model, and your anticipated launch timeline with CloneScript."
+        />
+
+        <section className="vc_row wpb_row vc_row-fluid">
+          <div className="ld-container container">
+            <div className="row ld-row">
+              <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1 text-center">
+                <div className="vc_column-inner">
+                  <div className="wpb_wrapper">
+                    <div className="wpb_wrapper-inner">
+                      <p style={{ fontSize: 12, color: '#888', lineHeight: 1.6 }}>
+                        <strong>Trademark Disclaimer:</strong> Vinted is a trademark owned by its respective entity.
+                        CloneScript is not associated with, endorsed by, or sponsored by Vinted. The term &ldquo;Vinted
+                        Clone&rdquo; is used to describe a customizable solution for a fashion resale marketplace that
+                        offers similar functionalities. Please refrain from copying Vinted&rsquo;s branding, copyrighted
+                        materials, proprietary content, or protected interface elements.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
 

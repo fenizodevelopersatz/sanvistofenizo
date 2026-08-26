@@ -271,7 +271,7 @@ export default function AlibabaClonePage() {
           heading="Revenue Opportunities for B2B Marketplace Owners"
           subheading="The platform supports several monetization options that can help create a sustainable marketplace business."
           items={revenueBenefits}
-          image="/wp-content/uploads/2026/04/revenue_benefits.png"
+          image="/wp-content/uploads/2026/04/revenue_benefits.webp"
         />
 
         <SimpleListSection
