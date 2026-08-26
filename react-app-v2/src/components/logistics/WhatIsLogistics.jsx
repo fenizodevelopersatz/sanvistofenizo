@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom'
+import './WhatIsLogistics.css'
+
 export default function WhatIsLogistics() {
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox vc_row-o-content-middle vc_row-flex">
@@ -10,17 +13,25 @@ export default function WhatIsLogistics() {
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <div className="ld-fancy-heading text-center">
                     <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> What is the <span style={{ color: '#002692' }}>Logistics Service App?</span></span>
+                      <span className="ld-fh-txt"> What Is an <span style={{ color: '#002692' }}>On-Demand Logistics Service App?</span></span>
                     </h2>
                   </div>
                   <header className="fancy-title text-center">
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Logistics Service App is a ready-to-launch delivery management software that digitizes order dispatch, rider assignment, live GPS tracking, and warehouse handoffs for courier companies, last-mile delivery startups, and fleet operators — replacing spreadsheets and phone calls with one connected system.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>It brings dispatchers, riders, warehouse staff, and customers onto a single platform with role-based dashboards, so every stakeholder sees exactly what they need — from pickup confirmation to proof of delivery.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>An On-Demand Logistics Service App is a ready-made software solution for launching and managing digital transport or delivery services. It replaces manual phone-based booking and dispatch processes with a connected system for customers, drivers, vehicles, payments, and business administrators.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>The platform can manage the complete delivery journey, beginning with customer booking and driver assignment and continuing through pickup, GPS tracking, payment, and proof of delivery.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Using a customizable foundation can help businesses launch faster while adapting the system to their own vehicle categories, service areas, pricing model, and operational requirements.</span></p>
                     </div>
                   </header>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
-                  <div className="row ld-row" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px 20px' }}>
+                  <Link to="/contact-us" className="btn btn-solid btn-sm round btn-bordered border-thin">
+                    <span>
+                      <span className="btn-txt">Schedule a Consultation</span>
+                      <span className="btn-icon"><i className="fa fa-solid fa-calendar-check"></i></span>
+                    </span>
+                  </Link>
+                  <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
+                  <div className="row ld-row what-is-logistics-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px 20px' }}>
                     <div className="iconbox iconbox-inline iconbox-square text-center">
                       <div className="iconbox-icon-wrap"><span className="iconbox-icon-container" style={{ color: '#f59e0b' }}><i className="fa-solid fa-route"></i></span></div>
                       <h3 className="font-weight-normal">Optimized Routes</h3>

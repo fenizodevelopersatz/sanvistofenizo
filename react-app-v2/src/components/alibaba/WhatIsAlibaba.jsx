@@ -10,13 +10,14 @@ export default function WhatIsAlibaba() {
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <div className="ld-fancy-heading text-left">
                     <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> What is <span style={{ color: '#002692' }}>Alibaba Clone?</span></span>
+                      <span className="ld-fh-txt"> What Is an <span style={{ color: '#002692' }}>Alibaba Clone Script?</span></span>
                     </h2>
                   </div>
                   <header className="fancy-title">
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Alibaba Clone is a B2B eCommerce Software solution to take your online ecommerce business up a level in an effective way in a short span of time and at a low-cost. Start own Alibaba script to boost business to the next level.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>Alibaba Clone is a comprehensive B2B marketplace solution that brings together suppliers and buyers in one place. It includes product management, RFQ support, secure payments, and vendor dashboards that enable you to effectively launch and build your online marketplace.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>An Alibaba Clone Script is a ready-made software foundation for building a multi-vendor B2B ecommerce marketplace. It enables suppliers to showcase wholesale products while helping professional buyers find suitable vendors, request quotations, communicate, and place bulk orders.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>The platform includes tools for supplier onboarding, product catalogues, RFQ processing, subscriptions, payments, commissions, shipping, and administrative control. Businesses can customize the design and functionality according to their industry, target audience, and revenue model.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Explore how buyers search for products, how suppliers respond to business enquiries, and how administrators control marketplace operations.</span></p>
                       <p>
                         <i className="fa-solid fa-key" style={{ color: '#f59e0b', padding: 8, borderRadius: '50%', marginTop: 6 }}></i>Full <span style={{ color: '#f59e0b', fontWeight: 'bold' }}> Control</span>
                         <br />

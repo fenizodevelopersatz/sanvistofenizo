@@ -199,6 +199,20 @@ textarea { font: inherit; }
   box-shadow: 0 20px 44px -18px rgba(16, 27, 72, 0.35);
 }
 
+/* This bordered/shadowed panel had no section-level padding, so it touched
+   whatever came directly before/after it -- same missing-breathing-room
+   pattern fixed for the other boxed sections (ComparisonTable, PdfDownloadCta,
+   alibaba-live-demo-cta). */
+.money-back-section {
+  padding: 48px 0;
+}
+
+@media (max-width: 767px) {
+  .money-back-section {
+    padding: 32px 0;
+  }
+}
+
 .money-back-panel {
   display: flex;
   align-items: center;

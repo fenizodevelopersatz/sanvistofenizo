@@ -50,7 +50,7 @@ export default function DashboardScreenshots() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <div className="lqd-mockup-device lqd-mockup-imac-style-1 pos-rel erp-dashboard-mockup">
-                    <img src="/wp-content/themes/ave/assets/img/mockups/imac/mockup-1.png" alt="iMac" style={{ width: '100%', display: 'block' }} loading="lazy" decoding="async" />
+                    <img src="/wp-content/themes/ave/assets/img/mockups/imac/mockup-1.png" alt="iMac" width="3888" height="3218" style={{ width: '100%', height: 'auto', display: 'block' }} loading="lazy" decoding="async" />
                     <div style={{ position: 'absolute', top: '4.97%', left: '3.81%', width: '92.36%', height: '62.62%', overflow: 'hidden', containerType: 'inline-size' }}>
                       {dashboardScreenshots[active].type === '3d' ? (
                         <Dashboard3DPreview />

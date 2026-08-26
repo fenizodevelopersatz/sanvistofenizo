@@ -12,12 +12,12 @@ function FaqPanel() {
           <div className="wpb_wrapper">
             <div className="wpb_wrapper-inner">
               <header className="fancy-title">
-                <p>Queries &amp; Solutions</p>
-                <h3>Have Doubts? Get Answers Right Here</h3>
+                <p>Alibaba Clone FAQ</p>
+                <h3>Alibaba Clone Frequently Asked Questions</h3>
               </header>
               <header className="fancy-title">
-                <p>Alibaba Clone FAQ</p>
-                <h3>Clear all your doubts about our B2B Alibaba Clone Script with our extensive FAQ section</h3>
+                <p>Find Answers to Common Marketplace Questions</p>
+                <h3>Understand marketplace functionality, ownership, source-code access, licensing, customization, and technical support.</h3>
               </header>
               <Link to="/contact-us" target="_blank" className="btn btn-solid text-uppercase circle btn-bordered border-thin">
                 <span><span className="btn-txt">Contact</span></span>
@@ -75,16 +75,11 @@ function ServerPanel() {
             <div className="wpb_wrapper-inner">
               <div className="wpb_text_column wpb_content_element">
                 <div className="wpb_wrapper">
-                  <p><strong>Server Requirements:</strong></p>
-                  <p><strong>VPS Server:</strong></p>
+                  <p><strong>Alibaba Clone Server Requirements:</strong></p>
+                  <p>{serverRequirements.intro}</p>
+                  <p>The final configuration should be determined according to:</p>
                   <ul>
-                    {serverRequirements.vpsServer.map((r) => (
-                      <li key={r}>{r}</li>
-                    ))}
-                  </ul>
-                  <p><strong>Database:</strong></p>
-                  <ul>
-                    {serverRequirements.database.map((r) => (
+                    {serverRequirements.configFactors.map((r) => (
                       <li key={r}>{r}</li>
                     ))}
                   </ul>

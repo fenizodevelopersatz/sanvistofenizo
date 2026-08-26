@@ -20,9 +20,9 @@ export default function LogisticsHero() {
                   <div className="ld-fancy-heading text-center">
                     <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
                       <span className="ld-fh-txt">
-                        <span style={{ color: '#002692' }}>Logistics Service App</span>
+                        <span style={{ color: '#002692' }}>On-Demand Logistics Service App</span>
                         <br />
-                        <span className="hero-heading">Launch Your Own Delivery & Courier Platform!</span>
+                        <span className="hero-heading">for Modern Delivery Businesses</span>
                         <br />
                       </span>
                     </h1>
@@ -30,7 +30,7 @@ export default function LogisticsHero() {
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
                       <p style={{ textAlign: 'center' }}>
-                        <span style={{ fontWeight: 400 }}>Logistics Service App is a ready-to-launch delivery platform that connects customers, riders, and warehouses with real-time tracking, smart dispatch, and route optimization.</span>
+                        <span style={{ fontWeight: 400 }}>Launch a digital logistics platform that connects customers with drivers, couriers, and transport providers. The solution supports parcel delivery, freight booking, commercial goods transportation, truck rental, home relocation, and scheduled delivery services.</span>
                       </p>
                     </div>
                   </div>
@@ -43,17 +43,24 @@ export default function LogisticsHero() {
                       </span>
                     </h4>
                   </div>
+                  <div className="wpb_text_column wpb_content_element">
+                    <div className="wpb_wrapper">
+                      <p style={{ textAlign: 'center' }}>
+                        <span style={{ fontWeight: 400 }}>Customers can request a vehicle, receive a fare estimate, track their delivery, and complete payments through the application. Drivers can accept suitable jobs, follow navigation, update trip status, and monitor earnings, while administrators manage the entire logistics network.</span>
+                      </p>
+                    </div>
+                  </div>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
-                  <a href="#prices" className="btn btn-solid btn-sm round btn-bordered border-thin" data-localscroll="true">
+                  <a href="/schedule-free-demo" className="btn btn-solid btn-sm round btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">View Prices</span>
-                      <span className="btn-icon"><i className="fa fa-solid fa-dollar-sign"></i></span>
+                      <span className="btn-txt">Explore Live Demo</span>
+                      <span className="btn-icon"><i className="fa fa-regular fa-eye"></i></span>
                     </span>
                   </a>
-                  <a href="/schedule-free-demo" className="btn btn-default btn-sm round btn-bordered border-thin">
+                  <a href="#prices" className="btn btn-default btn-sm round btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">Schedule Demo</span>
-                      <span className="btn-icon"><i className="fa fa-regular fa-calendar"></i></span>
+                      <span className="btn-txt">View Packages</span>
+                      <span className="btn-icon"><i className="fa fa-solid fa-dollar-sign"></i></span>
                     </span>
                   </a>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>

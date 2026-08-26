@@ -28,7 +28,7 @@ export default function SimpleIconGrid({ items, title, desc, columns = 3, iconCo
       )}
 
       <div className="ld-container container">
-        <div className="row ld-row" style={{ display: 'grid', gridTemplateColumns: `repeat(${columns}, 1fr)`, gap: '10px 20px' }}>
+        <div className="row ld-row simple-icon-grid__row" style={{ display: 'grid', gridTemplateColumns: `repeat(${columns}, 1fr)`, gap: '10px 20px' }}>
           {items.map((item, i) => (
             <div className="iconbox iconbox-inline iconbox-square" key={i} style={{ color: iconColor }}>
               <div className="iconbox-icon-wrap">

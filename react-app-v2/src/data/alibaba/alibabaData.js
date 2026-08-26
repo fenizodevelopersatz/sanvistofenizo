@@ -1,10 +1,10 @@
 export const aiFeatures = [
-  { image: '/wp-content/uploads/2026/06/ai-search-history.webp', title: 'AI Search History', desc: 'Easily revisit your previous AI searches whenever you need.' },
-  { image: '/wp-content/uploads/2026/06/ai-chatbot.webp', title: 'AI Chatbot', desc: 'Provide instant support and help users find answers quickly.' },
-  { image: '/wp-content/uploads/2026/06/ai-query-summary.webp', title: 'AI Query Summary', desc: 'View quick summaries of sourcing searches and inquiries.' },
-  { image: '/wp-content/uploads/2026/06/ai-rfq-assistant.webp', title: 'AI RFQ Assistant', desc: 'Get help creating clear and professional RFQ requests in less time.' },
-  { image: '/wp-content/uploads/2026/06/ai-market-insights.webp', title: 'AI Market Insights', desc: 'Access valuable market data to support smarter business decisions.' },
-  { image: '/wp-content/uploads/2026/06/ai-usage-tracking.webp', title: 'AI Usage Tracking', desc: 'Keep track of your available AI usage and activity limits.' },
+  { image: '/wp-content/uploads/2026/06/ai-search-history.webp', title: 'Previous AI Search Access', desc: 'Let buyers revisit earlier AI-assisted searches and continue their product research without repeating the same queries.' },
+  { image: '/wp-content/uploads/2026/06/ai-chatbot.webp', title: 'AI Customer Assistance', desc: 'Answer common marketplace questions instantly and guide users toward suitable products, suppliers, or platform tools.' },
+  { image: '/wp-content/uploads/2026/06/ai-query-summary.webp', title: 'Intelligent Enquiry Summaries', desc: 'Convert long sourcing requests and search results into short summaries that are easier to understand.' },
+  { image: '/wp-content/uploads/2026/06/ai-rfq-assistant.webp', title: 'Assisted RFQ Creation', desc: 'Guide buyers in preparing structured quotation requests containing product specifications, quantity, budget, and delivery expectations.' },
+  { image: '/wp-content/uploads/2026/06/ai-market-insights.webp', title: 'Market Intelligence', desc: 'Provide useful insights into product demand, sourcing behaviour, supplier activity, and pricing patterns.' },
+  { image: '/wp-content/uploads/2026/06/ai-usage-tracking.webp', title: 'AI Activity Monitoring', desc: 'Help users and administrators track AI usage, available allowances, and feature activity.' },
 ]
 
 export const roleTabs = {
@@ -12,97 +12,95 @@ export const roleTabs = {
     label: 'Buyer',
     icon: 'fas fa-user',
     tabs: [
-      { icon: 'fa fa-solid fa-magnifying-glass', title: 'Advanced Search', image: '/wp-content/uploads/2026/05/advanced-search.webp' },
-      { icon: 'fa fa-solid fa-boxes-stacked', title: 'Product Catalog', image: '/wp-content/uploads/2026/05/product-catalog.webp' },
-      { icon: 'fa fa-solid fa-comments', title: 'Live Chat', image: '/wp-content/uploads/2026/05/live-chat.webp' },
-      { icon: 'fa fa-solid fa-truck-fast', title: 'Order Tracking', image: '/wp-content/uploads/2026/05/order-tracking.webp' },
-      { icon: 'fa fa-solid fa-heart', title: 'Wishlist', image: '/wp-content/uploads/2026/05/Wishlist-1.webp' },
-      { icon: 'fa fa-solid fa-file-invoice', title: 'Order Invoices', image: '/wp-content/uploads/2026/06/order-invoice.webp' },
-      { icon: 'fa fa-solid fa-envelope-open-text', title: 'Inquiry Center', image: '/wp-content/uploads/2026/05/inquiry-center.webp' },
+      { icon: 'fa fa-solid fa-magnifying-glass', title: 'Filtered Product Discovery', image: '/wp-content/uploads/2026/05/advanced-search.webp', desc: 'Search for products according to category, supplier, price, minimum order quantity, location, specifications, and other relevant criteria.' },
+      { icon: 'fa fa-solid fa-boxes-stacked', title: 'Structured Product Catalogue', image: '/wp-content/uploads/2026/05/product-catalog.webp', desc: 'Explore products through organized categories containing images, descriptions, attributes, wholesale pricing, and supplier information.' },
+      { icon: 'fa fa-solid fa-comments', title: 'Direct Supplier Messaging', image: '/wp-content/uploads/2026/05/live-chat.webp', desc: 'Communicate with suppliers about product availability, pricing, quantity, customization, samples, and delivery conditions.' },
+      { icon: 'fa fa-solid fa-truck-fast', title: 'Purchase Status Visibility', image: '/wp-content/uploads/2026/05/order-tracking.webp', desc: 'Monitor orders as they progress through confirmation, preparation, dispatch, shipment, and delivery.' },
+      { icon: 'fa fa-solid fa-heart', title: 'Saved Product Collection', image: '/wp-content/uploads/2026/05/Wishlist-1.webp', desc: 'Bookmark suitable products and return to them later for comparison or future procurement.' },
+      { icon: 'fa fa-solid fa-file-invoice', title: 'Invoice Access', image: '/wp-content/uploads/2026/06/order-invoice.webp', desc: 'View and download invoices for pending, active, and completed business purchases.' },
+      { icon: 'fa fa-solid fa-envelope-open-text', title: 'Central Enquiry Management', image: '/wp-content/uploads/2026/05/inquiry-center.webp', desc: 'Submit product questions and manage supplier conversations from one sourcing dashboard.' },
     ],
   },
   supplier: {
     label: 'Supplier',
     icon: 'fas fa-user-tie',
     tabs: [
-      { icon: 'fa fa-solid fa-chart-line', title: 'Supplier Dashboard', image: '/wp-content/uploads/2026/06/supplier-dashboard.webp' },
-      { icon: 'fa fa-solid fa-building-user', title: 'Profile Management', image: '/wp-content/uploads/2026/06/profile-management.webp' },
-      { icon: 'fa fa-solid fa-box-open', title: 'Product Listings', image: '/wp-content/uploads/2026/06/product-listing.webp' },
-      { icon: 'fa fa-solid fa-file-signature', title: 'RFQ Marketplace', image: '/wp-content/uploads/2026/06/RFQ-Marketplace.webp' },
-      { icon: 'fa fa-solid fa-truck-fast', title: 'Order Tracking', image: '/wp-content/uploads/2026/06/order-tracking.webp' },
-      { icon: 'fa fa-regular fa-comments', title: 'Real-Time Chat', image: '/wp-content/uploads/2026/06/real-time-chat.webp' },
-      { icon: 'fa fa-solid fa-wallet', title: 'Earnings Wallet', image: '/wp-content/uploads/2026/06/earning-wallet.webp' },
+      { icon: 'fa fa-solid fa-chart-line', title: 'Supplier Business Dashboard', image: '/wp-content/uploads/2026/06/supplier-dashboard.webp', desc: 'Review product activity, enquiries, quotations, orders, earnings, and account performance from one workspace.' },
+      { icon: 'fa fa-solid fa-building-user', title: 'Company Profile Builder', image: '/wp-content/uploads/2026/06/profile-management.webp', desc: 'Present business information, contact details, certifications, capabilities, and credentials to establish buyer confidence.' },
+      { icon: 'fa fa-solid fa-box-open', title: 'Wholesale Product Management', image: '/wp-content/uploads/2026/06/product-listing.webp', desc: 'Publish and update products with photographs, specifications, pricing, available quantity, and minimum order requirements.' },
+      { icon: 'fa fa-solid fa-file-signature', title: 'Buyer RFQ Opportunities', image: '/wp-content/uploads/2026/06/RFQ-Marketplace.webp', desc: 'Access relevant requests for quotations and submit commercial offers to potential business customers.' },
+      { icon: 'fa fa-solid fa-truck-fast', title: 'Order Progress Management', image: '/wp-content/uploads/2026/06/order-tracking.webp', desc: 'Update each purchase stage and keep buyers informed from order confirmation through delivery.' },
+      { icon: 'fa fa-regular fa-comments', title: 'Buyer-Supplier Communication', image: '/wp-content/uploads/2026/06/real-time-chat.webp', desc: 'Clarify requirements, discuss prices, negotiate quantities, and communicate delivery expectations through real-time messaging.' },
+      { icon: 'fa fa-solid fa-wallet', title: 'Supplier Revenue Wallet', image: '/wp-content/uploads/2026/06/earning-wallet.webp', desc: 'Monitor transaction income, available balances, platform deductions, and payout requests.' },
     ],
   },
   admin: {
     label: 'Admin',
     icon: 'fas fa-user-shield',
     tabs: [
-      { icon: 'fa fa-solid fa-gauge', title: 'Admin Dashboard', image: '/wp-content/uploads/2026/05/admin-dashboard-1.webp' },
-      { icon: 'fa fa-solid fa-user-gear', title: 'User Management', image: '/wp-content/uploads/2026/05/user-management.webp' },
-      { icon: 'fa fa-solid fa-circle-check', title: 'Product Approval', image: '/wp-content/uploads/2026/05/product-approval.webp' },
-      { icon: 'fa fa-regular fa-folder-open', title: 'Category Management', image: '/wp-content/uploads/2026/05/category-management.webp' },
-      { icon: 'fa fa-solid fa-crown', title: 'Subscription Management', image: '/wp-content/uploads/2026/05/subscription-management.webp' },
-      { icon: 'fa fa-solid fa-credit-card', title: 'Payment Gateways', image: '/wp-content/uploads/2026/05/payment-gateways.webp' },
-      { icon: 'fa fa-solid fa-envelope-circle-check', title: 'Email Settings', image: '/wp-content/uploads/2026/05/email-settings.webp' },
+      { icon: 'fa fa-solid fa-gauge', title: 'Marketplace Control Dashboard', image: '/wp-content/uploads/2026/05/admin-dashboard-1.webp', desc: 'View buyer registrations, supplier activity, product listings, orders, transactions, RFQs, and revenue from one dashboard.' },
+      { icon: 'fa fa-solid fa-user-gear', title: 'Buyer and Supplier Administration', image: '/wp-content/uploads/2026/05/user-management.webp', desc: 'Review accounts, update user status, monitor behaviour, and handle account-related issues.' },
+      { icon: 'fa fa-solid fa-circle-check', title: 'Product Listing Moderation', image: '/wp-content/uploads/2026/05/product-approval.webp', desc: 'Check supplier product submissions before publication to maintain marketplace accuracy and quality.' },
+      { icon: 'fa fa-regular fa-folder-open', title: 'Category and Subcategory Control', image: '/wp-content/uploads/2026/05/category-management.webp', desc: 'Create a clear catalogue structure that helps buyers find relevant wholesale products.' },
+      { icon: 'fa fa-solid fa-crown', title: 'Supplier Membership Management', image: '/wp-content/uploads/2026/05/subscription-management.webp', desc: 'Configure paid plans with different pricing, product limits, visibility benefits, and renewal periods.' },
+      { icon: 'fa fa-solid fa-credit-card', title: 'Payment Method Configuration', image: '/wp-content/uploads/2026/05/payment-gateways.webp', desc: 'Integrate and manage secure payment options for buyers, suppliers, and marketplace transactions.' },
+      { icon: 'fa fa-solid fa-envelope-circle-check', title: 'Email Communication Settings', image: '/wp-content/uploads/2026/05/email-settings.webp', desc: 'Customize emails for registration, quotations, orders, payments, account updates, and other marketplace activities.' },
     ],
   },
 }
 
 export const techStack = [
-  { type: 'icon', icon: 'fa fa-brands fa-html5', color: 'rgb(227, 79, 38)', title: 'Html' },
-  { type: 'image', image: '/wp-content/uploads/2026/04/express.webp', color: 'rgb(239, 216, 29)', title: 'Express Js' },
-  { type: 'icon', icon: 'fa fa-brands fa-css', color: 'rgb(21, 114, 182)', title: 'Css' },
-  { type: 'image', image: '/wp-content/uploads/2026/04/mongodb.webp', color: 'rgb(71, 162, 72)', title: 'Mongodb' },
-  { type: 'icon', icon: 'fa fa-brands fa-react', color: 'rgb(97, 218, 251)', title: 'React Js' },
-  { type: 'image', image: '/wp-content/uploads/2026/06/socket-io.png', color: 'rgb(97, 218, 251)', title: 'Socket IO' },
-  { type: 'image', image: '/wp-content/uploads/2026/05/nextjs.webp', color: 'rgb(121, 82, 179)', title: 'Next Js' },
-  { type: 'icon', icon: 'fa fa-brands fa-node', color: 'rgb(104, 160, 99)', title: 'Node Js' },
-  { type: 'image', image: '/wp-content/uploads/2022/01/mysql-1.png', color: 'rgb(0, 95, 133)', title: 'MySQL' },
-  { type: 'icon', icon: 'fa fa-solid fa-database', color: 'rgb(51, 103, 145)', title: 'PostgreSQL' },
+  { type: 'icon', icon: 'fa fa-brands fa-html5', color: 'rgb(227, 79, 38)', title: 'HTML5' },
+  { type: 'icon', icon: 'fa fa-brands fa-css', color: 'rgb(21, 114, 182)', title: 'CSS' },
+  { type: 'icon', icon: 'fa fa-brands fa-react', color: 'rgb(97, 218, 251)', title: 'React.js' },
+  { type: 'image', image: '/wp-content/uploads/2026/05/nextjs.webp', color: 'rgb(121, 82, 179)', title: 'Next.js' },
+  { type: 'icon', icon: 'fa fa-brands fa-node', color: 'rgb(104, 160, 99)', title: 'Node.js' },
+  { type: 'image', image: '/wp-content/uploads/2026/04/express.webp', color: 'rgb(239, 216, 29)', title: 'Express.js' },
+  { type: 'image', image: '/wp-content/uploads/2026/04/mongodb.webp', color: 'rgb(71, 162, 72)', title: 'MongoDB' },
+  { type: 'image', image: '/wp-content/uploads/2026/06/socket-io.png', color: 'rgb(97, 218, 251)', title: 'Socket.IO' },
 ]
 
 export const standOutFeatures = [
-  { icon: 'fa fa-solid fa-user-shield', title: 'Role-Based Access Control', desc: 'Give the right access to the right people.' },
-  { icon: 'fa fa-solid fa-language', title: 'Multilingual Support', desc: 'Support multiple languages across the platform.' },
-  { icon: 'fa fa-solid fa-percent', title: 'Commission Settings', desc: 'Set how commissions are calculated across the marketplace.' },
-  { icon: 'fa fa-solid fa-star', title: 'Ratings & Reviews', desc: 'Let buyers share their experience and feedback.' },
-  { icon: 'fa fa-solid fa-right-to-bracket', title: 'Social Authentication', desc: 'Allow quick sign-in using popular social accounts.' },
-  { icon: 'fa fa-solid fa-truck', title: 'Shipping Management', desc: 'Handle delivery options and shipping charges with ease.' },
-  { icon: 'fa fa-solid fa-palette', title: 'Website Customization', desc: 'Make the platform match your brand identity.' },
-  { icon: 'fa fa-solid fa-money-bill-transfer', title: 'Multi-Currency Support', desc: 'Help users buy and sell in their preferred currency.' },
-  { icon: 'fa fa-solid fa-circle-check', title: 'Profile Verification', desc: 'Verify business profiles to build buyer confidence.' },
+  { icon: 'fa fa-solid fa-user-shield', title: 'Role-Based User Permissions', desc: 'Assign suitable access levels to buyers, suppliers, employees, managers, and marketplace administrators.' },
+  { icon: 'fa fa-solid fa-language', title: 'Multiple Language Support', desc: 'Make the platform accessible to users from different regions through supported interface languages.' },
+  { icon: 'fa fa-solid fa-percent', title: 'Configurable Commission Rules', desc: 'Set commissions according to transactions, product types, supplier plans, or marketplace policies.' },
+  { icon: 'fa fa-solid fa-star', title: 'Verified Ratings and Reviews', desc: 'Allow buyers to share feedback after eligible transactions and help other businesses evaluate suppliers.' },
+  { icon: 'fa fa-solid fa-right-to-bracket', title: 'Social Account Login', desc: 'Provide a faster registration or login experience using supported social platforms.' },
+  { icon: 'fa fa-solid fa-truck', title: 'Shipping and Delivery Configuration', desc: 'Manage shipping methods, service locations, charges, dispatch information, and fulfilment options.' },
+  { icon: 'fa fa-solid fa-palette', title: 'Complete Brand Personalization', desc: 'Customize colours, layouts, content, categories, pages, and interface elements to match your brand.' },
+  { icon: 'fa fa-solid fa-money-bill-transfer', title: 'Multi-Currency Commerce', desc: 'Allow users to view prices and complete supported transactions in different currencies.' },
+  { icon: 'fa fa-solid fa-circle-check', title: 'Supplier Verification', desc: 'Review company details, documents, certifications, and contact information before approving supplier profiles.' },
 ]
 
 export const launchSteps = [
-  { icon: 'icon-et-download', title: 'Platform Installation', desc: 'Receive complete installation assistance for a quick and hassle-free launch.' },
-  { icon: 'icon-ion-ios-color-wand', title: 'Brand Personalization', desc: 'Customize your marketplace logo, colors, and content to reflect your business identity.' },
-  { icon: 'icon-ion-ios-rocket', title: 'Launch Support', desc: 'Get expert assistance to help you launch and manage your marketplace successfully.' },
+  { icon: 'icon-et-download', title: 'Platform Installation', desc: 'Configure the marketplace within a suitable server environment and complete the technical setup.' },
+  { icon: 'icon-ion-ios-color-wand', title: 'Brand Implementation', desc: 'Apply your company logo, colours, content, navigation, and marketplace identity.' },
+  { icon: 'icon-ion-ios-rocket', title: 'Deployment Guidance', desc: 'Receive support for final configuration, quality testing, launch preparation, and early-stage platform operation.' },
 ]
 
 export const revenueBenefits = [
-  { icon: 'fa fa-solid fa-crown', title: 'Subscription Plans', desc: 'Offer premium plans to suppliers and create a steady source of recurring income.' },
-  { icon: 'fa fa-solid fa-percent', title: 'Platform Commission', desc: 'Earn a share from every successful order placed through your B2B platform.' },
-  { icon: 'fa fa-solid fa-gem', title: 'Premium Listings', desc: 'Generate additional revenue by offering premium listing placements to suppliers.' },
-  { icon: 'fa fa-solid fa-sack-dollar', title: 'Supplier Earnings', desc: 'Help suppliers monitor their sales and payouts from a single, easy-to-use dashboard.' },
+  { icon: 'fa fa-solid fa-crown', title: 'Supplier Membership Plans', desc: 'Offer paid packages with different product limits, promotional options, and marketplace privileges.' },
+  { icon: 'fa fa-solid fa-percent', title: 'Transaction-Based Commission', desc: 'Collect a fixed charge or percentage from successful marketplace orders.' },
+  { icon: 'fa fa-solid fa-gem', title: 'Premium Product Visibility', desc: 'Charge suppliers for highlighted product placements and priority positions.' },
+  { icon: 'fa fa-solid fa-sack-dollar', title: 'Supplier Earnings Dashboard', desc: 'Give vendors a clear view of sales, marketplace deductions, available balances, and payouts.' },
 ]
 
 export const addOnFeatures = [
-  ['fa fa-solid fa-shield-halved', 'Secure Login'],
-  ['fa fa-solid fa-ban', 'Spam Protection'],
-  ['fa fa-solid fa-key', 'OTP Verification'],
-  ['fa fa-solid fa-bell', 'Live Notifications'],
+  ['fa fa-solid fa-shield-halved', 'Protected User Authentication'],
+  ['fa fa-solid fa-ban', 'Spam and Abuse Prevention'],
+  ['fa fa-solid fa-key', 'OTP Identity Confirmation'],
+  ['fa fa-solid fa-bell', 'Real-Time Alerts'],
   ['fa fa-solid fa-money-bill-transfer', 'Currency Conversion'],
-  ['fa fa-solid fa-envelope-circle-check', 'SMTP Integration'],
-  ['fa fa-solid fa-file-arrow-down', 'Invoice Download'],
-  ['fa fa-solid fa-clock-rotate-left', 'Order Timeline'],
-  ['fa fa-solid fa-address-book', 'Address Book'],
-  ['fa fa-solid fa-wallet', 'Payout Management'],
-  ['fa fa-solid fa-receipt', 'Tax Management'],
-  ['fa fa-solid fa-truck-fast', 'Order Updates'],
-  ['fa fa-solid fa-list-check', 'Advanced Listings'],
-  ['fa fa-solid fa-file-signature', 'RFQ Management'],
-  ['fa fa-solid fa-paper-plane', 'Quote Submission'],
+  ['fa fa-solid fa-envelope-circle-check', 'SMTP Email Connectivity'],
+  ['fa fa-solid fa-file-arrow-down', 'Downloadable Transaction Invoices'],
+  ['fa fa-solid fa-clock-rotate-left', 'Order Progress Timeline'],
+  ['fa fa-solid fa-address-book', 'Multiple Saved Addresses'],
+  ['fa fa-solid fa-wallet', 'Supplier Payout Control'],
+  ['fa fa-solid fa-receipt', 'Marketplace Tax Settings'],
+  ['fa fa-solid fa-truck-fast', 'Automated Purchase Updates'],
+  ['fa fa-solid fa-list-check', 'Detailed Wholesale Listings'],
+  ['fa fa-solid fa-file-signature', 'RFQ Administration'],
+  ['fa fa-solid fa-paper-plane', 'Commercial Quote Submission'],
 ].map(([icon, title]) => ({ icon, title }))
 
 export const pricingPlans = [
@@ -139,18 +137,72 @@ export const comparisonOthers = [
 ]
 
 export const faqs = [
-  { q: 'What is Alibaba Clone?', a: 'Alibaba Clone is an ecommerce software solution which is already pre-built to let the ecommerce entrepreneurs build an Alibaba like B2B ecommerce platform. Start your Alibaba business with little or no investment and generate all kinds of profits.' },
-  { q: 'How to reach our support team?', a: 'Once you purchase our products, if you have any doubts or queries you can reach our support team via email to clarify your doubts.' },
-  { q: 'It is possible to claim full ownership of your clone script/themes once purchased?', a: 'Yes, once you purchase it, you will completely own your website.' },
-  { q: 'What is 100% source code?', a: 'You get the complete source code of your website so you can customize it based on your desired and business needs. The script/themes are not encrypted files.' },
-  { q: 'Can i resell the script/Theme from CloneScript?', a: 'No, Once you purchase an alibaba clone script or any themes from us, you don’t have to resell or distribute them. If you violate you are liable for illegal activities.' },
-  { q: 'How Single and Multi Domain Licence Differs?', a: 'A single-domain license allows usage for only one business on a single domain. For example, you can use it exclusively on mywebsite.com.' },
+  { q: 'What Is an Alibaba Clone Script?', a: 'It is a ready-made software foundation used to create an online B2B marketplace connecting suppliers with professional buyers.' },
+  { q: 'How Can I Receive Technical Support?', a: 'Customers can use the approved support channels provided under their service agreement for configuration and technical assistance.' },
+  { q: 'Will I Own the Marketplace After Purchase?', a: 'Platform ownership and usage rights depend on the licence and package selected. The terms should be reviewed before deployment.' },
+  { q: 'What Is Complete Source-Code Access?', a: 'It means authorized developers can review and customize the platform code within the permissions of the licence agreement.' },
+  { q: 'Can I Resell or Redistribute the Script?', a: 'Resale and redistribution are normally restricted unless the licensing agreement specifically provides written permission.' },
+  { q: 'How Do Single-Domain and Multi-Domain Licences Differ?', a: 'A single-domain licence allows the platform to operate on one approved domain. A multi-domain licence may permit deployment across several domains according to its conditions.' },
+  { q: 'Can Marketplace Features Be Customized?', a: 'Yes. User interfaces, product categories, payment options, commissions, subscriptions, languages, and marketplace workflows can be customized.' },
+  { q: 'Can the Platform Support International Trade?', a: 'Multi-language interfaces, currency options, international supplier profiles, shipping tools, and regional payment integrations can be added.' },
 ]
 
 export const serverRequirements = {
-  vpsServer: ['OS: Ubuntu 22.04 LTS', 'CPU: 2–4 Cores', 'RAM: 4–8 GB', 'Storage: 40+ GB SSD', 'Node.js: v18 or higher'],
-  database: ['MongoDB 5+'],
+  intro: 'The marketplace requires a suitable VPS or cloud environment with a supported Linux operating system, adequate processor capacity, sufficient memory, SSD storage, a compatible Node.js version, and MongoDB support.',
+  configFactors: [
+    'Expected buyer and supplier volume',
+    'Number of product listings',
+    'Daily marketplace traffic',
+    'Image and document storage',
+    'Real-time communication usage',
+    'Payment and shipping integrations',
+    'Expected order volume',
+    'Future expansion requirements',
+  ],
 }
+
+export const whyChooseSolutionPoints = [
+  'Ready-to-configure B2B marketplace foundation',
+  'Complete customization flexibility',
+  'Source-code access based on licensing terms',
+  'One-time ownership packages',
+  'Installation and deployment support',
+  'Scalable marketplace architecture',
+  'Buyer, supplier, and administrator dashboards',
+  'Ongoing technical assistance',
+]
+
+export const reliableApproachPoints = [
+  "Marketplace Model — Use a platform structure developed specifically for manufacturers, wholesalers, suppliers, distributors, and professional buyers.",
+  "Development Workflow — Follow a planned process covering requirements, customization, implementation, testing, deployment, and support.",
+  "Clear Project Pricing — Understand the cost of the platform, custom development, integrations, and additional services before implementation begins.",
+  "Defined Launch Schedule — Work with an agreed project timeline based on the selected features and customization requirements.",
+  "Flexible Ownership Options — Select a payment and licensing model that suits your marketplace plans and operational needs.",
+  "Technical Assistance — Receive help with platform configuration, troubleshooting, updates, and ongoing maintenance.",
+  "Deployment Support — Get assistance with server preparation, software installation, configuration, and initial launch.",
+  "Customization Access — Modify the platform's functionality and interface according to the permissions provided by the selected licence.",
+]
+
+export const additionalRevenueOpportunities = [
+  'Sponsored supplier profiles',
+  'Display advertising',
+  'RFQ access packages',
+  'Product promotion charges',
+  'Verification services',
+  'Lead-generation plans',
+]
+
+export const marketplacePackageInclusions = [
+  'Responsive marketplace website',
+  'Buyer and supplier dashboards',
+  'Administration panel',
+  'Android application',
+  'iOS application',
+  'Installation support',
+  'Custom branding',
+  'Feature configuration',
+  'Technical assistance',
+]
 
 /* Five customer reviews with real per-card markup, replacing any shared placeholder
    testimonial content on this page. Avatars are circular-cropped AI-generated (StyleGAN2,

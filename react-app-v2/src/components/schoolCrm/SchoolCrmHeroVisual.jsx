@@ -1,4 +1,4 @@
-import DashboardMockup from './DashboardMockup.jsx'
+import DashboardMockup from '../shared/DashboardMockup.jsx'
 import './SchoolCrmHeroVisual.css'
 
 const floatingBadges = [

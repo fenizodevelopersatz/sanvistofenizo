@@ -1,4 +1,5 @@
 import { aiFeatures } from '../../data/alibaba/alibabaData.js'
+import './AiFeaturesSection.css'
 
 export default function AiFeaturesSection() {
   return (
@@ -11,8 +12,11 @@ export default function AiFeaturesSection() {
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title text-center">
                     <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> AI-Powered Capabilities</span>
+                      <span className="ld-fh-txt"> Intelligent AI Features for B2B Sourcing</span>
                     </h2>
+                    <div className="st-desc">
+                      <p style={{ textAlign: 'center' }}>AI tools can help marketplace users search more effectively, prepare clearer enquiries, and understand sourcing information faster.</p>
+                    </div>
                   </header>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                 </div>
@@ -21,7 +25,7 @@ export default function AiFeaturesSection() {
           </div>
         </div>
 
-        <div className="row ld-row">
+        <div className="row ld-row ai-features-grid">
           {aiFeatures.map((f, i) => (
             <div className="wpb_column vc_column_container vc_col-sm-4" key={i}>
               <div className="vc_column-inner">

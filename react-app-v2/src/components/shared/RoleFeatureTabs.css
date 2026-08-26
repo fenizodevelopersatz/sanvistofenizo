@@ -1,5 +1,10 @@
 .role-feature-section {
   overflow: visible;
+  /* .role-feature-heading carries its own top padding for the space above the
+     heading, but nothing followed the last .role-feature-group -- it butted
+     directly against whatever section came next. This closes that bottom
+     gap without touching the heading's already-correct top spacing. */
+  padding-bottom: 60px;
 }
 
 .role-feature-heading {
@@ -256,6 +261,10 @@
 }
 
 @media (max-width: 767px) {
+  .role-feature-section {
+    padding-bottom: 36px;
+  }
+
   .role-feature-heading {
     padding: 28px 15px 24px;
   }

@@ -23,3 +23,19 @@
   font-size: 18px;
   line-height: 1.3;
 }
+
+/* The column count comes in as an inline style (per-page prop), so an inline
+   style always wins the cascade over a plain class rule -- !important is
+   required here to let narrow viewports collapse it regardless of the
+   requested column count. */
+@media (max-width: 991px) {
+  .simple-icon-grid__row {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .simple-icon-grid__row {
+    grid-template-columns: 1fr !important;
+  }
+}

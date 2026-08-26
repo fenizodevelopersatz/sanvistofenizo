@@ -6,6 +6,23 @@
    same height regardless of content length, and wrapping is always correct. The hover lift
    (".hover-flash-card") replicates an effect that previously lived only in 4 of the 17 pages'
    own bundles that use this component -- applied here once, uniformly, for all of them. */
+/* The heading block above the grid already carries its own top spacer
+   (.ld-empty-space right after the Reveal), but nothing padded the BOTTOM --
+   the card grid butted directly against whatever section came next on every
+   single page using this component (confirmed 0px on 5/5 checked instances
+   on one page alone). Same missing-breathing-room pattern already fixed for
+   ComparisonTable/PdfDownloadCta/RoleFeatureTabs/MoneyBackGuarantee -- see
+   [[boxed_section_spacing_audit]]. */
+.stand-out-features-section {
+  padding-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  .stand-out-features-section {
+    padding-bottom: 36px;
+  }
+}
+
 .stand-out-features-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

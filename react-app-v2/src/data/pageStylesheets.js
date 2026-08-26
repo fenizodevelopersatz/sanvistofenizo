@@ -182,4 +182,9 @@ export const pageStylesheets = {
     '/wp-content/litespeed/css/7bc6d89b3d2905faa79fed5d3dba86ce.css',
     ...TYPOGRAPHY_OVERRIDE,
   ],
+  // privacyPolicy is the same situation as termsOfService above.
+  privacyPolicy: [
+    '/wp-content/litespeed/css/7bc6d89b3d2905faa79fed5d3dba86ce.css',
+    ...TYPOGRAPHY_OVERRIDE,
+  ],
 }

@@ -280,8 +280,25 @@
   height: 42px !important;
 }
 
-.erp-simple-icon-card .iconbox-icon-container {
-  margin-right: 12px;
+/* The vendored default puts this margin on .iconbox-icon-container (and a
+   scoped copy of that selector is below, for the tie-break reason noted
+   there), but here .iconbox-icon-wrap is ALSO forced to width:42px !important
+   two rules up -- with the wrap's width pinned exactly to the icon's own
+   size, a margin on the *inner* icon-container has no room to expand the
+   wrap's flex-item footprint, so it never reaches the title. The wrap itself
+   is the actual flex sibling of <h3>, so the gap has to live there instead. */
+.erp-simple-icon-card .iconbox-icon-wrap {
+  margin-right: 18px;
+}
+
+/* Specificity tie with the vendored `.iconbox-inline .iconbox-icon-container
+   { margin-right: 15px }` rule (both two classes deep) -- confirmed via a
+   document.styleSheets scan that the vendored rule was winning the tie on
+   load order. The `.erp-simple-icon-section` ancestor breaks the tie. Zeroed
+   out now that the real gap lives on .iconbox-icon-wrap above, so the two
+   margins don't stack into 36px. */
+.erp-simple-icon-section .erp-simple-icon-card .iconbox-icon-container {
+  margin-right: 0;
   font-size: 23px !important;
 }
 

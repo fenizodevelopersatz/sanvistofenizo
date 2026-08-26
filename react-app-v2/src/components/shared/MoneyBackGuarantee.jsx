@@ -1,6 +1,6 @@
 export default function MoneyBackGuarantee() {
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+    <section className="money-back-section vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-12">

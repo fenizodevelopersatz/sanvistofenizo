@@ -15,24 +15,118 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="preload" as="image" href="/wp-content/uploads/2022/12/Flash-sale.png" fetchpriority="high" />
     <style>
-      body.clonescript-page-styles-loading::before {
-        content: "";
+      /* Pre-React loading indicator: same rocket as src/components/RocketLoader.jsx
+         (used by RouteFallback.jsx for lazy route chunks), reimplemented here as
+         plain HTML/CSS/SVG since this must render before React or any JS bundle has
+         loaded. Prefixed cs-shell-* (distinct from RocketLoader's cs-rocket-loader-*
+         classes) to keep the two implementations independent -- this element is
+         never touched by React, only ever shown/hidden via the body class below. */
+      #cs-shell-loader {
+        display: none;
         position: fixed;
-        top: 50%;
-        left: 50%;
+        inset: 0;
         z-index: 2147483646;
-        width: 40px;
-        height: 40px;
-        margin: -20px;
-        border: 4px solid #e7eaf5;
-        border-top-color: #0030b8;
-        border-radius: 50%;
-        animation: clonescript-shell-spin 0.75s linear infinite;
+        align-items: center;
+        justify-content: center;
       }
 
-      @keyframes clonescript-shell-spin { to { transform: rotate(1turn); } }
+      body.clonescript-page-styles-loading #cs-shell-loader {
+        display: flex;
+      }
+
+      .cs-shell-rocket-stage {
+        position: relative;
+        width: 140px;
+        height: 260px;
+        overflow: hidden;
+      }
+
+      .cs-shell-rocket-sway {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 96px;
+        margin-left: -48px;
+        margin-top: -84px;
+        animation: cs-shell-rocket-launch 2.6s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+      }
+
+      .cs-shell-rocket-ship {
+        display: block;
+        width: 100%;
+        height: auto;
+        filter: drop-shadow(0 14px 20px rgba(16, 27, 72, 0.28));
+      }
+
+      @keyframes cs-shell-rocket-launch {
+        0%   { transform: translate(-6px, 46%) rotate(-4deg); }
+        20%  { transform: translate(8px, 26%) rotate(3deg); }
+        40%  { transform: translate(-8px, 6%) rotate(-3deg); }
+        60%  { transform: translate(6px, -14%) rotate(2deg); }
+        80%  { transform: translate(-6px, -34%) rotate(-3deg); }
+        100% { transform: translate(4px, -46%) rotate(2deg); }
+      }
+
+      .cs-shell-rocket-flame {
+        transform-box: fill-box;
+        transform-origin: 50% 0%;
+        animation: cs-shell-rocket-flicker 0.35s ease-in-out infinite alternate;
+      }
+
+      @keyframes cs-shell-rocket-flicker {
+        from { transform: scaleY(0.85) scaleX(0.94); opacity: 0.9; }
+        to   { transform: scaleY(1.08) scaleX(1.04); opacity: 1; }
+      }
+
+      .cs-shell-rocket-puff {
+        position: absolute;
+        left: 50%;
+        bottom: 18%;
+        width: 20px;
+        height: 20px;
+        margin-left: -10px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(139, 92, 246, 0.35), transparent 70%);
+        animation: cs-shell-rocket-puff 2.6s ease-out infinite;
+      }
+
+      .cs-shell-rocket-puff--1 { animation-delay: 0s; }
+      .cs-shell-rocket-puff--2 { animation-delay: 0.87s; margin-left: -22px; }
+      .cs-shell-rocket-puff--3 { animation-delay: 1.74s; margin-left: 2px; }
+
+      @keyframes cs-shell-rocket-puff {
+        0%   { transform: translateY(0) scale(0.6); opacity: 0; }
+        15%  { opacity: 0.6; }
+        100% { transform: translateY(90px) scale(1.6); opacity: 0; }
+      }
+
+      .cs-shell-loader-label {
+        position: absolute;
+        bottom: 18px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: #101b48;
+        font: 600 14px/1.4 system-ui, -apple-system, sans-serif;
+      }
+
+      @media (max-width: 767px) {
+        .cs-shell-rocket-stage {
+          width: 110px;
+          height: 210px;
+        }
+
+        .cs-shell-rocket-sway {
+          width: 78px;
+          margin-left: -39px;
+          margin-top: -68px;
+        }
+      }
+
       @media (prefers-reduced-motion: reduce) {
-        body.clonescript-page-styles-loading::before { animation: none; }
+        .cs-shell-rocket-sway { animation: none; }
+        .cs-shell-rocket-flame { animation: none; }
+        .cs-shell-rocket-puff { display: none; }
       }
     </style>
     <title>CloneScript | Web, Mobile App &amp; Software Development Company</title>
@@ -93,7 +187,75 @@
     <link rel="stylesheet" href="/assets/fonts/google-fonts.css" />
   </head>
   <body class="home wp-singular page-template-default page wp-embed-responsive wp-theme-ave theme-ave woocommerce-no-js site-wide-layout wpb-js-composer js-comp-ver-8.7.2 vc_responsive currency-usd clonescript-page-styles-loading" dir="ltr">
+    <div id="cs-shell-loader" aria-hidden="true">
+      <div class="cs-shell-rocket-stage">
+        <span class="cs-shell-rocket-puff cs-shell-rocket-puff--1"></span>
+        <span class="cs-shell-rocket-puff cs-shell-rocket-puff--2"></span>
+        <span class="cs-shell-rocket-puff cs-shell-rocket-puff--3"></span>
+        <div class="cs-shell-rocket-sway">
+          <svg class="cs-shell-rocket-ship" viewBox="0 0 120 210" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="cs-shell-rocket-accent" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#8b5cf6" />
+                <stop offset="100%" stop-color="#e83ebc" />
+              </linearGradient>
+              <linearGradient id="cs-shell-rocket-flame-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#fff3b0" />
+                <stop offset="55%" stop-color="#ff9b3f" />
+                <stop offset="100%" stop-color="#ff5f6d" />
+              </linearGradient>
+              <clipPath id="cs-shell-rocket-window-clip">
+                <circle cx="60" cy="88" r="17" />
+              </clipPath>
+            </defs>
+
+            <g class="cs-shell-rocket-flame">
+              <path d="M60,158 C50,172 46,186 60,206 C74,186 70,172 60,158 Z" fill="url(#cs-shell-rocket-flame-grad)" />
+              <path d="M60,160 C55,170 53,180 60,194 C67,180 65,170 60,160 Z" fill="#fff3b0" opacity="0.85" />
+            </g>
+
+            <path d="M38,122 L12,160 L38,150 Z" fill="url(#cs-shell-rocket-accent)" />
+            <path d="M82,122 L108,160 L82,150 Z" fill="url(#cs-shell-rocket-accent)" />
+
+            <path
+              d="M60,8 C46,8 40,34 39,52 L39,140 C39,150 48,158 60,158 C72,158 81,150 81,140 L81,52 C80,34 74,8 60,8 Z"
+              fill="#ffffff"
+              stroke="url(#cs-shell-rocket-accent)"
+              stroke-width="2.5"
+            />
+
+            <circle cx="60" cy="88" r="20" fill="#101b48" />
+            <image href="/favicon.png" x="43" y="71" width="34" height="34" clip-path="url(#cs-shell-rocket-window-clip)" />
+            <circle cx="60" cy="88" r="17" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.85" />
+            <path d="M50,76 a17,17 0 0 1 10,-5" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.55" stroke-linecap="round" />
+          </svg>
+        </div>
+      </div>
+      <span class="cs-shell-loader-label">Loading CloneScript experience&hellip;</span>
+    </div>
     <div id="root"></div>
+    <script>
+      // The rocket above is a plain-HTML stand-in for the moment before React
+      // has mounted anything at all. Once React commits its first paint --
+      // even just RouteFallback's OWN rocket, while the first route chunk is
+      // still loading -- this shell rocket must disappear immediately, or the
+      // two render on top of each other (both are the same size/shape, so the
+      // duplication was very visible, not a subtle overlap). Watching #root
+      // for its first child is the one signal that's true "React has taken
+      // over" regardless of which route or how long its chunk takes to load,
+      // so this can't race the CSS-bundle-loading class toggle that drives
+      // the shell rocket's own visibility.
+      (function () {
+        var root = document.getElementById('root')
+        var loader = document.getElementById('cs-shell-loader')
+        if (!root || !loader) return
+        function hide() { loader.style.display = 'none' }
+        if (root.childNodes.length > 0) { hide(); return }
+        new MutationObserver(function (_, observer) {
+          if (root.childNodes.length > 0) { hide(); observer.disconnect() }
+        }).observe(root, { childList: true })
+      })()
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

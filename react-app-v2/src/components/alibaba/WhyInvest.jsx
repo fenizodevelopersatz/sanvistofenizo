@@ -1,3 +1,13 @@
+const revenueWaysToEarn = [
+  'Start your marketplace in no time with an established business model.',
+  'Earn money by subscription, commission and featured listings.',
+  'Offer supplier membership plans with tiered pricing and benefits.',
+  'Collect transaction commissions on completed marketplace orders.',
+  'Charge suppliers for featured product placements.',
+  'Sell sponsored supplier profiles and advertising space.',
+  'Generate income through lead-generation services for suppliers.',
+]
+
 export default function WhyInvest() {
   return (
     <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox vc_row-o-content-middle vc_row-flex">
@@ -8,21 +18,29 @@ export default function WhyInvest() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h2>Why invest in an Alibaba clone?</h2>
+                    <h2>Why Invest in an Alibaba-Style Marketplace?</h2>
                     <div className="st-desc">
                       <p>
                         <span style={{ fontWeight: 400 }}>
-                          As more businesses recognize the value of eCommerce in sourcing products, reaching suppliers and
-                          dealing with bulk purchases, the B2B eCommerce market keeps growing. With investing in Alibaba Clone,
-                          you get a marketplace model that is ready to launch, which will facilitate the connection between
-                          buyers and suppliers on one platform. The scalable architecture and built-in business tools make it
-                          possible to make a mark in the global B2B trading sector.
+                          Digital procurement gives businesses a faster way to discover suppliers, compare wholesale products,
+                          request commercial quotations, and manage bulk purchasing.
                         </span>
                       </p>
                       <p>
-                        <i className="fa-solid fa-caret-right" style={{ color: '#002692' }}></i> Start your marketplace in no time with an established business model.
-                        <br />
-                        <i className="fa-solid fa-caret-right" style={{ color: '#002692' }}></i> Earn money by subscription, commission and featured listings.
+                        <span style={{ fontWeight: 400 }}>
+                          A ready-made Alibaba Clone helps entrepreneurs begin with an established B2B marketplace model. It
+                          reduces the time required to create foundational features and allows more focus on supplier
+                          acquisition, customer experience, marketing, and marketplace growth.
+                        </span>
+                      </p>
+                      <p>
+                        <span style={{ fontWeight: 400 }}>Platform owners can generate revenue through:</span>
+                        {revenueWaysToEarn.map((point, i) => (
+                          <span key={i}>
+                            <br />
+                            <i className="fa-solid fa-caret-right" style={{ color: '#002692' }}></i> {point}
+                          </span>
+                        ))}
                       </p>
                     </div>
                   </header>

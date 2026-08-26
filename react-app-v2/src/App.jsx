@@ -10,6 +10,7 @@ const ErpSoftwarePage = lazy(() => import('./pages/ErpSoftwarePage.jsx'))
 const SchoolCrmPage = lazy(() => import('./pages/SchoolCrmPage.jsx'))
 const TermsOfServicePage = lazy(() => import('./pages/TermsOfServicePage.jsx'))
 const RefundPolicyPage = lazy(() => import('./pages/RefundPolicyPage.jsx'))
+const PrivacyPolicyPage = lazy(() => import('./pages/PrivacyPolicyPage.jsx'))
 const AlibabaClonePage = lazy(() => import('./pages/ClonePages/AlibabaClonePage.jsx'))
 const VintedClonePage = lazy(() => import('./pages/ClonePages/VintedClonePage.jsx'))
 const ZillowClonePage = lazy(() => import('./pages/ClonePages/ZillowClonePage.jsx'))
@@ -41,6 +42,7 @@ export default function App() {
           <Route path="/school-crm" element={<SchoolCrmPage />} />
           <Route path="/terms-of-service" element={<TermsOfServicePage />} />
           <Route path="/refund-policy" element={<RefundPolicyPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="/alibaba-clone" element={<AlibabaClonePage />} />
           <Route path="/vinted-clone" element={<VintedClonePage />} />
           <Route path="/zillow-clone" element={<ZillowClonePage />} />

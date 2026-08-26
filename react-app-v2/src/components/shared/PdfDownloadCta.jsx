@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { createPortal } from 'react-dom'
 import { useContactForm } from '../../hooks/useContactForm.js'
+import './PdfDownloadCta.css'
 
 export default function PdfDownloadCta({ heading, desc, image, imageAlt = '', media }) {
   const [isOpen, setIsOpen] = useState(false)

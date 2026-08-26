@@ -1,6 +1,8 @@
+import './ComparisonTable.css'
+
 export default function ComparisonTable({ labels, ours, others, cloneName }) {
   return (
-    <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
+    <section className="comparison-table-section vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
       <div className="ld-container container">
         <div className="row ld-row">
           <div className="wpb_column vc_column_container vc_col-sm-3">

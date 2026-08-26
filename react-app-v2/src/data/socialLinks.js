@@ -11,7 +11,7 @@ export const socialLinks = [
 export const footerNavColumns = [
   {
     title: 'About Company',
-    showTitle: false,
+    hidden: true,
     links: [
       ['#', 'About Us'],
       ['#', 'Our Services'],
@@ -36,7 +36,7 @@ export const footerNavColumns = [
     title: 'Legal',
     links: [
       ['/terms-of-service', 'Terms of Service'],
-      ['#', 'Privacy Policy'],
+      ['/privacy-policy', 'Privacy Policy'],
       ['/refund-policy', 'Refund Policy'],
     ],
   },

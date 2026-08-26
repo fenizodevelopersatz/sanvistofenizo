@@ -10,19 +10,19 @@ function NavLink({ href, label }) {
 }
 
 function FooterNavColumn({ col }) {
+  if (col.hidden) return null
+
   const HeadingTag = col.headingTag || 'h3'
   return (
     <div className="wpb_column vc_column_container vc_col-sm-6">
       <div className="vc_column-inner">
         <div className="wpb_wrapper">
           <div className="wpb_wrapper-inner">
-            {col.showTitle === false ? null : (
-              <div className={`ld-fancy-heading text-left text-uppercase${col.headingTag ? ' custom-footer-menu-li' : ''}`}>
-                <HeadingTag className="lqd-highlight-underline lqd-highlight-grow-left">
-                  <span className="ld-fh-txt"> {col.title}</span>
-                </HeadingTag>
-              </div>
-            )}
+            <div className={`ld-fancy-heading text-left text-uppercase${col.headingTag ? ' custom-footer-menu-li' : ''}`}>
+              <HeadingTag className="lqd-highlight-underline lqd-highlight-grow-left">
+                <span className="ld-fh-txt"> {col.title}</span>
+              </HeadingTag>
+            </div>
             <ul className="lqd-custom-menu reset-ul">
               {col.links.map(([href, label], j) => (
                 <li key={j}><NavLink href={href} label={label} /></li>
