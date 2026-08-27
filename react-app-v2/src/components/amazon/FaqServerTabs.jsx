@@ -12,12 +12,12 @@ function FaqPanel() {
           <div className="wpb_wrapper">
             <div className="wpb_wrapper-inner">
               <header className="fancy-title">
-                <p>Queries &amp; Answers</p>
-                <h3>Do You Have Any Doubts? Clear Solution Here?</h3>
+                <p>FAQ and Version History</p>
+                <h3>Find Answers and Review Platform Updates</h3>
               </header>
               <header className="fancy-title">
-                <p>FAQ- Amazon Clone App</p>
-                <h3>Here you will get complete answer for your all doubts! Want to get any assistance feel free to Contact us!</h3>
+                <p>Frequently Asked Questions</p>
+                <h3>Learn more about marketplace functionality, customization, user roles, licensing, technical support, source-code access, and product changes.</h3>
               </header>
               <Link to="/contact-us" target="_blank" className="btn btn-solid text-uppercase circle btn-bordered border-thin">
                 <span><span className="btn-txt">Contact</span></span>
@@ -77,6 +77,7 @@ function ServerPanel() {
                 <div className="iconbox-icon-wrap"><span className="iconbox-icon-container"><i className="fas fa-server"></i></span></div>
                 <h3 className="font-weight-normal">Server Requirements:</h3>
                 <div className="contents">
+                  {serverRequirements.intro && <p style={{ fontWeight: 400 }}>{serverRequirements.intro}</p>}
                   <ul>
                     {serverRequirements.items.map((item) => (
                       <li key={item} style={{ fontWeight: 400 }}><span style={{ fontWeight: 400 }}>{item}</span></li>

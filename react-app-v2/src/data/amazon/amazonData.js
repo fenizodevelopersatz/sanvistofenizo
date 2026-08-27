@@ -1,10 +1,10 @@
 export const whyChooseUs = [
-  { icon: 'fas fa-hand-holding-usd', title: 'One Time Payment', desc: 'One-time payment to get lifetime access to clone scripts.' },
-  { icon: 'fas fa-cog', title: 'Free Installation', desc: 'We offer Free installation for all our products to clients.' },
-  { icon: 'fas fa-user-clock', title: 'Lifetime Updates', desc: 'Our premium products are constantly upgraded to stand out.' },
-  { icon: 'fas fa-code', title: '100% Source Code', desc: 'CloneScript provides the best Amazon clone with complete source code to the users.' },
-  { icon: 'fas fa-universal-access', title: 'Whitelabel Solution', desc: 'Amazon clone is designed as a Whitelabel solution to get full access.' },
-  { icon: 'fas fa-dollar-sign', title: '100% Money Back Guarantee', desc: 'CloneScript offers a special 100% money-back guarantee for our buyers.' },
+  { icon: 'fas fa-hand-holding-usd', title: 'One-Time Payment Options', desc: 'Select a suitable ownership package based on the required licence, functionality, applications, and support.' },
+  { icon: 'fas fa-cog', title: 'Installation Assistance', desc: 'Receive technical guidance for server preparation, platform installation, and initial configuration.' },
+  { icon: 'fas fa-user-clock', title: 'Product Updates', desc: 'Keep the platform reliable and compatible through eligible improvements and technical updates.' },
+  { icon: 'fas fa-code', title: 'Source-Code Access', desc: 'Access and customize the marketplace code according to the permissions included in the selected licence.' },
+  { icon: 'fas fa-universal-access', title: 'White-Label Customization', desc: 'Replace default visual elements with your own logo, colours, content, pages, and ecommerce identity.' },
+  { icon: 'fas fa-dollar-sign', title: 'Purchase Assurance', desc: 'Review the applicable service and refund conditions before choosing a marketplace package.' },
 ]
 
 export const standardFeatureGroups = [
@@ -15,11 +15,11 @@ export const standardFeatureGroups = [
     image: '/wp-content/uploads/2025/09/categories.webp',
     imageAlt: 'categories',
     features: [
-      { title: 'Chat Module', desc: 'Buyers can easily communicate with sellers via the chat module in our Amazon clone app.' },
-      { title: 'Support Ticket Module', desc: 'This support ticket module lets buyers post their queries and doubts in a single step. They will receive a ticket, and a proper reply will be sent promptly.' },
-      { title: 'Quick View', desc: 'Customers can quickly view the product’s features and detailed information in the same window.' },
-      { title: 'Add to Wishlist', desc: 'Our Amazon Clone Website allows buyers can add their desired products to the wishlist to purchase them in the future.' },
-      { title: 'Compare Products', desc: 'Buyers can view many products, with similar features, and benefits which may differ in price, colour, and brand, and can compare more than one product to purchase.' },
+      { title: 'Buyer-Seller Chat', desc: 'Allow customers to contact vendors directly regarding product information, availability, pricing, delivery, and orders.' },
+      { title: 'Customer Support Tickets', desc: 'Give buyers an organized way to raise questions, report issues, receive responses, and follow support progress.' },
+      { title: 'Quick Product Preview', desc: 'Show important product information in a convenient preview without requiring customers to leave the catalogue page.' },
+      { title: 'Product Wishlist', desc: 'Allow shoppers to save products and return to them when they are ready to make a purchase.' },
+      { title: 'Product Comparison', desc: 'Help customers compare similar items using price, brand, features, specifications, availability, and reviews.' },
     ],
   },
   {
@@ -29,12 +29,12 @@ export const standardFeatureGroups = [
     image: '/wp-content/uploads/2025/09/profile.webp',
     imageAlt: 'profile',
     features: [
-      { title: 'Store Invoice Module', desc: 'Vendors can generate store invoices for their customers and configure the bill for their needs.' },
-      { title: 'Store Setup', desc: 'Our Amazon clone app allows sellers to set up their stores according to their preferences.' },
-      { title: 'Create Unique Store Style', desc: 'Admin and vendors can modify and change the visibility of the store and easily change the desired store style, what they want.' },
-      { title: 'Vacation Mode', desc: 'Sellers can change the vacation mode for an unavailable time, holiday, or vacation time.' },
-      { title: 'Set Product Type', desc: 'Our eCommerce Script supports multiple product types, enabling sellers to add their products in categories such as simple, variable, grouped, external/affiliate, and auction.' },
-      { title: 'Set Store Hours', desc: 'In our app, the seller can set their available time such as closing time, opening time, and week off. It helps to connect the buyers easily.' },
+      { title: 'Store Invoice Management', desc: 'Let sellers generate invoices containing customer information, product details, taxes, discounts, and store branding.' },
+      { title: 'Vendor Store Setup', desc: 'Allow approved sellers to configure their storefront information, business profile, policies, and contact details.' },
+      { title: 'Personalized Store Design', desc: 'Give vendors controlled options for changing store banners, descriptions, colours, and visual elements.' },
+      { title: 'Seller Vacation Mode', desc: 'Allow vendors to pause new orders or inform customers when the store is temporarily unavailable.' },
+      { title: 'Multiple Product Types', desc: 'Support simple, variable, grouped, external, affiliate, and other configured product formats.' },
+      { title: 'Store Operating Hours', desc: 'Let sellers define opening times, closing times, working days, and weekly holidays.' },
     ],
   },
   {
@@ -44,13 +44,12 @@ export const standardFeatureGroups = [
     image: '/wp-content/uploads/2025/09/admin-dashboard.webp',
     imageAlt: 'admin-dashboard',
     features: [
-      { title: 'Seller(Or Vendor) Verification', desc: 'The admin can set specific parameters for seller verification to build trust between customers and vendors, restrict unverified sellers, etc.' },
-      { title: 'Moderate Reviews', desc: 'On the platform, a product review can only be displayed on the product page after the admin approves it.' },
-      { title: 'Manage Membership', desc: 'Admin can manage membership for vendor registration with membership form or add a custom field with parameters such as policies, membership rules, limits, etc.' },
-      { title: 'Set Limits', desc: 'Admin can set limits for vendors such as space limit, product limit, features product limit, article limit, category limit, gallery limit, and more.' },
-      { title: 'Multi-Vendor Registration Options', desc: 'The admin can modify and configure vendor registration forms, including single or multiple verification steps and custom fields, all decided by the admin.' },
-      { title: 'Manage User Capabilities', desc: 'The admin can modify vendors’ and buyers’ capabilities, determining which sections and activities they can access on this platform.' },
-      { title: 'Single Product Multi-Vendor', desc: 'The admin grants single-product multi-vendor access to vendors and allows them to add products from other vendors to their listings.' },
+      { title: 'Seller Verification', desc: 'Define document and information requirements for reviewing vendors before approving their stores.' },
+      { title: 'Review Moderation', desc: 'Check customer feedback before publication to reduce spam, misuse, and inappropriate content.' },
+      { title: 'User Account Management', desc: 'Review customer and seller accounts, monitor activity, update status, and control platform access.' },
+      { title: 'Product Listing Management', desc: 'Manage categories, products, attributes, prices, stock information, and publication status.' },
+      { title: 'Order and Payment Control', desc: 'Monitor transactions, refunds, cancellations, commissions, seller earnings, and settlements.' },
+      { title: 'Marketplace Configuration', desc: 'Control shipping methods, payment options, taxes, commissions, notifications, and other operational settings.' },
     ],
   },
 ]
@@ -95,20 +94,20 @@ export const platformRows = [
     imagePosition: 'right',
   },
   {
-    title: 'WCFM',
-    tagline: 'WCFM is a robust solution to create and manage a Multi-Vendor Marketplace',
+    title: 'WCFM Multi-Vendor Management',
+    tagline: 'WCFM provides frontend marketplace tools that make store and product management easier for vendors',
     points: [
-      'WCFM is the best front-end multi-vendor marketplace plugin on WordPress, powered by WooCommerce. It lets you build your own eCommerce marketplace like Amazon.',
-      'WCFM has all the essential features like Flexible Commission, Single product multi-vendor, etc, these features let you take your marketplace business to the next level.',
+      'When combined with WooCommerce, it can support seller dashboards, flexible commissions, product publishing, order processing, withdrawal requests, invoices, store settings, and customer communication.',
+      'This structure gives vendors access to the tools required for everyday store management while administrators retain control over important marketplace policies.',
     ],
     image: '/wp-content/uploads/2024/11/wcfm-1-6749ac85ddedd.webp',
     imageAlt: 'wcfm',
     imagePosition: 'left',
   },
   {
-    title: 'Multi Language',
-    tagline: 'Our Amazon Clone Script Uses Google Translator',
-    points: ['The multi-language feature significantly improves user experience, increases global reach, and boosts sales by breaking language barriers and making your marketplace accessible to a wide range of users.'],
+    title: 'Multi-Language Marketplace Support',
+    tagline: 'Language functionality makes the ecommerce platform more accessible to customers and sellers from different locations',
+    points: ['Supported translation tools can help users understand product information, navigation, account settings, shopping processes, and checkout pages. A localized experience can also help the marketplace reach wider audiences.'],
     image: '/wp-content/uploads/2024/12/group-48095514-1-674da68779b78.webp',
     imageAlt: 'Translate',
     imagePosition: 'right',
@@ -116,26 +115,26 @@ export const platformRows = [
 ]
 
 export const addOnFeatures = [
-  { title: 'Multiple Tax Option', image: '/wp-content/uploads/2024/11/Frame-3227.webp', desc: '' },
-  { title: 'Ad Space', image: '/wp-content/uploads/2024/11/Frame-3220.webp', desc: '' },
-  { title: 'Analytics and Report', image: '/wp-content/uploads/2024/11/Frame-3221.webp', desc: '' },
-  { title: 'RTL Support', image: '/wp-content/uploads/2024/12/Untitled-design-72-1.webp', desc: '' },
-  { title: 'Store Badge', image: '/wp-content/uploads/2024/11/Frame-3225.webp', desc: '' },
-  { title: 'Followers List', image: '/wp-content/uploads/2024/11/Frame-3222.webp', desc: '' },
-  { title: 'Ledger Book', image: '/wp-content/uploads/2024/11/Frame-3223.webp', desc: '' },
-  { title: 'Social Sharing', image: '/wp-content/uploads/2024/11/Frame-3224.webp', desc: '' },
+  { title: 'Multiple Tax Settings', image: '/wp-content/uploads/2024/11/Frame-3227.webp', desc: 'Configure different tax rules according to products, categories, vendors, customer locations, or marketplace requirements.' },
+  { title: 'Advertising Space', image: '/wp-content/uploads/2024/11/Frame-3220.webp', desc: 'Create promotional areas where approved sellers and brands can advertise products, stores, or campaigns.' },
+  { title: 'Analytics and Business Reports', image: '/wp-content/uploads/2024/11/Frame-3221.webp', desc: 'Monitor website visitors, product performance, seller activity, customer orders, revenue, and conversions.' },
+  { title: 'Right-to-Left Language Support', image: '/wp-content/uploads/2024/12/Untitled-design-72-1.webp', desc: 'Provide suitable page layouts for languages written and read from right to left.' },
+  { title: 'Seller Store Badges', image: '/wp-content/uploads/2024/11/Frame-3225.webp', desc: 'Award badges to verified, trusted, premium, or high-performing sellers according to marketplace criteria.' },
+  { title: 'Store Followers', image: '/wp-content/uploads/2024/11/Frame-3222.webp', desc: 'Allow customers to follow preferred sellers and receive eligible updates about products, offers, and store activities.' },
+  { title: 'Seller Ledger Book', image: '/wp-content/uploads/2024/11/Frame-3223.webp', desc: 'Maintain organized records of vendor transactions, commissions, withdrawals, refunds, and outstanding balances.' },
+  { title: 'Social Product Sharing', image: '/wp-content/uploads/2024/11/Frame-3224.webp', desc: 'Let customers and sellers share product or storefront links through supported social media channels.' },
 ]
 
 export const generalFeatureColumns = [
-  ['Multiple Tax Option', '100% Customization', 'Tailored Theme Option', 'Mobile Responsive', 'Compare Products', 'Shipping / Tracking option', 'Google Analytics'],
-  ['Refund / Cancel', 'Review/ Ratings', 'Withdrawal/Payout Methods', 'Coupons System', 'Order Management', 'Bulk Export/Import Products'],
-  ['Assign Super Admin/ Sub Admin', 'Bulk Edit Option for Admin', 'Store Management', 'Auto/ Manual Publish', 'Product Types', 'Vendor Store SEO Settings', 'Support Ticket'],
+  ['Multiple Tax Options', 'Complete Customization', 'Custom Theme Options', 'Mobile-Responsive Design', 'Product Comparison', 'Shipping and Order Tracking', 'Analytics Integration'],
+  ['Refund and Cancellation Management', 'Product Ratings and Reviews', 'Seller Withdrawal Methods', 'Discount Coupon System', 'Order Management', 'Bulk Product Import and Export'],
+  ['Super Admin and Sub-Admin Roles', 'Bulk Administration Tools', 'Seller Store Management', 'Automatic or Manual Publication', 'Flexible Product Formats', 'Vendor Store SEO Settings', 'Support Ticket Management'],
 ]
 
 export const dashboards = [
-  { label: 'Buyer Dashboard', password: 'customer' },
+  { label: 'Customer Dashboard', password: 'customer' },
   { label: 'Seller Dashboard', password: 'seller' },
-  { label: 'Admin Dashboard', password: '12345678' },
+  { label: 'Administrator Dashboard', password: '12345678' },
 ]
 
 export const pricingPlans = [
@@ -157,21 +156,29 @@ export const pricingPlans = [
 ]
 
 export const faqs = [
-  { q: 'What is Amazon Clone?', a: 'Amazon Clone is a ready-made eCommerce script that has all the core features, allowing the entrepreneurs to launch the multi-vendor marketplace quickly. It provides customization capabilities like product listing, payment options, etc.' },
-  { q: 'How to reach our support team?', a: 'Once you purchase our products, if you have any doubts or queries you can reach our support team via hello@example.com to clarify your doubts.' },
-  { q: 'Is it possible to claim full ownership of your clone script/themes once purchased?', a: 'Yes, once you purchase it, you will completely own your website.' },
-  { q: 'What is 100% Source Code?', a: 'You get the complete source code of your website so you can customize it based on your desired and business needs. The script/themes are not encrypted files.' },
-  { q: 'Can I Resell the Script/Theme From CloneScript?', a: 'No, once you purchase an Amazon clone script or any themes from us, you don’t have to resell or distribute them. If you violate you are liable for illegal activities.' },
-  { q: 'How Single and Multi Domain Licence Differs?', a: 'A single-domain license allows usage for only one business on a single domain. For example, you can use it exclusively on mywebsite.com. In contrast, a multi-domain license permits usage for multiple businesses across unlimited domains.' },
+  { q: 'What Is an Amazon Clone?', a: 'An Amazon Clone is a ready-made ecommerce software foundation for building a multi-vendor online marketplace.' },
+  { q: 'Can the Marketplace Be Customized?', a: 'Yes. The design, branding, pages, categories, seller tools, payment methods, commissions, shipping, and workflows can be customized.' },
+  { q: 'Does the Platform Support Multiple Sellers?', a: 'Yes. Approved sellers can create storefronts, publish products, process orders, communicate with customers, and monitor earnings.' },
+  { q: 'Are Mobile Applications Available?', a: 'Android and iOS applications can be included depending on the chosen package and project requirements.' },
+  { q: 'Will I Receive Source-Code Access?', a: 'Source-code availability and usage permissions depend on the selected licensing agreement.' },
+  { q: 'Is Installation Assistance Provided?', a: 'Technical assistance can be provided for server preparation, platform installation, initial configuration, and deployment.' },
+  { q: 'Can the Amazon Clone Scale with My Business?', a: 'Yes. The platform can accommodate more customers, vendors, products, orders, categories, payment methods, and locations as the business expands.' },
+  { q: 'Can the Software Be Resold or Redistributed?', a: 'Resale and redistribution are usually restricted unless the selected licence provides written permission.' },
+  { q: 'How Can I Contact the Support Team?', a: 'Customers can use the official support channels included within their service agreement.' },
 ]
 
 export const serverRequirements = {
+  intro: 'The marketplace requires a suitable hosting or cloud environment with adequate processing capacity, memory, SSD storage, database support, and HTTPS security. Server resources should be selected based on:',
   items: [
-    'MySQL for Database',
-    'Ability to Setup Cron Jobs',
-    'Operating System Linux',
-    'PHP version 8.1 & Above',
-    'Apache Web Server',
+    'Expected customer and seller volume',
+    'Number of product listings',
+    'Product image and document storage',
+    'Daily website traffic',
+    'Order and payment volume',
+    'Third-party integrations',
+    'Mobile-application activity',
+    'Reporting requirements',
+    'Expected future expansion',
   ],
 }
 

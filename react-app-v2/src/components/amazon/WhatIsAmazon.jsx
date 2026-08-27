@@ -10,10 +10,11 @@ export default function WhatIsAmazon() {
               <div className="wpb_wrapper">
                 <Reveal as="div" className="wpb_wrapper-inner" direction="left">
                   <header className="fancy-title">
-                    <h2>What Is Amazon Clone?</h2>
+                    <h2>What Is an Amazon Clone?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Amazon Clone is a ready-to-go multi-vendor eCommerce solution, developed and designed with the latest features and functionalities similar to the eCommerce platform, Amazon.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>Our White Label Amazon Clone lets businesses build the platform with their own brand and business requirements.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>An Amazon Clone is a ready-made software foundation for launching a B2C multi-vendor ecommerce marketplace. It allows multiple sellers to create stores and publish products while customers can search, compare, purchase, and track orders through one platform.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>The white-label solution includes essential features for customer accounts, vendor management, product catalogues, shopping carts, checkout, online payments, shipping, commissions, and marketplace administration.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Starting with an established software foundation can reduce initial development effort and help businesses enter the ecommerce market faster.</span></p>
                     </div>
                   </header>
                   <a href="/schedule-free-demo" className="btn btn-solid btn-sm circle btn-bordered border-thin btn-bordered-gradient">

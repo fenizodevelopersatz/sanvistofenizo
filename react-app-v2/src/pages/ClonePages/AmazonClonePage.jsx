@@ -25,7 +25,10 @@ import TestimonialRotatorSection from '../../components/footer/TestimonialRotato
 export default function AmazonClonePage() {
   usePageStylesheets(pageStylesheets.amazonClone)
 
-  useSeo('Amazon Clone Script | eCommerce Marketplace App | CloneScript')
+  useSeo(
+    'Amazon Clone Script | Multi-Vendor Marketplace by CloneScript',
+    'Launch a customizable Amazon Clone with buyer, seller, and admin dashboards, product management, secure payments, commissions, shipping, and mobile applications.'
+  )
 
   return (
     <main className="content" id="content">
@@ -39,7 +42,7 @@ export default function AmazonClonePage() {
         </section>
 
         <StandOutFeaturesGrid
-          heading="Why CloneScript is the Best choice for Your Business?"
+          heading="Why Choose CloneScript for Your Amazon Clone?"
           subheading="Features"
           items={whyChooseUs}
         />
@@ -52,9 +55,9 @@ export default function AmazonClonePage() {
                   <div className="wpb_wrapper">
                     <div className="wpb_wrapper-inner">
                       <header className="fancy-title text-center">
-                        <h2>Whitelabel Amazon Clone Features For Your Business</h2>
+                        <h2>White-Label Amazon Clone Features</h2>
                         <div className="st-desc">
-                          <p style={{ textAlign: 'center' }}>Our Amazon clone script is built with state-of-the-art features, tools, functions, and technologies similar to Amazon.</p>
+                          <p style={{ textAlign: 'center' }}>The platform includes dedicated capabilities for buyers, sellers, and marketplace administrators. Each user receives a dashboard designed around their specific responsibilities.</p>
                         </div>
                       </header>
                     </div>
@@ -124,10 +127,10 @@ export default function AmazonClonePage() {
                 <div className="vc_column-inner">
                   <div className="wpb_wrapper">
                     <div className="wpb_wrapper-inner">
-                      <h3 style={{ textAlign: 'center' }}>Launch Your Custom App to Expand Your E-commerce Business Now!</h3>
+                      <h3 style={{ textAlign: 'center' }}>Launch Your Custom Ecommerce Application</h3>
                       <a href="/schedule-free-demo" className="btn btn-solid btn-xsm circle btn-bordered border-thin">
                         <span>
-                          <span className="btn-txt">Book Your Slot</span>
+                          <span className="btn-txt">Book Your Consultation</span>
                           <span className="btn-icon"><i className="far fa-calendar-check"></i></span>
                         </span>
                       </a>
@@ -139,7 +142,12 @@ export default function AmazonClonePage() {
           </div>
         </section>
 
-        <AiFeaturesGrid heading="Add on Features" items={addOnFeatures} columns={4} />
+        <AiFeaturesGrid
+          heading="Additional Amazon Clone Features"
+          desc="Expand the marketplace with practical tools for taxation, advertising, reporting, international accessibility, and seller promotion."
+          items={addOnFeatures}
+          columns={4}
+        />
 
         <section className="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex">
           <div className="ld-container container">
@@ -150,8 +158,11 @@ export default function AmazonClonePage() {
                     <div className="wpb_wrapper-inner">
                       <div className="ld-fancy-heading text-center">
                         <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                          <span className="ld-fh-txt"> General Features</span>
+                          <span className="ld-fh-txt"> General Ecommerce Marketplace Features</span>
                         </h2>
+                      </div>
+                      <div className="st-desc">
+                        <p style={{ textAlign: 'center' }}>The Amazon Clone includes functionality required for managing everyday ecommerce operations.</p>
                       </div>
                     </div>
                   </div>
@@ -179,8 +190,8 @@ export default function AmazonClonePage() {
         </section>
 
         <PdfDownloadCta
-          heading="Grab Our Best Amazon Clone App&rsquo;s Features Document Now!"
-          desc="One Click to Get Our Amazon Clone Product&rsquo;s Complete Knowledge."
+          heading="Download the Amazon Clone Feature Guide"
+          desc="Explore the complete functionality available for buyers, sellers, administrators, products, payments, shipping, commissions, and mobile applications."
         />
 
         <section className="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex">
@@ -191,9 +202,11 @@ export default function AmazonClonePage() {
                   <div className="wpb_wrapper">
                     <div className="wpb_wrapper-inner">
                       <header className="fancy-title">
-                        <h2>Boost Your eCommerce Business With Our Amazon Clone</h2>
+                        <h2>Grow Your Ecommerce Business with an Amazon Clone</h2>
                         <div className="st-desc">
-                          <p><span style={{ color: '#8181ac' }}>Enter the eCommerce market with the best Amazon Clone script and the latest features and functionalities without breaking the bank. Our team of skilled developers crafted the Amazon Clone App with a complete feature set to stand out, be unique in the industry and succeed.</span></p>
+                          <p><span style={{ color: '#8181ac' }}>Enter the multi-vendor ecommerce industry with a platform that connects customers, sellers, products, payments, and orders.</span></p>
+                          <p><span style={{ color: '#8181ac' }}>Instead of developing every marketplace component separately, businesses can begin with an integrated solution and customize it according to their audience and goals.</span></p>
+                          <p><span style={{ color: '#8181ac' }}>As the business grows, the platform can support additional vendors, product categories, payment options, shipping providers, languages, and service locations.</span></p>
                         </div>
                       </header>
                       <a href="/schedule-free-demo" className="btn btn-solid btn-sm circle btn-bordered border-thin btn-bordered-gradient">
@@ -204,7 +217,7 @@ export default function AmazonClonePage() {
                       </a>{' '}
                       <a href="#prices" data-localscroll="true" className="btn btn-solid btn-sm circle btn-bordered border-thin btn-bordered-gradient btn-gradient">
                         <span>
-                          <span className="btn-txt">View Prices</span>
+                          <span className="btn-txt">Explore Packages</span>
                           <span className="btn-icon"><i className="fas fa-dollar-sign"></i></span>
                         </span>
                       </a>
@@ -231,7 +244,7 @@ export default function AmazonClonePage() {
           </div>
         </section>
 
-        <PricingPlans plans={pricingPlans} />
+        <PricingPlans plans={pricingPlans} heading="Choose a Suitable Marketplace Plan" />
         <MoneyBackGuarantee />
 
         <LiveDemoTabs dashboards={dashboards} />
@@ -244,7 +257,10 @@ export default function AmazonClonePage() {
                   <div className="wpb_wrapper">
                     <div className="wpb_wrapper-inner">
                       <header className="fancy-title text-center">
-                        <h2>Mobile App Screens</h2>
+                        <h2>Amazon Clone Mobile Application Screens</h2>
+                        <div className="st-desc">
+                          <p style={{ textAlign: 'center' }}>The marketplace can be made available through compatible Android and iOS applications.</p>
+                        </div>
                       </header>
                       <div className="row ld-row" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20 }}>
                         {screenshots.map((src, i) => (
@@ -273,9 +289,9 @@ export default function AmazonClonePage() {
                   <div className="wpb_wrapper">
                     <div className="wpb_wrapper-inner">
                       <header className="fancy-title text-center">
-                        <h2>Technology We Used</h2>
+                        <h2>Technology Used for Ecommerce Development</h2>
                         <div className="st-desc">
-                          <p style={{ textAlign: 'center' }}>Advanced Technologies To Developed Our Whitelabel Amazon Clone Software Solution.</p>
+                          <p style={{ textAlign: 'center' }}>The Amazon Clone can be developed using suitable web, mobile, database, cloud, payment, and communication technologies.</p>
                         </div>
                       </header>
                       <div className="wpb_single_image wpb_content_element vc_align_center">

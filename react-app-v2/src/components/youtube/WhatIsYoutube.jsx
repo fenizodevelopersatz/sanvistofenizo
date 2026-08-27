@@ -10,15 +10,16 @@ export default function WhatIsYoutube() {
               <div className="wpb_wrapper">
                 <Reveal as="div" className="wpb_wrapper-inner" direction="left">
                   <header className="fancy-title">
-                    <h2>What is YouTube Clone?</h2>
+                    <h2>What Is a YouTube Clone?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>YouTube clone is a video streaming solution with features, functionalities, and technologies similar to YouTube. Online live streaming software solutions assist startups in quickly setting up their YouTube clone app.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>YouTube Clone Script is a pre-built solution that offers an all-in-one video sharing app for starting your business. Our app is designed with 100% customizable, scalable, latest features, functionalities, flawless video monetization, etc.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>A YouTube Clone is a ready-made software solution for building a video-sharing and multimedia-streaming platform. It gives creators the tools to publish content while viewers can discover, stream, react to, comment on, save, and share videos.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>The platform can support long-form videos, short clips, live broadcasts, music, podcasts, playlists, subscriptions, advertisements, and premium content.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Starting with an established software foundation can reduce the time required to develop essential video-platform functionality from the beginning.</span></p>
                     </div>
                   </header>
                   <a href="/schedule-free-demo" className="btn btn-solid btn-sm circle btn-bordered border-thin">
                     <span>
-                      <span className="btn-txt">Schedule now</span>
+                      <span className="btn-txt">Schedule a Platform Demo</span>
                       <span className="btn-icon"><i className="fas fa-calendar-alt"></i></span>
                     </span>
                   </a>

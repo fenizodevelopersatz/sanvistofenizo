@@ -13,27 +13,30 @@ export default function YoutubeHero() {
                   <div className="ld-fancy-heading text-center">
                     <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
                       <span className="ld-fh-txt">
-                        #1 <span style={{ color: '#ff0022' }}>YouTube Clone</span> Video Streaming Script
+                        AI-Powered <span style={{ color: '#ff0022' }}>YouTube Clone</span> for Video Streaming Businesses
                       </span>
                     </h1>
                   </div>
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
                       <p style={{ textAlign: 'center' }}>
-                        <span style={{ fontWeight: 400 }}>YouTube Clone is a whitelabel video streaming solution to launch an app like YouTube at an affordable cost.</span>
+                        <span style={{ fontWeight: 400 }}>Build a branded video-sharing and streaming platform with CloneScript. Allow creators to upload videos, build channels, broadcast live content, publish shorts, share music and podcasts, engage viewers, and earn revenue through multiple monetization options.</span>
+                      </p>
+                      <p style={{ textAlign: 'center' }}>
+                        <span style={{ fontWeight: 400 }}>The YouTube Clone can be customized around your content niche, target audience, visual identity, creator policies, subscription model, advertising strategy, and business goals.</span>
                       </p>
                     </div>
                   </div>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <a href="#schedule_form" className="btn btn-solid btn-sm round btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">Schedule Demo</span>
+                      <span className="btn-txt">Explore Live Demo</span>
                       <span className="btn-icon"><i className="fas fa-eye"></i></span>
                     </span>
                   </a>
                   <a href="#prices" className="btn btn-default btn-sm round btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">View Prices</span>
+                      <span className="btn-txt">View Packages</span>
                       <span className="btn-icon"><i className="fas fa-dollar-sign"></i></span>
                     </span>
                   </a>

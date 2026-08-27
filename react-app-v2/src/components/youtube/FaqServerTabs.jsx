@@ -12,12 +12,12 @@ function FaqPanel() {
           <div className="wpb_wrapper">
             <div className="wpb_wrapper-inner">
               <header className="fancy-title">
-                <p>Doubts &amp; Clarifications</p>
-                <h3>Have Queries? Get Solutions Right Here</h3>
+                <p>Frequently Asked Questions About the YouTube Clone</p>
+                <h3>Find Answers to Common Video-Platform Questions</h3>
               </header>
               <header className="fancy-title">
-                <p>YouTube Clone FAQ</p>
-                <h3>Get answers for all your queries about our YouTube Clone Script with our comprehensive FAQ section.</h3>
+                <p>Frequently Asked Questions</p>
+                <h3>Learn more about platform functionality, customization, monetization, cost, source-code access, and technical support.</h3>
               </header>
               <Link to="/contact-us" target="_blank" className="btn btn-solid text-uppercase circle btn-bordered border-thin">
                 <span><span className="btn-txt">Contact</span></span>
@@ -75,12 +75,14 @@ function ServerPanel() {
             <div className="wpb_wrapper-inner">
               <div className="wpb_text_column wpb_content_element">
                 <div className="wpb_wrapper">
+                  {serverRequirements.intro && <p>{serverRequirements.intro}</p>}
                   <p><strong>Requirements:</strong></p>
                   <ul>
-                    {serverRequirements.map((r) => (
+                    {serverRequirements.items.map((r) => (
                       <li key={r}>{r}</li>
                     ))}
                   </ul>
+                  {serverRequirements.outro && <p>{serverRequirements.outro}</p>}
                 </div>
               </div>
             </div>
