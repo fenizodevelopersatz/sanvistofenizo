@@ -9,9 +9,9 @@ export default function HowItWorks() {
                 <div className="wpb_wrapper">
                   <div className="wpb_wrapper-inner">
                     <header className="fancy-title text-center">
-                      <h2>How It Works?</h2>
+                      <h2>How Does the Fiverr Clone Work?</h2>
                       <div className="st-desc">
-                        <p style={{ textAlign: 'center' }}>Discover Our Exclusive Fiverr Clone App&rsquo;s Workflow</p>
+                        <p style={{ textAlign: 'center' }}>The platform guides clients and freelancers through a structured service-purchasing process. This structured workflow helps keep project requirements, communication, payments, and deliveries organized within one platform.</p>
                       </div>
                     </header>
                   </div>

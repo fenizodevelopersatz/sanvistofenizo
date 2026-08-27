@@ -8,10 +8,10 @@ export default function FounderCta() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h3>Launch Your Freelance Marketplace Service Platform With Us.</h3>
+                    <h3>Launch Your Freelance Marketplace Business</h3>
                   </header>
                   <button type="button" style={{ backgroundColor: '#FFFFFF', color: '#000000' }} className="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-icon-right" onClick={() => window.tidioChatApi?.open()}>
-                    Chat With Expert <i className="vc_btn3-icon fas fa-comments"></i>
+                    Chat with a Marketplace Expert <i className="vc_btn3-icon fas fa-comments"></i>
                   </button>
                 </div>
               </div>

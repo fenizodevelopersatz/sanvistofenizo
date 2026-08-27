@@ -79,7 +79,7 @@ export default function MainFeaturesRoles() {
                       </p>
                     </div>
                     <header className="fancy-title text-center">
-                      <p>Step Into the Essential Features of Our Rental Booking System</p>
+                      <p>Main Features of the Rental Booking Script &mdash; Dedicated Functionality for Customers, Hosts, and Administrators</p>
                     </header>
                   </div>
                 </div>

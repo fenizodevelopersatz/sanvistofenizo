@@ -30,7 +30,7 @@ export default function WhatIsWhatsapp() {
               <div className="vc_column-inner">
                 <div className="wpb_wrapper">
                   <div className="wpb_wrapper-inner">
-                    <h2 style={{ color: '#0a0a0a', textAlign: 'justify' }} className="vc_custom_heading">What is a WhatsApp Clone?</h2>
+                    <h2 style={{ color: '#0a0a0a', textAlign: 'justify' }} className="vc_custom_heading">What Is a WhatsApp Clone?</h2>
                   </div>
                 </div>
               </div>
@@ -48,10 +48,16 @@ export default function WhatIsWhatsapp() {
                   <Reveal as="div" className="wpb_wrapper-inner" direction="left">
                     <header className="fancy-title">
                       <div className="st-desc">
-                        <p style={{ textAlign: 'left' }}><strong>WhatsApp Clone</strong> is a seamless instant messaging platform designed to create an app that can connect people with their loved ones effortlessly. Our WhatsApp Clone Script is packed with all the necessary features of a popular real-time chat app like WhatsApp. This robust tool enables you to quickly and cost-effectively build your instant messaging app.</p>
-                        <p style={{ textAlign: 'left' }}>Using Our WhatsApp clone app is a smart way to enter the competitive world of instant messaging apps. With its speed, affordability, and customization options, it allows you to create a platform to connect users around the world.</p>
+                        <p style={{ textAlign: 'left' }}>A WhatsApp Clone is a ready-made software solution for developing an instant messaging and communication platform. Users can exchange text messages, create private and group conversations, share photos and documents, make calls, publish temporary updates, and manage their privacy preferences.</p>
+                        <p style={{ textAlign: 'left' }}>The solution can include Android and iOS applications, responsive web access, user-account management, notification services, media storage, communication tools, and an administration dashboard. Starting with a customizable foundation can reduce the time and resources required to build essential messaging features from the beginning.</p>
                       </div>
                     </header>
+                    <a href="/schedule-free-demo" className="btn btn-solid btn-sm circle btn-bordered border-thin">
+                      <span>
+                        <span className="btn-txt">Schedule a Messaging App Demo</span>
+                        <span className="btn-icon"><i className="fas fa-calendar-alt"></i></span>
+                      </span>
+                    </a>
                   </Reveal>
                 </div>
               </div>

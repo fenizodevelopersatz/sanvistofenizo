@@ -12,26 +12,29 @@ export default function GojekHero() {
                 <Reveal as="div" className="wpb_wrapper-inner" duration={1.2}>
                   <div className="ld-fancy-heading text-center">
                     <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> <span style={{ color: '#17b776' }}>Gojek Clone</span> #1 On Demand Super App</span>
+                      <span className="ld-fh-txt"> <span style={{ color: '#17b776' }}>Gojek Clone</span> for Launching an On-Demand Super App</span>
                     </h1>
                   </div>
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
                       <p style={{ textAlign: 'center' }}>
-                        <span style={{ fontWeight: 400 }}>Gojek Clone Script is an ideal solution for launching an ultimate on-demand multi-service app to enter the service industry instantly.</span>
+                        <span style={{ fontWeight: 400 }}>Build a branded multi-service platform with CloneScript and make essential services available through one convenient application. Connect customers with stores, drivers, delivery partners, skilled professionals, service companies, and vehicle owners through a centralized digital ecosystem.</span>
+                      </p>
+                      <p style={{ textAlign: 'center' }}>
+                        <span style={{ fontWeight: 400 }}>The Gojek Clone can be customized according to your business model, service categories, target locations, preferred payment methods, commission structure, visual identity, and long-term growth plans.</span>
                       </p>
                     </div>
                   </div>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">Live Demo</span>
+                      <span className="btn-txt">Explore Live Demo</span>
                       <span className="btn-icon"><i className="fas fa-eye"></i></span>
                     </span>
                   </a>
                   <a href="#prices" className="btn btn-default btn-sm circle btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">View Prices</span>
+                      <span className="btn-txt">View Packages</span>
                       <span className="btn-icon"><i className="fas fa-dollar-sign"></i></span>
                     </span>
                   </a>

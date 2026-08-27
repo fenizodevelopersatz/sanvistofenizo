@@ -64,7 +64,7 @@ export default function MainFeaturesRoles() {
                       </p>
                     </div>
                     <header className="fancy-title text-center">
-                      <p>Discover Powerful Fiverr Clone Script&rsquo;s Features</p>
+                      <p>The platform includes dedicated functionality for clients, freelancers, and administrators.</p>
                     </header>
                   </div>
                 </div>

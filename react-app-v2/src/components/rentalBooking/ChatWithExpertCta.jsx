@@ -8,7 +8,7 @@ export default function ChatWithExpertCta() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h3>Get a Ready-to-Use Rental Booking Script Quickly</h3>
+                    <h3>Launch Your Rental Booking Platform Faster</h3>
                   </header>
                   <div className="vc_btn3-container vc_btn3-inline vc_do_btn">
                     <button
@@ -17,7 +17,7 @@ export default function ChatWithExpertCta() {
                       className="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-icon-right"
                       onClick={() => window.tidioChatApi?.open()}
                     >
-                      Chat With Expert <i className="vc_btn3-icon fas fa-comments"></i>
+                      Chat with a Rental Platform Expert <i className="vc_btn3-icon fas fa-comments"></i>
                     </button>
                   </div>
                 </div>

@@ -10,11 +10,11 @@ export default function AllInOneSuperApp() {
               <div className="wpb_wrapper">
                 <Reveal as="div" className="wpb_wrapper-inner" direction="left">
                   <header className="fancy-title">
-                    <h2>All-in-One Super App</h2>
+                    <h2>All-in-One Multi-Service Super App</h2>
                     <h3>Key to Rule the Multi-Service Market</h3>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Gojek Clone is a multi-service app solution that lets entrepreneurs offer a wide range of services like parcel delivery, eCommerce, car rental, multi-vendor services, on-demand services, and all types of delivery services.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>Our Gojek Clone App Development has everything an entrepreneur needs to execute a successful multi-service platform seamlessly.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>The Gojek Clone can combine shopping, transportation, delivery, professional assistance, parcel handling, and vehicle rental functions within one connected website and mobile application.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Customers can access several services through one profile, payment environment, and booking history. Administrators can manage the different modules without maintaining separate business systems.</span></p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">

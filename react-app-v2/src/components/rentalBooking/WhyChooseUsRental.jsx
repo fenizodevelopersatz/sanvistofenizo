@@ -25,9 +25,10 @@ export default function WhyChooseUsRental() {
               <div className="wpb_wrapper">
                 <Reveal as="div" className="wpb_wrapper-inner" direction="right">
                   <header className="fancy-title">
-                    <h2>Why Choose Us?</h2>
+                    <h2>Why Choose CloneScript for Your Rental Booking Platform?</h2>
                     <div className="st-desc">
-                      <p>We provide a powerful and scalable Rental Booking Script that helps businesses launch faster and manage rentals efficiently without technical complexity. Our solution is built with an intuitive interface, advanced rental management features, and secure systems to ensure smooth operations and a seamless user experience.</p>
+                      <p>Launch a white-label rental marketplace with separate functionality for customers, hosts, rental businesses, and administrators. The modular structure allows the platform to support different rental categories, pricing methods, availability rules, payment gateways, languages, and service locations.</p>
+                      <p>Key advantages include customizable marketplace branding, multi-category support, customer and host dashboards, listing and availability management, flexible daily, hourly, weekly, and monthly bookings, secure payment integrations, real-time notifications, ratings and reviews, commission configuration, host payout management, dispute-resolution tools, web, Android, and iOS accessibility, source-code access based on licence terms, and installation and technical support options.</p>
                     </div>
                   </header>
                 </Reveal>

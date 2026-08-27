@@ -10,15 +10,15 @@ export default function WhatIsFiverr() {
               <div className="wpb_wrapper">
                 <Reveal as="div" className="wpb_wrapper-inner" direction="left">
                   <header className="fancy-title">
-                    <h2>What is Fiverr Clone?</h2>
+                    <h2>What Is a Fiverr Clone?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Fiverr Clone is a 100% customizable solution that offers robust features, a user-friendly design, and functionalities similar to Fiverr. Our exclusive freelancer marketplace platform is designed with Android, iOS, and Web applications to meet client business needs and requirements.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>Hire our developers to launch your own Fiverr Clone Script to enrich your freelance marketplace service and earn a profit.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>A Fiverr Clone is a ready-made software solution for creating an online freelance service marketplace. It allows freelancers to create profiles, publish service listings, offer pricing packages, communicate with clients, deliver completed work, and receive payments. Clients can browse services, compare freelancers, post project requirements, place orders, track progress, communicate with sellers, and submit ratings after completion.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>The platform can include responsive web access, Android and iOS applications, separate user dashboards, secure payment options, and centralized administrative controls. Starting with an established software foundation can reduce the time and resources needed to build essential freelance marketplace functionality from the beginning.</span></p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">Schedule now</span>
+                      <span className="btn-txt">Schedule a Marketplace Demo</span>
                       <span className="btn-icon"><i className="fas fa-calendar-alt"></i></span>
                     </span>
                   </a>

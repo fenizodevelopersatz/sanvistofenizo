@@ -25,7 +25,10 @@ import TestimonialRotatorSection from '../../components/footer/TestimonialRotato
 export default function FiverrClonePage() {
   usePageStylesheets(pageStylesheets.fiverrClone)
 
-  useSeo('Fiverr Clone Script | Freelance Marketplace App | CloneScript')
+  useSeo(
+    'Fiverr Clone | Freelance Marketplace by CloneScript',
+    'Launch a customizable Fiverr Clone with gigs, projects, freelancer profiles, secure payments, messaging, reviews, commissions, withdrawals, and admin control.',
+  )
 
   return (
     <main className="content" id="content">
@@ -59,13 +62,16 @@ export default function FiverrClonePage() {
         </section>
 
         <section className="vc_section vc_section-has-fill">
-          <PdfDownloadCta heading="Explore the Complete Features of Our Fiverr Clone App" />
+          <PdfDownloadCta
+            heading="Download the Fiverr Clone Feature Guide"
+            desc="Review the complete functionality available for clients, freelancers, administrators, service listings, projects, payments, communication, reviews, commissions, and withdrawals. The feature guide can help identify which standard functions meet your requirements and which areas may need additional customization."
+          />
         </section>
 
         <section className="vc_section vc_section-has-fill">
           <StandOutFeaturesGrid
-            heading="Standard Features of Fiverr Clone Script"
-            subheading="Essential Features of a Fiverr Clone App Solution for Seamless Process"
+            heading="Standard Features of the Fiverr Clone"
+            subheading="The platform includes essential tools designed to simplify service discovery, project management, communication, transactions, and marketplace administration."
             items={standardFeatures}
             color="#aa67ee"
           />
@@ -77,8 +83,8 @@ export default function FiverrClonePage() {
 
         <section className="vc_section vc_section-has-fill">
           <RevenueBenefits
-            heading="Revenue Benefits"
-            subheading="Unlock Revenue Potential With Our Fiverr Clone Script, Enriched With Smart Earning Models!"
+            heading="Fiverr Clone Monetization and Revenue Streams"
+            subheading="The freelance marketplace can support different income models for building sustainable platform revenue."
             items={revenueBenefits}
             image="/wp-content/uploads/2025/01/Frame-48096599-1.webp"
             color="#aa67ee"
@@ -94,7 +100,7 @@ export default function FiverrClonePage() {
         </section>
 
         <section className="vc_section">
-          <PricingPlans plans={pricingPlans} heading="Pick a Plan" />
+          <PricingPlans plans={pricingPlans} heading="Choose a Suitable Fiverr Clone Plan" />
         </section>
 
         <section className="vc_section z-index-plus vc_section-has-fill">
@@ -103,6 +109,27 @@ export default function FiverrClonePage() {
 
         <section className="vc_section">
           <FaqServerTabs />
+        </section>
+
+        <section className="vc_row wpb_row vc_row-fluid">
+          <div className="ld-container container">
+            <div className="row ld-row">
+              <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1 text-center">
+                <div className="vc_column-inner">
+                  <div className="wpb_wrapper">
+                    <div className="wpb_wrapper-inner">
+                      <p style={{ fontSize: 12, color: '#888', lineHeight: 1.6 }}>
+                        <strong>Trademark Disclaimer:</strong> &ldquo;Fiverr&rdquo; is a trademark owned by its
+                        respective proprietor. The product name is used only to describe the general type of
+                        freelance marketplace functionality offered. This independently developed software is not
+                        affiliated with, sponsored by, or endorsed by Fiverr or its trademark owner.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />

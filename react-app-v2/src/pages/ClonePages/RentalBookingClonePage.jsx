@@ -2,7 +2,7 @@ import { useSeo } from '../../hooks/useSeo.js'
 import { usePageStylesheets } from '../../hooks/usePageStylesheets.js'
 import { pageStylesheets } from '../../data/pageStylesheets.js'
 import {
-  standOutFeatures, addOnFeatures, revenueBenefits, pricingPlans, faqs, customerReviews,
+  standOutFeatures, addOnFeatures, revenueBenefits, pricingPlans, faqs, customerReviews, serverRequirements,
 } from '../../data/rentalBooking/rentalBookingData.js'
 
 import RentalBookingHero from '../../components/rentalBooking/RentalBookingHero.jsx'
@@ -11,6 +11,7 @@ import WhatIsRentalBooking from '../../components/rentalBooking/WhatIsRentalBook
 import WhyChooseUsRental from '../../components/rentalBooking/WhyChooseUsRental.jsx'
 import ChatWithExpertCta from '../../components/rentalBooking/ChatWithExpertCta.jsx'
 import MainFeaturesRoles from '../../components/rentalBooking/MainFeaturesRoles.jsx'
+import PdfDownloadCta from '../../components/shared/PdfDownloadCta.jsx'
 import StandOutFeaturesGrid from '../../components/shared/StandOutFeaturesGrid.jsx'
 import RentalEcosystem from '../../components/rentalBooking/RentalEcosystem.jsx'
 import SimpleIconGrid from '../../components/shared/SimpleIconGrid.jsx'
@@ -21,13 +22,17 @@ import PricingPlans from '../../components/shared/PricingPlans.jsx'
 import MoneyBackGuarantee from '../../components/shared/MoneyBackGuarantee.jsx'
 import AppScreens from '../../components/rentalBooking/AppScreens.jsx'
 import FaqAccordion from '../../components/shared/FaqAccordion.jsx'
+import SimpleListSection from '../../components/shared/SimpleListSection.jsx'
 import ReviewCards from '../../components/shared/ReviewCards.jsx'
 import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 export default function RentalBookingClonePage() {
   usePageStylesheets(pageStylesheets.rentalBookingScript)
 
-  useSeo('Rental Booking Script | Best Booking Clone | CloneScript')
+  useSeo(
+    'Rental Booking Solution | Scalable Rental Management Platform',
+    'Launch a customizable Rental Booking Script with listings, availability calendars, instant reservations, secure payments, host tools, commissions, and powerful admin controls.',
+  )
 
   return (
     <main className="content" id="content">
@@ -53,10 +58,15 @@ export default function RentalBookingClonePage() {
           <MainFeaturesRoles />
         </section>
 
+        <PdfDownloadCta
+          heading="Download the Rental Booking Feature Guide"
+          desc="Review the complete functionality available for customers, hosts, vendors, administrators, listings, reservations, availability, payments, commissions, and payouts. The feature guide can help identify the standard capabilities suitable for your business and the additional customization required for your rental model."
+        />
+
         <section className="vc_section vc_section-has-fill">
           <StandOutFeaturesGrid
-            heading="Standard Features of Rental Booking Script"
-            subheading="Our Rental Booking System is designed with powerful features to elevate and streamline your rental business."
+            heading="Standard Features of the Rental Booking Script"
+            subheading="The platform includes essential functionality designed to simplify rental discovery, reservations, availability, communication, and payments."
             items={standOutFeatures}
             color="#0077ff"
           />
@@ -69,8 +79,8 @@ export default function RentalBookingClonePage() {
         <section className="vc_section vc_section-has-fill">
           <SimpleIconGrid
             items={addOnFeatures}
-            title="Add-On Features of Rental Booking Script"
-            desc="Our Rental Booking Script provides add-on features to help manage operations better and scale with confidence."
+            title="Additional Rental Booking Features"
+            desc="Extend the rental marketplace with advanced functionality for search, communication, verification, payments, pricing, and business management."
             columns={5}
             iconColor="#0077ff"
           />
@@ -78,8 +88,8 @@ export default function RentalBookingClonePage() {
 
         <section className="vc_section vc_section-has-fill">
           <RevenueBenefits
-            heading="Revenue Benefits"
-            subheading="A revenue-focused Rental Booking solution that helps you grow income while delivering a seamless booking experience."
+            heading="Rental Booking Monetization and Revenue Streams"
+            subheading="The rental platform can support different earning models for generating sustainable business revenue."
             items={revenueBenefits}
             image="/wp-content/uploads/2026/01/revenue.webp"
             color="#0077ff"
@@ -114,7 +124,7 @@ export default function RentalBookingClonePage() {
                         </header>
                         <a href="/schedule-free-demo" target="_blank" rel="noreferrer" className="btn btn-solid btn-sm circle btn-bordered border-thin">
                           <span>
-                            <span className="btn-txt">Schedule now</span>
+                            <span className="btn-txt">Schedule a Consultation</span>
                             <span className="btn-icon"><i className="fas fa-calendar-alt"></i></span>
                           </span>
                         </a>
@@ -159,7 +169,7 @@ export default function RentalBookingClonePage() {
           </section>
 
           <MoneyBackGuarantee />
-          <PricingPlans plans={pricingPlans} heading="Pick a Plan" />
+          <PricingPlans plans={pricingPlans} heading="Choose a Suitable Rental Booking Plan" />
         </section>
 
         <section className="vc_section vc_section-has-fill">
@@ -168,10 +178,41 @@ export default function RentalBookingClonePage() {
 
         <section className="vc_section">
           <FaqAccordion
-            heading="Have Doubts? Get Answers Right Here"
-            subheading="Explore our comprehensive FAQ section to get all the insights you need about our Rental Booking Script."
+            heading="Frequently Asked Questions About the Rental Booking Script"
+            subheading="Find Answers to Common Rental Platform Questions"
             faqs={faqs}
           />
+        </section>
+
+        <SimpleListSection
+          heading="Rental Booking Script Server Requirements"
+          intro={serverRequirements.intro}
+          items={serverRequirements.items}
+          closing={serverRequirements.outro}
+          columns={3}
+        />
+
+        <section className="vc_row wpb_row vc_row-fluid">
+          <div className="ld-container container">
+            <div className="row ld-row">
+              <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1 text-center">
+                <div className="vc_column-inner">
+                  <div className="wpb_wrapper">
+                    <div className="wpb_wrapper-inner">
+                      <p style={{ fontSize: 12, color: '#888', lineHeight: 1.6 }}>
+                        <strong>Platform Disclaimer:</strong> The platform provides the technical infrastructure required
+                        to manage rental listings and reservations. Rental providers remain responsible for the accuracy,
+                        legality, availability, condition, insurance, and safety of the assets they publish. Business
+                        owners should establish clear rental policies, cancellation terms, user-verification procedures,
+                        payment rules, and dispute-resolution processes that comply with the laws applicable to their
+                        operating locations.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />

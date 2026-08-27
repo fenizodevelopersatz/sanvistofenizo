@@ -14,10 +14,10 @@ export default function BusinessOpportunities() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title text-center">
-                    <h2>Business Opportunities Using Our Gojek Clone</h2>
+                    <h2>Business Opportunities with the Gojek Clone</h2>
                     <div className="st-desc">
                       <p style={{ textAlign: 'center' }}>
-                        <span style={{ fontWeight: 400 }}>Get a One-Stop Gojek Clone Solution — Tap into the On-Demand Service Industry with our Various Business Ideas!</span>
+                        <span style={{ fontWeight: 400 }}>The modular platform can support different on-demand business categories and local service models.</span>
                       </p>
                     </div>
                   </header>

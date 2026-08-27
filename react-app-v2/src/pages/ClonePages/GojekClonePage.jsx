@@ -24,7 +24,10 @@ import TestimonialRotatorSection from '../../components/footer/TestimonialRotato
 export default function GojekClonePage() {
   usePageStylesheets(pageStylesheets.gojekClone)
 
-  useSeo('Gojek Clone - #1 On-Demand Multi Service App Solution | CloneScript')
+  useSeo(
+    'Gojek Clone | Multi-Service Super App by CloneScript',
+    'Launch a customizable Gojek Clone with ride booking, eCommerce, food delivery, parcel services, professional bookings, vehicle rentals, payments, and admin control.'
+  )
 
   return (
     <main className="content" id="content">
@@ -41,11 +44,14 @@ export default function GojekClonePage() {
 
         <ServiceOfferTabs />
 
-        <PdfDownloadCta heading="Explore the Extended Features of Our Gojek Clone App" />
+        <PdfDownloadCta
+          heading="Download the Gojek Clone Feature Guide"
+          desc="Review the complete functionality available for customers, vendors, drivers, delivery partners, providers, workers, vehicle owners, and administrators."
+        />
 
         <StandOutFeaturesGrid
-          heading="Standard Features of Gojek Clone App"
-          subheading="Our Gojek App Clone comes with all the essential features of a multi-service super app"
+          heading="Standard Features of the Gojek Clone"
+          subheading="The solution includes essential functions designed to improve communication, convenience, accessibility, order management, and service delivery."
           items={standardFeatures}
         />
 
@@ -54,14 +60,14 @@ export default function GojekClonePage() {
         </section>
 
         <StandOutFeaturesGrid
-          heading="Add on Features of Gojek Clone Script"
-          subheading="Enhance your App like Gojek with our robust add-on features, designed to give you a competitive edge and provide a better, more personalized user experience."
+          heading="Additional Gojek Clone Features"
+          subheading="Extend the platform with advanced tools for branding, analytics, promotions, rewards, module management, and merchant operations."
           items={addOnFeatures}
         />
 
         <RevenueBenefits
-          heading="Revenue Benefits"
-          subheading="Monetize Smarter with the Built-in Earning Strategies of Our Robust Gojek Clone"
+          heading="Gojek Clone Monetization and Revenue Streams"
+          subheading="The multi-service platform can support several earning methods for building sustainable business revenue."
           items={revenueBenefits}
           image="/wp-content/uploads/2025/04/Group-48098091.png"
         />
@@ -74,7 +80,10 @@ export default function GojekClonePage() {
                   <div className="wpb_wrapper">
                     <div className="wpb_wrapper-inner">
                       <header className="fancy-title text-center">
-                        <h2>Technology We Used</h2>
+                        <h2>Technology Used for Gojek Clone Development</h2>
+                        <div className="st-desc">
+                          <p style={{ textAlign: 'center' }}>The solution can use modern web, mobile, database, cloud, mapping, payment, communication, and reporting technologies.</p>
+                        </div>
                       </header>
                       <div className="wpb_single_image wpb_content_element vc_align_center">
                         <figure className="wpb_wrapper vc_figure">
@@ -94,13 +103,14 @@ export default function GojekClonePage() {
         <section className="vc_section">
           <BusinessOpportunities />
           <LaunchCta
-            heading="Stop Waiting. Start Building App like Gojek Today!"
+            heading="Start Your Multi-Service Business"
+            desc="Turn your super-app concept into a customizable web and mobile platform. Start with essential services and introduce more categories as your users, providers, vendors, and operating locations increase."
             image="/wp-content/uploads/2025/08/gojek-today.webp"
             imageAlt="Gojek clone app preview"
           />
         </section>
 
-        <PricingPlans plans={pricingPlans} heading="Pick a Plan" />
+        <PricingPlans plans={pricingPlans} heading="Choose a Suitable Gojek Clone Plan" />
         <MoneyBackGuarantee />
 
         <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
@@ -111,7 +121,10 @@ export default function GojekClonePage() {
                   <div className="wpb_wrapper">
                     <div className="wpb_wrapper-inner">
                       <header className="fancy-title text-center">
-                        <h2>Gojek Clone App Screens</h2>
+                        <h2>Gojek Clone Mobile Application Screens</h2>
+                        <div className="st-desc">
+                          <p style={{ textAlign: 'center' }}>Preview the important interfaces available across customer, merchant, driver, delivery, worker, provider, and rental applications.</p>
+                        </div>
                       </header>
                       <div className="row ld-row" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 20 }}>
                         {appScreens.map((src, i) => (

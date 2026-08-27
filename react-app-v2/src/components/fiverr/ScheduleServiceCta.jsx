@@ -25,11 +25,11 @@ export default function ScheduleServiceCta() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h3>Get Our Services To Launch Your Own Fiverr Clone App Now!</h3>
+                    <h3>Launch Your Freelance Marketplace Today</h3>
                   </header>
                   <Link to="/schedule-free-demo" target="_blank" className="btn btn-solid btn-sm circle btn-bordered border-thin">
                     <span>
-                      <span className="btn-txt">Schedule now</span>
+                      <span className="btn-txt">Schedule a Consultation</span>
                       <span className="btn-icon"><i className="fas fa-calendar-alt"></i></span>
                     </span>
                   </Link>

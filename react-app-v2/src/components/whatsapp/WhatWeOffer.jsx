@@ -11,14 +11,14 @@ export default function WhatWeOffer() {
                 <div className="wpb_wrapper">
                   <Reveal as="div" className="wpb_wrapper-inner" direction="left">
                     <header className="fancy-title">
-                      <h2>What do we offer ?</h2>
+                      <h2>What Does the WhatsApp Clone Offer?</h2>
                       <div className="st-desc">
-                        <p>We believe in presenting high-quality products to our users which can be accessed from both the web and mobile apps.</p>
+                        <p>The solution provides communication features that can be accessed through supported mobile applications and responsive web interfaces. It can be configured for personal messaging, business communication, team collaboration, community engagement, customer support, or niche social networks. The design, navigation, colours, icons, features, user roles, and privacy options can be adjusted to create an independent messaging brand.</p>
                       </div>
                     </header>
                     <a href="#schedule_form" className="btn btn-solid round btn-bordered border-thin btn-icon-left" data-localscroll="true">
                       <span>
-                        <span className="btn-txt">Let&rsquo;s Start Today!</span>
+                        <span className="btn-txt">Start Your Messaging App Project</span>
                         <span className="btn-icon"><i className="icon-ion-ios-thumbs-up"></i></span>
                       </span>
                     </a>

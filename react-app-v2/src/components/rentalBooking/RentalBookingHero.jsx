@@ -12,24 +12,24 @@ export default function RentalBookingHero() {
                 <Reveal as="div" className="wpb_wrapper-inner" duration={1.2}>
                   <div className="ld-fancy-heading text-center">
                     <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> Smart <span style={{ color: '#0077ff' }}>Rental Booking Script</span> Solution</span>
+                      <span className="ld-fh-txt"> Smart <span style={{ color: '#0077ff' }}>Rental Booking Script</span> for Online Rental Businesses</span>
                     </h1>
                   </div>
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
-                      <p>Launch a powerful on-demand rental booking platform quickly with our ready-made Rental Booking Script, designed for seamless reservations and faster business growth.</p>
+                      <p>Build a flexible online rental marketplace with CloneScript and connect customers searching for rentable properties, vehicles, spaces, equipment, and other assets with trusted hosts and rental providers. The Rental Booking Script can be customized around your rental category, target locations, booking process, pricing rules, commission structure, payment methods, visual identity, and long-term business goals.</p>
                     </div>
                   </div>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin btn-gradient" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">Live Demo</span>
+                      <span className="btn-txt">Explore Live Demo</span>
                       <span className="btn-icon"><i className="fa fa-solid fa-eye"></i></span>
                     </span>
                   </a>
                   <a href="#prices" className="btn btn-default btn-sm circle btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">View Prices</span>
+                      <span className="btn-txt">View Packages</span>
                       <span className="btn-icon"><i className="fa fa-solid fa-dollar-sign"></i></span>
                     </span>
                   </a>

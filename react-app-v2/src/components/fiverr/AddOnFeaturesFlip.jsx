@@ -10,9 +10,9 @@ export default function AddOnFeaturesFlip() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title text-center">
-                    <h2>Add on Features</h2>
+                    <h2>Additional Fiverr Clone Features</h2>
                     <div className="st-desc">
-                      <p style={{ textAlign: 'center' }}>Some Free Add-On Features That Can Further Enhance Your Fiverr Clone App</p>
+                      <p style={{ textAlign: 'center' }}>Extend the freelance marketplace with features for branding, user verification, invoicing, advertising, promotion, and financial administration.</p>
                     </div>
                   </header>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>

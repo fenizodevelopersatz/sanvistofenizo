@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { faqs, serverRequirements, folderPermissions } from '../../data/fiverr/fiverrData.js'
+import { faqs, serverRequirements } from '../../data/whatsapp/whatsappData.js'
 
 function FaqPanel() {
   const [openIndex, setOpenIndex] = useState(null)
@@ -12,12 +12,12 @@ function FaqPanel() {
           <div className="wpb_wrapper">
             <div className="wpb_wrapper-inner">
               <header className="fancy-title">
-                <p>Frequently Asked Questions About the Fiverr Clone</p>
-                <h3>Find Answers to Common Freelance Marketplace Questions</h3>
+                <p>Frequently Asked Questions About the WhatsApp Clone</p>
+                <h3>Find Answers to Common Messaging-App Questions</h3>
               </header>
               <header className="fancy-title">
-                <p>Fiverr Clone FAQ</p>
-                <h3>Learn more about platform functionality, customization, payments, costs, monetization, source-code access, applications, and technical support.</h3>
+                <p>Frequently Asked Questions</p>
+                <h3>Learn more about functionality, customization, security, calling, mobile applications, cost, source-code access, and technical support.</h3>
               </header>
               <Link to="/contact-us" target="_blank" className="btn btn-solid text-uppercase circle btn-bordered border-thin">
                 <span><span className="btn-txt">Contact</span></span>
@@ -61,7 +61,7 @@ function ServerPanel() {
               <div className="wpb_single_image wpb_content_element vc_align_left">
                 <figure className="wpb_wrapper vc_figure">
                   <div className="vc_single_image-wrapper vc_box_border_grey">
-                    <img src="/wp-content/uploads/2024/12/image-778.webp" className="vc_single_image-img attachment-full" alt="Server Requirement" title="Server Requirement" />
+                    <img src="/wp-content/uploads/2024/12/image-778.webp" className="vc_single_image-img attachment-full" alt="Server Requirement" title="Server Requirement" loading="lazy" />
                   </div>
                 </figure>
               </div>
@@ -75,20 +75,14 @@ function ServerPanel() {
             <div className="wpb_wrapper-inner">
               <div className="wpb_text_column wpb_content_element">
                 <div className="wpb_wrapper">
-                  <p><b>Requirements:</b></p>
-                  <p>{serverRequirements.intro}</p>
+                  {serverRequirements.intro && <p>{serverRequirements.intro}</p>}
+                  <p><strong>Server Requirements:</strong></p>
                   <ul>
                     {serverRequirements.items.map((r) => (
                       <li key={r}>{r}</li>
                     ))}
                   </ul>
-                  <p>{serverRequirements.outro}</p>
-                  <p><strong>Folder Permission Specifications</strong></p>
-                  <ul>
-                    {folderPermissions.map((r) => (
-                      <li key={r}>{r}</li>
-                    ))}
-                  </ul>
+                  {serverRequirements.outro && <p>{serverRequirements.outro}</p>}
                 </div>
               </div>
             </div>

@@ -12,7 +12,7 @@ export default function AppScreens() {
                 <div className="wpb_wrapper-inner">
                   <div className="ld-fancy-heading">
                     <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> Rental Booking Script App Screens</span>
+                      <span className="ld-fh-txt"> Rental Booking Script Application Screens</span>
                     </h2>
                   </div>
                 </div>
@@ -25,11 +25,11 @@ export default function AppScreens() {
 
       <div className="ld-container container-fluid">
         <div className="row ld-row" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: 20 }}>
-          {appScreens.map((src, i) => (
+          {appScreens.map((screen, i) => (
             <div className="wpb_single_image wpb_content_element vc_align_left" key={i}>
               <figure className="wpb_wrapper vc_figure">
                 <div className="vc_single_image-wrapper vc_box_border_grey">
-                  <img src={src} className="vc_single_image-img attachment-full" alt={`Rental Booking Script screen ${i + 1}`} loading="lazy" style={{ maxWidth: '100%' }} />
+                  <img src={screen.src} className="vc_single_image-img attachment-full" alt={screen.alt} loading="lazy" style={{ maxWidth: '100%' }} />
                 </div>
               </figure>
             </div>

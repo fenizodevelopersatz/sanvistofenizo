@@ -25,9 +25,9 @@ export default function WhyChooseUs() {
               <div className="wpb_wrapper">
                 <Reveal as="div" className="wpb_wrapper-inner" direction="right">
                   <header className="fancy-title">
-                    <h2>Why Choose Us?</h2>
+                    <h2>Why Choose CloneScript for Your Fiverr Clone?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Our Fiverr Clone App is designed with multiple features, functionalities, and technologies that can be accessed on iOS, Android, and the website. Hire our skilled developers from CloneScript to launch your own freelancing marketplace platform like Fiverr. Our white-label online freelance marketplace platform is user-friendly for both freelancers and businessmen.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Launch a white-label freelance marketplace with dedicated functionality for clients, freelancers, and administrators. The platform can be accessed through responsive web pages and supported mobile applications. Its modular structure allows new service categories, integrations, payment methods, and revenue options to be introduced as the marketplace expands.</span></p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">

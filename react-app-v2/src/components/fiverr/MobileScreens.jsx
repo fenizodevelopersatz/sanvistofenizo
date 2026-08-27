@@ -1,4 +1,4 @@
-import { mobileScreens } from '../../data/fiverr/fiverrData.js'
+import { mobileScreens, mobileScreensAlt } from '../../data/fiverr/fiverrData.js'
 
 export default function MobileScreens() {
   return (
@@ -11,7 +11,7 @@ export default function MobileScreens() {
                 <div className="wpb_wrapper-inner">
                   <div className="ld-fancy-heading">
                     <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> Fiverr Clone App Mobile App Screens</span>
+                      <span className="ld-fh-txt"> Fiverr Clone Mobile Application Screens</span>
                     </h2>
                   </div>
                 </div>
@@ -27,7 +27,7 @@ export default function MobileScreens() {
             <div className="wpb_single_image wpb_content_element vc_align_left" key={i}>
               <figure className="wpb_wrapper vc_figure">
                 <div className="vc_single_image-wrapper vc_box_border_grey">
-                  <img src={src} className="vc_single_image-img attachment-full" alt={`Fiverr Clone screen ${i + 1}`} loading="lazy" style={{ maxWidth: '100%' }} />
+                  <img src={src} className="vc_single_image-img attachment-full" alt={mobileScreensAlt[i] || `Fiverr Clone screen ${i + 1}`} loading="lazy" style={{ maxWidth: '100%' }} />
                 </div>
               </figure>
             </div>

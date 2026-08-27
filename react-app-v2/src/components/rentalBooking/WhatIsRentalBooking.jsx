@@ -10,15 +10,16 @@ export default function WhatIsRentalBooking() {
               <div className="wpb_wrapper">
                 <Reveal as="div" className="wpb_wrapper-inner" direction="left">
                   <header className="fancy-title">
-                    <h2>What is a Rental Booking Script?</h2>
+                    <h2>What Is a Rental Booking Script?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>A Rental Booking Script is a ready-to-use software solution that helps businesses quickly launch a professional rental booking website or mobile app with robust features, functionalities are inspired by leading rental platforms.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>It reduces development time and cost while delivering a smooth, secure, and user-friendly booking experience. Built for property rentals, vacation homes, vehicle rentals, equipment leasing, and on-demand rental services, it includes advanced search, real-time availability, secure online payments, and centralized management dashboards.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>A Rental Booking Script is a ready-made software solution for developing an online rental website and mobile application. It allows rental providers to create listings, define availability, set prices, manage reservations, communicate with customers, and receive payments.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Customers can search for suitable rentals, compare options, select dates, check availability, complete payments, monitor reservations, and submit reviews. The solution can support different rental industries, including vacation stays, houses, vehicles, boats, event spaces, workspaces, equipment, and other bookable assets. Starting with an established software foundation can reduce the time and resources required to develop core rental functionality from the beginning.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>The platform creates an organized booking process for customers, hosts, and administrators: customers and providers create accounts, hosts publish listings with pricing and availability, and customers search and confirm bookings through a supported payment method. Both sides stay connected through notifications, messaging, and reviews, while administrators oversee listings, reservations, commissions, and payments.</span></p>
                     </div>
                   </header>
                   <a href="/schedule-free-demo" target="_blank" rel="noreferrer" className="btn btn-solid btn-sm circle btn-bordered border-thin btn-gradient">
                     <span>
-                      <span className="btn-txt">Schedule Now</span>
+                      <span className="btn-txt">Schedule a Rental Platform Demo</span>
                       <span className="btn-icon"><i className="fa fa-solid fa-calendar"></i></span>
                     </span>
                   </a>

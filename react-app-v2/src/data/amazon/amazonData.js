@@ -421,9 +421,6 @@ export const changeLog = [
 export const screenshots = [
   '/wp-content/uploads/2025/09/profile.webp',
   '/wp-content/uploads/2025/09/orders.webp',
-  '/wp-content/uploads/2025/09/ecommerce-script-wishlist.webp',
-  '/wp-content/uploads/2025/09/ecommerce-script-single-product.webp',
-  '/wp-content/uploads/2025/09/ecommerce-script-settings.webp',
   '/wp-content/uploads/2025/09/categories.webp',
 ]
 

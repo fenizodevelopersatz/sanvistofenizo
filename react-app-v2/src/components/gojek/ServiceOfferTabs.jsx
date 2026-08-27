@@ -84,9 +84,9 @@ export default function ServiceOfferTabs() {
                 <div className="wpb_wrapper">
                   <div className="wpb_wrapper-inner">
                     <header className="fancy-title text-center">
-                      <h2>What We Offer?</h2>
+                      <h2>What Does the Gojek Clone Offer?</h2>
                       <div className="st-desc">
-                        <p style={{ textAlign: 'center' }}>We Offer Our Gojek Clone With Multiple Users To Meet Your Business Needs Perfectly!</p>
+                        <p style={{ textAlign: 'center' }}>The solution includes dedicated interfaces for every participant involved in the multi-service marketplace.</p>
                       </div>
                     </header>
                   </div>
@@ -119,7 +119,10 @@ export default function ServiceOfferTabs() {
         </div>
       </section>
 
-      <LaunchCta heading="Start your All in One Service App like Gojek With Us!" />
+      <LaunchCta
+        heading="Start Your All-in-One Service Business"
+        desc="Launch a platform where customers can access transportation, delivery, shopping, professional assistance, parcel handling, and rental services without switching between multiple applications. Choose the modules required for your initial launch and activate additional services as your business grows."
+      />
 
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
         <div className="ld-container container">
@@ -134,7 +137,7 @@ export default function ServiceOfferTabs() {
                       </p>
                     </div>
                     <header className="fancy-title text-center">
-                      <p>Dive Into the Cutting-Edge Features of Our Gojek Clone Script</p>
+                      <p>The platform contains separate modules for eCommerce, multi-vendor ordering, on-demand services, parcel delivery, cab booking, and vehicle rentals.</p>
                     </header>
                   </div>
                 </div>

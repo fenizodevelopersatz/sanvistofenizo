@@ -12,9 +12,9 @@ export default function RentalCategoriesCarousel() {
                 <div className="wpb_wrapper">
                   <div className="wpb_wrapper-inner">
                     <header className="fancy-title text-center">
-                      <h2>Solutions for All Your Rental Booking Needs</h2>
+                      <h2>Solutions for Different Rental Booking Needs</h2>
                       <div className="st-desc">
-                        <p style={{ textAlign: 'center' }}>An all-in-one solution to automate reservations, track availability, handle payments, and deliver smooth booking experiences across every rental category effortlessly.</p>
+                        <p style={{ textAlign: 'center' }}>The modular platform can be adapted for different rental, reservation, and travel-related business categories.</p>
                       </div>
                     </header>
                   </div>

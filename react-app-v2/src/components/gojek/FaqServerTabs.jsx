@@ -12,12 +12,12 @@ function FaqPanel() {
           <div className="wpb_wrapper">
             <div className="wpb_wrapper-inner">
               <header className="fancy-title">
-                <p>Queries &amp; Solution</p>
-                <h3>Have Doubts? Get Answers Right Here</h3>
+                <p>Frequently Asked Questions About the Gojek Clone</p>
+                <h3>Find Answers to Common Multi-Service Platform Questions</h3>
               </header>
               <header className="fancy-title">
-                <p>Gojek Clone FAQ</p>
-                <h3>Explore our comprehensive FAQ section to get all the insights you need about our Gojek Clone Script.</h3>
+                <p>Frequently Asked Questions</p>
+                <h3>Learn more about platform functionality, supported services, customization, cost, monetization, source-code access, mobile applications, and technical assistance.</h3>
               </header>
               <Link to="/contact-us" target="_blank" className="btn btn-solid text-uppercase circle btn-bordered border-thin">
                 <span><span className="btn-txt">Contact</span></span>
@@ -75,12 +75,14 @@ function ServerPanel() {
             <div className="wpb_wrapper-inner">
               <div className="wpb_text_column wpb_content_element">
                 <div className="wpb_wrapper">
+                  {serverRequirements.intro && <p>{serverRequirements.intro}</p>}
                   <p><strong>Server Requirements:</strong></p>
                   <ul>
                     {serverRequirements.items.map((r) => (
                       <li key={r}>{r}</li>
                     ))}
                   </ul>
+                  {serverRequirements.outro && <p>{serverRequirements.outro}</p>}
                 </div>
               </div>
             </div>

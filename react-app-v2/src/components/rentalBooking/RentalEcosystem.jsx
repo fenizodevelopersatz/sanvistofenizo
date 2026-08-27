@@ -11,15 +11,15 @@ export default function RentalEcosystem() {
                 <Reveal as="div" className="wpb_wrapper-inner" direction="left">
                   <header className="fancy-title">
                     <h2>Complete Rental Booking Ecosystem</h2>
-                    <h3>Supporting End-to-End Rental Management Operations</h3>
+                    <h3>Supporting End-to-End Rental Operations</h3>
                     <div className="st-desc">
-                      <p>Our Rental Booking Script is a digital solution designed to simplify rental listings, reservations, and availability management through a single unified platform. It supports multiple rental categories, real-time availability updates, flexible pricing options, secure online payments, user dashboards, and complete booking management.</p>
-                      <p>Built to support growing rental operations, this solution enables businesses to manage daily rentals efficiently while adapting to future expansion with ease and confidence.</p>
+                      <p>The Rental Booking Script brings listing management, availability, reservations, communication, payments, commissions, and provider payouts together within one digital platform. Customers can discover and reserve suitable rentals, while hosts can manage assets, pricing, calendars, and earnings from dedicated dashboards.</p>
+                      <p>Administrators can supervise the complete marketplace without relying on separate systems for each part of the rental process. The platform can begin with one rental category and expand into additional business areas as demand grows.</p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin btn-gradient" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">Schedule Demo</span>
+                      <span className="btn-txt">Schedule a Personalized Demo</span>
                       <span className="btn-icon"><i className="fas fa-calendar-alt"></i></span>
                     </span>
                   </a>

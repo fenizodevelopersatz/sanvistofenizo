@@ -13,24 +13,24 @@ export default function FiverrHero() {
                   <Reveal as="div" className="wpb_wrapper-inner" duration={1.2}>
                     <div className="ld-fancy-heading text-center">
                       <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
-                        <span className="ld-fh-txt">Best <span style={{ color: '#ab6bf3' }}>Fiverr Clone</span></span>
+                        <span className="ld-fh-txt"><span style={{ color: '#ab6bf3' }}>Fiverr Clone</span> for Building a Freelance Service Marketplace</span>
                       </h1>
                     </div>
                     <div className="wpb_text_column wpb_content_element">
                       <div className="wpb_wrapper">
-                        <p style={{ textAlign: 'center' }}>Fiverr Clone is a freelance marketplace platform with robust features, secure functionalities, and the ability to meet users&rsquo; business needs.</p>
+                        <p style={{ textAlign: 'center' }}>Build a professional freelance marketplace with CloneScript and connect clients searching for reliable services with skilled freelancers ready to complete their projects. The Fiverr Clone can be customized around your business niche, service categories, visual identity, payment methods, commission structure, user-verification process, and marketplace policies.</p>
                       </div>
                     </div>
                     <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                     <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">
                       <span>
-                        <span className="btn-txt">Live Demo</span>
+                        <span className="btn-txt">Explore Live Demo</span>
                         <span className="btn-icon"><i className="fas fa-eye"></i></span>
                       </span>
                     </a>
                     <a href="#prices" className="btn btn-default btn-sm circle btn-bordered border-thin" data-localscroll="true">
                       <span>
-                        <span className="btn-txt">View Prices</span>
+                        <span className="btn-txt">View Packages</span>
                         <span className="btn-icon"><i className="fas fa-dollar-sign"></i></span>
                       </span>
                     </a>

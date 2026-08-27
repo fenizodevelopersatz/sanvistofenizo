@@ -11,15 +11,17 @@ export default function WhatIsGojek() {
                 <div className="wpb_wrapper">
                   <Reveal as="div" className="wpb_wrapper-inner" direction="left">
                     <header className="fancy-title">
-                      <h2>What is Gojek Clone?</h2>
+                      <h2>What Is a Gojek Clone?</h2>
                       <div className="st-desc">
-                        <p style={{ textAlign: 'left' }}>Gojek Clone is a complete, on-demand multi-service app solution designed to change the service industry. It seamlessly integrates various services, including ride-hailing, food delivery, grocery delivery, and more, into a single, intrusive platform.</p>
-                        <p style={{ textAlign: 'left' }}>Gojek Clone script offers an outstanding user experience and is efficient with its customization features and robust functionality, Entrepreneurs can establish their own multi-service app like Gojek and enter the rapidly growing on-demand service market.</p>
+                        <p style={{ textAlign: 'left' }}>A Gojek Clone is a ready-made software solution for building an on-demand platform that brings multiple services into a single application.</p>
+                        <p style={{ textAlign: 'left' }}>Customers can use one account to order products, book transportation, schedule professional services, arrange parcel deliveries, rent vehicles, and complete payments.</p>
+                        <p style={{ textAlign: 'left' }}>The platform includes dedicated applications or dashboards for customers, merchants, drivers, delivery partners, service providers, workers, vehicle owners, and administrators.</p>
+                        <p style={{ textAlign: 'left' }}>Starting with a customizable software foundation can reduce the time and resources required to develop every multi-service function from the beginning.</p>
                       </div>
                     </header>
                     <a href="/schedule-free-demo" className="btn btn-solid btn-sm circle btn-bordered border-thin">
                       <span>
-                        <span className="btn-txt">Schedule Now</span>
+                        <span className="btn-txt">Schedule a Platform Demo</span>
                         <span className="btn-icon"><i className="fas fa-calendar-alt"></i></span>
                       </span>
                     </a>
@@ -69,9 +71,10 @@ export default function WhatIsGojek() {
                 <div className="wpb_wrapper">
                   <Reveal as="div" className="wpb_wrapper-inner" direction="right">
                     <header className="fancy-title">
-                      <h2>Why Choose Us?</h2>
+                      <h2>Why Choose CloneScript for Your Gojek Clone?</h2>
                       <div className="st-desc">
-                        <p style={{ textAlign: 'left' }}>Enhance your all-in-one multi-service business with our super app like Gojek, developed to help entrepreneurs succeed. Our proficient developers are dedicated to offering a bug-free Gojek Clone App packed with enormous features to offer 20+ services on a single platform.</p>
+                        <p style={{ textAlign: 'left' }}>Launch a flexible super-app solution with responsive web access, Android and iOS applications, multiple service modules, secure payment options, location tracking, communication tools, and centralized administration.</p>
+                        <p style={{ textAlign: 'left' }}>The modular architecture allows you to begin with selected services and introduce additional business categories as your audience and operating regions expand.</p>
                       </div>
                     </header>
                   </Reveal>
