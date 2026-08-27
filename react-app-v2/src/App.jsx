@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout.jsx'
 import MinimalLayout from './components/MinimalLayout.jsx'
 import RouteFallback from './components/RouteFallback.jsx'
+import ResourceUsagePage from './pages/ResourceUsagePage.jsx'
 const HomePage = lazy(() => import('./pages/HomePage.jsx'))
 const ContactUsPage = lazy(() => import('./pages/ContactUsPage.jsx'))
 const ScheduleFreeDemoPage = lazy(() => import('./pages/ScheduleFreeDemoPage.jsx'))
@@ -43,6 +44,7 @@ export default function App() {
           <Route path="/terms-of-service" element={<TermsOfServicePage />} />
           <Route path="/refund-policy" element={<RefundPolicyPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="/resource-usage" element={<ResourceUsagePage />} />
           <Route path="/alibaba-clone" element={<AlibabaClonePage />} />
           <Route path="/vinted-clone" element={<VintedClonePage />} />
           <Route path="/zillow-clone" element={<ZillowClonePage />} />

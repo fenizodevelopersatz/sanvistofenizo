@@ -187,4 +187,10 @@ export const pageStylesheets = {
     '/wp-content/litespeed/css/7bc6d89b3d2905faa79fed5d3dba86ce.css',
     ...TYPOGRAPHY_OVERRIDE,
   ],
+  // resourceUsage is an internal report page with no original WPBakery export --
+  // same situation as termsOfService above.
+  resourceUsage: [
+    '/wp-content/litespeed/css/7bc6d89b3d2905faa79fed5d3dba86ce.css',
+    ...TYPOGRAPHY_OVERRIDE,
+  ],
 }

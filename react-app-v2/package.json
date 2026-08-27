@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 4000",
     "build": "vite build",
+    "prebuild": "node tools/image-replacer/scan.js",
     "lint": "oxlint src",
     "preview": "vite preview",
     "images:scan": "node tools/image-replacer/scan.js"
