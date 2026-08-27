@@ -12,12 +12,12 @@ function FaqPanel() {
           <div className="wpb_wrapper">
             <div className="wpb_wrapper-inner">
               <header className="fancy-title">
-                <p>Queries &amp; Solutions</p>
-                <h3>Have Doubts? Get Answers Right Here</h3>
+                <p>Frequently Asked Questions About the Airbnb Clone Script</p>
+                <h3>Find Answers to Common Vacation Rental Questions</h3>
               </header>
               <header className="fancy-title">
-                <p>Airbnb Clone FAQ</p>
-                <h3>Clear all your doubts about our Airbnb Clone Script with our extensive FAQ section.</h3>
+                <p>Frequently Asked Questions</p>
+                <h3>Learn more about the platform&rsquo;s purpose, functionality, customization, benefits, costs, payments, and technical requirements.</h3>
               </header>
               <Link to="/contact-us" target="_blank" className="btn btn-solid text-uppercase circle btn-bordered border-thin">
                 <span><span className="btn-txt">Contact</span></span>
@@ -75,12 +75,14 @@ function ServerPanel() {
             <div className="wpb_wrapper-inner">
               <div className="wpb_text_column wpb_content_element">
                 <div className="wpb_wrapper">
+                  {serverRequirements.intro && <p>{serverRequirements.intro}</p>}
                   <p><b>Requirements:</b></p>
                   <ul>
-                    {serverRequirements.map((r) => (
+                    {serverRequirements.items.map((r) => (
                       <li key={r}>{r}</li>
                     ))}
                   </ul>
+                  {serverRequirements.outro && <p>{serverRequirements.outro}</p>}
                   <p><strong>Folder Permission Specifications</strong></p>
                   <ul>
                     {folderPermissions.map((r) => (
@@ -106,6 +108,7 @@ function ChangeLogPanel() {
             <div className="wpb_wrapper-inner">
               <div className="wpb_text_column wpb_content_element">
                 <div className="wpb_wrapper">
+                  <h3 style={{ marginBottom: 16 }}>Platform Version History</h3>
                   {changeLog.map((entry, i) => (
                     <div key={i} style={{ marginBottom: 20 }}>
                       <h5 style={{ fontSize: 18, color: '#111111', textAlign: 'left' }} className="vc_custom_heading">

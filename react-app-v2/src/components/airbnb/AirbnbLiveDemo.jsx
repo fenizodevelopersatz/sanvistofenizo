@@ -8,7 +8,10 @@ export default function AirbnbLiveDemo() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title text-center">
-                    <h2>Live Demo</h2>
+                    <h2>Airbnb Clone Script Live Demo</h2>
+                    <div className="st-desc">
+                      <p style={{ textAlign: 'center' }}>Explore the platform through separate guest, host, and administrator interfaces.</p>
+                    </div>
                   </header>
                 </div>
               </div>
@@ -28,7 +31,12 @@ export default function AirbnbLiveDemo() {
                       <div className="vc_column-inner">
                         <div className="wpb_wrapper">
                           <div className="wpb_wrapper-inner">
-                            <header className="fancy-title"><h4>User / Host Dashboard</h4></header>
+                            <header className="fancy-title">
+                              <h4>Guest and Host Dashboard</h4>
+                              <div className="st-desc">
+                                <p>Review property search, reservations, messages, trips, listings, calendars, earnings, and account settings.</p>
+                              </div>
+                            </header>
                             <div className="iconbox iconbox-inline">
                               <div className="iconbox-icon-wrap"><span className="iconbox-icon-container"><i className="fa fa-solid fa-circle-user"></i></span></div>
                               <h3 className="font-weight-normal">User : <a href="mailto:albert@demo.com">albert@demo.com</a></h3>
@@ -83,7 +91,12 @@ export default function AirbnbLiveDemo() {
                       <div className="vc_column-inner">
                         <div className="wpb_wrapper">
                           <div className="wpb_wrapper-inner">
-                            <header className="fancy-title"><h4>Admin Panel</h4></header>
+                            <header className="fancy-title">
+                              <h4>Administration Panel</h4>
+                              <div className="st-desc">
+                                <p>Explore user management, property moderation, reservations, payments, service fees, reports, disputes, and platform configurations.</p>
+                              </div>
+                            </header>
                             <div className="iconbox iconbox-inline">
                               <div className="iconbox-icon-wrap"><span className="iconbox-icon-container"><i className="fa fa-solid fa-circle-user"></i></span></div>
                               <h3 className="font-weight-normal">User : <a href="mailto:admin@gmail.com">admin@gmail.com</a></h3>

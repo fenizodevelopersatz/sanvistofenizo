@@ -1,27 +1,27 @@
 export const whyChooseUsPoints = [
-  ['100% Garandeed to ', 'Launch within 7 Days', ''],
-  ['Free Installation with ', 'Start Earning Instantly', ''],
-  ['100% Customizable and ', 'Free Renewal Charges', ''],
-  ['Built to Grow with Your Business – ', 'Scalable, Reliable', ''],
+  ['Fast Platform Deployment – ', 'Launch on an Agreed Schedule', ''],
+  ['Installation Assistance – ', 'Server and Configuration Support', ''],
+  ['Flexible Customization – ', 'Colours, Content, and Workflows', ''],
+  ['Scalable Rental Architecture – ', 'Grows With Your Business', ''],
 ]
 
 export const aiFeatures = [
-  { image: '/wp-content/uploads/2026/01/ai-content-generator.webp', title: 'AI Content Generator', desc: 'Automatically creates engaging, SEO-friendly property descriptions that attract more bookings.' },
-  { image: '/wp-content/uploads/2026/01/ai-price-optimizer.webp', title: 'AI Price Optimizer', desc: 'This helps automatically adjust pricing based on seasons, demands, and festival trends to increase revenue.' },
-  { image: '/wp-content/uploads/2026/01/ai-chatbox.webp', title: 'AI Chatbot Assistant', desc: 'Offers 24/7 real-time support, answers guest queries, and handles bookings without any manual effort.' },
-  { image: '/wp-content/uploads/2026/01/property.webp', title: 'Smart Property Picks', desc: 'Delivers personalized property recommendations based on users’ behaviour, preferences.' },
+  { image: '/wp-content/uploads/2026/01/ai-content-generator.webp', title: 'AI Property Description Generator', desc: 'Help hosts create clear, engaging, and search-friendly property descriptions using basic listing information.' },
+  { image: '/wp-content/uploads/2026/01/ai-price-optimizer.webp', title: 'Intelligent Price Optimization', desc: 'Recommend or adjust rental prices according to demand, availability, seasons, weekends, festivals, and booking patterns.' },
+  { image: '/wp-content/uploads/2026/01/ai-chatbox.webp', title: 'AI Chatbot Assistance', desc: 'Provide quick answers to common guest and host questions at any time, reducing repetitive support work.' },
+  { image: '/wp-content/uploads/2026/01/property.webp', title: 'Personalized Property Recommendations', desc: 'Suggest relevant stays based on a guest’s location, previous searches, interests, budget, and booking behaviour.' },
 ]
 
 export const comparisonLabels = [
   'Business Model',
   'Development Process',
-  'Pricing Transparency',
-  'Launch Timeline',
-  'Payment Model',
+  'Transparent Project Pricing',
+  'Defined Launch Timeline',
+  'Flexible Payment Model',
   'AI Content Creation',
   'AI Pricing Strategy',
   'AI Customer Support',
-  'AI Platform Experience',
+  'Personalized Platform Experience',
 ]
 
 export const comparisonOurs = [
@@ -49,16 +49,20 @@ export const comparisonOthers = [
 ]
 
 export const exclusiveBenefits = [
-  { image: '/wp-content/uploads/2026/01/zero-cost.webp', title: 'Zero-Cost Setup', desc: 'Enjoy complete setup support and free installation, so your Airbnb clone platform is ready to launch without any hidden charges.' },
-  { image: '/wp-content/uploads/2026/01/free-demo.webp', title: 'Free 1:1 Demo + Bonus', desc: 'Explore a personalized live demo with our product expert, receive guidance, understand all features to launch your dream platform.' },
-  { image: '/wp-content/uploads/2026/01/limited_time.webp', title: 'Limited-Time Early Access', desc: 'Unlock special features, exclusive tools, and early-bird offers for a limited time—giving your vacation rental business a head start.' },
+  { image: '/wp-content/uploads/2026/01/zero-cost.webp', title: 'Assisted Platform Setup', desc: 'Receive installation and configuration assistance to prepare the vacation-rental marketplace for launch.' },
+  { image: '/wp-content/uploads/2026/01/free-demo.webp', title: 'Personalized Product Demonstration', desc: 'Review the platform with a product specialist and understand how its guest, host, booking, payment, and administration features operate.' },
+  { image: '/wp-content/uploads/2026/01/limited_time.webp', title: 'Early Access to New Capabilities', desc: 'Receive eligible access to recently introduced functionality, improvements, or promotional packages according to the selected plan.' },
 ]
 
 export const revenueBenefits = [
-  { icon: 'fa fa-solid fa-certificate', title: 'Host Fee', desc: 'The admin can charge hosts a commission for each booking made through the platform. The admin determines the percentage of this fee.' },
-  { icon: 'fa fa-solid fa-rectangle-ad', title: 'Property Rent', desc: 'Hosts earn income by renting out their properties through the vacation rental platform.' },
-  { icon: 'fa fa-solid fa-hand-holding-dollar', title: 'Guest Fee', desc: 'Guests pay a service fee to the admin for booking properties and accessing platform features.' },
-  { icon: 'fa fa-solid fa-sack-dollar', title: 'Host Penalty', desc: 'Hosts must pay a penalty to the admin if they fail to respond to guest messages within a specified time frame.' },
+  { icon: 'fa fa-solid fa-certificate', title: 'Host Service Fee', desc: 'Charge property owners a fixed amount or percentage for each successful reservation completed through the platform.' },
+  { icon: 'fa fa-solid fa-rectangle-ad', title: 'Property Rental Income', desc: 'Allow hosts to earn revenue by making eligible homes, apartments, villas, rooms, or vacation properties available to guests.' },
+  { icon: 'fa fa-solid fa-hand-holding-dollar', title: 'Guest Booking Fee', desc: 'Collect a service charge from travellers when they confirm reservations or use selected platform services.' },
+  { icon: 'fa fa-solid fa-sack-dollar', title: 'Host Penalty Charges', desc: 'Apply configured penalties when hosts violate eligible booking, response, cancellation, or marketplace conditions.' },
+  { icon: 'fa fa-solid fa-star', title: 'Featured Property Promotions', desc: 'Allow hosts to pay for enhanced visibility in search results, destination pages, or promotional areas.' },
+  { icon: 'fa fa-solid fa-id-card', title: 'Host Membership Plans', desc: 'Offer subscription packages with different property limits, commissions, visibility benefits, and management tools.' },
+  { icon: 'fa fa-solid fa-bullhorn', title: 'Advertising Revenue', desc: 'Create suitable advertising spaces for travel brands, local services, property managers, and related businesses.' },
+  { icon: 'fa fa-solid fa-concierge-bell', title: 'Value-Added Guest Services', desc: 'Generate additional revenue through optional services such as cleaning, transportation, activities, or property-management support.' },
 ]
 
 export const testimonials = [
@@ -79,23 +83,34 @@ export const pricingPlans = [
 ]
 
 export const faqs = [
-  { q: 'What is Airbnb Clone?', a: 'Airbnb clone is a ready-made software solution that replicates the robust features, seamless functionalities of the trending vacation rental App Airbnb.' },
-  { q: 'What is Airbnb Clone Script?', a: 'Airbnb clone is a pre-built vacation rental software solution that replicates the robust features and functionalities of Airbnb, which connects guests and hosts and supports them to list, book, and manage properties without any flaws. Airbnb clone script helps startups to launch their own vacation rental platform at an affordable cost.' },
-  { q: 'Is the Airbnb Clone is Customizable?', a: 'Yes, once you get the platform from us, you can change and modify the design, colour everything based on desired business needs, and your wishes. Airbnb clone app development is a 100% customizable software solution.' },
-  { q: 'Why do Entrepreneurs Choose Airbnb Clone Scripts?', a: 'Airbnb clones are the best and famous vacation rental marketplace that helps entrepreneurs launch their script with a budget-friendly script. An App like Airbnb is designed with robust features, and functionalities are similar to Airbnb.' },
-  { q: 'What are the Benefits of Launching an Airbnb Clone Script?', a: 'An Airbnb Clone Script helps startups to build their own business with a low-cost investment. It includes proven features like multiple payment gateways, a booking engine, advanced search filters, iCal sync, and in-app communication tools.' },
-  { q: 'How Much Does it Cost to Develop an App Like Airbnb?', a: 'The Airbnb Clone App Development cost is different based on their business requirement for the features and advanced tools.' },
+  { q: 'What Is an Airbnb Clone?', a: 'An Airbnb Clone is a ready-made vacation-rental marketplace solution that connects guests looking for accommodation with hosts offering properties.' },
+  { q: 'What Is an Airbnb Clone Script?', a: 'It is a customizable software foundation containing the essential functionality required for property listings, availability, reservations, payments, messaging, and marketplace management.' },
+  { q: 'Can the Platform Be Customized?', a: 'Yes. The design, colours, pages, property categories, booking conditions, service fees, payment methods, languages, and workflows can be customized.' },
+  { q: 'Why Do Entrepreneurs Choose a Ready-Made Rental Script?', a: 'A ready-made foundation can reduce the time and cost required to develop essential marketplace functionality from the beginning.' },
+  { q: 'What Are the Benefits of Launching an Airbnb Clone Script?', a: 'The platform provides tools for property discovery, advanced search, reservation management, multiple payment methods, availability calendars, messaging, and administrative control.' },
+  { q: 'How Much Does It Cost to Develop the Platform?', a: 'The cost depends on the required website, mobile applications, custom features, integrations, design changes, testing, and technical infrastructure.' },
+  { q: 'Can Hosts Manage Multiple Properties?', a: 'Yes. Approved hosts can create and manage several property listings according to the rules and limits configured by the administrator.' },
+  { q: 'Does the Platform Support Multiple Currencies?', a: 'Supported currencies and payment gateways can be integrated according to the target regions and project requirements.' },
+  { q: 'Can Guests Communicate with Hosts?', a: 'An in-app messaging system can allow guests and hosts to discuss availability, check-in, property details, and booking questions.' },
+  { q: 'Does the Platform Include Ratings and Reviews?', a: 'Verified guests can submit eligible ratings and reviews after completing their stays.' },
 ]
 
-export const serverRequirements = [
-  'PHP Above 8.1',
-  'MySQL – 4.x & 5.x',
-  'PDO PHP Extension',
-  'OpenSSL PHP Extension',
-  'Mbstring PHP Extension',
-  'XML PHP Extension',
-  'Tokenizer PHP Extension',
-]
+export const serverRequirements = {
+  intro: 'The Airbnb Clone Script requires a compatible hosting environment that supports the selected application framework, database, and security configuration.',
+  items: [
+    'Supported PHP version',
+    'Compatible MySQL database',
+    'PDO extension',
+    'OpenSSL extension',
+    'Mbstring extension',
+    'XML extension',
+    'Tokenizer extension',
+    'Secure HTTPS certificate',
+    'Adequate memory and SSD storage',
+    'Regular backup configuration',
+  ],
+  outro: 'Specific application folders may require appropriate write permissions for caching, uploaded files, logs, and framework storage.',
+}
 
 export const folderPermissions = [
   'Specify write permission for the listed folders.',

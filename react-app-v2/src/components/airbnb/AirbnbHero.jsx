@@ -11,16 +11,17 @@ export default function AirbnbHero() {
                     <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
                       <span className="ld-fh-txt">
                         {' '}
-                        <span style={{ color: '#fe5337' }}>Ai Powered Airbnb Clone</span>
-                        <br />
-                        Launch Your Own Vacation Rental Marketplace Like Airbnb in 7 Days
+                        <span style={{ color: '#fe5337' }}>AI-Powered Airbnb Clone</span> Script
                       </span>
                     </h1>
                   </div>
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
                       <p style={{ textAlign: 'center' }}>
-                        <span style={{ fontWeight: 400 }}>Ready-made Airbnb Clone Script with website, mobile apps, host panel, guest booking system and admin dashboard.</span>
+                        <span style={{ fontWeight: 400 }}>Launch a branded vacation-rental marketplace with CloneScript. Connect property owners with travellers and manage listings, availability, reservations, payments, messages, reviews, and platform operations through one scalable solution.</span>
+                      </p>
+                      <p style={{ textAlign: 'center' }}>
+                        <span style={{ fontWeight: 400 }}>The platform can include a responsive website, guest and host applications, an administration dashboard, secure payment integrations, and intelligent tools for improving the rental experience.</span>
                       </p>
                     </div>
                   </div>

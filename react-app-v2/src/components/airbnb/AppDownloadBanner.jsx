@@ -8,9 +8,9 @@ export default function AppDownloadBanner() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h3>Get Our Airbnb Clone App Today!</h3>
+                    <h3>Get the Airbnb Clone App for Your Rental Business</h3>
                     <div className="st-desc">
-                      <p><span style={{ color: '#ffffff' }}>Get flawless bookings, smart features, secured and reliable performance at your fingertips via mobile device.</span></p>
+                      <p><span style={{ color: '#ffffff' }}>Offer guests a convenient way to search for properties, check availability, reserve stays, complete payments, and communicate with hosts through their mobile devices.</span></p>
                     </div>
                   </header>
                   <div className="wpb_single_image wpb_content_element vc_align_left">

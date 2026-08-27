@@ -24,20 +24,20 @@ export default function BookDemoCta() {
                 <div className="wpb_wrapper-inner">
                   <div className="ld-fancy-heading">
                     <h2 className="ld-gradient-heading lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> Book a 1:1 Demo</span>
+                      <span className="ld-fh-txt"> Book a Personal Demonstration</span>
                     </h2>
                   </div>
                   <header className="fancy-title">
-                    <h2>Experience Our AI-Powered Airbnb Clone in Action</h2>
+                    <h2>Experience the AI-Powered Airbnb Clone Script</h2>
                     <div className="st-desc">
                       <p style={{ textAlign: 'left' }}>
-                        <span style={{ fontWeight: 400 }}>During the session, you will get the complete features, functionalities, workflows, and real uses of the products teams answer your queries.</span>
+                        <span style={{ fontWeight: 400 }}>Explore the complete vacation-rental workflow through a guided one-to-one demonstration. The demonstration also provides an opportunity to discuss required customizations and third-party integrations.</span>
                       </p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm round btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">Schedule a 1:1 Demo</span>
+                      <span className="btn-txt">Schedule a One-to-One Demo</span>
                     </span>
                   </a>
                 </div>
