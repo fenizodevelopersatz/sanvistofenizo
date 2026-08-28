@@ -11,7 +11,7 @@ export default function MobileScreens() {
                 <div className="wpb_wrapper-inner">
                   <div className="ld-fancy-heading text-center">
                     <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> Online Classified App Like OLX&rsquo;s Mobile Screens</span>
+                      <span className="ld-fh-txt"> OLX Clone Mobile Application Screens</span>
                     </h2>
                   </div>
                 </div>

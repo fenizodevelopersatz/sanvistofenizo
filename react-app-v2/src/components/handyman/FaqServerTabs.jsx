@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { faqs, serverRequirements } from '../../data/tinder/tinderData.js'
+import { faqs, serverRequirements } from '../../data/handyman/handymanData.js'
 
 function FaqPanel() {
   const [openIndex, setOpenIndex] = useState(null)
@@ -12,12 +12,12 @@ function FaqPanel() {
           <div className="wpb_wrapper">
             <div className="wpb_wrapper-inner">
               <header className="fancy-title">
-                <p>Questions & Answers</p>
-                <h3>Have Queries? Get Solutions Right Here</h3>
+                <p>Questions &amp; Answers</p>
+                <h3>Have Doubts? Get Answers Right Here</h3>
               </header>
               <header className="fancy-title">
-                <p>Dating Script FAQ</p>
-                <h3>Get answers for all your queries about our online dating script with our comprehensive FAQ section.</h3>
+                <p>Handyman App Like Uber FAQ</p>
+                <h3>Get answers for all your queries about our exclusive Handyman App Like Uber with our comprehensive FAQ section.</h3>
               </header>
               <Link to="/contact-us" target="_blank" className="btn btn-solid text-uppercase circle btn-bordered border-thin">
                 <span><span className="btn-txt">Contact</span></span>
@@ -75,13 +75,14 @@ function ServerPanel() {
             <div className="wpb_wrapper-inner">
               <div className="wpb_text_column wpb_content_element">
                 <div className="wpb_wrapper">
-                  <p><strong>{serverRequirements.intro}</strong></p>
+                  <p><strong>Server Requirements:</strong></p>
+                  {serverRequirements.intro && <p><span style={{ fontWeight: 400 }}>{serverRequirements.intro}</span></p>}
                   <ul>
                     {serverRequirements.items.map((item) => (
                       <li key={item}>{item}</li>
                     ))}
                   </ul>
-                  <p><span style={{ fontWeight: 400 }}>{serverRequirements.outro}</span></p>
+                  {serverRequirements.outro && <p><span style={{ fontWeight: 400 }}>{serverRequirements.outro}</span></p>}
                 </div>
               </div>
             </div>

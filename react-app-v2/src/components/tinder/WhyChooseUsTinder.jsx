@@ -23,9 +23,9 @@ export default function WhyChooseUsTinder() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h2>Why Choose Us?</h2>
+                    <h2>Why Choose CloneScript for Your Dating Platform?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>CloneScript offers enriched features and a highly customizable Tinder Clone Script designed to assist you in launching a powerful online dating platform with ease. Our white-label solution includes real-time chat, secure user authentication, and responsive web and mobile apps.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Our Dating Script provides a customizable foundation for launching a secure and engaging adults-only matchmaking platform.</span></p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">

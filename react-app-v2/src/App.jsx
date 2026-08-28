@@ -22,6 +22,7 @@ const TuroClonePage = lazy(() => import('./pages/ClonePages/TuroClonePage.jsx'))
 const AirbnbClonePage = lazy(() => import('./pages/ClonePages/AirbnbClonePage.jsx'))
 const RentalBookingClonePage = lazy(() => import('./pages/ClonePages/RentalBookingClonePage.jsx'))
 const UberClonePage = lazy(() => import('./pages/ClonePages/UberClonePage.jsx'))
+const HandymanClonePage = lazy(() => import('./pages/ClonePages/HandymanClonePage.jsx'))
 const GojekClonePage = lazy(() => import('./pages/ClonePages/GojekClonePage.jsx'))
 const SwiggyClonePage = lazy(() => import('./pages/ClonePages/SwiggyClonePage.jsx'))
 const FiverrClonePage = lazy(() => import('./pages/ClonePages/FiverrClonePage.jsx'))
@@ -56,6 +57,7 @@ export default function App() {
           <Route path="/airbnb-clone" element={<AirbnbClonePage />} />
           <Route path="/rental-booking-script" element={<RentalBookingClonePage />} />
           <Route path="/uber-clone" element={<UberClonePage />} />
+          <Route path="/handyman-app-like-uber" element={<HandymanClonePage />} />
           <Route path="/gojek-clone" element={<GojekClonePage />} />
           <Route path="/swiggy-clone" element={<SwiggyClonePage />} />
           <Route path="/fiverr-clone" element={<FiverrClonePage />} />

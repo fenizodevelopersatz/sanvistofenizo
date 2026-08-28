@@ -25,15 +25,27 @@ import ReviewCards from '../../components/shared/ReviewCards.jsx'
 import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
 const dashboards = [
-  { label: 'User Dashboard', email: 'user@yopmail.com', password: '12345678', url: siteContact.cloneDemoUrl },
-  { label: 'Host Dashboard', email: 'hostuser123@yopmail.com', password: '12345678', url: siteContact.cloneDemoUrl },
-  { label: 'Admin Dashboard', email: 'admin@gmail.com', password: '12345678', url: siteContact.cloneDemoUrl },
+  { label: 'Renter Dashboard', email: 'user@yopmail.com', password: '12345678', url: siteContact.cloneDemoUrl },
+  { label: 'Vehicle Owner Dashboard', email: 'hostuser123@yopmail.com', password: '12345678', url: siteContact.cloneDemoUrl },
+  { label: 'Administration Dashboard', email: 'admin@gmail.com', password: '12345678', url: siteContact.cloneDemoUrl },
+]
+
+const screenshotAlts = [
+  'Vehicle information screen',
+  'Customer bookings screen',
+  'Favourite vehicles screen',
+  'Vehicle management screen',
+  'Search and filtering screen',
+  'Fleet dashboard screen',
 ]
 
 export default function TuroClonePage() {
   usePageStylesheets(pageStylesheets.turoClone)
 
-  useSeo('Turo Clone - Build An App Like Turo | CloneScript')
+  useSeo(
+    'Car Rental Script | Build Your Online Vehicle Rental Business',
+    'Launch a customizable car rental platform with vehicle listings, availability management, instant reservations, secure payments, owner earnings, and complete administrative control.',
+  )
 
   return (
     <main className="content turo-clone-page" id="content">
@@ -77,20 +89,20 @@ export default function TuroClonePage() {
                         <div className="ld-empty-space" style={{ height: 20 }}><span className="liquid_empty_space_inner"></span></div>
                         <div className="ld-fancy-heading text-center">
                           <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                            <span className="ld-fh-txt"> Ready-to-Launch <span style={{ color: '#0077ff' }}> Turo Clone</span> Platform</span>
+                            <span className="ld-fh-txt"> Ready-to-Launch <span style={{ color: '#0077ff' }}> Car Rental</span> Platform</span>
                           </h2>
                         </div>
                         <div className="wpb_text_column wpb_content_element">
                           <div className="wpb_wrapper">
                             <p style={{ textAlign: 'center' }}>
-                              <span style={{ fontWeight: 400 }}>Start your car-sharing business with a ready-to-use platform designed to connect hosts and renters through a smooth and reliable experience.</span>
+                              <span style={{ fontWeight: 400 }}>Launch and manage your vehicle-rental business through a centralized digital platform. Handle reservations, payment collection, customer accounts, vehicle availability, and owner settlements without depending on disconnected applications.</span>
                             </p>
                           </div>
                         </div>
                         <div className="ld-empty-space" style={{ height: 40 }}><span className="liquid_empty_space_inner"></span></div>
-                        <a href={`https://api.whatsapp.com/send?phone=${siteContact.whatsappApiNumber}&text=${encodeURIComponent('Hello, I am interested with this product Turo Clone')}`} target="_blank" rel="noreferrer" className="footer-whatsapp page-whatsapp-light">
+                        <a href={`https://api.whatsapp.com/send?phone=${siteContact.whatsappApiNumber}&text=${encodeURIComponent('Hello, I am interested with this product Car Rental Script')}`} target="_blank" rel="noreferrer" className="footer-whatsapp page-whatsapp-light">
                           <i className="fab fa-whatsapp"></i>
-                          <span>Get Professional Support</span>
+                          <span>Get Professional Assistance</span>
                         </a>
                         <div className="ld-empty-space" style={{ height: 20 }}><span className="liquid_empty_space_inner"></span></div>
                       </div>
@@ -127,13 +139,13 @@ export default function TuroClonePage() {
         </section>
 
         <PdfDownloadCta
-          heading="Check out all the Core Features of our Turo Clone Script"
-          desc="Find out everything about the platform and learn about the features which help you to create and maintain a successful car-rental marketplace."
+          heading="Download the Complete Car Rental Feature Guide"
+          desc="Explore the full platform functionality to understand how renters, vehicle owners, and administrators manage everyday rental operations."
         />
 
         <StandOutFeaturesGrid
-          heading="Standard Features of Turo Clone Script"
-          subheading="Turo&rsquo;s vehicle management and interaction features are included in our Turo clone script, which contains all the essential features required to run a seamless car-sharing system."
+          heading="Standard Features of the Car Rental Platform"
+          subheading="The platform includes practical tools that improve communication, booking control, payments, and customer convenience."
           items={standOutFeatures}
           color="#0077ff"
         />
@@ -147,16 +159,16 @@ export default function TuroClonePage() {
                     <div className="wpb_wrapper">
                       <div className="wpb_wrapper-inner">
                         <header className="fancy-title">
-                          <h2>Complete Vehicle Sharing Platform Solution</h2>
-                          <h3 className="">Manage Your Car Rental Business with Confidence</h3>
+                          <h2>Advanced Car Rental Management Platform</h2>
+                          <h3 className="">Manage Your Rental Operations from One Place</h3>
                           <div className="st-desc">
-                            <p>Our Turo Clone Script brings all the essential marketplace tools together in one place, making it easier to manage vehicles, bookings, users, and payments without unnecessary complexity. The platform is designed to keep daily operations organized and running smoothly.</p>
-                            <p>The solution can help streamline management tasks and boost overall efficiency for either a new car-sharing marketplace or an existing one. It is flexible and reliable to ensure that your business can continue to grow, even with its flexible structure.</p>
+                            <p>The car rental management system brings vehicle listings, booking calendars, customer details, trip records, payments, and owner earnings into a single workspace.</p>
+                            <p>Rental businesses can use the platform to reduce repetitive administrative work, monitor vehicle availability, coordinate pickups and returns, and respond to customers more efficiently. The flexible infrastructure can support a growing number of vehicles, owners, bookings, service areas, and platform users.</p>
                           </div>
                         </header>
                         <a href="/schedule-free-demo" className="btn btn-solid btn-sm circle btn-bordered border-thin btn-gradient">
                           <span>
-                            <span className="btn-txt">Schedule Demo</span>
+                            <span className="btn-txt">Schedule a Platform Demo</span>
                             <span className="btn-icon"><i className="fa fa-solid fa-calendar"></i></span>
                           </span>
                         </a>
@@ -185,16 +197,16 @@ export default function TuroClonePage() {
         </section>
 
         <SimpleIconGrid
-          title="Add-On Features of Turo Clone Script"
-          desc="Our Turo Clone Script comes with flexible add-on features that help extend platform capabilities and support the growth of your car-sharing marketplace."
+          title="Additional Car Rental Features"
+          desc="Optional features can be introduced according to your services, operating locations, and business model."
           items={addOnFeatures}
           columns={5}
           iconColor="#0077ff"
         />
 
         <RevenueBenefits
-          heading="Revenue Benefits"
-          subheading="Grow your car-sharing business with a scalable and easy-to-manage Turo clone solution."
+          heading="Revenue Opportunities"
+          subheading="The car rental platform can support several earning methods for marketplace administrators and vehicle owners."
           items={revenueBenefits}
           image="/wp-content/uploads/2026/04/revenue_benefits.webp"
           color="#0077ff"
@@ -229,11 +241,11 @@ export default function TuroClonePage() {
                               <div className="wpb_wrapper">
                                 <div className="wpb_wrapper-inner">
                                   <header className="fancy-title">
-                                    <h3>Launch Your Car-Sharing Marketplace Faster with Expert Support</h3>
+                                    <h3>Launch Your Car Rental Business with Professional Support</h3>
                                   </header>
                                   <a href="/schedule-free-demo" className="btn btn-solid btn-sm circle btn-bordered border-thin">
                                     <span>
-                                      <span className="btn-txt">Schedule now</span>
+                                      <span className="btn-txt">Schedule a Consultation</span>
                                       <span className="btn-icon"><i className="fas fa-calendar-alt"></i></span>
                                     </span>
                                   </a>
@@ -251,11 +263,11 @@ export default function TuroClonePage() {
           </section>
         </section>
 
-        <TechStackRow items={techStack} heading="Technology We Use" />
+        <TechStackRow items={techStack} heading="Technologies Used for Car Rental Development" />
 
         <LiveDemoTabs dashboards={dashboards} />
 
-        <PricingPlans plans={pricingPlans} />
+        <PricingPlans plans={pricingPlans} heading="Choose a Suitable Development Plan" />
         <MoneyBackGuarantee />
 
         <section className="vc_section">
@@ -268,7 +280,7 @@ export default function TuroClonePage() {
                       <div className="wpb_wrapper-inner">
                         <div className="ld-fancy-heading">
                           <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                            <span className="ld-fh-txt"> Turo Clone App Screens</span>
+                            <span className="ld-fh-txt"> Car Rental Application Screens</span>
                           </h2>
                         </div>
                         <div className="row ld-row" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20 }}>
@@ -276,7 +288,7 @@ export default function TuroClonePage() {
                             <div className="wpb_single_image wpb_content_element vc_align_center" key={i}>
                               <figure className="wpb_wrapper vc_figure">
                                 <div className="vc_single_image-wrapper vc_box_border_grey">
-                                  <img src={src} alt={`Turo Clone screen ${i + 1}`} loading="lazy" style={{ maxWidth: '100%' }} />
+                                  <img src={src} alt={screenshotAlts[i] || `Car Rental Script screen ${i + 1}`} loading="lazy" style={{ maxWidth: '100%' }} />
                                 </div>
                               </figure>
                             </div>

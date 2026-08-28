@@ -3,12 +3,12 @@
 // is enabled -- keep this pattern for any future product added without its page yet.
 export const megaMenuColumns = [
   [
+    { id: 'ld_icon_box_6a665a4092c40', icon: 'fa fa-solid fa-wallet', title: 'Crypto Wallet', subtitle: 'Wallet Development Services', link: '/crypto-wallet', enabled: true, isNew: true, gradient: 'radial-gradient(circle at 50%, rgb(222,229,255) 0.66%, rgb(214,196,255) 99.01%)' },
     { id: 'ld_icon_box_6a665a40920b9', icon: 'fa fa-solid fa-graduation-cap', title: 'School CRM', subtitle: 'School Management System', link: '/school-crm', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(236,236,255) 0.66%, rgb(207,223,255) 99.01%)' },
     { id: 'ld_icon_box_6a665a409028a', icon: 'fa fa-solid fa-store', title: 'Fashion Resale Script', subtitle: 'Vinted Clone', link: '/vinted-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(255,234,212) 0.66%, rgb(254,221,156) 99.34%)' },
-    { id: 'ld_icon_box_6a665a4090a06', icon: 'fa fa-solid fa-car-side', title: 'Car Rental Script', subtitle: 'Turo Clone', link: '/turo-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(242,255,253) 0.66%, rgb(149,254,238) 98.68%)' },
+    { id: 'ld_icon_box_6a665a4090a06', icon: 'fa fa-solid fa-car-side', title: 'Car Rental Script', subtitle: 'Peer-to-Peer Car Sharing', link: '/turo-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(242,255,253) 0.66%, rgb(149,254,238) 98.68%)' },
     { id: 'ld_icon_box_6a665a409116f', icon: 'fa fa-solid fa-house-chimney-medical', title: 'Vacation Rental Script', subtitle: 'Airbnb Clone', link: '/airbnb-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(255,234,212) 0%, rgb(255,174,174) 97.36%)' },
     { id: 'ld_icon_box_6a665a409158d', icon: 'fa fa-regular fa-calendar-check', title: 'Rental Booking Script', subtitle: 'Hotel, Tour, Car, Boat', link: '/rental-booking-script', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(255,234,212) 0.66%, rgb(174,210,255) 97.36%)' },
-    { id: 'ld_icon_box_6a665a4091714', icon: 'fa fa-solid fa-helmet-safety', title: 'Uber Clone for X', subtitle: 'Uber Handyman App', link: '/uber-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(255,239,212) 0.66%, rgb(174,255,202) 100%)' },
   ],
   [
     { id: 'ld_icon_box_6a665a4091b0e', icon: 'fa fa-solid fa-gears', title: 'ERP Software', subtitle: 'HRM, CRM, POS & More', link: '/erp-software', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(236,236,255) 0.66%, rgb(207,223,255) 99.01%)' },
@@ -23,7 +23,7 @@ export const megaMenuColumns = [
     { id: 'ld_icon_box_6a665a409273d', icon: 'fa fa-solid fa-laptop-code', title: 'Freelance Marketplace', subtitle: 'Fiverr, Upwork Clone', link: '/fiverr-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle, rgb(255,239,212) 0.66%, rgb(174,255,202) 100%)' },
     { id: 'ld_icon_box_6a665a409287c', icon: 'fa fa-solid fa-book-open-reader', title: 'LMS eLearning App', subtitle: 'Udemy Clone', link: '/udemy-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(255,234,212) 0%, rgb(255,174,174) 97.36%)' },
     { id: 'ld_icon_box_6a665a4092998', icon: 'fa fa-solid fa-face-grin-hearts', title: 'Dating Script', subtitle: 'Tinder Clone', link: '/tinder-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(255,234,212) 0.66%, rgb(174,210,255) 97.36%)' },
-    { id: 'ld_icon_box_6a665a4092c40', icon: 'fa fa-solid fa-wallet', title: 'Crypto Wallet', subtitle: 'Wallet Development Services', link: '/crypto-wallet', enabled: true, isNew: true, gradient: 'radial-gradient(circle at 50%, rgb(222,229,255) 0.66%, rgb(214,196,255) 99.01%)' },
+    { id: 'ld_icon_box_6a665a4091714', icon: 'fa fa-solid fa-helmet-safety', title: 'Uber Clone for X', subtitle: 'Uber Handyman App', link: '/handyman-app-like-uber', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(255,239,212) 0.66%, rgb(174,255,202) 100%)' },
   ],
   [
     { id: 'ld_icon_box_6a665a4092d67', icon: 'fa fa-solid fa-truck-plane', title: 'Logistics Service App', subtitle: 'Logistics Delivery App', link: '/logistics-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle, rgb(255,239,212) 0.66%, rgb(174,255,202) 100%)' },

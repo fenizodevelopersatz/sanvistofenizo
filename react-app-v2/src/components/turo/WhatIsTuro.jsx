@@ -8,15 +8,15 @@ export default function WhatIsTuro() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h2>What is a Turo Clone Script?</h2>
+                    <h2>What Is a Car Rental Script?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Turo Clone Script is the best car rental Marketplace that allows entrepreneurs to launch their Car rental marketplace that enables the users to rent cars from the car owners seamlessly. It empowers car owners to add their cars for rent, offering a flexible alternative to conventional car rental services.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>Our Whitelabel Turo Clone allows business owners to enter into the rising sharing economy with the robust car rental platform and thrive in the car rental industry.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>A Car Rental Script is a ready-made software foundation used to launch and operate an online vehicle-booking platform. It brings customer registrations, vehicle listings, rental availability, reservations, payments, and fleet administration into one system.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Instead of developing every function from the beginning, businesses can begin with an established platform and customize its design, features, pricing, and workflows. This can reduce development effort while helping the rental service reach the market sooner.</span></p>
                     </div>
                   </header>
                   <a href="/schedule-free-demo" className="btn btn-solid btn-sm circle btn-bordered border-thin btn-gradient">
                     <span>
-                      <span className="btn-txt">Schedule Now</span>
+                      <span className="btn-txt">Schedule a Consultation</span>
                       <span className="btn-icon"><i className="fa fa-solid fa-calendar"></i></span>
                     </span>
                   </a>

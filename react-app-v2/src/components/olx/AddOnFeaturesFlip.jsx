@@ -16,7 +16,7 @@ export default function AddOnFeaturesFlip() {
                   </div>
                   <header className="fancy-title text-center">
                     <div className="st-desc">
-                      <p style={{ textAlign: 'center' }}>Below Add-on Features to Enhance Your OLX Clone Script Now!</p>
+                      <p style={{ textAlign: 'center' }}>Explore the Add-On Features That Enhance Your OLX Clone Script.</p>
                     </div>
                   </header>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>

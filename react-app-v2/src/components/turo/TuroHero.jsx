@@ -14,26 +14,26 @@ export default function TuroHero() {
                   </div>
                   <div className="ld-fancy-heading text-center">
                     <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"><span style={{ color: '#0077ff' }}>Turo Clone</span> #1 Car Sharing Marketplace Script</span>
+                      <span className="ld-fh-txt">Advanced <span style={{ color: '#0077ff' }}>Car Rental Script</span> for Online Booking Businesses</span>
                     </h1>
                   </div>
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
                       <p style={{ textAlign: 'center' }}>
-                        <span style={{ fontWeight: 400 }}>Turo Clone is a ready-to-market solution that helps to launch your car rental marketplace like Turo with cutting-edge technologies and features</span>
+                        <span style={{ fontWeight: 400 }}>Start a modern vehicle-rental marketplace where customers can search, compare, and reserve cars from rental companies or individual owners. Manage vehicles, booking schedules, online payments, trip activities, and customer information through one connected platform.</span>
                       </p>
                     </div>
                   </div>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <a href="#demo" className="btn btn-solid btn-sm circle btn-bordered border-thin btn-gradient" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">Live Demo</span>
+                      <span className="btn-txt">Explore Live Demo</span>
                       <span className="btn-icon"><i className="fa fa-solid fa-eye"></i></span>
                     </span>
                   </a>
                   <a href="#prices" className="btn btn-default btn-sm circle btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">View Prices</span>
+                      <span className="btn-txt">View Packages</span>
                       <span className="btn-icon"><i className="fa fa-solid fa-dollar-sign"></i></span>
                     </span>
                   </a>

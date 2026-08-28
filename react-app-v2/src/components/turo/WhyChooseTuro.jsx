@@ -10,7 +10,7 @@ export default function WhyChooseTuro() {
                   <div className="wpb_single_image wpb_content_element vc_align_left">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2026/08/turo-why-choose-us.png" width="419" height="596" className="vc_single_image-img attachment-large" alt="CloneScript team member ready to support your Turo clone launch" title="turo-why-choose-us" loading="lazy" />
+                        <img src="/wp-content/uploads/2026/08/turo-why-choose-us.png" width="419" height="596" className="vc_single_image-img attachment-large" alt="CloneScript team member ready to support your car rental script launch" title="car-rental-why-choose-us" loading="lazy" />
                       </div>
                     </figure>
                   </div>
@@ -23,10 +23,10 @@ export default function WhyChooseTuro() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h2>Why Choose Us?</h2>
+                    <h2>Why Choose Our Car Rental Booking Solution?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Our solution offers customization choices, assured performance, and continuous support, guaranteeing a strong base for the growth and success of your vehicle sharing platform. There is also a flexible Turo Clone Script available for you in order to make it simpler to launch and manage a car sharing marketplace. You don&rsquo;t need to build it from scratch, it comes with a full platform that can be fine-tuned to suit your business&rsquo;s needs and your brand.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>Vehicle owners will be able to put their cars online, manage the availability, and accept bookings, while the renters will be able to browse and book vehicles, and complete payments through a simple and user-friendly interface.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Our customizable car rental software is designed to simplify everyday booking and fleet-management activities. Customers receive a smooth search and payment experience, while vehicle owners gain better control over listings, schedules, trips, and earnings.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>The scalable architecture allows businesses to introduce additional cars, owners, customers, locations, and functionality as demand grows. Technical assistance is available for customization, deployment, and ongoing platform maintenance.</span></p>
                     </div>
                   </header>
                 </div>

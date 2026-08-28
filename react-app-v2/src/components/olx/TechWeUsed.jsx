@@ -8,7 +8,7 @@ export default function TechWeUsed() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title text-center">
-                    <h2>Technology We Used</h2>
+                    <h2>Technology for a Scalable Classified Platform</h2>
                   </header>
                 </div>
               </div>

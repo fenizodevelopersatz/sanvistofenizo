@@ -1,4 +1,5 @@
-import { roleFeatures } from '../../data/uber/uberData.js'
+import DashboardMockup from '../shared/DashboardMockup.jsx'
+import { roleFeatures } from '../../data/handyman/handymanData.js'
 
 function RoleSection({ roleKey, role }) {
   return (
@@ -9,13 +10,12 @@ function RoleSection({ roleKey, role }) {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
-                  <div className="wpb_single_image wpb_content_element vc_align_center">
-                    <figure className="wpb_wrapper vc_figure">
-                      <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src={role.image} className="vc_single_image-img attachment-full" alt={role.imageAlt} title={role.imageAlt} loading="lazy" />
-                      </div>
-                    </figure>
-                  </div>
+                  <DashboardMockup
+                    role={role.label}
+                    accent={role.mockup.accent}
+                    avatarIcon={role.mockup.avatarIcon}
+                    stats={role.mockup.stats}
+                  />
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@ function RoleSection({ roleKey, role }) {
   )
 }
 
-export default function UberRoleFeatures() {
+export default function HandymanRoleFeatures() {
   return (
     <>
       <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
@@ -58,7 +58,7 @@ export default function UberRoleFeatures() {
                       <p className="circle lqd-highlight-underline lqd-highlight-grow-left"><span className="ld-fh-txt"> Main Features</span></p>
                     </div>
                     <header className="fancy-title text-center">
-                      <p>The Platform Includes Dedicated Functionality for Passengers, Drivers, and Administrators</p>
+                      <p>Explore Our Handyman App Like Uber&rsquo;s Rich Features</p>
                     </header>
                   </div>
                 </div>

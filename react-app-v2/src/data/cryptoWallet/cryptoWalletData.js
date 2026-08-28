@@ -77,6 +77,8 @@ export const servicePanels = [
     accent: '#8b7cf6',
     avatarIcon: 'fa-plug',
     stats: [{ value: '14', label: 'Endpoints' }, { value: '99.9%', label: 'Sync Rate' }],
+    image: '/wp-content/uploads/2026/08/crypto-wallet-integration-graphic.webp',
+    imageAlt: 'Crypto coins in motion with percentage rate icons, representing wallet integration and exchange rates',
   },
   {
     title: 'Wallet Maintenance & Support',

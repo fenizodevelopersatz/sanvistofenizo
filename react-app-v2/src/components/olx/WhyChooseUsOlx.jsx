@@ -23,9 +23,9 @@ export default function WhyChooseUsOlx() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h2>Why Choose Us?</h2>
+                    <h2>Why Choose CloneScript for Your OLX Clone?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>We delivered a 100% customizable and white-label solution, an Olx clone app to the users worldwide. Our skilled professionals have designed an online classified marketplace app like Olx with cutting-edge features, a user-friendly interface, and bug-free for users.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Our OLX Clone provides the essential features required to launch and manage a scalable classified marketplace.</span></p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">

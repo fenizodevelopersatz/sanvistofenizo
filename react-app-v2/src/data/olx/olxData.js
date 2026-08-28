@@ -1,67 +1,71 @@
 export const mainFeaturesUser = [
-  { title: 'Effortless Ad Listings', desc: 'In OLX clone script, users can easily post an ad for their products within a few steps.' },
-  { title: 'Subscription Plans', desc: 'Users can choose the subscription plans, such as free, silver, and gold packages, and the payment gateway to pay and purchase the items quickly.' },
-  { title: 'Dynamic Slider Images', desc: 'OLX Clone App’s home page captivating slider shows the popular and latest listings products images, which helps to make a quick purchase.' },
-  { title: 'Popular Items', desc: 'In this app, users can view the popular, famous products, and the most purchased recent products in the homepage for easy purchase.' },
-  { title: 'Favorite List', desc: 'Users can add their desired or liked items to the favorites list for quick single tap to purchase in the future via the Olx clone app.' },
-  { title: 'Search Filter Option', desc: 'In the OLX clone app, users can find the items easily using the search bar and the filter to get a faster.' },
-  { title: 'Multiple Categories', desc: 'In this app, users can browse multiple categories like electronics, beauty products, dresses, musical instruments, pets, etc., to purchase products easily.' },
+  { title: 'Easy Registration and Login', desc: 'Users can register using an email address, mobile number, OTP, Google account, or Apple ID.' },
+  { title: 'Effortless Ad Listings', desc: 'Sellers can post advertisements by adding a title, description, category, condition, price, location, images, and contact preferences.' },
+  { title: 'Multiple Categories', desc: 'Products can be organized under clearly defined categories and subcategories, helping buyers find relevant listings quickly.' },
+  { title: 'Custom Listing Fields', desc: 'Different categories can have specific fields. For example, vehicle listings may include model and mileage, while property listings may include size and property type.' },
+  { title: 'Advanced Search and Filters', desc: 'Buyers can search listings using keywords and filter results by category, location, price, condition, date, and seller type.' },
+  { title: 'Location-Based Listings', desc: 'Users can view nearby advertisements based on a city, region, postcode, or selected distance range. Location information should be displayed generally without revealing a seller’s exact private address.' },
+  { title: 'Popular and Recent Items', desc: 'The homepage can highlight trending, recently added, or frequently viewed listings.' },
+  { title: 'Favourite Listings', desc: 'Buyers can save interesting advertisements to a private favourites list and review them later.' },
+  { title: 'Seller Profiles', desc: 'Buyers can view permitted seller information, verification status, ratings, active listings, and account history.' },
+  { title: 'Buyer-Seller Chat', desc: 'The integrated chat system allows buyers and sellers to discuss product details without immediately sharing personal contact information.' },
+  { title: 'Subscription Plans', desc: 'Users can select free or paid packages offering different listing limits, validity periods, and promotional benefits.' },
+  { title: 'Featured Advertisements', desc: 'Sellers can promote eligible listings for better visibility in search results or featured marketplace sections.' },
+  { title: 'Listing Management', desc: 'Users can edit, renew, pause, mark as sold, or remove their advertisements from the account dashboard.' },
+  { title: 'Ratings and Reviews', desc: 'Buyers and sellers can provide feedback after eligible completed transactions, helping improve marketplace trust.' },
+  { title: 'Push Notifications', desc: 'Users can receive alerts for new messages, listing approvals, favourites, promotions, subscription updates, and advertisement expiry.' },
 ]
 
 export const mainFeaturesAdmin = [
-  { title: 'Custom Field Management', desc: 'Build custom fields for categories of products to fulfill specific needs, ensuring adaptability and flexibility.' },
-  { title: 'Package Management', desc: 'The admin can manage users’ advertisements and listing packages, providing users with multiple monetization options.' },
-  { title: 'Category Management', desc: 'Admin can manage and organise the categories of all items in the OLX clone app.' },
-  { title: 'Slider Management', desc: 'Within the olx clone solution, the admin can control sliders to specify important content, items, or promotions effectively.' },
-  { title: 'Report Management', desc: 'Proficiently manage products or item reports and admin can take appropriate actions as required in the buy and sell marketplace.' },
-  { title: 'Item Approval', desc: 'In this olx clone script, the admin accepts or rejects the user’s listing items for quality and efficiency.' },
-  { title: 'Staff Management', desc: 'The admin can control the staff members’ role-based functionalities and features, ensuring proper access management and accountability to improve the platform users’ engagement.' },
+  { title: 'User Management', desc: 'Administrators can review users, verify accounts, monitor activity, restrict access, or remove accounts that violate marketplace policies.' },
+  { title: 'Listing Approval', desc: 'New advertisements can be reviewed before publication. Admins can approve, reject, edit, archive, or remove listings.' },
+  { title: 'Category Management', desc: 'Administrators can create and organize categories, subcategories, icons, descriptions, and listing requirements.' },
+  { title: 'Custom Field Management', desc: 'Admins can create category-specific listing fields to collect relevant product information.' },
+  { title: 'Package Management', desc: 'Free and paid listing packages can be configured with different prices, advertisement limits, validity periods, and benefits.' },
+  { title: 'Featured Listing Management', desc: 'Administrators can define promotion prices, durations, eligible categories, and featured advertisement positions.' },
+  { title: 'Slider and Banner Management', desc: 'Homepage banners can be updated to promote categories, campaigns, popular products, or marketplace announcements.' },
+  { title: 'Report Management', desc: 'Reported advertisements, users, messages, or reviews can be examined through the admin panel.' },
+  { title: 'Transaction Management', desc: 'Administrators can monitor subscription payments, advertisement promotions, commissions, refunds, and other platform transactions.' },
+  { title: 'Staff Management', desc: 'Role-based permissions can be created for moderators, support agents, finance teams, and marketplace managers.' },
+  { title: 'Analytics Dashboard', desc: 'The dashboard can display user registrations, active listings, popular categories, subscriptions, transactions, reports, and marketplace activity.' },
 ]
 
 export const standOutFeatures = [
-  { icon: 'fas fa-sign-in-alt', title: 'Flexible Login Options', desc: 'Users can easily sign up/sign in in the Olx clone app via phone number, email ID, Google login, Apple ID with high security.' },
-  { icon: 'fas fa-chalkboard-teacher', title: 'Dynamic Home Layout', desc: 'Admin can modify and customize the homepage layout with featured sections to improve engagement.' },
-  { icon: 'fas fa-tasks', title: 'Promotional Management', desc: 'Admin can create and manage offers, discounts, and promotional banners to improve the user’s engagement and revenue.' },
-  { icon: 'fas fa-bell', title: 'Instant Notifications', desc: 'Users can get the real-time notification for new listings, promotions, any updates, reviews, and messages.' },
-  { icon: 'fas fa-language', title: 'Multilingual Support', desc: 'In the OLX clone solutions designed with multiple language support to reach a global audience. Enhances user-friendly interface and accessibility.' },
-  { icon: 'fas fa-map-marked', title: 'Place & Location Management', desc: 'Admin can manage the regions such as cities, countries, and locations. Which helps users to list their items or find the items in their desired locations.' },
-  { icon: 'fas fa-users-cog', title: 'User Management', desc: 'In our Olx clone app, the admin can manage the users’ accounts, track the activities, verify, block, and remove the users for the rules and policies.' },
-  { icon: 'fas fa-star', title: 'Review System', desc: 'Both buyer and seller can provide feedback after every transaction. The Ratings help to increase the trust, brand name, and credibility in the marketplace.' },
-  { icon: 'fas fa-exchange-alt', title: 'Transaction Report', desc: 'Users can get the detailed report for all transactions in the Olx clone app. Admin can control and monitor the financial data effectively.' },
-  { icon: 'fas fa-sitemap', title: 'Featured Item', desc: 'Users can list their items in the featured section to get more visibility in the Olx clone script. Admin can set promotion rules and manage the featured section.' },
-  { icon: 'fas fa-cubes', title: 'Subscription Plans Management', desc: 'In this olx clone app, the admin can create and manage multiple subscription packages for users.' },
-  { icon: 'fas fa-money-check-alt', title: 'Secure Payment Gateway', desc: 'Within this platform, support multiple payment methods like PhonePe, Stripe, Razorpay, and more.' },
-  { icon: 'fas fa-comment-dots', title: 'Chat Functionality', desc: 'Our Olx clone app allows chat between buyers and sellers. Secure realtime chat for effective communication.' },
-  { icon: 'fas fa-sun', title: 'Theme Option', desc: 'Users can change the themes for their interface in this online classified script.' },
-  { icon: 'fas fa-cogs', title: 'System Settings & Updates', desc: 'Admin access the settings system to change the features, capabilities, and can apply the new updates within the buy and sell marketplace.' },
-  { icon: 'fas fa-user-slash', title: 'Delete/Blocked Account', desc: 'Users can delete their accounts if they need to, and the admin can block users and delete for policy violations.' },
-  { icon: 'fas fa-users', title: 'Insight Dashboard', desc: 'Admin’s dashboard to track the report, analyze the traffic, and key metrics seamlessly.' },
-  { icon: 'fas fa-tasks', title: 'Item Management', desc: 'Admin can approve, edit, or remove items listed by users within this OLX clone solution.' },
+  { icon: 'fas fa-sign-in-alt', title: 'Flexible Login Options', desc: 'Users can access the platform through email, mobile number, OTP, Google, or Apple authentication.' },
+  { icon: 'fas fa-chalkboard-teacher', title: 'Dynamic Home Layout', desc: 'Admins can customize homepage sections such as new listings, featured advertisements, popular categories, and nearby items.' },
+  { icon: 'fas fa-tasks', title: 'Promotional Management', desc: 'Discounts, subscription offers, coupons, and promotional banners can be managed centrally.' },
+  { icon: 'fas fa-bell', title: 'Instant Notifications', desc: 'Users receive real-time updates for messages, listing activity, promotions, account changes, and subscription status.' },
+  { icon: 'fas fa-language', title: 'Multilingual Support', desc: 'The platform can support multiple languages for regional and international users.' },
+  { icon: 'fas fa-map-marked', title: 'Place and Location Management', desc: 'Countries, states, cities, and local service areas can be managed from the admin panel.' },
+  { icon: 'fas fa-money-check-alt', title: 'Secure Payment Gateways', desc: 'Subscription and promotion payments can be processed through approved payment gateways.' },
+  { icon: 'fas fa-exchange-alt', title: 'Transaction History', desc: 'Users can review subscription purchases, listing promotions, refunds, and other payments.' },
+  { icon: 'fas fa-sun', title: 'Light and Dark Themes', desc: 'Users can switch between available interface themes.' },
+  { icon: 'fas fa-user-slash', title: 'Account Deletion and Blocking', desc: 'Users can request account deletion, while administrators can suspend accounts that violate platform policies.' },
 ]
 
 export const addOnFeatures = [
-  { icon: 'fas fa-certificate', title: 'Verified User Badge', desc: 'In this app, users can get a verified badge to improve the trust and credibility.' },
-  { icon: 'fas fa-map', title: 'Location-Based Item Fetching', desc: 'Users can list their items based on their current location in this classified platform.' },
-  { icon: 'fas fa-search', title: 'Smart Search by Category', desc: 'Smart search categories help users quickly find the items in this platform.' },
-  { icon: 'fas fa-map', title: 'Top Items in Your Area', desc: 'This buying and selling script displays the most popular and trending items based on user location.' },
-  { icon: 'fas fa-wrench', title: 'All-in-One Settings', desc: 'Admin had a centralized settings panel for controlling users, payments, transactions, ads, notifications, reviews, etc.' },
-  { icon: 'fas fa-globe-asia', title: 'Nearby Ads With KM Range', desc: 'Users can set a specific distance range to view the ads to attract the users.' },
-  { icon: 'fas fa-copyright', title: 'Brand Identity Watermark', desc: 'In this app, secured the images by adding a custom watermark to prevent fraud and strengthen loyalty.' },
-  { icon: 'fas fa-grip-horizontal', title: 'Category-Wise Listings', desc: 'Users can list the products based on the categories, which will make it easier to improve the buying and selling.' },
-  { icon: 'fas fa-file-pdf', title: 'Blog Management', desc: 'Admin can create blogs and manage the blog within the online classified scripts to improve the user’s traffic.' },
+  { icon: 'fas fa-map', title: 'Location-Based Item Discovery', desc: 'Users can find listings based on their selected location or distance range.' },
+  { icon: 'fas fa-search', title: 'Smart Category Search', desc: 'Search suggestions can guide users toward suitable categories and relevant advertisements.' },
+  { icon: 'fas fa-globe-asia', title: 'Popular Items Nearby', desc: 'The marketplace can display trending listings based on a user’s selected region.' },
+  { icon: 'fas fa-copyright', title: 'Image Watermark', desc: 'A customizable marketplace watermark can be placed on listing images to support brand identity and discourage unauthorized reuse.' },
+  { icon: 'fas fa-grip-horizontal', title: 'Category-Wise Listings', desc: 'Products can be organized into category-specific pages for easier discovery.' },
+  { icon: 'fas fa-file-pdf', title: 'Blog Management', desc: 'Admins can publish marketplace guides, category information, buying tips, and safety updates.' },
+  { icon: 'fas fa-store', title: 'Seller Storefronts', desc: 'Business sellers can create branded profile pages containing their permitted active listings.' },
+  { icon: 'fas fa-bookmark', title: 'Saved Searches', desc: 'Buyers can save search filters and receive notifications when matching products are listed.' },
 ]
 
 export const revenueBenefits = [
-  { icon: 'fas fa-hand-holding-usd', title: 'Commission Fees', desc: 'Admin can earn commission on each transaction between buyers and sellers in this app.' },
-  { icon: 'fas fa-dollar-sign', title: 'Customer Earnings', desc: 'Earn the amount from customers’ successfully selling the items.' },
-  { icon: 'fas fa-money-bill-wave', title: 'Subscription Fees', desc: 'Offer the premium membership plans like free, silver, and diamond packages to earn revenue.' },
-  { icon: 'fas fa-file-invoice-dollar', title: 'Ad Promotion Fees', desc: 'Admin earns the additional revenue from sellers promoting their items via ads.' },
+  { icon: 'fas fa-money-bill-wave', title: 'Subscription Fees', desc: 'Offer free and premium packages with different listing limits, durations, and promotional tools.' },
+  { icon: 'fas fa-file-invoice-dollar', title: 'Featured Advertisement Fees', desc: 'Sellers can pay to display eligible listings in featured or priority positions.' },
+  { icon: 'fas fa-tags', title: 'Listing Fees', desc: 'The platform can charge users for publishing advertisements in selected categories or after reaching a free-listing limit.' },
+  { icon: 'fas fa-hand-holding-usd', title: 'Transaction Commissions', desc: 'If the platform processes eligible payments, it can receive a transparent commission from completed transactions.' },
+  { icon: 'fas fa-bullhorn', title: 'Banner Advertising', desc: 'Approved businesses can promote relevant products or services through clearly labelled marketplace banners.' },
 ]
 
 export const pricingPlans = [
   {
     name: 'Corporate', price: '$3899', featured: true,
-    features: [['1 Domain license', true], ['One-Time Payment', true], ['100% Source Code', true], ['3 Months Support', true], ['Unlimited Updates', true], ['Free Installation', true], ['Android App', true], ['iOS App', true], ['Mobile App Submission', true], ['Access All Features', true]],
+    features: [['Single-Domain Licence', true], ['One-Time Payment Option', true], ['Source-Code Access', true], ['Responsive Website', true], ['Android Application', true], ['iOS Application', true], ['User Listing Tools', true], ['Admin Dashboard', true], ['Secure Payment Integration', true], ['Custom Branding', true], ['Installation Assistance', true], ['App-Store Submission Support', true], ['Initial Technical Support', true]],
   },
 ]
 
@@ -74,11 +78,12 @@ export const mobileScreens = [
 ]
 
 export const faqs = [
-  { q: 'What is OLX Clone?', a: 'Olx Clone is a classified marketplace, which helps to build your own online classified script similar to olx. Our Olx clone solutions are designed with multiple features, functionalities, and the latest technologies to deliver the users.' },
-  { q: 'How Much Does it Cost To Create an OLX Clone Script?', a: 'Our Olx Clone Script price is more affordable to the users around the world, but the cost may be changed based on your business requirements.' },
-  { q: 'Can I Customize the App Like Olx?', a: 'Yes, you can customize the olx clone app for your wish and business needs.' },
-  { q: 'How to Build an OLX Clone App?', a: 'Olx clone script is the trending online classified marketplace, if you want to start from scratch, it takes too much time. You can hire our developers to get complete support to launch a ready-made Olx clone script to start your successful business and achieve your business goals.' },
-  { q: 'What is 100% Source Code?', a: 'CloneScript provides 100% source code to buyers. Once you purchase the script/app, you gain complete ownership of the code.' },
+  { q: 'What is an OLX Clone?', a: 'An OLX Clone is a customizable classified marketplace solution that allows users to advertise, discover, buy, and sell permitted new or pre-owned products.' },
+  { q: 'Can the platform be customized?', a: 'Yes. The branding, interface, categories, listing fields, languages, currencies, payments, subscriptions, and promotional options can be customized.' },
+  { q: 'How does the platform generate revenue?', a: 'Potential revenue sources include subscription packages, listing fees, featured advertisements, banner advertising, and eligible transaction commissions.' },
+  { q: 'Can users communicate through the platform?', a: 'Yes. An in-app chat system allows buyers and sellers to discuss listings while limiting unnecessary exposure of personal information.' },
+  { q: 'How much does an OLX Clone cost?', a: 'The cost depends on the required applications, design, features, payment methods, integrations, and customization.' },
+  { q: 'What does source-code access mean?', a: 'Source-code access means receiving the agreed software code according to the selected licence. Ownership, modification rights, and reuse conditions should be stated in the development agreement.' },
 ]
 
 /* Five customer reviews with real per-card markup, replacing any shared placeholder

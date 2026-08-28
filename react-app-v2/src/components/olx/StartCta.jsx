@@ -23,7 +23,7 @@ export default function StartCta() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h3>Start an Online Classified Script - Achieve Your Dream Goal!</h3>
+                    <h3>Start Your Classified Marketplace with CloneScript</h3>
                   </header>
                   <a href="/schedule-free-demo" target="_blank" rel="noreferrer" className="btn btn-solid btn-sm circle btn-bordered border-thin">
                     <span>

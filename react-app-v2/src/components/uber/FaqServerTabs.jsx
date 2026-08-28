@@ -17,7 +17,7 @@ function FaqPanel() {
               </header>
               <header className="fancy-title">
                 <p>Uber Clone App FAQ</p>
-                <h3>Get answers for all your queries about our exclusive Uber Clone Script with our comprehensive FAQ section.</h3>
+                <h3>Find Clear Answers About Building and Launching Your Uber Clone</h3>
               </header>
               <Link to="/contact-us" target="_blank" className="btn btn-solid text-uppercase circle btn-bordered border-thin">
                 <span><span className="btn-txt">Contact</span></span>
@@ -75,7 +75,8 @@ function ServerPanel() {
             <div className="wpb_wrapper-inner">
               <div className="wpb_text_column wpb_content_element">
                 <div className="wpb_wrapper">
-                  <p><strong>Server Requirements:</strong></p>
+                  <p><strong>Recommended Server Requirements:</strong></p>
+                  <p><span style={{ fontWeight: 400 }}>The final server configuration depends on the technology stack, expected user count, location-update frequency, and ride volume.</span></p>
                   {serverRequirements.map((group) => (
                     <div key={group.heading}>
                       <p><strong>{group.heading}:</strong></p>
@@ -94,6 +95,7 @@ function ServerPanel() {
                       </ul>
                     </div>
                   ))}
+                  <p><span style={{ fontWeight: 400 }}>If the selected solution uses Flutter, Laravel, PHP, MySQL, or gRPC, the hosting environment must support the required versions, extensions, permissions, and server configuration. The technical team should review and approve the hosting environment before installation.</span></p>
                 </div>
               </div>
             </div>

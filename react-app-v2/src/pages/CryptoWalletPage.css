@@ -116,6 +116,15 @@
   margin: 0 auto;
 }
 
+.cw-service-panel__image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1.35;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 20px 44px -18px rgba(16, 27, 72, 0.35);
+}
+
 .cw-hero__stats {
   position: relative;
   z-index: 1;
@@ -143,6 +152,7 @@
 }
 
 .cw-hero__stat strong {
+  color: #fff;
   font-size: clamp(18px, 2vw, 24px);
   font-weight: 800;
 }

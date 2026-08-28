@@ -105,6 +105,18 @@ export const pageStylesheets = {
     '/assets/css/uber-clone-12-d80957d5.css',
     ...TYPOGRAPHY_OVERRIDE,
   ],
+  // handymanClone (Handyman App Like Uber, /handyman-app-like-uber) forks
+  // UberClonePage.jsx's exact markup/classNames (vc_custom_*, wpb_row, vc_column,
+  // etc.) with all-new content, so it needs the SAME page-specific CSS bundle that
+  // styles those exact classNames -- not the schoolCrm-style "brand-new page, base
+  // bundle only" treatment, since this page's DOM shape is identical to uberClone's.
+  handymanClone: [
+    '/wp-content/litespeed/css/7bc6d89b3d2905faa79fed5d3dba86ce.css',
+    '/assets/css/uber-clone-8-4458011b.css',
+    '/assets/css/uber-clone-11-3b6a8cc5.css',
+    '/assets/css/uber-clone-12-d80957d5.css',
+    ...TYPOGRAPHY_OVERRIDE,
+  ],
   gojekClone: [
     '/wp-content/litespeed/css/7bc6d89b3d2905faa79fed5d3dba86ce.css',
     '/assets/css/gojek-clone-8-a6ce7c3b.css',

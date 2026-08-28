@@ -42,7 +42,17 @@ export default function CryptoWalletServicePanels() {
             <div className="vc_column-inner">
               <div className="wpb_wrapper">
                 <Reveal as="div" className="wpb_wrapper-inner" direction={imageFirst ? 'left' : 'right'}>
-                  <DashboardMockup role={panel.role} accent={panel.accent} avatarIcon={panel.avatarIcon} stats={panel.stats} />
+                  {panel.image ? (
+                    <img
+                      src={panel.image}
+                      alt={panel.imageAlt || panel.title}
+                      className="cw-service-panel__image"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  ) : (
+                    <DashboardMockup role={panel.role} accent={panel.accent} avatarIcon={panel.avatarIcon} stats={panel.stats} />
+                  )}
                 </Reveal>
               </div>
             </div>

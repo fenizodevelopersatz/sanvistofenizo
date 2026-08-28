@@ -80,7 +80,7 @@ export default function RoleShowcase({ roles }) {
                     </p>
                   </div>
                   <header className="fancy-title text-center">
-                    <p>Explore the key features of our Turo Clone Script designed to enhance the rental experience.</p>
+                    <p>Explore the key features of our Car Rental Script, with separate interfaces and permissions for renters, vehicle owners, and marketplace administrators.</p>
                   </header>
                 </div>
               </div>

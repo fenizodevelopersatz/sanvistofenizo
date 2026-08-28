@@ -1,95 +1,109 @@
 export const featureGroups = [
   {
-    id: 'customer', label: 'Customer', icon: 'fas fa-user-alt',
+    id: 'customer', label: 'User', icon: 'fas fa-user-alt',
     image: '/wp-content/uploads/2025/09/stories.webp', imageAlt: 'stories',
     features: [
-      { title: 'Create Post & Stories', desc: 'Users can share their interesting thoughts and based on their mind with status updates, photo updates, or relationship thoughts on this platform.' },
-      { title: 'Search Profiles by Interests', desc: 'The advanced search and filter option allows users to search for matches based on their favorites, lifestyle, hobbies, preferences, and more in this Tinder Clone Solutions.' },
-      { title: 'Feed Section', desc: 'In this Tinder clone software, the feed shows the users’ posts, likes, stories, videos, and shares from other users. The feed will show the trending and popular content in the suggestions to make users more likely to stay on this platform.' },
-      { title: 'Saved Profiles', desc: 'Users can save the interesting profiles and bookmarks for easy revisit it easily or make a connection for later.' },
-      { title: 'Video & Image Stories', desc: 'Your dating platform supports posting videos or photos, or text on stories and stories to show their personalities, interests, and lifestyle on this platform.' },
-      { title: 'Share & Reposts', desc: 'Users can share their posts or profile content across the app or repost them to their feed. This feature will improve user engagements and visibility and help themself trending.' },
+      { title: 'Profile Creation', desc: 'Adult users can create detailed profiles with permitted images, interests, hobbies, general location, languages, and relationship preferences.' },
+      { title: 'Search Profiles by Interests', desc: 'Users can search and filter suitable profiles based on interests, age range within adult limits, location, language, activity, and relationship goals.' },
+      { title: 'Like and Match', desc: 'Users can express interest in suitable profiles. A mutual match is created when both users independently like each other.' },
+      { title: 'Save Profiles', desc: 'Interesting profiles can be saved privately so users can review them later.' },
+      { title: 'Create Posts and Stories', desc: 'Users can publish approved text, image, or video updates. Story visibility and replies can be controlled through privacy settings.' },
+      { title: 'Personalized Feed', desc: 'The feed can display approved posts, stories, updates, and suggestions from followed or relevant adult profiles.' },
+      { title: 'Real-Time Chat', desc: 'Matched adults can communicate through secure in-app text messaging. Users can mute, unmatch, block, or report conversations whenever necessary.' },
+      { title: 'Profile Sharing', desc: 'Users can share their own public profile through supported channels. The privacy settings of other profiles must always be respected.' },
+      { title: 'Push Notifications', desc: 'Notifications can be sent for matches, messages, likes, verification updates, subscriptions, and important account activity.' },
+      { title: 'Block and Report Users', desc: 'Users can immediately block unwanted accounts and report suspicious profiles, messages, posts, or behaviour to the moderation team.' },
     ],
   },
   {
     id: 'admin', label: 'Admin', icon: 'fas fa-user-cog',
     image: '/wp-content/uploads/2025/09/admin-dashboard-1.webp', imageAlt: 'admin dashboard',
     features: [
-      { title: 'User Management', desc: 'Admin, manage all users easily within this admin panel, which helps to manage the integrated users in this app to improve their business.' },
-      { title: 'Live History', desc: 'Easily access the detailed information of past live sessions, activities, subscription plans, etc., which helps avoid user disputes and compliance issues to increase the platform engagement.' },
-      { title: 'Verification Requests', desc: 'Admin verifies all users’ identity verification requests via uploaded documents and ID verifications to approve or reject users, thereby avoiding spam and fake accounts.' },
-      { title: 'Posts Management', desc: 'Admin gets all user-generated posts like photos, text updates, and videos. Admins can help users edit, monitor, delete, and approve posts to improve user safety and engagement.' },
-      { title: 'Live Applications', desc: 'Admin dashboard to track all active users in real-time with the live applications feature. It lets you monitor ongoing live chats, interactions, and session activity directly.' },
-      { title: 'Report Management', desc: 'An admin receives a comprehensive report of users on this platform, including profile matches, profile details, subscription plans, and coin value.' },
+      { title: 'User Management', desc: 'Administrators can review profiles, account status, subscriptions, verification information, and reported activity.' },
+      { title: 'Verification Requests', desc: 'Admins can approve, reject, or request additional information for adult age, identity, email, mobile, or photo verification.' },
+      { title: 'Report Management', desc: 'Reported accounts, messages, posts, and stories can be reviewed from the admin dashboard. Administrators can issue warnings, restrict accounts, or remove serious violations.' },
+      { title: 'Post and Story Management', desc: 'Admins can monitor and remove content that violates community standards.' },
+      { title: 'Subscription Management', desc: 'Membership plans, prices, billing periods, premium features, and renewal settings can be managed centrally.' },
+      { title: 'Coin and Gift Management', desc: 'Administrators can configure virtual coin packages, digital gifts, transaction limits, and platform fees.' },
+      { title: 'Push Notification Management', desc: 'Security alerts, policy updates, subscription reminders, and platform announcements can be sent to selected users.' },
+      { title: 'Dashboard and Reports', desc: 'The dashboard can display user totals, active subscriptions, matches, reports, posts, transactions, and platform performance.' },
     ],
   },
 ]
 
 export const standardFeatures = [
-  { icon: 'fas fa-check-square', title: 'Follow & Unfollow', desc: 'Support users anytime to follow profiles they like and unfollow them, promoting meaningful connections and user control.' },
-  { icon: 'fas fa-ban', title: 'Block Users', desc: 'Users can block unwanted contacts instantly to ensure a more comfortable and safer dating environment.' },
-  { icon: 'fas fa-book-medical', title: 'Stories Management', desc: 'Admin can manage, edit, and delete video or photo stories of all users to improve safety.' },
-  { icon: 'fas fa-gifts', title: 'Gifts Management', desc: 'Admins can manage the entire gift system, while users can send and receive virtual gifts for fun, appreciation, or trending posts across the dating platform.' },
-  { icon: 'fas fa-bell', title: 'Push Notifications', desc: 'Real-time push alerts for all new messages, post likes, profile likes, app updates, and activities keep users engaged on the dating platform.' },
-  { icon: 'fas fa-comments', title: 'Realtime Chat', desc: 'Built-in chat system with support for images, text, and video ensures fast communication between matches in real-time.' },
-  { icon: 'fas fa-user', title: 'Share Profile', desc: 'Users can share their profiles or others’ profiles across the app or externally to boost reach and discoverability.' },
-  { icon: 'fas fa-bookmark', title: 'Save Profile for Later', desc: 'Enable users to bookmark interesting profiles they may want to revisit or message in the future.' },
-  { icon: 'fas fa-thumbs-up', title: 'Like/Unlike Profile', desc: 'Encourage quick engagement with one-tap like or unlike features, improving match rates and retention.' },
-  { icon: 'fas fa-user-friends', title: 'Report Users', desc: 'Users can flag suspicious or abusive profiles, empowering admins to take action and maintain a trusted community.' },
-  { icon: 'fas fa-users-cog', title: 'Gender-Based Random Match', desc: 'Introduce fun and spontaneous interactions by allowing users to find random matches with gender-based filters.' },
-  { icon: 'fas fa-envelope', title: 'Login With Email', desc: 'Easy and secure registration options with Google, Apple ID, and email provide seamless onboarding and user access.' },
+  { icon: 'fas fa-user-plus', title: 'Follow and Unfollow', desc: 'Users can follow suitable public profiles and remove connections whenever they choose.' },
+  { icon: 'fas fa-bookmark', title: 'Save Profiles for Later', desc: 'Profiles can be bookmarked privately for future viewing.' },
+  { icon: 'fas fa-thumbs-up', title: 'Like and Unlike Profiles', desc: 'Simple controls allow users to express or withdraw interest.' },
+  { icon: 'fas fa-heart', title: 'Mutual Matching', desc: 'Communication can be limited to eligible adults who have shown mutual interest.' },
+  { icon: 'fas fa-lock', title: 'Secure Login', desc: 'Registration can support email, mobile number, OTP, Google, or Apple authentication.' },
+  { icon: 'fas fa-comments', title: 'Real-Time Messaging', desc: 'Matched users can exchange text and permitted media through the in-app chat system.' },
+  { icon: 'fas fa-check-circle', title: 'Profile Verification', desc: 'Photo, email, mobile, identity, and adult age-verification options help reduce fake accounts.' },
+  { icon: 'fas fa-gifts', title: 'Virtual Gifts', desc: 'Users can send approved digital gifts using optional virtual coins.' },
+  { icon: 'fas fa-language', title: 'Multilingual Support', desc: 'The application can support multiple languages for regional and international audiences.' },
+  { icon: 'fas fa-user-shield', title: 'Privacy Controls', desc: 'Users can manage profile visibility, online status, story audience, message permissions, and location details.' },
 ]
 
 export const addOnFeatures = [
-  { icon: 'fab fa-buysellads', title: 'Admob Ads Unit', desc: 'Our dating app like Tinder, integrated with AdMob ad units, assists in monetizing via banner and interstitial ads.' },
-  { icon: 'fas fa-file-video', title: 'Livestreaming Settings', desc: 'Support and control live streaming features to improve user experience and real-time interaction.' },
-  { icon: 'fas fa-coins', title: 'Diamond & Coin Pack Management', desc: 'Admin can create and manage a dating app purchase package, like coins and diamonds, to get premium features and virtual gifts.' },
-  { icon: 'fas fa-chart-line', title: 'Dashboard with Total Counts', desc: 'Get an overview of user count, posts, subscriptions, reports, and key stats from a successful admin dashboard.' },
-  { icon: 'fas fa-wallet', title: 'Redeem Requests', desc: 'Admin can control user wallet withdrawals and redeem requests with approval tools and payout tracking within this app.' },
-  { icon: 'fas fa-file-alt', title: 'Manage Privacy Policy', desc: 'Admin can control and update the dating platform’s legal pages directly for full compliance and clarity within the admin panel.' },
-  { icon: 'fas fa-tasks', title: 'Interest List', desc: 'Support users to include and view personalized interest tags to increase matchmaking accuracy and profile visibility.' },
-  { icon: 'fas fa-user-alt-slash', title: 'Report Profile', desc: 'This online dating app supports users in reporting inappropriate profiles for quick admin action for safety.' },
-  { icon: 'fas fa-check-circle', title: 'Blue Tick Verification', desc: 'In this platform, users can earn a blue tick badge to create trust and boost profile credibility.' },
+  { icon: 'fas fa-file-video', title: 'Livestreaming', desc: 'Verified adult users can host moderated live sessions with reporting, comment controls, and admin monitoring.' },
+  { icon: 'fas fa-coins', title: 'Coin Packages', desc: 'Admins can create virtual coin packages for approved premium features and digital gifts.' },
+  { icon: 'fas fa-wallet', title: 'Redeem Requests', desc: 'Eligible users can submit withdrawal or redemption requests according to platform and regional payment rules.' },
+  { icon: 'fas fa-tasks', title: 'Interest Lists', desc: 'Users can add interest tags to their profiles to improve discovery and matching suggestions.' },
+  { icon: 'fas fa-check-circle', title: 'Verified Profile Badge', desc: 'Approved adult profiles can receive a verification badge after completing the required checks.' },
+  { icon: 'fas fa-bolt', title: 'Profile Boosts', desc: 'Users can purchase clearly labelled temporary visibility boosts without receiving guaranteed matches.' },
+  { icon: 'fas fa-sliders-h', title: 'Advanced Discovery Filters', desc: 'Premium members can access additional filters for interests, languages, location range, and relationship preferences.' },
+  { icon: 'fas fa-video', title: 'Voice and Video Calls', desc: 'Mutually connected verified adults can request voice or video communication with clear consent controls.' },
 ]
 
 export const revenueBenefits = [
-  { icon: 'fas fa-user-cog', title: 'In-App Advertisements', desc: 'Your app earns commission through in-app advertisements by third-party vendors. The commission can be set on the number of clicks or products purchased via referrals.' },
-  { icon: 'fas fa-hand-holding-usd', title: 'Subscription/Paid Plan', desc: 'Users can access premium features like 100+ matches per day, paid posts, video profiles, and advanced filters by subscribing to a paid plan.' },
-  { icon: 'fas fa-dollar-sign', title: 'Chat Commissions', desc: 'Admins can earn commissions from user interactions, such as when users spend coins to message potential matches before a mutual match is made.' },
-  { icon: 'fas fa-check-square', title: 'Commission Fee', desc: 'Within the app like Tinder, the admin can earn commission fees when users exchange virtual gifts using coins.' },
+  { icon: 'fas fa-hand-holding-usd', title: 'Subscription Plans', desc: 'Users can subscribe to optional plans that offer advanced filters, profile boosts, additional visibility, or premium account tools.' },
+  { icon: 'fas fa-ad', title: 'In-App Advertising', desc: 'Age-appropriate advertisements can be displayed in selected sections of the platform.' },
+  { icon: 'fas fa-coins', title: 'Virtual Coins and Gifts', desc: 'The platform can receive a service fee from optional coin purchases and approved digital gift transactions.' },
+  { icon: 'fas fa-bolt', title: 'Premium Profile Boosts', desc: 'Users can pay to increase their profile visibility temporarily in suitable discovery sections.' },
 ]
 
 export const pricingPlans = [
   {
     name: 'Corporate', price: '$2499', featured: true,
-    features: [['1 Domain license', true], ['One-Time Payment', true], ['100% Source Code', true], ['3 Months Support', true], ['Unlimited Updates', true], ['Free Installation', true], ['Android App', true], ['iOS App', true], ['Mobile App Submission', true], ['Access All Features', true]],
+    features: [['Single-Domain Licence', true], ['One-Time Payment Option', true], ['Source-Code Access Based on Licence Terms', true], ['Android Application', true], ['iOS Application', true], ['Responsive Web Platform', true], ['Admin Dashboard', true], ['Installation Assistance', true], ['App-Store Submission Support', true], ['Initial Technical Assistance', true], ['Access to Agreed Platform Features', true]],
   },
 ]
 
 export const faqs = [
-  { q: 'What is Tinder Clone?', a: 'A Tinder Clone is a pre-built dating app solution that replicates the powerful features and functionality of the Tinder app. This Tinder clone script is scalable and customizable for starting a dating business.' },
-  { q: 'Why Should I Use a Online Dating Script for My Website or App?', a: 'Our dating script is more cost-effective and saves time for development, and which designed with multiple features, customizable options, and advanced functionalities.' },
-  { q: 'What Key Features Should a Dating App like Tinder Have?', a: 'A high-quality dating script solution should include: Real-time chat (text, image, video), Profile verification, Push notifications, an Admin dashboard, and Secure payment gateways.' },
-  { q: 'Is a Dating Script Customizable?', a: 'Yes, our online dating script software is 100% customizable. So you can add new features, remove features, and change the UI/UX designs based on their business needs.' },
-  { q: 'How Much Does a Tinder Clone App Cost?', a: 'Our Tinder Clone App is the most affordable for users. Which may be changed based on your business requirements. Feel free to reach our support team to know more about it.' },
+  { q: 'What is a Dating Script?', a: 'A Dating Script is customizable software used to create an adults-only matchmaking website or mobile application with profiles, discovery, matching, communication, subscriptions, and moderation tools.' },
+  { q: 'Is the platform only for adults?', a: 'Yes. Access must be restricted to users aged 18 or older through suitable age-assurance and verification measures.' },
+  { q: 'Why should I use a Dating Script?', a: 'A pre-built script can reduce initial development time while allowing you to customize the design, features, matching preferences, memberships, and safety settings.' },
+  { q: 'Can the platform be customized?', a: 'Yes. The branding, interface, features, languages, payment methods, membership plans, privacy controls, and integrations can be customized.' },
+  { q: 'What are the essential features?', a: 'Important features include adult age verification, profile creation, profile discovery, mutual matching, real-time chat, blocking, reporting, subscriptions, and admin moderation.' },
+  { q: 'How much does a Dating Script cost?', a: 'The cost depends on the applications, features, design, integrations, verification process, moderation tools, and customization requirements.' },
 ]
 
-export const serverRequirements = [
-  { label: 'Web Hosting with cPanel (Recommended)', value: 'VPS with CPanel' },
-  { label: 'Domain name' },
-  { label: 'Firebase Blaze Plan (Real-time chats and Live stream comments)', link: 'https://firebase.google.com/' },
-  { label: 'Agora (Live streaming)', link: 'https://www.agora.io/en/products/interactive-live-streaming/' },
-  { label: 'Branch (Deep Linking)', link: 'https://www.branch.io/' },
-  { label: 'Google Play Console & Apple Developer Programme (To publish the app)' },
-]
+export const serverRequirements = {
+  intro: 'Typical requirements may include:',
+  items: [
+    'Domain name',
+    'VPS or cloud hosting',
+    'SSL certificate',
+    'Scalable database',
+    'Firebase or another real-time service',
+    'Push-notification service',
+    'Secure media storage',
+    'Payment gateway',
+    'Age and identity-verification service',
+    'Content-moderation solution',
+    'Google Play Console account',
+    'Apple Developer Program account',
+  ],
+  outro: 'Final server requirements depend on the selected technology and expected platform activity.',
+}
 
 export const screenshots = [
-  { image: '/wp-content/uploads/2025/09/filter.webp', alt: 'filter' },
-  { image: '/wp-content/uploads/2025/09/stories.webp', alt: 'stories' },
-  { image: '/wp-content/uploads/2025/09/home.webp', alt: 'home' },
-  { image: '/wp-content/uploads/2025/09/search-1.webp', alt: 'search' },
-  { image: '/wp-content/uploads/2025/09/create-post.webp', alt: 'create post' },
-  { image: '/wp-content/uploads/2025/09/profile-2.webp', alt: 'profile' },
+  { image: '/wp-content/uploads/2025/09/filter.webp', alt: 'Search and Filters' },
+  { image: '/wp-content/uploads/2025/09/stories.webp', alt: 'Feed and Stories' },
+  { image: '/wp-content/uploads/2025/09/home.webp', alt: 'Profile Discovery' },
+  { image: '/wp-content/uploads/2025/09/search-1.webp', alt: 'Likes and Matches' },
+  { image: '/wp-content/uploads/2025/09/create-post.webp', alt: 'Interest Selection' },
+  { image: '/wp-content/uploads/2025/09/profile-2.webp', alt: 'Profile Creation' },
 ]
 
 /* Five customer reviews with real per-card markup, replacing any shared placeholder

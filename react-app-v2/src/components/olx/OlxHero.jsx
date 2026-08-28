@@ -25,12 +25,12 @@ export default function OlxHero() {
                   <div className="wpb_wrapper-inner">
                     <div className="ld-fancy-heading text-center">
                       <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
-                        <span className="ld-fh-txt"> <span style={{ color: '#4aceff' }}>OLX Clone </span>#1 Classified Script</span>
+                        <span className="ld-fh-txt"> Build a Modern Classified Marketplace with an <span style={{ color: '#4aceff' }}>OLX Clone</span></span>
                       </h1>
                     </div>
                     <div className="wpb_text_column wpb_content_element">
                       <div className="wpb_wrapper">
-                        <p style={{ textAlign: 'center' }}>Olx Clone is a classified marketplace app that easily connects buyers and sellers.</p>
+                        <p style={{ textAlign: 'center' }}>Launch a user-friendly online buying and selling platform with CloneScript. Our OLX Clone connects buyers and sellers through product listings, location-based search, secure communication, featured advertisements, subscriptions, and flexible marketplace management.</p>
                       </div>
                     </div>
                     <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>

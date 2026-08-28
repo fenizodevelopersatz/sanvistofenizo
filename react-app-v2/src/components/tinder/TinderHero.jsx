@@ -13,12 +13,12 @@ export default function TinderHero() {
                 <Reveal as="div" className="wpb_wrapper-inner" duration={1.2}>
                   <div className="ld-fancy-heading text-center">
                     <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
-                      <span className="ld-fh-txt"> No1<span style={{ color: '#ff9b99' }}> Tinder Clone</span></span>
+                      <span className="ld-fh-txt"> Customizable<span style={{ color: '#ff9b99' }}> Online Dating Script</span> for Modern Matchmaking</span>
                     </h1>
                   </div>
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
-                      <p style={{ textAlign: 'center' }}>Launch your Tinder clone app with robust features and functionalities tailored to meet your business needs.</p>
+                      <p style={{ textAlign: 'center' }}>Create a secure adults-only matchmaking platform with CloneScript. Our Dating Script helps verified adult users create profiles, discover compatible people, communicate in real time, and build meaningful connections. The platform includes responsive web and mobile applications, flexible membership plans, privacy controls, user verification, and a centralized admin panel.</p>
                     </div>
                   </div>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>

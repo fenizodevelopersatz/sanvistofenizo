@@ -1,6 +1,5 @@
 import { siteContact } from '../../data/siteContact.js'
 import GradientButton from '../GradientButton.jsx'
-import DashboardMockup from '../shared/DashboardMockup.jsx'
 import { heroStats } from '../../data/cryptoWallet/cryptoWalletData.js'
 
 const whatsappHref = `https://api.whatsapp.com/send?phone=${siteContact.whatsappApiNumber}&text=${encodeURIComponent('Hello, I am interested in Crypto Wallet Development')}`
@@ -49,11 +48,14 @@ export default function CryptoWalletHero() {
                 <div className="wpb_wrapper">
                   <div className="wpb_wrapper-inner">
                     <div className="cw-hero__visual">
-                      <DashboardMockup
-                        role="Wallet"
-                        accent="#8b7cf6"
-                        avatarIcon="fa-wallet"
-                        stats={[{ value: '$9,535', label: 'Portfolio' }, { value: '12', label: 'Assets' }]}
+                      <img
+                        src="/wp-content/uploads/2026/08/crypto-wallet-hero-graphic.webp"
+                        alt="CloneScript crypto wallet development, Ethereum growth graphic"
+                        width="1672"
+                        height="941"
+                        style={{ width: '100%', height: 'auto', display: 'block' }}
+                        loading="eager"
+                        decoding="async"
                       />
                     </div>
                   </div>

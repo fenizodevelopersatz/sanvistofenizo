@@ -2,9 +2,9 @@ export const footerSitemap = [
   {
     title: 'BUSINESS SOFTWARE',
     links: [
+      ['/crypto-wallet', 'Crypto Wallet Development'],
       ['/school-crm', 'School Management System'],
       ['/erp-software', 'ERP Software'],
-      ['/crypto-wallet', 'Crypto Wallet Development'],
     ],
   },
   {
@@ -25,16 +25,16 @@ export const footerSitemap = [
   {
     title: 'UBER CLONE FOR X',
     links: [
-      ['#', 'Uber For Babysitters'],
-      ['#', 'Uber for Beauty App'],
-      ['#', 'Uber For Car Wash'],
-      ['#', 'Uber For Doctors'],
-      ['#', 'Uber For Electricians'],
-      ['#', 'Uber for Plumbers'],
-      ['#', 'Uber for Mechanics'],
-      ['#', 'Uber For Laundry'],
-      ['#', 'Uber For House Cleaning'],
-      ['#', 'Uber for Dog Walking'],
+      ['/handyman-app-like-uber', 'Uber For Babysitters'],
+      ['/handyman-app-like-uber', 'Uber for Beauty App'],
+      ['/handyman-app-like-uber', 'Uber For Car Wash'],
+      ['/handyman-app-like-uber', 'Uber For Doctors'],
+      ['/handyman-app-like-uber', 'Uber For Electricians'],
+      ['/handyman-app-like-uber', 'Uber for Plumbers'],
+      ['/handyman-app-like-uber', 'Uber for Mechanics'],
+      ['/handyman-app-like-uber', 'Uber For Laundry'],
+      ['/handyman-app-like-uber', 'Uber For House Cleaning'],
+      ['/handyman-app-like-uber', 'Uber for Dog Walking'],
     ],
   },
   {

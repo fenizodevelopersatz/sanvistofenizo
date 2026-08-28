@@ -17,7 +17,7 @@ function FaqPanel() {
               </header>
               <header className="fancy-title">
                 <p>Car Rental Script FAQ</p>
-                <h3>Explore our comprehensive FAQ section to get all the insights you need about our Car Rental Script.</h3>
+                <h3>Learn more about customization, scalability, user roles, development timelines, support, payments, and vehicle management.</h3>
               </header>
               <Link to="/contact-us" target="_blank" className="btn btn-solid text-uppercase circle btn-bordered border-thin">
                 <span><span className="btn-txt">Contact</span></span>

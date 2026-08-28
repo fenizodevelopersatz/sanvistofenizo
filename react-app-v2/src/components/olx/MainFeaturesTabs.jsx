@@ -65,7 +65,7 @@ export default function MainFeaturesTabs() {
                       </h2>
                     </div>
                     <header className="fancy-title text-center">
-                      <p>Discover The Core Features For Olx Clone Script For Online Classified Business.</p>
+                      <p>Discover the Core User and Admin Features of the OLX Clone Script for Your Online Classified Business.</p>
                     </header>
                   </div>
                 </div>

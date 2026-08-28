@@ -10,12 +10,12 @@ export default function LaunchWhatsappCta() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h3>Build a Reliable Ride-Hailing Business That Grows With You!</h3>
+                    <h3>Build a Reliable On-Demand Service Business</h3>
                   </header>
                   <div className="wpb_raw_code wpb_raw_html wpb_content_element">
                     <div className="wpb_wrapper">
                       <div className="footer-whatsapp page-whatsapp-light">
-                        <a href={`https://api.whatsapp.com/send?phone=${siteContact.whatsappApiNumber}&text=Hello,%20I%20am%20interested%20with%20this%20product%20Uber%20Clone`} target="_blank" rel="noreferrer">
+                        <a href={`https://api.whatsapp.com/send?phone=${siteContact.whatsappApiNumber}&text=Hello,%20I%20am%20interested%20with%20this%20product%20Handyman%20App%20Like%20Uber`} target="_blank" rel="noreferrer">
                           <i className="fab fa-whatsapp"></i>
                           <span>Chat with us</span>
                         </a>
@@ -33,7 +33,7 @@ export default function LaunchWhatsappCta() {
                   <div className="wpb_single_image wpb_content_element vc_align_left">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2025/02/why-choose.png" width="494" height="455" className="vc_single_image-img attachment-full" alt="Launch your taxi booking business with CloneScript" loading="eager" decoding="async" />
+                        <img src="/wp-content/uploads/2025/02/why-choose.png" width="494" height="455" className="vc_single_image-img attachment-full" alt="Launch your on-demand service business with CloneScript" loading="eager" decoding="async" />
                       </div>
                     </figure>
                   </div>

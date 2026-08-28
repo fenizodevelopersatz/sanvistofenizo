@@ -1,4 +1,24 @@
+import { useState } from 'react'
+import InitialsAvatar from './InitialsAvatar.jsx'
 import './ReviewCards.css'
+
+function Avatar({ src, name, role }) {
+  const [failed, setFailed] = useState(false)
+
+  if (failed) return <span style={{ position: 'relative', zIndex: 1, display: 'block' }}><InitialsAvatar name={name} size={62} /></span>
+
+  return (
+    <img
+      src={src}
+      alt={`${name}, ${role}`}
+      width="256"
+      height="256"
+      loading="lazy"
+      decoding="async"
+      onError={() => setFailed(true)}
+    />
+  )
+}
 
 function Stars({ rating }) {
   return (
@@ -36,7 +56,7 @@ export default function ReviewCards({ reviews = [] }) {
 
           <figcaption className="reviewcard__author">
             <span className="reviewcard__avatar">
-              <img src={r.avatar} alt={`${r.name}, ${r.role}`} width="256" height="256" loading="lazy" decoding="async" />
+              <Avatar src={r.avatar} name={r.name} role={r.role} />
             </span>
             <span className="reviewcard__meta">
               <span className="reviewcard__name">{r.name}</span>

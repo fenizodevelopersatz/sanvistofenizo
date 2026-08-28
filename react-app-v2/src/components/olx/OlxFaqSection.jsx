@@ -37,7 +37,7 @@ export default function OlxFaqSection() {
                                   </header>
                                   <header className="fancy-title">
                                     <p>Best OLX Clone FAQ</p>
-                                    <h3>Get proper answers for all the queries about OLX clone app with our complete faq section.</h3>
+                                    <h3>Get proper answers for all your queries about the OLX Clone with our complete FAQ section.</h3>
                                   </header>
                                   <Link to="/contact-us" target="_blank" className="btn btn-solid text-uppercase circle btn-bordered border-thin">
                                     <span><span className="btn-txt">Contact</span></span>

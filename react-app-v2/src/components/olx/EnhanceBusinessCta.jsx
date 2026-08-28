@@ -8,7 +8,7 @@ export default function EnhanceBusinessCta() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h3>Enhance Your Online Business With a Classified Marketplace With Us!</h3>
+                    <h3>Launch Your Online Classified Marketplace</h3>
                   </header>
                   <div className="vc_btn3-container vc_btn3-inline vc_do_btn">
                     <button

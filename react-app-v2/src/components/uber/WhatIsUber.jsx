@@ -8,10 +8,10 @@ export default function WhatIsUber() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h2>What is Uber Clone?</h2>
+                    <h2>What Is an Uber Clone?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Uber Clone is a customizable and scalable taxi-booking app solution with features and functionalities that are similar to a ride-hailing app. Our Uber clone app is designed with robust features, excellent interfaces, real-time tracking, multiple payment options, and security that help to launch your ride-hailing app like Uber.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>Our experts have developed a white-label Uber clone script to meet your business needs and achieve your goals. Our taxi app development service provides a seamless experience for both riders and drivers.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>An Uber Clone is a customizable taxi-booking solution built with the functionality commonly found in modern ride-hailing applications. It connects passengers who need transportation with nearby drivers who are available to provide rides, managing the complete journey from pickup selection and driver matching to navigation, payment, and feedback.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Businesses can customize the platform&rsquo;s brand name and logo, colours, vehicle categories, service locations, fare structure, and commission percentage. It suits taxi companies, local transportation businesses, airport-transfer providers, corporate mobility services, women-focused transport platforms, and multi-city ride-hailing businesses.</span></p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">

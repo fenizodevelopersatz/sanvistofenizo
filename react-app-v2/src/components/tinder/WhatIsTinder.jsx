@@ -8,10 +8,10 @@ export default function WhatIsTinder() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h2>What is Tinder Clone?</h2>
+                    <h2>What Is a Dating Script?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>A Tinder Clone is an online dating app software with feature-rich functionalities similar to the original Tinder app. Our White-label Tinder clone helps entrepreneurs achieve their business goals by offering a market-ready platform that allows the owner to monitor user activities and engagement.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>Our clone application development consumes minimal time and cost, enabling entrepreneurs to launch their matchmaking app with high quality and efficiency.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>A Dating Script is a ready-made software solution used to build an online matchmaking website or mobile application for adults aged 18 and above.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>It includes profile creation, interest-based discovery, matching preferences, messaging, social posts, subscriptions, and moderation tools. The interface, features, branding, languages, and revenue model can be customized according to your business requirements.</span></p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">
@@ -31,7 +31,7 @@ export default function WhatIsTinder() {
                   <div className="wpb_single_image wpb_content_element vc_align_center">
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src="/wp-content/uploads/2025/09/tinder-clone-app.webp" width="1091" height="820" className="vc_single_image-img attachment-full" alt="tinder-clone-app" title="tinder-clone-app" loading="lazy" />
+                        <img src="/wp-content/uploads/2025/09/tinder-clone-app.webp" width="1091" height="820" className="vc_single_image-img attachment-full" alt="Online dating script app screens" title="Online dating script app screens" loading="lazy" />
                       </div>
                     </figure>
                   </div>

@@ -12,12 +12,12 @@ export default function UpcomingAiFeature({ feature }) {
                   <Reveal>
                     <div className="ld-fancy-heading text-center sv_text_super">
                       <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                        <span className="ld-fh-txt"> Upcoming AI Features in<span style={{ color: '#0077ff' }}> Turo Clone Script</span></span>
+                        <span className="ld-fh-txt"> Upcoming AI Capabilities for<span style={{ color: '#0077ff' }}> Car Rental Platforms</span></span>
                       </h2>
                     </div>
                     <div className="wpb_text_column wpb_content_element">
                       <div className="wpb_wrapper">
-                        <p style={{ textAlign: 'center' }}>Future updates will bring new features and improvements to deliver an even better platform experience.</p>
+                        <p style={{ textAlign: 'center' }}>AI-driven features can reduce repetitive listing work, improve vehicle discovery, and help marketplace operators understand customer demand.</p>
                       </div>
                     </div>
                   </Reveal>

@@ -8,10 +8,11 @@ export default function WhatIsOlx() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h2>What is OLX Clone?</h2>
+                    <h2>What Is an OLX Clone?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Olx Clone is an online classified marketplace script, which is different from the old traditional classified ads. Now, all are accessible through smartphones and apps. Olx Clone App is an advanced classified app with cutting-edge technologies and features to make buying and selling easily.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>Launch your amazing new classifieds business with our best OLX clone script to earn huge profit. Best time to start an online marketplace with seamless features, and functionalities like Olx.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>An OLX Clone is a customizable classified marketplace solution that allows users to advertise, discover, buy, and sell new or pre-owned products online.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Sellers can publish product listings with images, descriptions, prices, locations, and contact preferences. Buyers can search by keyword, category, price, and distance before communicating directly with sellers.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Administrators can define prohibited categories and prevent illegal, unsafe, counterfeit, or age-restricted goods from being listed.</span></p>
                     </div>
                   </header>
                   <a href="/schedule-free-demo" title="Schedule Free Demo" target="_blank" rel="noreferrer" className="btn btn-solid btn-sm circle btn-bordered border-thin">

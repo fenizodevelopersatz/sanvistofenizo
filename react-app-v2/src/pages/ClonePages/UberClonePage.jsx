@@ -23,10 +23,25 @@ import FaqServerTabs from '../../components/uber/FaqServerTabs.jsx'
 import ReviewCards from '../../components/shared/ReviewCards.jsx'
 import TestimonialRotatorSection from '../../components/footer/TestimonialRotatorSection.jsx'
 
+// Closest-matching names from the "Uber Clone Mobile Application Screens" list, one per
+// entry in uberData.js's `screenshots` array (same order) -- picked by inspecting what each
+// screenshot actually shows rather than guessing from the filename.
+const screenshotLabels = [
+  'Pickup and Destination',
+  'Saved Locations',
+  'Signup and Login',
+  'Passenger Home',
+  'Live Tracking',
+  'Vehicle Selection',
+]
+
 export default function UberClonePage() {
   usePageStylesheets(pageStylesheets.uberClone)
 
-  useSeo('Uber Clone Script | #1 Taxi Booking App | CloneScript')
+  useSeo(
+    'Uber Clone App | Build a Scalable Taxi Booking Platform',
+    'Launch a customizable Uber Clone with ride booking, live tracking, driver management, multiple payments, safety tools, commissions, and admin control.',
+  )
 
   return (
     <main className="content" id="content">
@@ -55,15 +70,15 @@ export default function UberClonePage() {
 
         <section className="vc_section vc_custom_1740035291295 vc_section-has-fill">
           <PdfDownloadCta
-            heading="Explore the Complete Features of Our Uber Clone"
-            desc=""
+            heading="Main Features of the Uber Clone"
+            desc="The platform includes separate functionality for passengers, drivers, and administrators. Download the complete feature breakdown to explore everything included."
           />
         </section>
 
         <section className="vc_section">
           <StandOutFeaturesGrid
-            heading="Standard Features on the Uber Clone App"
-            subheading="Our Uber Clone Script With Robust Features For A Seamless Experience,"
+            heading="Standard Features of the Uber Clone"
+            subheading="Explore the Standard Feature Set Included With Every Uber Clone"
             items={standOutFeatures}
           />
         </section>
@@ -81,8 +96,8 @@ export default function UberClonePage() {
 
         <section className="vc_section vc_custom_1738821922373 vc_section-has-fill">
           <RevenueBenefits
-            heading="Revenue Benefits"
-            subheading="Explore Our Uber Clone&rsquo;s Revenue Benefits To Start Your Taxi Services"
+            heading="Revenue Opportunities for the Taxi Platform"
+            subheading="Discover the Revenue Streams Built Into Your Uber Clone Taxi Platform"
             items={revenueBenefits}
             image="/wp-content/uploads/2025/01/Frame-48096599-1.webp"
             color="rgb(215, 152, 0)"
@@ -98,7 +113,7 @@ export default function UberClonePage() {
                     <div className="wpb_wrapper">
                       <div className="wpb_wrapper-inner">
                         <header className="fancy-title text-center">
-                          <h2>Technology We Used</h2>
+                          <h2>Technology for a Scalable Taxi Platform</h2>
                         </header>
                         <div className="wpb_single_image wpb_content_element vc_align_center">
                           <figure className="wpb_wrapper vc_figure">
@@ -140,7 +155,7 @@ export default function UberClonePage() {
                     <div className="wpb_wrapper">
                       <div className="wpb_wrapper-inner">
                         <header className="fancy-title">
-                          <h3>Feel Free To Discuss Your Dream Taxi Service Business With Us!</h3>
+                          <h3>Start Your Taxi Platform with CloneScript Today!</h3>
                         </header>
                         <a href="/schedule-free-demo" target="_blank" rel="noreferrer" className="btn btn-solid btn-sm circle btn-bordered border-thin">
                           <span>
@@ -180,7 +195,7 @@ export default function UberClonePage() {
             </div>
           </section>
 
-          <PricingPlans plans={pricingPlans} heading="Pick a Plan" />
+          <PricingPlans plans={pricingPlans} heading="Choose a Development Package" />
           <MoneyBackGuarantee />
         </section>
 
@@ -194,7 +209,7 @@ export default function UberClonePage() {
                       <div className="wpb_wrapper-inner">
                         <div className="ld-fancy-heading text-center">
                           <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                            <span className="ld-fh-txt"> Uber Clone App Mobile Screens</span>
+                            <span className="ld-fh-txt"> Uber Clone Mobile Application Screens</span>
                           </h2>
                         </div>
                       </div>
@@ -211,7 +226,7 @@ export default function UberClonePage() {
                   <div className="wpb_single_image wpb_content_element vc_align_center" key={i}>
                     <figure className="wpb_wrapper vc_figure">
                       <div className="vc_single_image-wrapper vc_box_border_grey">
-                        <img src={src} width="458" height="953" className="vc_single_image-img attachment-full" alt={`Uber Clone App screen ${i + 1}`} loading="lazy" style={{ maxWidth: '100%' }} />
+                        <img src={src} width="458" height="953" className="vc_single_image-img attachment-full" alt={`Uber Clone App Screen – ${screenshotLabels[i]}`} loading="lazy" style={{ maxWidth: '100%' }} />
                       </div>
                     </figure>
                   </div>
@@ -223,6 +238,28 @@ export default function UberClonePage() {
 
         <section className="vc_section">
           <FaqServerTabs />
+        </section>
+
+        <section className="vc_row wpb_row vc_row-fluid">
+          <div className="ld-container container">
+            <div className="row ld-row">
+              <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1 text-center">
+                <div className="vc_column-inner">
+                  <div className="wpb_wrapper">
+                    <div className="wpb_wrapper-inner">
+                      <p style={{ fontSize: 12, color: '#888', lineHeight: 1.6 }}>
+                        <strong>Trademark Disclaimer:</strong> Uber is a trademark of its respective owner. This
+                        Uber Clone is an independently developed and customizable taxi-booking solution. It is not
+                        affiliated with, endorsed by, sponsored by, or officially connected with Uber. The
+                        trademark is referenced only to explain the general nature and functionality of the
+                        software.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />

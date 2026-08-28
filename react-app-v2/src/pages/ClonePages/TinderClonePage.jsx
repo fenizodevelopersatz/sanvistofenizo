@@ -22,7 +22,10 @@ import TestimonialRotatorSection from '../../components/footer/TestimonialRotato
 export default function TinderClonePage() {
   usePageStylesheets(pageStylesheets.tinderClone)
 
-  useSeo('Tinder Clone Script | Online Dating App Solution | CloneScript')
+  useSeo(
+    'Online Dating Script | Build a Secure Matchmaking Platform',
+    'Launch a customizable adults-only Dating Script with profile discovery, matching, real-time chat, verification, subscriptions, moderation, and admin control.',
+  )
 
   return (
     <main className="content" id="content">
@@ -67,25 +70,28 @@ export default function TinderClonePage() {
           <TinderFeatureTabs groups={featureGroups} />
         </section>
 
-        <PdfDownloadCta heading="Explore the Complete Features of Our Online Dating App Like Tinder!" />
+        <PdfDownloadCta
+          heading="Explore the Complete Features of Our Online Dating Script!"
+          desc="See the complete set of user and admin tools included in our adults-only matchmaking platform."
+        />
 
         <StandOutFeaturesGrid
-          heading="Standard Features of Tinder Clone Script"
-          subheading="Essential Features of a Tinder Clone App Solution for Seamless Process"
+          heading="Standard Features of the Dating Script"
+          subheading="Essential Features of a Dating Script for a Seamless Matchmaking Experience"
           items={standardFeatures}
           color="#ff9b99"
         />
 
         <StandOutFeaturesGrid
-          heading="Add on Features"
-          subheading="Some Free Add-On Features That Can Further Enhance Your Online Tinder Clone Software Solution"
+          heading="Add-On Features"
+          subheading="Additional Features That Can Further Enhance Your Online Dating Script Solution"
           items={addOnFeatures}
           color="#ff9b99"
         />
 
         <RevenueBenefits
-          heading="Revenue Benefits"
-          subheading="Boost Your Revenue with Our Successful Online Dating App Like Tinder!"
+          heading="Revenue Opportunities"
+          subheading="Explore the Revenue Streams Built Into Your Online Dating Script"
           items={revenueBenefits}
           image="/wp-content/uploads/2025/01/Frame-48096599-1.webp"
           color="#ff9b99"
@@ -99,7 +105,7 @@ export default function TinderClonePage() {
                   <div className="wpb_wrapper">
                     <div className="wpb_wrapper-inner">
                       <header className="fancy-title text-center">
-                        <h2>Technology We Used</h2>
+                        <h2>Technology Used for the Dating Platform</h2>
                       </header>
                       <div className="wpb_single_image wpb_content_element vc_align_center">
                         <figure className="wpb_wrapper vc_figure">
@@ -117,12 +123,13 @@ export default function TinderClonePage() {
         </section>
 
         <LaunchCta
-          heading="Take the First Step Toward Success – Let&rsquo;s Begin!"
+          heading="Start Your Dating Platform with CloneScript"
+          desc="Launch a branded adults-only matchmaking platform with profile discovery, mutual matching, real-time communication, subscriptions, privacy tools, and admin management. The platform can be expanded with new features, languages, communities, payment methods, and membership plans as your business grows."
           image="/wp-content/uploads/2025/09/best-dating-script.webp"
           imageAlt="Dating clone app preview showing post creation and profile screens"
         />
 
-        <PricingPlans plans={pricingPlans} heading="Pick a Plan" />
+        <PricingPlans plans={pricingPlans} heading="Choose a Development Plan" />
 
         <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
           <div className="ld-container container-fluid">
@@ -133,7 +140,7 @@ export default function TinderClonePage() {
                     <div className="wpb_wrapper-inner">
                       <div className="ld-fancy-heading">
                         <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                          <span className="ld-fh-txt"> Tinder Clone App Mobile App Screens</span>
+                          <span className="ld-fh-txt"> Dating Script Mobile Application Screens</span>
                         </h2>
                       </div>
                     </div>
@@ -156,6 +163,28 @@ export default function TinderClonePage() {
         </section>
 
         <FaqServerTabs />
+
+        <section className="vc_row wpb_row vc_row-fluid">
+          <div className="ld-container container">
+            <div className="row ld-row">
+              <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1 text-center">
+                <div className="vc_column-inner">
+                  <div className="wpb_wrapper">
+                    <div className="wpb_wrapper-inner">
+                      <p style={{ fontSize: 12, color: '#888', lineHeight: 1.6 }}>
+                        <strong>Adults-Only Disclaimer:</strong> This platform is intended exclusively for adults
+                        aged 18 or older. Registration and dating functionality must not be made available to
+                        minors. Any third-party trademarks mentioned for descriptive purposes belong to their
+                        respective owners, and this independently developed platform is not affiliated with those
+                        companies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
       </div>
