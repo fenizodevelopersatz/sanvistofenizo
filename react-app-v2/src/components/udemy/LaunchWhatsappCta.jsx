@@ -10,7 +10,7 @@ export default function LaunchWhatsappCta() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h3>Grow Your Business with a Top Notch eLearning Website With Us!</h3>
+                    <h3>Grow Your Business with a Professional eLearning Website</h3>
                   </header>
                   <div className="wpb_raw_code wpb_raw_html wpb_content_element">
                     <div className="wpb_wrapper">

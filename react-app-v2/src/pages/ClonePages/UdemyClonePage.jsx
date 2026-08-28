@@ -27,7 +27,19 @@ import TestimonialRotatorSection from '../../components/footer/TestimonialRotato
 export default function UdemyClonePage() {
   usePageStylesheets(pageStylesheets.udemyClone)
 
-  useSeo('#1 Udemy Clone to Start Your Own eLearning Platform | CloneScript')
+  useSeo(
+    'Udemy Clone Script | Launch an Online Learning Platform',
+    'Launch a customizable Udemy Clone with online courses, instructors, live classes, quizzes, certificates, subscriptions, payments, analytics, and admin control.',
+  )
+
+  const screenshotAlts = [
+    'Udemy Clone student learning homepage screen',
+    'Udemy Clone student course details and checkout screen',
+    'Udemy Clone instructor dashboard screen',
+    'Udemy Clone instructor course creation screen',
+    'Udemy Clone organization dashboard screen',
+    'Udemy Clone organization instructor management screen',
+  ]
 
   return (
     <main className="content" id="content">
@@ -49,13 +61,13 @@ export default function UdemyClonePage() {
         <UdemyRoleFeatures />
 
         <PdfDownloadCta
-          heading="Explore the Complete Features of Our Udemy Clone"
-          desc=""
+          heading="Download the Udemy Clone Feature Guide"
+          desc="Review the complete functionality available for students, instructors, organizations, administrators, courses, quizzes, certificates, payments, subscriptions, and analytics. The feature guide can help identify the standard capabilities suitable for your business and the additional customization required for your learning platform."
         />
 
         <StandOutFeaturesGrid
-          heading="Standard Features"
-          subheading="Must-Have Features of a Udemy Clone Script for a Seamless Experience"
+          heading="Standard Features of the Udemy Clone"
+          subheading="The platform includes essential functionality designed to improve course delivery, learning accessibility, student engagement, marketing, and payment processing."
           items={standardFeatures}
         />
 
@@ -64,8 +76,8 @@ export default function UdemyClonePage() {
         <FreeAddOnFeatures />
 
         <RevenueBenefits
-          heading="Revenue Benefits"
-          subheading="Tap into New Revenue Streams with Advanced Earning Models of Our Udemy Clone"
+          heading="Udemy Clone Monetization and Revenue Streams"
+          subheading="The online learning marketplace can support different earning models for the platform owner, instructors, organizations, and eligible learners."
           items={revenueBenefits}
           image="/wp-content/uploads/2025/01/Frame-48096599-1.webp"
         />
@@ -78,7 +90,7 @@ export default function UdemyClonePage() {
                   <div className="wpb_wrapper">
                     <div className="wpb_wrapper-inner">
                       <header className="fancy-title text-center">
-                        <h2>Technology We Used</h2>
+                        <h2>Technology Used for eLearning Platform Development</h2>
                       </header>
                       <div className="wpb_single_image wpb_content_element vc_align_center">
                         <figure className="wpb_wrapper vc_figure">
@@ -118,11 +130,11 @@ export default function UdemyClonePage() {
                   <div className="wpb_wrapper">
                     <div className="wpb_wrapper-inner">
                       <header className="fancy-title">
-                        <h3>Take the First Step Confidently - Your Sucess is a Tap Away</h3>
+                        <h3>Start Your Online Learning Business</h3>
                       </header>
                       <a href="/schedule-free-demo" className="btn btn-solid btn-sm circle btn-bordered border-thin">
                         <span>
-                          <span className="btn-txt">Schedule now</span>
+                          <span className="btn-txt">Schedule a Consultation</span>
                           <span className="btn-icon"><i className="fas fa-calendar-alt"></i></span>
                         </span>
                       </a>
@@ -155,7 +167,7 @@ export default function UdemyClonePage() {
           <LiveDemoTabs dashboards={dashboards} />
         </section>
 
-        <PricingPlans heading="Pick a Plan" plans={pricingPlans} />
+        <PricingPlans heading="Choose a Suitable Udemy Clone Plan" plans={pricingPlans} />
         <MoneyBackGuarantee />
 
         <section className="vc_row wpb_row vc_row-fluid liquid-row-shadowbox">
@@ -166,14 +178,14 @@ export default function UdemyClonePage() {
                   <div className="wpb_wrapper">
                     <div className="wpb_wrapper-inner">
                       <header className="fancy-title text-center">
-                        <h2>Udemy Clone App Screens</h2>
+                        <h2>Udemy Clone Application Screens</h2>
                       </header>
                       <div className="row ld-row" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20 }}>
                         {screenshots.map((src, i) => (
                           <div className="wpb_single_image wpb_content_element vc_align_center" key={i}>
                             <figure className="wpb_wrapper vc_figure">
                               <div className="vc_single_image-wrapper vc_box_border_grey">
-                                <img src={src} alt={`Udemy Clone screen ${i + 1}`} loading="lazy" style={{ maxWidth: '100%' }} />
+                                <img src={src} alt={screenshotAlts[i] || `Udemy Clone screen ${i + 1}`} loading="lazy" style={{ maxWidth: '100%' }} />
                               </div>
                             </figure>
                           </div>
@@ -188,6 +200,28 @@ export default function UdemyClonePage() {
         </section>
 
         <UdemyFaqTabs />
+
+        <section className="vc_row wpb_row vc_row-fluid">
+          <div className="ld-container container">
+            <div className="row ld-row">
+              <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1 text-center">
+                <div className="vc_column-inner">
+                  <div className="wpb_wrapper">
+                    <div className="wpb_wrapper-inner">
+                      <p style={{ fontSize: 12, color: '#888', lineHeight: 1.6 }}>
+                        <strong>Trademark Disclaimer:</strong> &ldquo;Udemy&rdquo; is a trademark owned by its
+                        respective proprietor. The product name is used only to describe the general type of
+                        online course marketplace functionality offered. This independently developed software
+                        should use an original brand identity, interface, and source code. It is not affiliated
+                        with, sponsored by, or endorsed by Udemy or its trademark owner.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
 

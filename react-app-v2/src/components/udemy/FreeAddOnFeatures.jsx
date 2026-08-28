@@ -16,7 +16,7 @@ export default function FreeAddOnFeatures() {
                   </div>
                   <header className="fancy-title text-center">
                     <div className="st-desc">
-                      <p style={{ textAlign: 'center' }}>Free Add-On Features to Elevate Your eLearning Platform</p>
+                      <p style={{ textAlign: 'center' }}>Extend the eLearning marketplace with advanced features for structured learning, student engagement, communication, marketing, and account protection.</p>
                     </div>
                   </header>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>

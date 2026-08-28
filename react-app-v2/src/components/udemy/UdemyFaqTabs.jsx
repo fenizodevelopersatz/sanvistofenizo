@@ -32,12 +32,12 @@ export default function UdemyFaqTabs() {
                                 <div className="wpb_wrapper">
                                   <div className="wpb_wrapper-inner">
                                     <header className="fancy-title">
-                                      <p>Queries &amp; Solutions</p>
-                                      <h3>Have Doubts? Get Answers Right Here</h3>
+                                      <p>Frequently Asked Questions About the Udemy Clone</p>
+                                      <h3>Find Answers to Common eLearning Platform Questions</h3>
                                     </header>
                                     <header className="fancy-title">
                                       <p>Udemy Clone FAQ</p>
-                                      <h3>Get responses to all your doubts regarding our Udemy App like Uber with our complete FAQ section.</h3>
+                                      <h3>Learn more about courses, instructors, organizations, live classes, customization, cost, source-code access, applications, and technical support.</h3>
                                     </header>
                                     <a href="/contact-us" className="btn btn-solid text-uppercase circle btn-bordered border-thin">
                                       <span>
@@ -95,11 +95,13 @@ export default function UdemyFaqTabs() {
                                   <div className="wpb_wrapper-inner">
                                     <div className="wpb_text_column wpb_content_element">
                                       <div className="wpb_wrapper">
+                                        {serverRequirements.intro && <p>{serverRequirements.intro}</p>}
                                         <ul>
-                                          {serverRequirements.map((req, i) => (
+                                          {serverRequirements.items.map((req, i) => (
                                             <li key={i}><span>{req}</span></li>
                                           ))}
                                         </ul>
+                                        {serverRequirements.outro && <p>{serverRequirements.outro}</p>}
                                       </div>
                                     </div>
                                   </div>

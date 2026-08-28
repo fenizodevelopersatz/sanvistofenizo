@@ -59,7 +59,7 @@ export default function UdemyRoleFeatures() {
                       <p className="circle lqd-highlight-underline lqd-highlight-grow-left"><span className="ld-fh-txt"> Main Features</span></p>
                     </div>
                     <header className="fancy-title text-center">
-                      <p>Dive into the Core Features of e-Learning App Like Udemy</p>
+                      <p>The platform includes dedicated functionality for students, instructors, organizations, and administrators.</p>
                     </header>
                   </div>
                 </div>

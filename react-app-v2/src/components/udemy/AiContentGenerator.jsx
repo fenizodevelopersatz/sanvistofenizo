@@ -14,14 +14,14 @@ export default function AiContentGenerator() {
                     <h2 className="m-0"><i className="fa fa-solid fa-wand-magic-sparkles" style={{ color: '#f9be31', marginRight: 10 }}></i>AI Content Generator</h2>
                   </div>
                   <header className="fancy-title">
-                    <h3>Empowering Effortless Writing and Image Creation</h3>
+                    <h3>Supporting Course Writing and Visual Creation</h3>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Our Udemy Clone App Development integrates AI to create content and images for course descriptions, articles, etc.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>AI-assisted tools can help eligible instructors prepare course outlines, lesson summaries, article drafts, descriptions, quiz ideas, and supporting visual concepts.</span></p>
                     </div>
                   </header>
                   <a href="#demo" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">Live Demo</span>
+                      <span className="btn-txt">Explore the AI-Assisted Learning Demo</span>
                       <span className="btn-icon"><i className="fas fa-eye"></i></span>
                     </span>
                   </a>

@@ -112,7 +112,13 @@ export const revenueBenefits = [
   { icon: 'fa fa-solid fa-percent', title: 'Booking Commissions', desc: 'Charge a percentage or fixed fee for every reservation completed through the platform.' },
   { icon: 'fa fa-solid fa-file-invoice-dollar', title: 'Service Charges', desc: 'Apply transparent platform charges to eligible rental transactions.' },
   { icon: 'fa fa-solid fa-calendar-check', title: 'Host Subscription Plans', desc: 'Offer recurring packages that provide hosts with additional listings, premium tools, or reduced commission rates.' },
+  { icon: 'fa fa-solid fa-star', title: 'Featured Listings', desc: 'Rental providers can pay to display selected listings in prominent homepage, category, or search positions.' },
   { icon: 'fa fa-solid fa-bullhorn', title: 'Advertising Revenue', desc: 'Approved businesses can purchase advertising space within suitable areas of the marketplace.' },
+  { icon: 'fa fa-solid fa-calendar-xmark', title: 'Cancellation Charges', desc: 'A configurable charge can be applied when reservations are cancelled outside the permitted cancellation period.' },
+  { icon: 'fa fa-solid fa-tags', title: 'Listing Fees', desc: 'Hosts can be charged for publishing additional rental listings beyond a free allowance.' },
+  { icon: 'fa fa-solid fa-credit-card', title: 'Payment Processing Fees', desc: 'A clearly disclosed processing charge can be applied to eligible online transactions.' },
+  { icon: 'fa fa-solid fa-user-shield', title: 'Provider Verification Fees', desc: 'The platform can offer optional premium verification services when appropriate for the business model.' },
+  { icon: 'fa fa-solid fa-thumbtack', title: 'Promotional Placement Fees', desc: 'Providers can pay to promote offers, discounts, or seasonal rental packages.' },
 ]
 
 export const pricingPlans = [

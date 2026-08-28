@@ -13,7 +13,7 @@ export default function UdemyHero() {
                   <div className="ld-fancy-heading text-center">
                     <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
                       <span className="ld-fh-txt">
-                        <span style={{ color: '#f25ea2' }}>Udemy Clone</span> #1 eLearning Script
+                        AI-Powered <span style={{ color: '#f25ea2' }}>Udemy Clone</span> for Building an eLearning Platform
                       </span>
                     </h1>
                   </div>
@@ -24,20 +24,20 @@ export default function UdemyHero() {
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
                       <p style={{ textAlign: 'center' }}>
-                        <span style={{ fontWeight: 400 }}>Udemy Clone is an eLearning software solution that builds a platform where the instructors and the learners can connect seamlessly.</span>
+                        <span style={{ fontWeight: 400 }}>Build a branded online course marketplace with CloneScript and connect students searching for practical knowledge with instructors, educational organizations, and professional training providers. The Udemy Clone can be customized according to your learning niche, course formats, target audience, instructor policies, visual identity, payment methods, commission structure, and educational goals.</span>
                       </p>
                     </div>
                   </div>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>
                   <a href="#demo" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">Live Demo</span>
+                      <span className="btn-txt">Explore Live Demo</span>
                       <span className="btn-icon"><i className="fas fa-eye"></i></span>
                     </span>
                   </a>
                   <a href="#prices" className="btn btn-default btn-sm circle btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">View Prices</span>
+                      <span className="btn-txt">View Packages</span>
                       <span className="btn-icon"><i className="fas fa-dollar-sign"></i></span>
                     </span>
                   </a>

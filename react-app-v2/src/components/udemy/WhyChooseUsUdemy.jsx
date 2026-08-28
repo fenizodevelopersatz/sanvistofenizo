@@ -23,9 +23,9 @@ export default function WhyChooseUsUdemy() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h2>Why Choose Us?</h2>
+                    <h2>Why Choose CloneScript for Your Udemy Clone?</h2>
                     <div className="st-desc">
-                      <p style={{ textAlign: 'left' }}>Take your eLearning Platform to the next level with our feature-rich and entirely customizable LMS platform. With our expertise, CloneScript is proficient in offering your Udemy clone website that meets global standards and exceeds your expectations.</p>
+                      <p style={{ textAlign: 'left' }}>Launch a white-label learning marketplace with dedicated dashboards for students, instructors, educational organizations, and administrators. The platform can be accessed through responsive web pages and supported mobile applications. Its modular structure allows new course categories, instructors, languages, payment gateways, learning formats, and revenue features to be added as the platform grows.</p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">

@@ -8,15 +8,15 @@ export default function WhatIsUdemy() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h2>What is Udemy Clone?</h2>
+                    <h2>What Is a Udemy Clone?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Udemy clone script is a robust Learning Management System (LMS) that offers everything you require to launch a feature-rich, user-friendly platform like Udemy. If you want to create an online learning platform to buy or sell courses online to users, then our Udemy Clone Script is the right choice.</span></p>
-                      <p><span style={{ fontWeight: 400 }}>The Udemy Clone is the ideal solution to instantly launch an online learning app or website to earn more revenue from offering various courses to learners around the globe.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>A Udemy Clone is a ready-made Learning Management System for developing an online course marketplace. It allows instructors and educational organizations to create, publish, manage, and sell courses. Students can browse learning categories, enroll in suitable programmes, access lessons, complete quizzes, join live classes, and receive certificates.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>The platform can support recorded videos, live sessions, articles, downloadable resources, SCORM content, assignments, quizzes, course bundles, subscriptions, and one-to-one meetings. Starting with a customizable software foundation can reduce the time and resources required to develop essential eLearning functionality from the beginning.</span></p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">Schedule now</span>
+                      <span className="btn-txt">Schedule an eLearning Platform Demo</span>
                       <span className="btn-icon"><i className="fas fa-calendar-alt"></i></span>
                     </span>
                   </a>
