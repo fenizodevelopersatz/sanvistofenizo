@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-28T07:23:37.606Z",
+    "generatedAt": "2026-08-28T07:37:02.299Z",
     "routesDiscovered": 29,
     "jsxFilesScanned": 259,
     "dataFilesScanned": 41,
@@ -1480,11 +1480,11 @@
         }
       ],
       "usageCount": 1,
-      "width": 1051,
-      "height": 621,
-      "aspectRatio": 1.692,
-      "fileSize": 418087,
-      "modifiedAt": "2026-08-20T05:19:36.210Z",
+      "width": 3142,
+      "height": 2252,
+      "aspectRatio": 1.395,
+      "fileSize": 796436,
+      "modifiedAt": "2026-08-28T07:30:41.410Z",
       "ext": "png",
       "protected": false,
       "inWpContent": true
@@ -1505,11 +1505,11 @@
         }
       ],
       "usageCount": 1,
-      "width": 484,
-      "height": 550,
-      "aspectRatio": 0.88,
-      "fileSize": 34070,
-      "modifiedAt": "2026-08-20T05:19:36.243Z",
+      "width": 600,
+      "height": 600,
+      "aspectRatio": 1,
+      "fileSize": 87286,
+      "modifiedAt": "2026-08-28T07:34:26.874Z",
       "ext": "webp",
       "protected": false,
       "inWpContent": true
