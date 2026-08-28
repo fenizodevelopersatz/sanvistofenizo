@@ -71,12 +71,14 @@ function ServerPanel({ requirements }) {
             <div className="wpb_wrapper-inner">
               <div className="wpb_text_column wpb_content_element">
                 <div className="wpb_wrapper">
+                  {requirements.intro && <p><span style={{ fontWeight: 400 }}>{requirements.intro}</span></p>}
                   <p><strong>Requirements:</strong></p>
                   <ul>
-                    {requirements.map((r) => (
+                    {requirements.items.map((r) => (
                       <li key={r}>{r}</li>
                     ))}
                   </ul>
+                  {requirements.outro && <p><span style={{ fontWeight: 400 }}>{requirements.outro}</span></p>}
                 </div>
               </div>
             </div>

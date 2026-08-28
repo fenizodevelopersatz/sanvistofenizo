@@ -28,7 +28,7 @@ import './TiktokClonePage.css'
 export default function TiktokClonePage() {
   usePageStylesheets(pageStylesheets.tiktokClone)
 
-  useSeo('TikTok Clone Script | Launch Video Sharing App in 7 Days | CloneScript')
+  useSeo('TikTok Clone Script | Build a Short-Video Sharing Platform', 'Launch a customizable TikTok Clone with video sharing, live streaming, creator tools, virtual gifts, monetization, smart moderation, and admin control.')
 
   return (
     <main className="content tiktok-clone-page" id="content">
@@ -61,7 +61,7 @@ export default function TiktokClonePage() {
                           <p className="circle lqd-highlight-underline lqd-highlight-grow-left"><span className="ld-fh-txt"> <span style={{ color: 'white' }}>Main Features</span></span></p>
                         </div>
                         <header className="fancy-title text-center">
-                          <p>Explore the Powerful Features of Our Short-Video Platform</p>
+                          <p>Main Features of Our TikTok Clone</p>
                         </header>
                       </div>
                     </div>
@@ -75,15 +75,15 @@ export default function TiktokClonePage() {
         </section>
 
         <StandOutFeaturesGrid
-          heading="Standard Features of TikTok Clone App"
-          subheading="In TikTok Clone there are Multiple Features Available that Helps to Stand Out in the Video Sharing Industry."
+          heading="Standard Features of the TikTok Clone"
+          subheading="Explore the standard features built into our TikTok Clone to help your short-video platform stand out from day one."
           items={standOutFeatures}
           color="rgb(6, 199, 201)"
         />
 
         <SimpleIconGrid
-          title="Addon Features of TikTok Clone"
-          desc="Our TikTok Clone is Designed with Unique Addon Features to Earn Huge Revenue within a Short Time."
+          title="Optional Add-On Features of the TikTok Clone"
+          desc="Enhance your TikTok Clone with optional add-on features that extend functionality beyond the standard package."
           items={addOnFeatures}
           columns={5}
           iconColor="#06c7c9"
@@ -115,9 +115,9 @@ export default function TiktokClonePage() {
                     <div className="wpb_wrapper">
                       <div className="wpb_wrapper-inner">
                         <header className="fancy-title">
-                          <h2>No.1 Video Sharing App Like TikTok</h2>
+                          <h2>Create an All-in-One Short-Video Platform</h2>
                           <div className="st-desc">
-                            <p>Our TikTok Clone Script is developed with high-standard features and advanced functionalities, and offers a 100% customizable iOS app and admin panel at a budget-friendly cost. Launch your own video-sharing app like TikTok to earn significant profits in a short time and achieve your business goals.</p>
+                            <p>Develop a platform where creators can showcase their ideas, audiences can discover fresh content, and your business can manage the entire community from one system.</p>
                           </div>
                         </header>
                       </div>
@@ -130,8 +130,8 @@ export default function TiktokClonePage() {
         </section>
 
         <RevenueBenefits
-          heading="Revenue Benefits"
-          subheading="Our TikTok Clone script is designed with multiple revenue-generating features that help you monetize your platform effectively and grow your business."
+          heading="Revenue Opportunities for Platform Owners"
+          subheading="Our TikTok Clone is designed with multiple revenue-generating features that help you monetize your short-video platform effectively and grow your business."
           items={revenueBenefits}
           image="/wp-content/uploads/2025/01/Frame-48096599-1.webp"
           color="#06c7c9"
@@ -146,7 +146,7 @@ export default function TiktokClonePage() {
                     <div className="wpb_wrapper">
                       <div className="wpb_wrapper-inner">
                         <header className="fancy-title text-center">
-                          <h2>Technology We Used</h2>
+                          <h2>Technology Built for Performance and Growth</h2>
                         </header>
                         <TiltCard className="tiktok-media-float" max={6}>
                           <div className="wpb_single_image wpb_content_element vc_align_center">
@@ -167,14 +167,15 @@ export default function TiktokClonePage() {
         </section>
 
         <LaunchCta
-          heading="Right Time to Start Your Video Sharing Business!"
+          heading="Start Your Short-Video Business with CloneScript"
+          desc="Build a branded TikTok Clone that reflects your market, audience, and long-term business direction. From interface customization and feature planning to testing, deployment, and post-launch assistance, the development process can be adapted to your specific requirements. You can begin with the essential version and introduce additional features as your community grows."
           image="/wp-content/uploads/2026/01/CTA-Design.webp"
           imageAlt="Short video clone app preview showing video feed and profile screens"
           variant="dark"
           badge="Launch in 7 Days"
         />
 
-        <PricingPlans plans={pricingPlans} heading="Pick a Plan" />
+        <PricingPlans plans={pricingPlans} heading="Choose a Development Package" />
         <MoneyBackGuarantee />
 
         <section className="vc_row wpb_row vc_row-fluid">
@@ -185,7 +186,7 @@ export default function TiktokClonePage() {
                   <div className="wpb_wrapper">
                     <div className="wpb_wrapper-inner">
                       <header className="fancy-title text-center">
-                        <h2>TikTok Clone Mobile App Screens</h2>
+                        <h2>TikTok Clone Mobile Application Screens</h2>
                       </header>
                       <TiktokPhoneStack screens={screenshots} altPrefix="TikTok Clone screen" />
                     </div>
@@ -197,6 +198,28 @@ export default function TiktokClonePage() {
         </section>
 
         <FaqServerTabs />
+
+        <section className="vc_row wpb_row vc_row-fluid">
+          <div className="ld-container container">
+            <div className="row ld-row">
+              <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1 text-center">
+                <div className="vc_column-inner">
+                  <div className="wpb_wrapper">
+                    <div className="wpb_wrapper-inner">
+                      <p style={{ fontSize: 12, color: '#888', lineHeight: 1.6 }}>
+                        <strong>Trademark Disclaimer:</strong> TikTok is a trademark of its respective
+                        owner. This product is an independently developed and customizable short-video
+                        platform solution. It is not affiliated with, endorsed by, sponsored by, or
+                        officially connected to TikTok or its parent company. Any trademark references
+                        are used only to describe the general type of software functionality.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />
 

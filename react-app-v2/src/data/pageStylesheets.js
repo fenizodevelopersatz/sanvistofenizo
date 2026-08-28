@@ -165,6 +165,13 @@ export const pageStylesheets = {
     '/wp-content/litespeed/css/7bc6d89b3d2905faa79fed5d3dba86ce.css',
     ...TYPOGRAPHY_OVERRIDE,
   ],
+  // cryptoWallet is the same situation as schoolCrm above: a brand-new page with no
+  // original WPBakery export, built entirely from components/shared/* plus a small set
+  // of one-off components/cryptoWallet/* -- no page-specific bundle to load.
+  cryptoWallet: [
+    '/wp-content/litespeed/css/7bc6d89b3d2905faa79fed5d3dba86ce.css',
+    ...TYPOGRAPHY_OVERRIDE,
+  ],
   // logisticsClone is the same situation as schoolCrm above: no original WPBakery
   // export exists for this product, so it's built entirely from components/shared/*.
   logisticsClone: [

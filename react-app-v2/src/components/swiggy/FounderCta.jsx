@@ -8,7 +8,7 @@ export default function FounderCta() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h3>Start Your Efficient On-Demand Food Delivery App Like Swiggy Today!</h3>
+                    <h3>Start Your Efficient On-Demand Food Delivery App Like UberEats Today!</h3>
                   </header>
                   <button style={{ backgroundColor: '#FFFFFF', color: '#0a0a0a' }} className="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-icon-right" onClick={() => window.tidioChatApi && window.tidioChatApi.open()}>
                     Chat With Expert <i className="vc_btn3-icon fas fa-comments"></i>

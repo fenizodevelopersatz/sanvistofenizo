@@ -77,7 +77,7 @@ export default function FeaturePanels({ roles }) {
                     </p>
                   </div>
                   <header className="fancy-title text-center">
-                    <p>Explore Our Best Swiggy Clone Script Robust Features!</p>
+                    <p>Explore Our Best UberEats Clone Script Robust Features!</p>
                   </header>
                   <div id="fixed-menu" className="lqd-custom-menu lqd-sticky-menu text-center fixed-menu swiggy-fixed-menu">
                     <ul className="reset-ul inline-nav menu-items-have-fill">

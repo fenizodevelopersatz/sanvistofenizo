@@ -9,6 +9,7 @@ const ContactUsPage = lazy(() => import('./pages/ContactUsPage.jsx'))
 const ScheduleFreeDemoPage = lazy(() => import('./pages/ScheduleFreeDemoPage.jsx'))
 const ErpSoftwarePage = lazy(() => import('./pages/ErpSoftwarePage.jsx'))
 const SchoolCrmPage = lazy(() => import('./pages/SchoolCrmPage.jsx'))
+const CryptoWalletPage = lazy(() => import('./pages/CryptoWalletPage.jsx'))
 const TermsOfServicePage = lazy(() => import('./pages/TermsOfServicePage.jsx'))
 const RefundPolicyPage = lazy(() => import('./pages/RefundPolicyPage.jsx'))
 const PrivacyPolicyPage = lazy(() => import('./pages/PrivacyPolicyPage.jsx'))
@@ -41,6 +42,7 @@ export default function App() {
           <Route path="/contact-us" element={<ContactUsPage />} />
           <Route path="/erp-software" element={<ErpSoftwarePage />} />
           <Route path="/school-crm" element={<SchoolCrmPage />} />
+          <Route path="/crypto-wallet" element={<CryptoWalletPage />} />
           <Route path="/terms-of-service" element={<TermsOfServicePage />} />
           <Route path="/refund-policy" element={<RefundPolicyPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />

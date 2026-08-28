@@ -1,17 +1,17 @@
 {
   "summary": {
-    "generatedAt": "2026-08-28T04:46:56.599Z",
+    "generatedAt": "2026-08-28T05:54:32.323Z",
     "routesDiscovered": 27,
     "jsxFilesScanned": 246,
     "dataFilesScanned": 39,
-    "wpContentImagesOnDisk": 695,
-    "uniqueAssetsTracked": 697,
+    "wpContentImagesOnDisk": 696,
+    "uniqueAssetsTracked": 698,
     "staticImageRefs": 138,
     "dataDrivenImageRefs": 422,
     "dynamicUnresolvedRefs": 63,
     "usedCount": 449,
     "unusedCount": 230,
-    "protectedCount": 17,
+    "protectedCount": 18,
     "missingFileCount": 1,
     "externalCount": 0
   },
@@ -2001,7 +2001,7 @@
           "page": "/swiggy-clone",
           "sourceFile": "src/components/swiggy/WhatIsSwiggy.jsx",
           "topic": "What Is Swiggy",
-          "alt": "swiggy-clone-app"
+          "alt": "ubereats-clone-app"
         }
       ],
       "usageCount": 1,
@@ -2026,7 +2026,7 @@
           "page": "/swiggy-clone",
           "sourceFile": "src/components/swiggy/WhatIsSwiggy.jsx",
           "topic": "What Is Swiggy",
-          "alt": "best swiggy clone"
+          "alt": "best ubereats clone"
         }
       ],
       "usageCount": 1,
@@ -2051,7 +2051,7 @@
           "page": "/swiggy-clone",
           "sourceFile": "src/components/swiggy/WhatIsSwiggy.jsx",
           "topic": "What Is Swiggy",
-          "alt": "swiggy clone script"
+          "alt": "ubereats clone script"
         }
       ],
       "usageCount": 1,
@@ -2786,11 +2786,11 @@
         }
       ],
       "usageCount": 1,
-      "width": 1023,
-      "height": 606,
-      "aspectRatio": 1.688,
-      "fileSize": 93542,
-      "modifiedAt": "2026-08-20T05:19:36.197Z",
+      "width": 3142,
+      "height": 2252,
+      "aspectRatio": 1.395,
+      "fileSize": 238696,
+      "modifiedAt": "2026-08-28T05:44:02.067Z",
       "ext": "webp",
       "protected": false,
       "inWpContent": true
@@ -4795,11 +4795,11 @@
         }
       ],
       "usageCount": 1,
-      "width": 629,
-      "height": 520,
-      "aspectRatio": 1.21,
-      "fileSize": 67690,
-      "modifiedAt": "2026-08-20T05:19:36.042Z",
+      "width": 797,
+      "height": 700,
+      "aspectRatio": 1.139,
+      "fileSize": 18586,
+      "modifiedAt": "2026-08-28T05:38:30.136Z",
       "ext": "webp",
       "protected": false,
       "inWpContent": true
@@ -4820,11 +4820,11 @@
         }
       ],
       "usageCount": 1,
-      "width": 502,
-      "height": 397,
-      "aspectRatio": 1.264,
-      "fileSize": 20214,
-      "modifiedAt": "2026-08-20T05:19:36.047Z",
+      "width": 1600,
+      "height": 900,
+      "aspectRatio": 1.778,
+      "fileSize": 87840,
+      "modifiedAt": "2026-08-28T05:40:52.496Z",
       "ext": "webp",
       "protected": false,
       "inWpContent": true
@@ -13123,6 +13123,22 @@
     },
     {
       "id": "img_0482",
+      "urlPath": "/wp-content/apple-touch-icon.png",
+      "exists": true,
+      "pages": [],
+      "usages": [],
+      "usageCount": 0,
+      "width": 180,
+      "height": 180,
+      "aspectRatio": 1,
+      "fileSize": 31944,
+      "modifiedAt": "2026-08-19T14:59:49.662Z",
+      "ext": "png",
+      "protected": true,
+      "inWpContent": true
+    },
+    {
+      "id": "img_0483",
       "urlPath": "/wp-content/dailytaskImg1.png",
       "exists": true,
       "pages": [],
@@ -13138,7 +13154,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0483",
+      "id": "img_0484",
       "urlPath": "/wp-content/Dewatermark_1787047608211-Photoroom.png",
       "exists": true,
       "pages": [],
@@ -13154,7 +13170,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0484",
+      "id": "img_0485",
       "urlPath": "/wp-content/Dewatermark_1787047608211-removebg-preview.png",
       "exists": true,
       "pages": [],
@@ -13170,7 +13186,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0485",
+      "id": "img_0486",
       "urlPath": "/wp-content/driver.jpeg",
       "exists": true,
       "pages": [],
@@ -13186,7 +13202,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0486",
+      "id": "img_0487",
       "urlPath": "/wp-content/drivers.jpeg",
       "exists": true,
       "pages": [],
@@ -13202,7 +13218,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0487",
+      "id": "img_0488",
       "urlPath": "/wp-content/dsl2.jpg",
       "exists": true,
       "pages": [],
@@ -13218,7 +13234,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0488",
+      "id": "img_0489",
       "urlPath": "/wp-content/e252757c-b29b-43de-9905-2d607a4c593c_removalai_preview.png",
       "exists": true,
       "pages": [],
@@ -13234,7 +13250,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0489",
+      "id": "img_0490",
       "urlPath": "/wp-content/EB_Axelle.jpg",
       "exists": true,
       "pages": [],
@@ -13250,7 +13266,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0490",
+      "id": "img_0491",
       "urlPath": "/wp-content/flash-sale.webp",
       "exists": true,
       "pages": [],
@@ -13266,7 +13282,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0491",
+      "id": "img_0492",
       "urlPath": "/wp-content/gojek-clone.png",
       "exists": true,
       "pages": [],
@@ -13282,7 +13298,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0492",
+      "id": "img_0493",
       "urlPath": "/wp-content/hero-digital-marketing-hacks.jpg",
       "exists": true,
       "pages": [],
@@ -13298,7 +13314,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0493",
+      "id": "img_0494",
       "urlPath": "/wp-content/index_design.png",
       "exists": true,
       "pages": [],
@@ -13314,7 +13330,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0494",
+      "id": "img_0495",
       "urlPath": "/wp-content/revenue_benefits.png",
       "exists": true,
       "pages": [],
@@ -13330,7 +13346,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0495",
+      "id": "img_0496",
       "urlPath": "/wp-content/revenue_benefits_old.png",
       "exists": true,
       "pages": [],
@@ -13346,7 +13362,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0496",
+      "id": "img_0497",
       "urlPath": "/wp-content/reviews/1.png",
       "exists": true,
       "pages": [],
@@ -13362,7 +13378,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0497",
+      "id": "img_0498",
       "urlPath": "/wp-content/reviews/2.png",
       "exists": true,
       "pages": [],
@@ -13378,7 +13394,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0498",
+      "id": "img_0499",
       "urlPath": "/wp-content/reviews/3.png",
       "exists": true,
       "pages": [],
@@ -13394,7 +13410,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0499",
+      "id": "img_0500",
       "urlPath": "/wp-content/reviews/clonescript_reviews.png",
       "exists": true,
       "pages": [],
@@ -13410,7 +13426,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0500",
+      "id": "img_0501",
       "urlPath": "/wp-content/reviews/clonescript_reviews_old.png",
       "exists": true,
       "pages": [],
@@ -13426,7 +13442,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0501",
+      "id": "img_0502",
       "urlPath": "/wp-content/reviews/erp-software.png",
       "exists": true,
       "pages": [],
@@ -13442,7 +13458,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0502",
+      "id": "img_0503",
       "urlPath": "/wp-content/reviews/home-page-connect-with-us.png",
       "exists": true,
       "pages": [],
@@ -13458,7 +13474,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0503",
+      "id": "img_0504",
       "urlPath": "/wp-content/reviews/school-review.png",
       "exists": true,
       "pages": [],
@@ -13474,7 +13490,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0504",
+      "id": "img_0505",
       "urlPath": "/wp-content/school/school-analytics-preview.png",
       "exists": true,
       "pages": [],
@@ -13490,7 +13506,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0505",
+      "id": "img_0506",
       "urlPath": "/wp-content/school/school-dashboard-preview.png",
       "exists": true,
       "pages": [],
@@ -13506,7 +13522,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0506",
+      "id": "img_0507",
       "urlPath": "/wp-content/themes/ave/assets/vendors/font-awesome/fonts/fontawesome-webfont.svg",
       "exists": true,
       "pages": [],
@@ -13522,7 +13538,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0507",
+      "id": "img_0508",
       "urlPath": "/wp-content/themes/ave/assets/vendors/liquid-icon/fonts/liquid-icon.svg",
       "exists": true,
       "pages": [],
@@ -13538,7 +13554,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0508",
+      "id": "img_0509",
       "urlPath": "/wp-content/uploads/2021/10/Buy2Market-amazon-clone-script.png",
       "exists": true,
       "pages": [],
@@ -13554,7 +13570,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0509",
+      "id": "img_0510",
       "urlPath": "/wp-content/uploads/2022/12/Flash-sale.png",
       "exists": true,
       "pages": [],
@@ -13570,7 +13586,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0510",
+      "id": "img_0511",
       "urlPath": "/wp-content/uploads/2022/12/razorpay-icon.png",
       "exists": true,
       "pages": [],
@@ -13586,7 +13602,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0511",
+      "id": "img_0512",
       "urlPath": "/wp-content/uploads/2023/03/3.jpg",
       "exists": true,
       "pages": [],
@@ -13602,7 +13618,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0512",
+      "id": "img_0513",
       "urlPath": "/wp-content/uploads/2023/03/clonescript-payments.png",
       "exists": true,
       "pages": [],
@@ -13618,7 +13634,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0513",
+      "id": "img_0514",
       "urlPath": "/wp-content/uploads/2023/03/Group-726-300x27.png",
       "exists": true,
       "pages": [],
@@ -13634,7 +13650,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0514",
+      "id": "img_0515",
       "urlPath": "/wp-content/uploads/2023/03/shield-1.png",
       "exists": true,
       "pages": [],
@@ -13650,7 +13666,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0515",
+      "id": "img_0516",
       "urlPath": "/wp-content/uploads/2024/01/confused-young-lady-clonescript.webp",
       "exists": true,
       "pages": [],
@@ -13666,7 +13682,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0516",
+      "id": "img_0517",
       "urlPath": "/wp-content/uploads/2024/02/Group-1240-1.png",
       "exists": true,
       "pages": [],
@@ -13682,7 +13698,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0517",
+      "id": "img_0518",
       "urlPath": "/wp-content/uploads/2024/02/Group-1298-2.png",
       "exists": true,
       "pages": [],
@@ -13698,7 +13714,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0518",
+      "id": "img_0519",
       "urlPath": "/wp-content/uploads/2024/04/1.png",
       "exists": true,
       "pages": [],
@@ -13714,7 +13730,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0519",
+      "id": "img_0520",
       "urlPath": "/wp-content/uploads/2024/04/2.png",
       "exists": true,
       "pages": [],
@@ -13730,7 +13746,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0520",
+      "id": "img_0521",
       "urlPath": "/wp-content/uploads/2024/04/7.png",
       "exists": true,
       "pages": [],
@@ -13746,7 +13762,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0521",
+      "id": "img_0522",
       "urlPath": "/wp-content/uploads/2024/06/untitled-design-8-1-667e40440ba6d.webp",
       "exists": true,
       "pages": [],
@@ -13762,7 +13778,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0522",
+      "id": "img_0523",
       "urlPath": "/wp-content/uploads/2024/11/blue-and-orange-tropical-vacation-presentation-2-1-6749ae3d54a10.webp",
       "exists": true,
       "pages": [],
@@ -13778,7 +13794,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0523",
+      "id": "img_0524",
       "urlPath": "/wp-content/uploads/2024/11/Group-2673.png",
       "exists": true,
       "pages": [],
@@ -13794,7 +13810,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0524",
+      "id": "img_0525",
       "urlPath": "/wp-content/uploads/2024/11/image-515-6749ac8783126.webp",
       "exists": true,
       "pages": [],
@@ -13810,7 +13826,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0525",
+      "id": "img_0526",
       "urlPath": "/wp-content/uploads/2024/11/rectangle-39789-2-6749ac8630272.webp",
       "exists": true,
       "pages": [],
@@ -13826,7 +13842,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0526",
+      "id": "img_0527",
       "urlPath": "/wp-content/uploads/2024/11/white-and-green-modern-food-delivery-instagram-post-2-1-6749b8a17c2af.webp",
       "exists": true,
       "pages": [],
@@ -13842,7 +13858,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0527",
+      "id": "img_0528",
       "urlPath": "/wp-content/uploads/2024/11/white-and-green-modern-food-delivery-instagram-post-4-1-6749ae3d1fa27.webp",
       "exists": true,
       "pages": [],
@@ -13858,7 +13874,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0528",
+      "id": "img_0529",
       "urlPath": "/wp-content/uploads/2024/12/frame-2992-674da67ec8b68.webp",
       "exists": true,
       "pages": [],
@@ -13874,7 +13890,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0529",
+      "id": "img_0530",
       "urlPath": "/wp-content/uploads/2024/12/Frame-2996.png",
       "exists": true,
       "pages": [],
@@ -13890,7 +13906,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0530",
+      "id": "img_0531",
       "urlPath": "/wp-content/uploads/2024/12/Group-15_old.png",
       "exists": true,
       "pages": [],
@@ -13906,7 +13922,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0531",
+      "id": "img_0532",
       "urlPath": "/wp-content/uploads/2024/12/image-778-1.webp",
       "exists": true,
       "pages": [],
@@ -13922,7 +13938,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0532",
+      "id": "img_0533",
       "urlPath": "/wp-content/uploads/2025/01/ambitionbox-clonescript.webp",
       "exists": true,
       "pages": [],
@@ -13938,7 +13954,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0533",
+      "id": "img_0534",
       "urlPath": "/wp-content/uploads/2025/01/Frame-48096597-2.png",
       "exists": true,
       "pages": [],
@@ -13954,7 +13970,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0534",
+      "id": "img_0535",
       "urlPath": "/wp-content/uploads/2025/01/Frame-48096599-1.webp",
       "exists": true,
       "pages": [],
@@ -13970,7 +13986,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0535",
+      "id": "img_0536",
       "urlPath": "/wp-content/uploads/2025/01/glassdoor-clonescript.webp",
       "exists": true,
       "pages": [],
@@ -13986,7 +14002,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0536",
+      "id": "img_0537",
       "urlPath": "/wp-content/uploads/2025/01/google-clonescript.webp",
       "exists": true,
       "pages": [],
@@ -14002,7 +14018,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0537",
+      "id": "img_0538",
       "urlPath": "/wp-content/uploads/2025/01/justdial-clonescript.webp",
       "exists": true,
       "pages": [],
@@ -14018,7 +14034,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0538",
+      "id": "img_0539",
       "urlPath": "/wp-content/uploads/2025/01/sitejabber-clonescript.webp",
       "exists": true,
       "pages": [],
@@ -14034,7 +14050,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0539",
+      "id": "img_0540",
       "urlPath": "/wp-content/uploads/2025/01/trustpilot-clonescript.webp",
       "exists": true,
       "pages": [],
@@ -14050,7 +14066,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0540",
+      "id": "img_0541",
       "urlPath": "/wp-content/uploads/2025/02/Frame-48096523-1.webp",
       "exists": true,
       "pages": [],
@@ -14066,7 +14082,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0541",
+      "id": "img_0542",
       "urlPath": "/wp-content/uploads/2025/02/Frame-48096523-3.webp",
       "exists": true,
       "pages": [],
@@ -14082,7 +14098,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0542",
+      "id": "img_0543",
       "urlPath": "/wp-content/uploads/2025/02/Frame-48096523.webp",
       "exists": true,
       "pages": [],
@@ -14098,7 +14114,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0543",
+      "id": "img_0544",
       "urlPath": "/wp-content/uploads/2025/02/Frame-48096591.webp",
       "exists": true,
       "pages": [],
@@ -14114,7 +14130,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0544",
+      "id": "img_0545",
       "urlPath": "/wp-content/uploads/2025/02/Frame-6.png",
       "exists": true,
       "pages": [],
@@ -14130,7 +14146,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0545",
+      "id": "img_0546",
       "urlPath": "/wp-content/uploads/2025/02/Group-48096884.webp",
       "exists": true,
       "pages": [],
@@ -14146,7 +14162,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0546",
+      "id": "img_0547",
       "urlPath": "/wp-content/uploads/2025/02/Group-48097141.webp",
       "exists": true,
       "pages": [],
@@ -14162,7 +14178,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0547",
+      "id": "img_0548",
       "urlPath": "/wp-content/uploads/2025/02/Group-48097145-1024x537.webp",
       "exists": true,
       "pages": [],
@@ -14178,7 +14194,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0548",
+      "id": "img_0549",
       "urlPath": "/wp-content/uploads/2025/02/Group-48097145-300x157.webp",
       "exists": true,
       "pages": [],
@@ -14194,7 +14210,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0549",
+      "id": "img_0550",
       "urlPath": "/wp-content/uploads/2025/02/image-828.webp",
       "exists": true,
       "pages": [],
@@ -14210,7 +14226,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0550",
+      "id": "img_0551",
       "urlPath": "/wp-content/uploads/2025/02/image-829.webp",
       "exists": true,
       "pages": [],
@@ -14226,7 +14242,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0551",
+      "id": "img_0552",
       "urlPath": "/wp-content/uploads/2025/02/image-838.webp",
       "exists": true,
       "pages": [],
@@ -14242,7 +14258,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0552",
+      "id": "img_0553",
       "urlPath": "/wp-content/uploads/2025/02/image-839.webp",
       "exists": true,
       "pages": [],
@@ -14258,7 +14274,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0553",
+      "id": "img_0554",
       "urlPath": "/wp-content/uploads/2025/02/uberclone-workflow-1.png",
       "exists": true,
       "pages": [],
@@ -14274,7 +14290,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0554",
+      "id": "img_0555",
       "urlPath": "/wp-content/uploads/2025/02/uberclone-workflow.png",
       "exists": true,
       "pages": [],
@@ -14290,7 +14306,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0555",
+      "id": "img_0556",
       "urlPath": "/wp-content/uploads/2025/02/vinted-live-demo-host-old.jpg",
       "exists": true,
       "pages": [],
@@ -14306,7 +14322,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0556",
+      "id": "img_0557",
       "urlPath": "/wp-content/uploads/2025/02/vinted-live-demo-host.jfif",
       "exists": true,
       "pages": [],
@@ -14322,7 +14338,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0557",
+      "id": "img_0558",
       "urlPath": "/wp-content/uploads/2025/02/why-choose-us-vinted-clone-png.png",
       "exists": true,
       "pages": [],
@@ -14338,7 +14354,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0558",
+      "id": "img_0559",
       "urlPath": "/wp-content/uploads/2025/02/why-choose-us-vinted-clone-purple.png",
       "exists": true,
       "pages": [],
@@ -14354,7 +14370,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0559",
+      "id": "img_0560",
       "urlPath": "/wp-content/uploads/2025/02/why-choose-us-vinted-clone.png",
       "exists": true,
       "pages": [],
@@ -14370,7 +14386,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0560",
+      "id": "img_0561",
       "urlPath": "/wp-content/uploads/2025/02/why-choose-us-vinted-clone_0.jpg",
       "exists": true,
       "pages": [],
@@ -14386,7 +14402,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0561",
+      "id": "img_0562",
       "urlPath": "/wp-content/uploads/2025/03/Background-Image.webp",
       "exists": true,
       "pages": [],
@@ -14402,7 +14418,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0562",
+      "id": "img_0563",
       "urlPath": "/wp-content/uploads/2025/03/clonescript-branded-11-images/Invoice.webp",
       "exists": true,
       "pages": [],
@@ -14418,7 +14434,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0563",
+      "id": "img_0564",
       "urlPath": "/wp-content/uploads/2025/03/clonescript-branded-11-images/Manage-products.webp",
       "exists": true,
       "pages": [],
@@ -14434,7 +14450,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0564",
+      "id": "img_0565",
       "urlPath": "/wp-content/uploads/2025/03/clonescript-branded-11-images/Map-View.webp",
       "exists": true,
       "pages": [],
@@ -14450,7 +14466,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0565",
+      "id": "img_0566",
       "urlPath": "/wp-content/uploads/2025/03/clonescript-branded-11-images/Offers-and-Coupon-Management.webp",
       "exists": true,
       "pages": [],
@@ -14466,7 +14482,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0566",
+      "id": "img_0567",
       "urlPath": "/wp-content/uploads/2025/03/clonescript-branded-11-images/Online-food-delivery-app.webp",
       "exists": true,
       "pages": [],
@@ -14482,7 +14498,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0567",
+      "id": "img_0568",
       "urlPath": "/wp-content/uploads/2025/03/clonescript-branded-11-images/Order-History.webp",
       "exists": true,
       "pages": [],
@@ -14498,7 +14514,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0568",
+      "id": "img_0569",
       "urlPath": "/wp-content/uploads/2025/03/clonescript-branded-11-images/restaruant-POS-system.webp",
       "exists": true,
       "pages": [],
@@ -14514,7 +14530,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0569",
+      "id": "img_0570",
       "urlPath": "/wp-content/uploads/2025/03/clonescript-branded-11-images/Seamless-Checkout-Process.webp",
       "exists": true,
       "pages": [],
@@ -14530,7 +14546,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0570",
+      "id": "img_0571",
       "urlPath": "/wp-content/uploads/2025/03/clonescript-branded-11-images/Shopping-Cart.webp",
       "exists": true,
       "pages": [],
@@ -14546,7 +14562,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0571",
+      "id": "img_0572",
       "urlPath": "/wp-content/uploads/2025/03/clonescript-branded-11-images/story-view.webp",
       "exists": true,
       "pages": [],
@@ -14562,7 +14578,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0572",
+      "id": "img_0573",
       "urlPath": "/wp-content/uploads/2025/03/clonescript-branded-11-images/Story.webp",
       "exists": true,
       "pages": [],
@@ -14578,7 +14594,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0573",
+      "id": "img_0574",
       "urlPath": "/wp-content/uploads/2025/03/dine-in-booking-app.webp",
       "exists": true,
       "pages": [],
@@ -14594,7 +14610,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0574",
+      "id": "img_0575",
       "urlPath": "/wp-content/uploads/2025/03/Frame.webp",
       "exists": true,
       "pages": [],
@@ -14610,7 +14626,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0575",
+      "id": "img_0576",
       "urlPath": "/wp-content/uploads/2025/03/Group-38.webp",
       "exists": true,
       "pages": [],
@@ -14626,7 +14642,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0576",
+      "id": "img_0577",
       "urlPath": "/wp-content/uploads/2025/03/Group-48hjhgj.webp",
       "exists": true,
       "pages": [],
@@ -14642,7 +14658,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0577",
+      "id": "img_0578",
       "urlPath": "/wp-content/uploads/2025/03/how-it-works-1.png",
       "exists": true,
       "pages": [],
@@ -14658,7 +14674,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0578",
+      "id": "img_0579",
       "urlPath": "/wp-content/uploads/2025/03/how-it-works-1.webp",
       "exists": true,
       "pages": [],
@@ -14674,7 +14690,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0579",
+      "id": "img_0580",
       "urlPath": "/wp-content/uploads/2025/03/Online-food-delivery-app.webp",
       "exists": true,
       "pages": [],
@@ -14690,7 +14706,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0580",
+      "id": "img_0581",
       "urlPath": "/wp-content/uploads/2025/03/restaruant-POS-system.webp",
       "exists": true,
       "pages": [],
@@ -14706,7 +14722,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0581",
+      "id": "img_0582",
       "urlPath": "/wp-content/uploads/2025/04/Admin-Panel.webp",
       "exists": true,
       "pages": [],
@@ -14722,7 +14738,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0582",
+      "id": "img_0583",
       "urlPath": "/wp-content/uploads/2025/04/deliveroo-clone.webp",
       "exists": true,
       "pages": [],
@@ -14738,7 +14754,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0583",
+      "id": "img_0584",
       "urlPath": "/wp-content/uploads/2025/04/deliveroo-clone_old.webp",
       "exists": true,
       "pages": [],
@@ -14754,7 +14770,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0584",
+      "id": "img_0585",
       "urlPath": "/wp-content/uploads/2025/04/Delivery-App-1.webp",
       "exists": true,
       "pages": [],
@@ -14770,7 +14786,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0585",
+      "id": "img_0586",
       "urlPath": "/wp-content/uploads/2025/04/gojek-hiw2.png",
       "exists": true,
       "pages": [],
@@ -14786,7 +14802,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0586",
+      "id": "img_0587",
       "urlPath": "/wp-content/uploads/2025/04/Group-48.png",
       "exists": true,
       "pages": [],
@@ -14802,7 +14818,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0587",
+      "id": "img_0588",
       "urlPath": "/wp-content/uploads/2025/04/Group-48097199.png",
       "exists": true,
       "pages": [],
@@ -14818,7 +14834,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0588",
+      "id": "img_0589",
       "urlPath": "/wp-content/uploads/2025/04/Group-48098091.png",
       "exists": true,
       "pages": [],
@@ -14834,7 +14850,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0589",
+      "id": "img_0590",
       "urlPath": "/wp-content/uploads/2025/04/Group-76-1.webp",
       "exists": true,
       "pages": [],
@@ -14850,7 +14866,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0590",
+      "id": "img_0591",
       "urlPath": "/wp-content/uploads/2025/04/Group-77-2.webp",
       "exists": true,
       "pages": [],
@@ -14866,7 +14882,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0591",
+      "id": "img_0592",
       "urlPath": "/wp-content/uploads/2025/04/Group-78.webp",
       "exists": true,
       "pages": [],
@@ -14882,7 +14898,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0592",
+      "id": "img_0593",
       "urlPath": "/wp-content/uploads/2025/04/Group-79-1.webp",
       "exists": true,
       "pages": [],
@@ -14898,7 +14914,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0593",
+      "id": "img_0594",
       "urlPath": "/wp-content/uploads/2025/04/Group-80.webp",
       "exists": true,
       "pages": [],
@@ -14914,7 +14930,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0594",
+      "id": "img_0595",
       "urlPath": "/wp-content/uploads/2025/04/Service-Provider-App.webp",
       "exists": true,
       "pages": [],
@@ -14930,7 +14946,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0595",
+      "id": "img_0596",
       "urlPath": "/wp-content/uploads/2025/04/Store-App-1.webp",
       "exists": true,
       "pages": [],
@@ -14946,7 +14962,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0596",
+      "id": "img_0597",
       "urlPath": "/wp-content/uploads/2025/04/swiggy-clone.webp",
       "exists": true,
       "pages": [],
@@ -14962,7 +14978,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0597",
+      "id": "img_0598",
       "urlPath": "/wp-content/uploads/2025/04/why-choose.webp",
       "exists": true,
       "pages": [],
@@ -14978,7 +14994,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0598",
+      "id": "img_0599",
       "urlPath": "/wp-content/uploads/2025/04/worker-app.webp",
       "exists": true,
       "pages": [],
@@ -14994,7 +15010,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0599",
+      "id": "img_0600",
       "urlPath": "/wp-content/uploads/2025/06/fiverr-clone-app-works.webp",
       "exists": true,
       "pages": [],
@@ -15010,7 +15026,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0600",
+      "id": "img_0601",
       "urlPath": "/wp-content/uploads/2025/07/technology-scaled.webp",
       "exists": true,
       "pages": [],
@@ -15026,7 +15042,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0601",
+      "id": "img_0602",
       "urlPath": "/wp-content/uploads/2025/07/web-development-service.webp",
       "exists": true,
       "pages": [],
@@ -15042,7 +15058,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0602",
+      "id": "img_0603",
       "urlPath": "/wp-content/uploads/2025/07/web-development.webp",
       "exists": true,
       "pages": [],
@@ -15058,7 +15074,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0603",
+      "id": "img_0604",
       "urlPath": "/wp-content/uploads/2025/08/ecommerce-wordpress-theme-pdf-1.png",
       "exists": true,
       "pages": [],
@@ -15074,7 +15090,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0604",
+      "id": "img_0605",
       "urlPath": "/wp-content/uploads/2025/08/gojek-clone.webp",
       "exists": true,
       "pages": [],
@@ -15090,7 +15106,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0605",
+      "id": "img_0606",
       "urlPath": "/wp-content/uploads/2025/08/gojek-hiw3.png",
       "exists": true,
       "pages": [],
@@ -15106,7 +15122,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0606",
+      "id": "img_0607",
       "urlPath": "/wp-content/uploads/2025/08/gojek-today.webp",
       "exists": true,
       "pages": [],
@@ -15122,7 +15138,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0607",
+      "id": "img_0608",
       "urlPath": "/wp-content/uploads/2025/08/taxibooking-3.webp",
       "exists": true,
       "pages": [],
@@ -15138,7 +15154,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0608",
+      "id": "img_0609",
       "urlPath": "/wp-content/uploads/2025/08/youtube-app-12.webp",
       "exists": true,
       "pages": [],
@@ -15154,7 +15170,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0609",
+      "id": "img_0610",
       "urlPath": "/wp-content/uploads/2025/08/youtube-app-13.webp",
       "exists": true,
       "pages": [],
@@ -15170,7 +15186,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0610",
+      "id": "img_0611",
       "urlPath": "/wp-content/uploads/2025/08/youtube-app-15.webp",
       "exists": true,
       "pages": [],
@@ -15186,7 +15202,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0611",
+      "id": "img_0612",
       "urlPath": "/wp-content/uploads/2025/08/youtube-app-2-144x300.webp",
       "exists": true,
       "pages": [],
@@ -15202,7 +15218,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0612",
+      "id": "img_0613",
       "urlPath": "/wp-content/uploads/2025/08/youtube-app-2-491x1024.webp",
       "exists": true,
       "pages": [],
@@ -15218,7 +15234,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0613",
+      "id": "img_0614",
       "urlPath": "/wp-content/uploads/2025/08/youtube-app-6-144x300.webp",
       "exists": true,
       "pages": [],
@@ -15234,7 +15250,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0614",
+      "id": "img_0615",
       "urlPath": "/wp-content/uploads/2025/08/youtube-app-6-491x1024.webp",
       "exists": true,
       "pages": [],
@@ -15250,7 +15266,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0615",
+      "id": "img_0616",
       "urlPath": "/wp-content/uploads/2025/08/youtube-app-7-144x300.webp",
       "exists": true,
       "pages": [],
@@ -15266,7 +15282,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0616",
+      "id": "img_0617",
       "urlPath": "/wp-content/uploads/2025/08/youtube-app-7-491x1024.webp",
       "exists": true,
       "pages": [],
@@ -15282,7 +15298,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0617",
+      "id": "img_0618",
       "urlPath": "/wp-content/uploads/2025/08/youtube-app-8-144x300.webp",
       "exists": true,
       "pages": [],
@@ -15298,7 +15314,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0618",
+      "id": "img_0619",
       "urlPath": "/wp-content/uploads/2025/08/youtube-app-8-491x1024.webp",
       "exists": true,
       "pages": [],
@@ -15314,7 +15330,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0619",
+      "id": "img_0620",
       "urlPath": "/wp-content/uploads/2025/09/all-in-one-media.webp",
       "exists": true,
       "pages": [],
@@ -15330,7 +15346,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0620",
+      "id": "img_0621",
       "urlPath": "/wp-content/uploads/2025/09/best-dating-script.webp",
       "exists": true,
       "pages": [],
@@ -15346,7 +15362,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0621",
+      "id": "img_0622",
       "urlPath": "/wp-content/uploads/2025/09/buyer-demo.webp",
       "exists": true,
       "pages": [],
@@ -15362,7 +15378,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0622",
+      "id": "img_0623",
       "urlPath": "/wp-content/uploads/2025/09/classified-script-admin-features.webp",
       "exists": true,
       "pages": [],
@@ -15378,7 +15394,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0623",
+      "id": "img_0624",
       "urlPath": "/wp-content/uploads/2025/09/ecommerce-script-settings.webp",
       "exists": true,
       "pages": [],
@@ -15394,7 +15410,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0624",
+      "id": "img_0625",
       "urlPath": "/wp-content/uploads/2025/09/ecommerce-script-wishlist.webp",
       "exists": true,
       "pages": [],
@@ -15410,7 +15426,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0625",
+      "id": "img_0626",
       "urlPath": "/wp-content/uploads/2025/09/ecommerce-script.png",
       "exists": true,
       "pages": [],
@@ -15426,7 +15442,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0626",
+      "id": "img_0627",
       "urlPath": "/wp-content/uploads/2025/09/fiverr-clone-1024x615.webp",
       "exists": true,
       "pages": [],
@@ -15442,7 +15458,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0627",
+      "id": "img_0628",
       "urlPath": "/wp-content/uploads/2025/09/fiverr-clone-300x180.webp",
       "exists": true,
       "pages": [],
@@ -15458,7 +15474,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0628",
+      "id": "img_0629",
       "urlPath": "/wp-content/uploads/2025/09/fiverr-clone-scaled.webp",
       "exists": true,
       "pages": [],
@@ -15474,7 +15490,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0629",
+      "id": "img_0630",
       "urlPath": "/wp-content/uploads/2025/09/pdf-udemy-clonescript-book.png",
       "exists": true,
       "pages": [],
@@ -15490,7 +15506,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0630",
+      "id": "img_0631",
       "urlPath": "/wp-content/uploads/2025/09/seller-demo.webp",
       "exists": true,
       "pages": [],
@@ -15506,7 +15522,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0631",
+      "id": "img_0632",
       "urlPath": "/wp-content/uploads/2025/09/taxi-booking-app-1.webp",
       "exists": true,
       "pages": [],
@@ -15522,7 +15538,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0632",
+      "id": "img_0633",
       "urlPath": "/wp-content/uploads/2025/09/tinder-clone.webp",
       "exists": true,
       "pages": [],
@@ -15538,7 +15554,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0633",
+      "id": "img_0634",
       "urlPath": "/wp-content/uploads/2025/09/youtube-clone.webp",
       "exists": true,
       "pages": [],
@@ -15554,7 +15570,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0634",
+      "id": "img_0635",
       "urlPath": "/wp-content/uploads/2025/10/clone-script-solutions.webp",
       "exists": true,
       "pages": [],
@@ -15570,7 +15586,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0635",
+      "id": "img_0636",
       "urlPath": "/wp-content/uploads/2025/10/clonescript-web-development-company-trimmed.webp",
       "exists": true,
       "pages": [],
@@ -15586,7 +15602,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0636",
+      "id": "img_0637",
       "urlPath": "/wp-content/uploads/2025/10/clonescript-web-development-company.webp",
       "exists": true,
       "pages": [],
@@ -15602,7 +15618,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0637",
+      "id": "img_0638",
       "urlPath": "/wp-content/uploads/2025/10/web-development-company-enhanced-securiyt.webp",
       "exists": true,
       "pages": [],
@@ -15618,7 +15634,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0638",
+      "id": "img_0639",
       "urlPath": "/wp-content/uploads/2025/10/Web-Devleopment-Process.webp",
       "exists": true,
       "pages": [],
@@ -15634,7 +15650,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0639",
+      "id": "img_0640",
       "urlPath": "/wp-content/uploads/2025/11/airbnb-clone.webp",
       "exists": true,
       "pages": [],
@@ -15650,7 +15666,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0640",
+      "id": "img_0641",
       "urlPath": "/wp-content/uploads/2026/01/admin-feature-2.png",
       "exists": true,
       "pages": [],
@@ -15666,7 +15682,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0641",
+      "id": "img_0642",
       "urlPath": "/wp-content/uploads/2026/01/advanced-star.webp",
       "exists": true,
       "pages": [],
@@ -15682,7 +15698,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0642",
+      "id": "img_0643",
       "urlPath": "/wp-content/uploads/2026/01/CTA-Design.webp",
       "exists": true,
       "pages": [],
@@ -15698,7 +15714,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0643",
+      "id": "img_0644",
       "urlPath": "/wp-content/uploads/2026/01/feature-star.webp",
       "exists": true,
       "pages": [],
@@ -15714,7 +15730,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0644",
+      "id": "img_0645",
       "urlPath": "/wp-content/uploads/2026/01/payment-300x263.webp",
       "exists": true,
       "pages": [],
@@ -15730,7 +15746,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0645",
+      "id": "img_0646",
       "urlPath": "/wp-content/uploads/2026/01/rental-booking-script.webp",
       "exists": true,
       "pages": [],
@@ -15746,7 +15762,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0646",
+      "id": "img_0647",
       "urlPath": "/wp-content/uploads/2026/01/revenue.webp",
       "exists": true,
       "pages": [],
@@ -15762,7 +15778,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0647",
+      "id": "img_0648",
       "urlPath": "/wp-content/uploads/2026/01/tick.webp",
       "exists": true,
       "pages": [],
@@ -15778,7 +15794,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0648",
+      "id": "img_0649",
       "urlPath": "/wp-content/uploads/2026/01/tiktok-clone-1.webp",
       "exists": true,
       "pages": [],
@@ -15794,7 +15810,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0649",
+      "id": "img_0650",
       "urlPath": "/wp-content/uploads/2026/01/tiktok-clone-app-1.webp",
       "exists": true,
       "pages": [],
@@ -15810,7 +15826,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0650",
+      "id": "img_0651",
       "urlPath": "/wp-content/uploads/2026/01/why-choose-star.webp",
       "exists": true,
       "pages": [],
@@ -15826,7 +15842,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0651",
+      "id": "img_0652",
       "urlPath": "/wp-content/uploads/2026/03/web-developer.webp",
       "exists": true,
       "pages": [],
@@ -15842,7 +15858,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0652",
+      "id": "img_0653",
       "urlPath": "/wp-content/uploads/2026/04/admin-dashboard-1.webp",
       "exists": true,
       "pages": [],
@@ -15858,7 +15874,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0653",
+      "id": "img_0654",
       "urlPath": "/wp-content/uploads/2026/04/admin-dashboard.webp",
       "exists": true,
       "pages": [],
@@ -15874,7 +15890,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0654",
+      "id": "img_0655",
       "urlPath": "/wp-content/uploads/2026/04/adminpanel.webp",
       "exists": true,
       "pages": [],
@@ -15890,7 +15906,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0655",
+      "id": "img_0656",
       "urlPath": "/wp-content/uploads/2026/04/agentpanel.webp",
       "exists": true,
       "pages": [],
@@ -15906,7 +15922,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0656",
+      "id": "img_0657",
       "urlPath": "/wp-content/uploads/2026/04/booking.webp",
       "exists": true,
       "pages": [],
@@ -15922,7 +15938,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0657",
+      "id": "img_0658",
       "urlPath": "/wp-content/uploads/2026/04/payments.webp",
       "exists": true,
       "pages": [],
@@ -15938,7 +15954,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0658",
+      "id": "img_0659",
       "urlPath": "/wp-content/uploads/2026/04/real-estate-doc.webp",
       "exists": true,
       "pages": [],
@@ -15954,7 +15970,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0659",
+      "id": "img_0660",
       "urlPath": "/wp-content/uploads/2026/04/revenue_benefits.png",
       "exists": true,
       "pages": [],
@@ -15970,7 +15986,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0660",
+      "id": "img_0661",
       "urlPath": "/wp-content/uploads/2026/04/revenue_benefits.webp",
       "exists": true,
       "pages": [],
@@ -15986,7 +16002,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0661",
+      "id": "img_0662",
       "urlPath": "/wp-content/uploads/2026/04/sellerpanel.webp",
       "exists": true,
       "pages": [],
@@ -16002,7 +16018,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0662",
+      "id": "img_0663",
       "urlPath": "/wp-content/uploads/2026/04/smart_search.jpg",
       "exists": true,
       "pages": [],
@@ -16018,7 +16034,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0663",
+      "id": "img_0664",
       "urlPath": "/wp-content/uploads/2026/04/user-panel.webp",
       "exists": true,
       "pages": [],
@@ -16034,7 +16050,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0664",
+      "id": "img_0665",
       "urlPath": "/wp-content/uploads/2026/04/user-seller-dashboard.webp",
       "exists": true,
       "pages": [],
@@ -16050,7 +16066,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0665",
+      "id": "img_0666",
       "urlPath": "/wp-content/uploads/2026/04/user_dashboard.jpg",
       "exists": true,
       "pages": [],
@@ -16066,7 +16082,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0666",
+      "id": "img_0667",
       "urlPath": "/wp-content/uploads/2026/04/vinted-clone-script.webp",
       "exists": true,
       "pages": [],
@@ -16082,7 +16098,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0667",
+      "id": "img_0668",
       "urlPath": "/wp-content/uploads/2026/04/vinted-clone.webp",
       "exists": true,
       "pages": [],
@@ -16098,7 +16114,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0668",
+      "id": "img_0669",
       "urlPath": "/wp-content/uploads/2026/04/vinted-document.webp",
       "exists": true,
       "pages": [],
@@ -16114,7 +16130,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0669",
+      "id": "img_0670",
       "urlPath": "/wp-content/uploads/2026/04/why-invest-in-vinted-clone.png",
       "exists": true,
       "pages": [],
@@ -16130,7 +16146,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0670",
+      "id": "img_0671",
       "urlPath": "/wp-content/uploads/2026/04/zillow-clone-4.webp",
       "exists": true,
       "pages": [],
@@ -16146,7 +16162,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0671",
+      "id": "img_0672",
       "urlPath": "/wp-content/uploads/2026/04/zillow-clone-script.webp",
       "exists": true,
       "pages": [],
@@ -16162,7 +16178,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0672",
+      "id": "img_0673",
       "urlPath": "/wp-content/uploads/2026/05/adminpanel-1-297x275.webp",
       "exists": true,
       "pages": [],
@@ -16178,7 +16194,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0673",
+      "id": "img_0674",
       "urlPath": "/wp-content/uploads/2026/05/car-rental-document.webp",
       "exists": true,
       "pages": [],
@@ -16194,7 +16210,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0674",
+      "id": "img_0675",
       "urlPath": "/wp-content/uploads/2026/05/hostpanel-1.webp",
       "exists": true,
       "pages": [],
@@ -16210,7 +16226,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0675",
+      "id": "img_0676",
       "urlPath": "/wp-content/uploads/2026/05/market-crash-sale.png",
       "exists": true,
       "pages": [],
@@ -16226,7 +16242,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0676",
+      "id": "img_0677",
       "urlPath": "/wp-content/uploads/2026/05/userpanel-1.webp",
       "exists": true,
       "pages": [],
@@ -16242,7 +16258,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0677",
+      "id": "img_0678",
       "urlPath": "/wp-content/uploads/2026/06/admin_panel-1.webp",
       "exists": true,
       "pages": [],
@@ -16258,7 +16274,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0678",
+      "id": "img_0679",
       "urlPath": "/wp-content/uploads/2026/06/alibaba-clone-solution.webp",
       "exists": true,
       "pages": [],
@@ -16274,7 +16290,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0679",
+      "id": "img_0680",
       "urlPath": "/wp-content/uploads/2026/06/buyer_panel.webp",
       "exists": true,
       "pages": [],
@@ -16290,7 +16306,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0680",
+      "id": "img_0681",
       "urlPath": "/wp-content/uploads/2026/06/supplier-panel.webp",
       "exists": true,
       "pages": [],
@@ -16306,7 +16322,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0681",
+      "id": "img_0682",
       "urlPath": "/wp-content/uploads/2026/07/3D-dashboard.png",
       "exists": true,
       "pages": [],
@@ -16322,7 +16338,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0682",
+      "id": "img_0683",
       "urlPath": "/wp-content/uploads/2026/07/3D-dashboard_old.webp",
       "exists": true,
       "pages": [],
@@ -16338,7 +16354,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0683",
+      "id": "img_0684",
       "urlPath": "/wp-content/uploads/2026/07/a1b038bb-189e-4441-b7c6-c3b4117a0cc1-740x500.png",
       "exists": true,
       "pages": [],
@@ -16354,7 +16370,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0684",
+      "id": "img_0685",
       "urlPath": "/wp-content/uploads/2026/07/admin_dashboard.webp",
       "exists": true,
       "pages": [],
@@ -16370,7 +16386,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0685",
+      "id": "img_0686",
       "urlPath": "/wp-content/uploads/2026/07/erp-feature-guide.png",
       "exists": true,
       "pages": [],
@@ -16386,7 +16402,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0686",
+      "id": "img_0687",
       "urlPath": "/wp-content/uploads/2026/07/erp-software.webp",
       "exists": true,
       "pages": [],
@@ -16402,7 +16418,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0687",
+      "id": "img_0688",
       "urlPath": "/wp-content/uploads/2026/07/Online-Store.webp",
       "exists": true,
       "pages": [],
@@ -16418,7 +16434,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0688",
+      "id": "img_0689",
       "urlPath": "/wp-content/uploads/2026/08/alibaba-launch-boxes.webp",
       "exists": true,
       "pages": [],
@@ -16434,7 +16450,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0689",
+      "id": "img_0690",
       "urlPath": "/wp-content/uploads/2026/08/logistics-launch-boxes.webp",
       "exists": true,
       "pages": [],
@@ -16450,7 +16466,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0690",
+      "id": "img_0691",
       "urlPath": "/wp-content/uploads/2026/08/logistics-why-choose-us.webp",
       "exists": true,
       "pages": [],
@@ -16466,7 +16482,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0691",
+      "id": "img_0692",
       "urlPath": "/wp-content/uploads/2026/08/our-services-team.webp",
       "exists": true,
       "pages": [],
@@ -16482,7 +16498,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0692",
+      "id": "img_0693",
       "urlPath": "/wp-content/uploads/2026/08/schoolcrm-launch-classroom.webp",
       "exists": true,
       "pages": [],
@@ -16498,7 +16514,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0693",
+      "id": "img_0694",
       "urlPath": "/wp-content/uploads/7days.jpg",
       "exists": true,
       "pages": [],
@@ -16514,7 +16530,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0694",
+      "id": "img_0695",
       "urlPath": "/wp-content/uploads/home1.png",
       "exists": true,
       "pages": [],
@@ -16530,7 +16546,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0695",
+      "id": "img_0696",
       "urlPath": "/wp-content/uploads/smile_fonts/Defaults/Defaults.svg",
       "exists": true,
       "pages": [],
@@ -16546,7 +16562,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0696",
+      "id": "img_0697",
       "urlPath": "/wp-content/why-choose-us-vinted-clone.png",
       "exists": true,
       "pages": [],
@@ -16562,7 +16578,7 @@
       "inWpContent": true
     },
     {
-      "id": "img_0697",
+      "id": "img_0698",
       "urlPath": "/wp-content/zillow-why-choose.png",
       "exists": true,
       "pages": [],

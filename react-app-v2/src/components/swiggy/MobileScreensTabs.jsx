@@ -15,7 +15,7 @@ export default function MobileScreensTabs({ groups }) {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <h2 className="lqd-highlight-underline lqd-highlight-grow-left">
-                    <span className="ld-fh-txt"> Swiggy Like App&rsquo;s Mobile Screens</span>
+                    <span className="ld-fh-txt"> UberEats Clone Mobile Application Screens</span>
                   </h2>
                   <div id="fixed-menu2" className="lqd-custom-menu text-center fixed-menu2">
                     <ul className="reset-ul inline-nav menu-items-have-fill">

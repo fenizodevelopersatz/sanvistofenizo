@@ -12,10 +12,10 @@ export default function WhatIsTiktok() {
                 <div className="wpb_wrapper">
                   <Reveal as="div" className="wpb_wrapper-inner" direction="left">
                     <header className="fancy-title">
-                      <h2>What is TikTok Clone?</h2>
+                      <h2>What Is a TikTok Clone?</h2>
                       <div className="st-desc">
-                        <p>A TikTok Clone is a pre-built, customizable, and reliable platform with robust features, a user-friendly interface, and functionality similar to TikTok. The TikTok Clone App helps you meet your video-sharing business needs and stand out in the industry.</p>
-                        <p>Our TikTok Clone script allows you to build your own video-sharing platform within just 7 days.</p>
+                        <p>A TikTok Clone is a customizable short-video sharing solution designed with functionality similar to popular social video applications. It allows users to create profiles, record videos, add music or effects, publish content, follow creators, interact with posts, and participate in live streams.</p>
+                        <p>Instead of developing every feature from the beginning, businesses can use a ready-made foundation and customize its design, functionality, branding, and revenue model. This approach can reduce development time while still providing the flexibility needed to build a distinctive platform. The solution can support different content categories, languages, regions, creator communities, and business models.</p>
                       </div>
                     </header>
                     <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin btn-gradient" data-localscroll="true">
@@ -71,9 +71,9 @@ export default function WhatIsTiktok() {
                 <div className="wpb_wrapper">
                   <Reveal as="div" className="wpb_wrapper-inner" direction="right">
                     <header className="fancy-title">
-                      <h2>Why Choose Us?</h2>
+                      <h2>Why Choose CloneScript for Your TikTok Clone?</h2>
                       <div className="st-desc">
-                        <p>Our experts help you successfully launch your TikTok Clone app and start your short-video services with ease. We deliver a seamless video-sharing platform that boosts user engagement and helps you generate significant profits in a short time.</p>
+                        <p>Our TikTok Clone is designed to provide a balanced experience for viewers, creators, moderators, and platform owners. Every essential component—from video publishing to platform administration—can be managed through an organized and scalable system. The solution can be customized based on your target audience, preferred content categories, visual identity, monetization strategy, and operational requirements.</p>
                       </div>
                     </header>
                     <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin btn-gradient" data-localscroll="true">

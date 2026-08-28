@@ -25,9 +25,9 @@ export default function WhyChooseUs() {
               <div className="wpb_wrapper">
                 <Reveal as="div" className="wpb_wrapper-inner" direction="right">
                   <header className="fancy-title">
-                    <h2>Why Choose Us?</h2>
+                    <h2>Why Choose CloneScript for Your UberEats Clone?</h2>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>We designed a whitelabel food delivery app like Swiggy to meet our client’s business needs and stand out in the food delivery industry around the globe. Our Swiggy clone app development service is developed with a customizable, scalable, user-friendly interface and can be accessed on both iOS and Android without hassle.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>Launch a white-label food-delivery marketplace with separate applications and dashboards for customers, restaurants, delivery partners, and administrators. The modular architecture allows additional restaurants, delivery zones, payment methods, service categories, languages, and revenue features to be introduced as the business expands.</span></p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">

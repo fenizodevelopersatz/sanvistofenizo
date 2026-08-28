@@ -26,7 +26,7 @@ import TestimonialRotatorSection from '../../components/footer/TestimonialRotato
 export default function SwiggyClonePage() {
   usePageStylesheets(pageStylesheets.swiggyClone)
 
-  useSeo('Swiggy Clone Script | Food Delivery App | CloneScript')
+  useSeo('UberEats Clone | Multi-Vendor Food Delivery Platform', 'Launch a customizable UberEats Clone with restaurant menus, online ordering, live delivery tracking, driver tools, secure payments, commissions, and admin control.')
 
   return (
     <main className="content" id="content">
@@ -68,9 +68,9 @@ export default function SwiggyClonePage() {
                     <div className="wpb_wrapper">
                       <div className="wpb_wrapper-inner">
                         <header className="fancy-title text-center">
-                          <h2>How It Works?</h2>
+                          <h2>How Does the UberEats Clone Work?</h2>
                           <div className="st-desc">
-                            <p style={{ textAlign: 'center' }}>Our Swiggy Clone To Get to Know More About Online Food Delivery Script!</p>
+                            <p style={{ textAlign: 'center' }}>The UberEats Clone Connects Customers, Restaurants, and Delivery Partners Through a Structured Ordering Process!</p>
                           </div>
                         </header>
                       </div>
@@ -116,9 +116,9 @@ export default function SwiggyClonePage() {
                     <div className="wpb_wrapper">
                       <div className="wpb_wrapper-inner">
                         <header className="fancy-title text-center">
-                          <h2>What We Offer?</h2>
+                          <h2>What Does the UberEats Clone Offer?</h2>
                           <div className="st-desc">
-                            <p style={{ textAlign: 'center' }}>We Offer Our Swiggy Clone With Advanced Panels Tailored To Meet Your Business Needs!</p>
+                            <p style={{ textAlign: 'center' }}>The UberEats Clone Offers Dedicated Interfaces for Every Participant in the Online Food-Delivery Process!</p>
                           </div>
                         </header>
                       </div>
@@ -158,13 +158,13 @@ export default function SwiggyClonePage() {
         <FeaturePanels roles={featurePanels} />
 
         <PdfDownloadCta
-          heading="Explore the Complete Features of Our Swiggy Clone App"
-          desc="One Click to Get Our Swiggy Clone Product&rsquo;s Complete Knowledge."
+          heading="Download the UberEats Clone Feature Guide"
+          desc="Review the Complete Feature Guide Covering Customers, Restaurants, Drivers, Administrators, Orders, Menus, Payments, Deliveries, Commissions, and Payouts."
         />
 
         <StandOutFeaturesGrid
-          heading="Standard Features of Swiggy Clone Script"
-          subheading="Robust Standard Features of an App Like Swiggy With Bug-Free and Flawlessly."
+          heading="Standard Features of the UberEats Clone"
+          subheading="Essential Functionality to Simplify Food Discovery, Ordering, Preparation, Delivery, Payment, and Marketplace Administration."
           items={standardFeatures}
           color="#6d962c"
         />
@@ -174,15 +174,15 @@ export default function SwiggyClonePage() {
         </section>
 
         <StandOutFeaturesGrid
-          heading="Add on Features"
-          subheading="Our Swiggy Clone Script With Robust Free Addons Features To Enhance Your Business!"
+          heading="Additional UberEats Clone Features"
+          subheading="Extend the Food-Delivery Platform With Features for Subscriptions, Promotions, Restaurant Engagement, Customer Convenience, and Business Administration."
           items={addOnFeatures}
           color="#6d962c"
         />
 
         <RevenueBenefits
-          heading="Revenue Benefits"
-          subheading="Unlock Revenue Potential With Our Swiggy Clone Script, Enriched With Best Earning Models!"
+          heading="UberEats Clone Monetization and Revenue Streams"
+          subheading="Several Earning Models for Generating Sustainable Platform Revenue."
           items={revenueBenefits}
           image="/wp-content/uploads/2025/03/Group-38.webp"
           color="#6d962c"
@@ -197,7 +197,7 @@ export default function SwiggyClonePage() {
                     <div className="wpb_wrapper">
                       <div className="wpb_wrapper-inner">
                         <header className="fancy-title text-center">
-                          <h2>Technology We Used</h2>
+                          <h2>Technology Used for Food Delivery App Development</h2>
                         </header>
                         <div className="wpb_single_image wpb_content_element vc_align_center">
                           <figure className="wpb_wrapper vc_figure">
@@ -239,11 +239,11 @@ export default function SwiggyClonePage() {
                     <div className="wpb_wrapper">
                       <div className="wpb_wrapper-inner">
                         <header className="fancy-title">
-                          <h3>Start Your Successful Food Delivery Business With Us!</h3>
+                          <h3>Start Your Food Delivery Business With Us!</h3>
                         </header>
                         <a href="/schedule-free-demo" className="btn btn-solid btn-sm circle btn-bordered border-thin">
                           <span>
-                            <span className="btn-txt">Schedule now</span>
+                            <span className="btn-txt">Schedule a Consultation</span>
                             <span className="btn-icon"><i className="fas fa-calendar-alt"></i></span>
                           </span>
                         </a>
@@ -256,7 +256,7 @@ export default function SwiggyClonePage() {
           </section>
         </section>
 
-        <PricingPlans plans={pricingPlans} heading="Pick a Plan" />
+        <PricingPlans plans={pricingPlans} heading="Choose a Suitable UberEats Clone Plan" />
         <MoneyBackGuarantee />
 
         <section className="vc_section z-index-plus vc_section-has-fill">
@@ -265,6 +265,28 @@ export default function SwiggyClonePage() {
 
         <section className="vc_section">
           <FaqServerTabs faqs={faqs} requirements={serverRequirements} />
+        </section>
+
+        <section className="vc_row wpb_row vc_row-fluid">
+          <div className="ld-container container">
+            <div className="row ld-row">
+              <div className="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1 text-center">
+                <div className="vc_column-inner">
+                  <div className="wpb_wrapper">
+                    <div className="wpb_wrapper-inner">
+                      <p style={{ fontSize: 12, color: '#888', lineHeight: 1.6 }}>
+                        <strong>Trademark Disclaimer:</strong> &ldquo;Uber Eats&rdquo; and related brand names are
+                        trademarks owned by their respective proprietors. The product name is used only to describe
+                        the general type of food-delivery marketplace functionality offered. This independently
+                        developed software uses an original brand identity, interface, and source code. It is not
+                        affiliated with, sponsored by, or endorsed by Uber, Uber Eats, or their trademark owners.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <TestimonialRotatorSection content={<ReviewCards reviews={customerReviews} />} />

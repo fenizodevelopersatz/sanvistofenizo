@@ -4,6 +4,7 @@ export const footerSitemap = [
     links: [
       ['/school-crm', 'School Management System'],
       ['/erp-software', 'ERP Software'],
+      ['/crypto-wallet', 'Crypto Wallet Development'],
     ],
   },
   {

@@ -15,15 +15,15 @@ export default function RestaurantPos() {
                     </p>
                   </div>
                   <header className="fancy-title">
-                    <h2>Restaurant POS App</h2>
-                    <h3>Smart &amp; Fast Order Management</h3>
+                    <h2>Restaurant POS Application</h2>
+                    <h3>Faster Restaurant Order Management</h3>
                     <div className="st-desc">
-                      <p><span style={{ fontWeight: 400 }}>Our Swiggy Clone Solution is designed with a POS system that helps restaurants easily accept orders and deliver products on time. It is exclusively for restaurants using the food delivery app on iOS and Android devices and tablets. This technology enhances order management, allowing restaurants to handle multiple orders efficiently and ensure customer satisfaction without any flaws.</span></p>
+                      <p><span style={{ fontWeight: 400 }}>A connected point-of-sale application can help restaurant teams receive and organize online orders through supported phones, tablets, and counter devices. Staff can review order details, confirm availability, update preparation status, generate invoices, and coordinate pickups from one interface. The POS application can reduce manual order entry and help restaurants manage several incoming requests more efficiently.</span></p>
                     </div>
                   </header>
                   <a href="#schedule_form" className="btn btn-solid btn-sm circle btn-bordered border-thin" data-localscroll="true">
                     <span>
-                      <span className="btn-txt">Schedule Demo</span>
+                      <span className="btn-txt">Schedule a POS Demonstration</span>
                       <span className="btn-icon"><i className="fas fa-eye"></i></span>
                     </span>
                   </a>

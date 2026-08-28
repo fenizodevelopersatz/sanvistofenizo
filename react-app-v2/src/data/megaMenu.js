@@ -23,6 +23,7 @@ export const megaMenuColumns = [
     { id: 'ld_icon_box_6a665a409273d', icon: 'fa fa-solid fa-laptop-code', title: 'Freelance Marketplace', subtitle: 'Fiverr, Upwork Clone', link: '/fiverr-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle, rgb(255,239,212) 0.66%, rgb(174,255,202) 100%)' },
     { id: 'ld_icon_box_6a665a409287c', icon: 'fa fa-solid fa-book-open-reader', title: 'LMS eLearning App', subtitle: 'Udemy Clone', link: '/udemy-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(255,234,212) 0%, rgb(255,174,174) 97.36%)' },
     { id: 'ld_icon_box_6a665a4092998', icon: 'fa fa-solid fa-face-grin-hearts', title: 'Dating Script', subtitle: 'Tinder Clone', link: '/tinder-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle at 50%, rgb(255,234,212) 0.66%, rgb(174,210,255) 97.36%)' },
+    { id: 'ld_icon_box_6a665a4092c40', icon: 'fa fa-solid fa-wallet', title: 'Crypto Wallet', subtitle: 'Wallet Development Services', link: '/crypto-wallet', enabled: true, isNew: true, gradient: 'radial-gradient(circle at 50%, rgb(222,229,255) 0.66%, rgb(214,196,255) 99.01%)' },
   ],
   [
     { id: 'ld_icon_box_6a665a4092d67', icon: 'fa fa-solid fa-truck-plane', title: 'Logistics Service App', subtitle: 'Logistics Delivery App', link: '/logistics-clone', enabled: true, isNew: false, gradient: 'radial-gradient(circle, rgb(255,239,212) 0.66%, rgb(174,255,202) 100%)' },

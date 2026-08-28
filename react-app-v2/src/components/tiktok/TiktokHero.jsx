@@ -22,16 +22,16 @@ export default function TiktokHero() {
                   <div className="ld-fancy-heading text-center">
                     <h1 className="lqd-highlight-underline lqd-highlight-grow-left">
                       <span className="ld-fh-txt">
-                        <span style={{ color: '#031833' }}>#1</span>
+                        <span style={{ color: '#031833' }}>Build an Engaging</span>
                         <span style={{ color: '#06c7c9' }}> TikTok Clone</span>
-                        <span style={{ color: '#031833' }}> Video Streaming</span>
-                        <span style={{ color: '#fe3b6c' }}> Script</span>
+                        <span style={{ color: '#031833' }}> for</span>
+                        <span style={{ color: '#fe3b6c' }}> Short-Video Communities</span>
                       </span>
                     </h1>
                   </div>
                   <div className="wpb_text_column wpb_content_element">
                     <div className="wpb_wrapper">
-                      <p style={{ textAlign: 'center' }}>Our latest TikTok Clone is the perfect solution for your entertainment business to achieve your dream goals, with features and functionalities similar to TikTok.</p>
+                      <p style={{ textAlign: 'center' }}>Turn your short-video platform idea into a feature-rich digital product with CloneScript. Our TikTok Clone gives users an enjoyable space to record, edit, publish, and discover entertaining videos while providing creators with practical tools to grow their audiences. The platform combines short-video sharing, personalized content discovery, live streaming, social interactions, virtual gifting, private messaging, and flexible monetization options. It can be customized to suit entertainment communities, creator networks, educational platforms, talent discovery applications, and niche video-sharing businesses. With dedicated interfaces for users, creators, and administrators, you can manage your entire platform through one connected ecosystem.</p>
                     </div>
                   </div>
                   <div className="ld-empty-space"><span className="liquid_empty_space_inner"></span></div>

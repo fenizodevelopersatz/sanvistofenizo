@@ -8,7 +8,7 @@ export default function FounderExpertCta() {
               <div className="wpb_wrapper">
                 <div className="wpb_wrapper-inner">
                   <header className="fancy-title">
-                    <h3>Build Your Cost-effective TikTok Clone within a Week!</h3>
+                    <h3>Build Your Short-Video Community with Confidence</h3>
                   </header>
                   <button type="button" style={{ backgroundColor: '#101b48', color: '#ffffff' }} className="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-round vc_btn3-style-custom vc_btn3-icon-right" onClick={() => window.tidioChatApi?.open()}>
                     Chat With Expert <i className="vc_btn3-icon fas fa-comments"></i>
