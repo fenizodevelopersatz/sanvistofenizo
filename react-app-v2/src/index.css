@@ -141,6 +141,18 @@ input,
 select,
 textarea { font: inherit; }
 
+/* .btn-naked ("ghost" button, no visible chrome) only resets background-color
+   to transparent on :hover (litespeed bundle, shared-*.css) -- it never sets
+   a resting-state background at all. That's invisible on the <a>-tag variants
+   used everywhere else, but the two places this class renders on a real
+   <button> (DemoForm's "Back" link, CartDropdown's cart-clear icon) fall back
+   to the browser's native button chrome instead: a light gray oval, visible
+   until hover kicks in and masks it. Reset it directly so "naked" looks the
+   same at rest as it already does on hover. */
+button.btn-naked {
+  background-color: transparent;
+}
+
 :focus-visible {
   outline: 3px solid #5f2eea;
   outline-offset: 3px;

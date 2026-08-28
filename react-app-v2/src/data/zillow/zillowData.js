@@ -72,12 +72,12 @@ export const roleTabs = {
     label: 'Admin',
     icon: 'fas fa-user-shield',
     tabs: [
-      { icon: 'fa fa-solid fa-gauge', title: 'Advanced Analytics Dashboard', image: '/wp-content/uploads/2026/04/platform_analytics.webp', desc: 'Keep tabs on users, property listings, enquiries, appointments, subscriptions, platform revenue, and user activity through comprehensive reports.' },
-      { icon: 'fa fa-solid fa-circle-user', title: 'User and Role Management', image: '/wp-content/uploads/2026/04/user-management.webp', desc: 'Oversee buyers, renters, sellers, agents, moderators, and administrators with role-based permissions for better management.' },
-      { icon: 'fa fa-regular fa-folder-open', title: 'Category and Field Management', image: '/wp-content/uploads/2026/04/category-management.webp', desc: 'Create and manage property categories, subcategories, listing types, locations, custom property fields, and search filters.' },
-      { icon: 'fa fa-solid fa-list-check', title: 'Amenities Management', image: '/wp-content/uploads/2026/04/amenities-management.webp', desc: 'Easily create reusable amenity groups tailored for residential, commercial, rental, land, and project listings.' },
-      { icon: 'fa fa-solid fa-box', title: 'Package and Membership Management', image: '/wp-content/uploads/2026/04/package-management.webp', desc: 'Craft pricing plans that come with customizable listing limits, validity periods, credits, visibility options, and promotional perks.' },
-      { icon: 'fa fa-regular fa-calendar-check', title: 'Appointment Management', image: '/wp-content/uploads/2026/04/appointment-management.webp', desc: 'Keep track of all property visit requests and tackle any scheduling hiccups across the marketplace.' },
+      { icon: 'fa fa-solid fa-gauge', title: 'Advanced Analytics Dashboard', image: '/wp-content/uploads/2026/04/platform_analytics.webp', desc: 'Keep tabs on users, property listings, enquiries, appointments, subscriptions, platform revenue, and user activity through comprehensive reports.' }
+      // { icon: 'fa fa-solid fa-circle-user', title: 'User and Role Management', image: '/wp-content/uploads/2026/04/user-management.webp', desc: 'Oversee buyers, renters, sellers, agents, moderators, and administrators with role-based permissions for better management.' },
+      // { icon: 'fa fa-regular fa-folder-open', title: 'Category and Field Management', image: '/wp-content/uploads/2026/04/category-management.webp', desc: 'Create and manage property categories, subcategories, listing types, locations, custom property fields, and search filters.' },
+      // { icon: 'fa fa-solid fa-list-check', title: 'Amenities Management', image: '/wp-content/uploads/2026/04/amenities-management.webp', desc: 'Easily create reusable amenity groups tailored for residential, commercial, rental, land, and project listings.' },
+      // { icon: 'fa fa-solid fa-box', title: 'Package and Membership Management', image: '/wp-content/uploads/2026/04/package-management.webp', desc: 'Craft pricing plans that come with customizable listing limits, validity periods, credits, visibility options, and promotional perks.' },
+      // { icon: 'fa fa-regular fa-calendar-check', title: 'Appointment Management', image: '/wp-content/uploads/2026/04/appointment-management.webp', desc: 'Keep track of all property visit requests and tackle any scheduling hiccups across the marketplace.' },
     ],
   },
 }

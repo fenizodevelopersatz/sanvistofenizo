@@ -1,3 +1,9 @@
+// Entries/categories below are commented out (not deleted) at the user's request --
+// the footer should show ONLY the same 8 product URLs currently featured in the
+// mega-menu (see `featured` flag in megaMenu.js), including placeholder `#` links
+// that never pointed at a real page. Everything else is kept in place, ready to
+// uncomment when those products get reused/relisted. Their pages stay fully live at
+// their existing URLs either way.
 export const footerSitemap = [
   {
     title: 'BUSINESS SOFTWARE',
@@ -7,7 +13,7 @@ export const footerSitemap = [
       ['/erp-software', 'ERP Software'],
     ],
   },
-  {
+  /* {
     title: 'Rental & Booking',
     links: [
       ['#', 'Airbnb Clone'],
@@ -21,8 +27,8 @@ export const footerSitemap = [
       ['#', 'Reserva Rental Script'],
       ['#', 'Space Rental Script'],
     ],
-  },
-  {
+  }, */
+  /* {
     title: 'UBER CLONE FOR X',
     links: [
       ['/handyman-app-like-uber', 'Uber For Babysitters'],
@@ -36,8 +42,8 @@ export const footerSitemap = [
       ['/handyman-app-like-uber', 'Uber For House Cleaning'],
       ['/handyman-app-like-uber', 'Uber for Dog Walking'],
     ],
-  },
-  {
+  }, */
+  /* {
     title: 'TAXI BOOKING SOLUTIONS',
     links: [
       ['/uber-clone', 'On-Demand Taxi App'],
@@ -48,20 +54,20 @@ export const footerSitemap = [
       ['#', 'Ride-Sharing App'],
       ['#', 'On-Demand Cab App'],
     ],
-  },
+  }, */
   {
     title: 'ECOMMERCE SCRIPT',
     links: [
       ['/amazon-clone', 'Multi-Seller Script'],
       ['/alibaba-clone', 'B2B Script'],
-      ['#', 'B2C Script'],
-      ['#', 'Auction Script'],
-      ['#', 'Crafts Marketplace Script'],
-      ['#', 'Multi vendor Marketplace Script'],
-      ['#', 'Digital Marketplace Script'],
+      // ['#', 'B2C Script'],
+      // ['#', 'Auction Script'],
+      // ['#', 'Crafts Marketplace Script'],
+      // ['#', 'Multi vendor Marketplace Script'],
+      // ['#', 'Digital Marketplace Script'],
     ],
   },
-  {
+  /* {
     title: 'FOOD DELIVERY SCRIPTS',
     links: [
       ['#', 'Food Delivery App'],
@@ -72,35 +78,35 @@ export const footerSitemap = [
       ['#', 'Restaurant Delivery App'],
       ['#', 'Food Ordering App'],
     ],
-  },
-  {
+  }, */
+  /* {
     title: 'ON DEMAND MULTI SERVICE APPS',
     links: [
       ['/gojek-clone', 'All-in-One Service App'],
       ['#', 'Multi Service App'],
       ['#', 'On-Demand Delivery App'],
     ],
-  },
-  {
+  }, */
+  /* {
     title: 'FREELANCE MARKETPLACE',
     links: [
       ['/fiverr-clone', 'Freelance Script'],
       ['#', 'Remote Job Script'],
       ['#', 'Project Bidding Script'],
     ],
-  },
-  {
+  }, */
+  /* {
     title: 'TRAVEL & BOOKING',
     links: [
       ['#', 'Tour Booking Script'],
       ['#', 'Hotel Reservation Script'],
       ['#', 'Stay Booking Script'],
     ],
-  },
-  {
+  }, */
+  /* {
     title: 'E-LEARNING SCRIPTS',
     links: [['/udemy-clone', 'LMS Script']],
-  },
+  }, */
   {
     title: 'REAL ESTATE SCRIPT',
     links: [['/zillow-clone', 'Property Buy/Sell Script']],
@@ -108,13 +114,13 @@ export const footerSitemap = [
   {
     title: 'SOCIAL NETWORKING',
     links: [
-      ['#', 'Social Dating App'],
+      // ['#', 'Social Dating App'],
       ['/youtube-clone', 'Video Sharing App'],
-      ['/whatsapp-clone', 'Chat App'],
-      ['/tiktok-clone', 'Short Video App'],
+      // ['/whatsapp-clone', 'Chat App'],
+      // ['/tiktok-clone', 'Short Video App'],
     ],
   },
-  {
+  /* {
     title: 'HANDYMAN SERVICE',
     links: [
       ['#', 'Service Marketplace App'],
@@ -122,17 +128,17 @@ export const footerSitemap = [
       ['#', 'Handyman App like Uber'],
       ['#', 'On-Demand Service App'],
     ],
-  },
+  }, */
   {
     title: 'ON DEMAND DELIVERY',
     links: [
-      ['#', 'Grocery Delivery App'],
-      ['#', 'Alcohol Delivery App'],
-      ['#', 'Pharmacy Delivery App'],
+      // ['#', 'Grocery Delivery App'],
+      // ['#', 'Alcohol Delivery App'],
+      // ['#', 'Pharmacy Delivery App'],
       ['/logistics-clone', 'Logistics Service App'],
     ],
   },
-  {
+  /* {
     title: 'CLASSIFIED SCRIPTS',
     links: [
       ['/olx-clone', 'Classifieds Script'],
@@ -141,5 +147,5 @@ export const footerSitemap = [
       ['#', 'Listings App'],
       ['/vinted-clone', 'Resale App'],
     ],
-  },
+  }, */
 ]

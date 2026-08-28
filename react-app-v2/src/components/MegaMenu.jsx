@@ -98,7 +98,7 @@ export default function MegaMenu() {
                     <div className="vc_column-inner">
                       <div className="wpb_wrapper">
                         <div className="wpb_wrapper-inner">
-                          {column.map((item) => (
+                          {column.filter((item) => item.featured).map((item) => (
                             <MegaMenuItem item={item} key={item.id} onNavigate={close} />
                           ))}
                         </div>
